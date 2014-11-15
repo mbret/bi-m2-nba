@@ -1,0 +1,421 @@
+{
+  "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c",
+  "name": "Wizards",
+  "alias": "WAS",
+  "market": "Washington",
+  "founded": 1961,
+  "venue": {
+    "id": "f62d5b49-d646-56e9-ba60-a875a00830f8",
+    "name": "Verizon Center",
+    "capacity": 20290,
+    "address": "601 F St. N.W.",
+    "city": "Washington",
+    "state": "DC",
+    "zip": "20004",
+    "country": "USA"
+  },
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "conference": {
+    "id": "3960cfac-7361-4b30-bc25-8d393de6f62f",
+    "name": "EASTERN CONFERENCE",
+    "alias": "EASTERN"
+  },
+  "division": {
+    "id": "54dc7348-c1d2-40d8-88b3-c4c0138e085d",
+    "name": "Southeast",
+    "alias": "SOUTHEAST"
+  },
+  "coaches": [
+    {
+      "id": "3e853c92-d871-45d4-8bce-d768cb9c7ab1",
+      "full_name": "Randy Wittman",
+      "first_name": "Randy",
+      "last_name": "Wittman",
+      "position": "Head Coach",
+      "experience": "8"
+    }
+  ],
+  "players": [
+    {
+      "id": "007a5e3c-978e-49e3-af38-7a4d9354cf21",
+      "status": "ACT",
+      "full_name": "Rasual Butler",
+      "first_name": "Rasual",
+      "last_name": "Butler",
+      "abbr_name": "R.Butler",
+      "height": 79,
+      "weight": 215,
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "8",
+      "experience": "10",
+      "college": "La Salle",
+      "birth_place": "Philadelphia, PA, USA",
+      "birthdate": "1979-05-23",
+      "updated": "2014-10-06T23:34:35+00:00",
+      "draft": {
+        "team_id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2002,
+        "round": "2",
+        "pick": "53"
+      }
+    },
+    {
+      "id": "00b672ea-260d-4218-b398-ac0ee0816979",
+      "status": "ACT",
+      "full_name": "Glen Rice Jr.",
+      "first_name": "Glen",
+      "last_name": "Rice",
+      "abbr_name": "G.Rice",
+      "height": 78,
+      "weight": 206,
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "14",
+      "experience": "0",
+      "college": "Georgia Tech",
+      "birth_place": "Miami, FL, USA",
+      "birthdate": "1991-01-01",
+      "updated": "2014-03-11T00:16:11+00:00",
+      "draft": {
+        "team_id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2013,
+        "round": "2",
+        "pick": "35"
+      }
+    },
+    {
+      "id": "1a072572-763d-4839-b920-82b48d8e296a",
+      "status": "ACT",
+      "full_name": "Kris Humphries",
+      "first_name": "Kris",
+      "last_name": "Humphries",
+      "abbr_name": "K.Humphries",
+      "height": 81,
+      "weight": 235,
+      "position": "C-F",
+      "primary_position": "C",
+      "jersey_number": "43",
+      "experience": "9",
+      "college": "Minnesota",
+      "birth_place": "Minneapolis, MN, USA",
+      "birthdate": "1985-02-06",
+      "updated": "2014-10-06T23:33:41+00:00",
+      "draft": {
+        "team_id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2004,
+        "round": "1",
+        "pick": "14"
+      }
+    },
+    {
+      "id": "23dfb4c0-f7ff-4372-b379-09fd61ce2616",
+      "status": "ACT",
+      "full_name": "Drew Gooden",
+      "first_name": "Drew",
+      "last_name": "Gooden",
+      "abbr_name": "D.Gooden",
+      "height": 82,
+      "weight": 250,
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "90",
+      "experience": "11",
+      "college": "Kansas",
+      "birth_place": "Oakland, CA, USA",
+      "birthdate": "1981-09-24",
+      "updated": "2014-03-04T01:08:25+00:00",
+      "draft": {
+        "team_id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2002,
+        "round": "1",
+        "pick": "4"
+      }
+    },
+    {
+      "id": "3f0fe7a4-888a-4564-aa0d-f310b05071bd",
+      "status": "ACT",
+      "full_name": "Paul Pierce",
+      "first_name": "Paul",
+      "last_name": "Pierce",
+      "abbr_name": "P.Pierce",
+      "height": 79,
+      "weight": 235,
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "34",
+      "experience": "15",
+      "college": "Kansas",
+      "birth_place": "Oakland, CA, USA",
+      "birthdate": "1977-10-13",
+      "updated": "2014-10-06T23:33:53+00:00",
+      "draft": {
+        "team_id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 1998,
+        "round": "1",
+        "pick": "10"
+      }
+    },
+    {
+      "id": "6769d1ca-0581-48b0-b487-b5c87b8f696e",
+      "status": "ACT",
+      "full_name": "John Wall",
+      "first_name": "John",
+      "last_name": "Wall",
+      "abbr_name": "J.Wall",
+      "height": 76,
+      "weight": 195,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "2",
+      "experience": "3",
+      "college": "Kentucky",
+      "birth_place": "Raleigh, NC",
+      "birthdate": "1990-09-06",
+      "updated": "2013-07-19T20:37:47+00:00",
+      "draft": {
+        "team_id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2010,
+        "round": "1",
+        "pick": "1"
+      }
+    },
+    {
+      "id": "792fdc1e-e833-4777-a372-11e93e457480",
+      "status": "ACT",
+      "full_name": "Otto Porter",
+      "first_name": "Otto",
+      "last_name": "Porter",
+      "abbr_name": "O.Porter",
+      "height": 80,
+      "weight": 198,
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "22",
+      "experience": "0",
+      "college": "Georgetown",
+      "birth_place": "St. Louis, MO, USA",
+      "birthdate": "1993-06-03",
+      "updated": "2013-09-07T22:20:19+00:00",
+      "draft": {
+        "team_id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2013,
+        "round": "1",
+        "pick": "3"
+      }
+    },
+    {
+      "id": "7a76d222-962a-4776-90e4-8683af6477bb",
+      "status": "ACT",
+      "full_name": "DeJuan Blair",
+      "first_name": "DeJuan",
+      "last_name": "Blair",
+      "abbr_name": "D.Blair",
+      "height": 79,
+      "weight": 270,
+      "position": "C-F",
+      "primary_position": "C",
+      "jersey_number": "45",
+      "experience": "4",
+      "college": "Pittsburgh",
+      "birth_place": "Pittsburgh, PA, USA",
+      "birthdate": "1989-04-22",
+      "updated": "2014-11-04T21:37:55+00:00",
+      "draft": {
+        "team_id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2009,
+        "round": "2",
+        "pick": "37"
+      }
+    },
+    {
+      "id": "8b93c7f5-bb43-4a72-98fe-312cd08fc957",
+      "status": "ACT",
+      "full_name": "Martell Webster",
+      "first_name": "Martell",
+      "last_name": "Webster",
+      "abbr_name": "M.Webster",
+      "height": 79,
+      "weight": 230,
+      "position": "F-G",
+      "primary_position": "SF",
+      "jersey_number": "9",
+      "experience": "8",
+      "college": "Seattle Prep HS (WA)",
+      "birth_place": "Edmonds, WA, USA",
+      "birthdate": "1986-12-04",
+      "updated": "2014-10-20T16:02:54+00:00",
+      "draft": {
+        "team_id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2005,
+        "round": "1",
+        "pick": "6"
+      },
+      "injuries": [
+        {
+          "id": "d41b758b-2ebb-4ebb-9b3e-72dfab3d3364",
+          "comment": "Webster is not participating in any full contact drills.",
+          "desc": "Back",
+          "status": "Out",
+          "start_date": "2014-06-27",
+          "update_date": "2014-11-10"
+        }
+      ]
+    },
+    {
+      "id": "d5381ecd-6a70-401e-a019-817f51ac5aa2",
+      "status": "ACT",
+      "full_name": "Andre Miller",
+      "first_name": "Andre",
+      "last_name": "Miller",
+      "abbr_name": "A.Miller",
+      "height": 74,
+      "weight": 200,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "24",
+      "experience": "14",
+      "college": "Utah",
+      "birth_place": "Los Angeles, CA, USA",
+      "birthdate": "1976-03-19",
+      "updated": "2014-02-22T18:20:06+00:00",
+      "draft": {
+        "team_id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 1999,
+        "round": "1",
+        "pick": "8"
+      }
+    },
+    {
+      "id": "e4cf5fa9-8b72-4ea5-9287-f2447bbceb69",
+      "status": "ACT",
+      "full_name": "Kevin Seraphin",
+      "first_name": "Kevin",
+      "last_name": "Seraphin",
+      "abbr_name": "K.Seraphin",
+      "height": 82,
+      "weight": 278,
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "13",
+      "experience": "3",
+      "college": "Cholet Basket (FRA)",
+      "birth_place": "Cayenne,, GF",
+      "birthdate": "1989-12-07",
+      "updated": "2013-11-08T20:54:41+00:00",
+      "draft": {
+        "team_id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2010,
+        "round": "1",
+        "pick": "17"
+      }
+    },
+    {
+      "id": "ee2644c1-1260-4bf4-9c70-7c5b0cee4770",
+      "status": "ACT",
+      "full_name": "Garrett Temple",
+      "first_name": "Garrett",
+      "last_name": "Temple",
+      "abbr_name": "G.Temple",
+      "height": 78,
+      "weight": 195,
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "17",
+      "experience": "3",
+      "college": "Louisiana State",
+      "birth_place": "Baton Rouge, LA, USA",
+      "birthdate": "1986-05-08",
+      "updated": "2013-07-19T20:33:51+00:00",
+      "draft": {
+        "year": 2009
+      }
+    },
+    {
+      "id": "f0deff5f-c269-4389-9713-b8a7e70207cb",
+      "status": "ACT",
+      "full_name": "Marcin Gortat",
+      "first_name": "Marcin",
+      "last_name": "Gortat",
+      "abbr_name": "M.Gortat",
+      "height": 83,
+      "weight": 240,
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "4",
+      "experience": "6",
+      "college": "RheinEnergie Cologne",
+      "birth_place": "Lodz,, POL",
+      "birthdate": "1984-02-17",
+      "updated": "2013-10-30T23:13:41+00:00",
+      "draft": {
+        "team_id": "583ecfa8-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2005,
+        "round": "2",
+        "pick": "57"
+      }
+    },
+    {
+      "id": "f1b776e4-b59e-48c7-9e8a-272de4946b37",
+      "status": "ACT",
+      "full_name": "Nene Hilario",
+      "first_name": "Nene",
+      "last_name": "Hilario",
+      "abbr_name": "N.Hilario",
+      "height": 83,
+      "weight": 250,
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "42",
+      "experience": "11",
+      "college": "Vasco de Gama",
+      "birth_place": "Sao Carlos,, BRA",
+      "birthdate": "1982-09-13",
+      "updated": "2014-11-04T21:38:21+00:00",
+      "draft": {
+        "team_id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2002,
+        "round": "1",
+        "pick": "7"
+      }
+    },
+    {
+      "id": "ff461754-ad20-4eeb-af02-2b46cc980b24",
+      "status": "ACT",
+      "full_name": "Bradley Beal",
+      "first_name": "Bradley",
+      "last_name": "Beal",
+      "abbr_name": "B.Beal",
+      "height": 77,
+      "weight": 207,
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "3",
+      "experience": "1",
+      "college": "Florida",
+      "birth_place": "St. Louis, MO, USA",
+      "birthdate": "1993-06-28",
+      "updated": "2013-07-19T20:17:23+00:00",
+      "draft": {
+        "team_id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2012,
+        "round": "1",
+        "pick": "3"
+      },
+      "injuries": [
+        {
+          "id": "fa80f736-fbb3-436a-827b-2a3b1f987847",
+          "comment": "Beal could return as soon as the last week of November.",
+          "desc": "Wrist (Non-Shooting)",
+          "status": "Out",
+          "start_date": "2014-10-11",
+          "update_date": "2014-11-10"
+        }
+      ]
+    }
+  ]
+}

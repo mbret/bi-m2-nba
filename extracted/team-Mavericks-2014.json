@@ -1,0 +1,408 @@
+{
+  "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c",
+  "name": "Mavericks",
+  "alias": "DAL",
+  "market": "Dallas",
+  "founded": 1980,
+  "venue": {
+    "id": "401ba62f-19b5-5bfc-84d6-021772943311",
+    "name": "American Airlines Center",
+    "capacity": 19200,
+    "address": "2500 Victory Ave.",
+    "city": "Dallas",
+    "state": "TX",
+    "zip": "75219",
+    "country": "USA"
+  },
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "conference": {
+    "id": "7fe7e212-de01-4f8f-a31d-b9f0a95731e3",
+    "name": "WESTERN CONFERENCE",
+    "alias": "WESTERN"
+  },
+  "division": {
+    "id": "1d29f94c-9587-494b-a232-feb20a40eb4c",
+    "name": "Southwest",
+    "alias": "SOUTHWEST"
+  },
+  "coaches": [
+    {
+      "id": "cfa97156-3fcd-425b-b7cb-30d215bb3da6",
+      "full_name": "Rick Carlisle",
+      "first_name": "Rick",
+      "last_name": "Carlisle",
+      "position": "Head Coach",
+      "experience": "12"
+    }
+  ],
+  "players": [
+    {
+      "id": "0c144557-df20-492c-bf75-be53adf92699",
+      "status": "ACT",
+      "full_name": "Monta Ellis",
+      "first_name": "Monta",
+      "last_name": "Ellis",
+      "abbr_name": "M.Ellis",
+      "height": 75,
+      "weight": 185,
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "11",
+      "experience": "8",
+      "college": "Lanier HS (MS)",
+      "birth_place": "Jackson, MS, USA",
+      "birthdate": "1985-10-26",
+      "updated": "2013-09-09T19:59:32+00:00",
+      "draft": {
+        "team_id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2005,
+        "round": "2",
+        "pick": "40"
+      }
+    },
+    {
+      "id": "24d85151-2c97-4f67-a993-7cbb3d2608b7",
+      "status": "ACT",
+      "full_name": "Devin Harris",
+      "first_name": "Devin",
+      "last_name": "Harris",
+      "abbr_name": "D.Harris",
+      "height": 75,
+      "weight": 192,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "20",
+      "experience": "9",
+      "college": "Wisconsin",
+      "birth_place": "Milwaukee, WI, USA",
+      "birthdate": "1983-02-27",
+      "updated": "2013-09-09T20:06:18+00:00",
+      "draft": {
+        "team_id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2004,
+        "round": "1",
+        "pick": "5"
+      }
+    },
+    {
+      "id": "262d9b81-107d-4921-9002-7ece87bb8004",
+      "status": "ACT",
+      "full_name": "Richard Jefferson",
+      "first_name": "Richard",
+      "last_name": "Jefferson",
+      "abbr_name": "R.Jefferson",
+      "height": 79,
+      "weight": 234,
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "24",
+      "experience": "12",
+      "college": "Arizona",
+      "birth_place": "Los Angeles, CA, USA",
+      "birthdate": "1980-06-21",
+      "updated": "2014-08-04T22:27:05+00:00",
+      "draft": {
+        "team_id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2001,
+        "round": "1",
+        "pick": "13"
+      }
+    },
+    {
+      "id": "3cd2d1c1-d575-45fd-b069-3f0adf57796d",
+      "status": "ACT",
+      "full_name": "Tyson Chandler",
+      "first_name": "Tyson",
+      "last_name": "Chandler",
+      "abbr_name": "T.Chandler",
+      "height": 85,
+      "weight": 240,
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "6",
+      "experience": "12",
+      "college": "Dominguez HS (CA)",
+      "birth_place": "Hanford, CA, USA",
+      "birthdate": "1982-10-02",
+      "updated": "2014-07-14T19:24:14+00:00",
+      "draft": {
+        "team_id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2001,
+        "round": "1",
+        "pick": "2"
+      }
+    },
+    {
+      "id": "434e09b0-2da5-44f4-b406-b5a80852d71d",
+      "status": "ACT",
+      "full_name": "Chandler Parsons",
+      "first_name": "Chandler",
+      "last_name": "Parsons",
+      "abbr_name": "C.Parsons",
+      "height": 81,
+      "weight": 227,
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "25",
+      "experience": "2",
+      "college": "Florida",
+      "birth_place": "Casselberry, FL, USA",
+      "birthdate": "1988-10-25",
+      "updated": "2014-08-04T22:25:58+00:00",
+      "draft": {
+        "team_id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2011,
+        "round": "2",
+        "pick": "38"
+      }
+    },
+    {
+      "id": "505e3ec9-de9a-4256-95cd-7f997f16fe51",
+      "status": "ACT",
+      "full_name": "Charlie Villanueva",
+      "first_name": "Charlie",
+      "last_name": "Villanueva",
+      "abbr_name": "C.Villanueva",
+      "height": 83,
+      "weight": 232,
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "3",
+      "experience": "8",
+      "college": "Connecticut",
+      "birth_place": "Queens, NY, USA",
+      "birthdate": "1984-08-24",
+      "updated": "2014-10-07T22:27:17+00:00",
+      "draft": {
+        "team_id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2005,
+        "round": "1",
+        "pick": "7"
+      }
+    },
+    {
+      "id": "55282562-23ba-4c6f-9f8e-417d3ffb79e0",
+      "status": "ACT",
+      "full_name": "Greg Smith",
+      "first_name": "Greg",
+      "last_name": "Smith",
+      "abbr_name": "G.Smith",
+      "height": 82,
+      "weight": 250,
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "4",
+      "experience": "2",
+      "college": "Fresno State",
+      "birth_place": "Vallejo, CA, USA",
+      "birthdate": "1991-01-08",
+      "updated": "2014-08-04T22:27:24+00:00",
+      "draft": {
+        "year": 2011
+      }
+    },
+    {
+      "id": "56ff7cb8-4828-4aaa-8f95-0bf569a0786d",
+      "status": "ACT",
+      "full_name": "Al-Farouq Aminu",
+      "first_name": "Al-Farouq",
+      "last_name": "Aminu",
+      "abbr_name": "A.Aminu",
+      "height": 81,
+      "weight": 215,
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "7",
+      "experience": "3",
+      "college": "Wake Forest",
+      "birth_place": "Atlanta, GA, USA",
+      "birthdate": "1990-09-21",
+      "updated": "2014-10-07T22:26:14+00:00",
+      "draft": {
+        "team_id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2010,
+        "round": "1",
+        "pick": "8"
+      }
+    },
+    {
+      "id": "5d3681c6-9c73-4895-9b59-b4851069469f",
+      "status": "ACT",
+      "full_name": "Jameer Nelson",
+      "first_name": "Jameer",
+      "last_name": "Nelson",
+      "abbr_name": "J.Nelson",
+      "height": 72,
+      "weight": 190,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "14",
+      "experience": "9",
+      "college": "Saint Joseph's",
+      "birth_place": "Chester, PA, USA",
+      "birthdate": "1982-02-09",
+      "updated": "2014-08-04T22:28:05+00:00",
+      "draft": {
+        "team_id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2004,
+        "round": "1",
+        "pick": "20"
+      }
+    },
+    {
+      "id": "83b736a0-6c1e-4526-b948-e4781251cb73",
+      "status": "ACT",
+      "full_name": "Raymond Felton",
+      "first_name": "Raymond",
+      "last_name": "Felton",
+      "abbr_name": "R.Felton",
+      "height": 73,
+      "weight": 205,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "2",
+      "experience": "8",
+      "college": "North Carolina",
+      "birth_place": "Marion, SC, USA",
+      "birthdate": "1984-06-26",
+      "updated": "2014-11-13T19:03:30+00:00",
+      "draft": {
+        "team_id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2005,
+        "round": "1",
+        "pick": "5"
+      },
+      "injuries": [
+        {
+          "id": "bb40d595-966d-42f2-9e81-48ed12f886c7",
+          "comment": "Felton will have to serve a four-game suspension once his ankle is healthy.",
+          "desc": "Ankle",
+          "status": "Out",
+          "start_date": "2014-10-26",
+          "update_date": "2014-11-14"
+        }
+      ]
+    },
+    {
+      "id": "865bd8cb-0c73-4848-a561-c39d105735d5",
+      "status": "ACT",
+      "full_name": "Ricky Ledo",
+      "first_name": "Ricky",
+      "last_name": "Ledo",
+      "abbr_name": "R.Ledo",
+      "height": 79,
+      "weight": 195,
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "1",
+      "experience": "0",
+      "college": "Providence",
+      "birth_place": "Providence, RI, USA",
+      "birthdate": "1992-09-10",
+      "updated": "2014-10-30T23:46:28+00:00",
+      "draft": {
+        "team_id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2013,
+        "round": "2",
+        "pick": "43"
+      }
+    },
+    {
+      "id": "b4fb962d-4f36-4b82-89e3-dec4733329c3",
+      "status": "ACT",
+      "full_name": "Dirk Nowitzki",
+      "first_name": "Dirk",
+      "last_name": "Nowitzki",
+      "abbr_name": "D.Nowitzki",
+      "height": 84,
+      "weight": 245,
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "41",
+      "experience": "15",
+      "college": "DJK Wurzburg",
+      "birth_place": "Wurzburg,, DEU",
+      "birthdate": "1978-06-19",
+      "updated": "2013-07-23T15:01:07+00:00",
+      "draft": {
+        "team_id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 1998,
+        "round": "1",
+        "pick": "9"
+      }
+    },
+    {
+      "id": "b6cdfbf4-fd3f-46f3-b889-732b3bae1da8",
+      "status": "ACT",
+      "full_name": "Jose Barea",
+      "first_name": "Jose",
+      "last_name": "Barea",
+      "abbr_name": "J.Barea",
+      "height": 72,
+      "weight": 178,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "5",
+      "experience": "7",
+      "college": "Northeastern",
+      "birth_place": "Mayaguez,, PRI",
+      "birthdate": "1984-06-26",
+      "updated": "2014-11-01T23:33:20+00:00",
+      "draft": {
+        "year": 2006
+      }
+    },
+    {
+      "id": "c1189e9c-3b45-4552-b731-e0ff544bc1bd",
+      "status": "ACT",
+      "full_name": "Brandan Wright",
+      "first_name": "Brandan",
+      "last_name": "Wright",
+      "abbr_name": "B.Wright",
+      "height": 82,
+      "weight": 210,
+      "position": "C-F",
+      "primary_position": "PF",
+      "jersey_number": "34",
+      "experience": "5",
+      "college": "North Carolina",
+      "birth_place": "Nashville, TN, USA",
+      "birthdate": "1987-10-05",
+      "updated": "2013-09-09T20:02:54+00:00",
+      "draft": {
+        "team_id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2007,
+        "round": "1",
+        "pick": "8"
+      }
+    },
+    {
+      "id": "db74c5dd-08bd-41a5-99ba-328e9b18aeb5",
+      "status": "ACT",
+      "full_name": "Jae Crowder",
+      "first_name": "Jae",
+      "last_name": "Crowder",
+      "abbr_name": "J.Crowder",
+      "height": 78,
+      "weight": 235,
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "9",
+      "experience": "1",
+      "college": "Marquette",
+      "birth_place": "Villa Rica, GA, USA",
+      "birthdate": "1990-07-06",
+      "updated": "2013-07-23T14:45:32+00:00",
+      "draft": {
+        "team_id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2012,
+        "round": "2",
+        "pick": "34"
+      }
+    }
+  ]
+}

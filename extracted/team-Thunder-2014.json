@@ -1,0 +1,468 @@
+{
+  "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+  "name": "Thunder",
+  "alias": "OKC",
+  "market": "Oklahoma City",
+  "founded": 1967,
+  "venue": {
+    "id": "a13af216-4409-5021-8dd5-255cc71bffc3",
+    "name": "Chesapeake Energy Arena",
+    "capacity": 18203,
+    "address": "100 W. Reno Ave.",
+    "city": "Oklahoma City",
+    "state": "OK",
+    "zip": "73102",
+    "country": "USA"
+  },
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "conference": {
+    "id": "7fe7e212-de01-4f8f-a31d-b9f0a95731e3",
+    "name": "WESTERN CONFERENCE",
+    "alias": "WESTERN"
+  },
+  "division": {
+    "id": "12bf14ba-eb16-4c6f-8275-e801b6947c1e",
+    "name": "Northwest",
+    "alias": "NORTHWEST"
+  },
+  "coaches": [
+    {
+      "id": "4a31f2c1-6387-4bb0-8698-cadb83ea6e74",
+      "full_name": "Scott Brooks",
+      "first_name": "Scott",
+      "last_name": "Brooks",
+      "position": "Head Coach",
+      "experience": "6"
+    }
+  ],
+  "players": [
+    {
+      "id": "05a90cd6-73de-43d5-9d30-bc2588d03262",
+      "status": "ACT",
+      "full_name": "Ish Smith",
+      "first_name": "Ish",
+      "last_name": "Smith",
+      "abbr_name": "I.Smith",
+      "height": 72,
+      "weight": 175,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "8",
+      "experience": "3",
+      "college": "Wake Forest",
+      "birth_place": "Charlotte, NC, USA",
+      "birthdate": "1988-07-05",
+      "updated": "2014-11-12T02:03:37+00:00",
+      "draft": {
+        "year": 2010
+      }
+    },
+    {
+      "id": "0891a76f-4b36-4101-8bf7-59637af2806b",
+      "status": "ACT",
+      "full_name": "Mitch McGary",
+      "first_name": "Mitch",
+      "last_name": "McGary",
+      "abbr_name": "M.McGary",
+      "height": 82,
+      "weight": 255,
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "33",
+      "experience": "0",
+      "college": "Michigan",
+      "birth_place": "Chesterton, IN, USA",
+      "birthdate": "1992-06-06",
+      "updated": "2014-07-14T20:28:50+00:00",
+      "draft": {
+        "year": 2014,
+        "round": "1",
+        "pick": "21"
+      },
+      "injuries": [
+        {
+          "id": "5a2abaee-3abb-4106-8765-f462a429841e",
+          "comment": "McGary is not wearing a walking boot anymore. He is targeting a mid-November return.",
+          "desc": "Foot",
+          "status": "Out",
+          "start_date": "2014-10-09",
+          "update_date": "2014-11-07"
+        }
+      ]
+    },
+    {
+      "id": "0afca4ef-6ad4-4f96-8cd2-b20b59c6ce90",
+      "status": "ACT",
+      "full_name": "Serge Ibaka",
+      "first_name": "Serge",
+      "last_name": "Ibaka",
+      "abbr_name": "S.Ibaka",
+      "height": 82,
+      "weight": 235,
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "9",
+      "experience": "4",
+      "college": "Ricoh Manresa",
+      "birth_place": "Brazzaville,, COD",
+      "birthdate": "1989-09-18",
+      "updated": "2013-07-22T15:20:25+00:00",
+      "draft": {
+        "team_id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2008,
+        "round": "1",
+        "pick": "24"
+      }
+    },
+    {
+      "id": "294d0821-162a-47d8-9156-6036749ffbf8",
+      "status": "ACT",
+      "full_name": "Anthony Morrow",
+      "first_name": "Anthony",
+      "last_name": "Morrow",
+      "abbr_name": "A.Morrow",
+      "height": 77,
+      "weight": 210,
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "2",
+      "experience": "5",
+      "college": "Georgia Tech",
+      "birth_place": "Charlotte, NC, USA",
+      "birthdate": "1985-09-27",
+      "updated": "2014-08-04T23:05:48+00:00",
+      "draft": {
+        "year": 2008
+      }
+    },
+    {
+      "id": "473fd3a2-b247-4758-9e35-33caf57978c8",
+      "status": "ACT",
+      "full_name": "Perry Jones",
+      "first_name": "Perry",
+      "last_name": "Jones",
+      "abbr_name": "P.Jones",
+      "height": 83,
+      "weight": 235,
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "3",
+      "experience": "1",
+      "college": "Baylor",
+      "birth_place": "Winnsboro, LA, USA",
+      "birthdate": "1991-09-24",
+      "updated": "2014-02-27T22:01:45+00:00",
+      "draft": {
+        "team_id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2012,
+        "round": "1",
+        "pick": "28"
+      },
+      "injuries": [
+        {
+          "id": "b5c7bd1f-337f-4743-9d23-ee54a22ab94b",
+          "comment": "Jones is listed as doubtful for Sunday's (11/16) game.",
+          "desc": "Knee",
+          "status": "Day To Day",
+          "start_date": "2014-11-03",
+          "update_date": "2014-11-15"
+        }
+      ]
+    },
+    {
+      "id": "53f2fa48-e61b-49fb-843d-8a3e872257eb",
+      "status": "ACT",
+      "full_name": "Kevin Durant",
+      "first_name": "Kevin",
+      "last_name": "Durant",
+      "abbr_name": "K.Durant",
+      "height": 81,
+      "weight": 235,
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "35",
+      "experience": "6",
+      "college": "Texas",
+      "birth_place": "Washington, D.C., USA",
+      "birthdate": "1988-09-29",
+      "updated": "2013-07-22T15:18:35+00:00",
+      "draft": {
+        "team_id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2007,
+        "round": "1",
+        "pick": "2"
+      },
+      "injuries": [
+        {
+          "id": "24652d0c-2d74-4f46-a2d9-02a4329152b9",
+          "comment": "Durant is not wearing a walking boot anymore. He's hoping to return sometime in December.",
+          "desc": "Foot",
+          "status": "Out",
+          "start_date": "2014-10-12",
+          "update_date": "2014-11-07"
+        }
+      ]
+    },
+    {
+      "id": "62933587-9382-4b7e-9cb0-9a07e5b4fdc8",
+      "status": "ACT",
+      "full_name": "Andre Roberson",
+      "first_name": "Andre",
+      "last_name": "Roberson",
+      "abbr_name": "A.Roberson",
+      "height": 79,
+      "weight": 210,
+      "position": "F-G",
+      "primary_position": "SF",
+      "jersey_number": "21",
+      "experience": "0",
+      "college": "Colorado",
+      "birth_place": "San Antonio, TX, USA",
+      "birthdate": "1991-12-04",
+      "updated": "2014-02-27T22:02:57+00:00",
+      "draft": {
+        "team_id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2013,
+        "round": "1",
+        "pick": "26"
+      },
+      "injuries": [
+        {
+          "id": "e4961ed9-c200-4bad-af69-3527fb65f79f",
+          "comment": "Roberson is listed as doubtful for Sunday's (11/16) game.",
+          "desc": "Foot",
+          "status": "Day To Day",
+          "start_date": "2014-11-03",
+          "update_date": "2014-11-15"
+        }
+      ]
+    },
+    {
+      "id": "74a45eed-f2b0-4886-ae71-d04cf7d59528",
+      "status": "ACT",
+      "full_name": "Russell Westbrook",
+      "first_name": "Russell",
+      "last_name": "Westbrook",
+      "abbr_name": "R.Westbrook",
+      "height": 75,
+      "weight": 187,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "experience": "5",
+      "college": "UCLA",
+      "birth_place": "Long Beach, CA, USA",
+      "birthdate": "1988-11-12",
+      "updated": "2013-07-22T15:36:35+00:00",
+      "draft": {
+        "team_id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2008,
+        "round": "1",
+        "pick": "4"
+      },
+      "injuries": [
+        {
+          "id": "f263f283-1ca2-4cc0-803a-77908b0b377d",
+          "comment": "Westbrook is likely to miss a couple months",
+          "desc": "Hand",
+          "status": "Out Indefinitely",
+          "start_date": "2014-10-30",
+          "update_date": "2014-11-07"
+        }
+      ]
+    },
+    {
+      "id": "7b745dde-a011-45a8-98a8-460a9facb3ce",
+      "status": "ACT",
+      "full_name": "Reggie Jackson",
+      "first_name": "Reggie",
+      "last_name": "Jackson",
+      "abbr_name": "R.Jackson",
+      "height": 75,
+      "weight": 208,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "15",
+      "experience": "2",
+      "college": "Boston College",
+      "birth_place": "Pordenone,, ITA",
+      "birthdate": "1990-04-16",
+      "updated": "2013-07-22T15:22:19+00:00",
+      "draft": {
+        "team_id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2011,
+        "round": "1",
+        "pick": "24"
+      }
+    },
+    {
+      "id": "7ed5587d-89af-46c9-8bdc-c9ae8ed788a1",
+      "status": "ACT",
+      "full_name": "Kendrick Perkins",
+      "first_name": "Kendrick",
+      "last_name": "Perkins",
+      "abbr_name": "K.Perkins",
+      "height": 82,
+      "weight": 270,
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "5",
+      "experience": "10",
+      "college": "Clifton J. Ozen HS",
+      "birth_place": "Nederland, TX, USA",
+      "birthdate": "1984-11-10",
+      "updated": "2013-07-22T15:30:07+00:00",
+      "draft": {
+        "team_id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2003,
+        "round": "1",
+        "pick": "27"
+      }
+    },
+    {
+      "id": "8d80f6fc-a7ac-48cf-bcd8-516d57acbbfe",
+      "status": "ACT",
+      "full_name": "Jeremy Lamb",
+      "first_name": "Jeremy",
+      "last_name": "Lamb",
+      "abbr_name": "J.Lamb",
+      "height": 77,
+      "weight": 180,
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "11",
+      "experience": "1",
+      "college": "Connecticut",
+      "birth_place": "Norcross, GA, USA",
+      "birthdate": "1992-05-30",
+      "updated": "2013-10-28T20:51:38+00:00",
+      "draft": {
+        "team_id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2012,
+        "round": "1",
+        "pick": "12"
+      }
+    },
+    {
+      "id": "a208e22a-6b63-45f9-b7c6-bf913a68f3df",
+      "status": "ACT",
+      "full_name": "Steven Adams",
+      "first_name": "Steven",
+      "last_name": "Adams",
+      "abbr_name": "S.Adams",
+      "height": 84,
+      "weight": 250,
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "12",
+      "experience": "0",
+      "college": "Pittsburgh",
+      "birth_place": "Rotorua, NZL",
+      "birthdate": "1993-07-28",
+      "updated": "2013-09-07T21:56:08+00:00",
+      "draft": {
+        "team_id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2013,
+        "round": "1",
+        "pick": "12"
+      }
+    },
+    {
+      "id": "e2661b9b-eb57-456d-9ee3-c2f740284a20",
+      "status": "ACT",
+      "full_name": "Sebastian Telfair",
+      "first_name": "Sebastian",
+      "last_name": "Telfair",
+      "abbr_name": "S.Telfair",
+      "height": 72,
+      "weight": 170,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "31",
+      "experience": "9",
+      "college": "Abraham Lincoln HS (NY)",
+      "birth_place": "Brooklyn, NY, USA",
+      "birthdate": "1985-06-09",
+      "updated": "2014-08-04T23:05:58+00:00",
+      "draft": {
+        "team_id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2004,
+        "round": "1",
+        "pick": "13"
+      }
+    },
+    {
+      "id": "ef0cf1e1-e3e1-48e6-aace-fdfd3c0fb719",
+      "status": "D-LEAGUE",
+      "full_name": "Grant Jerrett",
+      "first_name": "Grant",
+      "last_name": "Jerrett",
+      "abbr_name": "G.Jerrett",
+      "height": 82,
+      "weight": 232,
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "7",
+      "experience": "0",
+      "college": "Arizona",
+      "birth_place": "Chino Hills, CA",
+      "birthdate": "1993-07-08",
+      "updated": "2014-11-15T21:01:27+00:00",
+      "draft": {
+        "team_id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2013,
+        "round": "2",
+        "pick": "40"
+      }
+    },
+    {
+      "id": "f76acd63-bf42-4fa7-9985-a7838f9cb029",
+      "status": "ACT",
+      "full_name": "Lance Thomas",
+      "first_name": "Lance",
+      "last_name": "Thomas",
+      "abbr_name": "L.Thomas",
+      "height": 80,
+      "weight": 225,
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "42",
+      "experience": "3",
+      "college": "Duke",
+      "birth_place": "Brooklyn, NY, USA",
+      "birthdate": "1988-04-24",
+      "updated": "2014-10-09T03:46:44+00:00",
+      "draft": {
+        "year": 2010
+      }
+    },
+    {
+      "id": "fe441eff-9b77-4c71-9da7-1bbf46ea9c0d",
+      "status": "ACT",
+      "full_name": "Nick Collison",
+      "first_name": "Nick",
+      "last_name": "Collison",
+      "abbr_name": "N.Collison",
+      "height": 82,
+      "weight": 255,
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "4",
+      "experience": "9",
+      "college": "Kansas",
+      "birth_place": "Orange City, IA, USA",
+      "birthdate": "1980-10-26",
+      "updated": "2013-09-07T21:56:46+00:00",
+      "draft": {
+        "team_id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2003,
+        "round": "1",
+        "pick": "12"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1401 @@
+{
+    "league": {
+        "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+        "name": "NBA",
+        "alias": "NBA"
+    },
+    "teams": [
+        {
+            "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Lakers",
+            "market": "Los Angeles",
+            "players": [
+                {
+                    "id": "00428230-2dfb-4dbd-9a83-fdae3be50320",
+                    "full_name": "Steve Nash",
+                    "first_name": "Steve",
+                    "last_name": "Nash",
+                    "position": "G",
+                    "primary_position": "PG",
+                    "jersey_number": "10",
+                    "injuries": [
+                        {
+                            "id": "44720e16-490d-40fc-b0ab-f9b0c0fe5a95",
+                            "comment": "Nash is expected to miss all of the 2014-15 season because of nerve damage to his back, according to team.",
+                            "desc": "Back",
+                            "status": "Out For Season",
+                            "start_date": "2014-10-23",
+                            "update_date": "2014-10-24"
+                        }
+                    ]
+                },
+                {
+                    "id": "24c85a15-686e-4161-934b-40948188fa36",
+                    "full_name": "Julius Randle",
+                    "first_name": "Julius",
+                    "last_name": "Randle",
+                    "position": "F",
+                    "primary_position": "PF",
+                    "jersey_number": "30",
+                    "injuries": [
+                        {
+                            "id": "188454b7-0254-4274-8efa-aa1908a68a1e",
+                            "comment": "Randle is expected to be ready for summer league.",
+                            "desc": "Leg",
+                            "status": "Out For Season",
+                            "start_date": "2014-10-29",
+                            "update_date": "2014-11-04"
+                        }
+                    ]
+                },
+                {
+                    "id": "47e00cc4-53ca-453b-993a-0f58279e2a94",
+                    "full_name": "Wayne Ellington",
+                    "first_name": "Wayne",
+                    "last_name": "Ellington",
+                    "position": "G",
+                    "primary_position": "SG",
+                    "jersey_number": "2",
+                    "injuries": [
+                        {
+                            "id": "7cd153b6-83d3-4622-855b-fcf1dc85cfe7",
+                            "comment": "Ellington has been granted an indefinite leave of absence after the passing of his father.",
+                            "desc": "Personal",
+                            "status": "Day To Day",
+                            "start_date": "2014-11-11",
+                            "update_date": "2014-11-12"
+                        }
+                    ]
+                },
+                {
+                    "id": "d323405a-4655-4261-b0fa-9524523143a1",
+                    "full_name": "Nick Young",
+                    "first_name": "Nick",
+                    "last_name": "Young",
+                    "position": "G-F",
+                    "primary_position": "SG",
+                    "jersey_number": "0",
+                    "injuries": [
+                        {
+                            "id": "b35b12ae-f7e5-485e-8107-58985721827f",
+                            "comment": "The earliest Young may return is Tuesday, November 18.",
+                            "desc": "Thumb",
+                            "status": "Out",
+                            "start_date": "2014-10-03",
+                            "update_date": "2014-11-12"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hornets",
+            "market": "Charlotte",
+            "players": [
+                {
+                    "id": "01e8f44f-f1ee-4d3a-86bd-c29d597ba9bd",
+                    "full_name": "Lance Stephenson",
+                    "first_name": "Lance",
+                    "last_name": "Stephenson",
+                    "position": "G",
+                    "primary_position": "SG",
+                    "jersey_number": "1",
+                    "injuries": [
+                        {
+                            "id": "a53762ad-a785-47da-8204-81d7c5daa98f",
+                            "comment": "Stephenson is questionable for Friday's (11/14) game after aggravating his groin injury.",
+                            "desc": "Groin",
+                            "status": "Day To Day",
+                            "start_date": "2014-11-14",
+                            "update_date": "2014-11-14"
+                        },
+                        {
+                            "id": "e265e29f-a47a-4f28-b3d3-70de50e76f0b",
+                            "comment": "Stephenson is questionable for Friday's (11/14) game after aggravating his groin injury.",
+                            "desc": "Groin",
+                            "status": "Day To Day",
+                            "start_date": "2014-11-14",
+                            "update_date": "2014-11-14"
+                        }
+                    ]
+                },
+                {
+                    "id": "79b65432-3224-4da9-a1dc-2a08d089c917",
+                    "full_name": "Gary Neal",
+                    "first_name": "Gary",
+                    "last_name": "Neal",
+                    "position": "G",
+                    "primary_position": "SG",
+                    "jersey_number": "12",
+                    "injuries": [
+                        {
+                            "id": "4686429d-9abf-433d-aa5b-00eae55ef924",
+                            "comment": "Neal will likely be a game-time decision today (11/14) after slipping on a wet spot in practice.",
+                            "desc": "Foot",
+                            "status": "Day To Day",
+                            "start_date": "2014-11-14",
+                            "update_date": "2014-11-14"
+                        }
+                    ]
+                },
+                {
+                    "id": "84215e01-6108-4fd0-9a11-19e9518ab378",
+                    "full_name": "Noah Vonleh",
+                    "first_name": "Noah",
+                    "last_name": "Vonleh",
+                    "position": "F",
+                    "primary_position": "PF",
+                    "jersey_number": "11",
+                    "injuries": [
+                        {
+                            "id": "c738c29a-8aed-4c38-8338-71b28a2efcee",
+                            "comment": "Vonleh is expected to return to the lineup soon.",
+                            "desc": "Hernia",
+                            "status": "Out",
+                            "start_date": "2014-10-30",
+                            "update_date": "2014-11-13"
+                        }
+                    ]
+                },
+                {
+                    "id": "e17a3191-b05c-4878-8be6-21028b8ec007",
+                    "full_name": "Marvin Williams",
+                    "first_name": "Marvin",
+                    "last_name": "Williams",
+                    "position": "F",
+                    "primary_position": "PF",
+                    "jersey_number": "2",
+                    "injuries": [
+                        {
+                            "id": "276fdf4f-b72b-44a7-9f2e-f48cc64d602f",
+                            "comment": "Williams is unlikely to play in Friday's (11/14) game.",
+                            "desc": "Knee",
+                            "status": "Day To Day",
+                            "start_date": "2014-11-13",
+                            "update_date": "2014-11-14"
+                        }
+                    ]
+                },
+                {
+                    "id": "ea8a18e4-1341-48f1-b75d-5bbac8d789d4",
+                    "full_name": "Michael Kidd-Gilchrist",
+                    "first_name": "Michael",
+                    "last_name": "Kidd-Gilchrist",
+                    "position": "F",
+                    "primary_position": "SF",
+                    "jersey_number": "14",
+                    "injuries": [
+                        {
+                            "id": "b6f63a0a-5fac-4a94-9749-44dc754f980e",
+                            "comment": "Kidd-Gilchrist will sit out Friday and Saturday and possibly return for Monday's (11/17) game.",
+                            "desc": "Foot",
+                            "status": "Day To Day",
+                            "start_date": "2014-11-14",
+                            "update_date": "2014-11-14"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Raptors",
+            "market": "Toronto",
+            "players": [
+                {
+                    "id": "03b6f5a1-4e12-4a4b-8c68-f6f82d9ce624",
+                    "full_name": "Landry Fields",
+                    "first_name": "Landry",
+                    "last_name": "Fields",
+                    "position": "F",
+                    "primary_position": "SF",
+                    "jersey_number": "2",
+                    "injuries": [
+                        {
+                            "id": "e8162700-a8e0-4550-a379-9f1eaafcd334",
+                            "comment": "Fields is questionable to play in Saturday's (11/15) game against the Jazz.",
+                            "desc": "Flu",
+                            "status": "Day To Day",
+                            "start_date": "2014-11-11",
+                            "update_date": "2014-11-14"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Thunder",
+            "market": "Oklahoma City",
+            "players": [
+                {
+                    "id": "0891a76f-4b36-4101-8bf7-59637af2806b",
+                    "full_name": "Mitch McGary",
+                    "first_name": "Mitch",
+                    "last_name": "McGary",
+                    "position": "F",
+                    "primary_position": "PF",
+                    "jersey_number": "33",
+                    "injuries": [
+                        {
+                            "id": "5a2abaee-3abb-4106-8765-f462a429841e",
+                            "comment": "McGary is not wearing a walking boot anymore. He is targeting a mid-November return.",
+                            "desc": "Foot",
+                            "status": "Out",
+                            "start_date": "2014-10-09",
+                            "update_date": "2014-11-07"
+                        }
+                    ]
+                },
+                {
+                    "id": "473fd3a2-b247-4758-9e35-33caf57978c8",
+                    "full_name": "Perry Jones",
+                    "first_name": "Perry",
+                    "last_name": "Jones",
+                    "position": "F",
+                    "primary_position": "SF",
+                    "jersey_number": "3",
+                    "injuries": [
+                        {
+                            "id": "b5c7bd1f-337f-4743-9d23-ee54a22ab94b",
+                            "comment": "Jones is questionable to play on Friday (11/14).",
+                            "desc": "Knee",
+                            "status": "Day To Day",
+                            "start_date": "2014-11-03",
+                            "update_date": "2014-11-13"
+                        }
+                    ]
+                },
+                {
+                    "id": "53f2fa48-e61b-49fb-843d-8a3e872257eb",
+                    "full_name": "Kevin Durant",
+                    "first_name": "Kevin",
+                    "last_name": "Durant",
+                    "position": "F",
+                    "primary_position": "SF",
+                    "jersey_number": "35",
+                    "injuries": [
+                        {
+                            "id": "24652d0c-2d74-4f46-a2d9-02a4329152b9",
+                            "comment": "Durant is not wearing a walking boot anymore. He's hoping to return sometime in December.",
+                            "desc": "Foot",
+                            "status": "Out",
+                            "start_date": "2014-10-12",
+                            "update_date": "2014-11-07"
+                        }
+                    ]
+                },
+                {
+                    "id": "62933587-9382-4b7e-9cb0-9a07e5b4fdc8",
+                    "full_name": "Andre Roberson",
+                    "first_name": "Andre",
+                    "last_name": "Roberson",
+                    "position": "F-G",
+                    "primary_position": "SF",
+                    "jersey_number": "21",
+                    "injuries": [
+                        {
+                            "id": "e4961ed9-c200-4bad-af69-3527fb65f79f",
+                            "comment": "Roberson is questionable to play on Friday (11/14).",
+                            "desc": "Foot",
+                            "status": "Day To Day",
+                            "start_date": "2014-11-03",
+                            "update_date": "2014-11-13"
+                        }
+                    ]
+                },
+                {
+                    "id": "74a45eed-f2b0-4886-ae71-d04cf7d59528",
+                    "full_name": "Russell Westbrook",
+                    "first_name": "Russell",
+                    "last_name": "Westbrook",
+                    "position": "G",
+                    "primary_position": "PG",
+                    "jersey_number": "0",
+                    "injuries": [
+                        {
+                            "id": "f263f283-1ca2-4cc0-803a-77908b0b377d",
+                            "comment": "Westbrook is likely to miss a couple months",
+                            "desc": "Hand",
+                            "status": "Out Indefinitely",
+                            "start_date": "2014-10-30",
+                            "update_date": "2014-11-07"
+                        }
+                    ]
+                },
+                {
+                    "id": "ef0cf1e1-e3e1-48e6-aace-fdfd3c0fb719",
+                    "full_name": "Grant Jerrett",
+                    "first_name": "Grant",
+                    "last_name": "Jerrett",
+                    "position": "F",
+                    "primary_position": "PF",
+                    "jersey_number": "7",
+                    "injuries": [
+                        {
+                            "id": "53229642-5468-467a-a4ff-944215b3e727",
+                            "comment": "Jerrett is expected to return soon.",
+                            "desc": "Ankle",
+                            "status": "Day To Day",
+                            "start_date": "2014-07-16",
+                            "update_date": "2014-11-13"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hawks",
+            "market": "Atlanta",
+            "players": [
+                {
+                    "id": "14eec5cb-d598-4a56-ab50-7fda7032635c",
+                    "full_name": "Adreian Payne",
+                    "first_name": "Adreian",
+                    "last_name": "Payne",
+                    "position": "F",
+                    "primary_position": "PF",
+                    "jersey_number": "33",
+                    "injuries": [
+                        {
+                            "id": "192f9ddc-f5de-474f-8eec-022e5f4be476",
+                            "comment": "Payne will not play in Friday's (11/14) game.",
+                            "desc": "Foot",
+                            "status": "Day To Day",
+                            "start_date": "2014-10-31",
+                            "update_date": "2014-11-14"
+                        }
+                    ]
+                },
+                {
+                    "id": "664afb4f-3fc1-4e25-bcb8-bab2c0c3c33b",
+                    "full_name": "DeMarre Carroll",
+                    "first_name": "DeMarre",
+                    "last_name": "Carroll",
+                    "position": "F",
+                    "primary_position": "SF",
+                    "jersey_number": "5",
+                    "injuries": [
+                        {
+                            "id": "8dc20678-edc7-4fff-86de-63ce2404181a",
+                            "comment": "Carroll will not play on Friday (11/14).",
+                            "desc": "Groin",
+                            "status": "Day To Day",
+                            "start_date": "2014-11-11",
+                            "update_date": "2014-11-14"
+                        }
+                    ]
+                },
+                {
+                    "id": "e3c8bfbe-086f-4bbf-be9b-38accc5d5037",
+                    "full_name": "Mike Scott",
+                    "first_name": "Mike",
+                    "last_name": "Scott",
+                    "position": "F",
+                    "primary_position": "PF",
+                    "jersey_number": "32",
+                    "injuries": [
+                        {
+                            "id": "e212bd23-0388-4fc1-b82f-cddce95feb4e",
+                            "comment": "Scott is probable for Friday's (11/14) game.",
+                            "desc": "Back",
+                            "status": "Day To Day",
+                            "start_date": "2014-11-11",
+                            "update_date": "2014-11-13"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Cavaliers",
+            "market": "Cleveland",
+            "players": [
+                {
+                    "id": "1bf4b5c7-e31d-4c22-9d89-7b909e3cb43c",
+                    "full_name": "Dion Waiters",
+                    "first_name": "Dion",
+                    "last_name": "Waiters",
+                    "position": "G",
+                    "primary_position": "SG",
+                    "jersey_number": "3",
+                    "injuries": [
+                        {
+                            "id": "2f4e141d-f6db-44e1-9dbb-68898c70a222",
+                            "comment": "Waiters will probably play in Friday's (11/14) game, but playing time will likely be limited.",
+                            "desc": "Back",
+                            "status": "Day To Day",
+                            "start_date": "2014-11-09",
+                            "update_date": "2014-11-14"
+                        }
+                    ]
+                },
+                {
+                    "id": "ef58422e-c7df-4432-8497-0cbb31e90c32",
+                    "full_name": "Matthew Dellavedova",
+                    "first_name": "Matthew",
+                    "last_name": "Dellavedova",
+                    "position": "G",
+                    "primary_position": "SG",
+                    "jersey_number": "8",
+                    "injuries": [
+                        {
+                            "id": "776f2836-3969-46ee-8c84-9f06c73e846e",
+                            "comment": "Dellavedova has a MCL sprain and will be out for 4-6 weeks.",
+                            "desc": "Knee",
+                            "status": "Day To Day",
+                            "start_date": "2014-11-05",
+                            "update_date": "2014-11-09"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Heat",
+            "market": "Miami",
+            "players": [
+                {
+                    "id": "2038ebc0-a35b-4979-9fd6-15c72c435101",
+                    "full_name": "Dwyane Wade",
+                    "first_name": "Dwyane",
+                    "last_name": "Wade",
+                    "position": "G",
+                    "primary_position": "SG",
+                    "jersey_number": "3",
+                    "injuries": [
+                        {
+                            "id": "70092f32-462c-4dcb-a8e3-ed67c2298277",
+                            "comment": "Wade will sit out Friday's (11/14) game.",
+                            "desc": "Hamstring",
+                            "status": "Day To Day",
+                            "start_date": "2014-11-14",
+                            "update_date": "2014-11-14"
+                        }
+                    ]
+                },
+                {
+                    "id": "49e2e5b6-0800-40b3-a5de-499653a019e9",
+                    "full_name": "Danny Granger",
+                    "first_name": "Danny",
+                    "last_name": "Granger",
+                    "position": "F",
+                    "primary_position": "SF",
+                    "jersey_number": "22",
+                    "injuries": [
+                        {
+                            "id": "af9f14f5-50a0-4676-b322-01dac5786ab0",
+                            "comment": "Granger has been ruled out for Friday's (11/14) game.",
+                            "desc": "Hamstring",
+                            "status": "Day To Day",
+                            "start_date": "2014-11-05",
+                            "update_date": "2014-11-14"
+                        }
+                    ]
+                },
+                {
+                    "id": "54723896-1f7b-4150-95d6-0392596a328f",
+                    "full_name": "Josh McRoberts",
+                    "first_name": "Josh",
+                    "last_name": "McRoberts",
+                    "position": "F",
+                    "primary_position": "PF",
+                    "jersey_number": "4",
+                    "injuries": [
+                        {
+                            "id": "57ea4eb0-cdc9-45dd-b1d9-567257f0f55f",
+                            "comment": "McRoberts may sit out Friday (11/14) night as he deals with a toe blister.",
+                            "desc": "Toe",
+                            "status": "Day To Day",
+                            "start_date": "2014-11-14",
+                            "update_date": "2014-11-14"
+                        }
+                    ]
+                },
+                {
+                    "id": "e0a7db01-de87-4765-8f73-f52794e8deb9",
+                    "full_name": "Justin Hamilton",
+                    "first_name": "Justin",
+                    "last_name": "Hamilton",
+                    "position": "C",
+                    "primary_position": "C",
+                    "jersey_number": "7",
+                    "injuries": [
+                        {
+                            "id": "bdcb07a0-d176-443c-abca-6c1a6545242f",
+                            "comment": "Hamilton is not expected to play in Friday's (11/14) game.",
+                            "desc": "Hip",
+                            "status": "Day To Day",
+                            "start_date": "2014-11-08",
+                            "update_date": "2014-11-14"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pacers",
+            "market": "Indiana",
+            "players": [
+                {
+                    "id": "2365e884-e0d9-43a4-8efe-a4bd9a14329a",
+                    "full_name": "David West",
+                    "first_name": "David",
+                    "last_name": "West",
+                    "position": "F",
+                    "primary_position": "PF",
+                    "jersey_number": "21",
+                    "injuries": [
+                        {
+                            "id": "13133278-192e-4a08-a736-de2a1ca7247c",
+                            "comment": "West is targeting to return on Saturday, November 15.",
+                            "desc": "Ankle",
+                            "status": "Out",
+                            "start_date": "2014-10-20",
+                            "update_date": "2014-11-14"
+                        }
+                    ]
+                },
+                {
+                    "id": "6e566165-6674-4306-9994-470f60720a2c",
+                    "full_name": "George Hill",
+                    "first_name": "George",
+                    "last_name": "Hill",
+                    "position": "G",
+                    "primary_position": "PG",
+                    "jersey_number": "3",
+                    "injuries": [
+                        {
+                            "id": "e744d897-7a9b-4b87-8b1d-4e8034a975f3",
+                            "comment": "Hill is expected to return in early December.",
+                            "desc": "Knee",
+                            "status": "Out",
+                            "start_date": "2014-10-27",
+                            "update_date": "2014-11-07"
+                        }
+                    ]
+                },
+                {
+                    "id": "732b1bd6-d99a-4971-bc2c-4de4842b4a9a",
+                    "full_name": "C.J. Miles",
+                    "first_name": "C.J.",
+                    "last_name": "Miles",
+                    "position": "G",
+                    "primary_position": "SG",
+                    "jersey_number": "0",
+                    "injuries": [
+                        {
+                            "id": "aaf6b19d-8077-4678-83e4-77043c0ee03f",
+                            "comment": "Miles will return to the lineup for Friday's (11/14) game.",
+                            "desc": "Migraines",
+                            "status": "Day To Day",
+                            "start_date": "2014-11-08",
+                            "update_date": "2014-11-14"
+                        }
+                    ]
+                },
+                {
+                    "id": "7671f7d9-b7f8-4602-a32d-19f4f1ddae75",
+                    "full_name": "C.J. Watson",
+                    "first_name": "C.J.",
+                    "last_name": "Watson",
+                    "position": "G",
+                    "primary_position": "PG",
+                    "jersey_number": "32",
+                    "injuries": [
+                        {
+                            "id": "478e144e-26d7-459a-aa92-369108f44ffc",
+                            "comment": "Watson is targeting to return on November 17.",
+                            "desc": "Foot",
+                            "status": "Out",
+                            "start_date": "2014-10-27",
+                            "update_date": "2014-11-13"
+                        }
+                    ]
+                },
+                {
+                    "id": "b4a94a3a-8563-49bd-97d2-98161cfb6c8d",
+                    "full_name": "Rodney Stuckey",
+                    "first_name": "Rodney",
+                    "last_name": "Stuckey",
+                    "position": "G",
+                    "primary_position": "SG",
+                    "jersey_number": "2",
+                    "injuries": [
+                        {
+                            "id": "a7d01ee8-24d2-44cc-9cc7-a4cb8228b164",
+                            "comment": "Stuckey will not play in Friday's (11/14) game.",
+                            "desc": "Foot",
+                            "status": "Out",
+                            "start_date": "2014-11-05",
+                            "update_date": "2014-11-14"
+                        }
+                    ]
+                },
+                {
+                    "id": "db09f372-9a17-4889-add7-bf8a75ab6da6",
+                    "full_name": "Paul George",
+                    "first_name": "Paul",
+                    "last_name": "George",
+                    "position": "F-G",
+                    "primary_position": "SF",
+                    "jersey_number": "13",
+                    "injuries": [
+                        {
+                            "id": "3e42e961-c37a-4249-90e8-412d991fb7b5",
+                            "comment": "George has practiced shooting jumpers but he's still a long shot to play this season.",
+                            "desc": "Leg",
+                            "status": "Out Indefinitely",
+                            "start_date": "2014-08-01",
+                            "update_date": "2014-11-10"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Trail Blazers",
+            "market": "Portland",
+            "players": [
+                {
+                    "id": "3157a0b5-1b4c-46d1-934c-ac2df3810950",
+                    "full_name": "LaMarcus Aldridge",
+                    "first_name": "LaMarcus",
+                    "last_name": "Aldridge",
+                    "position": "F",
+                    "primary_position": "PF",
+                    "jersey_number": "12",
+                    "injuries": [
+                        {
+                            "id": "070e536c-fd94-4bbf-bb5d-6e1b2e5da1dd",
+                            "comment": "Aldridge is doubtful to play in Friday's (11/14) game with an upper respiratory illness.",
+                            "desc": "Illness",
+                            "status": "Day To Day",
+                            "start_date": "2014-11-14",
+                            "update_date": "2014-11-14"
+                        }
+                    ]
+                },
+                {
+                    "id": "a89ac040-715d-4057-8fc0-9d71ad06fa0a",
+                    "full_name": "Nicolas Batum",
+                    "first_name": "Nicolas",
+                    "last_name": "Batum",
+                    "position": "F",
+                    "primary_position": "SF",
+                    "jersey_number": "88",
+                    "injuries": [
+                        {
+                            "id": "3e4c89e5-4350-4b18-89c6-f6c9da7767c7",
+                            "comment": "Batum hopes to return on Monday (11/17).",
+                            "desc": "Knee",
+                            "status": "Out",
+                            "start_date": "2014-11-10",
+                            "update_date": "2014-11-13"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Knicks",
+            "market": "New York",
+            "players": [
+                {
+                    "id": "339879bc-5749-44cb-81b0-83449911f13d",
+                    "full_name": "Andrea Bargnani",
+                    "first_name": "Andrea",
+                    "last_name": "Bargnani",
+                    "position": "F-C",
+                    "primary_position": "PF",
+                    "jersey_number": "77",
+                    "injuries": [
+                        {
+                            "id": "5bd8f566-285a-47f7-88c8-c8103e1fd020",
+                            "comment": "Bargnani is progressing but has not been given a return date.",
+                            "desc": "Hamstring",
+                            "status": "Out",
+                            "start_date": "2014-10-21",
+                            "update_date": "2014-11-13"
+                        }
+                    ]
+                },
+                {
+                    "id": "48f84650-080a-42e5-adfb-3074d6f17037",
+                    "full_name": "Jose Calderon",
+                    "first_name": "Jose",
+                    "last_name": "Calderon",
+                    "position": "G",
+                    "primary_position": "PG",
+                    "jersey_number": "3",
+                    "injuries": [
+                        {
+                            "id": "fbca5ae5-9d25-41d6-b396-b79e943a29c5",
+                            "comment": "Calderon is targeting a return towards the end of November.",
+                            "desc": "Calf",
+                            "status": "Out",
+                            "start_date": "2014-10-26",
+                            "update_date": "2014-11-12"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Spurs",
+            "market": "San Antonio",
+            "players": [
+                {
+                    "id": "385f6a05-7dfb-4fc8-afed-b6a4f141100c",
+                    "full_name": "Marco Belinelli",
+                    "first_name": "Marco",
+                    "last_name": "Belinelli",
+                    "position": "G",
+                    "primary_position": "SG",
+                    "jersey_number": "3",
+                    "injuries": [
+                        {
+                            "id": "0c62815a-4782-4828-9a0c-e7374043306b",
+                            "comment": "Belinelli will not play Friday (11/14).",
+                            "desc": "Groin",
+                            "status": "Out",
+                            "start_date": "2014-11-05",
+                            "update_date": "2014-11-14"
+                        }
+                    ]
+                },
+                {
+                    "id": "8c81dcdb-fec1-4186-98ce-310f9f55bb0a",
+                    "full_name": "Tiago Splitter",
+                    "first_name": "Tiago",
+                    "last_name": "Splitter",
+                    "position": "C",
+                    "primary_position": "C",
+                    "jersey_number": "22",
+                    "injuries": [
+                        {
+                            "id": "3ddc705e-c5f9-4b79-8313-a807f0a73d3c",
+                            "comment": "Splitter will not play in Friday's (11/14) game.",
+                            "desc": "Calf",
+                            "status": "Out Indefinitely",
+                            "start_date": "2014-09-29",
+                            "update_date": "2014-11-14"
+                        }
+                    ]
+                },
+                {
+                    "id": "9e917c97-5227-4581-9ab5-2dd07a7187ef",
+                    "full_name": "Patty Mills",
+                    "first_name": "Patty",
+                    "last_name": "Mills",
+                    "position": "G",
+                    "primary_position": "PG",
+                    "jersey_number": "8",
+                    "injuries": [
+                        {
+                            "id": "3d1dacea-40eb-4741-8b0e-155db70b644c",
+                            "comment": "The team expects Mills to return to action by January.",
+                            "desc": "Shoulder",
+                            "status": "Out Indefinitely",
+                            "start_date": "2014-07-02",
+                            "update_date": "2014-11-06"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Rockets",
+            "market": "Houston",
+            "players": [
+                {
+                    "id": "39975493-d411-4d59-a015-8119c6c6e6ef",
+                    "full_name": "Terrence Jones",
+                    "first_name": "Terrence",
+                    "last_name": "Jones",
+                    "position": "F",
+                    "primary_position": "PF",
+                    "jersey_number": "6",
+                    "injuries": [
+                        {
+                            "id": "7b56ac1d-c5b1-46ac-80f2-26c60f2556f0",
+                            "comment": "Jones has been ruled out for Friday's (11/14) game.",
+                            "desc": "Leg",
+                            "status": "Day To Day",
+                            "start_date": "2014-11-04",
+                            "update_date": "2014-11-14"
+                        }
+                    ]
+                },
+                {
+                    "id": "912e7aa3-dd03-4a98-9980-0442e108f287",
+                    "full_name": "Patrick Beverley",
+                    "first_name": "Patrick",
+                    "last_name": "Beverley",
+                    "position": "G",
+                    "primary_position": "PG",
+                    "jersey_number": "2",
+                    "injuries": [
+                        {
+                            "id": "922135c5-8025-4daa-9d29-eeb6e133fc4f",
+                            "comment": "Beverley has been ruled out for Friday's (11/14) game.",
+                            "desc": "Hamstring",
+                            "status": "Out",
+                            "start_date": "2014-10-29",
+                            "update_date": "2014-11-14"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pistons",
+            "market": "Detroit",
+            "players": [
+                {
+                    "id": "3da0addc-639a-42ad-875d-96d050ac3711",
+                    "full_name": "Cartier Martin",
+                    "first_name": "Cartier",
+                    "last_name": "Martin",
+                    "position": "F-G",
+                    "primary_position": "SF",
+                    "jersey_number": "35",
+                    "injuries": [
+                        {
+                            "id": "2c553e35-9d6c-4da1-9b90-6971b961797a",
+                            "comment": "Martin is likely to play in Friday's (11/14) game.",
+                            "desc": "Plantar Fasciitis",
+                            "status": "Day To Day",
+                            "start_date": "2014-10-29",
+                            "update_date": "2014-11-14"
+                        }
+                    ]
+                },
+                {
+                    "id": "9f99add1-37be-47c6-8b19-a38bfdf9c702",
+                    "full_name": "Luigi Datome",
+                    "first_name": "Luigi",
+                    "last_name": "Datome",
+                    "position": "F",
+                    "primary_position": "SF",
+                    "jersey_number": "13",
+                    "injuries": [
+                        {
+                            "id": "95a7d8b2-6ae1-4bf0-83d9-70227d211a3f",
+                            "comment": "Datome did not play on Wednesday, November 12.",
+                            "desc": "Hamstring",
+                            "status": "Day To Day",
+                            "start_date": "2014-11-05",
+                            "update_date": "2014-11-12"
+                        }
+                    ]
+                },
+                {
+                    "id": "d6001098-cdde-46a5-85a3-f581ae471f9a",
+                    "full_name": "Jodie Meeks",
+                    "first_name": "Jodie",
+                    "last_name": "Meeks",
+                    "position": "G",
+                    "primary_position": "SG",
+                    "jersey_number": "20",
+                    "injuries": [
+                        {
+                            "id": "cf1c1b40-8453-499c-baca-94c6e7c7982c",
+                            "comment": "Meeks is out until at least mid-December.",
+                            "desc": "Back",
+                            "status": "Out",
+                            "start_date": "2014-10-14",
+                            "update_date": "2014-11-13"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bucks",
+            "market": "Milwaukee",
+            "players": [
+                {
+                    "id": "44ec1037-795f-4a4a-92c2-004d5bd4f3e6",
+                    "full_name": "Johnny O'Bryant III",
+                    "first_name": "Johnny",
+                    "last_name": "O'Bryant",
+                    "position": "F",
+                    "primary_position": "PF",
+                    "jersey_number": "3",
+                    "injuries": [
+                        {
+                            "id": "d4b9a013-0465-488f-a468-83cd8fa95630",
+                            "comment": "O'Bryant will miss the next 6-8 weeks with a knee sprain.",
+                            "desc": "Knee",
+                            "status": "Out",
+                            "start_date": "2014-10-13",
+                            "update_date": "2014-10-13"
+                        }
+                    ]
+                },
+                {
+                    "id": "4c362eee-6474-40ea-b1b4-d8f917f95175",
+                    "full_name": "Khris Middleton",
+                    "first_name": "Khris",
+                    "last_name": "Middleton",
+                    "position": "F",
+                    "primary_position": "PF",
+                    "jersey_number": "22",
+                    "injuries": [
+                        {
+                            "id": "33d2fe3f-90c1-472c-bc4c-8d9adcdbea0c",
+                            "comment": "Middleton is questionable for Friday's (11/14) game.",
+                            "desc": "Knee",
+                            "status": "Day To Day",
+                            "start_date": "2014-11-14",
+                            "update_date": "2014-11-14"
+                        }
+                    ]
+                },
+                {
+                    "id": "83594c82-2829-44c8-b2bf-3ff1c19fa4b1",
+                    "full_name": "Damien Inglis",
+                    "first_name": "Damien",
+                    "last_name": "Inglis",
+                    "position": "F",
+                    "primary_position": "SF",
+                    "jersey_number": "17",
+                    "injuries": [
+                        {
+                            "id": "4b2df241-1a50-4df3-acad-4251f05339b7",
+                            "comment": "Inglis' foot fracture hasn't healed properly and he will be shut down for six weeks.",
+                            "desc": "Foot",
+                            "status": "Out",
+                            "start_date": "2014-10-24",
+                            "update_date": "2014-10-24"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bulls",
+            "market": "Chicago",
+            "players": [
+                {
+                    "id": "48341095-ae5a-4d61-bcc8-1b0ceed870b2",
+                    "full_name": "Derrick Rose",
+                    "first_name": "Derrick",
+                    "last_name": "Rose",
+                    "position": "G",
+                    "primary_position": "PG",
+                    "jersey_number": "1",
+                    "injuries": [
+                        {
+                            "id": "7e7519cf-63f8-4941-9260-93fa68f3426e",
+                            "comment": "Rose is questionable to play in Saturday's (11/15) game.",
+                            "desc": "Hamstring",
+                            "status": "Day To Day",
+                            "start_date": "2014-11-12",
+                            "update_date": "2014-11-14"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia",
+            "players": [
+                {
+                    "id": "5af8d05e-98e0-4d4a-87a3-8f2ce31173a7",
+                    "full_name": "Alexey Shved",
+                    "first_name": "Alexey",
+                    "last_name": "Shved",
+                    "position": "G",
+                    "primary_position": "SG",
+                    "jersey_number": "88",
+                    "injuries": [
+                        {
+                            "id": "866e50c9-5cd5-4023-aa2a-0a92a11df467",
+                            "comment": "Shved is questionable to play in Friday's (11/14) game.",
+                            "desc": "Back",
+                            "status": "Day To Day",
+                            "start_date": "2014-11-11",
+                            "update_date": "2014-11-14"
+                        }
+                    ]
+                },
+                {
+                    "id": "5b315e15-6633-4ce2-8200-71b821553314",
+                    "full_name": "Jerami Grant",
+                    "first_name": "Jerami",
+                    "last_name": "Grant",
+                    "position": "F",
+                    "primary_position": "SF",
+                    "jersey_number": "39",
+                    "injuries": [
+                        {
+                            "id": "23b9bbc3-5428-4230-880e-fde79f7b9a17",
+                            "comment": "Grant is still not practicing with the team.",
+                            "desc": "Ankle",
+                            "status": "Out",
+                            "start_date": "2014-10-04",
+                            "update_date": "2014-11-06"
+                        }
+                    ]
+                },
+                {
+                    "id": "9f020654-d759-41f7-8dfc-d70e0d3d4e5a",
+                    "full_name": "Jason Richardson",
+                    "first_name": "Jason",
+                    "last_name": "Richardson",
+                    "position": "G",
+                    "primary_position": "SG",
+                    "jersey_number": "23",
+                    "injuries": [
+                        {
+                            "id": "dfc5e13f-bb90-442d-ae44-759a636d074d",
+                            "comment": "Richardson suffered a stress fracture to his right foot and he will be out indefinitely.",
+                            "desc": "Foot",
+                            "status": "Out Indefinitely",
+                            "start_date": "2014-10-26",
+                            "update_date": "2014-10-26"
+                        }
+                    ]
+                },
+                {
+                    "id": "bf9ad0fd-0cb8-4360-8970-5f1b5cf3fa8d",
+                    "full_name": "Joel Embiid",
+                    "first_name": "Joel",
+                    "last_name": "Embiid",
+                    "position": "C",
+                    "primary_position": "C",
+                    "jersey_number": "21",
+                    "injuries": [
+                        {
+                            "id": "9b8fe9c7-c657-420a-a728-552aef5204e7",
+                            "comment": "Embiid may not play this season as he recovers from foot surgery..",
+                            "desc": "Foot",
+                            "status": "Out Indefinitely",
+                            "start_date": "2014-04-09",
+                            "update_date": "2014-10-09"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nuggets",
+            "market": "Denver",
+            "players": [
+                {
+                    "id": "701c8530-7906-42b0-a016-3ddf366ca957",
+                    "full_name": "Randy Foye",
+                    "first_name": "Randy",
+                    "last_name": "Foye",
+                    "position": "G",
+                    "primary_position": "SG",
+                    "jersey_number": "4",
+                    "injuries": [
+                        {
+                            "id": "87404668-0d67-47ff-9c83-c295fd299c64",
+                            "comment": "Foye will not play in Friday's (11/14) game.",
+                            "desc": "Knee",
+                            "status": "Day To Day",
+                            "start_date": "2014-11-13",
+                            "update_date": "2014-11-14"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Mavericks",
+            "market": "Dallas",
+            "players": [
+                {
+                    "id": "83b736a0-6c1e-4526-b948-e4781251cb73",
+                    "full_name": "Raymond Felton",
+                    "first_name": "Raymond",
+                    "last_name": "Felton",
+                    "position": "G",
+                    "primary_position": "PG",
+                    "jersey_number": "2",
+                    "injuries": [
+                        {
+                            "id": "bb40d595-966d-42f2-9e81-48ed12f886c7",
+                            "comment": "Felton will have to serve a four-game suspension once his ankle is healthy.",
+                            "desc": "Ankle",
+                            "status": "Out",
+                            "start_date": "2014-10-26",
+                            "update_date": "2014-11-14"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Wizards",
+            "market": "Washington",
+            "players": [
+                {
+                    "id": "8b93c7f5-bb43-4a72-98fe-312cd08fc957",
+                    "full_name": "Martell Webster",
+                    "first_name": "Martell",
+                    "last_name": "Webster",
+                    "position": "F-G",
+                    "primary_position": "SF",
+                    "jersey_number": "9",
+                    "injuries": [
+                        {
+                            "id": "d41b758b-2ebb-4ebb-9b3e-72dfab3d3364",
+                            "comment": "Webster is not participating in any full contact drills.",
+                            "desc": "Back",
+                            "status": "Out",
+                            "start_date": "2014-06-27",
+                            "update_date": "2014-11-10"
+                        }
+                    ]
+                },
+                {
+                    "id": "ff461754-ad20-4eeb-af02-2b46cc980b24",
+                    "full_name": "Bradley Beal",
+                    "first_name": "Bradley",
+                    "last_name": "Beal",
+                    "position": "G",
+                    "primary_position": "SG",
+                    "jersey_number": "3",
+                    "injuries": [
+                        {
+                            "id": "fa80f736-fbb3-436a-827b-2a3b1f987847",
+                            "comment": "Beal could return as soon as the last week of November.",
+                            "desc": "Wrist (Non-Shooting)",
+                            "status": "Out",
+                            "start_date": "2014-10-11",
+                            "update_date": "2014-11-10"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Warriors",
+            "market": "Golden State",
+            "players": [
+                {
+                    "id": "9a48ac5c-430e-4306-b393-bd366e922334",
+                    "full_name": "David Lee",
+                    "first_name": "David",
+                    "last_name": "Lee",
+                    "position": "F",
+                    "primary_position": "PF",
+                    "jersey_number": "10",
+                    "injuries": [
+                        {
+                            "id": "e93b490d-d998-42fa-bc8a-90deb7092bbd",
+                            "comment": "Lee will be re-evaluated in approximately one week.",
+                            "desc": "Hamstring",
+                            "status": "Out Indefinitely",
+                            "start_date": "2014-10-27",
+                            "update_date": "2014-11-14"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Timberwolves",
+            "market": "Minnesota",
+            "players": [
+                {
+                    "id": "a3531f82-7374-41e7-ac71-ef5071ad2a12",
+                    "full_name": "Ricky Rubio",
+                    "first_name": "Ricky",
+                    "last_name": "Rubio",
+                    "position": "G",
+                    "primary_position": "PG",
+                    "jersey_number": "9",
+                    "injuries": [
+                        {
+                            "id": "42bb9985-b892-408e-8204-d5cf254cfe8b",
+                            "comment": "Rubio is expected to miss 7-8 weeks due to a severe ankle sprain.",
+                            "desc": "Ankle",
+                            "status": "Out Indefinitely",
+                            "start_date": "2014-11-08",
+                            "update_date": "2014-11-08"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Magic",
+            "market": "Orlando",
+            "players": [
+                {
+                    "id": "a98c111a-5145-4b0d-aaa7-a2d6024e1e31",
+                    "full_name": "Devyn Marble",
+                    "first_name": "Devyn",
+                    "last_name": "Marble",
+                    "position": "G-F",
+                    "primary_position": "SF",
+                    "jersey_number": "11",
+                    "injuries": [
+                        {
+                            "id": "0037da26-765e-4242-b02d-049d9bb8d118",
+                            "comment": "Marble could miss a few more weeks.",
+                            "desc": "Rotator Cuff",
+                            "status": "Out",
+                            "start_date": "2014-11-09",
+                            "update_date": "2014-11-13"
+                        }
+                    ]
+                },
+                {
+                    "id": "ae9e275c-9dce-4c10-a108-cfee6958df48",
+                    "full_name": "Victor Oladipo",
+                    "first_name": "Victor",
+                    "last_name": "Oladipo",
+                    "position": "G",
+                    "primary_position": "SG",
+                    "jersey_number": "5",
+                    "injuries": [
+                        {
+                            "id": "92c26dcb-36cb-4c62-8160-6aa93d77171c",
+                            "comment": "Oladipo is questionable for Friday's (11/14) game.",
+                            "desc": "Face",
+                            "status": "Out",
+                            "start_date": "2014-10-23",
+                            "update_date": "2014-11-14"
+                        }
+                    ]
+                },
+                {
+                    "id": "e58427b6-c42e-4bee-9556-4eed421d1cf7",
+                    "full_name": "Kyle O'Quinn",
+                    "first_name": "Kyle",
+                    "last_name": "O'Quinn",
+                    "position": "F",
+                    "primary_position": "PF",
+                    "jersey_number": "2",
+                    "injuries": [
+                        {
+                            "id": "b5169fa4-635b-401c-9ac3-63a57a3e3127",
+                            "comment": "O'Quinn will not play Friday (11/14).",
+                            "desc": "Ankle",
+                            "status": "Out",
+                            "start_date": "2014-10-30",
+                            "update_date": "2014-11-14"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Celtics",
+            "market": "Boston",
+            "players": [
+                {
+                    "id": "af460d21-b1d8-46bb-a228-61ac4fb9ccf9",
+                    "full_name": "Marcus Smart",
+                    "first_name": "Marcus",
+                    "last_name": "Smart",
+                    "position": "G",
+                    "primary_position": "PG",
+                    "jersey_number": "36",
+                    "injuries": [
+                        {
+                            "id": "c34738a8-c238-43b1-8441-b78214e32d8d",
+                            "comment": "Smart is hoping to return within three weeks.",
+                            "desc": "Ankle",
+                            "status": "Out",
+                            "start_date": "2014-11-08",
+                            "update_date": "2014-11-10"
+                        }
+                    ]
+                },
+                {
+                    "id": "cd73d016-9a69-4163-ae8a-14140704c68d",
+                    "full_name": "Vitor Faverani",
+                    "first_name": "Vitor",
+                    "last_name": "Faverani",
+                    "position": "C",
+                    "primary_position": "C",
+                    "jersey_number": "38",
+                    "injuries": [
+                        {
+                            "id": "624b1ab7-396b-44d8-ba17-d699a7f9b511",
+                            "comment": "Faverani is out until at least late November.",
+                            "desc": "Knee",
+                            "status": "Out",
+                            "start_date": "2014-02-05",
+                            "update_date": "2014-11-13"
+                        }
+                    ]
+                },
+                {
+                    "id": "d5ef3cfe-2ab9-4b77-823a-62678c13058f",
+                    "full_name": "Marcus Thornton",
+                    "first_name": "Marcus",
+                    "last_name": "Thornton",
+                    "position": "G",
+                    "primary_position": "SG",
+                    "jersey_number": "4",
+                    "injuries": [
+                        {
+                            "id": "3f562328-5e65-4e79-97d9-95604b089876",
+                            "comment": "Thornton will be available for Friday's (11/14) game.",
+                            "desc": "Ankle",
+                            "status": "Day To Day",
+                            "start_date": "2014-11-11",
+                            "update_date": "2014-11-14"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Jazz",
+            "market": "Utah",
+            "players": [
+                {
+                    "id": "d38f8754-7ecb-4791-a350-f67e5c4c785a",
+                    "full_name": "Rodney Hood",
+                    "first_name": "Rodney",
+                    "last_name": "Hood",
+                    "position": "F",
+                    "primary_position": "SF",
+                    "jersey_number": "5",
+                    "injuries": [
+                        {
+                            "id": "246106a2-cfc1-43f1-a351-8b3dfc68e9fc",
+                            "comment": "Hood will not play in Friday's (11/14) game.",
+                            "desc": "Plantar Fasciitis",
+                            "status": "Out",
+                            "start_date": "2014-11-08",
+                            "update_date": "2014-11-14"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

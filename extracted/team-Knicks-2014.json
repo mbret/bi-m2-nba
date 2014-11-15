@@ -1,0 +1,419 @@
+{
+  "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+  "name": "Knicks",
+  "alias": "NYK",
+  "market": "New York",
+  "founded": 1946,
+  "venue": {
+    "id": "583152aa-de75-5bea-ac92-ac5b8a51f9f9",
+    "name": "Madison Square Garden",
+    "capacity": 19812,
+    "address": "Four Pennsylvania Plaza",
+    "city": "New York",
+    "state": "NY",
+    "zip": "10001",
+    "country": "USA"
+  },
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "conference": {
+    "id": "3960cfac-7361-4b30-bc25-8d393de6f62f",
+    "name": "EASTERN CONFERENCE",
+    "alias": "EASTERN"
+  },
+  "division": {
+    "id": "582d6502-9a93-4a8d-8785-69374d732875",
+    "name": "Atlantic",
+    "alias": "ATLANTIC"
+  },
+  "coaches": [
+    {
+      "id": "b03ac51b-339d-468f-a1cb-dcb439ba3c88",
+      "full_name": "Derek Fisher",
+      "first_name": "Derek",
+      "last_name": "Fisher",
+      "position": "Head Coach",
+      "experience": "0"
+    }
+  ],
+  "players": [
+    {
+      "id": "0371df4a-68c1-4c25-9cf9-c17d72fcd34c",
+      "status": "ACT",
+      "full_name": "Cole Aldrich",
+      "first_name": "Cole",
+      "last_name": "Aldrich",
+      "abbr_name": "C.Aldrich",
+      "height": 83,
+      "weight": 245,
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "45",
+      "experience": "3",
+      "college": "Kansas",
+      "birth_place": "Burnsville, MN, USA",
+      "birthdate": "1988-10-31",
+      "updated": "2014-01-30T17:47:31+00:00",
+      "draft": {
+        "team_id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2010,
+        "round": "1",
+        "pick": "11"
+      }
+    },
+    {
+      "id": "12b17a30-c238-4cac-9e31-85e81d8ac53e",
+      "status": "ACT",
+      "full_name": "Cleanthony Early",
+      "first_name": "Cleanthony",
+      "last_name": "Early",
+      "abbr_name": "C.Early",
+      "height": 79,
+      "weight": 210,
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "17",
+      "experience": "0",
+      "college": "Wichita State",
+      "birth_place": "Middletown, NY, USA",
+      "birthdate": "1991-04-17",
+      "updated": "2014-11-11T18:58:05+00:00",
+      "draft": {
+        "team_id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2014,
+        "round": "2",
+        "pick": "34"
+      }
+    },
+    {
+      "id": "1f9ac202-95e8-4974-9a94-ff3609ca7441",
+      "status": "ACT",
+      "full_name": "Iman Shumpert",
+      "first_name": "Iman",
+      "last_name": "Shumpert",
+      "abbr_name": "I.Shumpert",
+      "height": 77,
+      "weight": 220,
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "21",
+      "experience": "2",
+      "college": "Georgia Tech",
+      "birth_place": "Oak Park, IL, USA",
+      "birthdate": "1990-06-26",
+      "updated": "2013-07-18T21:36:47+00:00",
+      "draft": {
+        "team_id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2011,
+        "round": "1",
+        "pick": "17"
+      },
+      "injuries": [
+        {
+          "id": "0ca46fc6-8adf-4b85-9bc0-f4763f843dd5",
+          "comment": "Shumpert is listed as doubtful for Sunday's (11/16) game.",
+          "desc": "Hip",
+          "status": "Day To Day",
+          "start_date": "2014-11-14",
+          "update_date": "2014-11-15"
+        }
+      ]
+    },
+    {
+      "id": "32688af1-7ac2-432e-b60a-74b9bd89df57",
+      "status": "ACT",
+      "full_name": "Carmelo Anthony",
+      "first_name": "Carmelo",
+      "last_name": "Anthony",
+      "abbr_name": "C.Anthony",
+      "height": 80,
+      "weight": 235,
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "7",
+      "experience": "10",
+      "college": "Syracuse",
+      "birth_place": "Brooklyn, NY, USA",
+      "birthdate": "1984-05-29",
+      "updated": "2013-10-16T18:31:43+00:00",
+      "draft": {
+        "team_id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2003,
+        "round": "1",
+        "pick": "3"
+      }
+    },
+    {
+      "id": "339879bc-5749-44cb-81b0-83449911f13d",
+      "status": "ACT",
+      "full_name": "Andrea Bargnani",
+      "first_name": "Andrea",
+      "last_name": "Bargnani",
+      "abbr_name": "A.Bargnani",
+      "height": 84,
+      "weight": 250,
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "77",
+      "experience": "7",
+      "birth_place": "Rome,, ITA",
+      "birthdate": "1985-10-26",
+      "updated": "2013-10-16T18:32:42+00:00",
+      "draft": {
+        "team_id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2006,
+        "round": "1",
+        "pick": "1"
+      },
+      "injuries": [
+        {
+          "id": "5bd8f566-285a-47f7-88c8-c8103e1fd020",
+          "comment": "Bargnani is progressing but has not been given a return date.",
+          "desc": "Hamstring",
+          "status": "Out",
+          "start_date": "2014-10-21",
+          "update_date": "2014-11-13"
+        }
+      ]
+    },
+    {
+      "id": "35cd1338-c56b-4247-b53c-264585c59883",
+      "status": "ACT",
+      "full_name": "Tim Hardaway Jr.",
+      "first_name": "Tim",
+      "last_name": "Hardaway Jr.",
+      "abbr_name": "T.Hardaway Jr.",
+      "height": 78,
+      "weight": 205,
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "5",
+      "experience": "0",
+      "college": "Michigan",
+      "birth_place": "Miami, FL, USA",
+      "birthdate": "1992-03-16",
+      "updated": "2013-09-06T19:07:35+00:00",
+      "draft": {
+        "team_id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2013,
+        "round": "1",
+        "pick": "24"
+      }
+    },
+    {
+      "id": "48f84650-080a-42e5-adfb-3074d6f17037",
+      "status": "ACT",
+      "full_name": "Jose Calderon",
+      "first_name": "Jose",
+      "last_name": "Calderon",
+      "abbr_name": "J.Calderon",
+      "height": 75,
+      "weight": 211,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "3",
+      "experience": "8",
+      "birth_place": "Villanueva de la Serena, Badajoz, ESP",
+      "birthdate": "1981-09-28",
+      "updated": "2014-10-09T04:53:57+00:00",
+      "draft": {
+        "year": 2003
+      },
+      "injuries": [
+        {
+          "id": "fbca5ae5-9d25-41d6-b396-b79e943a29c5",
+          "comment": "Calderon is targeting a return towards the end of November.",
+          "desc": "Calf",
+          "status": "Out",
+          "start_date": "2014-10-26",
+          "update_date": "2014-11-12"
+        }
+      ]
+    },
+    {
+      "id": "5934134d-0d27-42ea-a554-4b0e3e85ce56",
+      "status": "ACT",
+      "full_name": "J.R. Smith",
+      "first_name": "J.R.",
+      "last_name": "Smith",
+      "abbr_name": "J.Smith",
+      "height": 78,
+      "weight": 220,
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "8",
+      "experience": "9",
+      "college": "St. Benedict's Prep HS (NJ)",
+      "birth_place": "Freehold Borough, NJ, USA",
+      "birthdate": "1985-09-09",
+      "updated": "2013-11-10T17:46:44+00:00",
+      "draft": {
+        "team_id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2004,
+        "round": "1",
+        "pick": "18"
+      }
+    },
+    {
+      "id": "76b89403-aaea-4730-bb7e-e60f38c56c3e",
+      "status": "ACT",
+      "full_name": "Amar'e Stoudemire",
+      "first_name": "Amar'e",
+      "last_name": "Stoudemire",
+      "abbr_name": "A.Stoudemire",
+      "height": 83,
+      "weight": 245,
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "1",
+      "experience": "11",
+      "college": "Cypress Creek HS (FL)",
+      "birth_place": "Lake Wales, FL, USA",
+      "birthdate": "1982-11-16",
+      "updated": "2013-09-06T19:15:52+00:00",
+      "draft": {
+        "team_id": "583ecfa8-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2002,
+        "round": "1",
+        "pick": "9"
+      }
+    },
+    {
+      "id": "76c71fde-f27f-4a50-8f7f-421898aacc72",
+      "status": "ACT",
+      "full_name": "Shane Larkin",
+      "first_name": "Shane",
+      "last_name": "Larkin",
+      "abbr_name": "S.Larkin",
+      "height": 71,
+      "weight": 176,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "experience": "0",
+      "college": "Miami (FL)",
+      "birth_place": "Cincinnati, OH, USA",
+      "birthdate": "1992-10-02",
+      "updated": "2014-07-14T18:31:01+00:00",
+      "draft": {
+        "team_id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2013,
+        "round": "1",
+        "pick": "18"
+      }
+    },
+    {
+      "id": "798094cc-74f9-4792-92fb-f6f6cb962766",
+      "status": "ACT",
+      "full_name": "Travis Wear",
+      "first_name": "Travis",
+      "last_name": "Wear",
+      "abbr_name": "T.Wear",
+      "height": 82,
+      "weight": 230,
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "6",
+      "experience": "0",
+      "college": "UCLA",
+      "birth_place": "Huntington Beach, CA, USA",
+      "birthdate": "1990-09-21",
+      "updated": "2014-10-09T04:54:23+00:00",
+      "draft": {
+        "year": 2014
+      }
+    },
+    {
+      "id": "7992dce6-a785-4b31-9655-abd5a6f028f0",
+      "status": "ACT",
+      "full_name": "Jason Smith",
+      "first_name": "Jason",
+      "last_name": "Smith",
+      "abbr_name": "J.Smith",
+      "height": 84,
+      "weight": 240,
+      "position": "C-F",
+      "primary_position": "C",
+      "jersey_number": "14",
+      "experience": "5",
+      "college": "Colorado State",
+      "birth_place": "Greeley, CO, USA",
+      "birthdate": "1986-03-02",
+      "updated": "2014-10-09T04:55:06+00:00",
+      "draft": {
+        "team_id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2007,
+        "round": "1",
+        "pick": "20"
+      }
+    },
+    {
+      "id": "79c2148c-87e5-41e6-84cb-35f7e7a60770",
+      "status": "ACT",
+      "full_name": "Pablo Prigioni",
+      "first_name": "Pablo",
+      "last_name": "Prigioni",
+      "abbr_name": "P.Prigioni",
+      "height": 75,
+      "weight": 185,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "9",
+      "experience": "1",
+      "birth_place": "Rio Tercero,, ARG",
+      "birthdate": "1977-05-17",
+      "updated": "2013-09-06T19:14:00+00:00"
+    },
+    {
+      "id": "c863e2c3-c758-49b8-be35-ccac4131186c",
+      "status": "ACT",
+      "full_name": "Quincy Acy",
+      "first_name": "Quincy",
+      "last_name": "Acy",
+      "abbr_name": "Q.Acy",
+      "height": 79,
+      "weight": 225,
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "4",
+      "experience": "1",
+      "college": "Baylor",
+      "birth_place": "Tyler, TX, USA",
+      "birthdate": "1990-10-06",
+      "updated": "2014-10-09T04:53:27+00:00",
+      "draft": {
+        "team_id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2012,
+        "round": "2",
+        "pick": "37"
+      }
+    },
+    {
+      "id": "ca06ce60-1fb3-40a1-bb50-a16f75f4ea5d",
+      "status": "ACT",
+      "full_name": "Samuel Dalembert",
+      "first_name": "Samuel",
+      "last_name": "Dalembert",
+      "abbr_name": "S.Dalembert",
+      "height": 83,
+      "weight": 250,
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "11",
+      "experience": "11",
+      "college": "Seton Hall",
+      "birth_place": "Port-au-Prince,, HTI",
+      "birthdate": "1981-05-10",
+      "updated": "2014-07-14T18:26:27+00:00",
+      "draft": {
+        "team_id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2001,
+        "round": "1",
+        "pick": "26"
+      }
+    }
+  ]
+}

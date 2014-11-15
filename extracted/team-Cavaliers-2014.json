@@ -1,0 +1,376 @@
+{
+  "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+  "name": "Cavaliers",
+  "alias": "CLE",
+  "market": "Cleveland",
+  "founded": 1970,
+  "venue": {
+    "id": "42cddf7a-0e1f-5f91-ae6f-c620582fdb01",
+    "name": "Quicken Loans Arena",
+    "capacity": 20562,
+    "address": "One Center Court",
+    "city": "Cleveland",
+    "state": "OH",
+    "zip": "44115",
+    "country": "USA"
+  },
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "conference": {
+    "id": "3960cfac-7361-4b30-bc25-8d393de6f62f",
+    "name": "EASTERN CONFERENCE",
+    "alias": "EASTERN"
+  },
+  "division": {
+    "id": "f3aaf23a-1ceb-46ef-8fef-9403692e801b",
+    "name": "Central",
+    "alias": "CENTRAL"
+  },
+  "coaches": [
+    {
+      "id": "1c954361-a0d1-43f9-9d58-b3bc4df74bd8",
+      "full_name": "David Blatt",
+      "first_name": "David",
+      "last_name": "Blatt",
+      "position": "Head Coach",
+      "experience": "0"
+    }
+  ],
+  "players": [
+    {
+      "id": "09d25155-c3be-4246-a986-55921a1b5e61",
+      "status": "ACT",
+      "full_name": "James Jones",
+      "first_name": "James",
+      "last_name": "Jones",
+      "abbr_name": "J.Jones",
+      "height": 80,
+      "weight": 215,
+      "position": "F-G",
+      "primary_position": "SF",
+      "jersey_number": "1",
+      "experience": "10",
+      "college": "Miami",
+      "birth_place": "Miami, FL, USA",
+      "birthdate": "1980-10-04",
+      "updated": "2014-10-06T19:48:28+00:00",
+      "draft": {
+        "team_id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2003,
+        "round": "2",
+        "pick": "49"
+      }
+    },
+    {
+      "id": "0afbe608-940a-4d5d-a1f7-468718c67d91",
+      "status": "ACT",
+      "full_name": "LeBron James",
+      "first_name": "LeBron",
+      "last_name": "James",
+      "abbr_name": "L.James",
+      "height": 80,
+      "weight": 250,
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "23",
+      "experience": "10",
+      "college": "St. Vincent-St. Mary HS (OH)",
+      "birth_place": "Akron, OH, USA",
+      "birthdate": "1984-12-30",
+      "updated": "2014-07-27T17:11:11+00:00",
+      "draft": {
+        "team_id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2003,
+        "round": "1",
+        "pick": "1"
+      }
+    },
+    {
+      "id": "1bf4b5c7-e31d-4c22-9d89-7b909e3cb43c",
+      "status": "ACT",
+      "full_name": "Dion Waiters",
+      "first_name": "Dion",
+      "last_name": "Waiters",
+      "abbr_name": "D.Waiters",
+      "height": 76,
+      "weight": 225,
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "3",
+      "experience": "1",
+      "college": "Syracuse",
+      "birth_place": "Philadelphia, PA, USA",
+      "birthdate": "1991-12-10",
+      "updated": "2013-11-08T19:34:24+00:00",
+      "draft": {
+        "team_id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2012,
+        "round": "1",
+        "pick": "4"
+      }
+    },
+    {
+      "id": "2c861696-d71b-4419-8a13-2f9e294ad0b5",
+      "status": "ACT",
+      "full_name": "Anderson Varejao",
+      "first_name": "Anderson",
+      "last_name": "Varejao",
+      "abbr_name": "A.Varejao",
+      "height": 83,
+      "weight": 267,
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "17",
+      "experience": "9",
+      "birth_place": "Colatina, Espirito Santo, BRA",
+      "birthdate": "1982-09-28",
+      "updated": "2013-11-08T19:34:12+00:00",
+      "draft": {
+        "team_id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2004,
+        "round": "2",
+        "pick": "30"
+      }
+    },
+    {
+      "id": "335097c3-7919-49d5-80b0-8062d5d3e89c",
+      "status": "ACT",
+      "full_name": "Tristan Thompson",
+      "first_name": "Tristan",
+      "last_name": "Thompson",
+      "abbr_name": "T.Thompson",
+      "height": 81,
+      "weight": 238,
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "13",
+      "experience": "2",
+      "college": "Texas",
+      "birth_place": "Toronto, ON, CAN",
+      "birthdate": "1991-03-13",
+      "updated": "2013-11-08T19:33:56+00:00",
+      "draft": {
+        "team_id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2011,
+        "round": "1",
+        "pick": "4"
+      }
+    },
+    {
+      "id": "440251c0-601a-471a-9bdf-a8c7cd7efda8",
+      "status": "ACT",
+      "full_name": "Mike Miller",
+      "first_name": "Mike",
+      "last_name": "Miller",
+      "abbr_name": "M.Miller",
+      "height": 80,
+      "weight": 218,
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "18",
+      "experience": "13",
+      "college": "Florida",
+      "birth_place": "Mitchell, SD, USA",
+      "birthdate": "1980-02-19",
+      "updated": "2014-10-06T19:46:27+00:00",
+      "draft": {
+        "team_id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2000,
+        "round": "1",
+        "pick": "5"
+      }
+    },
+    {
+      "id": "484cae7f-ed5a-42c0-9f18-a60cfe237573",
+      "status": "ACT",
+      "full_name": "Will Cherry",
+      "first_name": "Will",
+      "last_name": "Cherry",
+      "abbr_name": "W.Cherry",
+      "height": 72,
+      "weight": 185,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "5",
+      "experience": "SR",
+      "birth_place": "West Oakland, CA",
+      "birthdate": "1991-02-08",
+      "updated": "2014-11-11T00:57:36+00:00"
+    },
+    {
+      "id": "766d6b8b-4211-46a3-ae57-2c1c915e538b",
+      "status": "ACT",
+      "full_name": "Joe Harris",
+      "first_name": "Joe",
+      "last_name": "Harris",
+      "abbr_name": "J.Harris",
+      "height": 78,
+      "weight": 215,
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "12",
+      "experience": "0",
+      "college": "Virginia",
+      "birth_place": "Chelan, VA, USA",
+      "birthdate": "1991-09-07",
+      "updated": "2014-11-11T19:04:02+00:00",
+      "draft": {
+        "team_id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2014,
+        "round": "2",
+        "pick": "33"
+      }
+    },
+    {
+      "id": "7a303bc0-f105-4bcb-afe0-61d49dfe43a9",
+      "status": "ACT",
+      "full_name": "Brendan Haywood",
+      "first_name": "Brendan",
+      "last_name": "Haywood",
+      "abbr_name": "B.Haywood",
+      "height": 84,
+      "weight": 263,
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "33",
+      "experience": "12",
+      "college": "North Carolina",
+      "birth_place": "New York City, NY, USA",
+      "birthdate": "1979-11-27",
+      "updated": "2014-10-06T19:47:15+00:00",
+      "draft": {
+        "team_id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2001,
+        "round": "1",
+        "pick": "20"
+      }
+    },
+    {
+      "id": "7d615ccd-db96-42a3-9a6c-7f18ea25634e",
+      "status": "ACT",
+      "full_name": "Kevin Love",
+      "first_name": "Kevin",
+      "last_name": "Love",
+      "abbr_name": "K.Love",
+      "height": 82,
+      "weight": 243,
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "0",
+      "experience": "5",
+      "college": "UCLA",
+      "birth_place": "Santa Monica, CA, USA",
+      "birthdate": "1988-09-07",
+      "updated": "2014-08-24T15:30:52+00:00",
+      "draft": {
+        "team_id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2008,
+        "round": "1",
+        "pick": "5"
+      }
+    },
+    {
+      "id": "dd146010-902b-4ad7-b98c-650d0363a2f0",
+      "status": "ACT",
+      "full_name": "Kyrie Irving",
+      "first_name": "Kyrie",
+      "last_name": "Irving",
+      "abbr_name": "K.Irving",
+      "height": 75,
+      "weight": 193,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "2",
+      "experience": "2",
+      "college": "Duke",
+      "birth_place": "Melbourne, VIC, AUS",
+      "birthdate": "1992-03-23",
+      "updated": "2013-11-08T19:32:01+00:00",
+      "draft": {
+        "team_id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2011,
+        "round": "1",
+        "pick": "1"
+      }
+    },
+    {
+      "id": "e47a4dd7-8199-4c1e-9945-75dd415447be",
+      "status": "ACT",
+      "full_name": "Lou Amundson",
+      "first_name": "Lou",
+      "last_name": "Amundson",
+      "abbr_name": "L.Amundson",
+      "height": 81,
+      "weight": 225,
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "89",
+      "experience": "8",
+      "college": "Nevada-Las Vegas",
+      "birth_place": "Ventura, CA, USA",
+      "birthdate": "1982-12-07",
+      "updated": "2014-10-06T19:47:00+00:00",
+      "draft": {
+        "year": 2006
+      }
+    },
+    {
+      "id": "ef58422e-c7df-4432-8497-0cbb31e90c32",
+      "status": "ACT",
+      "full_name": "Matthew Dellavedova",
+      "first_name": "Matthew",
+      "last_name": "Dellavedova",
+      "abbr_name": "M.Dellavedova",
+      "height": 76,
+      "weight": 200,
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "8",
+      "experience": "0",
+      "college": "St. Mary's (CA)",
+      "birth_place": "Maryborough, VIC, AUS",
+      "birthdate": "1990-09-08",
+      "updated": "2014-02-27T21:47:37+00:00",
+      "draft": {
+        "year": 2013
+      },
+      "injuries": [
+        {
+          "id": "776f2836-3969-46ee-8c84-9f06c73e846e",
+          "comment": "Dellavedova has a MCL sprain and will be out for 4-6 weeks.",
+          "desc": "Knee",
+          "status": "Out",
+          "start_date": "2014-11-05",
+          "update_date": "2014-11-09"
+        }
+      ]
+    },
+    {
+      "id": "f1e1acac-609c-4106-94b2-5c56d168fb93",
+      "status": "ACT",
+      "full_name": "Shawn Marion",
+      "first_name": "Shawn",
+      "last_name": "Marion",
+      "abbr_name": "S.Marion",
+      "height": 79,
+      "weight": 228,
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "31",
+      "experience": "14",
+      "college": "UNLV",
+      "birth_place": "Waukegan, IL, USA",
+      "birthdate": "1978-05-07",
+      "updated": "2014-10-06T19:46:37+00:00",
+      "draft": {
+        "team_id": "583ecfa8-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 1999,
+        "round": "1",
+        "pick": "9"
+      }
+    }
+  ]
+}

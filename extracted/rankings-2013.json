@@ -1,0 +1,370 @@
+{
+    "league": {
+        "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+        "name": "NBA",
+        "alias": "NBA"
+    },
+    "season": {
+        "id": "5ddc217a-a958-4616-9bdf-e081022c440b",
+        "year": 2013,
+        "type": "REG"
+    },
+    "conferences": [
+        {
+            "id": "3960cfac-7361-4b30-bc25-8d393de6f62f",
+            "name": "EASTERN CONFERENCE",
+            "alias": "EASTERN",
+            "divisions": [
+                {
+                    "id": "582d6502-9a93-4a8d-8785-69374d732875",
+                    "name": "Atlantic",
+                    "alias": "ATLANTIC",
+                    "teams": [
+                        {
+                            "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+                            "name": "Raptors",
+                            "market": "Toronto",
+                            "rank": {
+                                "conference": 3,
+                                "division": 1,
+                                "clinched": "division"
+                            }
+                        },
+                        {
+                            "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c",
+                            "name": "Nets",
+                            "market": "Brooklyn",
+                            "rank": {
+                                "conference": 6,
+                                "division": 2,
+                                "clinched": "playoff_berth"
+                            }
+                        },
+                        {
+                            "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+                            "name": "Knicks",
+                            "market": "New York",
+                            "rank": {
+                                "conference": 9,
+                                "division": 3,
+                                "clinched": "eliminated"
+                            }
+                        },
+                        {
+                            "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+                            "name": "Celtics",
+                            "market": "Boston",
+                            "rank": {
+                                "conference": 12,
+                                "division": 4,
+                                "clinched": "eliminated"
+                            }
+                        },
+                        {
+                            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+                            "name": "76ers",
+                            "market": "Philadelphia",
+                            "rank": {
+                                "conference": 14,
+                                "division": 5,
+                                "clinched": "eliminated"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "f3aaf23a-1ceb-46ef-8fef-9403692e801b",
+                    "name": "Central",
+                    "alias": "CENTRAL",
+                    "teams": [
+                        {
+                            "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+                            "name": "Pacers",
+                            "market": "Indiana",
+                            "rank": {
+                                "conference": 1,
+                                "division": 1,
+                                "clinched": "conference"
+                            }
+                        },
+                        {
+                            "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+                            "name": "Bulls",
+                            "market": "Chicago",
+                            "rank": {
+                                "conference": 4,
+                                "division": 2,
+                                "clinched": "playoff_berth"
+                            }
+                        },
+                        {
+                            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+                            "name": "Cavaliers",
+                            "market": "Cleveland",
+                            "rank": {
+                                "conference": 10,
+                                "division": 3,
+                                "clinched": "eliminated"
+                            }
+                        },
+                        {
+                            "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+                            "name": "Pistons",
+                            "market": "Detroit",
+                            "rank": {
+                                "conference": 11,
+                                "division": 4,
+                                "clinched": "eliminated"
+                            }
+                        },
+                        {
+                            "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+                            "name": "Bucks",
+                            "market": "Milwaukee",
+                            "rank": {
+                                "conference": 15,
+                                "division": 5,
+                                "clinched": "eliminated"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "54dc7348-c1d2-40d8-88b3-c4c0138e085d",
+                    "name": "Southeast",
+                    "alias": "SOUTHEAST",
+                    "teams": [
+                        {
+                            "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+                            "name": "Heat",
+                            "market": "Miami",
+                            "rank": {
+                                "conference": 2,
+                                "division": 1,
+                                "clinched": "division"
+                            }
+                        },
+                        {
+                            "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c",
+                            "name": "Wizards",
+                            "market": "Washington",
+                            "rank": {
+                                "conference": 5,
+                                "division": 2,
+                                "clinched": "playoff_berth"
+                            }
+                        },
+                        {
+                            "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+                            "name": "Hornets",
+                            "market": "Charlotte",
+                            "rank": {
+                                "conference": 7,
+                                "division": 3,
+                                "clinched": "playoff_berth"
+                            }
+                        },
+                        {
+                            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+                            "name": "Hawks",
+                            "market": "Atlanta",
+                            "rank": {
+                                "conference": 8,
+                                "division": 4,
+                                "clinched": "playoff_berth"
+                            }
+                        },
+                        {
+                            "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+                            "name": "Magic",
+                            "market": "Orlando",
+                            "rank": {
+                                "conference": 13,
+                                "division": 5,
+                                "clinched": "eliminated"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7fe7e212-de01-4f8f-a31d-b9f0a95731e3",
+            "name": "WESTERN CONFERENCE",
+            "alias": "WESTERN",
+            "divisions": [
+                {
+                    "id": "12bf14ba-eb16-4c6f-8275-e801b6947c1e",
+                    "name": "Northwest",
+                    "alias": "NORTHWEST",
+                    "teams": [
+                        {
+                            "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+                            "name": "Thunder",
+                            "market": "Oklahoma City",
+                            "rank": {
+                                "conference": 2,
+                                "division": 1,
+                                "clinched": "division"
+                            }
+                        },
+                        {
+                            "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c",
+                            "name": "Trail Blazers",
+                            "market": "Portland",
+                            "rank": {
+                                "conference": 5,
+                                "division": 2,
+                                "clinched": "playoff_berth"
+                            }
+                        },
+                        {
+                            "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+                            "name": "Timberwolves",
+                            "market": "Minnesota",
+                            "rank": {
+                                "conference": 10,
+                                "division": 3,
+                                "clinched": "eliminated"
+                            }
+                        },
+                        {
+                            "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+                            "name": "Nuggets",
+                            "market": "Denver",
+                            "rank": {
+                                "conference": 11,
+                                "division": 4,
+                                "clinched": "eliminated"
+                            }
+                        },
+                        {
+                            "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+                            "name": "Jazz",
+                            "market": "Utah",
+                            "rank": {
+                                "conference": 15,
+                                "division": 5,
+                                "clinched": "eliminated"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "f074cb3e-90cf-42e1-8067-cdbcd99ec230",
+                    "name": "Pacific",
+                    "alias": "PACIFIC",
+                    "teams": [
+                        {
+                            "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+                            "name": "Clippers",
+                            "market": "Los Angeles",
+                            "rank": {
+                                "conference": 3,
+                                "division": 1,
+                                "clinched": "division"
+                            }
+                        },
+                        {
+                            "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c",
+                            "name": "Warriors",
+                            "market": "Golden State",
+                            "rank": {
+                                "conference": 6,
+                                "division": 2,
+                                "clinched": "playoff_berth"
+                            }
+                        },
+                        {
+                            "id": "583ecfa8-fb46-11e1-82cb-f4ce4684ea4c",
+                            "name": "Suns",
+                            "market": "Phoenix",
+                            "rank": {
+                                "conference": 9,
+                                "division": 3,
+                                "clinched": "eliminated"
+                            }
+                        },
+                        {
+                            "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+                            "name": "Kings",
+                            "market": "Sacramento",
+                            "rank": {
+                                "conference": 13,
+                                "division": 4,
+                                "clinched": "eliminated"
+                            }
+                        },
+                        {
+                            "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+                            "name": "Lakers",
+                            "market": "Los Angeles",
+                            "rank": {
+                                "conference": 14,
+                                "division": 5,
+                                "clinched": "eliminated"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "1d29f94c-9587-494b-a232-feb20a40eb4c",
+                    "name": "Southwest",
+                    "alias": "SOUTHWEST",
+                    "teams": [
+                        {
+                            "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+                            "name": "Spurs",
+                            "market": "San Antonio",
+                            "rank": {
+                                "conference": 1,
+                                "division": 1,
+                                "clinched": "conference"
+                            }
+                        },
+                        {
+                            "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+                            "name": "Rockets",
+                            "market": "Houston",
+                            "rank": {
+                                "conference": 4,
+                                "division": 2,
+                                "clinched": "playoff_berth"
+                            }
+                        },
+                        {
+                            "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+                            "name": "Grizzlies",
+                            "market": "Memphis",
+                            "rank": {
+                                "conference": 7,
+                                "division": 3,
+                                "clinched": "playoff_berth"
+                            }
+                        },
+                        {
+                            "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c",
+                            "name": "Mavericks",
+                            "market": "Dallas",
+                            "rank": {
+                                "conference": 8,
+                                "division": 4,
+                                "clinched": "playoff_berth"
+                            }
+                        },
+                        {
+                            "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+                            "name": "Pelicans",
+                            "market": "New Orleans",
+                            "rank": {
+                                "conference": 12,
+                                "division": 5,
+                                "clinched": "eliminated"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

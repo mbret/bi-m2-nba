@@ -1,0 +1,388 @@
+{
+  "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+  "name": "Bulls",
+  "alias": "CHI",
+  "market": "Chicago",
+  "founded": 1966,
+  "venue": {
+    "id": "38911649-acfd-551a-949b-68f0fcaa44e7",
+    "name": "United Center",
+    "capacity": 20917,
+    "address": "1901 W. Madison St.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60612",
+    "country": "USA"
+  },
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "conference": {
+    "id": "3960cfac-7361-4b30-bc25-8d393de6f62f",
+    "name": "EASTERN CONFERENCE",
+    "alias": "EASTERN"
+  },
+  "division": {
+    "id": "f3aaf23a-1ceb-46ef-8fef-9403692e801b",
+    "name": "Central",
+    "alias": "CENTRAL"
+  },
+  "coaches": [
+    {
+      "id": "5def0667-a797-4c6d-8c86-96a3053017bd",
+      "full_name": "Tom Thibodeau",
+      "first_name": "Tom",
+      "last_name": "Thibodeau",
+      "position": "Head Coach",
+      "experience": "4"
+    }
+  ],
+  "players": [
+    {
+      "id": "0e163d44-67a7-4107-9421-5333600166bb",
+      "status": "ACT",
+      "full_name": "Jimmy Butler",
+      "first_name": "Jimmy",
+      "last_name": "Butler",
+      "abbr_name": "J.Butler",
+      "height": 79,
+      "weight": 220,
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "21",
+      "experience": "3",
+      "college": "Marquette",
+      "birth_place": "Houston, TX, USA",
+      "birthdate": "1989-09-14",
+      "updated": "2014-09-26T20:52:15+00:00",
+      "draft": {
+        "team_id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2011,
+        "round": "1",
+        "pick": "30"
+      }
+    },
+    {
+      "id": "26414d70-d298-4999-a391-2eee2dd7067d",
+      "status": "ACT",
+      "full_name": "Tony Snell",
+      "first_name": "Tony",
+      "last_name": "Snell",
+      "abbr_name": "T.Snell",
+      "height": 79,
+      "weight": 200,
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "20",
+      "experience": "1",
+      "college": "New Mexico",
+      "birth_place": "Los Angeles, CA, USA",
+      "birthdate": "1991-10-10",
+      "updated": "2014-09-26T21:02:05+00:00",
+      "draft": {
+        "team_id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2013,
+        "round": "1",
+        "pick": "20"
+      }
+    },
+    {
+      "id": "2ef5faba-5362-4111-98ed-22f7c639521e",
+      "status": "ACT",
+      "full_name": "Kirk Hinrich",
+      "first_name": "Kirk",
+      "last_name": "Hinrich",
+      "abbr_name": "K.Hinrich",
+      "height": 76,
+      "weight": 190,
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "12",
+      "experience": "11",
+      "college": "Kansas",
+      "birth_place": "Sioux City, IA, USA",
+      "birthdate": "1981-01-02",
+      "updated": "2014-09-26T20:54:15+00:00",
+      "draft": {
+        "team_id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2003,
+        "round": "1",
+        "pick": "7"
+      }
+    },
+    {
+      "id": "48341095-ae5a-4d61-bcc8-1b0ceed870b2",
+      "status": "ACT",
+      "full_name": "Derrick Rose",
+      "first_name": "Derrick",
+      "last_name": "Rose",
+      "abbr_name": "D.Rose",
+      "height": 75,
+      "weight": 190,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "1",
+      "experience": "5",
+      "college": "Memphis",
+      "birth_place": "Chicago, IL, USA",
+      "birthdate": "1988-10-04",
+      "updated": "2014-09-26T21:01:45+00:00",
+      "draft": {
+        "team_id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2008,
+        "round": "1",
+        "pick": "1"
+      },
+      "injuries": [
+        {
+          "id": "7e7519cf-63f8-4941-9260-93fa68f3426e",
+          "comment": "Rose will not play in Saturday's (11/15) game.",
+          "desc": "Hamstring",
+          "status": "Day To Day",
+          "start_date": "2014-11-12",
+          "update_date": "2014-11-15"
+        }
+      ]
+    },
+    {
+      "id": "4aafa7e4-d271-42d2-8979-bdefcd221d30",
+      "status": "ACT",
+      "full_name": "Pau Gasol",
+      "first_name": "Pau",
+      "last_name": "Gasol",
+      "abbr_name": "P.Gasol",
+      "height": 84,
+      "weight": 250,
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "16",
+      "experience": "13",
+      "birth_place": "Barcelona,, ESP",
+      "birthdate": "1980-07-06",
+      "updated": "2014-09-26T20:52:58+00:00",
+      "draft": {
+        "team_id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2001,
+        "round": "1",
+        "pick": "3"
+      }
+    },
+    {
+      "id": "4ec1bff7-ec1b-488b-8a24-aed83e62b4ce",
+      "status": "ACT",
+      "full_name": "Mike Dunleavy",
+      "first_name": "Mike",
+      "last_name": "Dunleavy",
+      "abbr_name": "M.Dunleavy",
+      "height": 81,
+      "weight": 230,
+      "position": "G-F",
+      "primary_position": "SF",
+      "jersey_number": "34",
+      "experience": "12",
+      "college": "Duke",
+      "birth_place": "Fort Worth, TX, USA",
+      "birthdate": "1980-09-15",
+      "updated": "2014-09-26T20:52:36+00:00",
+      "draft": {
+        "team_id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2002,
+        "round": "1",
+        "pick": "3"
+      }
+    },
+    {
+      "id": "5a854508-5f41-4009-8986-a162224c511d",
+      "status": "ACT",
+      "full_name": "E'Twaun Moore",
+      "first_name": "E'Twaun",
+      "last_name": "Moore",
+      "abbr_name": "E.Moore",
+      "height": 76,
+      "weight": 191,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "55",
+      "experience": "3",
+      "college": "Purdue",
+      "birth_place": "East Chicago, IN, USA",
+      "birthdate": "1989-02-25",
+      "updated": "2014-09-26T21:00:23+00:00",
+      "draft": {
+        "team_id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2011,
+        "round": "2",
+        "pick": "55"
+      }
+    },
+    {
+      "id": "66156be8-6202-40bd-bdc2-014a46bee28f",
+      "status": "ACT",
+      "full_name": "Doug McDermott",
+      "first_name": "Doug",
+      "last_name": "McDermott",
+      "abbr_name": "D.McDermott",
+      "height": 80,
+      "weight": 225,
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "3",
+      "experience": "0",
+      "college": "Creighton",
+      "birth_place": "Grand Forks, ND, USA",
+      "birthdate": "1992-01-03",
+      "updated": "2014-09-26T20:55:31+00:00",
+      "draft": {
+        "team_id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2014,
+        "round": "1",
+        "pick": "11"
+      }
+    },
+    {
+      "id": "84d79531-faaf-47ac-9aa9-c374567951d5",
+      "status": "ACT",
+      "full_name": "Nazr Mohammed",
+      "first_name": "Nazr",
+      "last_name": "Mohammed",
+      "abbr_name": "N.Mohammed",
+      "height": 82,
+      "weight": 250,
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "48",
+      "experience": "16",
+      "college": "Kentucky",
+      "birth_place": "Chicago, IL, USA",
+      "birthdate": "1977-09-05",
+      "updated": "2014-09-26T20:59:31+00:00",
+      "draft": {
+        "team_id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 1998,
+        "round": "1",
+        "pick": "29"
+      }
+    },
+    {
+      "id": "9c8dc8ee-6207-48d5-81ee-f362f5e17f9b",
+      "status": "ACT",
+      "full_name": "Taj Gibson",
+      "first_name": "Taj",
+      "last_name": "Gibson",
+      "abbr_name": "T.Gibson",
+      "height": 81,
+      "weight": 225,
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "22",
+      "experience": "5",
+      "college": "USC",
+      "birth_place": "Brooklyn, NY, USA",
+      "birthdate": "1985-06-24",
+      "updated": "2014-09-26T20:53:37+00:00",
+      "draft": {
+        "team_id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2009,
+        "round": "1",
+        "pick": "26"
+      }
+    },
+    {
+      "id": "b6eee153-eac4-41e5-afcb-ab46cf7a8ba8",
+      "status": "ACT",
+      "full_name": "Joakim Noah",
+      "first_name": "Joakim",
+      "last_name": "Noah",
+      "abbr_name": "J.Noah",
+      "height": 83,
+      "weight": 232,
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "13",
+      "experience": "7",
+      "college": "Florida",
+      "birth_place": "New York City, NY, USA",
+      "birthdate": "1985-02-25",
+      "updated": "2014-09-26T21:01:26+00:00",
+      "draft": {
+        "team_id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2007,
+        "round": "1",
+        "pick": "9"
+      }
+    },
+    {
+      "id": "b838cbad-0877-4189-ba3d-039962da7ebd",
+      "status": "ACT",
+      "full_name": "Aaron Brooks",
+      "first_name": "Aaron",
+      "last_name": "Brooks",
+      "abbr_name": "A.Brooks",
+      "height": 72,
+      "weight": 161,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "experience": "6",
+      "college": "Oregon",
+      "birth_place": "Seattle, WA, USA",
+      "birthdate": "1985-01-14",
+      "updated": "2014-09-26T20:51:27+00:00",
+      "draft": {
+        "team_id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2007,
+        "round": "1",
+        "pick": "26"
+      }
+    },
+    {
+      "id": "ca6e9e9a-3d47-422d-bc1e-2dcf6deba5ca",
+      "status": "ACT",
+      "full_name": "Nikola Mirotic",
+      "first_name": "Nikola",
+      "last_name": "Mirotic",
+      "abbr_name": "N.Mirotic",
+      "height": 82,
+      "weight": 220,
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "44",
+      "experience": "0",
+      "birth_place": "Titograd,, Montenegro",
+      "birthdate": "1994-02-01",
+      "updated": "2014-09-26T20:58:37+00:00",
+      "draft": {
+        "team_id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2008,
+        "round": "1",
+        "pick": "23"
+      }
+    },
+    {
+      "id": "d98a598a-5ef5-4194-9fb2-c400370151be",
+      "status": "ACT",
+      "full_name": "Cameron Bairstow",
+      "first_name": "Cameron",
+      "last_name": "Bairstow",
+      "abbr_name": "C.Bairstow",
+      "height": 81,
+      "weight": 250,
+      "position": "F-C",
+      "primary_position": "C",
+      "jersey_number": "41",
+      "experience": "0",
+      "college": "New Mexico",
+      "birth_place": "Brisbane,, AUS",
+      "birthdate": "1990-12-07",
+      "updated": "2014-11-11T18:54:11+00:00",
+      "draft": {
+        "team_id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2014,
+        "round": "2",
+        "pick": "49"
+      }
+    }
+  ]
+}
