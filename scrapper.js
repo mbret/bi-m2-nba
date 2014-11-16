@@ -16,7 +16,7 @@ async.series([
 
     function(callback){
         extractInjuriesFromAPI(function(err){
-            callback(err);
+            return callback(err);
         });
     },
 
@@ -26,10 +26,16 @@ async.series([
 //        });
 //    },
 
+//    function(callback){
+//        extractAllPlayerProfileFromAPI(function(err){
+//            callback(err);
+//        });
+//    },
+
     function(callback){
-        extractAllPlayerProfileFromAPI(function(err){
-            callback(err);
-        });
+        extractScheduleFromAPI(function(err){
+            return callback(err);
+        })
     }
 ],
 function(err, results) {
@@ -39,6 +45,59 @@ function(err, results) {
     console.log('End of program');
 });
 
+
+function extractScheduleFromAPI( callback ){
+
+
+    var tasks = [];
+
+    // 2014, 2013, 2012
+    var tick = 0;
+    for(var i = 2012; i<= 2014; i++){
+        tick++;
+        doCall(i, 'pre', tick);
+        tick++;
+        doCall(i, 'reg', tick);
+        tick++;
+        doCall(i, 'pst', tick);
+    }
+
+
+    function doCall( year, nba_season, tick ){
+        setTimeout(function(){
+            console.log('/nba-t3/games/' + year + '/' + nba_season + '/schedule.json?api_key=' + keys[usedKey]);
+            var request = http.request(
+                {
+                    host: host,
+                    port: 80,
+                    path: '/nba-t3/games/' + year + '/' + nba_season + '/schedule.json?api_key=' + keys[usedKey]
+                },
+                function(response) {
+                    var str = '';
+
+                    //another chunk of data has been recieved, so append it to `str`
+                    response.on('data', function (chunk) {
+                        str += chunk;
+                    });
+
+                    //the whole response has been recieved, so we just print it out here
+                    response.on('end', function () {
+
+                        var obj2 = JSON.parse(str);
+                        jf.writeFileSync(extractedPath + '/schedules/' + year + '_'+nba_season+'.json', obj2);
+
+                        return callback(null);
+                    });
+                }
+            );
+            request.on('error', function(err) {
+                return callback(err);
+            });
+            request.end();
+        , 3000 * tick});
+    }
+
+}
 
 
 function extractInjuriesFromAPI( callback ){
