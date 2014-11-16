@@ -1,0 +1,431 @@
+{
+  "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+  "name": "Magic",
+  "alias": "ORL",
+  "market": "Orlando",
+  "founded": 1989,
+  "venue": {
+    "id": "aecd8da6-0404-599c-a792-4b33fb084a2a",
+    "name": "Amway Center",
+    "capacity": 18846,
+    "address": "400 W. Church St.",
+    "city": "Orlando",
+    "state": "FL",
+    "zip": "32801",
+    "country": "USA"
+  },
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "conference": {
+    "id": "3960cfac-7361-4b30-bc25-8d393de6f62f",
+    "name": "EASTERN CONFERENCE",
+    "alias": "EASTERN"
+  },
+  "division": {
+    "id": "54dc7348-c1d2-40d8-88b3-c4c0138e085d",
+    "name": "Southeast",
+    "alias": "SOUTHEAST"
+  },
+  "coaches": [
+    {
+      "id": "519e77cd-0abf-4cd8-b0ef-ec3625d99e8c",
+      "full_name": "Jacque Vaughn",
+      "first_name": "Jacque",
+      "last_name": "Vaughn",
+      "position": "Head Coach",
+      "experience": "2"
+    }
+  ],
+  "players": [
+    {
+      "id": "1a3d62c9-f569-4019-9f0e-6b99afe628a0",
+      "status": "ACT",
+      "full_name": "Luke Ridnour",
+      "first_name": "Luke",
+      "last_name": "Ridnour",
+      "abbr_name": "L.Ridnour",
+      "height": 74,
+      "weight": 175,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "13",
+      "experience": "10",
+      "college": "Oregon",
+      "birth_place": "Coeur d' Alene, ID, USA",
+      "birthdate": "1981-02-13",
+      "updated": "2014-10-07T22:17:18+00:00",
+      "draft": {
+        "team_id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2003,
+        "round": "1",
+        "pick": "14"
+      }
+    },
+    {
+      "id": "20f85838-0bd5-4c1f-ab85-a308bafaf5bc",
+      "status": "ACT",
+      "full_name": "Aaron Gordon",
+      "first_name": "Aaron",
+      "last_name": "Gordon",
+      "abbr_name": "A.Gordon",
+      "height": 81,
+      "weight": 220,
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "00",
+      "experience": "0",
+      "college": "Arizona",
+      "birth_place": "San Jose, CA, USA",
+      "birthdate": "1995-09-16",
+      "updated": "2014-08-04T22:17:53+00:00",
+      "draft": {
+        "team_id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2014,
+        "round": "1",
+        "pick": "4"
+      },
+      "injuries": [
+        {
+          "id": "1cb9b355-d98c-456d-b81f-f3dee6b1282a",
+          "comment": "Gordon was seen Saturday night wearing a walking boot but no injury has been reported.",
+          "desc": "Unknown",
+          "status": "Unknown",
+          "start_date": "2014-11-15",
+          "update_date": "2014-11-15"
+        }
+      ]
+    },
+    {
+      "id": "4d3a5b96-f4e1-424f-b8e2-1995b0eaa5d7",
+      "status": "ACT",
+      "full_name": "Channing Frye",
+      "first_name": "Channing",
+      "last_name": "Frye",
+      "abbr_name": "C.Frye",
+      "height": 83,
+      "weight": 245,
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "8",
+      "experience": "7",
+      "college": "Arizona",
+      "birth_place": "White Plains, NY, USA",
+      "birthdate": "1983-05-17",
+      "updated": "2014-08-04T22:17:40+00:00",
+      "draft": {
+        "team_id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2005,
+        "round": "1",
+        "pick": "8"
+      }
+    },
+    {
+      "id": "598d0707-7042-497b-9846-93cde9a420d7",
+      "status": "ACT",
+      "full_name": "Willie Green",
+      "first_name": "Willie",
+      "last_name": "Green",
+      "abbr_name": "W.Green",
+      "height": 75,
+      "weight": 201,
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "34",
+      "experience": "10",
+      "college": "Detroit Mercy",
+      "birth_place": "Detroit, MI, USA",
+      "birthdate": "1981-07-28",
+      "updated": "2014-10-07T22:17:49+00:00",
+      "draft": {
+        "team_id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2003,
+        "round": "2",
+        "pick": "41"
+      }
+    },
+    {
+      "id": "5fe45e9e-7401-4896-8883-5f969361dbb7",
+      "status": "ACT",
+      "full_name": "Elfrid Payton",
+      "first_name": "Elfrid",
+      "last_name": "Payton",
+      "abbr_name": "E.Payton",
+      "height": 75,
+      "weight": 190,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "4",
+      "experience": "0",
+      "college": "Louisiana–Lafayette",
+      "birth_place": "Gretna, LA, USA",
+      "birthdate": "1994-02-22",
+      "updated": "2014-08-04T22:18:53+00:00",
+      "draft": {
+        "team_id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2014,
+        "round": "1",
+        "pick": "10"
+      }
+    },
+    {
+      "id": "7366b2b7-5959-4dd9-9204-760e861b3119",
+      "status": "ACT",
+      "full_name": "Nikola Vucevic",
+      "first_name": "Nikola",
+      "last_name": "Vucevic",
+      "abbr_name": "N.Vucevic",
+      "height": 84,
+      "weight": 250,
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "9",
+      "experience": "2",
+      "college": "USC",
+      "birth_place": "Morges,, CHE",
+      "birthdate": "1990-10-24",
+      "updated": "2013-11-08T21:16:44+00:00",
+      "draft": {
+        "team_id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2011,
+        "round": "1",
+        "pick": "16"
+      }
+    },
+    {
+      "id": "82f09975-6a8d-42e4-b42c-a52b9349ed50",
+      "status": "ACT",
+      "full_name": "Tobias Harris",
+      "first_name": "Tobias",
+      "last_name": "Harris",
+      "abbr_name": "T.Harris",
+      "height": 81,
+      "weight": 235,
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "12",
+      "experience": "2",
+      "college": "Tennessee",
+      "birth_place": "Islip, NY, USA",
+      "birthdate": "1992-07-15",
+      "updated": "2013-11-08T21:14:57+00:00",
+      "draft": {
+        "team_id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2011,
+        "round": "1",
+        "pick": "19"
+      }
+    },
+    {
+      "id": "8f4b695b-36d0-4801-bebd-c94c1315a590",
+      "status": "ACT",
+      "full_name": "Andrew Nicholson",
+      "first_name": "Andrew",
+      "last_name": "Nicholson",
+      "abbr_name": "A.Nicholson",
+      "height": 81,
+      "weight": 250,
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "44",
+      "experience": "1",
+      "college": "St. Bonaventure",
+      "birth_place": "Mississauga, ONT, CAN",
+      "birthdate": "1989-12-08",
+      "updated": "2013-07-23T15:19:40+00:00",
+      "draft": {
+        "team_id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2012,
+        "round": "1",
+        "pick": "19"
+      }
+    },
+    {
+      "id": "a98c111a-5145-4b0d-aaa7-a2d6024e1e31",
+      "status": "ACT",
+      "full_name": "Devyn Marble",
+      "first_name": "Devyn",
+      "last_name": "Marble",
+      "abbr_name": "D.Marble",
+      "height": 79,
+      "weight": 192,
+      "position": "G-F",
+      "primary_position": "SF",
+      "jersey_number": "11",
+      "experience": "0",
+      "college": "Iowa",
+      "birth_place": "Southfield, MI, USA",
+      "birthdate": "1992-09-21",
+      "updated": "2014-11-11T13:52:25+00:00",
+      "draft": {
+        "team_id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2014,
+        "round": "2",
+        "pick": "56"
+      },
+      "injuries": [
+        {
+          "id": "0037da26-765e-4242-b02d-049d9bb8d118",
+          "comment": "Marble could miss a few more weeks.",
+          "desc": "Rotator Cuff",
+          "status": "Out",
+          "start_date": "2014-11-09",
+          "update_date": "2014-11-13"
+        }
+      ]
+    },
+    {
+      "id": "ae9e275c-9dce-4c10-a108-cfee6958df48",
+      "status": "ACT",
+      "full_name": "Victor Oladipo",
+      "first_name": "Victor",
+      "last_name": "Oladipo",
+      "abbr_name": "V.Oladipo",
+      "height": 76,
+      "weight": 215,
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "5",
+      "experience": "0",
+      "college": "Indiana",
+      "birth_place": "Upper Marlboro, MD, USA",
+      "birthdate": "1992-05-04",
+      "updated": "2013-07-23T15:21:30+00:00",
+      "draft": {
+        "team_id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2013,
+        "round": "1",
+        "pick": "2"
+      }
+    },
+    {
+      "id": "b736d95c-8474-48b2-9000-24ce926eace3",
+      "status": "ACT",
+      "full_name": "Evan Fournier",
+      "first_name": "Evan",
+      "last_name": "Fournier",
+      "abbr_name": "E.Fournier",
+      "height": 78,
+      "weight": 200,
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "10",
+      "experience": "1",
+      "college": "France",
+      "birth_place": "Saint-Maurice,, FRA",
+      "birthdate": "1992-10-29",
+      "updated": "2014-10-07T22:18:11+00:00",
+      "draft": {
+        "team_id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2012,
+        "round": "1",
+        "pick": "20"
+      }
+    },
+    {
+      "id": "b8a77045-a325-4ac1-ad9c-d065ec1f41a4",
+      "status": "ACT",
+      "full_name": "Dewayne Dedmon",
+      "first_name": "Dewayne",
+      "last_name": "Dedmon",
+      "abbr_name": "D.Dedmon",
+      "height": 84,
+      "weight": 255,
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "3",
+      "experience": "0",
+      "college": "USC",
+      "birth_place": "Lancaster, CA, USA",
+      "birthdate": "1989-08-12",
+      "updated": "2014-02-26T17:31:38+00:00",
+      "draft": {
+        "year": 2013
+      }
+    },
+    {
+      "id": "dc4004c4-654d-45d4-b07b-0d2117d140d2",
+      "status": "ACT",
+      "full_name": "Ben Gordon",
+      "first_name": "Ben",
+      "last_name": "Gordon",
+      "abbr_name": "B.Gordon",
+      "height": 75,
+      "weight": 200,
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "7",
+      "experience": "9",
+      "college": "Connecticut",
+      "birth_place": "London,, GBR",
+      "birthdate": "1983-04-04",
+      "updated": "2014-10-07T22:17:58+00:00",
+      "draft": {
+        "team_id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2004,
+        "round": "1",
+        "pick": "3"
+      }
+    },
+    {
+      "id": "df6f21d3-5221-42e2-945b-8fe7cebdf03e",
+      "status": "ACT",
+      "full_name": "Maurice Harkless",
+      "first_name": "Maurice",
+      "last_name": "Harkless",
+      "abbr_name": "M.Harkless",
+      "height": 81,
+      "weight": 220,
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "21",
+      "experience": "1",
+      "college": "St. John's (N.Y.)",
+      "birth_place": "New York City, NY, USA",
+      "birthdate": "1993-05-11",
+      "updated": "2014-10-29T19:35:40+00:00",
+      "draft": {
+        "team_id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2012,
+        "round": "1",
+        "pick": "15"
+      }
+    },
+    {
+      "id": "e58427b6-c42e-4bee-9556-4eed421d1cf7",
+      "status": "ACT",
+      "full_name": "Kyle O'Quinn",
+      "first_name": "Kyle",
+      "last_name": "O'Quinn",
+      "abbr_name": "K.O'Quinn",
+      "height": 82,
+      "weight": 250,
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "2",
+      "experience": "1",
+      "college": "Norfolk State",
+      "birth_place": "Queens, NY, USA",
+      "birthdate": "1990-03-26",
+      "updated": "2013-11-08T21:16:08+00:00",
+      "draft": {
+        "team_id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2012,
+        "round": "2",
+        "pick": "49"
+      },
+      "injuries": [
+        {
+          "id": "b5169fa4-635b-401c-9ac3-63a57a3e3127",
+          "comment": "O'Quinn will not play until at least Wednesday (11/19)",
+          "desc": "Ankle",
+          "status": "Out",
+          "start_date": "2014-10-30",
+          "update_date": "2014-11-14"
+        }
+      ]
+    }
+  ]
+}

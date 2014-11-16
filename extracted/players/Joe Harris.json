@@ -1,0 +1,102 @@
+{
+  "id": "766d6b8b-4211-46a3-ae57-2c1c915e538b",
+  "status": "ACT",
+  "full_name": "Joe Harris",
+  "first_name": "Joe",
+  "last_name": "Harris",
+  "abbr_name": "J.Harris",
+  "height": 78,
+  "weight": 215,
+  "position": "G",
+  "primary_position": "SG",
+  "jersey_number": "12",
+  "experience": "0",
+  "college": "Virginia",
+  "birth_place": "Chelan, VA, USA",
+  "birthdate": "1991-09-07",
+  "updated": "2014-11-11T19:04:02+00:00",
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "team": {
+    "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+    "name": "Cavaliers",
+    "market": "Cleveland",
+    "alias": "CLE"
+  },
+  "draft": {
+    "team_id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+    "year": 2014,
+    "round": "2",
+    "pick": "33"
+  },
+  "seasons": [
+    {
+      "id": "fb89a852-3f68-4505-85b0-19b428b261d5",
+      "year": 2014,
+      "type": "REG",
+      "teams": [
+        {
+          "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+          "name": "Cavaliers",
+          "market": "Cleveland",
+          "alias": "CLE",
+          "total": {
+            "games_played": 6,
+            "games_started": 0,
+            "minutes": 68,
+            "field_goals_made": 8,
+            "field_goals_att": 17,
+            "three_points_made": 6,
+            "three_points_att": 12,
+            "blocked_att": 1,
+            "free_throws_made": 3,
+            "free_throws_att": 3,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 9,
+            "assists": 6,
+            "turnovers": 5,
+            "steals": 2,
+            "blocks": 0,
+            "personal_fouls": 12,
+            "tech_fouls": 0,
+            "points": 25,
+            "flagrant_fouls": 0,
+            "free_throws_pct": 1,
+            "two_points_pct": 0.4,
+            "three_points_pct": 0.5,
+            "field_goals_pct": 0.471,
+            "rebounds": 9,
+            "assists_turnover_ratio": 1.2,
+            "two_points_made": 2,
+            "two_points_att": 5
+          },
+          "average": {
+            "points": 4.2,
+            "blocked_att": 0.17,
+            "turnovers": 0.83,
+            "free_throws_att": 0.5,
+            "field_goals_att": 2.83,
+            "off_rebounds": 0,
+            "two_points_att": 0.83,
+            "assists": 1,
+            "blocks": 0,
+            "personal_fouls": 2,
+            "two_points_made": 0.33,
+            "flagrant_fouls": 0,
+            "rebounds": 1.5,
+            "three_points_made": 1,
+            "minutes": 11.3,
+            "def_rebounds": 1.5,
+            "free_throws_made": 0.5,
+            "field_goals_made": 1.33,
+            "steals": 0.33,
+            "three_points_att": 2
+          }
+        }
+      ]
+    }
+  ]
+}

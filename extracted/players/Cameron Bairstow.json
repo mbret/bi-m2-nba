@@ -1,0 +1,102 @@
+{
+  "id": "d98a598a-5ef5-4194-9fb2-c400370151be",
+  "status": "ACT",
+  "full_name": "Cameron Bairstow",
+  "first_name": "Cameron",
+  "last_name": "Bairstow",
+  "abbr_name": "C.Bairstow",
+  "height": 81,
+  "weight": 250,
+  "position": "F-C",
+  "primary_position": "C",
+  "jersey_number": "41",
+  "experience": "0",
+  "college": "New Mexico",
+  "birth_place": "Brisbane,, AUS",
+  "birthdate": "1990-12-07",
+  "updated": "2014-11-11T18:54:11+00:00",
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "team": {
+    "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+    "name": "Bulls",
+    "market": "Chicago",
+    "alias": "CHI"
+  },
+  "draft": {
+    "team_id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+    "year": 2014,
+    "round": "2",
+    "pick": "49"
+  },
+  "seasons": [
+    {
+      "id": "fb89a852-3f68-4505-85b0-19b428b261d5",
+      "year": 2014,
+      "type": "REG",
+      "teams": [
+        {
+          "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+          "name": "Bulls",
+          "market": "Chicago",
+          "alias": "CHI",
+          "total": {
+            "games_played": 1,
+            "games_started": 0,
+            "minutes": 4,
+            "field_goals_made": 0,
+            "field_goals_att": 1,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "blocked_att": 0,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 0,
+            "assists": 0,
+            "turnovers": 1,
+            "steals": 0,
+            "blocks": 0,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "points": 0,
+            "flagrant_fouls": 0,
+            "free_throws_pct": 0,
+            "two_points_pct": 0,
+            "three_points_pct": 0,
+            "field_goals_pct": 0,
+            "rebounds": 0,
+            "assists_turnover_ratio": 0,
+            "two_points_made": 0,
+            "two_points_att": 1
+          },
+          "average": {
+            "points": 0,
+            "blocked_att": 0,
+            "turnovers": 1,
+            "free_throws_att": 0,
+            "field_goals_att": 1,
+            "off_rebounds": 0,
+            "two_points_att": 1,
+            "assists": 0,
+            "blocks": 0,
+            "personal_fouls": 0,
+            "two_points_made": 0,
+            "flagrant_fouls": 0,
+            "rebounds": 0,
+            "three_points_made": 0,
+            "minutes": 4,
+            "def_rebounds": 0,
+            "free_throws_made": 0,
+            "field_goals_made": 0,
+            "steals": 0,
+            "three_points_att": 0
+          }
+        }
+      ]
+    }
+  ]
+}

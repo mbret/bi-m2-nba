@@ -1,0 +1,419 @@
+{
+  "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+  "name": "Rockets",
+  "alias": "HOU",
+  "market": "Houston",
+  "founded": 1967,
+  "venue": {
+    "id": "5b239206-57ce-50aa-baaa-627f3349dfdc",
+    "name": "Toyota Center",
+    "capacity": 18043,
+    "address": "1510 Polk St.",
+    "city": "Houston",
+    "state": "TX",
+    "zip": "77002",
+    "country": "USA"
+  },
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "conference": {
+    "id": "7fe7e212-de01-4f8f-a31d-b9f0a95731e3",
+    "name": "WESTERN CONFERENCE",
+    "alias": "WESTERN"
+  },
+  "division": {
+    "id": "1d29f94c-9587-494b-a232-feb20a40eb4c",
+    "name": "Southwest",
+    "alias": "SOUTHWEST"
+  },
+  "coaches": [
+    {
+      "id": "5b5608a5-177d-4e65-8142-4f2149c5c5c3",
+      "full_name": "Kevin McHale",
+      "first_name": "Kevin",
+      "last_name": "McHale",
+      "position": "Head Coach",
+      "experience": "5"
+    }
+  ],
+  "players": [
+    {
+      "id": "39975493-d411-4d59-a015-8119c6c6e6ef",
+      "status": "ACT",
+      "full_name": "Terrence Jones",
+      "first_name": "Terrence",
+      "last_name": "Jones",
+      "abbr_name": "T.Jones",
+      "height": 81,
+      "weight": 252,
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "6",
+      "experience": "1",
+      "college": "Kentucky",
+      "birth_place": "Portland, OR, USA",
+      "birthdate": "1992-01-09",
+      "updated": "2013-07-22T17:03:11+00:00",
+      "draft": {
+        "team_id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2012,
+        "round": "1",
+        "pick": "18"
+      },
+      "injuries": [
+        {
+          "id": "7b56ac1d-c5b1-46ac-80f2-26c60f2556f0",
+          "comment": "Jones has been ruled out for Friday's (11/14) game.",
+          "desc": "Leg",
+          "status": "Day To Day",
+          "start_date": "2014-11-04",
+          "update_date": "2014-11-14"
+        }
+      ]
+    },
+    {
+      "id": "562677c1-2a13-4934-a801-a6c88c619e83",
+      "status": "ACT",
+      "full_name": "Troy Daniels",
+      "first_name": "Troy",
+      "last_name": "Daniels",
+      "abbr_name": "T.Daniels",
+      "height": 76,
+      "weight": 200,
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "30",
+      "experience": "0",
+      "college": "VCU",
+      "birth_place": "Roanoke, VA",
+      "birthdate": "1991-07-15",
+      "updated": "2014-04-10T02:58:53+00:00",
+      "draft": {
+        "year": 2013
+      }
+    },
+    {
+      "id": "8641c4fe-b822-45e5-998a-13b85b30e215",
+      "status": "ACT",
+      "full_name": "Jason Terry",
+      "first_name": "Jason",
+      "last_name": "Terry",
+      "abbr_name": "J.Terry",
+      "height": 74,
+      "weight": 180,
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "31",
+      "experience": "14",
+      "college": "Arizona",
+      "birth_place": "Seattle, WA, USA",
+      "birthdate": "1977-09-15",
+      "updated": "2014-10-07T22:23:39+00:00",
+      "draft": {
+        "team_id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 1999,
+        "round": "1",
+        "pick": "10"
+      }
+    },
+    {
+      "id": "8d7da9a1-22b3-40a4-b6f1-caae9c956b6a",
+      "status": "ACT",
+      "full_name": "Donatas Motiejunas",
+      "first_name": "Donatas",
+      "last_name": "Motiejunas",
+      "abbr_name": "D.Motiejunas",
+      "height": 84,
+      "weight": 222,
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "20",
+      "experience": "1",
+      "college": "Kaunas (Lithuania)",
+      "birth_place": "Kaunas,, LTU",
+      "birthdate": "1990-09-20",
+      "updated": "2014-01-20T19:00:57+00:00",
+      "draft": {
+        "team_id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2011,
+        "round": "1",
+        "pick": "20"
+      }
+    },
+    {
+      "id": "912e7aa3-dd03-4a98-9980-0442e108f287",
+      "status": "ACT",
+      "full_name": "Patrick Beverley",
+      "first_name": "Patrick",
+      "last_name": "Beverley",
+      "abbr_name": "P.Beverley",
+      "height": 73,
+      "weight": 185,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "2",
+      "experience": "1",
+      "college": "Arkansas",
+      "birth_place": "Chicago, IL, USA",
+      "birthdate": "1988-07-12",
+      "updated": "2013-09-09T19:00:33+00:00",
+      "draft": {
+        "team_id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2009,
+        "round": "2",
+        "pick": "42"
+      },
+      "injuries": [
+        {
+          "id": "922135c5-8025-4daa-9d29-eeb6e133fc4f",
+          "comment": "Beverley is expected to play in Sunday's (11/16) game.",
+          "desc": "Hamstring",
+          "status": "Out",
+          "start_date": "2014-10-29",
+          "update_date": "2014-11-15"
+        }
+      ]
+    },
+    {
+      "id": "9392d5b6-3dbf-4375-8fdd-4dafaae6ede4",
+      "status": "ACT",
+      "full_name": "Trevor Ariza",
+      "first_name": "Trevor",
+      "last_name": "Ariza",
+      "abbr_name": "T.Ariza",
+      "height": 80,
+      "weight": 220,
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "1",
+      "experience": "9",
+      "college": "UCLA",
+      "birth_place": "Miami, FL, USA",
+      "birthdate": "1985-06-30",
+      "updated": "2014-10-07T22:23:58+00:00",
+      "draft": {
+        "team_id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2004,
+        "round": "2",
+        "pick": "43"
+      }
+    },
+    {
+      "id": "98a43535-8643-45ff-a954-2afecb418a9d",
+      "status": "ACT",
+      "full_name": "Isaiah Canaan",
+      "first_name": "Isaiah",
+      "last_name": "Canaan",
+      "abbr_name": "I.Canaan",
+      "height": 72,
+      "weight": 188,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "experience": "0",
+      "college": "Murray State",
+      "birth_place": "Biloxi, MS",
+      "birthdate": "1991-05-02",
+      "updated": "2014-10-07T22:24:23+00:00",
+      "draft": {
+        "team_id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2013,
+        "round": "2",
+        "pick": "34"
+      }
+    },
+    {
+      "id": "98ec8372-22fd-4ab4-88f2-94b47df7cb58",
+      "status": "ACT",
+      "full_name": "Nick Johnson",
+      "first_name": "Nick",
+      "last_name": "Johnson",
+      "abbr_name": "N.Johnson",
+      "height": 75,
+      "weight": 198,
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "3",
+      "experience": "0",
+      "college": "Arizona",
+      "birth_place": "Gilbert, AZ, USA",
+      "birthdate": "1992-12-22",
+      "updated": "2014-11-11T19:03:31+00:00",
+      "draft": {
+        "team_id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2014,
+        "round": "2",
+        "pick": "42"
+      }
+    },
+    {
+      "id": "9f4fea8a-52e6-4243-8a66-3857663b7c38",
+      "status": "ACT",
+      "full_name": "Tarik Black",
+      "first_name": "Tarik",
+      "last_name": "Black",
+      "abbr_name": "T.Black",
+      "height": 81,
+      "weight": 260,
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "10",
+      "experience": "0",
+      "college": "Kansas",
+      "birth_place": "Memphis, TN, USA",
+      "birthdate": "1991-11-22",
+      "updated": "2014-10-07T22:22:40+00:00",
+      "draft": {
+        "year": 2014
+      },
+      "injuries": [
+        {
+          "id": "8784f852-f35d-480c-a78b-6910d8b67bbf",
+          "comment": "Black is questionable to play in Sunday's (11/16) after suffering an injury in practice.",
+          "desc": "Leg Contusion",
+          "status": "Day To Day",
+          "start_date": "2014-11-15",
+          "update_date": "2014-11-15"
+        }
+      ]
+    },
+    {
+      "id": "a52b2c84-9c3d-4d6e-8a3b-10e75d11c2bc",
+      "status": "ACT",
+      "full_name": "James Harden",
+      "first_name": "James",
+      "last_name": "Harden",
+      "abbr_name": "J.Harden",
+      "height": 77,
+      "weight": 220,
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "13",
+      "experience": "4",
+      "college": "Arizona State",
+      "birth_place": "Los Angeles, CA, USA",
+      "birthdate": "1989-08-26",
+      "updated": "2013-09-09T19:06:29+00:00",
+      "draft": {
+        "team_id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2009,
+        "round": "1",
+        "pick": "3"
+      }
+    },
+    {
+      "id": "a764ea7a-2209-4ff3-af9c-f97d9ac00333",
+      "status": "ACT",
+      "full_name": "Kostas Papanikolaou",
+      "first_name": "Kostas",
+      "last_name": "Papanikolaou",
+      "abbr_name": "K.Papanikolaou",
+      "height": 81,
+      "weight": 230,
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "16",
+      "experience": "0",
+      "birth_place": "Trikala,,GRE",
+      "birthdate": "1990-07-31",
+      "updated": "2014-08-08T22:47:06+00:00",
+      "draft": {
+        "team_id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2012,
+        "round": "2",
+        "pick": "48"
+      }
+    },
+    {
+      "id": "ae8df356-5e57-43e7-be4d-5ec7663312bd",
+      "status": "ACT",
+      "full_name": "Dwight Howard",
+      "first_name": "Dwight",
+      "last_name": "Howard",
+      "abbr_name": "D.Howard",
+      "height": 83,
+      "weight": 265,
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "12",
+      "experience": "9",
+      "college": "SW Atlanta Christian Academy (GA)",
+      "birth_place": "Atlanta, GA, USA",
+      "birthdate": "1985-12-08",
+      "updated": "2013-07-31T16:39:21+00:00",
+      "draft": {
+        "team_id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2004,
+        "round": "1",
+        "pick": "1"
+      }
+    },
+    {
+      "id": "b9f31942-1870-4f61-a9dd-48508a8e07cb",
+      "status": "ACT",
+      "full_name": "Joey Dorsey",
+      "first_name": "Joey",
+      "last_name": "Dorsey",
+      "abbr_name": "J.Dorsey",
+      "height": 80,
+      "weight": 268,
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "8",
+      "college": "Memphis",
+      "birth_place": "Baltimore, MD",
+      "birthdate": "1983-12-16",
+      "updated": "2014-10-07T22:23:23+00:00"
+    },
+    {
+      "id": "c37dafbb-a269-41f6-813f-bdb4da388203",
+      "status": "D-LEAGUE",
+      "full_name": "Clint Capela",
+      "first_name": "Clint",
+      "last_name": "Capela",
+      "abbr_name": "C.Capela",
+      "height": 82,
+      "weight": 211,
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "15",
+      "experience": "0",
+      "birth_place": "Geneva,, CHE",
+      "birthdate": "1994-05-18",
+      "updated": "2014-11-15T01:17:57+00:00",
+      "draft": {
+        "team_id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2014,
+        "round": "1",
+        "pick": "25"
+      }
+    },
+    {
+      "id": "e0ac1008-1bff-43ab-8416-5d8ff755b392",
+      "status": "ACT",
+      "full_name": "Francisco Garcia",
+      "first_name": "Francisco",
+      "last_name": "Garcia",
+      "abbr_name": "F.Garcia",
+      "height": 79,
+      "weight": 195,
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "32",
+      "experience": "8",
+      "college": "Louisville",
+      "birth_place": "Santo Domingo,, DOM",
+      "birthdate": "1980-12-31",
+      "updated": "2013-07-22T17:00:25+00:00",
+      "draft": {
+        "team_id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2005,
+        "round": "1",
+        "pick": "23"
+      }
+    }
+  ]
+}

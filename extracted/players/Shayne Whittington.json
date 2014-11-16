@@ -1,0 +1,95 @@
+{
+  "id": "15fc95b7-5f6d-4d71-beda-7d9605a0187b",
+  "status": "ACT",
+  "full_name": "Shayne Whittington",
+  "first_name": "Shayne",
+  "last_name": "Whittington",
+  "abbr_name": "S.Whittington",
+  "height": 83,
+  "weight": 237,
+  "position": "C-F",
+  "primary_position": "PF",
+  "jersey_number": "42",
+  "college": "Western Michigan",
+  "birth_place": "Paw Paw, MI",
+  "birthdate": "1991-03-03",
+  "updated": "2014-10-07T21:27:21+00:00",
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "team": {
+    "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+    "name": "Pacers",
+    "market": "Indiana",
+    "alias": "IND"
+  },
+  "seasons": [
+    {
+      "id": "fb89a852-3f68-4505-85b0-19b428b261d5",
+      "year": 2014,
+      "type": "REG",
+      "teams": [
+        {
+          "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+          "name": "Pacers",
+          "market": "Indiana",
+          "alias": "IND",
+          "total": {
+            "games_played": 2,
+            "games_started": 0,
+            "minutes": 20,
+            "field_goals_made": 2,
+            "field_goals_att": 5,
+            "three_points_made": 1,
+            "three_points_att": 2,
+            "blocked_att": 0,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 7,
+            "assists": 2,
+            "turnovers": 1,
+            "steals": 0,
+            "blocks": 1,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "points": 5,
+            "flagrant_fouls": 0,
+            "free_throws_pct": 0,
+            "two_points_pct": 0.333,
+            "three_points_pct": 0.5,
+            "field_goals_pct": 0.4,
+            "rebounds": 8,
+            "assists_turnover_ratio": 2,
+            "two_points_made": 1,
+            "two_points_att": 3
+          },
+          "average": {
+            "points": 2.5,
+            "blocked_att": 0,
+            "turnovers": 0.5,
+            "free_throws_att": 0,
+            "field_goals_att": 2.5,
+            "off_rebounds": 0.5,
+            "two_points_att": 1.5,
+            "assists": 1,
+            "blocks": 0.5,
+            "personal_fouls": 1.5,
+            "two_points_made": 0.5,
+            "flagrant_fouls": 0,
+            "rebounds": 4,
+            "three_points_made": 0.5,
+            "minutes": 10,
+            "def_rebounds": 3.5,
+            "free_throws_made": 0,
+            "field_goals_made": 1,
+            "steals": 0,
+            "three_points_att": 1
+          }
+        }
+      ]
+    }
+  ]
+}

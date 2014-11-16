@@ -1,0 +1,99 @@
+{
+  "id": "9f4fea8a-52e6-4243-8a66-3857663b7c38",
+  "status": "ACT",
+  "full_name": "Tarik Black",
+  "first_name": "Tarik",
+  "last_name": "Black",
+  "abbr_name": "T.Black",
+  "height": 81,
+  "weight": 260,
+  "position": "F",
+  "primary_position": "PF",
+  "jersey_number": "10",
+  "experience": "0",
+  "college": "Kansas",
+  "birth_place": "Memphis, TN, USA",
+  "birthdate": "1991-11-22",
+  "updated": "2014-10-07T22:22:40+00:00",
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "team": {
+    "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+    "name": "Rockets",
+    "market": "Houston",
+    "alias": "HOU"
+  },
+  "draft": {
+    "year": 2014
+  },
+  "seasons": [
+    {
+      "id": "fb89a852-3f68-4505-85b0-19b428b261d5",
+      "year": 2014,
+      "type": "REG",
+      "teams": [
+        {
+          "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+          "name": "Rockets",
+          "market": "Houston",
+          "alias": "HOU",
+          "total": {
+            "games_played": 7,
+            "games_started": 1,
+            "minutes": 92,
+            "field_goals_made": 8,
+            "field_goals_att": 17,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "blocked_att": 1,
+            "free_throws_made": 3,
+            "free_throws_att": 8,
+            "offensive_rebounds": 10,
+            "defensive_rebounds": 12,
+            "assists": 1,
+            "turnovers": 4,
+            "steals": 1,
+            "blocks": 1,
+            "personal_fouls": 18,
+            "tech_fouls": 0,
+            "points": 19,
+            "flagrant_fouls": 0,
+            "free_throws_pct": 0.375,
+            "two_points_pct": 0.471,
+            "three_points_pct": 0,
+            "field_goals_pct": 0.471,
+            "rebounds": 22,
+            "assists_turnover_ratio": 0.25,
+            "two_points_made": 8,
+            "two_points_att": 17
+          },
+          "average": {
+            "points": 2.7,
+            "blocked_att": 0.14,
+            "turnovers": 0.57,
+            "free_throws_att": 1.14,
+            "field_goals_att": 2.43,
+            "off_rebounds": 1.43,
+            "two_points_att": 2.43,
+            "assists": 0.1,
+            "blocks": 0.14,
+            "personal_fouls": 2.57,
+            "two_points_made": 1.14,
+            "flagrant_fouls": 0,
+            "rebounds": 3.14,
+            "three_points_made": 0,
+            "minutes": 13.1,
+            "def_rebounds": 1.71,
+            "free_throws_made": 0.43,
+            "field_goals_made": 1.14,
+            "steals": 0.14,
+            "three_points_att": 0
+          }
+        }
+      ]
+    }
+  ]
+}

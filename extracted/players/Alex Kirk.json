@@ -1,0 +1,98 @@
+{
+  "id": "537803c5-6cd0-48d8-872e-53bc71c85065",
+  "status": "D-LEAGUE",
+  "full_name": "Alex Kirk",
+  "first_name": "Alex",
+  "last_name": "Kirk",
+  "abbr_name": "A.Kirk",
+  "height": 84,
+  "weight": 245,
+  "position": "C",
+  "primary_position": "C",
+  "jersey_number": "53",
+  "college": "New Mexico",
+  "birth_place": "Los Alamos, NM, USA",
+  "birthdate": "1991-11-14",
+  "updated": "2014-11-14T19:14:07+00:00",
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "team": {
+    "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+    "name": "76ers",
+    "market": "Philadelphia",
+    "alias": "PHI"
+  },
+  "draft": {
+    "year": 2014
+  },
+  "seasons": [
+    {
+      "id": "fb89a852-3f68-4505-85b0-19b428b261d5",
+      "year": 2014,
+      "type": "REG",
+      "teams": [
+        {
+          "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+          "name": "Cavaliers",
+          "market": "Cleveland",
+          "alias": "CLE",
+          "total": {
+            "games_played": 2,
+            "games_started": 0,
+            "minutes": 3,
+            "field_goals_made": 0,
+            "field_goals_att": 0,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "blocked_att": 0,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 0,
+            "assists": 1,
+            "turnovers": 0,
+            "steals": 0,
+            "blocks": 0,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "points": 2,
+            "flagrant_fouls": 0,
+            "free_throws_pct": 1,
+            "two_points_pct": 0,
+            "three_points_pct": 0,
+            "field_goals_pct": 0,
+            "rebounds": 0,
+            "assists_turnover_ratio": 0,
+            "two_points_made": 0,
+            "two_points_att": 0
+          },
+          "average": {
+            "points": 1,
+            "blocked_att": 0,
+            "turnovers": 0,
+            "free_throws_att": 1,
+            "field_goals_att": 0,
+            "off_rebounds": 0,
+            "two_points_att": 0,
+            "assists": 0.5,
+            "blocks": 0,
+            "personal_fouls": 0,
+            "two_points_made": 0,
+            "flagrant_fouls": 0,
+            "rebounds": 0,
+            "three_points_made": 0,
+            "minutes": 1.5,
+            "def_rebounds": 0,
+            "free_throws_made": 1,
+            "field_goals_made": 0,
+            "steals": 0,
+            "three_points_att": 0
+          }
+        }
+      ]
+    }
+  ]
+}

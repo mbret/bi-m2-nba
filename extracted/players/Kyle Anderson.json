@@ -1,0 +1,102 @@
+{
+  "id": "2e49c27a-06c5-4c4a-87fd-69840b783947",
+  "status": "ACT",
+  "full_name": "Kyle Anderson",
+  "first_name": "Kyle",
+  "last_name": "Anderson",
+  "abbr_name": "K.Anderson",
+  "height": 81,
+  "weight": 235,
+  "position": "F-G",
+  "primary_position": "SF",
+  "jersey_number": "1",
+  "experience": "0",
+  "college": "UCLA",
+  "birth_place": "New York City, NY, USA",
+  "birthdate": "1993-09-20",
+  "updated": "2014-10-08T17:47:47+00:00",
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "team": {
+    "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+    "name": "Spurs",
+    "market": "San Antonio",
+    "alias": "SAS"
+  },
+  "draft": {
+    "team_id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+    "year": 2014,
+    "round": "1",
+    "pick": "30"
+  },
+  "seasons": [
+    {
+      "id": "fb89a852-3f68-4505-85b0-19b428b261d5",
+      "year": 2014,
+      "type": "REG",
+      "teams": [
+        {
+          "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+          "name": "Spurs",
+          "market": "San Antonio",
+          "alias": "SAS",
+          "total": {
+            "games_played": 4,
+            "games_started": 0,
+            "minutes": 56,
+            "field_goals_made": 1,
+            "field_goals_att": 14,
+            "three_points_made": 0,
+            "three_points_att": 4,
+            "blocked_att": 1,
+            "free_throws_made": 2,
+            "free_throws_att": 3,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 12,
+            "assists": 5,
+            "turnovers": 0,
+            "steals": 2,
+            "blocks": 1,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "points": 4,
+            "flagrant_fouls": 0,
+            "free_throws_pct": 0.667,
+            "two_points_pct": 0.1,
+            "three_points_pct": 0,
+            "field_goals_pct": 0.071,
+            "rebounds": 12,
+            "assists_turnover_ratio": 0,
+            "two_points_made": 1,
+            "two_points_att": 10
+          },
+          "average": {
+            "points": 1,
+            "blocked_att": 0.25,
+            "turnovers": 0,
+            "free_throws_att": 0.75,
+            "field_goals_att": 3.5,
+            "off_rebounds": 0,
+            "two_points_att": 2.5,
+            "assists": 1.3,
+            "blocks": 0.25,
+            "personal_fouls": 1,
+            "two_points_made": 0.25,
+            "flagrant_fouls": 0,
+            "rebounds": 3,
+            "three_points_made": 0,
+            "minutes": 14,
+            "def_rebounds": 3,
+            "free_throws_made": 0.5,
+            "field_goals_made": 0.25,
+            "steals": 0.5,
+            "three_points_att": 1
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "7a3749f6-b03a-49eb-9e1d-07b897bd0b2d",
+  "status": "ACT",
+  "full_name": "JaKarr Sampson",
+  "first_name": "JaKarr",
+  "last_name": "Sampson",
+  "abbr_name": "J.Sampson",
+  "height": 80,
+  "weight": 207,
+  "position": "F",
+  "primary_position": "SF",
+  "jersey_number": "9",
+  "experience": "0",
+  "college": "St. John's",
+  "birth_place": "Akron, OH, USA",
+  "birthdate": "1993-03-20",
+  "updated": "2014-10-08T18:55:38+00:00",
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "team": {
+    "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+    "name": "76ers",
+    "market": "Philadelphia",
+    "alias": "PHI"
+  },
+  "draft": {
+    "year": 2014
+  },
+  "seasons": [
+    {
+      "id": "fb89a852-3f68-4505-85b0-19b428b261d5",
+      "year": 2014,
+      "type": "REG",
+      "teams": [
+        {
+          "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+          "name": "76ers",
+          "market": "Philadelphia",
+          "alias": "PHI",
+          "total": {
+            "games_played": 8,
+            "games_started": 2,
+            "minutes": 98,
+            "field_goals_made": 7,
+            "field_goals_att": 29,
+            "three_points_made": 1,
+            "three_points_att": 8,
+            "blocked_att": 6,
+            "free_throws_made": 3,
+            "free_throws_att": 6,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 13,
+            "assists": 6,
+            "turnovers": 4,
+            "steals": 1,
+            "blocks": 6,
+            "personal_fouls": 14,
+            "tech_fouls": 0,
+            "points": 18,
+            "flagrant_fouls": 0,
+            "free_throws_pct": 0.5,
+            "two_points_pct": 0.286,
+            "three_points_pct": 0.125,
+            "field_goals_pct": 0.241,
+            "rebounds": 15,
+            "assists_turnover_ratio": 1.5,
+            "two_points_made": 6,
+            "two_points_att": 21
+          },
+          "average": {
+            "points": 2.3,
+            "blocked_att": 0.75,
+            "turnovers": 0.5,
+            "free_throws_att": 0.75,
+            "field_goals_att": 3.63,
+            "off_rebounds": 0.25,
+            "two_points_att": 2.63,
+            "assists": 0.8,
+            "blocks": 0.75,
+            "personal_fouls": 1.75,
+            "two_points_made": 0.75,
+            "flagrant_fouls": 0,
+            "rebounds": 1.88,
+            "three_points_made": 0.13,
+            "minutes": 12.3,
+            "def_rebounds": 1.63,
+            "free_throws_made": 0.38,
+            "field_goals_made": 0.88,
+            "steals": 0.13,
+            "three_points_att": 1
+          }
+        }
+      ]
+    }
+  ]
+}

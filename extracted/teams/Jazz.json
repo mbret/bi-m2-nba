@@ -1,0 +1,378 @@
+{
+  "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+  "name": "Jazz",
+  "alias": "UTA",
+  "market": "Utah",
+  "founded": 1974,
+  "venue": {
+    "id": "53bac75a-a667-52b5-a416-b80718ae4ed2",
+    "name": "EnergySolutions Arena",
+    "capacity": 19911,
+    "address": "301 W. South Temple St.",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "zip": "84101",
+    "country": "USA"
+  },
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "conference": {
+    "id": "7fe7e212-de01-4f8f-a31d-b9f0a95731e3",
+    "name": "WESTERN CONFERENCE",
+    "alias": "WESTERN"
+  },
+  "division": {
+    "id": "12bf14ba-eb16-4c6f-8275-e801b6947c1e",
+    "name": "Northwest",
+    "alias": "NORTHWEST"
+  },
+  "coaches": [
+    {
+      "id": "be91c720-7369-4cc1-ad96-a4000af7d1fc",
+      "full_name": "Quin Snyder",
+      "first_name": "Quin",
+      "last_name": "Snyder",
+      "position": "Head Coach",
+      "experience": "0"
+    }
+  ],
+  "players": [
+    {
+      "id": "090a2f51-5345-4bae-9bd6-ab0afa1d49f2",
+      "status": "ACT",
+      "full_name": "Jeremy Evans",
+      "first_name": "Jeremy",
+      "last_name": "Evans",
+      "abbr_name": "J.Evans",
+      "height": 81,
+      "weight": 197,
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "40",
+      "experience": "3",
+      "college": "Western Kentucky",
+      "birth_place": "Crossett, AR, USA",
+      "birthdate": "1987-10-24",
+      "updated": "2013-11-08T21:10:24+00:00",
+      "draft": {
+        "team_id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2010,
+        "round": "2",
+        "pick": "55"
+      }
+    },
+    {
+      "id": "0d187d04-4cd9-44b3-9a29-408fac5b011e",
+      "status": "ACT",
+      "full_name": "Dante Exum",
+      "first_name": "Dante",
+      "last_name": "Exum",
+      "abbr_name": "D.Exum",
+      "height": 78,
+      "weight": 188,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "11",
+      "experience": "0",
+      "birth_place": "Melbourne, VIC, AUS",
+      "birthdate": "1995-07-13",
+      "updated": "2014-10-08T01:12:40+00:00",
+      "draft": {
+        "team_id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2014,
+        "round": "1",
+        "pick": "5"
+      }
+    },
+    {
+      "id": "37fbc3a5-0d10-4e22-803b-baa2ea0cdb12",
+      "status": "ACT",
+      "full_name": "Rudy Gobert",
+      "first_name": "Rudy",
+      "last_name": "Gobert",
+      "abbr_name": "R.Gobert",
+      "height": 85,
+      "weight": 245,
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "27",
+      "experience": "0",
+      "birth_place": "Saint-Quentin,, FRA",
+      "birthdate": "1992-06-26",
+      "updated": "2013-12-22T03:00:38+00:00",
+      "draft": {
+        "team_id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2013,
+        "round": "1",
+        "pick": "27"
+      }
+    },
+    {
+      "id": "572261e2-8ad9-4198-969d-16cad41fdef3",
+      "status": "ACT",
+      "full_name": "Trey Burke",
+      "first_name": "Trey",
+      "last_name": "Burke",
+      "abbr_name": "T.Burke",
+      "height": 73,
+      "weight": 190,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "3",
+      "experience": "0",
+      "college": "Michigan",
+      "birth_place": "Columbus, OH, USA",
+      "birthdate": "1992-11-12",
+      "updated": "2013-11-08T21:09:46+00:00",
+      "draft": {
+        "team_id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2013,
+        "round": "1",
+        "pick": "9"
+      }
+    },
+    {
+      "id": "5b297372-b2af-445e-a4bc-777982dbc1e3",
+      "status": "ACT",
+      "full_name": "Joe Ingles",
+      "first_name": "Joe",
+      "last_name": "Ingles",
+      "abbr_name": "J.Ingles",
+      "height": 80,
+      "weight": 194,
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "2",
+      "experience": "0",
+      "birth_place": "Happy Valley,, AUS",
+      "birthdate": "1987-10-02",
+      "updated": "2014-11-02T00:52:22+00:00",
+      "draft": {
+        "year": 2009
+      }
+    },
+    {
+      "id": "5fb038ef-a3bf-4f52-afce-4f5bd074bb88",
+      "status": "ACT",
+      "full_name": "Enes Kanter",
+      "first_name": "Enes",
+      "last_name": "Kanter",
+      "abbr_name": "E.Kanter",
+      "height": 83,
+      "weight": 247,
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "0",
+      "experience": "2",
+      "college": "Kentucky",
+      "birth_place": "Zurich,, CHE",
+      "birthdate": "1992-05-20",
+      "updated": "2013-11-08T21:11:33+00:00",
+      "draft": {
+        "team_id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2011,
+        "round": "1",
+        "pick": "3"
+      }
+    },
+    {
+      "id": "73fcf334-2088-4862-b83b-66eae415cf87",
+      "status": "ACT",
+      "full_name": "Alec Burks",
+      "first_name": "Alec",
+      "last_name": "Burks",
+      "abbr_name": "A.Burks",
+      "height": 78,
+      "weight": 211,
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "10",
+      "experience": "2",
+      "college": "Colorado",
+      "birth_place": "Grandview, MO, USA",
+      "birthdate": "1991-07-20",
+      "updated": "2013-11-08T21:09:57+00:00",
+      "draft": {
+        "team_id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2011,
+        "round": "1",
+        "pick": "12"
+      }
+    },
+    {
+      "id": "86da224d-e103-412a-8406-1ca8976726e7",
+      "status": "ACT",
+      "full_name": "Trevor Booker",
+      "first_name": "Trevor",
+      "last_name": "Booker",
+      "abbr_name": "T.Booker",
+      "height": 80,
+      "weight": 235,
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "33",
+      "experience": "3",
+      "college": "Clemson",
+      "birth_place": "Newberry, SC, USA",
+      "birthdate": "1987-11-25",
+      "updated": "2014-10-08T01:14:06+00:00",
+      "draft": {
+        "team_id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2010,
+        "round": "1",
+        "pick": "23"
+      }
+    },
+    {
+      "id": "8a226084-2a76-4ff3-84b8-7dcc263aacc5",
+      "status": "D-LEAGUE",
+      "full_name": "Toure' Murry",
+      "first_name": "Toure'",
+      "last_name": "Murry",
+      "abbr_name": "T.Murry",
+      "height": 77,
+      "weight": 195,
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "23",
+      "experience": "1",
+      "college": "Wichita State",
+      "birth_place": "Houston, TX, USA",
+      "birthdate": "1989-11-08",
+      "updated": "2014-11-14T03:44:04+00:00",
+      "draft": {
+        "year": 2012
+      }
+    },
+    {
+      "id": "9c1b7930-7022-4e65-878a-4f10665f07a0",
+      "status": "ACT",
+      "full_name": "Ian Clark",
+      "first_name": "Ian",
+      "last_name": "Clark",
+      "abbr_name": "I.Clark",
+      "height": 75,
+      "weight": 173,
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "21",
+      "experience": "0",
+      "college": "Belmont",
+      "birth_place": "Memphis, TN, USA",
+      "birthdate": "1991-03-07",
+      "updated": "2014-01-18T02:40:43+00:00",
+      "draft": {
+        "year": 2013
+      }
+    },
+    {
+      "id": "a1ddebee-950c-497d-9acd-b5061360b464",
+      "status": "ACT",
+      "full_name": "Gordon Hayward",
+      "first_name": "Gordon",
+      "last_name": "Hayward",
+      "abbr_name": "G.Hayward",
+      "height": 80,
+      "weight": 220,
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "20",
+      "experience": "3",
+      "college": "Butler",
+      "birth_place": "Indianapolis, IN, USA",
+      "birthdate": "1990-03-23",
+      "updated": "2014-02-27T22:03:38+00:00",
+      "draft": {
+        "team_id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2010,
+        "round": "1",
+        "pick": "9"
+      }
+    },
+    {
+      "id": "ad354ebb-88e5-46e4-ad79-f7188ee1f6c2",
+      "status": "ACT",
+      "full_name": "Derrick Favors",
+      "first_name": "Derrick",
+      "last_name": "Favors",
+      "abbr_name": "D.Favors",
+      "height": 82,
+      "weight": 268,
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "15",
+      "experience": "3",
+      "college": "Georgia Tech",
+      "birth_place": "Atlanta, GA, USA",
+      "birthdate": "1991-07-15",
+      "updated": "2014-02-27T22:04:42+00:00",
+      "draft": {
+        "team_id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2010,
+        "round": "1",
+        "pick": "3"
+      }
+    },
+    {
+      "id": "bfe054d7-7f26-4445-aa1e-c1cc175f854c",
+      "status": "ACT",
+      "full_name": "Steve Novak",
+      "first_name": "Steve",
+      "last_name": "Novak",
+      "abbr_name": "S.Novak",
+      "height": 82,
+      "weight": 235,
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "16",
+      "experience": "7",
+      "college": "Marquette",
+      "birth_place": "Libertyville, IL, USA",
+      "birthdate": "1983-06-13",
+      "updated": "2014-10-08T01:13:23+00:00",
+      "draft": {
+        "team_id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2006,
+        "round": "2",
+        "pick": "32"
+      }
+    },
+    {
+      "id": "d38f8754-7ecb-4791-a350-f67e5c4c785a",
+      "status": "ACT",
+      "full_name": "Rodney Hood",
+      "first_name": "Rodney",
+      "last_name": "Hood",
+      "abbr_name": "R.Hood",
+      "height": 80,
+      "weight": 215,
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "5",
+      "experience": "0",
+      "college": "Duke",
+      "birth_place": "Meridian, MS, USA",
+      "birthdate": "1992-10-20",
+      "updated": "2014-10-08T01:12:31+00:00",
+      "draft": {
+        "team_id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2014,
+        "round": "1",
+        "pick": "23"
+      },
+      "injuries": [
+        {
+          "id": "246106a2-cfc1-43f1-a351-8b3dfc68e9fc",
+          "comment": "Hood will not play in Saturday's (11/15) game.",
+          "desc": "Plantar Fasciitis",
+          "status": "Out",
+          "start_date": "2014-11-08",
+          "update_date": "2014-11-15"
+        }
+      ]
+    }
+  ]
+}

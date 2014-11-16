@@ -1,0 +1,102 @@
+{
+  "id": "e58c5e0e-f1f5-4685-9ff2-7197f9330bea",
+  "status": "ACT",
+  "full_name": "Jabari Parker",
+  "first_name": "Jabari",
+  "last_name": "Parker",
+  "abbr_name": "J.Parker",
+  "height": 80,
+  "weight": 240,
+  "position": "F",
+  "primary_position": "SF",
+  "jersey_number": "12",
+  "experience": "0",
+  "college": "Duke",
+  "birth_place": "Chicago, IL, USA",
+  "birthdate": "1995-03-15",
+  "updated": "2014-08-04T21:48:32+00:00",
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "team": {
+    "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+    "name": "Bucks",
+    "market": "Milwaukee",
+    "alias": "MIL"
+  },
+  "draft": {
+    "team_id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+    "year": 2014,
+    "round": "1",
+    "pick": "2"
+  },
+  "seasons": [
+    {
+      "id": "fb89a852-3f68-4505-85b0-19b428b261d5",
+      "year": 2014,
+      "type": "REG",
+      "teams": [
+        {
+          "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+          "name": "Bucks",
+          "market": "Milwaukee",
+          "alias": "MIL",
+          "total": {
+            "games_played": 9,
+            "games_started": 9,
+            "minutes": 258,
+            "field_goals_made": 41,
+            "field_goals_att": 98,
+            "three_points_made": 3,
+            "three_points_att": 12,
+            "blocked_att": 5,
+            "free_throws_made": 8,
+            "free_throws_att": 15,
+            "offensive_rebounds": 18,
+            "defensive_rebounds": 32,
+            "assists": 9,
+            "turnovers": 17,
+            "steals": 10,
+            "blocks": 2,
+            "personal_fouls": 14,
+            "tech_fouls": 0,
+            "points": 93,
+            "flagrant_fouls": 0,
+            "free_throws_pct": 0.533,
+            "two_points_pct": 0.442,
+            "three_points_pct": 0.25,
+            "field_goals_pct": 0.418,
+            "rebounds": 50,
+            "assists_turnover_ratio": 0.53,
+            "two_points_made": 38,
+            "two_points_att": 86
+          },
+          "average": {
+            "points": 10.3,
+            "blocked_att": 0.56,
+            "turnovers": 1.89,
+            "free_throws_att": 1.67,
+            "field_goals_att": 10.89,
+            "off_rebounds": 2,
+            "two_points_att": 9.56,
+            "assists": 1,
+            "blocks": 0.22,
+            "personal_fouls": 1.56,
+            "two_points_made": 4.22,
+            "flagrant_fouls": 0,
+            "rebounds": 5.56,
+            "three_points_made": 0.33,
+            "minutes": 28.7,
+            "def_rebounds": 3.56,
+            "free_throws_made": 0.89,
+            "field_goals_made": 4.56,
+            "steals": 1.11,
+            "three_points_att": 1.33
+          }
+        }
+      ]
+    }
+  ]
+}

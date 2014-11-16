@@ -1,0 +1,98 @@
+{
+  "id": "5b297372-b2af-445e-a4bc-777982dbc1e3",
+  "status": "ACT",
+  "full_name": "Joe Ingles",
+  "first_name": "Joe",
+  "last_name": "Ingles",
+  "abbr_name": "J.Ingles",
+  "height": 80,
+  "weight": 194,
+  "position": "F",
+  "primary_position": "SF",
+  "jersey_number": "2",
+  "experience": "0",
+  "birth_place": "Happy Valley,, AUS",
+  "birthdate": "1987-10-02",
+  "updated": "2014-11-02T00:52:22+00:00",
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "team": {
+    "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+    "name": "Jazz",
+    "market": "Utah",
+    "alias": "UTA"
+  },
+  "draft": {
+    "year": 2009
+  },
+  "seasons": [
+    {
+      "id": "fb89a852-3f68-4505-85b0-19b428b261d5",
+      "year": 2014,
+      "type": "REG",
+      "teams": [
+        {
+          "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+          "name": "Jazz",
+          "market": "Utah",
+          "alias": "UTA",
+          "total": {
+            "games_played": 11,
+            "games_started": 0,
+            "minutes": 170,
+            "field_goals_made": 9,
+            "field_goals_att": 26,
+            "three_points_made": 7,
+            "three_points_att": 22,
+            "blocked_att": 0,
+            "free_throws_made": 1,
+            "free_throws_att": 2,
+            "offensive_rebounds": 3,
+            "defensive_rebounds": 12,
+            "assists": 18,
+            "turnovers": 6,
+            "steals": 7,
+            "blocks": 0,
+            "personal_fouls": 7,
+            "tech_fouls": 0,
+            "points": 26,
+            "flagrant_fouls": 0,
+            "free_throws_pct": 0.5,
+            "two_points_pct": 0.5,
+            "three_points_pct": 0.318,
+            "field_goals_pct": 0.346,
+            "rebounds": 15,
+            "assists_turnover_ratio": 3,
+            "two_points_made": 2,
+            "two_points_att": 4
+          },
+          "average": {
+            "points": 2.4,
+            "blocked_att": 0,
+            "turnovers": 0.55,
+            "free_throws_att": 0.18,
+            "field_goals_att": 2.36,
+            "off_rebounds": 0.27,
+            "two_points_att": 0.36,
+            "assists": 1.6,
+            "blocks": 0,
+            "personal_fouls": 0.64,
+            "two_points_made": 0.18,
+            "flagrant_fouls": 0,
+            "rebounds": 1.36,
+            "three_points_made": 0.64,
+            "minutes": 15.5,
+            "def_rebounds": 1.09,
+            "free_throws_made": 0.09,
+            "field_goals_made": 0.82,
+            "steals": 0.64,
+            "three_points_att": 2
+          }
+        }
+      ]
+    }
+  ]
+}

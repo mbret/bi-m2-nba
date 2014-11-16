@@ -1,0 +1,102 @@
+{
+  "id": "d38f8754-7ecb-4791-a350-f67e5c4c785a",
+  "status": "ACT",
+  "full_name": "Rodney Hood",
+  "first_name": "Rodney",
+  "last_name": "Hood",
+  "abbr_name": "R.Hood",
+  "height": 80,
+  "weight": 215,
+  "position": "F",
+  "primary_position": "SF",
+  "jersey_number": "5",
+  "experience": "0",
+  "college": "Duke",
+  "birth_place": "Meridian, MS, USA",
+  "birthdate": "1992-10-20",
+  "updated": "2014-10-08T01:12:31+00:00",
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "team": {
+    "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+    "name": "Jazz",
+    "market": "Utah",
+    "alias": "UTA"
+  },
+  "draft": {
+    "team_id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+    "year": 2014,
+    "round": "1",
+    "pick": "23"
+  },
+  "seasons": [
+    {
+      "id": "fb89a852-3f68-4505-85b0-19b428b261d5",
+      "year": 2014,
+      "type": "REG",
+      "teams": [
+        {
+          "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+          "name": "Jazz",
+          "market": "Utah",
+          "alias": "UTA",
+          "total": {
+            "games_played": 6,
+            "games_started": 0,
+            "minutes": 91,
+            "field_goals_made": 8,
+            "field_goals_att": 31,
+            "three_points_made": 5,
+            "three_points_att": 19,
+            "blocked_att": 0,
+            "free_throws_made": 3,
+            "free_throws_att": 3,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 18,
+            "assists": 6,
+            "turnovers": 2,
+            "steals": 3,
+            "blocks": 2,
+            "personal_fouls": 7,
+            "tech_fouls": 0,
+            "points": 24,
+            "flagrant_fouls": 0,
+            "free_throws_pct": 1,
+            "two_points_pct": 0.25,
+            "three_points_pct": 0.263,
+            "field_goals_pct": 0.258,
+            "rebounds": 20,
+            "assists_turnover_ratio": 3,
+            "two_points_made": 3,
+            "two_points_att": 12
+          },
+          "average": {
+            "points": 4,
+            "blocked_att": 0,
+            "turnovers": 0.33,
+            "free_throws_att": 0.5,
+            "field_goals_att": 5.17,
+            "off_rebounds": 0.33,
+            "two_points_att": 2,
+            "assists": 1,
+            "blocks": 0.33,
+            "personal_fouls": 1.17,
+            "two_points_made": 0.5,
+            "flagrant_fouls": 0,
+            "rebounds": 3.33,
+            "three_points_made": 0.83,
+            "minutes": 15.2,
+            "def_rebounds": 3,
+            "free_throws_made": 0.5,
+            "field_goals_made": 1.33,
+            "steals": 0.5,
+            "three_points_att": 3.17
+          }
+        }
+      ]
+    }
+  ]
+}

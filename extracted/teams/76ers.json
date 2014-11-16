@@ -1,0 +1,438 @@
+{
+  "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+  "name": "76ers",
+  "alias": "PHI",
+  "market": "Philadelphia",
+  "founded": 1946,
+  "venue": {
+    "id": "b3dca541-859e-5301-bf90-4ec677a514a9",
+    "name": "Wells Fargo Center",
+    "capacity": 20328,
+    "address": "3601 S. Broad St.",
+    "city": "Philadelphia",
+    "state": "PA",
+    "zip": "19148",
+    "country": "USA"
+  },
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "conference": {
+    "id": "3960cfac-7361-4b30-bc25-8d393de6f62f",
+    "name": "EASTERN CONFERENCE",
+    "alias": "EASTERN"
+  },
+  "division": {
+    "id": "582d6502-9a93-4a8d-8785-69374d732875",
+    "name": "Atlantic",
+    "alias": "ATLANTIC"
+  },
+  "coaches": [
+    {
+      "id": "8bd8c3c0-0e09-4151-b9d3-a853a84d3536",
+      "full_name": "Brett Brown",
+      "first_name": "Brett",
+      "last_name": "Brown",
+      "position": "Head Coach",
+      "experience": "1"
+    }
+  ],
+  "players": [
+    {
+      "id": "1647115a-1607-4250-889e-8ae1af98fc92",
+      "status": "ACT",
+      "full_name": "Tony Wroten",
+      "first_name": "Tony",
+      "last_name": "Wroten",
+      "abbr_name": "T.Wroten",
+      "height": 78,
+      "weight": 205,
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "8",
+      "experience": "2",
+      "college": "Washington",
+      "birth_place": "Renton, WA, USA",
+      "birthdate": "1993-04-13",
+      "updated": "2014-09-26T20:31:00+00:00",
+      "draft": {
+        "team_id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2012,
+        "round": "1",
+        "pick": "25"
+      }
+    },
+    {
+      "id": "1f5e7dfc-225d-4a25-8857-e6f8192b4c44",
+      "status": "ACT",
+      "full_name": "Michael Carter-Williams",
+      "first_name": "Michael",
+      "last_name": "Carter-Williams",
+      "abbr_name": "M.Carter-Williams",
+      "height": 78,
+      "weight": 185,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "1",
+      "experience": "1",
+      "college": "Syracuse",
+      "birth_place": "Hamilton, MA, USA",
+      "birthdate": "1991-10-12",
+      "updated": "2014-09-26T20:14:32+00:00",
+      "draft": {
+        "team_id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2013,
+        "round": "1",
+        "pick": "11"
+      }
+    },
+    {
+      "id": "2012f4fd-98e0-4080-98a7-0cfb9de87067",
+      "status": "ACT",
+      "full_name": "Nerlens Noel",
+      "first_name": "Nerlens",
+      "last_name": "Noel",
+      "abbr_name": "N.Noel",
+      "height": 83,
+      "weight": 228,
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "4",
+      "experience": "0",
+      "college": "Kentucky",
+      "birth_place": "Malden, MA, USA",
+      "birthdate": "1994-04-10",
+      "updated": "2013-10-28T20:13:50+00:00",
+      "draft": {
+        "team_id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2013,
+        "round": "1",
+        "pick": "6"
+      }
+    },
+    {
+      "id": "27c3cb5e-7c6b-4ef7-bffe-73f0283a6805",
+      "status": "ACT",
+      "full_name": "Brandon Davies",
+      "first_name": "Brandon",
+      "last_name": "Davies",
+      "abbr_name": "B.Davies",
+      "height": 82,
+      "weight": 240,
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "0",
+      "experience": "1",
+      "college": "Brigham Young",
+      "birth_place": "Provo, UT",
+      "birthdate": "1991-07-25",
+      "updated": "2014-10-21T00:52:51+00:00",
+      "draft": {
+        "year": 2013
+      }
+    },
+    {
+      "id": "2fcb797b-0f24-4862-9c6f-7dea69720f7a",
+      "status": "ACT",
+      "full_name": "Henry Sims",
+      "first_name": "Henry",
+      "last_name": "Sims",
+      "abbr_name": "H.Sims",
+      "height": 82,
+      "weight": 248,
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "35",
+      "experience": "2",
+      "college": "Georgetown",
+      "birth_place": "Baltimore, MD, USA",
+      "birthdate": "1990-03-27",
+      "updated": "2014-09-26T20:26:50+00:00",
+      "draft": {
+        "year": 2012
+      }
+    },
+    {
+      "id": "3c7cd5c8-2e75-4330-a558-ba7df5595477",
+      "status": "ACT",
+      "full_name": "Drew Gordon",
+      "first_name": "Drew",
+      "last_name": "Gordon",
+      "abbr_name": "D.Gordon",
+      "height": 81,
+      "weight": 245,
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "30",
+      "experience": "0",
+      "college": "New Mexico",
+      "birth_place": "San Jose, CA, USA",
+      "birthdate": "1990-07-12",
+      "updated": "2014-11-10T18:45:38+00:00",
+      "draft": {
+        "year": 2012
+      }
+    },
+    {
+      "id": "3e512d9e-ff9c-4f23-a4fd-a88128ee3af2",
+      "status": "ACT",
+      "full_name": "Robert Covington",
+      "first_name": "Robert",
+      "last_name": "Covington",
+      "abbr_name": "R.Covington",
+      "height": 81,
+      "weight": 215,
+      "position": "F",
+      "primary_position": "SF",
+      "experience": "0",
+      "college": "Tennessee State",
+      "birth_place": "Bellwood, IL, USA",
+      "birthdate": "1990-12-14",
+      "updated": "2014-11-16T04:14:45+00:00",
+      "draft": {
+        "year": 2013
+      }
+    },
+    {
+      "id": "537803c5-6cd0-48d8-872e-53bc71c85065",
+      "status": "D-LEAGUE",
+      "full_name": "Alex Kirk",
+      "first_name": "Alex",
+      "last_name": "Kirk",
+      "abbr_name": "A.Kirk",
+      "height": 84,
+      "weight": 245,
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "53",
+      "college": "New Mexico",
+      "birth_place": "Los Alamos, NM, USA",
+      "birthdate": "1991-11-14",
+      "updated": "2014-11-14T19:14:07+00:00",
+      "draft": {
+        "year": 2014
+      }
+    },
+    {
+      "id": "5af8d05e-98e0-4d4a-87a3-8f2ce31173a7",
+      "status": "ACT",
+      "full_name": "Alexey Shved",
+      "first_name": "Alexey",
+      "last_name": "Shved",
+      "abbr_name": "A.Shved",
+      "height": 78,
+      "weight": 187,
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "88",
+      "experience": "2",
+      "birth_place": "Belgorod,, RUS",
+      "birthdate": "1988-12-16",
+      "updated": "2014-10-08T18:50:49+00:00",
+      "injuries": [
+        {
+          "id": "866e50c9-5cd5-4023-aa2a-0a92a11df467",
+          "comment": "Shved is questionable to play in Monday's (11/17) game.",
+          "desc": "Back",
+          "status": "Day To Day",
+          "start_date": "2014-11-11",
+          "update_date": "2014-11-15"
+        }
+      ]
+    },
+    {
+      "id": "5b315e15-6633-4ce2-8200-71b821553314",
+      "status": "ACT",
+      "full_name": "Jerami Grant",
+      "first_name": "Jerami",
+      "last_name": "Grant",
+      "abbr_name": "J.Grant",
+      "height": 80,
+      "weight": 210,
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "39",
+      "experience": "0",
+      "college": "Syracuse",
+      "birth_place": "Portland, OR, USA",
+      "birthdate": "1994-03-12",
+      "updated": "2014-10-06T23:09:17+00:00",
+      "draft": {
+        "team_id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2014,
+        "round": "2",
+        "pick": "39"
+      },
+      "injuries": [
+        {
+          "id": "23b9bbc3-5428-4230-880e-fde79f7b9a17",
+          "comment": "Grant is still not practicing with the team.",
+          "desc": "Ankle",
+          "status": "Out",
+          "start_date": "2014-10-04",
+          "update_date": "2014-11-06"
+        }
+      ]
+    },
+    {
+      "id": "7a3749f6-b03a-49eb-9e1d-07b897bd0b2d",
+      "status": "ACT",
+      "full_name": "JaKarr Sampson",
+      "first_name": "JaKarr",
+      "last_name": "Sampson",
+      "abbr_name": "J.Sampson",
+      "height": 80,
+      "weight": 207,
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "9",
+      "experience": "0",
+      "college": "St. John's",
+      "birth_place": "Akron, OH, USA",
+      "birthdate": "1993-03-20",
+      "updated": "2014-10-08T18:55:38+00:00",
+      "draft": {
+        "year": 2014
+      }
+    },
+    {
+      "id": "9f020654-d759-41f7-8dfc-d70e0d3d4e5a",
+      "status": "ACT",
+      "full_name": "Jason Richardson",
+      "first_name": "Jason",
+      "last_name": "Richardson",
+      "abbr_name": "J.Richardson",
+      "height": 78,
+      "weight": 225,
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "23",
+      "experience": "13",
+      "college": "Michigan State",
+      "birth_place": "Saginaw, MI, USA",
+      "birthdate": "1981-01-20",
+      "updated": "2014-09-26T20:24:56+00:00",
+      "draft": {
+        "team_id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2001,
+        "round": "1",
+        "pick": "5"
+      },
+      "injuries": [
+        {
+          "id": "dfc5e13f-bb90-442d-ae44-759a636d074d",
+          "comment": "Richardson suffered a stress fracture to his right foot and he will be out indefinitely.",
+          "desc": "Foot",
+          "status": "Out Indefinitely",
+          "start_date": "2014-10-26",
+          "update_date": "2014-10-26"
+        }
+      ]
+    },
+    {
+      "id": "a696f51d-0329-4d74-a52a-1d5ef80a1bc8",
+      "status": "ACT",
+      "full_name": "Luc Mbah a Moute",
+      "first_name": "Luc",
+      "last_name": "Mbah a Moute",
+      "abbr_name": "L.Mbah a Moute",
+      "height": 80,
+      "weight": 230,
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "12",
+      "experience": "6",
+      "college": "UCLA",
+      "birth_place": "Yaounde,, CMR",
+      "birthdate": "1986-09-09",
+      "updated": "2014-09-26T20:32:03+00:00",
+      "draft": {
+        "team_id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2008,
+        "round": "2",
+        "pick": "37"
+      }
+    },
+    {
+      "id": "bf9ad0fd-0cb8-4360-8970-5f1b5cf3fa8d",
+      "status": "ACT",
+      "full_name": "Joel Embiid",
+      "first_name": "Joel",
+      "last_name": "Embiid",
+      "abbr_name": "J.Embiid",
+      "height": 84,
+      "weight": 250,
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "21",
+      "experience": "0",
+      "college": "Kansas",
+      "birth_place": "Yaounde,, CMR",
+      "birthdate": "1994-03-14",
+      "updated": "2014-09-26T20:31:14+00:00",
+      "draft": {
+        "team_id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2014,
+        "round": "1",
+        "pick": "3"
+      },
+      "injuries": [
+        {
+          "id": "9b8fe9c7-c657-420a-a728-552aef5204e7",
+          "comment": "Embiid may not play this season as he recovers from foot surgery..",
+          "desc": "Foot",
+          "status": "Out Indefinitely",
+          "start_date": "2014-04-09",
+          "update_date": "2014-10-09"
+        }
+      ]
+    },
+    {
+      "id": "dbf62639-cf0d-43ea-b470-c116128b76ec",
+      "status": "ACT",
+      "full_name": "Hollis Thompson",
+      "first_name": "Hollis",
+      "last_name": "Thompson",
+      "abbr_name": "H.Thompson",
+      "height": 80,
+      "weight": 206,
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "31",
+      "experience": "1",
+      "college": "Georgetown",
+      "birth_place": "Los Angeles, CA, USA",
+      "birthdate": "1991-04-03",
+      "updated": "2014-09-26T20:28:59+00:00",
+      "draft": {
+        "year": 2012
+      }
+    },
+    {
+      "id": "f847d881-06ca-43c5-903f-3950a0117f98",
+      "status": "ACT",
+      "full_name": "K.J. McDaniels",
+      "first_name": "K.J.",
+      "last_name": "McDaniels",
+      "abbr_name": "K.McDaniels",
+      "height": 78,
+      "weight": 200,
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "14",
+      "experience": "0",
+      "college": "Clemson",
+      "birth_place": "Birmingham, AL, USA",
+      "birthdate": "1993-02-08",
+      "updated": "2014-10-08T18:55:13+00:00",
+      "draft": {
+        "team_id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2014,
+        "round": "2",
+        "pick": "32"
+      }
+    }
+  ]
+}

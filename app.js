@@ -10,12 +10,12 @@ var connection = mysql.createConnection({
     database : database
 });
 
-async.series({
+async.waterfall([
 
     /*
      * Check connection
      */
-    connection: function(callback){
+    function connectionCheck(callback){
         connection.connect(function(err) {
             if (err) return callback(err);
             console.log('connected as id ' + connection.threadId);
@@ -26,27 +26,31 @@ async.series({
     /*
      * Truncate all tables
      */
-    drop: function(callback){
+    function emptyAllTable(callback){
 
-        async.parallel({
-            team: function(callback){
-                connection.query('TRUNCATE team', function(err, rows) {
+        var tables = ['team', 'team_player', 'team_coatch', 'player', 'injury', 'coatch'];
+        var tasks = [];
+        _.forEach(tables, function( table ) {
+
+            tasks.push( function(callback){
+                connection.query('TRUNCATE ' + table, function(err, rows) {
                     if (err) return callback(err);
-                    console.log('Table team empty');
+                    console.log('Table '+table+' empty');
                     return callback(null);
                 });
-            }
-        },
-        function(err, results) {
-            console.log('all tables empty');
-            return callback(err, results);
+            } );
+        });
+
+        async.parallel(tasks, function(err, results) {
+            if(!err) console.log('all tables empty');
+            return callback(err);
         });
     },
 
     /*
      * fill table team
      */
-    fillTeam: function(callback){
+    function fillTeam(callback){
 
         // Get data from json
         require('fs').readFile(extractedPath + '/league-hierarchy.json', 'utf8', function (err, data) {
@@ -83,13 +87,185 @@ async.series({
                     return cbAsync(err);
                 });
             }, function(err){
+                if(!err) console.log('Table team filled');
                 return callback(err);
             });
 
         });
-    }
+    },
 
-},
+    /*
+     * @require: teams/*.json
+     */
+    function fillCoatch(callback){
+        var files = require('fs').readdirSync(extractedPath + '/teams');
+        var teams = [];
+        files.forEach(function(file){
+
+            if(/(.*).json/.test(file)) {
+                data = require('fs').readFileSync(extractedPath + '/teams/' + file, 'utf8');
+                teams.push( JSON.parse(data) );
+            }
+        });
+
+        var entries = [];
+        _.forEach(teams, function( team ) {
+            _.forEach(team.coaches, function( coatch ) {
+                entries.push({
+                    id: coatch.id,
+                    full_name: coatch.full_name,
+                    position: coatch.position,
+                    experience: coatch.experience
+                });
+
+            });
+        });
+
+        // Add all entries
+        async.each(entries, function( entry, cbAsync) {
+            connection.query("INSERT INTO `bi-m2`.`coatch` (`id`, `full_name`, `position`, `experience` ) VALUES ('"+entry.id+"', "+mysql.escape(entry.full_name)+", '"+entry.position+"', '"+entry.experience+"')", function(err, rows) {
+                return cbAsync(err);
+            });
+        }, function(err){
+            if(!err) console.log('Table coatch filled');
+            return callback(err, teams);
+        });
+    },
+
+    function fillTeamCoatch(teams, callback){
+        var entries = [];
+        _.forEach(teams, function( team ) {
+            _.forEach(team.coaches, function( coatch ) {
+                entries.push({
+                    team_id: team.id,
+                    coatch_id: coatch.id,
+                    start_date: '2014-01-01',
+                    end_date: '2014-12-31',
+                    season: 2014
+                });
+
+            });
+        });
+
+        // Add all entries
+        async.each(entries, function( entry, cbAsync) {
+            connection.query("INSERT INTO `bi-m2`.`team_coatch` (`coatch_id`, `team_id`, `start_date`, `end_date`, `season` ) VALUES ('"+entry.coatch_id+"', '"+entry.team_id+"', '"+entry.start_date+"', '"+entry.end_date+"', '"+entry.season+"')", function(err, rows) {
+                return cbAsync(err);
+            });
+        }, function(err){
+            if(!err) console.log('Table team_coatch filled');
+            return callback(err, teams);
+        });
+    },
+
+    /*
+     *
+     */
+    function fillPlayer(teams, callback){
+
+        /*
+         * Loop over players
+         */
+        var files = require('fs').readdirSync(extractedPath + '/players');
+        var players = [];
+        files.forEach(function(file){
+
+            if(/(.*).json/.test(file)) {
+                data = require('fs').readFileSync(extractedPath + '/players/' + file, 'utf8');
+                players.push( JSON.parse(data) );
+            }
+        });
+
+        // Add all players
+        async.each(players, function( player, cbAsync) {
+//            console.log(player.full_name + ' & ' + mysql.escape(player.full_name));
+            connection.query("INSERT INTO `bi-m2`.`player` (`id`, `name`, `birthdate`, `height`, `position`, `primary_position`, `status`, `experience` ) VALUES ('"+player.id+"', "+mysql.escape(player.full_name)+", '"+player.birthdate+"', '"+player.height+"', '"+player.position+"', '"+player.primary_position+"', '"+player.status+"', '"+player.experience+"')", function(err, rows) {
+                return cbAsync(err);
+            });
+        }, function(err){
+            if(!err) console.log('Table player filled');
+            return callback(err, teams, players);
+        });
+    },
+
+    /*
+     * Fill for each team the players composing the team at specific date
+     */
+    function fillTeamPlayer(teams, players, callback){
+
+        var entries = [];
+        // Loop over each players
+        _.forEach(players, function( player ) {
+
+            // loop over each season
+            _.forEach(player.seasons, function( season ) {
+
+                // loop over each team
+                _.forEach(season.teams, function( team ) {
+
+                    entries.push({
+                        date_start: season.year + '-01-01',
+                        date_end: season.year + '-12-31',
+                        season: season.year,
+                        player_id: player.id,
+                        team_id: team.id
+                    })
+                });
+            });
+        });
+
+//        console.log(players);
+        // Add all entries
+        async.each(entries, function( entry, cbAsync) {
+            connection.query("INSERT INTO `bi-m2`.`team_player` (`date_start`, `date_end`, `season`, `player_id`, `team_id`) VALUES ('"+entry.date_start+"', '"+entry.date_end+"', '"+entry.season+"', '"+entry.player_id+"', '"+entry.team_id+"')", function(err, rows) {
+                return cbAsync(err);
+            });
+        }, function(err){
+            if(!err) console.log('Table team_player filled');
+            return callback(err);
+        });
+    },
+
+    /*
+     * fill injuries table
+     * @require: injuries.json
+     */
+    function fillInjuries(callback){
+        var data = require('fs').readFileSync(extractedPath + '/injuries.json', 'utf8');
+        var injuries = JSON.parse(data);
+
+        var injuriesToDb = [];
+
+        _.forEach(injuries.teams, function( team ) {
+
+            _.forEach(team.players, function( player ) {
+
+                _.forEach(player.injuries, function( injury ) {
+                    injuriesToDb.push({
+                        id: injury.id,
+                        player_id: player.id,
+                        start_date: injury.start_date,
+                        update_date: injury.update_date,
+                        status: injury.status
+                    })
+                });
+            });
+        });
+
+        // Add all entries
+        async.each(injuriesToDb, function( entry, cbAsync) {
+            connection.query("INSERT INTO `bi-m2`.`injury` (`id`, `start_date`, `update_date`, `player_id`, `status`) VALUES ('"+entry.id+"', '"+entry.start_date+"', '"+entry.update_date+"', '"+entry.player_id+"', '"+entry.status+"')", function(err, rows) {
+                return cbAsync(err);
+            });
+        }, function(err){
+            if(!err) console.log('Table injury filled');
+            return callback(err);
+        });
+    },
+
+
+
+],
 function(err, results) {
     if(err){
         console.error('Error in main program: ' + err.stack);
