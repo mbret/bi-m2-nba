@@ -7,7 +7,9 @@ var extractedPath = 'extracted';
 var async      = require('async');
 var _          = require('lodash');
 var host = 'api.sportsdatallc.org';
-var key = 'khr6x4favjaqctsp6h29ucnn';
+// maxime, joris
+var keys = ['khr6x4favjaqctsp6h29ucnn','5n9qx5mnseq5za8xevz2vbz7'];
+var usedKey = 0;
 
 console.log('Start of program');
 async.series([
@@ -40,12 +42,12 @@ function(err, results) {
 
 
 function extractInjuriesFromAPI( callback ){
-    console.log('/nba-t3/league/injuries.json?api_key=' + key);
+    console.log('/nba-t3/league/injuries.json?api_key=' + keys[usedKey]);
     var request = http.request(
         {
             host: host,
             port: 80,
-            path: '/nba-t3/league/injuries.json?api_key=' + key
+            path: '/nba-t3/league/injuries.json?api_key=' + keys[usedKey]
         },
         function(response) {
             var str = '';
@@ -99,12 +101,12 @@ function extractAllTeamProfileFromAPI( callback ){
 
         function doSetTimeout(team, i, maxOfi) {
             setTimeout(function(){
-                console.log('/nba-t3/teams/'+team.id+'/profile.json?api_key=' + key);
+                console.log('/nba-t3/teams/'+team.id+'/profile.json?api_key=' + keys[usedKey]);
                 var request = http.request(
                     {
                         host: host,
                         port: 80,
-                        path: '/nba-t3/teams/'+team.id+'/profile.json?api_key=' + key
+                        path: '/nba-t3/teams/'+team.id+'/profile.json?api_key=' + keys[usedKey]
                     },
                     function(response) {
                         var str = '';
@@ -167,12 +169,12 @@ function extractAllPlayerProfileFromAPI( callback ){
 
         function doSetTimeout(player, i, maxOfi) {
             setTimeout(function () {
-                console.log('/nba-t3/players/' + player.id + '/profile.json?api_key=' + key);
+                console.log('/nba-t3/players/' + player.id + '/profile.json?api_key=' + keys[usedKey]);
                 var request = http.request(
                     {
                         host: host,
                         port: 80,
-                        path: '/nba-t3/players/' + player.id + '/profile.json?api_key=' + key
+                        path: '/nba-t3/players/' + player.id + '/profile.json?api_key=' + keys[usedKey]
                     },
                     function (response) {
                         var str = '';
