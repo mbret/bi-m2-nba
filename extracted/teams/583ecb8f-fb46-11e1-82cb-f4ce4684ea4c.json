@@ -1,0 +1,413 @@
+{
+  "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+  "name": "Hawks",
+  "alias": "ATL",
+  "market": "Atlanta",
+  "founded": 1946,
+  "venue": {
+    "id": "fd21f639-8a47-51ac-a5dd-590629d445cf",
+    "name": "Philips Arena",
+    "capacity": 18118,
+    "address": "One Philips Drive",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30303",
+    "country": "USA"
+  },
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "conference": {
+    "id": "3960cfac-7361-4b30-bc25-8d393de6f62f",
+    "name": "EASTERN CONFERENCE",
+    "alias": "EASTERN"
+  },
+  "division": {
+    "id": "54dc7348-c1d2-40d8-88b3-c4c0138e085d",
+    "name": "Southeast",
+    "alias": "SOUTHEAST"
+  },
+  "coaches": [
+    {
+      "id": "6c9c23f1-d87d-4aca-8414-3d86b0b3993e",
+      "full_name": "Budenholzer",
+      "first_name": "Mike",
+      "last_name": "Budenholzer",
+      "position": "Head Coach",
+      "experience": "1"
+    }
+  ],
+  "players": [
+    {
+      "id": "14eec5cb-d598-4a56-ab50-7fda7032635c",
+      "status": "ACT",
+      "full_name": "Adreian Payne",
+      "first_name": "Adreian",
+      "last_name": "Payne",
+      "abbr_name": "A.Payne",
+      "height": 82,
+      "weight": 245,
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "33",
+      "experience": "0",
+      "college": "Michigan State",
+      "birth_place": "Dayton, OH, USA",
+      "birthdate": "1991-02-19",
+      "updated": "2014-09-26T22:10:27+00:00",
+      "draft": {
+        "team_id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2014,
+        "round": "1",
+        "pick": "15"
+      },
+      "injuries": [
+        {
+          "id": "192f9ddc-f5de-474f-8eec-022e5f4be476",
+          "comment": "Payne is questionable for Tuesday's (11/18) game.",
+          "desc": "Foot",
+          "status": "Day To Day",
+          "start_date": "2014-10-31",
+          "update_date": "2014-11-16"
+        }
+      ]
+    },
+    {
+      "id": "28512bba-0a6b-4ec2-816a-72f2b43036e1",
+      "status": "ACT",
+      "full_name": "Elton Brand",
+      "first_name": "Elton",
+      "last_name": "Brand",
+      "abbr_name": "E.Brand",
+      "height": 81,
+      "weight": 254,
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "7",
+      "experience": "15",
+      "college": "Duke",
+      "birth_place": "Cortlandt Manor, NY, USA",
+      "birthdate": "1979-03-11",
+      "updated": "2014-09-26T21:58:38+00:00",
+      "draft": {
+        "team_id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 1999,
+        "round": "1",
+        "pick": "1"
+      }
+    },
+    {
+      "id": "2c157857-fffd-4eb5-8e2a-b28ebea8da77",
+      "status": "ACT",
+      "full_name": "Kent Bazemore",
+      "first_name": "Kent",
+      "last_name": "Bazemore",
+      "abbr_name": "K.Bazemore",
+      "height": 77,
+      "weight": 201,
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "24",
+      "experience": "2",
+      "college": "Old Dominion",
+      "birth_place": "Kelford, NC, USA",
+      "birthdate": "1989-07-01",
+      "updated": "2014-09-26T21:57:24+00:00",
+      "draft": {
+        "year": 2012
+      }
+    },
+    {
+      "id": "59b4d7a8-9ac8-436d-a76a-45335ca6dd68",
+      "status": "ACT",
+      "full_name": "Pero Antic",
+      "first_name": "Pero",
+      "last_name": "Antic",
+      "abbr_name": "P.Antic",
+      "height": 83,
+      "weight": 260,
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "6",
+      "experience": "1",
+      "birth_place": "Skopje,, MKD",
+      "birthdate": "1982-07-29",
+      "updated": "2014-09-26T21:55:57+00:00"
+    },
+    {
+      "id": "59f6f688-7000-4cf5-a27f-a1980dd86d93",
+      "status": "ACT",
+      "full_name": "Paul Millsap",
+      "first_name": "Paul",
+      "last_name": "Millsap",
+      "abbr_name": "P.Millsap",
+      "height": 80,
+      "weight": 253,
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "4",
+      "experience": "8",
+      "college": "Louisiana Tech",
+      "birth_place": "Monroe, LA, USA",
+      "birthdate": "1985-02-10",
+      "updated": "2014-09-26T22:08:44+00:00",
+      "draft": {
+        "team_id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2006,
+        "round": "2",
+        "pick": "47"
+      }
+    },
+    {
+      "id": "664afb4f-3fc1-4e25-bcb8-bab2c0c3c33b",
+      "status": "ACT",
+      "full_name": "DeMarre Carroll",
+      "first_name": "DeMarre",
+      "last_name": "Carroll",
+      "abbr_name": "D.Carroll",
+      "height": 80,
+      "weight": 212,
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "5",
+      "experience": "5",
+      "college": "Missouri",
+      "birth_place": "Birmingham, AL, USA",
+      "birthdate": "1986-07-27",
+      "updated": "2014-09-26T21:59:28+00:00",
+      "draft": {
+        "team_id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2009,
+        "round": "1",
+        "pick": "27"
+      },
+      "injuries": [
+        {
+          "id": "8dc20678-edc7-4fff-86de-63ce2404181a",
+          "comment": "The earliest Carroll could return in November 18.",
+          "desc": "Groin",
+          "status": "Out",
+          "start_date": "2014-11-11",
+          "update_date": "2014-11-14"
+        }
+      ]
+    },
+    {
+      "id": "7c636961-816a-4b44-8991-671df9d91d9c",
+      "status": "ACT",
+      "full_name": "Mike Muscala",
+      "first_name": "Mike",
+      "last_name": "Muscala",
+      "abbr_name": "M.Muscala",
+      "height": 83,
+      "weight": 238,
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "31",
+      "experience": "1",
+      "college": "Bucknell",
+      "birth_place": "Roseville, MN, USA",
+      "birthdate": "1991-07-01",
+      "updated": "2014-09-26T22:09:09+00:00",
+      "draft": {
+        "team_id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2013,
+        "round": "2",
+        "pick": "44"
+      }
+    },
+    {
+      "id": "9cf99a61-6b51-4aed-8940-0480dc512b36",
+      "status": "ACT",
+      "full_name": "Jeff Teague",
+      "first_name": "Jeff",
+      "last_name": "Teague",
+      "abbr_name": "J.Teague",
+      "height": 74,
+      "weight": 181,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "experience": "5",
+      "college": "Wake Forest",
+      "birth_place": "Indianapolis, IN, USA",
+      "birthdate": "1988-06-10",
+      "updated": "2014-09-26T22:14:12+00:00",
+      "draft": {
+        "team_id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2009,
+        "round": "1",
+        "pick": "19"
+      }
+    },
+    {
+      "id": "a2c6a907-282f-4172-9d60-42d03987da0e",
+      "status": "ACT",
+      "full_name": "Dennis Schroder",
+      "first_name": "Dennis",
+      "last_name": "Schroder",
+      "abbr_name": "D.Schroder",
+      "height": 73,
+      "weight": 175,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "17",
+      "experience": "1",
+      "birth_place": "Braunschweig,, DEU",
+      "birthdate": "1993-09-15",
+      "updated": "2014-09-26T22:11:49+00:00",
+      "draft": {
+        "team_id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2013,
+        "round": "1",
+        "pick": "17"
+      }
+    },
+    {
+      "id": "ad0aa3eb-81c3-4688-b769-e0375cdb5c13",
+      "status": "ACT",
+      "full_name": "Thabo Sefolosha",
+      "first_name": "Thabo",
+      "last_name": "Sefolosha",
+      "abbr_name": "T.Sefolosha",
+      "height": 79,
+      "weight": 222,
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "25",
+      "experience": "8",
+      "college": "Angelico Biella",
+      "birth_place": "Vevey,, CHE",
+      "birthdate": "1984-05-02",
+      "updated": "2014-09-26T22:13:29+00:00",
+      "draft": {
+        "team_id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2006,
+        "round": "1",
+        "pick": "13"
+      }
+    },
+    {
+      "id": "ba1b12c1-ee81-47d2-9f02-56110ff2a318",
+      "status": "ACT",
+      "full_name": "Kyle Korver",
+      "first_name": "Kyle",
+      "last_name": "Korver",
+      "abbr_name": "K.Korver",
+      "height": 79,
+      "weight": 212,
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "26",
+      "experience": "11",
+      "college": "Creighton",
+      "birth_place": "Lakewood, CA, USA",
+      "birthdate": "1981-03-17",
+      "updated": "2014-09-26T22:08:07+00:00",
+      "draft": {
+        "team_id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2003,
+        "round": "2",
+        "pick": "51"
+      }
+    },
+    {
+      "id": "cf3a87ec-c2f7-42e8-9698-6f8b2ba916a9",
+      "status": "ACT",
+      "full_name": "Al Horford",
+      "first_name": "Al",
+      "last_name": "Horford",
+      "abbr_name": "A.Horford",
+      "height": 82,
+      "weight": 250,
+      "position": "C-F",
+      "primary_position": "C",
+      "jersey_number": "15",
+      "experience": "7",
+      "college": "Florida",
+      "birth_place": "Puerto Plata,, DOM",
+      "birthdate": "1986-06-03",
+      "updated": "2014-09-26T22:07:36+00:00",
+      "draft": {
+        "team_id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2007,
+        "round": "1",
+        "pick": "3"
+      }
+    },
+    {
+      "id": "e3c8bfbe-086f-4bbf-be9b-38accc5d5037",
+      "status": "ACT",
+      "full_name": "Mike Scott",
+      "first_name": "Mike",
+      "last_name": "Scott",
+      "abbr_name": "M.Scott",
+      "height": 80,
+      "weight": 237,
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "32",
+      "experience": "2",
+      "college": "Virginia",
+      "birth_place": "Chesapeake, VA, USA",
+      "birthdate": "1988-07-16",
+      "updated": "2014-09-26T22:12:42+00:00",
+      "draft": {
+        "team_id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2012,
+        "round": "2",
+        "pick": "43"
+      }
+    },
+    {
+      "id": "ee6b8f67-08cc-4d6f-ac8a-9f7c2432cb80",
+      "status": "ACT",
+      "full_name": "Shelvin Mack",
+      "first_name": "Shelvin",
+      "last_name": "Mack",
+      "abbr_name": "S.Mack",
+      "height": 75,
+      "weight": 207,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "8",
+      "experience": "3",
+      "college": "Butler",
+      "birth_place": "Lexington, KY, USA",
+      "birthdate": "1990-04-22",
+      "updated": "2014-09-26T22:08:29+00:00",
+      "draft": {
+        "team_id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2011,
+        "round": "2",
+        "pick": "34"
+      }
+    },
+    {
+      "id": "f4c21698-8e9b-4720-ac1e-5e07bd7c2e92",
+      "status": "ACT",
+      "full_name": "John Jenkins",
+      "first_name": "John",
+      "last_name": "Jenkins",
+      "abbr_name": "J.Jenkins",
+      "height": 76,
+      "weight": 215,
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "12",
+      "experience": "2",
+      "college": "Vanderbilt",
+      "birth_place": "Hendersonville, TN, USA",
+      "birthdate": "1991-03-06",
+      "updated": "2014-09-26T22:07:49+00:00",
+      "draft": {
+        "team_id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2012,
+        "round": "1",
+        "pick": "23"
+      }
+    }
+  ]
+}

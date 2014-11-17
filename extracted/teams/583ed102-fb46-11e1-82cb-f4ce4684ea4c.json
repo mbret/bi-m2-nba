@@ -1,0 +1,406 @@
+{
+  "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+  "name": "Nuggets",
+  "alias": "DEN",
+  "market": "Denver",
+  "founded": 1967,
+  "venue": {
+    "id": "1a28ef88-76c9-5bcc-b4ee-51d30ca98f4f",
+    "name": "Pepsi Center",
+    "capacity": 19155,
+    "address": "1000 Chopper Circle",
+    "city": "Denver",
+    "state": "CO",
+    "zip": "80204",
+    "country": "USA"
+  },
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "conference": {
+    "id": "7fe7e212-de01-4f8f-a31d-b9f0a95731e3",
+    "name": "WESTERN CONFERENCE",
+    "alias": "WESTERN"
+  },
+  "division": {
+    "id": "12bf14ba-eb16-4c6f-8275-e801b6947c1e",
+    "name": "Northwest",
+    "alias": "NORTHWEST"
+  },
+  "coaches": [
+    {
+      "id": "9b950ff8-4334-4fc7-a26d-f0bae3f045af",
+      "full_name": "Brian Shaw",
+      "first_name": "Brian",
+      "last_name": "Shaw",
+      "position": "Head Coach",
+      "experience": "1"
+    }
+  ],
+  "players": [
+    {
+      "id": "34ff5b55-42ef-40c0-a2c4-9c28b5476a03",
+      "status": "ACT",
+      "full_name": "JaVale McGee",
+      "first_name": "JaVale",
+      "last_name": "McGee",
+      "abbr_name": "J.McGee",
+      "height": 84,
+      "weight": 250,
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "34",
+      "experience": "5",
+      "college": "Nevada-Reno",
+      "birth_place": "Flint, MI, USA",
+      "birthdate": "1988-01-19",
+      "updated": "2013-11-08T20:40:37+00:00",
+      "draft": {
+        "team_id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2008,
+        "round": "1",
+        "pick": "18"
+      }
+    },
+    {
+      "id": "4287b809-4c78-4433-9790-b1d5fdef46e8",
+      "status": "ACT",
+      "full_name": "Arron Afflalo",
+      "first_name": "Arron",
+      "last_name": "Afflalo",
+      "abbr_name": "A.Afflalo",
+      "height": 77,
+      "weight": 215,
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "10",
+      "experience": "6",
+      "college": "UCLA",
+      "birth_place": "Los Angeles, CA, USA",
+      "birthdate": "1985-10-15",
+      "updated": "2014-10-07T22:07:12+00:00",
+      "draft": {
+        "team_id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2007,
+        "round": "1",
+        "pick": "27"
+      }
+    },
+    {
+      "id": "47cd6421-0ce1-431e-9b9c-a8d9bfd0eb04",
+      "status": "ACT",
+      "full_name": "Danilo Gallinari",
+      "first_name": "Danilo",
+      "last_name": "Gallinari",
+      "abbr_name": "D.Gallinari",
+      "height": 82,
+      "weight": 225,
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "8",
+      "experience": "5",
+      "college": "Olimpia Milano",
+      "birth_place": "Sant'Angelo Lodigiano,, ITA",
+      "birthdate": "1988-08-08",
+      "updated": "2013-07-23T14:03:47+00:00",
+      "draft": {
+        "team_id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2008,
+        "round": "1",
+        "pick": "6"
+      }
+    },
+    {
+      "id": "47f88b06-686d-47c2-89bd-58e9406be8da",
+      "status": "ACT",
+      "full_name": "Nate Robinson",
+      "first_name": "Nate",
+      "last_name": "Robinson",
+      "abbr_name": "N.Robinson",
+      "height": 69,
+      "weight": 180,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "5",
+      "experience": "8",
+      "college": "Washington",
+      "birth_place": "Seattle, WA, USA",
+      "birthdate": "1984-05-31",
+      "updated": "2014-10-09T05:11:17+00:00",
+      "draft": {
+        "team_id": "583ecfa8-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2005,
+        "round": "1",
+        "pick": "21"
+      }
+    },
+    {
+      "id": "60aa236a-d9ea-46c2-ae65-fabc54f1bed6",
+      "status": "ACT",
+      "full_name": "Timofey Mozgov",
+      "first_name": "Timofey",
+      "last_name": "Mozgov",
+      "abbr_name": "T.Mozgov",
+      "height": 85,
+      "weight": 250,
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "25",
+      "experience": "3",
+      "birth_place": "St. Petersburg,, RUS",
+      "birthdate": "1986-07-16",
+      "updated": "2013-09-06T21:12:55+00:00",
+      "draft": {
+        "year": 2008
+      }
+    },
+    {
+      "id": "6b5d0264-fa2d-4956-919b-61abfc6bb8d7",
+      "status": "ACT",
+      "full_name": "Gary Harris",
+      "first_name": "Gary",
+      "last_name": "Harris",
+      "abbr_name": "G.Harris",
+      "height": 76,
+      "weight": 210,
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "14",
+      "experience": "0",
+      "college": "Michigan State",
+      "birth_place": "Fishers, IN, USA",
+      "birthdate": "1994-09-14",
+      "updated": "2014-10-07T22:07:44+00:00",
+      "draft": {
+        "team_id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2014,
+        "round": "1",
+        "pick": "19"
+      }
+    },
+    {
+      "id": "6ee485e1-534f-4d07-9492-c30b1ae9d607",
+      "status": "ACT",
+      "full_name": "Kenneth Faried",
+      "first_name": "Kenneth",
+      "last_name": "Faried",
+      "abbr_name": "K.Faried",
+      "height": 80,
+      "weight": 228,
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "35",
+      "experience": "2",
+      "college": "Morehead State",
+      "birth_place": "Newark, NJ, USA",
+      "birthdate": "1989-11-19",
+      "updated": "2013-07-31T16:35:28+00:00",
+      "draft": {
+        "team_id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2011,
+        "round": "1",
+        "pick": "22"
+      }
+    },
+    {
+      "id": "701c8530-7906-42b0-a016-3ddf366ca957",
+      "status": "ACT",
+      "full_name": "Randy Foye",
+      "first_name": "Randy",
+      "last_name": "Foye",
+      "abbr_name": "R.Foye",
+      "height": 76,
+      "weight": 213,
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "4",
+      "experience": "7",
+      "college": "Villanova",
+      "birth_place": "Newark, NJ, USA",
+      "birthdate": "1983-09-24",
+      "updated": "2013-10-15T01:34:13+00:00",
+      "draft": {
+        "team_id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2006,
+        "round": "1",
+        "pick": "7"
+      },
+      "injuries": [
+        {
+          "id": "87404668-0d67-47ff-9c83-c295fd299c64",
+          "comment": "Foye is out for Sunday's (11/16) game, but should be back on the court soon.",
+          "desc": "Knee",
+          "status": "Day To Day",
+          "start_date": "2014-11-13",
+          "update_date": "2014-11-16"
+        }
+      ]
+    },
+    {
+      "id": "7ea5ebcb-e825-4b6e-bd46-13a45c88c09c",
+      "status": "ACT",
+      "full_name": "J.J. Hickson",
+      "first_name": "J.J.",
+      "last_name": "Hickson",
+      "abbr_name": "J.Hickson",
+      "height": 81,
+      "weight": 242,
+      "position": "F",
+      "primary_position": "C",
+      "jersey_number": "7",
+      "experience": "5",
+      "college": "NC State",
+      "birth_place": "Atlanta, GA, USA",
+      "birthdate": "1988-09-04",
+      "updated": "2013-11-08T20:39:13+00:00",
+      "draft": {
+        "team_id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2008,
+        "round": "1",
+        "pick": "19"
+      }
+    },
+    {
+      "id": "81f26bbb-c9a8-488a-8f3e-dbede7757677",
+      "status": "ACT",
+      "full_name": "Erick Green",
+      "first_name": "Erick",
+      "last_name": "Green",
+      "abbr_name": "E.Green",
+      "height": 76,
+      "weight": 185,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "11",
+      "experience": "0",
+      "college": "Virginia Tech",
+      "birth_place": "Inglewood, CA, USA",
+      "birthdate": "1991-05-09",
+      "updated": "2014-10-07T22:08:02+00:00",
+      "draft": {
+        "team_id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2013,
+        "round": "2",
+        "pick": "46"
+      }
+    },
+    {
+      "id": "95fd2469-00cc-481c-a42d-5ec9eaa80868",
+      "status": "ACT",
+      "full_name": "Ty Lawson",
+      "first_name": "Ty",
+      "last_name": "Lawson",
+      "abbr_name": "T.Lawson",
+      "height": 71,
+      "weight": 195,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "3",
+      "experience": "4",
+      "college": "North Carolina",
+      "birth_place": "Clinton, MD, USA",
+      "birthdate": "1987-11-03",
+      "updated": "2013-11-04T15:16:17+00:00",
+      "draft": {
+        "team_id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2009,
+        "round": "1",
+        "pick": "18"
+      }
+    },
+    {
+      "id": "a8b48aa9-cf98-4a87-8bba-e88eead8cdaa",
+      "status": "ACT",
+      "full_name": "Jusuf Nurkic",
+      "first_name": "Jusuf",
+      "last_name": "Nurkic",
+      "abbr_name": "J.Nurkic",
+      "height": 83,
+      "weight": 280,
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "23",
+      "experience": "0",
+      "birth_place": "Zivinice,, BIH",
+      "birthdate": "1994-08-23",
+      "updated": "2014-10-07T22:07:38+00:00",
+      "draft": {
+        "team_id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2014,
+        "round": "1",
+        "pick": "16"
+      }
+    },
+    {
+      "id": "c25afa99-b041-46db-9725-8d92492df50b",
+      "status": "ACT",
+      "full_name": "Darrell Arthur",
+      "first_name": "Darrell",
+      "last_name": "Arthur",
+      "abbr_name": "D.Arthur",
+      "height": 81,
+      "weight": 235,
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "00",
+      "experience": "5",
+      "college": "Kansas",
+      "birth_place": "Dallas, TX, USA",
+      "birthdate": "1988-03-25",
+      "updated": "2014-11-10T18:11:14+00:00",
+      "draft": {
+        "team_id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2008,
+        "round": "1",
+        "pick": "27"
+      }
+    },
+    {
+      "id": "db90c8f4-5d2a-4ff9-8f57-1fc44a253dcf",
+      "status": "ACT",
+      "full_name": "Wilson Chandler",
+      "first_name": "Wilson",
+      "last_name": "Chandler",
+      "abbr_name": "W.Chandler",
+      "height": 80,
+      "weight": 225,
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "21",
+      "experience": "6",
+      "college": "DePaul",
+      "birth_place": "Benton Harbor, MI, USA",
+      "birthdate": "1987-05-10",
+      "updated": "2013-07-23T13:59:01+00:00",
+      "draft": {
+        "team_id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2007,
+        "round": "1",
+        "pick": "23"
+      }
+    },
+    {
+      "id": "eee7ca97-fce8-4af4-94b5-f5b107c76b46",
+      "status": "ACT",
+      "full_name": "Alonzo Gee",
+      "first_name": "Alonzo",
+      "last_name": "Gee",
+      "abbr_name": "A.Gee",
+      "height": 78,
+      "weight": 225,
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "1",
+      "experience": "4",
+      "college": "Alabama",
+      "birth_place": "Riviera Beach, FL, USA",
+      "birthdate": "1987-05-29",
+      "updated": "2014-10-07T22:07:08+00:00",
+      "draft": {
+        "year": 2009
+      }
+    }
+  ]
+}

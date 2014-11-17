@@ -1,0 +1,308 @@
+{
+  "id": "39c831e6-bef5-4d80-a0e2-5d70f70acb91",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2014-03-01T00:30:00+00:00",
+  "duration": "2:00",
+  "attendance": 18601,
+  "lead_changes": 6,
+  "times_tied": 3,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Cavaliers",
+    "market": "Cleveland",
+    "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 99,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 20,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 19,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 30,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 30,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Kyrie Irving",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "2",
+          "id": "dd146010-902b-4ad7-b98c-650d0363a2f0",
+          "statistics": {
+            "minutes": "38:32",
+            "field_goals_made": 7,
+            "field_goals_att": 16,
+            "field_goals_pct": 43.8,
+            "three_points_made": 1,
+            "three_points_att": 3,
+            "three_points_pct": 33.3,
+            "two_points_made": 6,
+            "two_points_att": 13,
+            "two_points_pct": 0.462,
+            "blocked_att": 0,
+            "free_throws_made": 6,
+            "free_throws_att": 6,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 10,
+            "rebounds": 10,
+            "assists": 12,
+            "turnovers": 5,
+            "steals": 0,
+            "blocks": 1,
+            "assists_turnover_ratio": 2.4,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 21,
+            "points": 21
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Spencer Hawes",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "32",
+          "id": "ddb5d888-09e5-435a-9009-a2549d8c8382",
+          "statistics": {
+            "minutes": "37:07",
+            "field_goals_made": 6,
+            "field_goals_att": 12,
+            "field_goals_pct": 50,
+            "three_points_made": 1,
+            "three_points_att": 2,
+            "three_points_pct": 50,
+            "two_points_made": 5,
+            "two_points_att": 10,
+            "two_points_pct": 0.5,
+            "blocked_att": 1,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 3,
+            "defensive_rebounds": 13,
+            "rebounds": 16,
+            "assists": 2,
+            "turnovers": 3,
+            "steals": 1,
+            "blocks": 2,
+            "assists_turnover_ratio": 0.67,
+            "personal_fouls": 5,
+            "tech_fouls": 1,
+            "flagrant_fouls": 0,
+            "pls_min": 21,
+            "points": 13
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Kyrie Irving",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "2",
+          "id": "dd146010-902b-4ad7-b98c-650d0363a2f0",
+          "statistics": {
+            "minutes": "38:32",
+            "field_goals_made": 7,
+            "field_goals_att": 16,
+            "field_goals_pct": 43.8,
+            "three_points_made": 1,
+            "three_points_att": 3,
+            "three_points_pct": 33.3,
+            "two_points_made": 6,
+            "two_points_att": 13,
+            "two_points_pct": 0.462,
+            "blocked_att": 0,
+            "free_throws_made": 6,
+            "free_throws_att": 6,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 10,
+            "rebounds": 10,
+            "assists": 12,
+            "turnovers": 5,
+            "steals": 0,
+            "blocks": 1,
+            "assists_turnover_ratio": 2.4,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 21,
+            "points": 21
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Jazz",
+    "market": "Utah",
+    "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 79,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 27,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 14,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 19,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 19,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Gordon Hayward",
+          "position": "G-F",
+          "primary_position": "SG",
+          "jersey_number": "20",
+          "id": "a1ddebee-950c-497d-9acd-b5061360b464",
+          "statistics": {
+            "minutes": "35:45",
+            "field_goals_made": 6,
+            "field_goals_att": 13,
+            "field_goals_pct": 46.2,
+            "three_points_made": 4,
+            "three_points_att": 7,
+            "three_points_pct": 57.1,
+            "two_points_made": 2,
+            "two_points_att": 6,
+            "two_points_pct": 0.333,
+            "blocked_att": 0,
+            "free_throws_made": 2,
+            "free_throws_att": 3,
+            "free_throws_pct": 66.7,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 5,
+            "rebounds": 7,
+            "assists": 7,
+            "turnovers": 1,
+            "steals": 2,
+            "blocks": 2,
+            "assists_turnover_ratio": 7,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -10,
+            "points": 18
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Gordon Hayward",
+          "position": "G-F",
+          "primary_position": "SG",
+          "jersey_number": "20",
+          "id": "a1ddebee-950c-497d-9acd-b5061360b464",
+          "statistics": {
+            "minutes": "35:45",
+            "field_goals_made": 6,
+            "field_goals_att": 13,
+            "field_goals_pct": 46.2,
+            "three_points_made": 4,
+            "three_points_att": 7,
+            "three_points_pct": 57.1,
+            "two_points_made": 2,
+            "two_points_att": 6,
+            "two_points_pct": 0.333,
+            "blocked_att": 0,
+            "free_throws_made": 2,
+            "free_throws_att": 3,
+            "free_throws_pct": 66.7,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 5,
+            "rebounds": 7,
+            "assists": 7,
+            "turnovers": 1,
+            "steals": 2,
+            "blocks": 2,
+            "assists_turnover_ratio": 7,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -10,
+            "points": 18
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Gordon Hayward",
+          "position": "G-F",
+          "primary_position": "SG",
+          "jersey_number": "20",
+          "id": "a1ddebee-950c-497d-9acd-b5061360b464",
+          "statistics": {
+            "minutes": "35:45",
+            "field_goals_made": 6,
+            "field_goals_att": 13,
+            "field_goals_pct": 46.2,
+            "three_points_made": 4,
+            "three_points_att": 7,
+            "three_points_pct": 57.1,
+            "two_points_made": 2,
+            "two_points_att": 6,
+            "two_points_pct": 0.333,
+            "blocked_att": 0,
+            "free_throws_made": 2,
+            "free_throws_att": 3,
+            "free_throws_pct": 66.7,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 5,
+            "rebounds": 7,
+            "assists": 7,
+            "turnovers": 1,
+            "steals": 2,
+            "blocks": 2,
+            "assists_turnover_ratio": 7,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -10,
+            "points": 18
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,432 @@
+{
+  "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+  "name": "Heat",
+  "alias": "MIA",
+  "market": "Miami",
+  "founded": 1988,
+  "venue": {
+    "id": "b67d5f09-28b2-5bc6-9097-af312007d2f4",
+    "name": "American Airlines Arena",
+    "capacity": 19600,
+    "address": "601 Biscayne Blvd.",
+    "city": "Miami",
+    "state": "FL",
+    "zip": "33132",
+    "country": "USA"
+  },
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "conference": {
+    "id": "3960cfac-7361-4b30-bc25-8d393de6f62f",
+    "name": "EASTERN CONFERENCE",
+    "alias": "EASTERN"
+  },
+  "division": {
+    "id": "54dc7348-c1d2-40d8-88b3-c4c0138e085d",
+    "name": "Southeast",
+    "alias": "SOUTHEAST"
+  },
+  "coaches": [
+    {
+      "id": "25073f54-13db-426c-a414-d1226380fb10",
+      "full_name": "Erik Spoelstra",
+      "first_name": "Erik",
+      "last_name": "Spoelstra",
+      "position": "Head Coach",
+      "experience": "6"
+    }
+  ],
+  "players": [
+    {
+      "id": "098f0b33-9a6b-47b0-95c7-4aba176a4206",
+      "status": "ACT",
+      "full_name": "Shannon Brown",
+      "first_name": "Shannon",
+      "last_name": "Brown",
+      "abbr_name": "S.Brown",
+      "height": 76,
+      "weight": 210,
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "26",
+      "experience": "7",
+      "college": "Michigan State",
+      "birth_place": "Maywood, IL, USA",
+      "birthdate": "1985-11-29",
+      "updated": "2014-10-05T02:06:59+00:00",
+      "draft": {
+        "team_id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2006,
+        "round": "1",
+        "pick": "25"
+      }
+    },
+    {
+      "id": "1c1c0edb-84df-42a8-a74b-5899849cd41a",
+      "status": "ACT",
+      "full_name": "Shabazz Napier",
+      "first_name": "Shabazz",
+      "last_name": "Napier",
+      "abbr_name": "S.Napier",
+      "height": 73,
+      "weight": 175,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "13",
+      "experience": "0",
+      "college": "Connecticut",
+      "birth_place": "Roxbury, MA, USA",
+      "birthdate": "1991-07-14",
+      "updated": "2014-10-05T02:07:08+00:00",
+      "draft": {
+        "team_id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2014,
+        "round": "1",
+        "pick": "24"
+      }
+    },
+    {
+      "id": "2038ebc0-a35b-4979-9fd6-15c72c435101",
+      "status": "ACT",
+      "full_name": "Dwyane Wade",
+      "first_name": "Dwyane",
+      "last_name": "Wade",
+      "abbr_name": "D.Wade",
+      "height": 76,
+      "weight": 220,
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "3",
+      "experience": "10",
+      "college": "Marquette",
+      "birth_place": "Chicago, IL, USA",
+      "birthdate": "1982-01-17",
+      "updated": "2013-09-06T20:44:58+00:00",
+      "draft": {
+        "team_id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2003,
+        "round": "1",
+        "pick": "5"
+      },
+      "injuries": [
+        {
+          "id": "70092f32-462c-4dcb-a8e3-ed67c2298277",
+          "comment": "Wade is unlikely to play in Monday's (11/17) game.",
+          "desc": "Hamstring",
+          "status": "Day To Day",
+          "start_date": "2014-11-14",
+          "update_date": "2014-11-16"
+        }
+      ]
+    },
+    {
+      "id": "49e2e5b6-0800-40b3-a5de-499653a019e9",
+      "status": "ACT",
+      "full_name": "Danny Granger",
+      "first_name": "Danny",
+      "last_name": "Granger",
+      "abbr_name": "D.Granger",
+      "height": 81,
+      "weight": 228,
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "22",
+      "experience": "8",
+      "college": "New Mexico",
+      "birth_place": "New Orleans, LA, USA",
+      "birthdate": "1983-04-20",
+      "updated": "2014-10-05T02:07:28+00:00",
+      "draft": {
+        "team_id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2005,
+        "round": "1",
+        "pick": "17"
+      },
+      "injuries": [
+        {
+          "id": "af9f14f5-50a0-4676-b322-01dac5786ab0",
+          "comment": "Granger is going to dress, but likely won't see any minutes in Sunday's (11/16) game.",
+          "desc": "Hamstring",
+          "status": "Day To Day",
+          "start_date": "2014-11-05",
+          "update_date": "2014-11-16"
+        }
+      ]
+    },
+    {
+      "id": "4cbe58e4-5e4b-46b0-9f7b-6cf18ad002c6",
+      "status": "ACT",
+      "full_name": "James Ennis",
+      "first_name": "James",
+      "last_name": "Ennis",
+      "abbr_name": "J.Ennis",
+      "height": 79,
+      "weight": 210,
+      "position": "G-F",
+      "primary_position": "SF",
+      "jersey_number": "32",
+      "experience": "0",
+      "college": "Long Beach State",
+      "birth_place": "Ventura, CA",
+      "birthdate": "1990-07-01",
+      "updated": "2014-10-05T02:07:32+00:00",
+      "draft": {
+        "team_id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2013,
+        "round": "2",
+        "pick": "50"
+      }
+    },
+    {
+      "id": "510c6cdf-1a1a-450e-8d38-eed8d9b55df9",
+      "status": "ACT",
+      "full_name": "Chris Andersen",
+      "first_name": "Chris",
+      "last_name": "Andersen",
+      "abbr_name": "C.Andersen",
+      "height": 82,
+      "weight": 245,
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "11",
+      "experience": "11",
+      "college": "Blinn Junior College",
+      "birth_place": "Long Beach, CA, USA",
+      "birthdate": "1978-07-07",
+      "updated": "2013-10-18T22:22:13+00:00"
+    },
+    {
+      "id": "5176c4c0-b451-4122-81e9-7d5dc9502de5",
+      "status": "ACT",
+      "full_name": "Luol Deng",
+      "first_name": "Luol",
+      "last_name": "Deng",
+      "abbr_name": "L.Deng",
+      "height": 81,
+      "weight": 220,
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "9",
+      "experience": "9",
+      "college": "Duke",
+      "birth_place": "Wau,, SSD",
+      "birthdate": "1985-04-16",
+      "updated": "2014-10-05T02:07:44+00:00",
+      "draft": {
+        "team_id": "583ecfa8-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2004,
+        "round": "1",
+        "pick": "7"
+      }
+    },
+    {
+      "id": "54723896-1f7b-4150-95d6-0392596a328f",
+      "status": "ACT",
+      "full_name": "Josh McRoberts",
+      "first_name": "Josh",
+      "last_name": "McRoberts",
+      "abbr_name": "J.McRoberts",
+      "height": 82,
+      "weight": 240,
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "4",
+      "experience": "6",
+      "college": "Duke",
+      "birth_place": "Indianapolis, IN, USA",
+      "birthdate": "1987-02-28",
+      "updated": "2014-10-05T02:07:52+00:00",
+      "draft": {
+        "team_id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2007,
+        "round": "2",
+        "pick": "37"
+      },
+      "injuries": [
+        {
+          "id": "57ea4eb0-cdc9-45dd-b1d9-567257f0f55f",
+          "comment": "McRoberts will not dress for Sunday's (11/16) game.",
+          "desc": "Toe",
+          "status": "Day To Day",
+          "start_date": "2014-11-14",
+          "update_date": "2014-11-16"
+        }
+      ]
+    },
+    {
+      "id": "718aec05-73fa-4c3f-8275-dda9f489b00e",
+      "status": "ACT",
+      "full_name": "Shawne Williams",
+      "first_name": "Shawne",
+      "last_name": "Williams",
+      "abbr_name": "S.Williams",
+      "height": 81,
+      "weight": 230,
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "43",
+      "experience": "6",
+      "college": "Memphis",
+      "birth_place": "Memphis, TN, USA",
+      "birthdate": "1986-02-16",
+      "updated": "2014-10-30T00:02:05+00:00",
+      "draft": {
+        "team_id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2006,
+        "round": "1",
+        "pick": "17"
+      }
+    },
+    {
+      "id": "ae476f91-dd2c-43a1-bfdc-48018d252327",
+      "status": "ACT",
+      "full_name": "Andre Dawkins",
+      "first_name": "Andre",
+      "last_name": "Dawkins",
+      "abbr_name": "A.Dawkins",
+      "height": 76,
+      "weight": 206,
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "24",
+      "experience": "0",
+      "college": "Duke",
+      "birth_place": "CHESAPEAKE, VA, USA",
+      "birthdate": "1991-09-19",
+      "updated": "2014-10-05T02:08:04+00:00",
+      "draft": {
+        "year": 2014
+      }
+    },
+    {
+      "id": "b60c920c-b42e-4896-9f6d-7f3031fc6492",
+      "status": "ACT",
+      "full_name": "Mario Chalmers",
+      "first_name": "Mario",
+      "last_name": "Chalmers",
+      "abbr_name": "M.Chalmers",
+      "height": 74,
+      "weight": 190,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "15",
+      "experience": "5",
+      "college": "Kansas",
+      "birth_place": "Anchorage, AK, USA",
+      "birthdate": "1986-05-19",
+      "updated": "2013-09-06T20:36:21+00:00",
+      "draft": {
+        "team_id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2008,
+        "round": "2",
+        "pick": "34"
+      }
+    },
+    {
+      "id": "e0a7db01-de87-4765-8f73-f52794e8deb9",
+      "status": "ACT",
+      "full_name": "Justin Hamilton",
+      "first_name": "Justin",
+      "last_name": "Hamilton",
+      "abbr_name": "J.Hamilton",
+      "height": 84,
+      "weight": 260,
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "7",
+      "experience": "0",
+      "college": "LSU",
+      "birth_place": "Newport Beach, CA, USA",
+      "birthdate": "1990-04-01",
+      "updated": "2014-03-17T21:34:31+00:00",
+      "draft": {
+        "team_id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2012,
+        "round": "2",
+        "pick": "45"
+      },
+      "injuries": [
+        {
+          "id": "bdcb07a0-d176-443c-abca-6c1a6545242f",
+          "comment": "Hamilton is questionable for Sunday's (11/16) game.",
+          "desc": "Hip",
+          "status": "Day To Day",
+          "start_date": "2014-11-08",
+          "update_date": "2014-11-15"
+        }
+      ]
+    },
+    {
+      "id": "ed343fa6-397c-4456-9f3f-63efee6706b5",
+      "status": "ACT",
+      "full_name": "Udonis Haslem",
+      "first_name": "Udonis",
+      "last_name": "Haslem",
+      "abbr_name": "U.Haslem",
+      "height": 80,
+      "weight": 235,
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "40",
+      "experience": "10",
+      "college": "Florida",
+      "birth_place": "Miami, FL, USA",
+      "birthdate": "1980-06-09",
+      "updated": "2014-08-04T22:15:27+00:00",
+      "draft": {
+        "year": 2002
+      }
+    },
+    {
+      "id": "edd79ce9-8b9f-4918-8a88-86fd9645d9e9",
+      "status": "ACT",
+      "full_name": "Norris Cole",
+      "first_name": "Norris",
+      "last_name": "Cole",
+      "abbr_name": "N.Cole",
+      "height": 74,
+      "weight": 175,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "30",
+      "experience": "2",
+      "college": "Cleveland State",
+      "birth_place": "Dayton, OH, USA",
+      "birthdate": "1988-10-13",
+      "updated": "2013-09-06T20:36:50+00:00",
+      "draft": {
+        "team_id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2011,
+        "round": "1",
+        "pick": "28"
+      }
+    },
+    {
+      "id": "f5163a3f-f880-4c2c-ac9b-00db844246b2",
+      "status": "ACT",
+      "full_name": "Chris Bosh",
+      "first_name": "Chris",
+      "last_name": "Bosh",
+      "abbr_name": "C.Bosh",
+      "height": 83,
+      "weight": 235,
+      "position": "C-F",
+      "primary_position": "C",
+      "jersey_number": "1",
+      "experience": "10",
+      "college": "Georgia Tech",
+      "birth_place": "Dallas, TX, USA",
+      "birthdate": "1984-03-24",
+      "updated": "2014-02-27T21:54:50+00:00",
+      "draft": {
+        "team_id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2003,
+        "round": "1",
+        "pick": "4"
+      }
+    }
+  ]
+}

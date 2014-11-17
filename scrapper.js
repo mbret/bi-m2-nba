@@ -8,9 +8,10 @@ var async      = require('async');
 var _          = require('lodash');
 var request    = require('request');
 var host = 'http://api.sportsdatallc.org';
-// maxime, joris
-var keys = ['khr6x4favjaqctsp6h29ucnn','5n9qx5mnseq5za8xevz2vbz7'];
-var usedKey = 1;
+// maxime, joris, colon
+var keys = ['khr6x4favjaqctsp6h29ucnn','5n9qx5mnseq5za8xevz2vbz7', '8tp8f44kaavt2jdag3gpn35a'];
+var usedKey = 2;
+var ourTeamId     = '583ec773-fb46-11e1-82cb-f4ce4684ea4c'; // Cavaliers
 
 // x ms second between each requests
 var nextAPIcallTimeout = 1000;
@@ -35,7 +36,8 @@ async.series([
 
     function(callback){
         console.log('Start extracting of players profile');
-        extractAllPlayerProfileFromAPI(function(err){
+        // Only extract info from our
+        extractAllPlayerProfileFromAPI( function(err){
             callback(err);
         });
     },
@@ -49,14 +51,14 @@ async.series([
 
     function(callback){
         console.log('Start extracting of boxscores');
-        extractBoxScoresFromAPI(function(err){
+        extractBoxScoresFromAPI( [ourTeamId], function(err){
             return callback(err);
         });
     },
 
     function(callback){
         console.log('Start extracting of summaries');
-        extractGamesSummariesFromAPI(function(err){
+        extractGamesSummariesFromAPI( [ourTeamId], function(err){
             return callback(err);
         });
     }
@@ -72,9 +74,9 @@ function(err, results) {
 
 /**
  * @require: schedules/*.json
- * @param callback
+ * @param teamIdFilter only extract boxscores for games related to this team
  */
-function extractBoxScoresFromAPI(callback){
+function extractBoxScoresFromAPI( teamIdFilter, callback){
 
     require('fs').readdir(extractedPath + '/schedules',function(err,files){
         if(err) return callback(err);
@@ -82,7 +84,8 @@ function extractBoxScoresFromAPI(callback){
         // Loop over schedules
         async.eachSeries( files, function(file, callback){
 
-            if(/(.*).json/.test(file)) {
+            if(/(.*).json/.test(file)  ) {
+
 
                 try {
                     data = require('fs').readFileSync(extractedPath + '/schedules/' + file, 'utf8');
@@ -91,33 +94,43 @@ function extractBoxScoresFromAPI(callback){
                     // Loop over all games inside schedule
                     async.eachSeries( schedule.games, function(game, callback){
 
-                        var fileToCreate = extractedPath + '/games/boxscores/' + game.id + '.json';
-                        var urlToCall = host + '/nba-t3/games/' + game.id + '/boxscore.json?api_key=' + keys[usedKey];
+                        // Only take games for team in filter
+                        // If there are no filter or if filter (home or away should be in array of id)
+                        if( teamIdFilter == null || (teamIdFilter.indexOf(game.home.id) > -1 || teamIdFilter.indexOf(game.away.id) > -1 )  ){
 
-                        if( require('fs').existsSync(fileToCreate) ){
-                            console.log('Element ' + game.id + ' skipped because already extracted!');
-                            return callback();
+                            // && (teamIdFilter && teamIdFilter.indexOf(file.substring( 0, (file.length - '.json'.length))) > -1
+                            var fileToCreate = extractedPath + '/games/boxscores/' + game.id + '.json';
+                            var urlToCall = host + '/nba-t3/games/' + game.id + '/boxscore.json?api_key=' + keys[usedKey];
+
+                            if( require('fs').existsSync(fileToCreate) ){
+                                console.log('Element ' + game.id + ' skipped because already extracted!');
+                                return callback();
+                            }
+                            else{
+                                setTimeout(function () {
+                                    nextAPIcallTimeout += APIcallTimoutExtra;
+
+                                    console.log('call: ' + urlToCall + ' after: ' + nextAPIcallTimeout + 'ms');
+                                    request(urlToCall, function(error, response, body){
+                                        if(error) return callback(error);
+                                        if (response.statusCode == 403) {
+                                            return callback(new Error(response.body));
+                                        }
+                                        else{
+                                            var obj2 = JSON.parse(body);
+                                            jf.writeFileSync(fileToCreate, obj2);
+                                            console.log('Element ' + game.id + ' extracted!');
+                                            return callback();
+                                        }
+                                    });
+
+                                }, nextAPIcallTimeout);
+                            }
                         }
                         else{
-                            setTimeout(function () {
-                                nextAPIcallTimeout += APIcallTimoutExtra;
-
-                                console.log('call: ' + urlToCall + ' after: ' + nextAPIcallTimeout + 'ms');
-                                request(urlToCall, function(error, response, body){
-                                    if(error) return callback(error);
-                                    if (response.statusCode == 403) {
-                                        return callback(new Error(response.body));
-                                    }
-                                    else{
-                                        var obj2 = JSON.parse(body);
-                                        jf.writeFileSync(fileToCreate, obj2);
-                                        console.log('Element ' + game.id + ' extracted!');
-                                        return callback();
-                                    }
-                                });
-
-                            }, nextAPIcallTimeout);
+                            return callback();
                         }
+
 
                     }, function(err){
                         return callback(err);
@@ -234,7 +247,7 @@ function extractAllTeamProfileFromAPI( callback ){
 
                 async.eachSeries(division.teams, function(team, callback){
 
-                    var fileToCreate = extractedPath + '/teams/' + team.name + '.json';
+                    var fileToCreate = extractedPath + '/teams/' + team.id + '.json';
                     var urlToCall = host + '/nba-t3/teams/'+team.id+'/profile.json?api_key=' + keys[usedKey];
 
                     if( require('fs').existsSync(fileToCreate) ){
@@ -272,23 +285,24 @@ function extractAllTeamProfileFromAPI( callback ){
     });
 }
 
-/*
+/**
+ * Get all profiles for all NBA players.
+ * We use all teams/*.json to get all possible players
  * @require /teams/*.json
  */
-function extractAllPlayerProfileFromAPI( callback ){
+function extractAllPlayerProfileFromAPI( callback  ){
 
     // Loop over dir
     require('fs').readdir(extractedPath + '/teams',function(err,files){
         if(err) return callback(err);
-
-        var players = [];
 
         /*
          * Loop over files synchronously
          */
         async.eachSeries( files, function(file, callback){
 
-            if(/(.*).json/.test(file)) {
+            // Only take .json files
+            if(/(.*).json/.test(file) ) {
 
                 try {
                     data = require('fs').readFileSync(extractedPath + '/teams/' + file, 'utf8');
@@ -299,7 +313,7 @@ function extractAllPlayerProfileFromAPI( callback ){
                      */
                     async.eachSeries(obj.players, function(player, callback){
 
-                        var fileToCreate = extractedPath + '/players/' + player.full_name + '.json';
+                        var fileToCreate = extractedPath + '/players/' + player.id + '.json';
                         var urlToCall = host + '/nba-t3/players/' + player.id + '/profile.json?api_key=' + keys[usedKey];
 
                         if( require('fs').existsSync(fileToCreate) ){
@@ -348,7 +362,7 @@ function extractAllPlayerProfileFromAPI( callback ){
  *
  * @require /schedules/*.json
  */
-function extractGamesSummariesFromAPI( callback ){
+function extractGamesSummariesFromAPI( teamIdFilter, callback ){
 
     require('fs').readdir(extractedPath + '/schedules',function(err,files){
         if(err) return callback(err);
@@ -365,34 +379,41 @@ function extractGamesSummariesFromAPI( callback ){
                     // Loop over all games inside schedule
                     async.eachSeries( schedule.games, function(game, callback){
 
-                        var fileToCreate = extractedPath + '/games/summaries/' + game.id + '.json';
-                        var urlToCall = host + '/nba-t3/games/' + game.id + '/summary.json?api_key=' + keys[usedKey];
+                        // Only take games for team in filter
+                        // If there are no filter or if filter (home or away should be in array of id)
+                        if( teamIdFilter == null || (teamIdFilter.indexOf(game.home.id) > -1 || teamIdFilter.indexOf(game.away.id) > -1 ) ){
 
-                        if( require('fs').existsSync(fileToCreate) ){
-                            console.log('Element [game summary ' + game.id + '] skipped because already extracted!');
-                            return callback();
+                            var fileToCreate = extractedPath + '/games/summaries/' + game.id + '.json';
+                            var urlToCall = host + '/nba-t3/games/' + game.id + '/summary.json?api_key=' + keys[usedKey];
+
+                            if( require('fs').existsSync(fileToCreate) ){
+                                console.log('Element [game summary ' + game.id + '] skipped because already extracted!');
+                                return callback();
+                            }
+                            else{
+                                setTimeout(function () {
+                                    nextAPIcallTimeout += APIcallTimoutExtra;
+
+                                    console.log('call: ' + urlToCall + ' after: ' + nextAPIcallTimeout + 'ms');
+                                    request(urlToCall, function(error, response, body){
+                                        if(error) return callback(error);
+                                        if (response.statusCode == 403) {
+                                            return callback(new Error(response.body));
+                                        }
+                                        else{
+                                            var obj2 = JSON.parse(body);
+                                            jf.writeFileSync(fileToCreate, obj2);
+                                            console.log('Element [game summary ' + game.id + '] extracted!');
+                                            return callback();
+                                        }
+                                    });
+
+                                }, nextAPIcallTimeout);
+                            }
                         }
                         else{
-                            setTimeout(function () {
-                                nextAPIcallTimeout += APIcallTimoutExtra;
-
-                                console.log('call: ' + urlToCall + ' after: ' + nextAPIcallTimeout + 'ms');
-                                request(urlToCall, function(error, response, body){
-                                    if(error) return callback(error);
-                                    if (response.statusCode == 403) {
-                                        return callback(new Error(response.body));
-                                    }
-                                    else{
-                                        var obj2 = JSON.parse(body);
-                                        jf.writeFileSync(fileToCreate, obj2);
-                                        console.log('Element [game summary ' + game.id + '] extracted!');
-                                        return callback();
-                                    }
-                                });
-
-                            }, nextAPIcallTimeout);
+                            return callback();
                         }
-
                     }, function(err){
                         return callback(err);
                     });

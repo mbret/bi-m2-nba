@@ -1,0 +1,414 @@
+{
+  "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+  "name": "Hornets",
+  "alias": "CHA",
+  "market": "Charlotte",
+  "founded": 1988,
+  "venue": {
+    "id": "a380f011-6e5d-5430-9f37-209e1e8a9b6f",
+    "name": "Time Warner Cable Arena",
+    "capacity": 19026,
+    "address": "330 E. Trade St.",
+    "city": "Charlotte",
+    "state": "NC",
+    "zip": "28202",
+    "country": "USA"
+  },
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "conference": {
+    "id": "3960cfac-7361-4b30-bc25-8d393de6f62f",
+    "name": "EASTERN CONFERENCE",
+    "alias": "EASTERN"
+  },
+  "division": {
+    "id": "54dc7348-c1d2-40d8-88b3-c4c0138e085d",
+    "name": "Southeast",
+    "alias": "SOUTHEAST"
+  },
+  "coaches": [
+    {
+      "id": "93325009-5015-4400-ad99-3a0cd973f18f",
+      "full_name": "Steve Clifford",
+      "first_name": "Steve",
+      "last_name": "Clifford",
+      "position": "Head Coach",
+      "experience": "1"
+    }
+  ],
+  "players": [
+    {
+      "id": "01e8f44f-f1ee-4d3a-86bd-c29d597ba9bd",
+      "status": "ACT",
+      "full_name": "Lance Stephenson",
+      "first_name": "Lance",
+      "last_name": "Stephenson",
+      "abbr_name": "L.Stephenson",
+      "height": 77,
+      "weight": 230,
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "1",
+      "experience": "3",
+      "college": "Cincinnati",
+      "birth_place": "Brooklyn, NY, USA",
+      "birthdate": "1990-09-05",
+      "updated": "2014-10-09T02:42:46+00:00",
+      "draft": {
+        "team_id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2010,
+        "round": "2",
+        "pick": "40"
+      }
+    },
+    {
+      "id": "0dae5927-7029-441d-bd2e-25fe0ddc58c3",
+      "status": "ACT",
+      "full_name": "Jannero Pargo",
+      "first_name": "Jannero",
+      "last_name": "Pargo",
+      "abbr_name": "J.Pargo",
+      "height": 73,
+      "weight": 185,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "5",
+      "experience": "9",
+      "college": "Arkansas",
+      "birth_place": "Chicago, IL, USA",
+      "birthdate": "1979-10-22",
+      "updated": "2014-08-04T22:09:00+00:00",
+      "draft": {
+        "year": 2002
+      }
+    },
+    {
+      "id": "2733be7a-cfc6-4787-8405-371db5af0399",
+      "status": "ACT",
+      "full_name": "P.J. Hairston",
+      "first_name": "P.J.",
+      "last_name": "Hairston",
+      "abbr_name": "P.Hairston",
+      "height": 78,
+      "weight": 230,
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "19",
+      "experience": "0",
+      "college": "North Carolina",
+      "birth_place": "Greensboro, NC, USA",
+      "birthdate": "1992-12-24",
+      "updated": "2014-10-09T02:43:03+00:00",
+      "draft": {
+        "team_id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2014,
+        "round": "1",
+        "pick": "26"
+      }
+    },
+    {
+      "id": "390c3ce6-7e5b-4aba-bd54-4dfb6add4767",
+      "status": "ACT",
+      "full_name": "Gerald Henderson",
+      "first_name": "Gerald",
+      "last_name": "Henderson",
+      "abbr_name": "G.Henderson",
+      "height": 77,
+      "weight": 215,
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "9",
+      "experience": "4",
+      "college": "Duke",
+      "birth_place": "Caldwell, NJ, USA",
+      "birthdate": "1987-12-09",
+      "updated": "2013-09-06T20:08:37+00:00",
+      "draft": {
+        "team_id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2009,
+        "round": "1",
+        "pick": "12"
+      }
+    },
+    {
+      "id": "3919daa3-0cc4-4c44-a3cc-10f5f9c31fe5",
+      "status": "ACT",
+      "full_name": "Jason Maxiell",
+      "first_name": "Jason",
+      "last_name": "Maxiell",
+      "abbr_name": "J.Maxiell",
+      "height": 79,
+      "weight": 260,
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "54",
+      "experience": "8",
+      "college": "Cincinnati",
+      "birth_place": "Chicago, IL, USA",
+      "birthdate": "1983-02-18",
+      "updated": "2014-10-09T02:43:19+00:00",
+      "draft": {
+        "team_id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2005,
+        "round": "1",
+        "pick": "26"
+      }
+    },
+    {
+      "id": "394f9bf4-e739-444d-9e13-875fb3a9d007",
+      "status": "ACT",
+      "full_name": "Jeff Taylor",
+      "first_name": "Jeff",
+      "last_name": "Taylor",
+      "abbr_name": "J.Taylor",
+      "height": 79,
+      "weight": 225,
+      "position": "G-F",
+      "primary_position": "SF",
+      "jersey_number": "44",
+      "experience": "1",
+      "college": "Vanderbilt",
+      "birth_place": "Norkopping,, SWE",
+      "birthdate": "1989-05-23",
+      "updated": "2013-11-08T20:24:10+00:00",
+      "draft": {
+        "team_id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2012,
+        "round": "2",
+        "pick": "31"
+      }
+    },
+    {
+      "id": "79b65432-3224-4da9-a1dc-2a08d089c917",
+      "status": "ACT",
+      "full_name": "Gary Neal",
+      "first_name": "Gary",
+      "last_name": "Neal",
+      "abbr_name": "G.Neal",
+      "height": 76,
+      "weight": 210,
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "12",
+      "experience": "3",
+      "college": "Towson",
+      "birth_place": "Baltimore, MD, USA",
+      "birthdate": "1984-10-03",
+      "updated": "2014-02-21T15:41:48+00:00",
+      "draft": {
+        "year": 2007
+      },
+      "injuries": [
+        {
+          "id": "964195ea-3f75-49f8-b79c-2183c9d01447",
+          "comment": "Neal is out for Monday's (11/17) game.",
+          "desc": "Concussion",
+          "status": "Day To Day",
+          "start_date": "2014-11-15",
+          "update_date": "2014-11-16"
+        }
+      ]
+    },
+    {
+      "id": "84215e01-6108-4fd0-9a11-19e9518ab378",
+      "status": "ACT",
+      "full_name": "Noah Vonleh",
+      "first_name": "Noah",
+      "last_name": "Vonleh",
+      "abbr_name": "N.Vonleh",
+      "height": 82,
+      "weight": 240,
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "11",
+      "experience": "0",
+      "college": "Indiana",
+      "birth_place": "Haverhill, MA, USA",
+      "birthdate": "1995-08-24",
+      "updated": "2014-10-09T02:43:55+00:00",
+      "draft": {
+        "team_id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2014,
+        "round": "1",
+        "pick": "9"
+      }
+    },
+    {
+      "id": "8bf57b59-a618-4bfa-ae2e-4308b9108606",
+      "status": "ACT",
+      "full_name": "Al Jefferson",
+      "first_name": "Al",
+      "last_name": "Jefferson",
+      "abbr_name": "A.Jefferson",
+      "height": 82,
+      "weight": 289,
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "25",
+      "experience": "9",
+      "college": "Prentiss HS (MS)",
+      "birth_place": "Monticello, MS, USA",
+      "birthdate": "1985-01-04",
+      "updated": "2013-10-28T20:34:02+00:00",
+      "draft": {
+        "team_id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2004,
+        "round": "1",
+        "pick": "15"
+      }
+    },
+    {
+      "id": "8e3cbaa3-e30a-4cf8-aa7a-1b57f15f0f98",
+      "status": "ACT",
+      "full_name": "Bismack Biyombo",
+      "first_name": "Bismack",
+      "last_name": "Biyombo",
+      "abbr_name": "B.Biyombo",
+      "height": 81,
+      "weight": 245,
+      "position": "C-F",
+      "primary_position": "C",
+      "jersey_number": "8",
+      "experience": "2",
+      "birth_place": "Lubumbashi,, COD",
+      "birthdate": "1992-08-28",
+      "updated": "2014-10-09T02:43:33+00:00",
+      "draft": {
+        "team_id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2011,
+        "round": "1",
+        "pick": "7"
+      }
+    },
+    {
+      "id": "a35ee8ed-f1db-4f7e-bb17-f823e8ee0b38",
+      "status": "ACT",
+      "full_name": "Kemba Walker",
+      "first_name": "Kemba",
+      "last_name": "Walker",
+      "abbr_name": "K.Walker",
+      "height": 73,
+      "weight": 184,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "15",
+      "experience": "2",
+      "college": "Connecticut",
+      "birth_place": "The Bronx, NY, USA",
+      "birthdate": "1990-05-08",
+      "updated": "2013-09-06T20:14:15+00:00",
+      "draft": {
+        "team_id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2011,
+        "round": "1",
+        "pick": "9"
+      }
+    },
+    {
+      "id": "e17a3191-b05c-4878-8be6-21028b8ec007",
+      "status": "ACT",
+      "full_name": "Marvin Williams",
+      "first_name": "Marvin",
+      "last_name": "Williams",
+      "abbr_name": "M.Williams",
+      "height": 81,
+      "weight": 237,
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "2",
+      "experience": "8",
+      "college": "North Carolina",
+      "birth_place": "Bremerton, WA, USA",
+      "birthdate": "1986-06-19",
+      "updated": "2014-10-09T02:43:10+00:00",
+      "draft": {
+        "team_id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2005,
+        "round": "1",
+        "pick": "2"
+      }
+    },
+    {
+      "id": "e1ce75b8-44ce-4086-b2e1-d2e22efc86ff",
+      "status": "ACT",
+      "full_name": "Cody Zeller",
+      "first_name": "Cody",
+      "last_name": "Zeller",
+      "abbr_name": "C.Zeller",
+      "height": 84,
+      "weight": 240,
+      "position": "C-F",
+      "primary_position": "C",
+      "jersey_number": "40",
+      "experience": "0",
+      "college": "Indiana",
+      "birth_place": "Washington, IN, USA",
+      "birthdate": "1992-10-05",
+      "updated": "2014-02-27T21:54:06+00:00",
+      "draft": {
+        "team_id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2013,
+        "round": "1",
+        "pick": "4"
+      }
+    },
+    {
+      "id": "ea8a18e4-1341-48f1-b75d-5bbac8d789d4",
+      "status": "ACT",
+      "full_name": "Michael Kidd-Gilchrist",
+      "first_name": "Michael",
+      "last_name": "Kidd-Gilchrist",
+      "abbr_name": "M.Kidd-Gilchrist",
+      "height": 79,
+      "weight": 232,
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "14",
+      "experience": "1",
+      "college": "Kentucky",
+      "birth_place": "Philadelphia, PA, USA",
+      "birthdate": "1993-09-26",
+      "updated": "2013-09-06T20:10:10+00:00",
+      "draft": {
+        "team_id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2012,
+        "round": "1",
+        "pick": "2"
+      },
+      "injuries": [
+        {
+          "id": "b6f63a0a-5fac-4a94-9749-44dc754f980e",
+          "comment": "Kidd-Gilchrist has been ruled out for Monday's (11/17) game.",
+          "desc": "Foot",
+          "status": "Out",
+          "start_date": "2014-11-14",
+          "update_date": "2014-11-16"
+        }
+      ]
+    },
+    {
+      "id": "eb1f731e-653d-435f-8ccb-3a7f15f84116",
+      "status": "ACT",
+      "full_name": "Brian Roberts",
+      "first_name": "Brian",
+      "last_name": "Roberts",
+      "abbr_name": "B.Roberts",
+      "height": 73,
+      "weight": 173,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "22",
+      "experience": "1",
+      "college": "Dayton",
+      "birth_place": "Toledo, OH, USA",
+      "birthdate": "1985-12-03",
+      "updated": "2014-10-09T02:42:55+00:00",
+      "draft": {
+        "year": 2008
+      }
+    }
+  ]
+}

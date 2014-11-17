@@ -1,0 +1,192 @@
+{
+  "id": "b693293d-e27a-46b8-a909-4234e9542f34",
+  "status": "closed",
+  "coverage": "extended_boxscore",
+  "scheduled": "2014-10-05T22:00:00+00:00",
+  "duration": "209",
+  "attendance": 20562,
+  "lead_changes": 1,
+  "times_tied": 3,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Cavaliers",
+    "market": "Cleveland",
+    "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 107,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 30,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 29,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 28,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 20,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Kyrie Irving",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "2",
+          "id": "dd146010-902b-4ad7-b98c-650d0363a2f0",
+          "statistics": {
+            "minutes": "25:38",
+            "field_goals_made": 6,
+            "field_goals_att": 13,
+            "field_goals_pct": 46.2,
+            "three_points_made": 2,
+            "three_points_att": 5,
+            "three_points_pct": 40,
+            "two_points_made": 4,
+            "two_points_att": 8,
+            "two_points_pct": 0.5,
+            "blocked_att": 2,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 0,
+            "rebounds": 1,
+            "assists": 5,
+            "turnovers": 0,
+            "steals": 2,
+            "blocks": 0,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 13,
+            "points": 16
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Anderson Varejao",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "17",
+          "id": "2c861696-d71b-4419-8a13-2f9e294ad0b5",
+          "statistics": {
+            "minutes": "16:49",
+            "field_goals_made": 2,
+            "field_goals_att": 4,
+            "field_goals_pct": 50,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 2,
+            "two_points_att": 4,
+            "two_points_pct": 0.5,
+            "blocked_att": 0,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 5,
+            "defensive_rebounds": 10,
+            "rebounds": 15,
+            "assists": 1,
+            "turnovers": 1,
+            "steals": 1,
+            "blocks": 1,
+            "assists_turnover_ratio": 1,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 11,
+            "points": 6
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Kyrie Irving",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "2",
+          "id": "dd146010-902b-4ad7-b98c-650d0363a2f0",
+          "statistics": {
+            "minutes": "25:38",
+            "field_goals_made": 6,
+            "field_goals_att": 13,
+            "field_goals_pct": 46.2,
+            "three_points_made": 2,
+            "three_points_att": 5,
+            "three_points_pct": 40,
+            "two_points_made": 4,
+            "two_points_att": 8,
+            "two_points_pct": 0.5,
+            "blocked_att": 2,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 0,
+            "rebounds": 1,
+            "assists": 5,
+            "turnovers": 0,
+            "steals": 2,
+            "blocks": 0,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 13,
+            "points": 16
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Maccabi Tel Aviv",
+    "id": "f8bc7293-fe77-481a-bd38-509be097db48",
+    "points": 80,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 24,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 20,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 16,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 20,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {}
+  }
+}

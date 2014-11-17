@@ -1,0 +1,504 @@
+{
+  "id": "593c84e1-3f19-413b-8241-28e719ea9216",
+  "status": "closed",
+  "coverage": "boxscore",
+  "scheduled": "2013-10-17T23:00:00+00:00",
+  "clock": "00:00",
+  "quarter": 4,
+  "venue": {
+    "id": "42cddf7a-0e1f-5f91-ae6f-c620582fdb01",
+    "name": "Quicken Loans Arena",
+    "capacity": 20562,
+    "address": "One Center Court",
+    "city": "Cleveland",
+    "state": "OH",
+    "zip": "44115",
+    "country": "USA"
+  },
+  "home": {
+    "name": "Cavaliers",
+    "market": "Cleveland",
+    "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 96,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 27,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 19,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 24,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 26,
+        "type": "quarter"
+      }
+    ],
+    "players": [
+      {
+        "full_name": "Tristan Thompson",
+        "first_name": "Tristan",
+        "last_name": "Thompson",
+        "position": "F",
+        "primary_position": "PF",
+        "jersey_number": "13",
+        "id": "335097c3-7919-49d5-80b0-8062d5d3e89c",
+        "active": true
+      },
+      {
+        "full_name": "Michael Lee",
+        "first_name": "Michael",
+        "last_name": "Lee",
+        "position": "F",
+        "primary_position": "PF",
+        "jersey_number": "20",
+        "id": "585fcb11-46d0-4cc5-93d1-e4a8383050b8",
+        "active": true
+      },
+      {
+        "full_name": "Andrew Bynum",
+        "first_name": "Andrew",
+        "last_name": "Bynum",
+        "position": "C",
+        "primary_position": "C",
+        "jersey_number": "21",
+        "id": "51921718-0c38-42b8-8411-3d640a889c04",
+        "active": true,
+        "injuries": [
+          {
+            "desc": "Middle Body",
+            "status": "Out Indefinitely",
+            "id": "7870749c-7148-4c01-ade8-c3a53941da93",
+            "start_date": "2013-07-10",
+            "update_date": "2013-10-16"
+          }
+        ]
+      },
+      {
+        "full_name": "Elliot Williams",
+        "first_name": "Elliot",
+        "last_name": "Williams",
+        "position": "G",
+        "primary_position": "SG",
+        "jersey_number": "4",
+        "id": "6255b242-0bbd-4f05-9c61-f44750061410",
+        "active": true
+      },
+      {
+        "full_name": "Anderson Varejao",
+        "first_name": "Anderson",
+        "last_name": "Varejao",
+        "position": "C-F",
+        "primary_position": "C",
+        "jersey_number": "17",
+        "id": "2c861696-d71b-4419-8a13-2f9e294ad0b5",
+        "active": true
+      },
+      {
+        "full_name": "Dion Waiters",
+        "first_name": "Dion",
+        "last_name": "Waiters",
+        "position": "G",
+        "primary_position": "SG",
+        "jersey_number": "3",
+        "id": "1bf4b5c7-e31d-4c22-9d89-7b909e3cb43c",
+        "active": true,
+        "injuries": [
+          {
+            "desc": "Hip",
+            "status": "Day To Day",
+            "id": "81a2b0bc-fb78-4dcf-a965-9d2c41ee60d7",
+            "start_date": "2013-10-17"
+          }
+        ]
+      },
+      {
+        "full_name": "Kyrie Irving",
+        "first_name": "Kyrie",
+        "last_name": "Irving",
+        "position": "G",
+        "primary_position": "PG",
+        "jersey_number": "2",
+        "id": "dd146010-902b-4ad7-b98c-650d0363a2f0",
+        "active": true
+      },
+      {
+        "full_name": "Kenny Kadji",
+        "first_name": "Kenny",
+        "last_name": "Kadji",
+        "position": "F",
+        "primary_position": "NA",
+        "jersey_number": "35",
+        "id": "f53d10ad-6f2a-415a-9e77-e691a24b2b0a",
+        "active": true
+      },
+      {
+        "full_name": "Jermaine Taylor",
+        "first_name": "Jermaine",
+        "last_name": "Taylor",
+        "position": "G",
+        "primary_position": "SG",
+        "jersey_number": "8",
+        "id": "814a86dc-08aa-4f4b-adcd-42484788ff39",
+        "active": true
+      },
+      {
+        "full_name": "Earl Clark",
+        "first_name": "Earl",
+        "last_name": "Clark",
+        "position": "F",
+        "primary_position": "SF",
+        "jersey_number": "6",
+        "id": "29ff98a7-e749-43f6-82c3-f9526041e519",
+        "active": true
+      },
+      {
+        "full_name": "DeSagana Diop",
+        "first_name": "DeSagana",
+        "last_name": "Diop",
+        "position": "C",
+        "primary_position": "C",
+        "jersey_number": "5",
+        "id": "aa1a840f-9b0c-4d12-8c27-df7491e70884",
+        "active": true
+      },
+      {
+        "full_name": "Carrick Felix",
+        "first_name": "Carrick",
+        "last_name": "Felix",
+        "position": "G-F",
+        "primary_position": "SG",
+        "jersey_number": "30",
+        "id": "00f0e10f-0533-4924-aa04-88d6754ddacb",
+        "active": true,
+        "injuries": [
+          {
+            "desc": "Groin",
+            "status": "Out Indefinitely",
+            "id": "82d00ecb-949f-41ed-a39f-951f1248ff7d",
+            "start_date": "2013-10-14"
+          }
+        ]
+      },
+      {
+        "full_name": "Matthew Dellavedova",
+        "first_name": "Matthew",
+        "last_name": "Dellavedova",
+        "position": "G",
+        "primary_position": "PG",
+        "jersey_number": "9",
+        "id": "ef58422e-c7df-4432-8497-0cbb31e90c32",
+        "active": true
+      },
+      {
+        "full_name": "Tyler Zeller",
+        "first_name": "Tyler",
+        "last_name": "Zeller",
+        "position": "C-F",
+        "primary_position": "C",
+        "jersey_number": "40",
+        "id": "dd0cee88-72aa-4591-a336-186fc899f3f5",
+        "active": true,
+        "injuries": [
+          {
+            "desc": "Abdomen",
+            "status": "Out Indefinitely",
+            "id": "9a947775-d3d1-462f-acd1-bbbcc303ace4",
+            "start_date": "2013-10-05",
+            "update_date": "2013-10-16"
+          }
+        ]
+      },
+      {
+        "full_name": "Alonzo Gee",
+        "first_name": "Alonzo",
+        "last_name": "Gee",
+        "position": "F-G",
+        "primary_position": "SF",
+        "jersey_number": "33",
+        "id": "eee7ca97-fce8-4af4-94b5-f5b107c76b46",
+        "active": true
+      },
+      {
+        "full_name": "C.J. Miles",
+        "first_name": "C.J.",
+        "last_name": "Miles",
+        "position": "F-G",
+        "primary_position": "SF",
+        "jersey_number": "0",
+        "id": "732b1bd6-d99a-4971-bc2c-4de4842b4a9a",
+        "active": true
+      },
+      {
+        "full_name": "Sergey Karasev",
+        "first_name": "Sergey",
+        "last_name": "Karasev",
+        "position": "G-F",
+        "primary_position": "SG",
+        "jersey_number": "10",
+        "id": "462416b4-840b-4c4a-a9bf-7d9e0b594e20",
+        "active": true
+      },
+      {
+        "full_name": "Jarrett Jack",
+        "first_name": "Jarrett",
+        "last_name": "Jack",
+        "position": "G",
+        "primary_position": "PG",
+        "jersey_number": "1",
+        "id": "c3a3881d-92e9-4352-979b-d8465a5a3605",
+        "active": true,
+        "injuries": [
+          {
+            "desc": "Knee",
+            "status": "Day To Day",
+            "id": "c729f708-63bb-4109-a137-c4e9800e7cdd",
+            "start_date": "2013-10-14"
+          }
+        ]
+      },
+      {
+        "full_name": "Anthony Bennett",
+        "first_name": "Anthony",
+        "last_name": "Bennett",
+        "position": "F",
+        "primary_position": "SF",
+        "jersey_number": "15",
+        "id": "b634fb27-1562-4d4a-b340-066c46e62d25",
+        "active": true
+      },
+      {
+        "full_name": "Henry Sims",
+        "first_name": "Henry",
+        "last_name": "Sims",
+        "position": "C-F",
+        "primary_position": "C",
+        "jersey_number": "14",
+        "id": "2fcb797b-0f24-4862-9c6f-7dea69720f7a",
+        "active": true
+      }
+    ]
+  },
+  "away": {
+    "name": "Pistons",
+    "market": "Detroit",
+    "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 84,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 25,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 24,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 18,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 17,
+        "type": "quarter"
+      }
+    ],
+    "players": [
+      {
+        "full_name": "Brandon Jennings",
+        "first_name": "Brandon",
+        "last_name": "Jennings",
+        "position": "G",
+        "primary_position": "PG",
+        "jersey_number": "7",
+        "id": "bb084342-fc44-4035-82c4-2789174b723e",
+        "active": true,
+        "injuries": [
+          {
+            "comment": "Targeting Early November",
+            "desc": "Mouth",
+            "status": "Out Indefinitely",
+            "id": "fc0ef2bd-62c0-4073-b264-ed7e6ba11905",
+            "start_date": "2013-10-10",
+            "update_date": "2013-10-16"
+          }
+        ]
+      },
+      {
+        "full_name": "Kentavious Caldwell-Pope",
+        "first_name": "Kentavious",
+        "last_name": "Caldwell-Pope",
+        "position": "G",
+        "primary_position": "SG",
+        "jersey_number": "5",
+        "id": "cecc054e-b9ec-4c71-8bbb-5ee665a8c3a9",
+        "active": true
+      },
+      {
+        "full_name": "Jonas Jerebko",
+        "first_name": "Jonas",
+        "last_name": "Jerebko",
+        "position": "F",
+        "primary_position": "PF",
+        "jersey_number": "33",
+        "id": "5d1f696c-7656-4b96-b116-66344a7dda71",
+        "active": true
+      },
+      {
+        "full_name": "Rodney Stuckey",
+        "first_name": "Rodney",
+        "last_name": "Stuckey",
+        "position": "G",
+        "primary_position": "PG",
+        "jersey_number": "3",
+        "id": "b4a94a3a-8563-49bd-97d2-98161cfb6c8d",
+        "active": true,
+        "injuries": [
+          {
+            "desc": "Thumb",
+            "status": "Out Indefinitely",
+            "id": "ff494575-2cc1-4cd8-814f-79f15d947bf1",
+            "start_date": "2013-10-10"
+          }
+        ]
+      },
+      {
+        "full_name": "Greg Monroe",
+        "first_name": "Greg",
+        "last_name": "Monroe",
+        "position": "C",
+        "primary_position": "C",
+        "jersey_number": "10",
+        "id": "762d218c-cdbd-4886-9252-10cd99284c7a",
+        "active": true
+      },
+      {
+        "full_name": "Will Bynum",
+        "first_name": "Will",
+        "last_name": "Bynum",
+        "position": "G",
+        "primary_position": "PG",
+        "jersey_number": "12",
+        "id": "6ef9e6c3-f6c5-4569-80d7-97c79b180e81",
+        "active": true
+      },
+      {
+        "full_name": "Chauncey Billups",
+        "first_name": "Chauncey",
+        "last_name": "Billups",
+        "position": "G",
+        "primary_position": "PG",
+        "jersey_number": "1",
+        "id": "2cd8fe73-59a9-41c6-b384-cc6b54197279",
+        "active": true
+      },
+      {
+        "full_name": "Josh Harrellson",
+        "first_name": "Josh",
+        "last_name": "Harrellson",
+        "position": "F-C",
+        "primary_position": "C",
+        "jersey_number": "55",
+        "id": "e8a19123-81c1-49b4-ac6d-6862e63427c8",
+        "active": true
+      },
+      {
+        "full_name": "Andre Drummond",
+        "first_name": "Andre",
+        "last_name": "Drummond",
+        "position": "C",
+        "primary_position": "C",
+        "jersey_number": "0",
+        "id": "440b769d-2b8b-477f-80d7-cb21d83c0d52",
+        "active": true
+      },
+      {
+        "full_name": "Kyle Singler",
+        "first_name": "Kyle",
+        "last_name": "Singler",
+        "position": "F-G",
+        "primary_position": "SF",
+        "jersey_number": "25",
+        "id": "d022ab89-4d55-4732-8509-bcd47602fff0",
+        "active": true
+      },
+      {
+        "full_name": "Tony Mitchell",
+        "first_name": "Tony",
+        "last_name": "Mitchell",
+        "position": "F",
+        "primary_position": "PF",
+        "jersey_number": "9",
+        "id": "c7e039f2-899a-441d-88d0-871afe193485",
+        "active": true
+      },
+      {
+        "full_name": "Peyton Siva",
+        "first_name": "Peyton",
+        "last_name": "Siva",
+        "position": "G",
+        "primary_position": "PG",
+        "jersey_number": "34",
+        "id": "246a3ea8-462d-4eeb-802d-e464cde2ce0c",
+        "active": true
+      },
+      {
+        "full_name": "Charlie Villanueva",
+        "first_name": "Charlie",
+        "last_name": "Villanueva",
+        "position": "F",
+        "primary_position": "PF",
+        "jersey_number": "31",
+        "id": "505e3ec9-de9a-4256-95cd-7f997f16fe51",
+        "active": true
+      },
+      {
+        "full_name": "Luigi Datome",
+        "first_name": "Luigi",
+        "last_name": "Datome",
+        "position": "F",
+        "primary_position": "SF",
+        "jersey_number": "13",
+        "id": "9f99add1-37be-47c6-8b19-a38bfdf9c702",
+        "active": true,
+        "injuries": [
+          {
+            "desc": "Hamstring",
+            "status": "Day To Day",
+            "id": "1b8763d3-0b63-4066-ba6b-2687c4c825af",
+            "start_date": "2013-10-05"
+          }
+        ]
+      },
+      {
+        "full_name": "Josh Smith",
+        "first_name": "Josh",
+        "last_name": "Smith",
+        "position": "F",
+        "primary_position": "PF",
+        "jersey_number": "6",
+        "id": "7838f72d-0e86-45f7-86ab-2077498d208a",
+        "active": true
+      }
+    ]
+  }
+}

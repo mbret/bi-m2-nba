@@ -1,0 +1,308 @@
+{
+  "id": "26d8bbb8-cf03-4184-ba72-de0ce4a5d8b1",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2014-10-15T23:00:00+00:00",
+  "duration": "2:20",
+  "attendance": 10250,
+  "lead_changes": 13,
+  "times_tied": 7,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Cavaliers",
+    "market": "Cleveland",
+    "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 98,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 24,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 23,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 29,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 22,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "LeBron James",
+          "position": "F",
+          "primary_position": "SF",
+          "jersey_number": "23",
+          "id": "0afbe608-940a-4d5d-a1f7-468718c67d91",
+          "statistics": {
+            "minutes": "23:40",
+            "field_goals_made": 9,
+            "field_goals_att": 12,
+            "field_goals_pct": 75,
+            "three_points_made": 2,
+            "three_points_att": 3,
+            "three_points_pct": 66.7,
+            "two_points_made": 7,
+            "two_points_att": 9,
+            "two_points_pct": 0.778,
+            "blocked_att": 0,
+            "free_throws_made": 6,
+            "free_throws_att": 7,
+            "free_throws_pct": 85.7,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 4,
+            "rebounds": 4,
+            "assists": 3,
+            "turnovers": 4,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 0.75,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 18,
+            "points": 26
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Tristan Thompson",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "13",
+          "id": "335097c3-7919-49d5-80b0-8062d5d3e89c",
+          "statistics": {
+            "minutes": "26:29",
+            "field_goals_made": 3,
+            "field_goals_att": 6,
+            "field_goals_pct": 50,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 3,
+            "two_points_att": 6,
+            "two_points_pct": 0.5,
+            "blocked_att": 0,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 7,
+            "rebounds": 9,
+            "assists": 2,
+            "turnovers": 0,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 12,
+            "points": 6
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Matthew Dellavedova",
+          "position": "G",
+          "primary_position": "SG",
+          "jersey_number": "8",
+          "id": "ef58422e-c7df-4432-8497-0cbb31e90c32",
+          "statistics": {
+            "minutes": "29:36",
+            "field_goals_made": 6,
+            "field_goals_att": 9,
+            "field_goals_pct": 66.7,
+            "three_points_made": 2,
+            "three_points_att": 4,
+            "three_points_pct": 50,
+            "two_points_made": 4,
+            "two_points_att": 5,
+            "two_points_pct": 0.8,
+            "blocked_att": 0,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 2,
+            "rebounds": 2,
+            "assists": 4,
+            "turnovers": 1,
+            "steals": 2,
+            "blocks": 0,
+            "assists_turnover_ratio": 4,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 4,
+            "points": 14
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Pacers",
+    "market": "Indiana",
+    "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 93,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 23,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 23,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 17,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 30,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Chris Copeland",
+          "position": "F",
+          "primary_position": "SF",
+          "jersey_number": "22",
+          "id": "6d991c17-cfc4-4494-918b-b7d766da0dae",
+          "statistics": {
+            "minutes": "24:09",
+            "field_goals_made": 6,
+            "field_goals_att": 10,
+            "field_goals_pct": 60,
+            "three_points_made": 4,
+            "three_points_att": 6,
+            "three_points_pct": 66.7,
+            "two_points_made": 2,
+            "two_points_att": 4,
+            "two_points_pct": 0.5,
+            "blocked_att": 1,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 2,
+            "rebounds": 4,
+            "assists": 3,
+            "turnovers": 0,
+            "steals": 0,
+            "blocks": 1,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 4,
+            "points": 16
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Ian Mahinmi",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "28",
+          "id": "d2abbbb8-0d36-49d4-9785-d8664021eb78",
+          "statistics": {
+            "minutes": "19:06",
+            "field_goals_made": 4,
+            "field_goals_att": 5,
+            "field_goals_pct": 80,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 4,
+            "two_points_att": 5,
+            "two_points_pct": 0.8,
+            "blocked_att": 0,
+            "free_throws_made": 1,
+            "free_throws_att": 2,
+            "free_throws_pct": 50,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 5,
+            "rebounds": 7,
+            "assists": 0,
+            "turnovers": 2,
+            "steals": 0,
+            "blocks": 1,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 5,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 8,
+            "points": 9
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "C.J. Watson",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "32",
+          "id": "7671f7d9-b7f8-4602-a32d-19f4f1ddae75",
+          "statistics": {
+            "minutes": "21:49",
+            "field_goals_made": 2,
+            "field_goals_att": 7,
+            "field_goals_pct": 28.6,
+            "three_points_made": 1,
+            "three_points_att": 5,
+            "three_points_pct": 20,
+            "two_points_made": 1,
+            "two_points_att": 2,
+            "two_points_pct": 0.5,
+            "blocked_att": 0,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 3,
+            "rebounds": 4,
+            "assists": 5,
+            "turnovers": 3,
+            "steals": 2,
+            "blocks": 0,
+            "assists_turnover_ratio": 1.67,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 6,
+            "points": 7
+          }
+        }
+      ]
+    }
+  }
+}

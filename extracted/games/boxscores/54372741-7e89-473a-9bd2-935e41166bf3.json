@@ -1,0 +1,308 @@
+{
+  "id": "54372741-7e89-473a-9bd2-935e41166bf3",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2014-10-23T00:00:00+00:00",
+  "duration": "2:29",
+  "attendance": 12073,
+  "lead_changes": 13,
+  "times_tied": 12,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Grizzlies",
+    "market": "Memphis",
+    "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 96,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 14,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 28,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 27,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 27,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Marc Gasol",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "33",
+          "id": "b73a8508-23a1-49ee-a466-aa9ea8add09e",
+          "statistics": {
+            "minutes": "24:35",
+            "field_goals_made": 6,
+            "field_goals_att": 10,
+            "field_goals_pct": 60,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 6,
+            "two_points_att": 10,
+            "two_points_pct": 0.6,
+            "blocked_att": 0,
+            "free_throws_made": 4,
+            "free_throws_att": 7,
+            "free_throws_pct": 57.1,
+            "offensive_rebounds": 3,
+            "defensive_rebounds": 6,
+            "rebounds": 9,
+            "assists": 2,
+            "turnovers": 3,
+            "steals": 0,
+            "blocks": 2,
+            "assists_turnover_ratio": 0.67,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 7,
+            "points": 16
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Marc Gasol",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "33",
+          "id": "b73a8508-23a1-49ee-a466-aa9ea8add09e",
+          "statistics": {
+            "minutes": "24:35",
+            "field_goals_made": 6,
+            "field_goals_att": 10,
+            "field_goals_pct": 60,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 6,
+            "two_points_att": 10,
+            "two_points_pct": 0.6,
+            "blocked_att": 0,
+            "free_throws_made": 4,
+            "free_throws_att": 7,
+            "free_throws_pct": 57.1,
+            "offensive_rebounds": 3,
+            "defensive_rebounds": 6,
+            "rebounds": 9,
+            "assists": 2,
+            "turnovers": 3,
+            "steals": 0,
+            "blocks": 2,
+            "assists_turnover_ratio": 0.67,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 7,
+            "points": 16
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Mike Conley",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "11",
+          "id": "460b7264-b98f-483e-b841-59a18c2e4d67",
+          "statistics": {
+            "minutes": "27:20",
+            "field_goals_made": 4,
+            "field_goals_att": 9,
+            "field_goals_pct": 44.4,
+            "three_points_made": 2,
+            "three_points_att": 4,
+            "three_points_pct": 50,
+            "two_points_made": 2,
+            "two_points_att": 5,
+            "two_points_pct": 0.4,
+            "blocked_att": 1,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 0,
+            "rebounds": 0,
+            "assists": 4,
+            "turnovers": 0,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 17,
+            "points": 10
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Cavaliers",
+    "market": "Cleveland",
+    "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 92,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 16,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 28,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 23,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 25,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Kyrie Irving",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "2",
+          "id": "dd146010-902b-4ad7-b98c-650d0363a2f0",
+          "statistics": {
+            "minutes": "23:40",
+            "field_goals_made": 7,
+            "field_goals_att": 11,
+            "field_goals_pct": 63.6,
+            "three_points_made": 1,
+            "three_points_att": 3,
+            "three_points_pct": 33.3,
+            "two_points_made": 6,
+            "two_points_att": 8,
+            "two_points_pct": 0.75,
+            "blocked_att": 0,
+            "free_throws_made": 1,
+            "free_throws_att": 2,
+            "free_throws_pct": 50,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 1,
+            "rebounds": 1,
+            "assists": 3,
+            "turnovers": 2,
+            "steals": 1,
+            "blocks": 1,
+            "assists_turnover_ratio": 1.5,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -6,
+            "points": 16
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Kevin Love",
+          "position": "F-C",
+          "primary_position": "PF",
+          "jersey_number": "0",
+          "id": "7d615ccd-db96-42a3-9a6c-7f18ea25634e",
+          "statistics": {
+            "minutes": "23:37",
+            "field_goals_made": 4,
+            "field_goals_att": 9,
+            "field_goals_pct": 44.4,
+            "three_points_made": 0,
+            "three_points_att": 1,
+            "three_points_pct": 0,
+            "two_points_made": 4,
+            "two_points_att": 8,
+            "two_points_pct": 0.5,
+            "blocked_att": 0,
+            "free_throws_made": 4,
+            "free_throws_att": 5,
+            "free_throws_pct": 80,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 7,
+            "rebounds": 8,
+            "assists": 1,
+            "turnovers": 1,
+            "steals": 2,
+            "blocks": 0,
+            "assists_turnover_ratio": 1,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -7,
+            "points": 12
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "A.J. Price",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "21",
+          "id": "00278ead-9420-47ba-a8c6-18e5c61d1492",
+          "statistics": {
+            "minutes": "12:00",
+            "field_goals_made": 0,
+            "field_goals_att": 4,
+            "field_goals_pct": 0,
+            "three_points_made": 0,
+            "three_points_att": 3,
+            "three_points_pct": 0,
+            "two_points_made": 0,
+            "two_points_att": 1,
+            "two_points_pct": 0,
+            "blocked_att": 0,
+            "free_throws_made": 2,
+            "free_throws_att": 4,
+            "free_throws_pct": 50,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 0,
+            "rebounds": 0,
+            "assists": 4,
+            "turnovers": 0,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -2,
+            "points": 2
+          }
+        }
+      ]
+    }
+  }
+}

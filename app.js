@@ -6,9 +6,10 @@ var _          = require('lodash');
 var connection = mysql.createConnection({
     host     : 'localhost',
     user     : 'root',
-    password : 'root',
+    password : '',
     database : database
 });
+var ourTeamId     = '583ec773-fb46-11e1-82cb-f4ce4684ea4c'; // Cavaliers
 
 async.waterfall([
 
@@ -28,27 +29,21 @@ async.waterfall([
      */
     function emptyAllTable(callback){
 
-        var tables = ['team', 'team_player', 'team_coatch', 'player', 'injury', 'coatch', 'game'];
-        var tasks = [];
-        _.forEach(tables, function( table ) {
-
-            tasks.push( function(callback){
-                connection.query('TRUNCATE ' + table, function(err, rows) {
-                    if (err) return callback(err);
-                    console.log('Table '+table+' empty');
-                    return callback(null);
-                });
-            } );
-        });
-
-        async.parallel(tasks, function(err, results) {
+        var tables = ['injury', 'team_player', 'team_coatch', 'coatch', 'game_stat', 'game_player_stat', 'game', 'player', 'team' ];
+        async.eachSeries(tables, function( table, callback ) {
+            connection.query('TRUNCATE ' + table, function(err, rows) {
+                if (err) return callback(err);
+                console.log('Table '+table+' empty');
+                return callback(null);
+            });
+        }, function(err){
             if(!err) console.log('all tables empty');
             return callback(err);
         });
     },
 
     /*
-     * fill table team
+     * fill table team with all teams
      */
     function fillTeam(callback){
 
@@ -132,6 +127,7 @@ async.waterfall([
         });
     },
 
+
     function fillTeamCoatch(teams, callback){
         var entries = [];
         _.forEach(teams, function( team ) {
@@ -159,7 +155,7 @@ async.waterfall([
     },
 
     /*
-     *
+     * Fill all players actives in NBA
      */
     function fillPlayer(teams, callback){
 
@@ -168,58 +164,61 @@ async.waterfall([
          */
         var files = require('fs').readdirSync(extractedPath + '/players');
         var players = [];
-        files.forEach(function(file){
 
-            if(/(.*).json/.test(file)) {
+        async.eachSeries(files, function(file, callback){
+
+            // Take only json files
+            if(/(.*).json/.test(file) ) {
                 data = require('fs').readFileSync(extractedPath + '/players/' + file, 'utf8');
-                players.push( JSON.parse(data) );
+                var player = JSON.parse(data);
+                players.push(player);
+                connection.query(
+                        "INSERT INTO `bi-m2`.`player` (`id`, `name`, `birthdate`, `height`, `position`, `primary_position`, `status`, `experience` ) " +
+                        "VALUES ('"+player.id+"', "+mysql.escape(player.full_name)+", '"+player.birthdate+"', '"+player.height+"', '"+player.position+"', '"+player.primary_position+"', '"+player.status+"', '"+player.experience+"')",
+                    function(err, rows) {
+                    return callback(err, teams, players);
+                });
             }
-        });
+            else{
+                return callback();
+            }
 
-        // Add all players
-        async.each(players, function( player, cbAsync) {
-//            console.log(player.full_name + ' & ' + mysql.escape(player.full_name));
-            connection.query("INSERT INTO `bi-m2`.`player` (`id`, `name`, `birthdate`, `height`, `position`, `primary_position`, `status`, `experience` ) VALUES ('"+player.id+"', "+mysql.escape(player.full_name)+", '"+player.birthdate+"', '"+player.height+"', '"+player.position+"', '"+player.primary_position+"', '"+player.status+"', '"+player.experience+"')", function(err, rows) {
-                return cbAsync(err);
-            });
         }, function(err){
             if(!err) console.log('Table player filled');
             return callback(err, teams, players);
         });
+
     },
 
     /*
-     * Fill for each team the players composing the team at specific date
+     * Fill for our team the players actives
+     * Check all players but keep and store only players that has played in our team.
      */
     function fillTeamPlayer(teams, players, callback){
 
-        var entries = [];
-        // Loop over each players
-        _.forEach(players, function( player ) {
+        async.eachSeries(players, function(player, callback){
+            async.eachSeries(player.seasons, function(season, callback){
+                async.eachSeries(season.teams, function(team, callback){
 
-            // loop over each season
-            _.forEach(player.seasons, function( season ) {
+                    // Keep only players relative to our team
+                    if( team.id != ourTeamId ){
+                        return callback();
+                    }
+                    else{
+                        connection.query(
+                            "INSERT INTO `bi-m2`.`team_player` (`date_start`, `date_end`, `season`, `player_id`, `team_id`) " +
+                            "VALUES ('"+season.year + '-01-01'+"', '"+season.year + '-12-31'+"', '"+season.year+"', '"+player.id+"', '"+team.id+"')",
+                            function(err, rows) {
+                                return callback(err);
+                        });
+                    }
 
-                // loop over each team
-                _.forEach(season.teams, function( team ) {
-
-                    entries.push({
-                        date_start: season.year + '-01-01',
-                        date_end: season.year + '-12-31',
-                        season: season.year,
-                        player_id: player.id,
-                        team_id: team.id
-                    })
-                });
-            });
-        });
-
-//        console.log(players);
-        // Add all entries
-        async.each(entries, function( entry, cbAsync) {
-            connection.query("INSERT INTO `bi-m2`.`team_player` (`date_start`, `date_end`, `season`, `player_id`, `team_id`) VALUES ('"+entry.date_start+"', '"+entry.date_end+"', '"+entry.season+"', '"+entry.player_id+"', '"+entry.team_id+"')", function(err, rows) {
-                return cbAsync(err);
-            });
+                }, function(err){
+                    return callback(err);
+                })
+            }, function(err){
+                return callback(err);
+            })
         }, function(err){
             if(!err) console.log('Table team_player filled');
             return callback(err);
@@ -228,6 +227,7 @@ async.waterfall([
 
     /*
      * fill injuries table
+     * injuries.json give only injuries for current year so we just need to take only our team to store correct players injuries
      * @require: injuries.json
      */
     function fillInjuries(callback){
@@ -236,27 +236,28 @@ async.waterfall([
 
         var injuriesToDb = [];
 
-        _.forEach(injuries.teams, function( team ) {
+        async.eachSeries(injuries.teams, function(team, callback){
 
-            _.forEach(team.players, function( player ) {
+            // Check our team
+            if( team.id != ourTeamId ) return callback();
+            else{
+                async.eachSeries(team.players, function(player, callback){
+                    async.eachSeries(player.injuries, function(injury, callback){
 
-                _.forEach(player.injuries, function( injury ) {
-                    injuriesToDb.push({
-                        id: injury.id,
-                        player_id: player.id,
-                        start_date: injury.start_date,
-                        update_date: injury.update_date,
-                        status: injury.status
-                    })
+                        connection.query(
+                                "INSERT INTO `bi-m2`.`injury` (`id`, `start_date`, `update_date`, `player_id`, `status`) " +
+                                "VALUES ('"+injury.id+"', '"+injury.start_date+"', '"+injury.update_date+"', '"+player.id+"', '"+injury.status+"')",
+                            function(err, rows) {
+                                return callback(err);
+                            }
+                        );
+                    }, function(err){
+                        return callback(err);
+                    });
+                }, function(err){
+                    return callback(err);
                 });
-            });
-        });
-
-        // Add all entries
-        async.each(injuriesToDb, function( entry, cbAsync) {
-            connection.query("INSERT INTO `bi-m2`.`injury` (`id`, `start_date`, `update_date`, `player_id`, `status`) VALUES ('"+entry.id+"', '"+entry.start_date+"', '"+entry.update_date+"', '"+entry.player_id+"', '"+entry.status+"')", function(err, rows) {
-                return cbAsync(err);
-            });
+            }
         }, function(err){
             if(!err) console.log('Table injury filled');
             return callback(err);
@@ -264,7 +265,8 @@ async.waterfall([
     },
 
     /*
-     * Fill the table game
+     * Fill the table game.
+     * Only the games where our team is involved are stored.
      * @require: /games/boxscores/*.jons
      */
     function fillGame(callback){
@@ -276,22 +278,28 @@ async.waterfall([
         // in parallel
         async.each( files, function(file, callback){
 
+
             if(/(.*).json/.test(file)) {
 
                 data = require('fs').readFileSync(extractedPath + '/games/boxscores/' + file, 'utf8');
                 var game = JSON.parse(data);
 
-                // Games that has not been played
-                if(game.status == 'unnecessary'){
+                // Games that has not been played or with missing values
+                if(game.status == 'unnecessary' || !game.home || !game.away){
+                    console.log('No required values for game ' + game.id + ' boxcore, game skipped for insert in table game');
                     return callback();
                 }
 
                 connection.query(
-                    "INSERT INTO `bi-m2`.`game` (`id`, `team_home_id`, `team_away_id`, `away_points`, `home_points`, `duration` ) VALUES ('"+game.id+"', '"+game.home.id+"', '"+game.away.id+"', '"+game.away.points+"', '"+game.home.points+"', '"+game.duration+"')",
+                    "INSERT INTO `bi-m2`.`game` (`id`, `team_home_id`, `team_away_id`, `away_points`, `home_points`, `duration`, `date` ) "+
+                    "VALUES ('"+game.id+"', '"+game.home.id+"', '"+game.away.id+"', '"+game.away.points+"', '"+game.home.points+"', '"+game.duration+"', '"+game.scheduled+"')",
                     function(err, rows) {
                         return callback(err);
                     }
                 );
+            }
+            else{
+                return callback();
             }
         },
         function(err){
@@ -301,14 +309,108 @@ async.waterfall([
     },
 
     function fillGameStatistic( callback ){
-        return callback();
+
+
+        var files = require('fs').readdirSync(extractedPath + '/games/summaries');
+
+        // Loop over each files with a sync iterator function
+        // in parallel
+        async.each( files, function(file, callback){
+
+            if(/(.*).json/.test(file)) {
+
+                data = require('fs').readFileSync(extractedPath + '/games/summaries/' + file, 'utf8');
+                var game = JSON.parse(data);
+
+                // Games that has not been played
+                if(game.status == 'unnecessary'){
+                    return callback();
+                }
+
+                /**
+                 * Register
+                 * Game statistics and then players statistics
+                 */
+                async.waterfall([
+                    /**
+                     * Add game statistics
+                     * @param callback
+                     */
+                    function(callback){
+
+                        // If the are no stat we delete the game entry
+                        if( !game.home.statistics || !game.away.statistics ){
+                            console.log('No statistics for game ' + game.id + ', game removed from table game');
+                            connection.query( "DELETE FROM `bi-m2`.`game` where game.id = '"+game.id+"'",
+                                function(err, rows) {
+                                    return callback(err, false);
+                                }
+                            );
+                        }
+                        else{
+                            var teams = [game.home, game.away];
+                            async.eachSeries(teams, function(team, callback){
+                                connection.query(
+                                        "INSERT INTO `bi-m2`.`game_stat` (`turnovers`, `team_id`, `game_id`, `assists`, `assists_turnover_ratio`, `three_points_made`, `two_points_made`, `rebounds`, `offensive_rebounds`, `defensive_rebounds`, `paint_pts`, `steals`, `blocks` ) " +
+                                        "VALUES ('"+team.statistics.turnovers+"', '"+team.id+"', '"+game.id+"', '"+team.statistics.assists+"', "+team.statistics.assists_turnover_ratio+", '"+team.statistics.three_points_made+"', '"+team.statistics.two_points_made+"', '"+team.statistics.rebounds+"', '"+team.statistics.offensive_rebounds+"', '"+team.statistics.defensive_rebounds+"', '"+team.statistics.paint_pts+"', '"+team.statistics.steals+"', '"+team.statistics.blocks+"')",
+                                    function(err, rows) {
+                                        return callback(err, true);
+                                    }
+                                );
+                            }, function(err){
+                                return callback(err, true);
+                            });
+                        }
+                    },
+
+                    /**
+                     * Add players statistics
+                     * Only for our team
+                     * @param callback
+                     */
+                    function(statValid, callback){
+
+                        if(! statValid){
+                            console.log('Statistics not valid for game ' + game.id + ', players stat not generated');
+                            return callback();
+                        }
+
+                        // Get correct players
+                        var players = [];
+                        if( game.home.id == ourTeamId ) players = game.home.players;
+                        if( game.away.id == ourTeamId ) players = game.away.players;
+
+                        // If the are no stat we delete the game entry
+                        async.eachSeries(players, function(player, callback){
+
+                            connection.query(
+                                    "INSERT INTO `bi-m2`.`game_player_stat` (`player_id`, `game_id`, `assists`, `assists_turnover_ratio`, `three_points_made`, `two_points_made`, `rebounds`, `offensive_rebounds`, `defensive_rebounds`, `steals`, `blocks`, field_goals_made, free_throws_made, minutes, points, tech_fouls ) " +
+                                    "VALUES ('"+player.id+"', '"+game.id+"', '"+player.statistics.assists+"', "+player.statistics.assists_turnover_ratio+", '"+player.statistics.three_points_made+"', '"+player.statistics.two_points_made+"', '"+player.statistics.rebounds+"', '"+player.statistics.offensive_rebounds+"', '"+player.statistics.defensive_rebounds+"', '"+player.statistics.steals+"', '"+player.statistics.blocks+"', '"+player.statistics.field_goals_made+"', '"+player.statistics.free_throws_made+"', '"+player.statistics.minutes+"', '"+player.statistics.points+"', '"+player.statistics.tech_fouls+"')",
+                                function(err, rows) {
+                                    return callback(err);
+                                }
+                            );
+                        }, function(err){
+                            return callback(err);
+                        });
+                    }
+                ], function(err){
+                    return callback(err);
+                });
+
+            }
+            else{
+                return callback();
+            }
+        },
+        function(err){
+            if(!err){
+                console.log('Table game stat filled');
+                console.log('Table player game stat filled');
+            }
+            return callback(err);
+        });
     },
-
-    function fillGameStatisticForPlayers( callback ){
-        return callback();
-    },
-
-
 ],
 function(err, results) {
     if(err){

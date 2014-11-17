@@ -1,0 +1,308 @@
+{
+  "id": "b952fe87-5059-4a1e-8e9c-834ac1a9b489",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2014-03-23T23:30:00+00:00",
+  "duration": "2:19",
+  "attendance": 19812,
+  "lead_changes": 5,
+  "times_tied": 2,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Knicks",
+    "market": "New York",
+    "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 100,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 34,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 27,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 23,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 16,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Carmelo Anthony",
+          "position": "F",
+          "primary_position": "SF",
+          "jersey_number": "7",
+          "id": "32688af1-7ac2-432e-b60a-74b9bd89df57",
+          "statistics": {
+            "minutes": "39:54",
+            "field_goals_made": 8,
+            "field_goals_att": 20,
+            "field_goals_pct": 40,
+            "three_points_made": 4,
+            "three_points_att": 9,
+            "three_points_pct": 44.4,
+            "two_points_made": 4,
+            "two_points_att": 11,
+            "two_points_pct": 0.364,
+            "blocked_att": 0,
+            "free_throws_made": 12,
+            "free_throws_att": 12,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 8,
+            "rebounds": 8,
+            "assists": 2,
+            "turnovers": 3,
+            "steals": 1,
+            "blocks": 2,
+            "assists_turnover_ratio": 0.67,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -8,
+            "points": 32
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Carmelo Anthony",
+          "position": "F",
+          "primary_position": "SF",
+          "jersey_number": "7",
+          "id": "32688af1-7ac2-432e-b60a-74b9bd89df57",
+          "statistics": {
+            "minutes": "39:54",
+            "field_goals_made": 8,
+            "field_goals_att": 20,
+            "field_goals_pct": 40,
+            "three_points_made": 4,
+            "three_points_att": 9,
+            "three_points_pct": 44.4,
+            "two_points_made": 4,
+            "two_points_att": 11,
+            "two_points_pct": 0.364,
+            "blocked_att": 0,
+            "free_throws_made": 12,
+            "free_throws_att": 12,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 8,
+            "rebounds": 8,
+            "assists": 2,
+            "turnovers": 3,
+            "steals": 1,
+            "blocks": 2,
+            "assists_turnover_ratio": 0.67,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -8,
+            "points": 32
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Raymond Felton",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "2",
+          "id": "83b736a0-6c1e-4526-b948-e4781251cb73",
+          "statistics": {
+            "minutes": "31:56",
+            "field_goals_made": 5,
+            "field_goals_att": 12,
+            "field_goals_pct": 41.7,
+            "three_points_made": 3,
+            "three_points_att": 5,
+            "three_points_pct": 60,
+            "two_points_made": 2,
+            "two_points_att": 7,
+            "two_points_pct": 0.286,
+            "blocked_att": 1,
+            "free_throws_made": 1,
+            "free_throws_att": 2,
+            "free_throws_pct": 50,
+            "offensive_rebounds": 3,
+            "defensive_rebounds": 3,
+            "rebounds": 6,
+            "assists": 8,
+            "turnovers": 1,
+            "steals": 3,
+            "blocks": 0,
+            "assists_turnover_ratio": 8,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -13,
+            "points": 14
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Cavaliers",
+    "market": "Cleveland",
+    "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 106,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 27,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 19,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 31,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 29,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Jarrett Jack",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "1",
+          "id": "c3a3881d-92e9-4352-979b-d8465a5a3605",
+          "statistics": {
+            "minutes": "42:01",
+            "field_goals_made": 13,
+            "field_goals_att": 19,
+            "field_goals_pct": 68.4,
+            "three_points_made": 1,
+            "three_points_att": 2,
+            "three_points_pct": 50,
+            "two_points_made": 12,
+            "two_points_att": 17,
+            "two_points_pct": 0.706,
+            "blocked_att": 0,
+            "free_throws_made": 4,
+            "free_throws_att": 5,
+            "free_throws_pct": 80,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 5,
+            "rebounds": 5,
+            "assists": 10,
+            "turnovers": 3,
+            "steals": 0,
+            "blocks": 1,
+            "assists_turnover_ratio": 3.33,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 8,
+            "points": 31
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Jarrett Jack",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "1",
+          "id": "c3a3881d-92e9-4352-979b-d8465a5a3605",
+          "statistics": {
+            "minutes": "42:01",
+            "field_goals_made": 13,
+            "field_goals_att": 19,
+            "field_goals_pct": 68.4,
+            "three_points_made": 1,
+            "three_points_att": 2,
+            "three_points_pct": 50,
+            "two_points_made": 12,
+            "two_points_att": 17,
+            "two_points_pct": 0.706,
+            "blocked_att": 0,
+            "free_throws_made": 4,
+            "free_throws_att": 5,
+            "free_throws_pct": 80,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 5,
+            "rebounds": 5,
+            "assists": 10,
+            "turnovers": 3,
+            "steals": 0,
+            "blocks": 1,
+            "assists_turnover_ratio": 3.33,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 8,
+            "points": 31
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Jarrett Jack",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "1",
+          "id": "c3a3881d-92e9-4352-979b-d8465a5a3605",
+          "statistics": {
+            "minutes": "42:01",
+            "field_goals_made": 13,
+            "field_goals_att": 19,
+            "field_goals_pct": 68.4,
+            "three_points_made": 1,
+            "three_points_att": 2,
+            "three_points_pct": 50,
+            "two_points_made": 12,
+            "two_points_att": 17,
+            "two_points_pct": 0.706,
+            "blocked_att": 0,
+            "free_throws_made": 4,
+            "free_throws_att": 5,
+            "free_throws_pct": 80,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 5,
+            "rebounds": 5,
+            "assists": 10,
+            "turnovers": 3,
+            "steals": 0,
+            "blocks": 1,
+            "assists_turnover_ratio": 3.33,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 8,
+            "points": 31
+          }
+        }
+      ]
+    }
+  }
+}
