@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.0.4
+-- version 4.1.14
 -- http://www.phpmyadmin.net
 --
--- Host: localhost
--- Generation Time: Nov 16, 2014 at 07:40 PM
--- Server version: 5.6.12-log
--- PHP Version: 5.4.12
+-- Host: 127.0.0.1
+-- Generation Time: Nov 17, 2014 at 01:16 AM
+-- Server version: 5.6.17
+-- PHP Version: 5.5.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -19,8 +19,6 @@ SET time_zone = "+00:00";
 --
 -- Database: `bi-m2`
 --
-CREATE DATABASE IF NOT EXISTS `bi-m2` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-USE `bi-m2`;
 
 -- --------------------------------------------------------
 
@@ -33,6 +31,21 @@ CREATE TABLE IF NOT EXISTS `coatch` (
   `full_name` varchar(200) NOT NULL,
   `position` varchar(200) NOT NULL,
   `experience` varchar(200) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `game`
+--
+
+CREATE TABLE IF NOT EXISTS `game` (
+  `id` varchar(200) NOT NULL,
+  `team_home_id` varchar(200) NOT NULL,
+  `away_points` int(11) NOT NULL,
+  `home_points` int(11) NOT NULL,
+  `duration` varchar(200) NOT NULL,
+  `team_away_id` varchar(200) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -110,7 +123,7 @@ CREATE TABLE IF NOT EXISTS `team_player` (
   `player_id` varchar(200) NOT NULL,
   `team_id` varchar(200) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=747 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=830 ;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
