@@ -271,47 +271,8 @@ async.waterfall([
      */
     function fillGame(callback){
 
-        var files = require('fs').readdirSync(extractedPath + '/games/boxscores');
-        var games = [];
-
-        // Loop over each files with a sync iterator function
-        // in parallel
-        async.each( files, function(file, callback){
-
-
-            if(/(.*).json/.test(file)) {
-
-                data = require('fs').readFileSync(extractedPath + '/games/boxscores/' + file, 'utf8');
-                var game = JSON.parse(data);
-
-                // Games that has not been played or with missing values
-                if(game.status == 'unnecessary' || !game.home || !game.away){
-                    console.log('No required values for game ' + game.id + ' boxcore, game skipped for insert in table game');
-                    return callback();
-                }
-
-                connection.query(
-                    "INSERT INTO `bi-m2`.`game` (`id`, `team_home_id`, `team_away_id`, `away_points`, `home_points`, `duration`, `date` ) "+
-                    "VALUES ('"+game.id+"', '"+game.home.id+"', '"+game.away.id+"', '"+game.away.points+"', '"+game.home.points+"', '"+game.duration+"', '"+game.scheduled+"')",
-                    function(err, rows) {
-                        return callback(err);
-                    }
-                );
-            }
-            else{
-                return callback();
-            }
-        },
-        function(err){
-            if(!err) console.log('Table game filled');
-            return callback(err);
-        });
-    },
-
-    function fillGameStatistic( callback ){
-
-
         var files = require('fs').readdirSync(extractedPath + '/games/summaries');
+        var games = [];
 
         // Loop over each files with a sync iterator function
         // in parallel
@@ -322,10 +283,51 @@ async.waterfall([
                 data = require('fs').readFileSync(extractedPath + '/games/summaries/' + file, 'utf8');
                 var game = JSON.parse(data);
 
-                // Games that has not been played
-                if(game.status == 'unnecessary'){
-                    return callback();
+                // Take only games that involve our team
+                if( game.home.id == ourTeamId || game.away.id == ourTeamId ){
+
+                    // Reject games that has not been played or with missing values
+                    if(game.status == 'unnecessary' || !game.home || !game.away){
+                        console.log('No required values for game ' + game.id + ' summaries, game skipped for insert in table game');
+                        return callback();
+                    }
+                    else{
+
+                        games.push( game );
+                        connection.query(
+                                "INSERT INTO `bi-m2`.`game` (`id`, `team_home_id`, `team_away_id`, `away_points`, `home_points`, `duration`, `date` ) "+
+                                "VALUES ('"+game.id+"', '"+game.home.id+"', '"+game.away.id+"', '"+game.away.points+"', '"+game.home.points+"', '"+game.duration+"', '"+game.scheduled+"')",
+                            function(err, rows) {
+                                return callback(err);
+                            }
+                        );
+                    }
                 }
+                else{
+                    console.log('Game summary rejected because not about our team');
+                    return callback(null);
+                }
+            }
+            else{
+                return callback(null);
+            }
+        },
+        function(err){
+            if(!err) console.log('Table game filled');
+            return callback(err, games);
+        });
+    },
+
+    /**
+     * Fill statistics about the games statistics
+     * Games received are only games about our team.
+     * @param games array of game summary (from .json)
+     */
+    function fillGameStatistic( games, callback ){
+
+        // Loop over each files with a sync iterator function
+        // in parallel
+        async.each( games, function(game, callback){
 
                 /**
                  * Register
@@ -397,11 +399,6 @@ async.waterfall([
                 ], function(err){
                     return callback(err);
                 });
-
-            }
-            else{
-                return callback();
-            }
         },
         function(err){
             if(!err){
