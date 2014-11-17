@@ -342,7 +342,7 @@ async.waterfall([
 
                         // If the are no stat we delete the game entry
                         if( !game.home.statistics || !game.away.statistics ){
-                            console.log('No statistics for game ' + game.id + ', game removed from table game');
+                            console.log('No statistics for game ' + game.id + ', game stat not generated and game removed from table game');
                             connection.query( "DELETE FROM `bi-m2`.`game` where game.id = '"+game.id+"'",
                                 function(err, rows) {
                                     return callback(err, false);
@@ -373,7 +373,7 @@ async.waterfall([
                     function(statValid, callback){
 
                         if(! statValid){
-                            console.log('Statistics not valid for game ' + game.id + ', players stat not generated');
+                            console.log('No statistics for game ' + game.id + ', players stat not generated');
                             return callback();
                         }
 
