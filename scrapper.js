@@ -19,40 +19,40 @@ var APIcallTimoutExtra = 1000;
 console.log('Start of program');
 async.series([
 
-//    function(callback){
-//        console.log('Start extracting of injuries');
-//        extractInjuriesFromAPI(function(err){
-//            return callback(err);
-//        });
-//    },
-//
-//    function(callback){
-//        console.log('Start extracting of teams profile');
-//        extractAllTeamProfileFromAPI(function(err){
-//            callback(err);
-//        });
-//    },
-//
-//    function(callback){
-//        console.log('Start extracting of players profile');
-//        extractAllPlayerProfileFromAPI(function(err){
-//            callback(err);
-//        });
-//    },
-//
-//    function(callback){
-//        console.log('Start extracting of schedules');
-//        extractScheduleFromAPI(function(err){
-//            return callback(err);
-//        });
-//    },
-//
-//    function(callback){
-//        console.log('Start extracting of boxscores');
-//        extractBoxScoresFromAPI(function(err){
-//            return callback(err);
-//        });
-//    },
+    function(callback){
+        console.log('Start extracting of injuries');
+        extractInjuriesFromAPI(function(err){
+            return callback(err);
+        });
+    },
+
+    function(callback){
+        console.log('Start extracting of teams profile');
+        extractAllTeamProfileFromAPI(function(err){
+            callback(err);
+        });
+    },
+
+    function(callback){
+        console.log('Start extracting of players profile');
+        extractAllPlayerProfileFromAPI(function(err){
+            callback(err);
+        });
+    },
+
+    function(callback){
+        console.log('Start extracting of schedules');
+        extractScheduleFromAPI(function(err){
+            return callback(err);
+        });
+    },
+
+    function(callback){
+        console.log('Start extracting of boxscores');
+        extractBoxScoresFromAPI(function(err){
+            return callback(err);
+        });
+    },
 
     function(callback){
         console.log('Start extracting of summaries');
