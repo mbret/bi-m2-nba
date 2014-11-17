@@ -91,6 +91,7 @@ async.waterfall([
 
     /*
      * @require: teams/*.json
+     * @todo only coatches for our team
      */
     function fillCoatch(callback){
         var files = require('fs').readdirSync(extractedPath + '/teams');
