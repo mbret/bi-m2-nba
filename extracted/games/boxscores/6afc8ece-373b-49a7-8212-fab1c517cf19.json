@@ -1,0 +1,308 @@
+{
+  "id": "6afc8ece-373b-49a7-8212-fab1c517cf19",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2014-01-25T00:30:00+00:00",
+  "duration": "2:03",
+  "attendance": 17601,
+  "lead_changes": 2,
+  "times_tied": 0,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Hawks",
+    "market": "Atlanta",
+    "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 79,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 14,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 20,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 22,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 23,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Paul Millsap",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "4",
+          "id": "59f6f688-7000-4cf5-a27f-a1980dd86d93",
+          "statistics": {
+            "minutes": "25:50",
+            "field_goals_made": 6,
+            "field_goals_att": 17,
+            "field_goals_pct": 35.3,
+            "three_points_made": 0,
+            "three_points_att": 2,
+            "three_points_pct": 0,
+            "two_points_made": 6,
+            "two_points_att": 15,
+            "two_points_pct": 0.4,
+            "blocked_att": 2,
+            "free_throws_made": 3,
+            "free_throws_att": 4,
+            "free_throws_pct": 75,
+            "offensive_rebounds": 3,
+            "defensive_rebounds": 5,
+            "rebounds": 8,
+            "assists": 2,
+            "turnovers": 1,
+            "steals": 4,
+            "blocks": 2,
+            "assists_turnover_ratio": 2,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -16,
+            "points": 15
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Paul Millsap",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "4",
+          "id": "59f6f688-7000-4cf5-a27f-a1980dd86d93",
+          "statistics": {
+            "minutes": "25:50",
+            "field_goals_made": 6,
+            "field_goals_att": 17,
+            "field_goals_pct": 35.3,
+            "three_points_made": 0,
+            "three_points_att": 2,
+            "three_points_pct": 0,
+            "two_points_made": 6,
+            "two_points_att": 15,
+            "two_points_pct": 0.4,
+            "blocked_att": 2,
+            "free_throws_made": 3,
+            "free_throws_att": 4,
+            "free_throws_pct": 75,
+            "offensive_rebounds": 3,
+            "defensive_rebounds": 5,
+            "rebounds": 8,
+            "assists": 2,
+            "turnovers": 1,
+            "steals": 4,
+            "blocks": 2,
+            "assists_turnover_ratio": 2,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -16,
+            "points": 15
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Louis Williams",
+          "position": "G",
+          "primary_position": "SG",
+          "jersey_number": "3",
+          "id": "2629c593-5f7c-4d34-aec7-6b949572af2a",
+          "statistics": {
+            "minutes": "37:29",
+            "field_goals_made": 4,
+            "field_goals_att": 11,
+            "field_goals_pct": 36.4,
+            "three_points_made": 1,
+            "three_points_att": 2,
+            "three_points_pct": 50,
+            "two_points_made": 3,
+            "two_points_att": 9,
+            "two_points_pct": 0.333,
+            "blocked_att": 1,
+            "free_throws_made": 3,
+            "free_throws_att": 3,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 3,
+            "rebounds": 3,
+            "assists": 7,
+            "turnovers": 2,
+            "steals": 2,
+            "blocks": 0,
+            "assists_turnover_ratio": 3.5,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -17,
+            "points": 12
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Spurs",
+    "market": "San Antonio",
+    "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 105,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 27,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 28,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 29,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 21,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Boris Diaw",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "33",
+          "id": "52eba610-a87e-4c05-bb2d-dfb71bb32d03",
+          "statistics": {
+            "minutes": "22:02",
+            "field_goals_made": 8,
+            "field_goals_att": 10,
+            "field_goals_pct": 80,
+            "three_points_made": 3,
+            "three_points_att": 4,
+            "three_points_pct": 75,
+            "two_points_made": 5,
+            "two_points_att": 6,
+            "two_points_pct": 0.833,
+            "blocked_att": 0,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 5,
+            "rebounds": 5,
+            "assists": 2,
+            "turnovers": 5,
+            "steals": 1,
+            "blocks": 1,
+            "assists_turnover_ratio": 0.4,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 27,
+            "points": 21
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Tim Duncan",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "21",
+          "id": "1f9d116b-7c1b-4d1a-bf02-59ba4b22092e",
+          "statistics": {
+            "minutes": "26:59",
+            "field_goals_made": 7,
+            "field_goals_att": 14,
+            "field_goals_pct": 50,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 7,
+            "two_points_att": 14,
+            "two_points_pct": 0.5,
+            "blocked_att": 3,
+            "free_throws_made": 3,
+            "free_throws_att": 6,
+            "free_throws_pct": 50,
+            "offensive_rebounds": 4,
+            "defensive_rebounds": 12,
+            "rebounds": 16,
+            "assists": 2,
+            "turnovers": 3,
+            "steals": 0,
+            "blocks": 4,
+            "assists_turnover_ratio": 0.67,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 21,
+            "points": 17
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Tony Parker",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "9",
+          "id": "b1b2d578-44df-4e05-9884-31dd89e82cf0",
+          "statistics": {
+            "minutes": "27:19",
+            "field_goals_made": 5,
+            "field_goals_att": 10,
+            "field_goals_pct": 50,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 5,
+            "two_points_att": 10,
+            "two_points_pct": 0.5,
+            "blocked_att": 0,
+            "free_throws_made": 1,
+            "free_throws_att": 2,
+            "free_throws_pct": 50,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 1,
+            "rebounds": 1,
+            "assists": 7,
+            "turnovers": 4,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 1.75,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 23,
+            "points": 11
+          }
+        }
+      ]
+    }
+  }
+}

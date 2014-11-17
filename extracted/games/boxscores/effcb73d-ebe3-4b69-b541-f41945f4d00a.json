@@ -1,0 +1,308 @@
+{
+  "id": "effcb73d-ebe3-4b69-b541-f41945f4d00a",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2014-01-18T00:00:00+00:00",
+  "duration": "2:11",
+  "attendance": 17005,
+  "lead_changes": 12,
+  "times_tied": 11,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Wizards",
+    "market": "Washington",
+    "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 96,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 30,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 24,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 20,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 22,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "John Wall",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "2",
+          "id": "6769d1ca-0581-48b0-b487-b5c87b8f696e",
+          "statistics": {
+            "minutes": "33:47",
+            "field_goals_made": 9,
+            "field_goals_att": 15,
+            "field_goals_pct": 60,
+            "three_points_made": 0,
+            "three_points_att": 1,
+            "three_points_pct": 0,
+            "two_points_made": 9,
+            "two_points_att": 14,
+            "two_points_pct": 0.643,
+            "blocked_att": 2,
+            "free_throws_made": 5,
+            "free_throws_att": 6,
+            "free_throws_pct": 83.3,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 2,
+            "rebounds": 4,
+            "assists": 11,
+            "turnovers": 4,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 2.75,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 7,
+            "points": 23
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Trevor Ariza",
+          "position": "F",
+          "primary_position": "SF",
+          "jersey_number": "1",
+          "id": "9392d5b6-3dbf-4375-8fdd-4dafaae6ede4",
+          "statistics": {
+            "minutes": "32:36",
+            "field_goals_made": 2,
+            "field_goals_att": 5,
+            "field_goals_pct": 40,
+            "three_points_made": 0,
+            "three_points_att": 2,
+            "three_points_pct": 0,
+            "two_points_made": 2,
+            "two_points_att": 3,
+            "two_points_pct": 0.667,
+            "blocked_att": 0,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 8,
+            "rebounds": 8,
+            "assists": 3,
+            "turnovers": 2,
+            "steals": 2,
+            "blocks": 1,
+            "assists_turnover_ratio": 1.5,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 6,
+            "points": 4
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "John Wall",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "2",
+          "id": "6769d1ca-0581-48b0-b487-b5c87b8f696e",
+          "statistics": {
+            "minutes": "33:47",
+            "field_goals_made": 9,
+            "field_goals_att": 15,
+            "field_goals_pct": 60,
+            "three_points_made": 0,
+            "three_points_att": 1,
+            "three_points_pct": 0,
+            "two_points_made": 9,
+            "two_points_att": 14,
+            "two_points_pct": 0.643,
+            "blocked_att": 2,
+            "free_throws_made": 5,
+            "free_throws_att": 6,
+            "free_throws_pct": 83.3,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 2,
+            "rebounds": 4,
+            "assists": 11,
+            "turnovers": 4,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 2.75,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 7,
+            "points": 23
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Bulls",
+    "market": "Chicago",
+    "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 93,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 27,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 23,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 24,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 19,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Kirk Hinrich",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "12",
+          "id": "2ef5faba-5362-4111-98ed-22f7c639521e",
+          "statistics": {
+            "minutes": "28:29",
+            "field_goals_made": 8,
+            "field_goals_att": 15,
+            "field_goals_pct": 53.3,
+            "three_points_made": 2,
+            "three_points_att": 6,
+            "three_points_pct": 33.3,
+            "two_points_made": 6,
+            "two_points_att": 9,
+            "two_points_pct": 0.667,
+            "blocked_att": 1,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 5,
+            "rebounds": 5,
+            "assists": 5,
+            "turnovers": 2,
+            "steals": 0,
+            "blocks": 3,
+            "assists_turnover_ratio": 2.5,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 3,
+            "points": 18
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Joakim Noah",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "13",
+          "id": "b6eee153-eac4-41e5-afcb-ab46cf7a8ba8",
+          "statistics": {
+            "minutes": "33:29",
+            "field_goals_made": 2,
+            "field_goals_att": 5,
+            "field_goals_pct": 40,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 2,
+            "two_points_att": 5,
+            "two_points_pct": 0.4,
+            "blocked_att": 2,
+            "free_throws_made": 5,
+            "free_throws_att": 6,
+            "free_throws_pct": 83.3,
+            "offensive_rebounds": 4,
+            "defensive_rebounds": 8,
+            "rebounds": 12,
+            "assists": 6,
+            "turnovers": 2,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 3,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 1,
+            "points": 9
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Joakim Noah",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "13",
+          "id": "b6eee153-eac4-41e5-afcb-ab46cf7a8ba8",
+          "statistics": {
+            "minutes": "33:29",
+            "field_goals_made": 2,
+            "field_goals_att": 5,
+            "field_goals_pct": 40,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 2,
+            "two_points_att": 5,
+            "two_points_pct": 0.4,
+            "blocked_att": 2,
+            "free_throws_made": 5,
+            "free_throws_att": 6,
+            "free_throws_pct": 83.3,
+            "offensive_rebounds": 4,
+            "defensive_rebounds": 8,
+            "rebounds": 12,
+            "assists": 6,
+            "turnovers": 2,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 3,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 1,
+            "points": 9
+          }
+        }
+      ]
+    }
+  }
+}

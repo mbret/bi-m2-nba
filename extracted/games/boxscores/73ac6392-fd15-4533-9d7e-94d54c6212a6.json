@@ -1,0 +1,308 @@
+{
+  "id": "73ac6392-fd15-4533-9d7e-94d54c6212a6",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2014-01-05T00:00:00+00:00",
+  "duration": "2:11",
+  "attendance": 18846,
+  "lead_changes": 10,
+  "times_tied": 5,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Magic",
+    "market": "Orlando",
+    "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 94,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 24,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 22,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 24,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 24,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Jameer Nelson",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "14",
+          "id": "5d3681c6-9c73-4895-9b59-b4851069469f",
+          "statistics": {
+            "minutes": "39:19",
+            "field_goals_made": 7,
+            "field_goals_att": 11,
+            "field_goals_pct": 63.6,
+            "three_points_made": 5,
+            "three_points_att": 8,
+            "three_points_pct": 62.5,
+            "two_points_made": 2,
+            "two_points_att": 3,
+            "two_points_pct": 0.667,
+            "blocked_att": 0,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 4,
+            "rebounds": 5,
+            "assists": 6,
+            "turnovers": 2,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 3,
+            "personal_fouls": 5,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -4,
+            "points": 21
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Tobias Harris",
+          "position": "F",
+          "primary_position": "SF",
+          "jersey_number": "12",
+          "id": "82f09975-6a8d-42e4-b42c-a52b9349ed50",
+          "statistics": {
+            "minutes": "39:51",
+            "field_goals_made": 7,
+            "field_goals_att": 16,
+            "field_goals_pct": 43.8,
+            "three_points_made": 1,
+            "three_points_att": 5,
+            "three_points_pct": 20,
+            "two_points_made": 6,
+            "two_points_att": 11,
+            "two_points_pct": 0.545,
+            "blocked_att": 1,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 3,
+            "defensive_rebounds": 7,
+            "rebounds": 10,
+            "assists": 1,
+            "turnovers": 1,
+            "steals": 0,
+            "blocks": 1,
+            "assists_turnover_ratio": 1,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -15,
+            "points": 17
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Jameer Nelson",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "14",
+          "id": "5d3681c6-9c73-4895-9b59-b4851069469f",
+          "statistics": {
+            "minutes": "39:19",
+            "field_goals_made": 7,
+            "field_goals_att": 11,
+            "field_goals_pct": 63.6,
+            "three_points_made": 5,
+            "three_points_att": 8,
+            "three_points_pct": 62.5,
+            "two_points_made": 2,
+            "two_points_att": 3,
+            "two_points_pct": 0.667,
+            "blocked_att": 0,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 4,
+            "rebounds": 5,
+            "assists": 6,
+            "turnovers": 2,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 3,
+            "personal_fouls": 5,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -4,
+            "points": 21
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Heat",
+    "market": "Miami",
+    "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 110,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 30,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 18,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 33,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 29,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Dwyane Wade",
+          "position": "G",
+          "primary_position": "SG",
+          "jersey_number": "3",
+          "id": "2038ebc0-a35b-4979-9fd6-15c72c435101",
+          "statistics": {
+            "minutes": "35:58",
+            "field_goals_made": 8,
+            "field_goals_att": 15,
+            "field_goals_pct": 53.3,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 8,
+            "two_points_att": 15,
+            "two_points_pct": 0.533,
+            "blocked_att": 1,
+            "free_throws_made": 4,
+            "free_throws_att": 5,
+            "free_throws_pct": 80,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 5,
+            "rebounds": 6,
+            "assists": 4,
+            "turnovers": 2,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 2,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 12,
+            "points": 20
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "LeBron James",
+          "position": "F",
+          "primary_position": "SF",
+          "jersey_number": "6",
+          "id": "0afbe608-940a-4d5d-a1f7-468718c67d91",
+          "statistics": {
+            "minutes": "35:55",
+            "field_goals_made": 5,
+            "field_goals_att": 13,
+            "field_goals_pct": 38.5,
+            "three_points_made": 0,
+            "three_points_att": 1,
+            "three_points_pct": 0,
+            "two_points_made": 5,
+            "two_points_att": 12,
+            "two_points_pct": 0.417,
+            "blocked_att": 2,
+            "free_throws_made": 5,
+            "free_throws_att": 8,
+            "free_throws_pct": 62.5,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 7,
+            "rebounds": 8,
+            "assists": 8,
+            "turnovers": 3,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 2.67,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 17,
+            "points": 15
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "LeBron James",
+          "position": "F",
+          "primary_position": "SF",
+          "jersey_number": "6",
+          "id": "0afbe608-940a-4d5d-a1f7-468718c67d91",
+          "statistics": {
+            "minutes": "35:55",
+            "field_goals_made": 5,
+            "field_goals_att": 13,
+            "field_goals_pct": 38.5,
+            "three_points_made": 0,
+            "three_points_att": 1,
+            "three_points_pct": 0,
+            "two_points_made": 5,
+            "two_points_att": 12,
+            "two_points_pct": 0.417,
+            "blocked_att": 2,
+            "free_throws_made": 5,
+            "free_throws_att": 8,
+            "free_throws_pct": 62.5,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 7,
+            "rebounds": 8,
+            "assists": 8,
+            "turnovers": 3,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 2.67,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 17,
+            "points": 15
+          }
+        }
+      ]
+    }
+  }
+}

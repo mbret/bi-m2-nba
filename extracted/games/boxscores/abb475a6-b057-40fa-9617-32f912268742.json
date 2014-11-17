@@ -1,0 +1,306 @@
+{
+  "id": "abb475a6-b057-40fa-9617-32f912268742",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2014-01-27T02:00:00+00:00",
+  "duration": "2:25",
+  "attendance": 15939,
+  "lead_changes": 23,
+  "times_tied": 11,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Kings",
+    "market": "Sacramento",
+    "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 117,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 31,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 28,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 34,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 24,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Isaiah Thomas",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "22",
+          "id": "bda5388e-a657-4e2c-8e12-6ed474518d25",
+          "statistics": {
+            "minutes": "36:29",
+            "field_goals_made": 7,
+            "field_goals_att": 21,
+            "field_goals_pct": 33.3,
+            "three_points_made": 1,
+            "three_points_att": 6,
+            "three_points_pct": 16.7,
+            "two_points_made": 6,
+            "two_points_att": 15,
+            "two_points_pct": 0.4,
+            "blocked_att": 1,
+            "free_throws_made": 7,
+            "free_throws_att": 8,
+            "free_throws_pct": 87.5,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 4,
+            "rebounds": 5,
+            "assists": 8,
+            "turnovers": 3,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 2.67,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "points": 22
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Jason Thompson",
+          "position": "F-C",
+          "primary_position": "PF",
+          "jersey_number": "34",
+          "id": "3360c00c-4737-4b6e-b683-46f4092cfb0a",
+          "statistics": {
+            "minutes": "27:41",
+            "field_goals_made": 5,
+            "field_goals_att": 7,
+            "field_goals_pct": 71.4,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 5,
+            "two_points_att": 7,
+            "two_points_pct": 0.714,
+            "blocked_att": 1,
+            "free_throws_made": 3,
+            "free_throws_att": 4,
+            "free_throws_pct": 75,
+            "offensive_rebounds": 5,
+            "defensive_rebounds": 5,
+            "rebounds": 10,
+            "assists": 1,
+            "turnovers": 3,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 0.33,
+            "personal_fouls": 5,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -1,
+            "points": 13
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Isaiah Thomas",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "22",
+          "id": "bda5388e-a657-4e2c-8e12-6ed474518d25",
+          "statistics": {
+            "minutes": "36:29",
+            "field_goals_made": 7,
+            "field_goals_att": 21,
+            "field_goals_pct": 33.3,
+            "three_points_made": 1,
+            "three_points_att": 6,
+            "three_points_pct": 16.7,
+            "two_points_made": 6,
+            "two_points_att": 15,
+            "two_points_pct": 0.4,
+            "blocked_att": 1,
+            "free_throws_made": 7,
+            "free_throws_att": 8,
+            "free_throws_pct": 87.5,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 4,
+            "rebounds": 5,
+            "assists": 8,
+            "turnovers": 3,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 2.67,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "points": 22
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Nuggets",
+    "market": "Denver",
+    "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 125,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 30,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 35,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 30,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 30,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Ty Lawson",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "3",
+          "id": "95fd2469-00cc-481c-a42d-5ec9eaa80868",
+          "statistics": {
+            "minutes": "35:17",
+            "field_goals_made": 9,
+            "field_goals_att": 15,
+            "field_goals_pct": 60,
+            "three_points_made": 1,
+            "three_points_att": 1,
+            "three_points_pct": 100,
+            "two_points_made": 8,
+            "two_points_att": 14,
+            "two_points_pct": 0.571,
+            "blocked_att": 0,
+            "free_throws_made": 8,
+            "free_throws_att": 10,
+            "free_throws_pct": 80,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 3,
+            "rebounds": 3,
+            "assists": 6,
+            "turnovers": 2,
+            "steals": 2,
+            "blocks": 0,
+            "assists_turnover_ratio": 3,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 2,
+            "points": 27
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Kenneth Faried",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "35",
+          "id": "6ee485e1-534f-4d07-9492-c30b1ae9d607",
+          "statistics": {
+            "minutes": "34:16",
+            "field_goals_made": 7,
+            "field_goals_att": 12,
+            "field_goals_pct": 58.3,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 7,
+            "two_points_att": 12,
+            "two_points_pct": 0.583,
+            "blocked_att": 0,
+            "free_throws_made": 1,
+            "free_throws_att": 2,
+            "free_throws_pct": 50,
+            "offensive_rebounds": 4,
+            "defensive_rebounds": 7,
+            "rebounds": 11,
+            "assists": 4,
+            "turnovers": 1,
+            "steals": 1,
+            "blocks": 1,
+            "assists_turnover_ratio": 4,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 5,
+            "points": 15
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Nate Robinson",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "10",
+          "id": "47f88b06-686d-47c2-89bd-58e9406be8da",
+          "statistics": {
+            "minutes": "24:24",
+            "field_goals_made": 4,
+            "field_goals_att": 8,
+            "field_goals_pct": 50,
+            "three_points_made": 1,
+            "three_points_att": 4,
+            "three_points_pct": 25,
+            "two_points_made": 3,
+            "two_points_att": 4,
+            "two_points_pct": 0.75,
+            "blocked_att": 0,
+            "free_throws_made": 3,
+            "free_throws_att": 4,
+            "free_throws_pct": 75,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 1,
+            "rebounds": 1,
+            "assists": 8,
+            "turnovers": 1,
+            "steals": 2,
+            "blocks": 0,
+            "assists_turnover_ratio": 8,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 8,
+            "points": 12
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "id": "c300eeb3-a669-444a-b7f5-f4772db09a37",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2014-01-05T02:00:00+00:00",
+  "duration": "2:10",
+  "attendance": 14344,
+  "lead_changes": 0,
+  "times_tied": 3,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Suns",
+    "market": "Phoenix",
+    "id": "583ecfa8-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 116,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 28,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 32,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 27,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 29,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Gerald Green",
+          "position": "G-F",
+          "primary_position": "SG",
+          "jersey_number": "14",
+          "id": "11da94f7-02c0-4bc9-9da3-8e8994f46fb6",
+          "statistics": {
+            "minutes": "33:03",
+            "field_goals_made": 9,
+            "field_goals_att": 14,
+            "field_goals_pct": 64.3,
+            "three_points_made": 4,
+            "three_points_att": 7,
+            "three_points_pct": 57.1,
+            "two_points_made": 5,
+            "two_points_att": 7,
+            "two_points_pct": 0.714,
+            "blocked_att": 0,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 2,
+            "rebounds": 2,
+            "assists": 1,
+            "turnovers": 1,
+            "steals": 5,
+            "blocks": 0,
+            "assists_turnover_ratio": 1,
+            "personal_fouls": 2,
+            "tech_fouls": 1,
+            "flagrant_fouls": 0,
+            "pls_min": 36,
+            "points": 24
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Miles Plumlee",
+          "position": "C-F",
+          "primary_position": "C",
+          "jersey_number": "22",
+          "id": "73e55440-d981-48e6-9639-d2ed7276f22d",
+          "statistics": {
+            "minutes": "20:49",
+            "field_goals_made": 2,
+            "field_goals_att": 4,
+            "field_goals_pct": 50,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 2,
+            "two_points_att": 4,
+            "two_points_pct": 0.5,
+            "blocked_att": 0,
+            "free_throws_made": 5,
+            "free_throws_att": 7,
+            "free_throws_pct": 71.4,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 7,
+            "rebounds": 9,
+            "assists": 0,
+            "turnovers": 1,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 10,
+            "points": 9
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Ish Smith",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "3",
+          "id": "05a90cd6-73de-43d5-9d30-bc2588d03262",
+          "statistics": {
+            "minutes": "19:20",
+            "field_goals_made": 4,
+            "field_goals_att": 10,
+            "field_goals_pct": 40,
+            "three_points_made": 0,
+            "three_points_att": 2,
+            "three_points_pct": 0,
+            "two_points_made": 4,
+            "two_points_att": 8,
+            "two_points_pct": 0.5,
+            "blocked_att": 1,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 2,
+            "rebounds": 2,
+            "assists": 8,
+            "turnovers": 1,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 8,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 20,
+            "points": 8
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Bucks",
+    "market": "Milwaukee",
+    "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 100,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 26,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 23,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 29,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 22,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Brandon Knight",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "11",
+          "id": "f58a9803-0ede-4c0b-acbd-08bc0da229af",
+          "statistics": {
+            "minutes": "35:33",
+            "field_goals_made": 8,
+            "field_goals_att": 12,
+            "field_goals_pct": 66.7,
+            "three_points_made": 1,
+            "three_points_att": 1,
+            "three_points_pct": 100,
+            "two_points_made": 7,
+            "two_points_att": 11,
+            "two_points_pct": 0.636,
+            "blocked_att": 0,
+            "free_throws_made": 8,
+            "free_throws_att": 9,
+            "free_throws_pct": 88.9,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 3,
+            "rebounds": 4,
+            "assists": 8,
+            "turnovers": 4,
+            "steals": 1,
+            "blocks": 1,
+            "assists_turnover_ratio": 2,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -6,
+            "points": 25
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Khris Middleton",
+          "position": "F",
+          "primary_position": "SF",
+          "jersey_number": "22",
+          "id": "4c362eee-6474-40ea-b1b4-d8f917f95175",
+          "statistics": {
+            "minutes": "22:25",
+            "field_goals_made": 3,
+            "field_goals_att": 6,
+            "field_goals_pct": 50,
+            "three_points_made": 0,
+            "three_points_att": 1,
+            "three_points_pct": 0,
+            "two_points_made": 3,
+            "two_points_att": 5,
+            "two_points_pct": 0.6,
+            "blocked_att": 0,
+            "free_throws_made": 1,
+            "free_throws_att": 2,
+            "free_throws_pct": 50,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 8,
+            "rebounds": 8,
+            "assists": 0,
+            "turnovers": 2,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 1,
+            "points": 7
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Brandon Knight",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "11",
+          "id": "f58a9803-0ede-4c0b-acbd-08bc0da229af",
+          "statistics": {
+            "minutes": "35:33",
+            "field_goals_made": 8,
+            "field_goals_att": 12,
+            "field_goals_pct": 66.7,
+            "three_points_made": 1,
+            "three_points_att": 1,
+            "three_points_pct": 100,
+            "two_points_made": 7,
+            "two_points_att": 11,
+            "two_points_pct": 0.636,
+            "blocked_att": 0,
+            "free_throws_made": 8,
+            "free_throws_att": 9,
+            "free_throws_pct": 88.9,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 3,
+            "rebounds": 4,
+            "assists": 8,
+            "turnovers": 4,
+            "steals": 1,
+            "blocks": 1,
+            "assists_turnover_ratio": 2,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -6,
+            "points": 25
+          }
+        }
+      ]
+    }
+  }
+}

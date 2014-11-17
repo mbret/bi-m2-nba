@@ -1,0 +1,308 @@
+{
+  "id": "343250e4-9e16-417a-809b-c1eb1510c634",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2013-11-30T00:00:00+00:00",
+  "duration": "2:09",
+  "attendance": 15081,
+  "lead_changes": 2,
+  "times_tied": 3,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Bobcats",
+    "market": "Charlotte",
+    "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 92,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 24,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 27,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 20,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 21,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Al Jefferson",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "25",
+          "id": "8bf57b59-a618-4bfa-ae2e-4308b9108606",
+          "statistics": {
+            "minutes": "25:35",
+            "field_goals_made": 11,
+            "field_goals_att": 18,
+            "field_goals_pct": 61.1,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 11,
+            "two_points_att": 18,
+            "two_points_pct": 0.611,
+            "blocked_att": 2,
+            "free_throws_made": 1,
+            "free_throws_att": 3,
+            "free_throws_pct": 33.3,
+            "offensive_rebounds": 6,
+            "defensive_rebounds": 6,
+            "rebounds": 12,
+            "assists": 3,
+            "turnovers": 0,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 5,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 9,
+            "points": 23
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Bismack Biyombo",
+          "position": "C-F",
+          "primary_position": "C",
+          "jersey_number": "0",
+          "id": "8e3cbaa3-e30a-4cf8-aa7a-1b57f15f0f98",
+          "statistics": {
+            "minutes": "19:39",
+            "field_goals_made": 3,
+            "field_goals_att": 4,
+            "field_goals_pct": 75,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 3,
+            "two_points_att": 4,
+            "two_points_pct": 0.75,
+            "blocked_att": 1,
+            "free_throws_made": 1,
+            "free_throws_att": 2,
+            "free_throws_pct": 50,
+            "offensive_rebounds": 4,
+            "defensive_rebounds": 10,
+            "rebounds": 14,
+            "assists": 0,
+            "turnovers": 2,
+            "steals": 0,
+            "blocks": 1,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 10,
+            "points": 7
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Josh McRoberts",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "11",
+          "id": "54723896-1f7b-4150-95d6-0392596a328f",
+          "statistics": {
+            "minutes": "28:57",
+            "field_goals_made": 1,
+            "field_goals_att": 4,
+            "field_goals_pct": 25,
+            "three_points_made": 0,
+            "three_points_att": 1,
+            "three_points_pct": 0,
+            "two_points_made": 1,
+            "two_points_att": 3,
+            "two_points_pct": 0.333,
+            "blocked_att": 1,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 6,
+            "rebounds": 6,
+            "assists": 4,
+            "turnovers": 0,
+            "steals": 2,
+            "blocks": 0,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 4,
+            "points": 2
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Bucks",
+    "market": "Milwaukee",
+    "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 76,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 20,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 21,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 18,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 17,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Brandon Knight",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "11",
+          "id": "f58a9803-0ede-4c0b-acbd-08bc0da229af",
+          "statistics": {
+            "minutes": "30:13",
+            "field_goals_made": 7,
+            "field_goals_att": 11,
+            "field_goals_pct": 63.6,
+            "three_points_made": 1,
+            "three_points_att": 3,
+            "three_points_pct": 33.3,
+            "two_points_made": 6,
+            "two_points_att": 8,
+            "two_points_pct": 0.75,
+            "blocked_att": 0,
+            "free_throws_made": 2,
+            "free_throws_att": 3,
+            "free_throws_pct": 66.7,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 3,
+            "rebounds": 3,
+            "assists": 2,
+            "turnovers": 2,
+            "steals": 2,
+            "blocks": 0,
+            "assists_turnover_ratio": 1,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -7,
+            "points": 17
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Ekpe Udoh",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "5",
+          "id": "b90d7326-f5ab-4ed1-bdd9-db3b43318363",
+          "statistics": {
+            "minutes": "24:46",
+            "field_goals_made": 2,
+            "field_goals_att": 8,
+            "field_goals_pct": 25,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 2,
+            "two_points_att": 8,
+            "two_points_pct": 0.25,
+            "blocked_att": 1,
+            "free_throws_made": 6,
+            "free_throws_att": 8,
+            "free_throws_pct": 75,
+            "offensive_rebounds": 3,
+            "defensive_rebounds": 3,
+            "rebounds": 6,
+            "assists": 2,
+            "turnovers": 1,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 2,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -8,
+            "points": 10
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Zaza Pachulia",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "27",
+          "id": "48a2b27a-87a2-4051-ad03-c95a026ca772",
+          "statistics": {
+            "minutes": "16:57",
+            "field_goals_made": 2,
+            "field_goals_att": 4,
+            "field_goals_pct": 50,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 2,
+            "two_points_att": 4,
+            "two_points_pct": 0.5,
+            "blocked_att": 0,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 3,
+            "rebounds": 3,
+            "assists": 3,
+            "turnovers": 1,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 3,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -3,
+            "points": 6
+          }
+        }
+      ]
+    }
+  }
+}

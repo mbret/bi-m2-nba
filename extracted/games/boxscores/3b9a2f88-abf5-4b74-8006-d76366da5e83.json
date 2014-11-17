@@ -1,0 +1,308 @@
+{
+  "id": "3b9a2f88-abf5-4b74-8006-d76366da5e83",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2014-01-11T02:00:00+00:00",
+  "duration": "2:03",
+  "attendance": 18480,
+  "lead_changes": 14,
+  "times_tied": 11,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Jazz",
+    "market": "Utah",
+    "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 102,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 26,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 23,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 21,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 32,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Richard Jefferson",
+          "position": "F",
+          "primary_position": "SF",
+          "jersey_number": "24",
+          "id": "262d9b81-107d-4921-9002-7ece87bb8004",
+          "statistics": {
+            "minutes": "30:04",
+            "field_goals_made": 6,
+            "field_goals_att": 11,
+            "field_goals_pct": 54.5,
+            "three_points_made": 3,
+            "three_points_att": 4,
+            "three_points_pct": 75,
+            "two_points_made": 3,
+            "two_points_att": 7,
+            "two_points_pct": 0.429,
+            "blocked_att": 0,
+            "free_throws_made": 3,
+            "free_throws_att": 5,
+            "free_throws_pct": 60,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 1,
+            "rebounds": 1,
+            "assists": 4,
+            "turnovers": 2,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 2,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -10,
+            "points": 18
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Enes Kanter",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "0",
+          "id": "5fb038ef-a3bf-4f52-afce-4f5bd074bb88",
+          "statistics": {
+            "minutes": "25:02",
+            "field_goals_made": 5,
+            "field_goals_att": 9,
+            "field_goals_pct": 55.6,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 5,
+            "two_points_att": 9,
+            "two_points_pct": 0.556,
+            "blocked_att": 0,
+            "free_throws_made": 5,
+            "free_throws_att": 8,
+            "free_throws_pct": 62.5,
+            "offensive_rebounds": 3,
+            "defensive_rebounds": 7,
+            "rebounds": 10,
+            "assists": 0,
+            "turnovers": 0,
+            "steals": 1,
+            "blocks": 1,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 3,
+            "points": 15
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Trey Burke",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "3",
+          "id": "572261e2-8ad9-4198-969d-16cad41fdef3",
+          "statistics": {
+            "minutes": "32:20",
+            "field_goals_made": 7,
+            "field_goals_att": 15,
+            "field_goals_pct": 46.7,
+            "three_points_made": 2,
+            "three_points_att": 5,
+            "three_points_pct": 40,
+            "two_points_made": 5,
+            "two_points_att": 10,
+            "two_points_pct": 0.5,
+            "blocked_att": 1,
+            "free_throws_made": 1,
+            "free_throws_att": 1,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 1,
+            "rebounds": 2,
+            "assists": 6,
+            "turnovers": 2,
+            "steals": 2,
+            "blocks": 0,
+            "assists_turnover_ratio": 3,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -9,
+            "points": 17
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Cavaliers",
+    "market": "Cleveland",
+    "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 113,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 26,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 20,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 39,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 28,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Kyrie Irving",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "2",
+          "id": "dd146010-902b-4ad7-b98c-650d0363a2f0",
+          "statistics": {
+            "minutes": "37:02",
+            "field_goals_made": 9,
+            "field_goals_att": 18,
+            "field_goals_pct": 50,
+            "three_points_made": 3,
+            "three_points_att": 3,
+            "three_points_pct": 100,
+            "two_points_made": 6,
+            "two_points_att": 15,
+            "two_points_pct": 0.4,
+            "blocked_att": 0,
+            "free_throws_made": 4,
+            "free_throws_att": 5,
+            "free_throws_pct": 80,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 6,
+            "rebounds": 6,
+            "assists": 8,
+            "turnovers": 2,
+            "steals": 5,
+            "blocks": 0,
+            "assists_turnover_ratio": 4,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 13,
+            "points": 25
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Tristan Thompson",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "13",
+          "id": "335097c3-7919-49d5-80b0-8062d5d3e89c",
+          "statistics": {
+            "minutes": "34:52",
+            "field_goals_made": 9,
+            "field_goals_att": 12,
+            "field_goals_pct": 75,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 9,
+            "two_points_att": 12,
+            "two_points_pct": 0.75,
+            "blocked_att": 0,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 5,
+            "defensive_rebounds": 10,
+            "rebounds": 15,
+            "assists": 2,
+            "turnovers": 1,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 2,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 12,
+            "points": 18
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Kyrie Irving",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "2",
+          "id": "dd146010-902b-4ad7-b98c-650d0363a2f0",
+          "statistics": {
+            "minutes": "37:02",
+            "field_goals_made": 9,
+            "field_goals_att": 18,
+            "field_goals_pct": 50,
+            "three_points_made": 3,
+            "three_points_att": 3,
+            "three_points_pct": 100,
+            "two_points_made": 6,
+            "two_points_att": 15,
+            "two_points_pct": 0.4,
+            "blocked_att": 0,
+            "free_throws_made": 4,
+            "free_throws_att": 5,
+            "free_throws_pct": 80,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 6,
+            "rebounds": 6,
+            "assists": 8,
+            "turnovers": 2,
+            "steals": 5,
+            "blocks": 0,
+            "assists_turnover_ratio": 4,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 13,
+            "points": 25
+          }
+        }
+      ]
+    }
+  }
+}

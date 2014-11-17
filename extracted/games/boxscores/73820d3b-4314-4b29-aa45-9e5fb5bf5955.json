@@ -1,0 +1,308 @@
+{
+  "id": "73820d3b-4314-4b29-aa45-9e5fb5bf5955",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2013-12-29T01:00:00+00:00",
+  "duration": "2:10",
+  "attendance": 17017,
+  "lead_changes": 6,
+  "times_tied": 10,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Grizzlies",
+    "market": "Memphis",
+    "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 120,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 27,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 28,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 30,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 35,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Zach Randolph",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "50",
+          "id": "f5987aa7-b7fd-4bd6-855d-fd6407324950",
+          "statistics": {
+            "minutes": "30:34",
+            "field_goals_made": 8,
+            "field_goals_att": 15,
+            "field_goals_pct": 53.3,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 8,
+            "two_points_att": 15,
+            "two_points_pct": 0.533,
+            "blocked_att": 0,
+            "free_throws_made": 4,
+            "free_throws_att": 4,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 5,
+            "rebounds": 6,
+            "assists": 5,
+            "turnovers": 0,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 14,
+            "points": 20
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Kosta Koufos",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "41",
+          "id": "7d78afaf-e145-4928-be17-464276fc8868",
+          "statistics": {
+            "minutes": "25:54",
+            "field_goals_made": 4,
+            "field_goals_att": 10,
+            "field_goals_pct": 40,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 4,
+            "two_points_att": 10,
+            "two_points_pct": 0.4,
+            "blocked_att": 1,
+            "free_throws_made": 1,
+            "free_throws_att": 1,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 7,
+            "defensive_rebounds": 5,
+            "rebounds": 12,
+            "assists": 0,
+            "turnovers": 2,
+            "steals": 2,
+            "blocks": 1,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 6,
+            "points": 9
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "James Johnson",
+          "position": "F",
+          "primary_position": "SF",
+          "jersey_number": "3",
+          "id": "1f0687ca-c8f2-4c71-8306-8a18cbf6cc60",
+          "statistics": {
+            "minutes": "22:30",
+            "field_goals_made": 5,
+            "field_goals_att": 7,
+            "field_goals_pct": 71.4,
+            "three_points_made": 1,
+            "three_points_att": 2,
+            "three_points_pct": 50,
+            "two_points_made": 4,
+            "two_points_att": 5,
+            "two_points_pct": 0.8,
+            "blocked_att": 0,
+            "free_throws_made": 3,
+            "free_throws_att": 3,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 3,
+            "defensive_rebounds": 4,
+            "rebounds": 7,
+            "assists": 6,
+            "turnovers": 0,
+            "steals": 1,
+            "blocks": 1,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 15,
+            "points": 14
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Nuggets",
+    "market": "Denver",
+    "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 99,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 29,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 27,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 16,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 27,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Ty Lawson",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "3",
+          "id": "95fd2469-00cc-481c-a42d-5ec9eaa80868",
+          "statistics": {
+            "minutes": "33:17",
+            "field_goals_made": 8,
+            "field_goals_att": 14,
+            "field_goals_pct": 57.1,
+            "three_points_made": 0,
+            "three_points_att": 1,
+            "three_points_pct": 0,
+            "two_points_made": 8,
+            "two_points_att": 13,
+            "two_points_pct": 0.615,
+            "blocked_att": 0,
+            "free_throws_made": 4,
+            "free_throws_att": 4,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 3,
+            "rebounds": 3,
+            "assists": 8,
+            "turnovers": 6,
+            "steals": 3,
+            "blocks": 0,
+            "assists_turnover_ratio": 1.33,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -20,
+            "points": 20
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "J.J. Hickson",
+          "position": "F",
+          "primary_position": "C",
+          "jersey_number": "7",
+          "id": "7ea5ebcb-e825-4b6e-bd46-13a45c88c09c",
+          "statistics": {
+            "minutes": "34:00",
+            "field_goals_made": 5,
+            "field_goals_att": 9,
+            "field_goals_pct": 55.6,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 5,
+            "two_points_att": 9,
+            "two_points_pct": 0.556,
+            "blocked_att": 1,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 4,
+            "rebounds": 6,
+            "assists": 2,
+            "turnovers": 0,
+            "steals": 1,
+            "blocks": 1,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -21,
+            "points": 10
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Ty Lawson",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "3",
+          "id": "95fd2469-00cc-481c-a42d-5ec9eaa80868",
+          "statistics": {
+            "minutes": "33:17",
+            "field_goals_made": 8,
+            "field_goals_att": 14,
+            "field_goals_pct": 57.1,
+            "three_points_made": 0,
+            "three_points_att": 1,
+            "three_points_pct": 0,
+            "two_points_made": 8,
+            "two_points_att": 13,
+            "two_points_pct": 0.615,
+            "blocked_att": 0,
+            "free_throws_made": 4,
+            "free_throws_att": 4,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 3,
+            "rebounds": 3,
+            "assists": 8,
+            "turnovers": 6,
+            "steals": 3,
+            "blocks": 0,
+            "assists_turnover_ratio": 1.33,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -20,
+            "points": 20
+          }
+        }
+      ]
+    }
+  }
+}

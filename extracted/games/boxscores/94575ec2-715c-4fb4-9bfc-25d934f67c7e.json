@@ -1,0 +1,309 @@
+{
+  "id": "94575ec2-715c-4fb4-9bfc-25d934f67c7e",
+  "title": "Game 5",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2014-05-30T01:00:00+00:00",
+  "duration": "2:26",
+  "attendance": 18581,
+  "lead_changes": 3,
+  "times_tied": 2,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Spurs",
+    "market": "San Antonio",
+    "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 117,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 32,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 33,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 29,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 23,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Tim Duncan",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "21",
+          "id": "1f9d116b-7c1b-4d1a-bf02-59ba4b22092e",
+          "statistics": {
+            "minutes": "29:50",
+            "field_goals_made": 8,
+            "field_goals_att": 13,
+            "field_goals_pct": 61.5,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 8,
+            "two_points_att": 13,
+            "two_points_pct": 0.615,
+            "blocked_att": 1,
+            "free_throws_made": 6,
+            "free_throws_att": 7,
+            "free_throws_pct": 85.7,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 10,
+            "rebounds": 12,
+            "assists": 2,
+            "turnovers": 2,
+            "steals": 0,
+            "blocks": 1,
+            "assists_turnover_ratio": 1,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 18,
+            "points": 22
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Tim Duncan",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "21",
+          "id": "1f9d116b-7c1b-4d1a-bf02-59ba4b22092e",
+          "statistics": {
+            "minutes": "29:50",
+            "field_goals_made": 8,
+            "field_goals_att": 13,
+            "field_goals_pct": 61.5,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 8,
+            "two_points_att": 13,
+            "two_points_pct": 0.615,
+            "blocked_att": 1,
+            "free_throws_made": 6,
+            "free_throws_att": 7,
+            "free_throws_pct": 85.7,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 10,
+            "rebounds": 12,
+            "assists": 2,
+            "turnovers": 2,
+            "steals": 0,
+            "blocks": 1,
+            "assists_turnover_ratio": 1,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 18,
+            "points": 22
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Manu Ginobili",
+          "position": "G",
+          "primary_position": "SG",
+          "jersey_number": "20",
+          "id": "95ca0a9b-4fd0-4ae8-8714-247b57fb84ea",
+          "statistics": {
+            "minutes": "21:10",
+            "field_goals_made": 7,
+            "field_goals_att": 9,
+            "field_goals_pct": 77.8,
+            "three_points_made": 3,
+            "three_points_att": 4,
+            "three_points_pct": 75,
+            "two_points_made": 4,
+            "two_points_att": 5,
+            "two_points_pct": 0.8,
+            "blocked_att": 1,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 4,
+            "rebounds": 4,
+            "assists": 6,
+            "turnovers": 0,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 15,
+            "points": 19
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Thunder",
+    "market": "Oklahoma City",
+    "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 89,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 32,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 23,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 19,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 15,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Kevin Durant",
+          "position": "F",
+          "primary_position": "SF",
+          "jersey_number": "35",
+          "id": "53f2fa48-e61b-49fb-843d-8a3e872257eb",
+          "statistics": {
+            "minutes": "36:59",
+            "field_goals_made": 11,
+            "field_goals_att": 21,
+            "field_goals_pct": 52.4,
+            "three_points_made": 2,
+            "three_points_att": 6,
+            "three_points_pct": 33.3,
+            "two_points_made": 9,
+            "two_points_att": 15,
+            "two_points_pct": 0.6,
+            "blocked_att": 1,
+            "free_throws_made": 1,
+            "free_throws_att": 4,
+            "free_throws_pct": 25,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 4,
+            "rebounds": 5,
+            "assists": 2,
+            "turnovers": 1,
+            "steals": 1,
+            "blocks": 1,
+            "assists_turnover_ratio": 2,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -22,
+            "points": 25
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Kendrick Perkins",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "5",
+          "id": "7ed5587d-89af-46c9-8bdc-c9ae8ed788a1",
+          "statistics": {
+            "minutes": "16:10",
+            "field_goals_made": 0,
+            "field_goals_att": 1,
+            "field_goals_pct": 0,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 0,
+            "two_points_att": 1,
+            "two_points_pct": 0,
+            "blocked_att": 0,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 3,
+            "defensive_rebounds": 3,
+            "rebounds": 6,
+            "assists": 2,
+            "turnovers": 0,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -3,
+            "points": 0
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Russell Westbrook",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "0",
+          "id": "74a45eed-f2b0-4886-ae71-d04cf7d59528",
+          "statistics": {
+            "minutes": "30:48",
+            "field_goals_made": 6,
+            "field_goals_att": 12,
+            "field_goals_pct": 50,
+            "three_points_made": 2,
+            "three_points_att": 6,
+            "three_points_pct": 33.3,
+            "two_points_made": 4,
+            "two_points_att": 6,
+            "two_points_pct": 0.667,
+            "blocked_att": 0,
+            "free_throws_made": 7,
+            "free_throws_att": 9,
+            "free_throws_pct": 77.8,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 4,
+            "rebounds": 4,
+            "assists": 7,
+            "turnovers": 2,
+            "steals": 3,
+            "blocks": 0,
+            "assists_turnover_ratio": 3.5,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -16,
+            "points": 21
+          }
+        }
+      ]
+    }
+  }
+}

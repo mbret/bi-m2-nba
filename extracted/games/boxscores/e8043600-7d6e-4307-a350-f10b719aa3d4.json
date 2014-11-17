@@ -1,0 +1,308 @@
+{
+  "id": "e8043600-7d6e-4307-a350-f10b719aa3d4",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2014-02-01T01:00:00+00:00",
+  "duration": "2:04",
+  "attendance": 17429,
+  "lead_changes": 10,
+  "times_tied": 5,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Timberwolves",
+    "market": "Minnesota",
+    "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 90,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 22,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 15,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 30,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 23,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Kevin Love",
+          "position": "F-C",
+          "primary_position": "PF",
+          "jersey_number": "42",
+          "id": "7d615ccd-db96-42a3-9a6c-7f18ea25634e",
+          "statistics": {
+            "minutes": "37:12",
+            "field_goals_made": 12,
+            "field_goals_att": 20,
+            "field_goals_pct": 60,
+            "three_points_made": 3,
+            "three_points_att": 7,
+            "three_points_pct": 42.9,
+            "two_points_made": 9,
+            "two_points_att": 13,
+            "two_points_pct": 0.692,
+            "blocked_att": 0,
+            "free_throws_made": 1,
+            "free_throws_att": 1,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 14,
+            "rebounds": 16,
+            "assists": 2,
+            "turnovers": 2,
+            "steals": 0,
+            "blocks": 1,
+            "assists_turnover_ratio": 1,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 5,
+            "points": 28
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Kevin Love",
+          "position": "F-C",
+          "primary_position": "PF",
+          "jersey_number": "42",
+          "id": "7d615ccd-db96-42a3-9a6c-7f18ea25634e",
+          "statistics": {
+            "minutes": "37:12",
+            "field_goals_made": 12,
+            "field_goals_att": 20,
+            "field_goals_pct": 60,
+            "three_points_made": 3,
+            "three_points_att": 7,
+            "three_points_pct": 42.9,
+            "two_points_made": 9,
+            "two_points_att": 13,
+            "two_points_pct": 0.692,
+            "blocked_att": 0,
+            "free_throws_made": 1,
+            "free_throws_att": 1,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 14,
+            "rebounds": 16,
+            "assists": 2,
+            "turnovers": 2,
+            "steals": 0,
+            "blocks": 1,
+            "assists_turnover_ratio": 1,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 5,
+            "points": 28
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Ricky Rubio",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "9",
+          "id": "a3531f82-7374-41e7-ac71-ef5071ad2a12",
+          "statistics": {
+            "minutes": "27:29",
+            "field_goals_made": 2,
+            "field_goals_att": 7,
+            "field_goals_pct": 28.6,
+            "three_points_made": 0,
+            "three_points_att": 1,
+            "three_points_pct": 0,
+            "two_points_made": 2,
+            "two_points_att": 6,
+            "two_points_pct": 0.333,
+            "blocked_att": 2,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 3,
+            "rebounds": 3,
+            "assists": 8,
+            "turnovers": 4,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 2,
+            "personal_fouls": 2,
+            "tech_fouls": 1,
+            "flagrant_fouls": 0,
+            "pls_min": 8,
+            "points": 6
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Grizzlies",
+    "market": "Memphis",
+    "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 94,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 30,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 20,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 16,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 28,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Zach Randolph",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "50",
+          "id": "f5987aa7-b7fd-4bd6-855d-fd6407324950",
+          "statistics": {
+            "minutes": "40:05",
+            "field_goals_made": 11,
+            "field_goals_att": 20,
+            "field_goals_pct": 55,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 11,
+            "two_points_att": 20,
+            "two_points_pct": 0.55,
+            "blocked_att": 1,
+            "free_throws_made": 4,
+            "free_throws_att": 7,
+            "free_throws_pct": 57.1,
+            "offensive_rebounds": 4,
+            "defensive_rebounds": 8,
+            "rebounds": 12,
+            "assists": 4,
+            "turnovers": 1,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 4,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 7,
+            "points": 26
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Zach Randolph",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "50",
+          "id": "f5987aa7-b7fd-4bd6-855d-fd6407324950",
+          "statistics": {
+            "minutes": "40:05",
+            "field_goals_made": 11,
+            "field_goals_att": 20,
+            "field_goals_pct": 55,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 11,
+            "two_points_att": 20,
+            "two_points_pct": 0.55,
+            "blocked_att": 1,
+            "free_throws_made": 4,
+            "free_throws_att": 7,
+            "free_throws_pct": 57.1,
+            "offensive_rebounds": 4,
+            "defensive_rebounds": 8,
+            "rebounds": 12,
+            "assists": 4,
+            "turnovers": 1,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 4,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 7,
+            "points": 26
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Mike Conley",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "11",
+          "id": "460b7264-b98f-483e-b841-59a18c2e4d67",
+          "statistics": {
+            "minutes": "29:49",
+            "field_goals_made": 4,
+            "field_goals_att": 14,
+            "field_goals_pct": 28.6,
+            "three_points_made": 0,
+            "three_points_att": 2,
+            "three_points_pct": 0,
+            "two_points_made": 4,
+            "two_points_att": 12,
+            "two_points_pct": 0.333,
+            "blocked_att": 1,
+            "free_throws_made": 4,
+            "free_throws_att": 4,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 3,
+            "rebounds": 3,
+            "assists": 8,
+            "turnovers": 0,
+            "steals": 3,
+            "blocks": 0,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 9,
+            "points": 12
+          }
+        }
+      ]
+    }
+  }
+}

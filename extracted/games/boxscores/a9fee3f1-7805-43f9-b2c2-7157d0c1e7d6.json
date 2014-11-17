@@ -1,0 +1,74 @@
+{
+  "id": "a9fee3f1-7805-43f9-b2c2-7157d0c1e7d6",
+  "status": "closed",
+  "coverage": "boxscore",
+  "scheduled": "2013-10-20T22:00:00+00:00",
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Magic",
+    "market": "Orlando",
+    "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 87,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 19,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 24,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 29,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 15,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {}
+  },
+  "away": {
+    "name": "Pistons",
+    "market": "Detroit",
+    "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 86,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 27,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 9,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 18,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 32,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {}
+  }
+}

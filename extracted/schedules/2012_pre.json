@@ -1,0 +1,13 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "season": {
+    "id": "5b8b57d1-7290-44f8-b29c-353e865c139e",
+    "year": 2012,
+    "type": "PRE"
+  },
+  "games": []
+}

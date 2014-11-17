@@ -1,0 +1,3296 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "season": {
+    "id": "b68b1b17-1f2c-458f-9bdf-1b08dc33c1ed",
+    "year": 2013,
+    "type": "PRE"
+  },
+  "games": [
+    {
+      "id": "3bbe1893-51d8-4b7f-9459-4822b22c6d88",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-05T13:00:00+00:00",
+      "venue": {
+        "id": "7b74a0b6-aba2-408e-9069-f3c78edf9bbf",
+        "name": "Ulker Sports Arena",
+        "capacity": 13800,
+        "address": "Barbaros Mh., 34758",
+        "city": "Istanbul",
+        "country": "TUR"
+      },
+      "broadcast": {
+        "network": "NBA TV",
+        "satellite": "216"
+      },
+      "home": {
+        "name": "Fenerbahce Ulker",
+        "alias": "FBU",
+        "id": "76032b7a-8aaa-4df4-89a6-64bab2c24479"
+      },
+      "away": {
+        "name": "Oklahoma City Thunder",
+        "alias": "OKC",
+        "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "6bd56608-e716-4e72-afa3-c9db96154dc6",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-05T23:00:00+00:00",
+      "venue": {
+        "id": "24bb478e-eb31-5f8a-8c8d-07f513169ec1",
+        "name": "Bankers Life Fieldhouse",
+        "capacity": 18165,
+        "address": "125 S. Pennsylvania St.",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "46204",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "NBA TV",
+        "satellite": "216"
+      },
+      "home": {
+        "name": "Indiana Pacers",
+        "alias": "IND",
+        "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Chicago Bulls",
+        "alias": "CHI",
+        "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "932ba84a-554d-461f-a6c0-baaa98b62fc8",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-06T00:00:00+00:00",
+      "venue": {
+        "id": "5b239206-57ce-50aa-baaa-627f3349dfdc",
+        "name": "Toyota Center",
+        "capacity": 18043,
+        "address": "1510 Polk St.",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "77002",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "CSN-H"
+      },
+      "home": {
+        "name": "Houston Rockets",
+        "alias": "HOU",
+        "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "New Orleans Pelicans",
+        "alias": "NOP",
+        "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "a6c417af-949a-4cfe-a23c-21200c0f87d5",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-06T02:00:00+00:00",
+      "venue": {
+        "id": "ce461d2c-065d-4527-8ed3-0b3ae2264173",
+        "name": "Citizens Business Bank Arena",
+        "capacity": 10832,
+        "address": "4000 East Ontario Center Parkway",
+        "city": "Ontario",
+        "state": "CA",
+        "zip": "91764",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "NBA TV",
+        "satellite": "216"
+      },
+      "home": {
+        "name": "Los Angeles Lakers",
+        "alias": "LAL",
+        "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Golden State Warriors",
+        "alias": "GSW",
+        "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "5980123e-0abd-4677-b5c7-b82fa0e60151",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-06T16:00:00+00:00",
+      "venue": {
+        "id": "9df8266b-fa55-4530-b85e-c3a4403ff04d",
+        "name": "Bizkaia Arena",
+        "capacity": 15414,
+        "address": "Ronda de Azkue Nr. 1",
+        "city": "Bilbao",
+        "country": "ESP"
+      },
+      "broadcast": {
+        "network": "NBA TV",
+        "satellite": "216"
+      },
+      "home": {
+        "name": "Bilbao Basket",
+        "alias": "UBB",
+        "id": "2f7111fb-5e6c-4717-8f2f-f4b8029a275b"
+      },
+      "away": {
+        "name": "Philadelphia 76ers",
+        "alias": "PHI",
+        "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "270aec5b-f538-44dd-adc6-6ef16667257c",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-07T01:30:00+00:00",
+      "venue": {
+        "id": "792ec100-691e-5e16-8ef8-79b2b6ee38ba",
+        "name": "Staples Center",
+        "capacity": 18997,
+        "address": "1111 S. Figueroa St.",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90015",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "NBA TV",
+        "satellite": "216"
+      },
+      "home": {
+        "name": "Los Angeles Lakers",
+        "alias": "LAL",
+        "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Denver Nuggets",
+        "alias": "DEN",
+        "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "21c5a624-8488-4a3a-b024-94d350b70d04",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-07T23:30:00+00:00",
+      "venue": {
+        "id": "b67d5f09-28b2-5bc6-9097-af312007d2f4",
+        "name": "American Airlines Arena",
+        "capacity": 19600,
+        "address": "601 Biscayne Blvd.",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "33132",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "NBA TV",
+        "satellite": "216"
+      },
+      "home": {
+        "name": "Miami Heat",
+        "alias": "MIA",
+        "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Atlanta Hawks",
+        "alias": "ATL",
+        "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "847eccaf-b43a-4004-b6a7-0b1ffd5e384f",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-07T23:30:00+00:00",
+      "venue": {
+        "id": "7d69b080-91ca-53c9-9302-45c1a72c5549",
+        "name": "TD Garden",
+        "capacity": 17565,
+        "address": "100 Legends Way",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "02114",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "CSN-NE",
+        "satellite": "630"
+      },
+      "home": {
+        "name": "Boston Celtics",
+        "alias": "BOS",
+        "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Toronto Raptors",
+        "alias": "TOR",
+        "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "9b068637-6c35-4260-946c-6aa9107674ed",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-08T00:00:00+00:00",
+      "venue": {
+        "id": "7aed802e-3562-5b73-af1b-3859529f9b95",
+        "name": "Target Center",
+        "capacity": 19356,
+        "address": "600 First Ave. North",
+        "city": "Minneapolis",
+        "state": "MN",
+        "zip": "55403",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "FS-N",
+        "satellite": "668"
+      },
+      "home": {
+        "name": "Minnesota Timberwolves",
+        "alias": "MIN",
+        "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "CSKA Moscow",
+        "alias": "MOS",
+        "id": "4e3b507e-9c9c-4bd6-8f5f-b084517ac53e"
+      }
+    },
+    {
+      "id": "f7818137-bd70-418f-82ea-f75d798b6a55",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-08T00:00:00+00:00",
+      "venue": {
+        "id": "89df2d95-489d-4a15-b2b5-91041fea8c91",
+        "name": "Scottrade Center",
+        "capacity": 21000,
+        "address": "1401 Clark Ave",
+        "city": "St. Louis",
+        "state": "MO",
+        "zip": "63103",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "CSN-C",
+        "satellite": "665"
+      },
+      "home": {
+        "name": "Chicago Bulls",
+        "alias": "CHI",
+        "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Memphis Grizzlies",
+        "alias": "MEM",
+        "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "2b662d2b-c571-4836-8015-a142c90fc381",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-08T00:30:00+00:00",
+      "venue": {
+        "id": "401ba62f-19b5-5bfc-84d6-021772943311",
+        "name": "American Airlines Center",
+        "capacity": 19200,
+        "address": "2500 Victory Ave.",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "75219",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Dallas Mavericks",
+        "alias": "DAL",
+        "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "New Orleans Pelicans",
+        "alias": "NOH",
+        "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "b6e04c55-7a56-441c-bf04-42bac69a157d",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-08T02:00:00+00:00",
+      "venue": {
+        "id": "1d2e59b2-2479-5f84-a6a7-e82f65dd8442",
+        "name": "US Airways Center",
+        "capacity": 18422,
+        "address": "201 E. Jefferson St.",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip": "85004",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Phoenix Suns",
+        "alias": "PHO",
+        "id": "583ecfa8-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Maccabi Haifa",
+        "alias": "MAC",
+        "id": "97283c79-61e5-4016-b0a4-8a68da09ee4e"
+      }
+    },
+    {
+      "id": "ead97542-7a57-4402-bb3d-ef580c2308d9",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-08T02:00:00+00:00",
+      "venue": {
+        "id": "1d1f74a2-7b35-56f0-8cbd-552c51cb2c14",
+        "name": "Moda Center",
+        "capacity": 19980,
+        "address": "1 Center Court",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "97227",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "PRIME",
+        "satellite": "693"
+      },
+      "home": {
+        "name": "Portland Trail Blazers",
+        "alias": "POR",
+        "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Los Angeles Clippers",
+        "alias": "LAC",
+        "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "cb43395a-395c-45c9-b04e-5f9923bf93b0",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-08T02:30:00+00:00",
+      "venue": {
+        "id": "e25e21f2-1d67-5f13-910b-81fc8629eea7",
+        "name": "Oracle Arena",
+        "capacity": 19596,
+        "address": "7000 Coliseum Way",
+        "city": "Oakland",
+        "state": "CA",
+        "zip": "94621",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "NBA TV",
+        "satellite": "216"
+      },
+      "home": {
+        "name": "Golden State Warriors",
+        "alias": "GSW",
+        "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Sacramento Kings",
+        "alias": "SAC",
+        "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "135ce22d-8905-4778-bc43-75b88599a063",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-08T19:00:00+00:00",
+      "venue": {
+        "id": "329b9bbf-c7b1-476d-9014-bf06fa024b5f",
+        "name": "Phones 4u Arena",
+        "capacity": 21000,
+        "address": "21 Hunts Bank",
+        "city": "Manchester",
+        "country": "GBR"
+      },
+      "broadcast": {
+        "network": "NBA TV",
+        "satellite": "216"
+      },
+      "home": {
+        "name": "Philadelphia 76ers",
+        "alias": "PHI",
+        "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Oklahoma City Thunder",
+        "alias": "OKC",
+        "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "503b40f6-537f-4544-a2fa-5d7f47f22647",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-08T23:00:00+00:00",
+      "venue": {
+        "id": "f62d5b49-d646-56e9-ba60-a875a00830f8",
+        "name": "Verizon Center",
+        "capacity": 20290,
+        "address": "601 F St. N.W.",
+        "city": "Washington",
+        "state": "DC",
+        "zip": "20004",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "NBA TV",
+        "satellite": "216"
+      },
+      "home": {
+        "name": "Washington Wizards",
+        "alias": "WAS",
+        "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Brooklyn Nets",
+        "alias": "BKN",
+        "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "caef4583-de8c-4cf2-8e53-da782a2315ae",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-08T23:00:00+00:00",
+      "venue": {
+        "id": "42cddf7a-0e1f-5f91-ae6f-c620582fdb01",
+        "name": "Quicken Loans Arena",
+        "capacity": 20562,
+        "address": "One Center Court",
+        "city": "Cleveland",
+        "state": "OH",
+        "zip": "44115",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "FS-O",
+        "satellite": "660"
+      },
+      "home": {
+        "name": "Cleveland Cavaliers",
+        "alias": "CLE",
+        "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Milwaukee Bucks",
+        "alias": "MIL",
+        "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "0273dbbd-83d4-4ec8-9d5b-9294345a57b8",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-08T23:30:00+00:00",
+      "venue": {
+        "id": "e83899a5-a6dd-58f8-bd42-34b4857ee714",
+        "name": "The Palace of Auburn Hills",
+        "capacity": 22076,
+        "address": "Six Championship Drive",
+        "city": "Auburn Hills",
+        "state": "MI",
+        "zip": "48326",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Detroit Pistons",
+        "alias": "DET",
+        "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Maccabi Haifa",
+        "alias": "MAC",
+        "id": "1efa6343-a355-49dd-b7b6-2f4838c9b845"
+      }
+    },
+    {
+      "id": "59082f95-b042-4ecb-b1f3-66adf95d3cee",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-08T23:30:00+00:00",
+      "venue": {
+        "id": "72fd6b05-7cea-425c-8273-10fc41d5ebbf",
+        "name": "U.S. Cellular Center",
+        "capacity": 7654,
+        "address": "87 Haywood St",
+        "city": "Asheville",
+        "state": "NC",
+        "zip": "28801",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "SPSO",
+        "satellite": "649"
+      },
+      "home": {
+        "name": "Charlotte Bobcats",
+        "alias": "CHA",
+        "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Atlanta Hawks",
+        "alias": "ATL",
+        "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "7cbcff96-2f41-4013-9163-512216df33c4",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-09T01:00:00+00:00",
+      "venue": {
+        "id": "53bac75a-a667-52b5-a416-b80718ae4ed2",
+        "name": "EnergySolutions Arena",
+        "capacity": 19911,
+        "address": "301 W. South Temple St.",
+        "city": "Salt Lake City",
+        "state": "UT",
+        "zip": "84101",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ROOT",
+        "satellite": "684"
+      },
+      "home": {
+        "name": "Utah Jazz",
+        "alias": "UTA",
+        "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Golden State Warriors",
+        "alias": "GSW",
+        "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "da1ffeb9-2ff2-406c-91a7-db8f229f6643",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-09T02:00:00+00:00",
+      "venue": {
+        "id": "ce461d2c-065d-4527-8ed3-0b3ae2264173",
+        "name": "Citizens Business Bank Arena",
+        "capacity": 10832,
+        "address": "4000 East Ontario Center Parkway",
+        "city": "Ontario",
+        "state": "CA",
+        "zip": "91764",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "NBA TV",
+        "satellite": "216"
+      },
+      "home": {
+        "name": "Los Angeles Lakers",
+        "alias": "LAL",
+        "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Denver Nuggets",
+        "alias": "DEN",
+        "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "5a157a5f-e858-40ac-81a4-3f0bded95b0d",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-09T23:00:00+00:00",
+      "venue": {
+        "id": "6052c613-8f47-4e85-8be1-f43e2d134583",
+        "name": "Veterans Memorial Arena",
+        "capacity": 15000,
+        "address": "300 A Philip Randolph Blvd",
+        "city": "Jacksonville",
+        "state": "FL",
+        "zip": "32202",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Orlando Magic",
+        "alias": "ORL",
+        "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "New Orleans Pelicans",
+        "alias": "NOH",
+        "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "64670fdc-458d-4360-98ec-4099b11e45f0",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-09T23:00:00+00:00",
+      "venue": {
+        "id": "62cc9661-7b13-56e7-bf4a-bba7ad7be8da",
+        "name": "Air Canada Centre",
+        "capacity": 19800,
+        "address": "40 Bay St.",
+        "city": "Toronto",
+        "state": "ON",
+        "zip": "M5J 2X2",
+        "country": "CAN"
+      },
+      "home": {
+        "name": "Toronto Raptors",
+        "alias": "TOR",
+        "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Minnesota Timberwolves",
+        "alias": "MIN",
+        "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "617a45b5-a9b0-4d26-8d16-9027b0379ca3",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-09T23:30:00+00:00",
+      "venue": {
+        "id": "94e2afc1-0309-408f-84fb-2f80cbda0357",
+        "name": "Dunkin' Donuts Center",
+        "capacity": 12400,
+        "address": "101 Sabin Street",
+        "city": "Providence",
+        "state": "RI",
+        "zip": "2903",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "NBA TV",
+        "satellite": "216"
+      },
+      "home": {
+        "name": "Boston Celtics",
+        "alias": "BOS",
+        "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "New York Knicks",
+        "alias": "NYK",
+        "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "119f8f18-0711-40e3-b319-293a6582f6c5",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-10T00:00:00+00:00",
+      "venue": {
+        "id": "7657c204-a20b-527a-99cb-dc29218462aa",
+        "name": "FedEx Forum",
+        "capacity": 18119,
+        "address": "191 Beale St",
+        "city": "Memphis",
+        "state": "TN",
+        "zip": "38103",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Memphis Grizzlies",
+        "alias": "MEM",
+        "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Dallas Mavericks",
+        "alias": "DAL",
+        "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "e9ce6f33-6adf-46d5-a9c9-5b872f83ebe9",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-10T00:30:00+00:00",
+      "venue": {
+        "id": "8a7580c0-4052-54d5-85cd-85aab6200acf",
+        "name": "AT&T Center",
+        "capacity": 18581,
+        "address": "One AT&T Center Parkway",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "78219",
+        "country": "USA"
+      },
+      "home": {
+        "name": "San Antonio Spurs",
+        "alias": "SAS",
+        "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "CSKA Moscow",
+        "alias": "MOS",
+        "id": "0c71ca14-b930-494f-9917-9932c43a729d"
+      }
+    },
+    {
+      "id": "817b0a66-d07e-4f85-aa52-1bfecbb86b6e",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-10T02:00:00+00:00",
+      "venue": {
+        "id": "1d1f74a2-7b35-56f0-8cbd-552c51cb2c14",
+        "name": "Moda Center",
+        "capacity": 19980,
+        "address": "1 Center Court",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "97227",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Portland Trail Blazers",
+        "alias": "POR",
+        "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Phoenix Suns",
+        "alias": "PHO",
+        "id": "583ecfa8-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "7f54ed35-669f-473b-96fe-b33721f8534d",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-10T11:30:00+00:00",
+      "venue": {
+        "id": "2b661a89-7559-4a2a-b058-98778a33cdf6",
+        "name": "Mall of Asia Arena",
+        "capacity": 18000,
+        "city": "Manila",
+        "country": "PHL"
+      },
+      "broadcast": {
+        "network": "NBA TV",
+        "satellite": "216"
+      },
+      "home": {
+        "name": "Indiana Pacers",
+        "alias": "IND",
+        "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Houston Rockets",
+        "alias": "HOU",
+        "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "ee5530ed-5439-47ab-9c8f-1d6b92d2b5dc",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-10T23:30:00+00:00",
+      "venue": {
+        "id": "e83899a5-a6dd-58f8-bd42-34b4857ee714",
+        "name": "The Palace of Auburn Hills",
+        "capacity": 22076,
+        "address": "Six Championship Drive",
+        "city": "Auburn Hills",
+        "state": "MI",
+        "zip": "48326",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Detroit Pistons",
+        "alias": "DET",
+        "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Miami Heat",
+        "alias": "MIA",
+        "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "0d25b1b8-4353-424e-8cde-a941ddd611ec",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-11T00:00:00+00:00",
+      "venue": {
+        "id": "a477ebf3-eb2b-4846-a02b-a60c8ddc831c",
+        "name": "Sanford Sports Pentagon",
+        "capacity": 3000,
+        "address": "2210 W. Pentagon Place",
+        "city": "Sioux Falls",
+        "state": "SD",
+        "zip": "57107",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "FS-N+",
+        "satellite": "652"
+      },
+      "home": {
+        "name": "Minnesota Timberwolves",
+        "alias": "MIN",
+        "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Milwaukee Bucks",
+        "alias": "MIL",
+        "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "ac6fa7db-7f3a-4765-9877-0c5ff0825bcf",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-11T02:00:00+00:00",
+      "venue": {
+        "id": "12322742-08a4-42fb-b613-9609f238de02",
+        "name": "MGM Grand Garden Arena",
+        "capacity": 16800,
+        "address": "3799 South Las Vegas Boulevard",
+        "city": "Las Vegas",
+        "state": "NV",
+        "zip": "89109",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "NBA TV",
+        "satellite": "216"
+      },
+      "home": {
+        "name": "Los Angeles Lakers",
+        "alias": "LAL",
+        "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Sacramento Kings",
+        "alias": "SAC",
+        "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "5549dc3a-cf6f-4a32-b45d-dd1fd19c5506",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-11T23:00:00+00:00",
+      "venue": {
+        "id": "10fa4797-0899-435d-a5c2-ab5f5e13ac75",
+        "name": "Bob Carpenter Center",
+        "capacity": 5000,
+        "address": "631 S College Ave",
+        "city": "Newark",
+        "state": "DE",
+        "zip": "19716",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "CSN-NE",
+        "satellite": "630"
+      },
+      "home": {
+        "name": "Philadelphia 76ers",
+        "alias": "PHI",
+        "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Boston Celtics",
+        "alias": "BOS",
+        "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "df84e818-f813-4759-a78b-2ad1d994edd0",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-11T23:00:00+00:00",
+      "venue": {
+        "id": "aecd8da6-0404-599c-a792-4b33fb084a2a",
+        "name": "Amway Center",
+        "capacity": 18846,
+        "address": "400 W. Church St.",
+        "city": "Orlando",
+        "state": "FL",
+        "zip": "32801",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "NBA TV",
+        "satellite": "216"
+      },
+      "home": {
+        "name": "Orlando Magic",
+        "alias": "ORL",
+        "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Cleveland Cavaliers",
+        "alias": "CLE",
+        "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "f90ec7f0-610c-4370-a0a7-8b0738a6a052",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-11T23:00:00+00:00",
+      "venue": {
+        "id": "62cc9661-7b13-56e7-bf4a-bba7ad7be8da",
+        "name": "Air Canada Centre",
+        "capacity": 19800,
+        "address": "40 Bay St.",
+        "city": "Toronto",
+        "state": "ON",
+        "zip": "M5J 2X2",
+        "country": "CAN"
+      },
+      "broadcast": {
+        "network": "MSG",
+        "satellite": "634"
+      },
+      "home": {
+        "name": "Toronto Raptors",
+        "alias": "TOR",
+        "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "New York Knicks",
+        "alias": "NYK",
+        "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "865686ea-d230-4b86-8c58-ec5cae0b7a2d",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-12T00:30:00+00:00",
+      "venue": {
+        "id": "4676e3ef-ab0b-4787-a05c-1ebffb4c838a",
+        "name": "Sprint Center",
+        "capacity": 18972,
+        "address": "1407 Grand Boulevard",
+        "city": "Kansas City",
+        "state": "MO",
+        "zip": "64106",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Miami Heat",
+        "alias": "MIA",
+        "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Charlotte Bobcats",
+        "alias": "CHA",
+        "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "2fa43b54-3eb4-4016-99a2-a628bdafe588",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-12T01:00:00+00:00",
+      "venue": {
+        "id": "45df54be-4828-4ee0-8348-54bb782b7a61",
+        "name": "CenturyLink Arena Boise",
+        "capacity": 5732,
+        "address": "233 South Capitol Boulevard",
+        "city": "Boise",
+        "state": "ID",
+        "zip": "83702",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Portland Trail Blazers",
+        "alias": "POR",
+        "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Utah Jazz",
+        "alias": "UTA",
+        "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "f4a9e4a1-667b-413f-9a90-99d8f446573e",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-12T21:00:00+00:00",
+      "venue": {
+        "id": "06db6836-9785-454a-825b-8a336c9e0bae",
+        "name": "HSBC Arena",
+        "capacity": 15000,
+        "address": "Av. Embaixador Abelardo Bueno",
+        "city": "Rio de Janeiro",
+        "country": "BRA"
+      },
+      "broadcast": {
+        "network": "NBA TV",
+        "satellite": "216"
+      },
+      "home": {
+        "name": "Washington Wizards",
+        "alias": "WAS",
+        "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Chicago Bulls",
+        "alias": "CHI",
+        "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "8c15339e-4a5a-49ba-9c62-164f68b42508",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-12T23:30:00+00:00",
+      "venue": {
+        "id": "7a330bcd-ac0f-50ca-bc29-2460e5c476b3",
+        "name": "Barclays Center",
+        "capacity": 18200,
+        "address": "620 Atlantic Avenue.",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11217",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Brooklyn Nets",
+        "alias": "BKN",
+        "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Detroit Pistons",
+        "alias": "DET",
+        "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "b8dbdc32-4c7d-4bdb-929c-4b72a01c2062",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-12T23:30:00+00:00",
+      "venue": {
+        "id": "9faa4f7e-4a81-4fe2-9bf4-642b5985f42d",
+        "name": "Verizon Wireless Arena (NH)",
+        "capacity": 11140,
+        "address": "555 Elm Street",
+        "city": "Manchester",
+        "state": "NH",
+        "zip": "03101",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "NBA TV",
+        "satellite": "216"
+      },
+      "home": {
+        "name": "Boston Celtics",
+        "alias": "BOS",
+        "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "New York Knicks",
+        "alias": "NYK",
+        "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "0080acd8-98ac-4335-9725-673690abb1bc",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-13T00:00:00+00:00",
+      "venue": {
+        "id": "7aed802e-3562-5b73-af1b-3859529f9b95",
+        "name": "Target Center",
+        "capacity": 19356,
+        "address": "600 First Ave. North",
+        "city": "Minneapolis",
+        "state": "MN",
+        "zip": "55403",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Minnesota Timberwolves",
+        "alias": "MIN",
+        "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Toronto Raptors",
+        "alias": "TOR",
+        "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "97368300-1ee6-4e26-96fc-2914bfa2f518",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-13T00:30:00+00:00",
+      "venue": {
+        "id": "9bb9599c-17dd-4253-82bb-96fae950a32f",
+        "name": "BMO Harris Bradley Center",
+        "capacity": 19000,
+        "address": "1001 N Fourth St",
+        "city": "Milwaukee",
+        "state": "WI",
+        "zip": "53203",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Milwaukee Bucks",
+        "alias": "MIL",
+        "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Charlotte Bobcats",
+        "alias": "CHA",
+        "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "eed2508d-bf18-47f1-b985-9fb5459b5cd1",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-13T01:00:00+00:00",
+      "venue": {
+        "id": "53bac75a-a667-52b5-a416-b80718ae4ed2",
+        "name": "EnergySolutions Arena",
+        "capacity": 19911,
+        "address": "301 W. South Temple St.",
+        "city": "Salt Lake City",
+        "state": "UT",
+        "zip": "84101",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "PRIME",
+        "satellite": "693"
+      },
+      "home": {
+        "name": "Utah Jazz",
+        "alias": "UTA",
+        "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Los Angeles Clippers",
+        "alias": "LAC",
+        "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "33fefdf3-9576-4d52-a66b-1e820b4fb765",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-13T05:30:00+00:00",
+      "venue": {
+        "id": "7910dd98-d996-43d9-92d3-937ab1919f25",
+        "name": "Taipei Arena",
+        "capacity": 15082,
+        "city": "Taipei",
+        "country": "TWN"
+      },
+      "broadcast": {
+        "network": "NBA TV",
+        "satellite": "216"
+      },
+      "home": {
+        "name": "Houston Rockets",
+        "alias": "HOU",
+        "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Indiana Pacers",
+        "alias": "IND",
+        "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "d8e2202a-cf52-4f15-bbfe-e4fb7e0d1cd6",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-13T18:00:00+00:00",
+      "venue": {
+        "id": "9326013b-3acf-4bca-85ee-dd5315239458",
+        "name": "Mississippi Coast Coliseum",
+        "capacity": 9150,
+        "address": "2350 Beach Boulevard",
+        "city": "Biloxi",
+        "state": "MS",
+        "zip": "39531",
+        "country": "USA"
+      },
+      "home": {
+        "name": "New Orleans Pelicans",
+        "alias": "NOH",
+        "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Atlanta Hawks",
+        "alias": "ATL",
+        "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "5b6a2775-bff1-4740-afd0-6ae995673ea4",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-13T18:30:00+00:00",
+      "venue": {
+        "id": "8a7580c0-4052-54d5-85cd-85aab6200acf",
+        "name": "AT&T Center",
+        "capacity": 18581,
+        "address": "One AT&T Center Parkway",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "78219",
+        "country": "USA"
+      },
+      "home": {
+        "name": "San Antonio Spurs",
+        "alias": "SAS",
+        "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Phoenix Suns",
+        "alias": "PHO",
+        "id": "583ecfa8-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "64420fc5-471f-4315-9dee-fec7b98eee61",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-13T22:00:00+00:00",
+      "venue": {
+        "id": "7657c204-a20b-527a-99cb-dc29218462aa",
+        "name": "FedEx Forum",
+        "capacity": 18119,
+        "address": "191 Beale St",
+        "city": "Memphis",
+        "state": "TN",
+        "zip": "38103",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Memphis Grizzlies",
+        "alias": "MEM",
+        "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Maccabi Haifa",
+        "alias": "MAC",
+        "id": "74db82e4-b2ec-402a-a336-ebe3b1b2ab80"
+      }
+    },
+    {
+      "id": "0e03af24-58ac-428c-91c3-cc3371fcae81",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-14T23:00:00+00:00",
+      "venue": {
+        "id": "b3dca541-859e-5301-bf90-4ec677a514a9",
+        "name": "Wells Fargo Center",
+        "capacity": 20328,
+        "address": "3601 S. Broad St.",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "19148",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Philadelphia 76ers",
+        "alias": "PHI",
+        "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Brooklyn Nets",
+        "alias": "BKN",
+        "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "22e9bdf0-af12-4cef-b8f3-e0f100fc0b87",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-15T00:30:00+00:00",
+      "venue": {
+        "id": "401ba62f-19b5-5bfc-84d6-021772943311",
+        "name": "American Airlines Center",
+        "capacity": 19200,
+        "address": "2500 Victory Ave.",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "75219",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Dallas Mavericks",
+        "alias": "DAL",
+        "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Orlando Magic",
+        "alias": "ORL",
+        "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "03d69856-9da3-4404-8ba7-34df1bc6935a",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-15T01:00:00+00:00",
+      "venue": {
+        "id": "1a28ef88-76c9-5bcc-b4ee-51d30ca98f4f",
+        "name": "Pepsi Center",
+        "capacity": 19155,
+        "address": "1000 Chopper Circle",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80204",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "NBA TV",
+        "satellite": "216"
+      },
+      "home": {
+        "name": "Denver Nuggets",
+        "alias": "DEN",
+        "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "San Antonio Spurs",
+        "alias": "SAS",
+        "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "e09e4adf-061c-43d1-b301-e1a83b13e5a2",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-15T02:00:00+00:00",
+      "venue": {
+        "id": "446e0f70-beea-5104-903f-fb65985711a1",
+        "name": "Sleep Train Arena",
+        "capacity": 17317,
+        "address": "One Sports Parkway",
+        "city": "Sacramento",
+        "state": "CA",
+        "zip": "95834",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "PRIME",
+        "satellite": "693"
+      },
+      "home": {
+        "name": "Sacramento Kings",
+        "alias": "SAC",
+        "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Los Angeles Clippers",
+        "alias": "LAC",
+        "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "addabc50-1502-4be4-8d6d-ceb659aebf8f",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-15T11:30:00+00:00",
+      "venue": {
+        "id": "7afc21f2-f2a0-4810-9bbc-6d56a23d7906",
+        "name": "MasterCard Center",
+        "capacity": 18000,
+        "city": "Beijing",
+        "country": "CHN"
+      },
+      "broadcast": {
+        "network": "NBA TV",
+        "satellite": "216"
+      },
+      "home": {
+        "name": "Los Angeles Lakers",
+        "alias": "LAL",
+        "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Golden State Warriors",
+        "alias": "GSW",
+        "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "160dd334-3e5c-4bcd-86ac-196eab33839a",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-15T23:00:00+00:00",
+      "venue": {
+        "id": "4c30d034-7d71-47d9-a499-0951ad9b91e0",
+        "name": "Canton Memorial Civic Center",
+        "capacity": 5200,
+        "address": "1101 Market Ave. N",
+        "city": "Canton",
+        "state": "OH",
+        "zip": "44702",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "SPTO",
+        "satellite": "662"
+      },
+      "home": {
+        "name": "Cleveland Cavaliers",
+        "alias": "CLE",
+        "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Charlotte Bobcats",
+        "alias": "CHA",
+        "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "b3bb9890-3013-4cd7-b6c9-f5310bba69ec",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-15T23:00:00+00:00",
+      "venue": {
+        "id": "f62d5b49-d646-56e9-ba60-a875a00830f8",
+        "name": "Verizon Center",
+        "capacity": 20290,
+        "address": "601 F St. N.W.",
+        "city": "Washington",
+        "state": "DC",
+        "zip": "20004",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "NBA TV",
+        "satellite": "216"
+      },
+      "home": {
+        "name": "Washington Wizards",
+        "alias": "WAS",
+        "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Miami Heat",
+        "alias": "MIA",
+        "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "17f6d656-4b3e-4047-9e10-a23e52c95055",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-15T23:30:00+00:00",
+      "venue": {
+        "id": "7a330bcd-ac0f-50ca-bc29-2460e5c476b3",
+        "name": "Barclays Center",
+        "capacity": 18200,
+        "address": "620 Atlantic Avenue.",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11217",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "YES",
+        "satellite": "631"
+      },
+      "home": {
+        "name": "Brooklyn Nets",
+        "alias": "BKN",
+        "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Boston Celtics",
+        "alias": "BOS",
+        "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "3eaeee77-0836-4ccd-9bdb-c8cca0ec334b",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-16T00:00:00+00:00",
+      "venue": {
+        "id": "7657c204-a20b-527a-99cb-dc29218462aa",
+        "name": "FedEx Forum",
+        "capacity": 18119,
+        "address": "191 Beale St",
+        "city": "Memphis",
+        "state": "TN",
+        "zip": "38103",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Memphis Grizzlies",
+        "alias": "MEM",
+        "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Milwaukee Bucks",
+        "alias": "MIL",
+        "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "e8581cf8-9f8e-4f87-a073-a04a867fcdf9",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-16T00:00:00+00:00",
+      "venue": {
+        "id": "a13af216-4409-5021-8dd5-255cc71bffc3",
+        "name": "Chesapeake Energy Arena",
+        "capacity": 18203,
+        "address": "100 W. Reno Ave.",
+        "city": "Oklahoma City",
+        "state": "OK",
+        "zip": "73102",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Oklahoma City Thunder",
+        "alias": "OKC",
+        "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Denver Nuggets",
+        "alias": "DEN",
+        "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "b6ba9486-2cdf-45a9-afef-4758ecfcb1b0",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-16T02:00:00+00:00",
+      "venue": {
+        "id": "1d2e59b2-2479-5f84-a6a7-e82f65dd8442",
+        "name": "US Airways Center",
+        "capacity": 18422,
+        "address": "201 E. Jefferson St.",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip": "85004",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "PRIME",
+        "satellite": "693"
+      },
+      "home": {
+        "name": "Phoenix Suns",
+        "alias": "PHO",
+        "id": "583ecfa8-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Los Angeles Clippers",
+        "alias": "LAC",
+        "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "3b89b4ee-03e3-4458-b2fe-127f0cd6fc68",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-16T23:00:00+00:00",
+      "venue": {
+        "id": "62cc9661-7b13-56e7-bf4a-bba7ad7be8da",
+        "name": "Air Canada Centre",
+        "capacity": 19800,
+        "address": "40 Bay St.",
+        "city": "Toronto",
+        "state": "ON",
+        "zip": "M5J 2X2",
+        "country": "CAN"
+      },
+      "broadcast": {
+        "network": "CSN-NE",
+        "satellite": "630"
+      },
+      "home": {
+        "name": "Toronto Raptors",
+        "alias": "TOR",
+        "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Boston Celtics",
+        "alias": "BOS",
+        "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "b6cb8396-cf77-4182-8423-0e183e84dbad",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-16T23:00:00+00:00",
+      "venue": {
+        "id": "24bb478e-eb31-5f8a-8c8d-07f513169ec1",
+        "name": "Bankers Life Fieldhouse",
+        "capacity": 18165,
+        "address": "125 S. Pennsylvania St.",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "46204",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Indiana Pacers",
+        "alias": "IND",
+        "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Dallas Mavericks",
+        "alias": "DAL",
+        "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "6b1b46b8-2a3f-4665-8524-f7b0a9d17125",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-17T00:00:00+00:00",
+      "venue": {
+        "id": "38911649-acfd-551a-949b-68f0fcaa44e7",
+        "name": "United Center",
+        "capacity": 20917,
+        "address": "1901 W. Madison St.",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60612",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "CSN-C",
+        "satellite": "665"
+      },
+      "home": {
+        "name": "Chicago Bulls",
+        "alias": "CHI",
+        "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Detroit Pistons",
+        "alias": "DET",
+        "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "b6786ac2-3ba2-4b37-bbcd-6625923653e2",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-17T00:00:00+00:00",
+      "venue": {
+        "id": "5b239206-57ce-50aa-baaa-627f3349dfdc",
+        "name": "Toyota Center",
+        "capacity": 18043,
+        "address": "1510 Polk St.",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "77002",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "NBA TV",
+        "satellite": "216"
+      },
+      "home": {
+        "name": "Houston Rockets",
+        "alias": "HOU",
+        "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Orlando Magic",
+        "alias": "ORL",
+        "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "90c55792-ded5-4555-95b0-c920eca8512a",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-17T01:00:00+00:00",
+      "venue": {
+        "id": "53bac75a-a667-52b5-a416-b80718ae4ed2",
+        "name": "EnergySolutions Arena",
+        "capacity": 19911,
+        "address": "301 W. South Temple St.",
+        "city": "Salt Lake City",
+        "state": "UT",
+        "zip": "84101",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ROOT",
+        "satellite": "684"
+      },
+      "home": {
+        "name": "Utah Jazz",
+        "alias": "UTA",
+        "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Portland Trail Blazers",
+        "alias": "POR",
+        "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "67b964b1-9105-4acc-b3bd-e0a12e1644ca",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-17T15:00:00+00:00",
+      "venue": {
+        "id": "a380f011-6e5d-5430-9f37-209e1e8a9b6f",
+        "name": "Time Warner Cable Arena",
+        "capacity": 19026,
+        "address": "330 E. Trade St.",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "28202",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Charlotte Bobcats",
+        "alias": "CHA",
+        "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Philadelphia 76ers",
+        "alias": "PHI",
+        "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "593c84e1-3f19-413b-8241-28e719ea9216",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-17T23:00:00+00:00",
+      "venue": {
+        "id": "42cddf7a-0e1f-5f91-ae6f-c620582fdb01",
+        "name": "Quicken Loans Arena",
+        "capacity": 20562,
+        "address": "One Center Court",
+        "city": "Cleveland",
+        "state": "OH",
+        "zip": "44115",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Cleveland Cavaliers",
+        "alias": "CLE",
+        "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Detroit Pistons",
+        "alias": "DET",
+        "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "7c394953-99a2-4fb3-ad1c-3a8468b09706",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-17T23:00:00+00:00",
+      "venue": {
+        "id": "b3ef6a2a-f3c9-42d6-87dd-9e5b293c9e0c",
+        "name": "Baltimore Arena",
+        "capacity": 12500,
+        "address": "201 West Baltimore Street",
+        "city": "Baltimore",
+        "state": "MD",
+        "zip": "21201",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "MSG",
+        "satellite": "634"
+      },
+      "home": {
+        "name": "Washington Wizards",
+        "alias": "WAS",
+        "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "New York Knicks",
+        "alias": "NYK",
+        "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "226042ac-740b-418a-9c97-02dadc06ff59",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-17T23:30:00+00:00",
+      "venue": {
+        "id": "fd21f639-8a47-51ac-a5dd-590629d445cf",
+        "name": "Philips Arena",
+        "capacity": 18118,
+        "address": "One Philips Drive",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30303",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Atlanta Hawks",
+        "alias": "ATL",
+        "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "San Antonio Spurs",
+        "alias": "SAS",
+        "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "6b2530b9-94a7-427a-a861-552bca9194c6",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-18T00:00:00+00:00",
+      "venue": {
+        "id": "7aec3f52-9759-4b41-b4f4-c6645b4aef21",
+        "name": "BOK Center",
+        "capacity": 17839,
+        "address": "200 S. Denver Ave",
+        "city": "Tulsa",
+        "state": "OK",
+        "zip": "74103",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "FS-OK",
+        "satellite": "679"
+      },
+      "home": {
+        "name": "Oklahoma City Thunder",
+        "alias": "OKC",
+        "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "New Orleans Pelicans",
+        "alias": "NOP",
+        "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "ce0e7699-185e-4670-9a61-3ac30d5daade",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-18T00:00:00+00:00",
+      "venue": {
+        "id": "7a330bcd-ac0f-50ca-bc29-2460e5c476b3",
+        "name": "Barclays Center",
+        "capacity": 18200,
+        "address": "620 Atlantic Avenue.",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11217",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "Brooklyn Nets",
+        "alias": "BKN",
+        "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Miami Heat",
+        "alias": "MIA",
+        "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "bd84984d-aaaa-408b-9f36-40a1458e4b2a",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-18T02:00:00+00:00",
+      "venue": {
+        "id": "446e0f70-beea-5104-903f-fb65985711a1",
+        "name": "Sleep Train Arena",
+        "capacity": 17317,
+        "address": "One Sports Parkway",
+        "city": "Sacramento",
+        "state": "CA",
+        "zip": "95834",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Sacramento Kings",
+        "alias": "SAC",
+        "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Phoenix Suns",
+        "alias": "PHO",
+        "id": "583ecfa8-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "e8b4ebbc-acb3-4f0d-b1a3-74b6d078c247",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-18T11:30:00+00:00",
+      "venue": {
+        "id": "6290a1d1-de99-4c66-a592-cf349d63641e",
+        "name": "Mercedes-Benz Arena (Shanghai)",
+        "capacity": 18000,
+        "address": "Expo Avenue",
+        "city": "Shanghai",
+        "country": "CHN"
+      },
+      "broadcast": {
+        "network": "NBA TV",
+        "satellite": "216"
+      },
+      "home": {
+        "name": "Golden State Warriors",
+        "alias": "GSW",
+        "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Los Angeles Lakers",
+        "alias": "LAL",
+        "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "9176f6b6-a951-4b77-877e-c89cb4d31e3a",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-18T23:00:00+00:00",
+      "venue": {
+        "id": "aecd8da6-0404-599c-a792-4b33fb084a2a",
+        "name": "Amway Center",
+        "capacity": 18846,
+        "address": "400 W. Church St.",
+        "city": "Orlando",
+        "state": "FL",
+        "zip": "32801",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Orlando Magic",
+        "alias": "ORL",
+        "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Memphis Grizzlies",
+        "alias": "MEM",
+        "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "3c08d4d0-fd23-4951-bd5a-770a57d19cb5",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-19T00:00:00+00:00",
+      "venue": {
+        "id": "38911649-acfd-551a-949b-68f0fcaa44e7",
+        "name": "United Center",
+        "capacity": 20917,
+        "address": "1901 W. Madison St.",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60612",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "NBA TV",
+        "satellite": "216"
+      },
+      "home": {
+        "name": "Chicago Bulls",
+        "alias": "CHI",
+        "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Indiana Pacers",
+        "alias": "IND",
+        "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "97df5917-867f-4c24-8f4c-9a9b9c975ee5",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-19T02:30:00+00:00",
+      "venue": {
+        "id": "792ec100-691e-5e16-8ef8-79b2b6ee38ba",
+        "name": "Staples Center",
+        "capacity": 18997,
+        "address": "1111 S. Figueroa St.",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90015",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "NBA TV",
+        "satellite": "216"
+      },
+      "home": {
+        "name": "Los Angeles Clippers",
+        "alias": "LAC",
+        "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Portland Trail Blazers",
+        "alias": "POR",
+        "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "18157390-b7b9-4d53-8fea-5596c9e6eab0",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-19T23:00:00+00:00",
+      "venue": {
+        "id": "fc615ca5-dff2-4477-b494-8acd27938c97",
+        "name": "Rupp Arena",
+        "capacity": 23500,
+        "address": "432 West Vine Street",
+        "city": "Lexington",
+        "state": "KY",
+        "zip": "40506",
+        "country": "USA"
+      },
+      "home": {
+        "name": "New Orleans Pelicans",
+        "alias": "NOH",
+        "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Washington Wizards",
+        "alias": "WAS",
+        "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "00f86765-0484-4d01-b27f-f791cd8366d2",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-19T23:30:00+00:00",
+      "venue": {
+        "id": "b67d5f09-28b2-5bc6-9097-af312007d2f4",
+        "name": "American Airlines Arena",
+        "capacity": 19600,
+        "address": "601 Biscayne Blvd.",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "33132",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "NBA TV",
+        "satellite": "216"
+      },
+      "home": {
+        "name": "Miami Heat",
+        "alias": "MIA",
+        "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "San Antonio Spurs",
+        "alias": "SAS",
+        "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "0f9fc5a7-c375-486e-8e91-652baefaf72f",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-19T23:30:00+00:00",
+      "venue": {
+        "id": "42cddf7a-0e1f-5f91-ae6f-c620582fdb01",
+        "name": "Quicken Loans Arena",
+        "capacity": 20562,
+        "address": "One Center Court",
+        "city": "Cleveland",
+        "state": "OH",
+        "zip": "44115",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "SPTO",
+        "satellite": "662"
+      },
+      "home": {
+        "name": "Cleveland Cavaliers",
+        "alias": "CLE",
+        "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Indiana Pacers",
+        "alias": "IND",
+        "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "8a967f59-01be-4900-9446-8242d95701ec",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-19T23:30:00+00:00",
+      "venue": {
+        "id": "695d3bc9-f1db-4a96-9050-5a90073bbca0",
+        "name": "Greensboro Coliseum Complex",
+        "capacity": 23500,
+        "address": "1921 West Lee Street",
+        "city": "Greensboro",
+        "state": "NC",
+        "zip": "27403",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Charlotte Bobcats",
+        "alias": "CHA",
+        "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Dallas Mavericks",
+        "alias": "DAL",
+        "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "d0973a55-e7b4-4a10-87ab-60580ce11a3c",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-20T02:30:00+00:00",
+      "venue": {
+        "id": "06c2f947-3e69-43b8-bfec-d01c2370a21f",
+        "name": "Mandalay Bay Events Center",
+        "capacity": 12000,
+        "address": "3950 Las Vegas Boulevard South",
+        "city": "Las Vegas",
+        "state": "NV",
+        "zip": "89119",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "NBA TV",
+        "satellite": "216"
+      },
+      "home": {
+        "name": "Los Angeles Clippers",
+        "alias": "LAC",
+        "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Denver Nuggets",
+        "alias": "DEN",
+        "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "d9f88114-07fc-41ae-9a98-9611600ef1b1",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-20T19:00:00+00:00",
+      "venue": {
+        "id": "fd21f639-8a47-51ac-a5dd-590629d445cf",
+        "name": "Philips Arena",
+        "capacity": 18118,
+        "address": "One Philips Drive",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30303",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Atlanta Hawks",
+        "alias": "ATL",
+        "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Memphis Grizzlies",
+        "alias": "MEM",
+        "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "2b799b26-5c4a-410a-bf5e-1907a7883efd",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-20T22:00:00+00:00",
+      "venue": {
+        "id": "1969b5b1-0f9f-4589-9d1e-f58bc523f154",
+        "name": "Bell Centre",
+        "capacity": 22114,
+        "address": "1909 Avenue des Canadiens-de-Montréal",
+        "city": "Montreal",
+        "state": "QC",
+        "country": "CAN"
+      },
+      "broadcast": {
+        "network": "NBA TV",
+        "satellite": "216"
+      },
+      "home": {
+        "name": "Minnesota Timberwolves",
+        "alias": "MIN",
+        "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Boston Celtics",
+        "alias": "BOS",
+        "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "a9fee3f1-7805-43f9-b2c2-7157d0c1e7d6",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-20T22:00:00+00:00",
+      "venue": {
+        "id": "aecd8da6-0404-599c-a792-4b33fb084a2a",
+        "name": "Amway Center",
+        "capacity": 18846,
+        "address": "400 W. Church St.",
+        "city": "Orlando",
+        "state": "FL",
+        "zip": "32801",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Orlando Magic",
+        "alias": "ORL",
+        "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Detroit Pistons",
+        "alias": "DET",
+        "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "dbdcae7c-adb9-4382-a770-eed52f7c26e2",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-20T23:00:00+00:00",
+      "venue": {
+        "id": "a13af216-4409-5021-8dd5-255cc71bffc3",
+        "name": "Chesapeake Energy Arena",
+        "capacity": 18203,
+        "address": "100 W. Reno Ave.",
+        "city": "Oklahoma City",
+        "state": "OK",
+        "zip": "73102",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Oklahoma City Thunder",
+        "alias": "OKC",
+        "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Utah Jazz",
+        "alias": "UTA",
+        "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "a7998a7a-d46b-4e9d-a116-afcd2284b545",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-21T01:00:00+00:00",
+      "venue": {
+        "id": "1d1f74a2-7b35-56f0-8cbd-552c51cb2c14",
+        "name": "Moda Center",
+        "capacity": 19980,
+        "address": "1 Center Court",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "97227",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Portland Trail Blazers",
+        "alias": "POR",
+        "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Sacramento Kings",
+        "alias": "SAC",
+        "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "272f8656-ecad-4562-b181-c364824c6c15",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-21T23:00:00+00:00",
+      "venue": {
+        "id": "3c978b1c-94e5-46a7-848c-2d45efc4ccf5",
+        "name": "Value City Arena at the Jerome Schottenstein Center",
+        "capacity": 18809,
+        "address": "555 Borror Drive",
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "43210",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "FS-O",
+        "satellite": "660"
+      },
+      "home": {
+        "name": "Cleveland Cavaliers",
+        "alias": "CLE",
+        "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Philadelphia 76ers",
+        "alias": "PHI",
+        "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "635db9ef-ffb1-4d70-b62a-3c24cd41542d",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-21T23:00:00+00:00",
+      "venue": {
+        "id": "62cc9661-7b13-56e7-bf4a-bba7ad7be8da",
+        "name": "Air Canada Centre",
+        "capacity": 19800,
+        "address": "40 Bay St.",
+        "city": "Toronto",
+        "state": "ON",
+        "zip": "M5J 2X2",
+        "country": "CAN"
+      },
+      "broadcast": {
+        "network": "MSG",
+        "satellite": "634"
+      },
+      "home": {
+        "name": "Toronto Raptors",
+        "alias": "TOR",
+        "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "New York Knicks",
+        "alias": "NYK",
+        "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "137db9aa-09f2-4b80-8616-5a49c323d55e",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-22T00:00:00+00:00",
+      "venue": {
+        "id": "5b239206-57ce-50aa-baaa-627f3349dfdc",
+        "name": "Toyota Center",
+        "capacity": 18043,
+        "address": "1510 Polk St.",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "77002",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "NBA TV",
+        "satellite": "216"
+      },
+      "home": {
+        "name": "Houston Rockets",
+        "alias": "HOU",
+        "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Dallas Mavericks",
+        "alias": "DAL",
+        "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "dc5b3321-35f4-436d-8821-5fec3f2f1fc7",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-22T00:00:00+00:00",
+      "venue": {
+        "id": "38911649-acfd-551a-949b-68f0fcaa44e7",
+        "name": "United Center",
+        "capacity": 20917,
+        "address": "1901 W. Madison St.",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60612",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Chicago Bulls",
+        "alias": "CHI",
+        "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Milwaukee Bucks",
+        "alias": "MIL",
+        "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "14bcd5fe-f95a-4973-9463-a166215b1ccd",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-22T23:30:00+00:00",
+      "venue": {
+        "id": "e83899a5-a6dd-58f8-bd42-34b4857ee714",
+        "name": "The Palace of Auburn Hills",
+        "capacity": 22076,
+        "address": "Six Championship Drive",
+        "city": "Auburn Hills",
+        "state": "MI",
+        "zip": "48326",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "NBA TV",
+        "satellite": "216"
+      },
+      "home": {
+        "name": "Detroit Pistons",
+        "alias": "DET",
+        "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Washington Wizards",
+        "alias": "WAS",
+        "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "311a4ca8-8ae7-40e9-b6ea-5d4850a29e51",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-22T23:30:00+00:00",
+      "venue": {
+        "id": "fd21f639-8a47-51ac-a5dd-590629d445cf",
+        "name": "Philips Arena",
+        "capacity": 18118,
+        "address": "One Philips Drive",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30303",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Atlanta Hawks",
+        "alias": "ATL",
+        "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Indiana Pacers",
+        "alias": "IND",
+        "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "dc1db86a-6b91-4285-86d9-7c875ac8f5e7",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-23T00:30:00+00:00",
+      "venue": {
+        "id": "8a7580c0-4052-54d5-85cd-85aab6200acf",
+        "name": "AT&T Center",
+        "capacity": 18581,
+        "address": "One AT&T Center Parkway",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "78219",
+        "country": "USA"
+      },
+      "home": {
+        "name": "San Antonio Spurs",
+        "alias": "SAS",
+        "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Orlando Magic",
+        "alias": "ORL",
+        "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "e3042d4c-8e92-4d88-b50c-1fd38bd0f95f",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-23T02:00:00+00:00",
+      "venue": {
+        "id": "1d2e59b2-2479-5f84-a6a7-e82f65dd8442",
+        "name": "US Airways Center",
+        "capacity": 18422,
+        "address": "201 E. Jefferson St.",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip": "85004",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Phoenix Suns",
+        "alias": "PHO",
+        "id": "583ecfa8-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Oklahoma City Thunder",
+        "alias": "OKC",
+        "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "b67aa724-a638-40cb-9c1f-ca78d261cc5a",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-23T02:30:00+00:00",
+      "venue": {
+        "id": "792ec100-691e-5e16-8ef8-79b2b6ee38ba",
+        "name": "Staples Center",
+        "capacity": 18997,
+        "address": "1111 S. Figueroa St.",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90015",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "NBA TV",
+        "satellite": "216"
+      },
+      "home": {
+        "name": "Los Angeles Lakers",
+        "alias": "LAL",
+        "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Utah Jazz",
+        "alias": "UTA",
+        "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "025b0392-0079-425c-b557-73f452d60a42",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-23T23:00:00+00:00",
+      "venue": {
+        "id": "49f71199-675b-43bb-bc1e-b87e09612e37",
+        "name": "U.S. Bank Arena",
+        "capacity": 17000,
+        "address": "100 Broadway Street",
+        "city": "Cincinnati",
+        "state": "OH",
+        "zip": "45202",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "FS-O",
+        "satellite": "660"
+      },
+      "home": {
+        "name": "Cleveland Cavaliers",
+        "alias": "CLE",
+        "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Washington Wizards",
+        "alias": "WAS",
+        "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "b0c3d2a4-afbc-43ad-809c-61121fe70436",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-23T23:00:00+00:00",
+      "venue": {
+        "id": "7d69b080-91ca-53c9-9302-45c1a72c5549",
+        "name": "TD Garden",
+        "capacity": 17565,
+        "address": "100 Legends Way",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "02114",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ESPN",
+        "satellite": "206"
+      },
+      "home": {
+        "name": "Boston Celtics",
+        "alias": "BOS",
+        "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Brooklyn Nets",
+        "alias": "BKN",
+        "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "b8cb7628-0331-4c1c-9540-efafd9a112b5",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-23T23:00:00+00:00",
+      "venue": {
+        "id": "b3dca541-859e-5301-bf90-4ec677a514a9",
+        "name": "Wells Fargo Center",
+        "capacity": 20328,
+        "address": "3601 S. Broad St.",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "19148",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Philadelphia 76ers",
+        "alias": "PHI",
+        "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Minnesota Timberwolves",
+        "alias": "MIN",
+        "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "df8f8a1e-ee2a-43a1-9138-9ef0e87d8859",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-23T23:00:00+00:00",
+      "venue": {
+        "id": "62cc9661-7b13-56e7-bf4a-bba7ad7be8da",
+        "name": "Air Canada Centre",
+        "capacity": 19800,
+        "address": "40 Bay St.",
+        "city": "Toronto",
+        "state": "ON",
+        "zip": "M5J 2X2",
+        "country": "CAN"
+      },
+      "home": {
+        "name": "Toronto Raptors",
+        "alias": "TOR",
+        "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Memphis Grizzlies",
+        "alias": "MEM",
+        "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "86f71a93-e794-47ef-a8a7-8df07e5834f2",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-24T00:00:00+00:00",
+      "venue": {
+        "id": "e5485a6b-50d0-40ab-a0ee-560016270c8b",
+        "name": "Resch Center",
+        "capacity": 9729,
+        "address": "1901 S Oneida St",
+        "city": "Green Bay",
+        "state": "WI",
+        "zip": "54304",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "MSG",
+        "satellite": "634"
+      },
+      "home": {
+        "name": "Milwaukee Bucks",
+        "alias": "MIL",
+        "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "New York Knicks",
+        "alias": "NYK",
+        "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "f281e667-b345-4d76-b722-815b898bf2d2",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-24T00:00:00+00:00",
+      "venue": {
+        "id": "6ec47e31-f778-5319-b6c4-3254e076ba0e",
+        "name": "Smoothie King Center",
+        "capacity": 17188,
+        "address": "1501 Girod St.",
+        "city": "New Orleans",
+        "state": "LA",
+        "zip": "70113",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "SUNSP",
+        "satellite": "653"
+      },
+      "home": {
+        "name": "New Orleans Pelicans",
+        "alias": "NOP",
+        "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Miami Heat",
+        "alias": "MIA",
+        "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "a644ffdb-b36f-4b28-ad4b-8a9794c23af1",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-24T00:30:00+00:00",
+      "venue": {
+        "id": "401ba62f-19b5-5bfc-84d6-021772943311",
+        "name": "American Airlines Center",
+        "capacity": 19200,
+        "address": "2500 Victory Ave.",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "75219",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "FS-SW",
+        "satellite": "676"
+      },
+      "home": {
+        "name": "Dallas Mavericks",
+        "alias": "DAL",
+        "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Atlanta Hawks",
+        "alias": "ATL",
+        "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "ba3d8d2d-f782-4147-be6e-738d5a9f81dd",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-24T01:00:00+00:00",
+      "venue": {
+        "id": "1a28ef88-76c9-5bcc-b4ee-51d30ca98f4f",
+        "name": "Pepsi Center",
+        "capacity": 19155,
+        "address": "1000 Chopper Circle",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80204",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ATL",
+        "satellite": "681"
+      },
+      "home": {
+        "name": "Denver Nuggets",
+        "alias": "DEN",
+        "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Phoenix Suns",
+        "alias": "PHO",
+        "id": "583ecfa8-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "756562cd-9300-406c-a9e9-c32bdcbe9227",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-24T01:30:00+00:00",
+      "venue": {
+        "id": "406d8635-7c82-4195-a353-75da4daf71bb",
+        "name": "Intrust Bank Arena",
+        "capacity": 15000,
+        "address": "500 East Waterman Street",
+        "city": "Wichita",
+        "state": "KS",
+        "zip": "67202",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ESPN",
+        "satellite": "206"
+      },
+      "home": {
+        "name": "Oklahoma City Thunder",
+        "alias": "OKC",
+        "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Chicago Bulls",
+        "alias": "CHI",
+        "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "5fb5d46e-0ab3-4eba-a168-692cdd0d17c8",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-24T02:00:00+00:00",
+      "venue": {
+        "id": "446e0f70-beea-5104-903f-fb65985711a1",
+        "name": "Sleep Train Arena",
+        "capacity": 17317,
+        "address": "One Sports Parkway",
+        "city": "Sacramento",
+        "state": "CA",
+        "zip": "95834",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Sacramento Kings",
+        "alias": "SAC",
+        "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Golden State Warriors",
+        "alias": "GSW",
+        "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "febb39df-832c-4593-af1e-4fde5b4d9bdf",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-24T02:30:00+00:00",
+      "venue": {
+        "id": "792ec100-691e-5e16-8ef8-79b2b6ee38ba",
+        "name": "Staples Center",
+        "capacity": 18997,
+        "address": "1111 S. Figueroa St.",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90015",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "PRIME",
+        "satellite": "693"
+      },
+      "home": {
+        "name": "Los Angeles Clippers",
+        "alias": "LAC",
+        "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Utah Jazz",
+        "alias": "UTA",
+        "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "59f7f1e1-82eb-4dd3-a5e7-b8cea172a806",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-24T23:00:00+00:00",
+      "venue": {
+        "id": "a380f011-6e5d-5430-9f37-209e1e8a9b6f",
+        "name": "Time Warner Cable Arena",
+        "capacity": 19026,
+        "address": "330 E. Trade St.",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "28202",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "FS-O",
+        "satellite": "660"
+      },
+      "home": {
+        "name": "Charlotte Bobcats",
+        "alias": "CHA",
+        "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Cleveland Cavaliers",
+        "alias": "CLE",
+        "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "9031cee7-e2e8-42c3-b0bb-666dbe7a0e68",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-24T23:30:00+00:00",
+      "venue": {
+        "id": "e83899a5-a6dd-58f8-bd42-34b4857ee714",
+        "name": "The Palace of Auburn Hills",
+        "capacity": 22076,
+        "address": "Six Championship Drive",
+        "city": "Auburn Hills",
+        "state": "MI",
+        "zip": "48326",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "FS-D",
+        "satellite": "663"
+      },
+      "home": {
+        "name": "Detroit Pistons",
+        "alias": "DET",
+        "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Minnesota Timberwolves",
+        "alias": "MIN",
+        "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "eb795499-c06b-4d30-a4ec-7d5b1f09c4d1",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-25T00:00:00+00:00",
+      "venue": {
+        "id": "8a7580c0-4052-54d5-85cd-85aab6200acf",
+        "name": "AT&T Center",
+        "capacity": 18581,
+        "address": "One AT&T Center Parkway",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "78219",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "San Antonio Spurs",
+        "alias": "SAS",
+        "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Houston Rockets",
+        "alias": "HOU",
+        "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "7e13c0b1-57de-4aaa-b27e-d5ac51218d88",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-25T02:30:00+00:00",
+      "venue": {
+        "id": "e25e21f2-1d67-5f13-910b-81fc8629eea7",
+        "name": "Oracle Arena",
+        "capacity": 19596,
+        "address": "7000 Coliseum Way",
+        "city": "Oakland",
+        "state": "CA",
+        "zip": "94621",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Golden State Warriors",
+        "alias": "GSW",
+        "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Portland Trail Blazers",
+        "alias": "POR",
+        "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "37f38145-d4d8-4f38-9bbc-8660a39e1ab6",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-25T23:00:00+00:00",
+      "venue": {
+        "id": "aecd8da6-0404-599c-a792-4b33fb084a2a",
+        "name": "Amway Center",
+        "capacity": 18846,
+        "address": "400 W. Church St.",
+        "city": "Orlando",
+        "state": "FL",
+        "zip": "32801",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Orlando Magic",
+        "alias": "ORL",
+        "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "New Orleans Pelicans",
+        "alias": "NOH",
+        "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "670a1e46-0942-4175-9672-369c20f14112",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-25T23:30:00+00:00",
+      "venue": {
+        "id": "583152aa-de75-5bea-ac92-ac5b8a51f9f9",
+        "name": "Madison Square Garden",
+        "capacity": 19812,
+        "address": "Four Pennsylvania Plaza",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10001",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "MSG",
+        "satellite": "634"
+      },
+      "home": {
+        "name": "New York Knicks",
+        "alias": "NYK",
+        "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Charlotte Bobcats",
+        "alias": "CHA",
+        "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "adb945af-084f-4fed-ae7e-195067bb4d19",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-25T23:30:00+00:00",
+      "venue": {
+        "id": "b67d5f09-28b2-5bc6-9097-af312007d2f4",
+        "name": "American Airlines Arena",
+        "capacity": 19600,
+        "address": "601 Biscayne Blvd.",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "33132",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "NBA TV",
+        "satellite": "216"
+      },
+      "home": {
+        "name": "Miami Heat",
+        "alias": "MIA",
+        "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Brooklyn Nets",
+        "alias": "BKN",
+        "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "32a1765e-6b14-4785-9ee7-89374ac13d08",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-26T00:00:00+00:00",
+      "venue": {
+        "id": "7657c204-a20b-527a-99cb-dc29218462aa",
+        "name": "FedEx Forum",
+        "capacity": 18119,
+        "address": "191 Beale St",
+        "city": "Memphis",
+        "state": "TN",
+        "zip": "38103",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "CSN-H"
+      },
+      "home": {
+        "name": "Memphis Grizzlies",
+        "alias": "MEM",
+        "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Houston Rockets",
+        "alias": "HOU",
+        "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "dbb571cb-bbb3-4f94-bfb5-02b75ad05f36",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-26T00:00:00+00:00",
+      "venue": {
+        "id": "38911649-acfd-551a-949b-68f0fcaa44e7",
+        "name": "United Center",
+        "capacity": 20917,
+        "address": "1901 W. Madison St.",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60612",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "CSN-C",
+        "satellite": "665"
+      },
+      "home": {
+        "name": "Chicago Bulls",
+        "alias": "CHI",
+        "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Denver Nuggets",
+        "alias": "DEN",
+        "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "076a871b-2979-4402-acd4-2d9510615ef1",
+      "status": "cancelled",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-26T00:30:00+00:00",
+      "venue": {
+        "id": "9bb9599c-17dd-4253-82bb-96fae950a32f",
+        "name": "BMO Harris Bradley Center",
+        "capacity": 19000,
+        "address": "1001 N Fourth St",
+        "city": "Milwaukee",
+        "state": "WI",
+        "zip": "53203",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Milwaukee Bucks",
+        "alias": "MIL",
+        "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Toronto Raptors",
+        "alias": "TOR",
+        "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "96d8d1ed-551d-4910-8404-bba72be203df",
+      "status": "closed",
+      "coverage": "boxscore",
+      "scheduled": "2013-10-26T00:30:00+00:00",
+      "venue": {
+        "id": "401ba62f-19b5-5bfc-84d6-021772943311",
+        "name": "American Airlines Center",
+        "capacity": 19200,
+        "address": "2500 Victory Ave.",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "75219",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Dallas Mavericks",
+        "alias": "DAL",
+        "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Indiana Pacers",
+        "alias": "IND",
+        "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "70637b51-7c58-4a97-9862-9b484b520d47",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-26T02:00:00+00:00",
+      "venue": {
+        "id": "a3cc94cd-6c71-4fa6-9a55-64f69c71b329",
+        "name": "Honda Center",
+        "capacity": 18336,
+        "address": "2695 East Katella Avenue",
+        "city": "Anaheim",
+        "state": "CA",
+        "zip": "92806",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TWC",
+        "satellite": "691"
+      },
+      "home": {
+        "name": "Los Angeles Lakers",
+        "alias": "LAL",
+        "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Utah Jazz",
+        "alias": "UTA",
+        "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "32093e68-bbde-4cd4-ad08-baeb3e70ca6c",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-10-26T02:30:00+00:00",
+      "venue": {
+        "id": "792ec100-691e-5e16-8ef8-79b2b6ee38ba",
+        "name": "Staples Center",
+        "capacity": 18997,
+        "address": "1111 S. Figueroa St.",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90015",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "NBA TV",
+        "satellite": "216"
+      },
+      "home": {
+        "name": "Los Angeles Clippers",
+        "alias": "LAC",
+        "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Sacramento Kings",
+        "alias": "SAC",
+        "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    }
+  ]
+}

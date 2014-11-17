@@ -1,0 +1,307 @@
+{
+  "id": "90c55792-ded5-4555-95b0-c920eca8512a",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2013-10-17T01:00:00+00:00",
+  "duration": "2:20",
+  "attendance": 19127,
+  "lead_changes": 13,
+  "times_tied": 8,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Jazz",
+    "market": "Utah",
+    "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 92,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 27,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 22,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 23,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 20,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Enes Kanter",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "0",
+          "id": "5fb038ef-a3bf-4f52-afce-4f5bd074bb88",
+          "statistics": {
+            "minutes": "30:16",
+            "field_goals_made": 10,
+            "field_goals_att": 17,
+            "field_goals_pct": 58.8,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 10,
+            "two_points_att": 17,
+            "two_points_pct": 0.588,
+            "blocked_att": 0,
+            "free_throws_made": 3,
+            "free_throws_att": 4,
+            "free_throws_pct": 75,
+            "offensive_rebounds": 4,
+            "defensive_rebounds": 0,
+            "rebounds": 4,
+            "assists": 0,
+            "turnovers": 4,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 5,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 1,
+            "points": 23
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Derrick Favors",
+          "position": "F-C",
+          "primary_position": "PF",
+          "jersey_number": "15",
+          "id": "ad354ebb-88e5-46e4-ad79-f7188ee1f6c2",
+          "statistics": {
+            "minutes": "31:29",
+            "field_goals_made": 4,
+            "field_goals_att": 7,
+            "field_goals_pct": 57.1,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 4,
+            "two_points_att": 7,
+            "two_points_pct": 0.571,
+            "blocked_att": 0,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 16,
+            "rebounds": 17,
+            "assists": 0,
+            "turnovers": 1,
+            "steals": 1,
+            "blocks": 2,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -5,
+            "points": 10
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Gordon Hayward",
+          "position": "G-F",
+          "primary_position": "SG",
+          "jersey_number": "20",
+          "id": "a1ddebee-950c-497d-9acd-b5061360b464",
+          "statistics": {
+            "minutes": "33:54",
+            "field_goals_made": 5,
+            "field_goals_att": 16,
+            "field_goals_pct": 31.3,
+            "three_points_made": 0,
+            "three_points_att": 3,
+            "three_points_pct": 0,
+            "two_points_made": 5,
+            "two_points_att": 13,
+            "two_points_pct": 0.385,
+            "blocked_att": 1,
+            "free_throws_made": 10,
+            "free_throws_att": 14,
+            "free_throws_pct": 71.4,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 3,
+            "rebounds": 3,
+            "assists": 7,
+            "turnovers": 4,
+            "steals": 1,
+            "blocks": 1,
+            "assists_turnover_ratio": 1.75,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "points": 20
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Trail Blazers",
+    "market": "Portland",
+    "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 99,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 24,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 17,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 32,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 26,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Damian Lillard",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "0",
+          "id": "5382cf43-3a79-4a5a-a7fd-153906fe65dd",
+          "statistics": {
+            "minutes": "32:43",
+            "field_goals_made": 7,
+            "field_goals_att": 20,
+            "field_goals_pct": 35,
+            "three_points_made": 0,
+            "three_points_att": 4,
+            "three_points_pct": 0,
+            "two_points_made": 7,
+            "two_points_att": 16,
+            "two_points_pct": 0.438,
+            "blocked_att": 0,
+            "free_throws_made": 10,
+            "free_throws_att": 10,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 1,
+            "rebounds": 2,
+            "assists": 4,
+            "turnovers": 4,
+            "steals": 3,
+            "blocks": 0,
+            "assists_turnover_ratio": 1,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -3,
+            "points": 24
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Robin Lopez",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "42",
+          "id": "e521ef3c-7892-4f14-a560-df320872d59a",
+          "statistics": {
+            "minutes": "27:54",
+            "field_goals_made": 6,
+            "field_goals_att": 11,
+            "field_goals_pct": 54.5,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 6,
+            "two_points_att": 11,
+            "two_points_pct": 0.545,
+            "blocked_att": 1,
+            "free_throws_made": 1,
+            "free_throws_att": 4,
+            "free_throws_pct": 25,
+            "offensive_rebounds": 6,
+            "defensive_rebounds": 7,
+            "rebounds": 13,
+            "assists": 0,
+            "turnovers": 2,
+            "steals": 0,
+            "blocks": 2,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 5,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 13,
+            "points": 13
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Wesley Matthews",
+          "position": "G",
+          "primary_position": "SG",
+          "jersey_number": "2",
+          "id": "795bcca3-0cca-448c-8198-85c664f76c75",
+          "statistics": {
+            "minutes": "34:01",
+            "field_goals_made": 3,
+            "field_goals_att": 11,
+            "field_goals_pct": 27.3,
+            "three_points_made": 2,
+            "three_points_att": 5,
+            "three_points_pct": 40,
+            "two_points_made": 1,
+            "two_points_att": 6,
+            "two_points_pct": 0.167,
+            "blocked_att": 3,
+            "free_throws_made": 3,
+            "free_throws_att": 6,
+            "free_throws_pct": 50,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 7,
+            "rebounds": 8,
+            "assists": 5,
+            "turnovers": 1,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 5,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 4,
+            "points": 11
+          }
+        }
+      ]
+    }
+  }
+}

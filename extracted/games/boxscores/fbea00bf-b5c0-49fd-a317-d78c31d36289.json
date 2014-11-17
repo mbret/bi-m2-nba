@@ -1,0 +1,320 @@
+{
+  "id": "fbea00bf-b5c0-49fd-a317-d78c31d36289",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2014-01-03T00:00:00+00:00",
+  "duration": "2:31",
+  "attendance": 14248,
+  "lead_changes": 8,
+  "times_tied": 10,
+  "clock": "00:00",
+  "quarter": 5,
+  "home": {
+    "name": "Cavaliers",
+    "market": "Cleveland",
+    "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 87,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 19,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 22,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 16,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 22,
+        "type": "quarter"
+      },
+      {
+        "number": 1,
+        "sequence": 5,
+        "points": 8,
+        "type": "overtime"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Anderson Varejao",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "17",
+          "id": "2c861696-d71b-4419-8a13-2f9e294ad0b5",
+          "statistics": {
+            "minutes": "39:24",
+            "field_goals_made": 8,
+            "field_goals_att": 17,
+            "field_goals_pct": 47.1,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 8,
+            "two_points_att": 17,
+            "two_points_pct": 0.471,
+            "blocked_att": 2,
+            "free_throws_made": 2,
+            "free_throws_att": 4,
+            "free_throws_pct": 50,
+            "offensive_rebounds": 8,
+            "defensive_rebounds": 17,
+            "rebounds": 25,
+            "assists": 3,
+            "turnovers": 1,
+            "steals": 0,
+            "blocks": 1,
+            "assists_turnover_ratio": 3,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 8,
+            "points": 18
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Anderson Varejao",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "17",
+          "id": "2c861696-d71b-4419-8a13-2f9e294ad0b5",
+          "statistics": {
+            "minutes": "39:24",
+            "field_goals_made": 8,
+            "field_goals_att": 17,
+            "field_goals_pct": 47.1,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 8,
+            "two_points_att": 17,
+            "two_points_pct": 0.471,
+            "blocked_att": 2,
+            "free_throws_made": 2,
+            "free_throws_att": 4,
+            "free_throws_pct": 50,
+            "offensive_rebounds": 8,
+            "defensive_rebounds": 17,
+            "rebounds": 25,
+            "assists": 3,
+            "turnovers": 1,
+            "steals": 0,
+            "blocks": 1,
+            "assists_turnover_ratio": 3,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 8,
+            "points": 18
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Jarrett Jack",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "1",
+          "id": "c3a3881d-92e9-4352-979b-d8465a5a3605",
+          "statistics": {
+            "minutes": "42:02",
+            "field_goals_made": 5,
+            "field_goals_att": 16,
+            "field_goals_pct": 31.3,
+            "three_points_made": 1,
+            "three_points_att": 2,
+            "three_points_pct": 50,
+            "two_points_made": 4,
+            "two_points_att": 14,
+            "two_points_pct": 0.286,
+            "blocked_att": 1,
+            "free_throws_made": 3,
+            "free_throws_att": 3,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 6,
+            "rebounds": 7,
+            "assists": 7,
+            "turnovers": 1,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 7,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 12,
+            "points": 14
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Magic",
+    "market": "Orlando",
+    "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 81,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 23,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 16,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 23,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 17,
+        "type": "quarter"
+      },
+      {
+        "number": 1,
+        "sequence": 5,
+        "points": 2,
+        "type": "overtime"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Glen Davis",
+          "position": "F-C",
+          "primary_position": "PF",
+          "jersey_number": "11",
+          "id": "b673f424-d4e4-4925-b501-f024890865ad",
+          "statistics": {
+            "minutes": "42:30",
+            "field_goals_made": 6,
+            "field_goals_att": 19,
+            "field_goals_pct": 31.6,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 6,
+            "two_points_att": 19,
+            "two_points_pct": 0.316,
+            "blocked_att": 3,
+            "free_throws_made": 4,
+            "free_throws_att": 8,
+            "free_throws_pct": 50,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 11,
+            "rebounds": 13,
+            "assists": 1,
+            "turnovers": 2,
+            "steals": 1,
+            "blocks": 2,
+            "assists_turnover_ratio": 0.5,
+            "personal_fouls": 6,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -11,
+            "points": 16
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Glen Davis",
+          "position": "F-C",
+          "primary_position": "PF",
+          "jersey_number": "11",
+          "id": "b673f424-d4e4-4925-b501-f024890865ad",
+          "statistics": {
+            "minutes": "42:30",
+            "field_goals_made": 6,
+            "field_goals_att": 19,
+            "field_goals_pct": 31.6,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 6,
+            "two_points_att": 19,
+            "two_points_pct": 0.316,
+            "blocked_att": 3,
+            "free_throws_made": 4,
+            "free_throws_att": 8,
+            "free_throws_pct": 50,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 11,
+            "rebounds": 13,
+            "assists": 1,
+            "turnovers": 2,
+            "steals": 1,
+            "blocks": 2,
+            "assists_turnover_ratio": 0.5,
+            "personal_fouls": 6,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -11,
+            "points": 16
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Jameer Nelson",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "14",
+          "id": "5d3681c6-9c73-4895-9b59-b4851069469f",
+          "statistics": {
+            "minutes": "43:04",
+            "field_goals_made": 5,
+            "field_goals_att": 9,
+            "field_goals_pct": 55.6,
+            "three_points_made": 4,
+            "three_points_att": 8,
+            "three_points_pct": 50,
+            "two_points_made": 1,
+            "two_points_att": 1,
+            "two_points_pct": 1,
+            "blocked_att": 0,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 6,
+            "rebounds": 6,
+            "assists": 9,
+            "turnovers": 2,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 4.5,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -8,
+            "points": 14
+          }
+        }
+      ]
+    }
+  }
+}

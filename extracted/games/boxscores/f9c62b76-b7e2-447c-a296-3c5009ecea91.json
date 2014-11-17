@@ -1,0 +1,308 @@
+{
+  "id": "f9c62b76-b7e2-447c-a296-3c5009ecea91",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2014-01-18T00:00:00+00:00",
+  "duration": "2:16",
+  "attendance": 16164,
+  "lead_changes": 12,
+  "times_tied": 4,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Magic",
+    "market": "Orlando",
+    "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 101,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 18,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 35,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 21,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 27,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Arron Afflalo",
+          "position": "G-F",
+          "primary_position": "SG",
+          "jersey_number": "4",
+          "id": "4287b809-4c78-4433-9790-b1d5fdef46e8",
+          "statistics": {
+            "minutes": "37:44",
+            "field_goals_made": 7,
+            "field_goals_att": 14,
+            "field_goals_pct": 50,
+            "three_points_made": 4,
+            "three_points_att": 7,
+            "three_points_pct": 57.1,
+            "two_points_made": 3,
+            "two_points_att": 7,
+            "two_points_pct": 0.429,
+            "blocked_att": 2,
+            "free_throws_made": 6,
+            "free_throws_att": 8,
+            "free_throws_pct": 75,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 4,
+            "rebounds": 4,
+            "assists": 2,
+            "turnovers": 1,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 2,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -7,
+            "points": 24
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Glen Davis",
+          "position": "F-C",
+          "primary_position": "PF",
+          "jersey_number": "11",
+          "id": "b673f424-d4e4-4925-b501-f024890865ad",
+          "statistics": {
+            "minutes": "32:34",
+            "field_goals_made": 5,
+            "field_goals_att": 7,
+            "field_goals_pct": 71.4,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 5,
+            "two_points_att": 7,
+            "two_points_pct": 0.714,
+            "blocked_att": 0,
+            "free_throws_made": 1,
+            "free_throws_att": 2,
+            "free_throws_pct": 50,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 10,
+            "rebounds": 11,
+            "assists": 0,
+            "turnovers": 4,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 5,
+            "tech_fouls": 1,
+            "flagrant_fouls": 0,
+            "pls_min": -9,
+            "points": 11
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Victor Oladipo",
+          "position": "G",
+          "primary_position": "SG",
+          "jersey_number": "5",
+          "id": "ae9e275c-9dce-4c10-a108-cfee6958df48",
+          "statistics": {
+            "minutes": "39:15",
+            "field_goals_made": 4,
+            "field_goals_att": 14,
+            "field_goals_pct": 28.6,
+            "three_points_made": 1,
+            "three_points_att": 4,
+            "three_points_pct": 25,
+            "two_points_made": 3,
+            "two_points_att": 10,
+            "two_points_pct": 0.3,
+            "blocked_att": 1,
+            "free_throws_made": 2,
+            "free_throws_att": 3,
+            "free_throws_pct": 66.7,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 5,
+            "rebounds": 5,
+            "assists": 10,
+            "turnovers": 4,
+            "steals": 1,
+            "blocks": 2,
+            "assists_turnover_ratio": 2.5,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -18,
+            "points": 11
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Bobcats",
+    "market": "Charlotte",
+    "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 111,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 30,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 22,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 26,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 33,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Al Jefferson",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "25",
+          "id": "8bf57b59-a618-4bfa-ae2e-4308b9108606",
+          "statistics": {
+            "minutes": "36:19",
+            "field_goals_made": 13,
+            "field_goals_att": 17,
+            "field_goals_pct": 76.5,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 13,
+            "two_points_att": 17,
+            "two_points_pct": 0.765,
+            "blocked_att": 1,
+            "free_throws_made": 4,
+            "free_throws_att": 4,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 15,
+            "rebounds": 16,
+            "assists": 2,
+            "turnovers": 1,
+            "steals": 3,
+            "blocks": 1,
+            "assists_turnover_ratio": 2,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 17,
+            "points": 30
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Al Jefferson",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "25",
+          "id": "8bf57b59-a618-4bfa-ae2e-4308b9108606",
+          "statistics": {
+            "minutes": "36:19",
+            "field_goals_made": 13,
+            "field_goals_att": 17,
+            "field_goals_pct": 76.5,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 13,
+            "two_points_att": 17,
+            "two_points_pct": 0.765,
+            "blocked_att": 1,
+            "free_throws_made": 4,
+            "free_throws_att": 4,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 15,
+            "rebounds": 16,
+            "assists": 2,
+            "turnovers": 1,
+            "steals": 3,
+            "blocks": 1,
+            "assists_turnover_ratio": 2,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 17,
+            "points": 30
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Kemba Walker",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "15",
+          "id": "a35ee8ed-f1db-4f7e-bb17-f823e8ee0b38",
+          "statistics": {
+            "minutes": "42:40",
+            "field_goals_made": 7,
+            "field_goals_att": 16,
+            "field_goals_pct": 43.8,
+            "three_points_made": 1,
+            "three_points_att": 3,
+            "three_points_pct": 33.3,
+            "two_points_made": 6,
+            "two_points_att": 13,
+            "two_points_pct": 0.462,
+            "blocked_att": 1,
+            "free_throws_made": 4,
+            "free_throws_att": 6,
+            "free_throws_pct": 66.7,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 2,
+            "rebounds": 2,
+            "assists": 10,
+            "turnovers": 0,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 0,
+            "tech_fouls": 1,
+            "flagrant_fouls": 0,
+            "pls_min": 14,
+            "points": 19
+          }
+        }
+      ]
+    }
+  }
+}

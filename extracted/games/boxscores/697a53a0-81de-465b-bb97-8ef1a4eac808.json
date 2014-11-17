@@ -1,0 +1,308 @@
+{
+  "id": "697a53a0-81de-465b-bb97-8ef1a4eac808",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2014-02-02T00:30:00+00:00",
+  "duration": "2:15",
+  "attendance": 16649,
+  "lead_changes": 3,
+  "times_tied": 0,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Pistons",
+    "market": "Detroit",
+    "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 113,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 32,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 25,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 36,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 20,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Andre Drummond",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "0",
+          "id": "440b769d-2b8b-477f-80d7-cb21d83c0d52",
+          "statistics": {
+            "minutes": "23:05",
+            "field_goals_made": 10,
+            "field_goals_att": 11,
+            "field_goals_pct": 90.9,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 10,
+            "two_points_att": 11,
+            "two_points_pct": 0.909,
+            "blocked_att": 0,
+            "free_throws_made": 2,
+            "free_throws_att": 5,
+            "free_throws_pct": 40,
+            "offensive_rebounds": 6,
+            "defensive_rebounds": 8,
+            "rebounds": 14,
+            "assists": 0,
+            "turnovers": 1,
+            "steals": 1,
+            "blocks": 5,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 15,
+            "points": 22
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Andre Drummond",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "0",
+          "id": "440b769d-2b8b-477f-80d7-cb21d83c0d52",
+          "statistics": {
+            "minutes": "23:05",
+            "field_goals_made": 10,
+            "field_goals_att": 11,
+            "field_goals_pct": 90.9,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 10,
+            "two_points_att": 11,
+            "two_points_pct": 0.909,
+            "blocked_att": 0,
+            "free_throws_made": 2,
+            "free_throws_att": 5,
+            "free_throws_pct": 40,
+            "offensive_rebounds": 6,
+            "defensive_rebounds": 8,
+            "rebounds": 14,
+            "assists": 0,
+            "turnovers": 1,
+            "steals": 1,
+            "blocks": 5,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 15,
+            "points": 22
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Josh Smith",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "6",
+          "id": "7838f72d-0e86-45f7-86ab-2077498d208a",
+          "statistics": {
+            "minutes": "29:59",
+            "field_goals_made": 4,
+            "field_goals_att": 10,
+            "field_goals_pct": 40,
+            "three_points_made": 0,
+            "three_points_att": 2,
+            "three_points_pct": 0,
+            "two_points_made": 4,
+            "two_points_att": 8,
+            "two_points_pct": 0.5,
+            "blocked_att": 1,
+            "free_throws_made": 1,
+            "free_throws_att": 5,
+            "free_throws_pct": 20,
+            "offensive_rebounds": 4,
+            "defensive_rebounds": 5,
+            "rebounds": 9,
+            "assists": 7,
+            "turnovers": 5,
+            "steals": 4,
+            "blocks": 1,
+            "assists_turnover_ratio": 1.4,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 25,
+            "points": 9
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "76ers",
+    "market": "Philadelphia",
+    "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 96,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 22,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 27,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 21,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 26,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Tony Wroten",
+          "position": "G",
+          "primary_position": "SG",
+          "jersey_number": "8",
+          "id": "1647115a-1607-4250-889e-8ae1af98fc92",
+          "statistics": {
+            "minutes": "35:18",
+            "field_goals_made": 8,
+            "field_goals_att": 19,
+            "field_goals_pct": 42.1,
+            "three_points_made": 0,
+            "three_points_att": 3,
+            "three_points_pct": 0,
+            "two_points_made": 8,
+            "two_points_att": 16,
+            "two_points_pct": 0.5,
+            "blocked_att": 2,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 1,
+            "rebounds": 3,
+            "assists": 5,
+            "turnovers": 6,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 0.83,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -11,
+            "points": 18
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Spencer Hawes",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "00",
+          "id": "ddb5d888-09e5-435a-9009-a2549d8c8382",
+          "statistics": {
+            "minutes": "28:25",
+            "field_goals_made": 2,
+            "field_goals_att": 8,
+            "field_goals_pct": 25,
+            "three_points_made": 0,
+            "three_points_att": 3,
+            "three_points_pct": 0,
+            "two_points_made": 2,
+            "two_points_att": 5,
+            "two_points_pct": 0.4,
+            "blocked_att": 2,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 7,
+            "rebounds": 8,
+            "assists": 1,
+            "turnovers": 1,
+            "steals": 0,
+            "blocks": 1,
+            "assists_turnover_ratio": 1,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -23,
+            "points": 4
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Tony Wroten",
+          "position": "G",
+          "primary_position": "SG",
+          "jersey_number": "8",
+          "id": "1647115a-1607-4250-889e-8ae1af98fc92",
+          "statistics": {
+            "minutes": "35:18",
+            "field_goals_made": 8,
+            "field_goals_att": 19,
+            "field_goals_pct": 42.1,
+            "three_points_made": 0,
+            "three_points_att": 3,
+            "three_points_pct": 0,
+            "two_points_made": 8,
+            "two_points_att": 16,
+            "two_points_pct": 0.5,
+            "blocked_att": 2,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 1,
+            "rebounds": 3,
+            "assists": 5,
+            "turnovers": 6,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 0.83,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -11,
+            "points": 18
+          }
+        }
+      ]
+    }
+  }
+}

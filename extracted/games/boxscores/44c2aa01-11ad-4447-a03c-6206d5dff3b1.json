@@ -1,0 +1,308 @@
+{
+  "id": "44c2aa01-11ad-4447-a03c-6206d5dff3b1",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2014-01-25T00:00:00+00:00",
+  "duration": "2:07",
+  "attendance": 16101,
+  "lead_changes": 14,
+  "times_tied": 8,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Magic",
+    "market": "Orlando",
+    "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 114,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 28,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 25,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 38,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 23,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Tobias Harris",
+          "position": "F",
+          "primary_position": "SF",
+          "jersey_number": "12",
+          "id": "82f09975-6a8d-42e4-b42c-a52b9349ed50",
+          "statistics": {
+            "minutes": "42:43",
+            "field_goals_made": 9,
+            "field_goals_att": 15,
+            "field_goals_pct": 60,
+            "three_points_made": 1,
+            "three_points_att": 1,
+            "three_points_pct": 100,
+            "two_points_made": 8,
+            "two_points_att": 14,
+            "two_points_pct": 0.571,
+            "blocked_att": 0,
+            "free_throws_made": 9,
+            "free_throws_att": 11,
+            "free_throws_pct": 81.8,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 19,
+            "rebounds": 20,
+            "assists": 4,
+            "turnovers": 5,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 0.8,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 3,
+            "points": 28
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Tobias Harris",
+          "position": "F",
+          "primary_position": "SF",
+          "jersey_number": "12",
+          "id": "82f09975-6a8d-42e4-b42c-a52b9349ed50",
+          "statistics": {
+            "minutes": "42:43",
+            "field_goals_made": 9,
+            "field_goals_att": 15,
+            "field_goals_pct": 60,
+            "three_points_made": 1,
+            "three_points_att": 1,
+            "three_points_pct": 100,
+            "two_points_made": 8,
+            "two_points_att": 14,
+            "two_points_pct": 0.571,
+            "blocked_att": 0,
+            "free_throws_made": 9,
+            "free_throws_att": 11,
+            "free_throws_pct": 81.8,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 19,
+            "rebounds": 20,
+            "assists": 4,
+            "turnovers": 5,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 0.8,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 3,
+            "points": 28
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Arron Afflalo",
+          "position": "G-F",
+          "primary_position": "SG",
+          "jersey_number": "4",
+          "id": "4287b809-4c78-4433-9790-b1d5fdef46e8",
+          "statistics": {
+            "minutes": "33:29",
+            "field_goals_made": 7,
+            "field_goals_att": 12,
+            "field_goals_pct": 58.3,
+            "three_points_made": 2,
+            "three_points_att": 3,
+            "three_points_pct": 66.7,
+            "two_points_made": 5,
+            "two_points_att": 9,
+            "two_points_pct": 0.556,
+            "blocked_att": 0,
+            "free_throws_made": 7,
+            "free_throws_att": 9,
+            "free_throws_pct": 77.8,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 2,
+            "rebounds": 2,
+            "assists": 6,
+            "turnovers": 2,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 3,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 4,
+            "points": 23
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Lakers",
+    "market": "Los Angeles",
+    "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 105,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 32,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 23,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 25,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 25,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Pau Gasol",
+          "position": "C-F",
+          "primary_position": "PF",
+          "jersey_number": "16",
+          "id": "4aafa7e4-d271-42d2-8979-bdefcd221d30",
+          "statistics": {
+            "minutes": "34:55",
+            "field_goals_made": 8,
+            "field_goals_att": 17,
+            "field_goals_pct": 47.1,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 8,
+            "two_points_att": 17,
+            "two_points_pct": 0.471,
+            "blocked_att": 1,
+            "free_throws_made": 5,
+            "free_throws_att": 7,
+            "free_throws_pct": 71.4,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 10,
+            "rebounds": 11,
+            "assists": 6,
+            "turnovers": 3,
+            "steals": 1,
+            "blocks": 2,
+            "assists_turnover_ratio": 2,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 5,
+            "points": 21
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Pau Gasol",
+          "position": "C-F",
+          "primary_position": "PF",
+          "jersey_number": "16",
+          "id": "4aafa7e4-d271-42d2-8979-bdefcd221d30",
+          "statistics": {
+            "minutes": "34:55",
+            "field_goals_made": 8,
+            "field_goals_att": 17,
+            "field_goals_pct": 47.1,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 8,
+            "two_points_att": 17,
+            "two_points_pct": 0.471,
+            "blocked_att": 1,
+            "free_throws_made": 5,
+            "free_throws_att": 7,
+            "free_throws_pct": 71.4,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 10,
+            "rebounds": 11,
+            "assists": 6,
+            "turnovers": 3,
+            "steals": 1,
+            "blocks": 2,
+            "assists_turnover_ratio": 2,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 5,
+            "points": 21
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Kendall Marshall",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "12",
+          "id": "9fd789bc-0aa4-4028-b114-5014deacfbe2",
+          "statistics": {
+            "minutes": "38:15",
+            "field_goals_made": 7,
+            "field_goals_att": 14,
+            "field_goals_pct": 50,
+            "three_points_made": 5,
+            "three_points_att": 7,
+            "three_points_pct": 71.4,
+            "two_points_made": 2,
+            "two_points_att": 7,
+            "two_points_pct": 0.286,
+            "blocked_att": 1,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 3,
+            "rebounds": 3,
+            "assists": 14,
+            "turnovers": 1,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 14,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -1,
+            "points": 19
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "id": "3b89b4ee-03e3-4458-b2fe-127f0cd6fc68",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2013-10-16T23:00:00+00:00",
+  "duration": "2:24",
+  "attendance": 13331,
+  "lead_changes": 6,
+  "times_tied": 8,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Raptors",
+    "market": "Toronto",
+    "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 99,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 31,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 20,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 29,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 19,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Terrence Ross",
+          "position": "G",
+          "primary_position": "SG",
+          "jersey_number": "31",
+          "id": "b7d0fa52-b5ca-4465-9bbb-3ec9b6b7b536",
+          "statistics": {
+            "minutes": "25:51",
+            "field_goals_made": 7,
+            "field_goals_att": 14,
+            "field_goals_pct": 50,
+            "three_points_made": 1,
+            "three_points_att": 5,
+            "three_points_pct": 20,
+            "two_points_made": 6,
+            "two_points_att": 9,
+            "two_points_pct": 0.667,
+            "blocked_att": 0,
+            "free_throws_made": 4,
+            "free_throws_att": 5,
+            "free_throws_pct": 80,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 2,
+            "rebounds": 3,
+            "assists": 1,
+            "turnovers": 2,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 0.5,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 1,
+            "points": 19
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Quincy Acy",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "4",
+          "id": "c863e2c3-c758-49b8-be35-ccac4131186c",
+          "statistics": {
+            "minutes": "23:19",
+            "field_goals_made": 1,
+            "field_goals_att": 4,
+            "field_goals_pct": 25,
+            "three_points_made": 0,
+            "three_points_att": 1,
+            "three_points_pct": 0,
+            "two_points_made": 1,
+            "two_points_att": 3,
+            "two_points_pct": 0.333,
+            "blocked_att": 0,
+            "free_throws_made": 1,
+            "free_throws_att": 2,
+            "free_throws_pct": 50,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 7,
+            "rebounds": 8,
+            "assists": 0,
+            "turnovers": 2,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 5,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 11,
+            "points": 3
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Dwight Buycks",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "13",
+          "id": "14d86dbd-5e05-4a2e-951b-96d4e1e2e8f1",
+          "statistics": {
+            "minutes": "20:31",
+            "field_goals_made": 2,
+            "field_goals_att": 7,
+            "field_goals_pct": 28.6,
+            "three_points_made": 0,
+            "three_points_att": 3,
+            "three_points_pct": 0,
+            "two_points_made": 2,
+            "two_points_att": 4,
+            "two_points_pct": 0.5,
+            "blocked_att": 0,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 2,
+            "rebounds": 4,
+            "assists": 5,
+            "turnovers": 2,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 2.5,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "points": 6
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Celtics",
+    "market": "Boston",
+    "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 97,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 26,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 27,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 17,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 27,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "MarShon Brooks",
+          "position": "G-F",
+          "primary_position": "SG",
+          "jersey_number": "12",
+          "id": "94865c10-48cc-4c4b-bb25-06a5c675941b",
+          "statistics": {
+            "minutes": "19:32",
+            "field_goals_made": 6,
+            "field_goals_att": 10,
+            "field_goals_pct": 60,
+            "three_points_made": 3,
+            "three_points_att": 4,
+            "three_points_pct": 75,
+            "two_points_made": 3,
+            "two_points_att": 6,
+            "two_points_pct": 0.5,
+            "blocked_att": 0,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 2,
+            "rebounds": 3,
+            "assists": 2,
+            "turnovers": 4,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 0.5,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "points": 17
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Kelly Olynyk",
+          "position": "F-C",
+          "primary_position": "C",
+          "jersey_number": "41",
+          "id": "8e288d6e-50b8-404b-812b-823ae5bab61f",
+          "statistics": {
+            "minutes": "25:56",
+            "field_goals_made": 6,
+            "field_goals_att": 7,
+            "field_goals_pct": 85.7,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 6,
+            "two_points_att": 7,
+            "two_points_pct": 0.857,
+            "blocked_att": 1,
+            "free_throws_made": 1,
+            "free_throws_att": 3,
+            "free_throws_pct": 33.3,
+            "offensive_rebounds": 3,
+            "defensive_rebounds": 6,
+            "rebounds": 9,
+            "assists": 0,
+            "turnovers": 0,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 6,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 14,
+            "points": 13
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Phil Pressey",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "26",
+          "id": "e5b54fa6-88e0-4702-9677-282f204a43e1",
+          "statistics": {
+            "minutes": "21:32",
+            "field_goals_made": 0,
+            "field_goals_att": 7,
+            "field_goals_pct": 0,
+            "three_points_made": 0,
+            "three_points_att": 2,
+            "three_points_pct": 0,
+            "two_points_made": 0,
+            "two_points_att": 5,
+            "two_points_pct": 0,
+            "blocked_att": 0,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 2,
+            "rebounds": 4,
+            "assists": 5,
+            "turnovers": 3,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 1.67,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 2,
+            "points": 0
+          }
+        }
+      ]
+    }
+  }
+}

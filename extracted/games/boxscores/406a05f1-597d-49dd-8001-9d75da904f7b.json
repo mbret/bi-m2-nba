@@ -1,0 +1,308 @@
+{
+  "id": "406a05f1-597d-49dd-8001-9d75da904f7b",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2014-01-23T00:30:00+00:00",
+  "duration": "2:30",
+  "attendance": 19812,
+  "lead_changes": 6,
+  "times_tied": 3,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Knicks",
+    "market": "New York",
+    "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 106,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 26,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 30,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 24,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 26,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Carmelo Anthony",
+          "position": "F",
+          "primary_position": "SF",
+          "jersey_number": "7",
+          "id": "32688af1-7ac2-432e-b60a-74b9bd89df57",
+          "statistics": {
+            "minutes": "40:35",
+            "field_goals_made": 10,
+            "field_goals_att": 23,
+            "field_goals_pct": 43.5,
+            "three_points_made": 6,
+            "three_points_att": 8,
+            "three_points_pct": 75,
+            "two_points_made": 4,
+            "two_points_att": 15,
+            "two_points_pct": 0.267,
+            "blocked_att": 1,
+            "free_throws_made": 2,
+            "free_throws_att": 3,
+            "free_throws_pct": 66.7,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 3,
+            "rebounds": 4,
+            "assists": 7,
+            "turnovers": 3,
+            "steals": 2,
+            "blocks": 1,
+            "assists_turnover_ratio": 2.33,
+            "personal_fouls": 4,
+            "tech_fouls": 1,
+            "flagrant_fouls": 0,
+            "pls_min": -8,
+            "points": 28
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Tyson Chandler",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "6",
+          "id": "3cd2d1c1-d575-45fd-b069-3f0adf57796d",
+          "statistics": {
+            "minutes": "35:11",
+            "field_goals_made": 4,
+            "field_goals_att": 7,
+            "field_goals_pct": 57.1,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 4,
+            "two_points_att": 7,
+            "two_points_pct": 0.571,
+            "blocked_att": 2,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 12,
+            "rebounds": 14,
+            "assists": 1,
+            "turnovers": 1,
+            "steals": 0,
+            "blocks": 3,
+            "assists_turnover_ratio": 1,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -8,
+            "points": 10
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Raymond Felton",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "2",
+          "id": "83b736a0-6c1e-4526-b948-e4781251cb73",
+          "statistics": {
+            "minutes": "30:44",
+            "field_goals_made": 4,
+            "field_goals_att": 10,
+            "field_goals_pct": 40,
+            "three_points_made": 1,
+            "three_points_att": 3,
+            "three_points_pct": 33.3,
+            "two_points_made": 3,
+            "two_points_att": 7,
+            "two_points_pct": 0.429,
+            "blocked_att": 1,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 1,
+            "rebounds": 2,
+            "assists": 7,
+            "turnovers": 1,
+            "steals": 1,
+            "blocks": 1,
+            "assists_turnover_ratio": 7,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -9,
+            "points": 9
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "76ers",
+    "market": "Philadelphia",
+    "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 110,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 33,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 28,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 23,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 26,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Evan Turner",
+          "position": "F-G",
+          "primary_position": "SF",
+          "jersey_number": "12",
+          "id": "ca4f6af4-c203-41d0-97a3-0286710710b6",
+          "statistics": {
+            "minutes": "39:54",
+            "field_goals_made": 13,
+            "field_goals_att": 22,
+            "field_goals_pct": 59.1,
+            "three_points_made": 3,
+            "three_points_att": 3,
+            "three_points_pct": 100,
+            "two_points_made": 10,
+            "two_points_att": 19,
+            "two_points_pct": 0.526,
+            "blocked_att": 2,
+            "free_throws_made": 5,
+            "free_throws_att": 5,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 10,
+            "rebounds": 11,
+            "assists": 2,
+            "turnovers": 3,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 0.67,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 5,
+            "points": 34
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Michael Carter-Williams",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "1",
+          "id": "1f5e7dfc-225d-4a25-8857-e6f8192b4c44",
+          "statistics": {
+            "minutes": "36:35",
+            "field_goals_made": 5,
+            "field_goals_att": 18,
+            "field_goals_pct": 27.8,
+            "three_points_made": 2,
+            "three_points_att": 2,
+            "three_points_pct": 100,
+            "two_points_made": 3,
+            "two_points_att": 16,
+            "two_points_pct": 0.188,
+            "blocked_att": 3,
+            "free_throws_made": 7,
+            "free_throws_att": 10,
+            "free_throws_pct": 70,
+            "offensive_rebounds": 6,
+            "defensive_rebounds": 6,
+            "rebounds": 12,
+            "assists": 7,
+            "turnovers": 3,
+            "steals": 2,
+            "blocks": 0,
+            "assists_turnover_ratio": 2.33,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 17,
+            "points": 19
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Michael Carter-Williams",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "1",
+          "id": "1f5e7dfc-225d-4a25-8857-e6f8192b4c44",
+          "statistics": {
+            "minutes": "36:35",
+            "field_goals_made": 5,
+            "field_goals_att": 18,
+            "field_goals_pct": 27.8,
+            "three_points_made": 2,
+            "three_points_att": 2,
+            "three_points_pct": 100,
+            "two_points_made": 3,
+            "two_points_att": 16,
+            "two_points_pct": 0.188,
+            "blocked_att": 3,
+            "free_throws_made": 7,
+            "free_throws_att": 10,
+            "free_throws_pct": 70,
+            "offensive_rebounds": 6,
+            "defensive_rebounds": 6,
+            "rebounds": 12,
+            "assists": 7,
+            "turnovers": 3,
+            "steals": 2,
+            "blocks": 0,
+            "assists_turnover_ratio": 2.33,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 17,
+            "points": 19
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "id": "b89e829f-14ee-4a07-b5d0-087fa086ca0b",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2014-01-18T00:30:00+00:00",
+  "duration": "2:09",
+  "attendance": 18528,
+  "lead_changes": 8,
+  "times_tied": 9,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Pistons",
+    "market": "Detroit",
+    "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 89,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 25,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 20,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 20,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 24,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Rodney Stuckey",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "3",
+          "id": "b4a94a3a-8563-49bd-97d2-98161cfb6c8d",
+          "statistics": {
+            "minutes": "21:17",
+            "field_goals_made": 9,
+            "field_goals_att": 14,
+            "field_goals_pct": 64.3,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 9,
+            "two_points_att": 14,
+            "two_points_pct": 0.643,
+            "blocked_att": 0,
+            "free_throws_made": 3,
+            "free_throws_att": 4,
+            "free_throws_pct": 75,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 5,
+            "rebounds": 6,
+            "assists": 0,
+            "turnovers": 0,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 1,
+            "pls_min": -10,
+            "points": 21
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Andre Drummond",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "0",
+          "id": "440b769d-2b8b-477f-80d7-cb21d83c0d52",
+          "statistics": {
+            "minutes": "32:09",
+            "field_goals_made": 3,
+            "field_goals_att": 5,
+            "field_goals_pct": 60,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 3,
+            "two_points_att": 5,
+            "two_points_pct": 0.6,
+            "blocked_att": 0,
+            "free_throws_made": 4,
+            "free_throws_att": 8,
+            "free_throws_pct": 50,
+            "offensive_rebounds": 3,
+            "defensive_rebounds": 10,
+            "rebounds": 13,
+            "assists": 0,
+            "turnovers": 3,
+            "steals": 0,
+            "blocks": 3,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -20,
+            "points": 10
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Brandon Jennings",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "7",
+          "id": "bb084342-fc44-4035-82c4-2789174b723e",
+          "statistics": {
+            "minutes": "32:08",
+            "field_goals_made": 4,
+            "field_goals_att": 13,
+            "field_goals_pct": 30.8,
+            "three_points_made": 1,
+            "three_points_att": 4,
+            "three_points_pct": 25,
+            "two_points_made": 3,
+            "two_points_att": 9,
+            "two_points_pct": 0.333,
+            "blocked_att": 1,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 1,
+            "rebounds": 1,
+            "assists": 6,
+            "turnovers": 2,
+            "steals": 2,
+            "blocks": 0,
+            "assists_turnover_ratio": 3,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -15,
+            "points": 11
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Jazz",
+    "market": "Utah",
+    "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 110,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 27,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 31,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 31,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 21,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Trey Burke",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "3",
+          "id": "572261e2-8ad9-4198-969d-16cad41fdef3",
+          "statistics": {
+            "minutes": "37:03",
+            "field_goals_made": 8,
+            "field_goals_att": 17,
+            "field_goals_pct": 47.1,
+            "three_points_made": 1,
+            "three_points_att": 5,
+            "three_points_pct": 20,
+            "two_points_made": 7,
+            "two_points_att": 12,
+            "two_points_pct": 0.583,
+            "blocked_att": 0,
+            "free_throws_made": 3,
+            "free_throws_att": 4,
+            "free_throws_pct": 75,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 3,
+            "rebounds": 3,
+            "assists": 12,
+            "turnovers": 7,
+            "steals": 2,
+            "blocks": 1,
+            "assists_turnover_ratio": 1.71,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 16,
+            "points": 20
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Derrick Favors",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "15",
+          "id": "ad354ebb-88e5-46e4-ad79-f7188ee1f6c2",
+          "statistics": {
+            "minutes": "21:11",
+            "field_goals_made": 4,
+            "field_goals_att": 10,
+            "field_goals_pct": 40,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 4,
+            "two_points_att": 10,
+            "two_points_pct": 0.4,
+            "blocked_att": 1,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 4,
+            "defensive_rebounds": 7,
+            "rebounds": 11,
+            "assists": 0,
+            "turnovers": 0,
+            "steals": 0,
+            "blocks": 2,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 9,
+            "points": 8
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Trey Burke",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "3",
+          "id": "572261e2-8ad9-4198-969d-16cad41fdef3",
+          "statistics": {
+            "minutes": "37:03",
+            "field_goals_made": 8,
+            "field_goals_att": 17,
+            "field_goals_pct": 47.1,
+            "three_points_made": 1,
+            "three_points_att": 5,
+            "three_points_pct": 20,
+            "two_points_made": 7,
+            "two_points_att": 12,
+            "two_points_pct": 0.583,
+            "blocked_att": 0,
+            "free_throws_made": 3,
+            "free_throws_att": 4,
+            "free_throws_pct": 75,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 3,
+            "rebounds": 3,
+            "assists": 12,
+            "turnovers": 7,
+            "steals": 2,
+            "blocks": 1,
+            "assists_turnover_ratio": 1.71,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 16,
+            "points": 20
+          }
+        }
+      ]
+    }
+  }
+}

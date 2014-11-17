@@ -1,0 +1,320 @@
+{
+  "id": "763b551a-6687-44b2-a68a-c63b76516e4b",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2014-01-25T03:00:00+00:00",
+  "duration": "2:49",
+  "attendance": 17317,
+  "lead_changes": 9,
+  "times_tied": 6,
+  "clock": "00:00",
+  "quarter": 5,
+  "home": {
+    "name": "Kings",
+    "market": "Sacramento",
+    "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 111,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 37,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 23,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 24,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 19,
+        "type": "quarter"
+      },
+      {
+        "number": 1,
+        "sequence": 5,
+        "points": 8,
+        "type": "overtime"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Marcus Thornton",
+          "position": "G",
+          "primary_position": "SG",
+          "jersey_number": "23",
+          "id": "d5ef3cfe-2ab9-4b77-823a-62678c13058f",
+          "statistics": {
+            "minutes": "42:06",
+            "field_goals_made": 16,
+            "field_goals_att": 27,
+            "field_goals_pct": 59.3,
+            "three_points_made": 7,
+            "three_points_att": 15,
+            "three_points_pct": 46.7,
+            "two_points_made": 9,
+            "two_points_att": 12,
+            "two_points_pct": 0.75,
+            "blocked_att": 0,
+            "free_throws_made": 3,
+            "free_throws_att": 4,
+            "free_throws_pct": 75,
+            "offensive_rebounds": 3,
+            "defensive_rebounds": 2,
+            "rebounds": 5,
+            "assists": 0,
+            "turnovers": 2,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -12,
+            "points": 42
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Derrick Williams",
+          "position": "F",
+          "primary_position": "SF",
+          "jersey_number": "13",
+          "id": "a1f2324e-1613-41e2-8f5b-b8391443e88d",
+          "statistics": {
+            "minutes": "34:15",
+            "field_goals_made": 2,
+            "field_goals_att": 9,
+            "field_goals_pct": 22.2,
+            "three_points_made": 0,
+            "three_points_att": 1,
+            "three_points_pct": 0,
+            "two_points_made": 2,
+            "two_points_att": 8,
+            "two_points_pct": 0.25,
+            "blocked_att": 3,
+            "free_throws_made": 3,
+            "free_throws_att": 7,
+            "free_throws_pct": 42.9,
+            "offensive_rebounds": 6,
+            "defensive_rebounds": 5,
+            "rebounds": 11,
+            "assists": 1,
+            "turnovers": 2,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 0.5,
+            "personal_fouls": 5,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -23,
+            "points": 7
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Isaiah Thomas",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "22",
+          "id": "bda5388e-a657-4e2c-8e12-6ed474518d25",
+          "statistics": {
+            "minutes": "43:09",
+            "field_goals_made": 13,
+            "field_goals_att": 31,
+            "field_goals_pct": 41.9,
+            "three_points_made": 2,
+            "three_points_att": 9,
+            "three_points_pct": 22.2,
+            "two_points_made": 11,
+            "two_points_att": 22,
+            "two_points_pct": 0.5,
+            "blocked_att": 1,
+            "free_throws_made": 10,
+            "free_throws_att": 10,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 3,
+            "rebounds": 3,
+            "assists": 6,
+            "turnovers": 5,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 1.2,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -7,
+            "points": 38
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Pacers",
+    "market": "Indiana",
+    "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 116,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 26,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 24,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 29,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 24,
+        "type": "quarter"
+      },
+      {
+        "number": 1,
+        "sequence": 5,
+        "points": 13,
+        "type": "overtime"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Paul George",
+          "position": "F-G",
+          "primary_position": "SG",
+          "jersey_number": "24",
+          "id": "db09f372-9a17-4889-add7-bf8a75ab6da6",
+          "statistics": {
+            "minutes": "41:18",
+            "field_goals_made": 12,
+            "field_goals_att": 22,
+            "field_goals_pct": 54.5,
+            "three_points_made": 4,
+            "three_points_att": 10,
+            "three_points_pct": 40,
+            "two_points_made": 8,
+            "two_points_att": 12,
+            "two_points_pct": 0.667,
+            "blocked_att": 0,
+            "free_throws_made": 8,
+            "free_throws_att": 8,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 4,
+            "rebounds": 5,
+            "assists": 2,
+            "turnovers": 4,
+            "steals": 4,
+            "blocks": 2,
+            "assists_turnover_ratio": 0.5,
+            "personal_fouls": 4,
+            "tech_fouls": 1,
+            "flagrant_fouls": 0,
+            "pls_min": 9,
+            "points": 36
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Roy Hibbert",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "55",
+          "id": "20f69728-18f2-4917-aabf-9893c3bff3be",
+          "statistics": {
+            "minutes": "38:55",
+            "field_goals_made": 3,
+            "field_goals_att": 11,
+            "field_goals_pct": 27.3,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 3,
+            "two_points_att": 11,
+            "two_points_pct": 0.273,
+            "blocked_att": 0,
+            "free_throws_made": 4,
+            "free_throws_att": 4,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 3,
+            "defensive_rebounds": 8,
+            "rebounds": 11,
+            "assists": 3,
+            "turnovers": 1,
+            "steals": 1,
+            "blocks": 5,
+            "assists_turnover_ratio": 3,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 13,
+            "points": 10
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "George Hill",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "3",
+          "id": "6e566165-6674-4306-9994-470f60720a2c",
+          "statistics": {
+            "minutes": "39:52",
+            "field_goals_made": 3,
+            "field_goals_att": 9,
+            "field_goals_pct": 33.3,
+            "three_points_made": 1,
+            "three_points_att": 6,
+            "three_points_pct": 16.7,
+            "two_points_made": 2,
+            "two_points_att": 3,
+            "two_points_pct": 0.667,
+            "blocked_att": 0,
+            "free_throws_made": 3,
+            "free_throws_att": 3,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 7,
+            "rebounds": 8,
+            "assists": 8,
+            "turnovers": 3,
+            "steals": 3,
+            "blocks": 0,
+            "assists_turnover_ratio": 2.67,
+            "personal_fouls": 3,
+            "tech_fouls": 1,
+            "flagrant_fouls": 0,
+            "pls_min": 11,
+            "points": 10
+          }
+        }
+      ]
+    }
+  }
+}

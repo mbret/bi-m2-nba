@@ -1,0 +1,308 @@
+{
+  "id": "343a2c53-28c1-439f-a522-07e1f5403638",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2014-01-18T00:00:00+00:00",
+  "duration": "2:20",
+  "attendance": 19800,
+  "lead_changes": 0,
+  "times_tied": 1,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Raptors",
+    "market": "Toronto",
+    "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 94,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 22,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 22,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 25,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 25,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Kyle Lowry",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "7",
+          "id": "8c090758-6baa-468d-82fd-d47e17d5091b",
+          "statistics": {
+            "minutes": "34:18",
+            "field_goals_made": 7,
+            "field_goals_att": 12,
+            "field_goals_pct": 58.3,
+            "three_points_made": 6,
+            "three_points_att": 9,
+            "three_points_pct": 66.7,
+            "two_points_made": 1,
+            "two_points_att": 3,
+            "two_points_pct": 0.333,
+            "blocked_att": 0,
+            "free_throws_made": 4,
+            "free_throws_att": 5,
+            "free_throws_pct": 80,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 5,
+            "rebounds": 5,
+            "assists": 6,
+            "turnovers": 2,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 3,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 5,
+            "points": 24
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Jonas Valanciunas",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "17",
+          "id": "c8788ad2-89f7-4ec9-a22b-dcaf6190889b",
+          "statistics": {
+            "minutes": "23:00",
+            "field_goals_made": 2,
+            "field_goals_att": 6,
+            "field_goals_pct": 33.3,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 2,
+            "two_points_att": 6,
+            "two_points_pct": 0.333,
+            "blocked_att": 1,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 4,
+            "defensive_rebounds": 7,
+            "rebounds": 11,
+            "assists": 3,
+            "turnovers": 2,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 1.5,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 18,
+            "points": 4
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Kyle Lowry",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "7",
+          "id": "8c090758-6baa-468d-82fd-d47e17d5091b",
+          "statistics": {
+            "minutes": "34:18",
+            "field_goals_made": 7,
+            "field_goals_att": 12,
+            "field_goals_pct": 58.3,
+            "three_points_made": 6,
+            "three_points_att": 9,
+            "three_points_pct": 66.7,
+            "two_points_made": 1,
+            "two_points_att": 3,
+            "two_points_pct": 0.333,
+            "blocked_att": 0,
+            "free_throws_made": 4,
+            "free_throws_att": 5,
+            "free_throws_pct": 80,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 5,
+            "rebounds": 5,
+            "assists": 6,
+            "turnovers": 2,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 3,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 5,
+            "points": 24
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Timberwolves",
+    "market": "Minnesota",
+    "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 89,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 15,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 25,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 21,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 28,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Kevin Martin",
+          "position": "G",
+          "primary_position": "SG",
+          "jersey_number": "23",
+          "id": "767837db-62fa-4fc6-b118-1d56a8b23415",
+          "statistics": {
+            "minutes": "32:30",
+            "field_goals_made": 7,
+            "field_goals_att": 14,
+            "field_goals_pct": 50,
+            "three_points_made": 2,
+            "three_points_att": 6,
+            "three_points_pct": 33.3,
+            "two_points_made": 5,
+            "two_points_att": 8,
+            "two_points_pct": 0.625,
+            "blocked_att": 0,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 1,
+            "rebounds": 1,
+            "assists": 1,
+            "turnovers": 3,
+            "steals": 0,
+            "blocks": 1,
+            "assists_turnover_ratio": 0.33,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -1,
+            "points": 18
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Kevin Love",
+          "position": "F-C",
+          "primary_position": "PF",
+          "jersey_number": "42",
+          "id": "7d615ccd-db96-42a3-9a6c-7f18ea25634e",
+          "statistics": {
+            "minutes": "32:24",
+            "field_goals_made": 7,
+            "field_goals_att": 19,
+            "field_goals_pct": 36.8,
+            "three_points_made": 1,
+            "three_points_att": 3,
+            "three_points_pct": 33.3,
+            "two_points_made": 6,
+            "two_points_att": 16,
+            "two_points_pct": 0.375,
+            "blocked_att": 1,
+            "free_throws_made": 1,
+            "free_throws_att": 2,
+            "free_throws_pct": 50,
+            "offensive_rebounds": 4,
+            "defensive_rebounds": 8,
+            "rebounds": 12,
+            "assists": 3,
+            "turnovers": 1,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 3,
+            "personal_fouls": 5,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -5,
+            "points": 16
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Jose Barea",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "11",
+          "id": "b6cdfbf4-fd3f-46f3-b889-732b3bae1da8",
+          "statistics": {
+            "minutes": "25:02",
+            "field_goals_made": 5,
+            "field_goals_att": 13,
+            "field_goals_pct": 38.5,
+            "three_points_made": 0,
+            "three_points_att": 4,
+            "three_points_pct": 0,
+            "two_points_made": 5,
+            "two_points_att": 9,
+            "two_points_pct": 0.556,
+            "blocked_att": 0,
+            "free_throws_made": 4,
+            "free_throws_att": 4,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 4,
+            "rebounds": 4,
+            "assists": 5,
+            "turnovers": 1,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 5,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -6,
+            "points": 14
+          }
+        }
+      ]
+    }
+  }
+}

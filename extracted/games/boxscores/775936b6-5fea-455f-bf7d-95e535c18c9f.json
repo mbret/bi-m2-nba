@@ -1,0 +1,308 @@
+{
+  "id": "775936b6-5fea-455f-bf7d-95e535c18c9f",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2014-01-11T00:00:00+00:00",
+  "duration": "2:17",
+  "attendance": 13742,
+  "lead_changes": 3,
+  "times_tied": 1,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "76ers",
+    "market": "Philadelphia",
+    "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 104,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 36,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 27,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 18,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 23,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Thaddeus Young",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "21",
+          "id": "31a50d54-ef46-47a8-863c-6f4d4e5aa184",
+          "statistics": {
+            "minutes": "40:44",
+            "field_goals_made": 10,
+            "field_goals_att": 21,
+            "field_goals_pct": 47.6,
+            "three_points_made": 2,
+            "three_points_att": 6,
+            "three_points_pct": 33.3,
+            "two_points_made": 8,
+            "two_points_att": 15,
+            "two_points_pct": 0.533,
+            "blocked_att": 2,
+            "free_throws_made": 0,
+            "free_throws_att": 1,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 2,
+            "rebounds": 4,
+            "assists": 2,
+            "turnovers": 3,
+            "steals": 2,
+            "blocks": 0,
+            "assists_turnover_ratio": 0.67,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -8,
+            "points": 22
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Spencer Hawes",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "00",
+          "id": "ddb5d888-09e5-435a-9009-a2549d8c8382",
+          "statistics": {
+            "minutes": "37:30",
+            "field_goals_made": 6,
+            "field_goals_att": 14,
+            "field_goals_pct": 42.9,
+            "three_points_made": 3,
+            "three_points_att": 8,
+            "three_points_pct": 37.5,
+            "two_points_made": 3,
+            "two_points_att": 6,
+            "two_points_pct": 0.5,
+            "blocked_att": 0,
+            "free_throws_made": 1,
+            "free_throws_att": 1,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 9,
+            "rebounds": 10,
+            "assists": 6,
+            "turnovers": 1,
+            "steals": 1,
+            "blocks": 1,
+            "assists_turnover_ratio": 6,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -7,
+            "points": 16
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Spencer Hawes",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "00",
+          "id": "ddb5d888-09e5-435a-9009-a2549d8c8382",
+          "statistics": {
+            "minutes": "37:30",
+            "field_goals_made": 6,
+            "field_goals_att": 14,
+            "field_goals_pct": 42.9,
+            "three_points_made": 3,
+            "three_points_att": 8,
+            "three_points_pct": 37.5,
+            "two_points_made": 3,
+            "two_points_att": 6,
+            "two_points_pct": 0.5,
+            "blocked_att": 0,
+            "free_throws_made": 1,
+            "free_throws_att": 1,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 9,
+            "rebounds": 10,
+            "assists": 6,
+            "turnovers": 1,
+            "steals": 1,
+            "blocks": 1,
+            "assists_turnover_ratio": 6,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -7,
+            "points": 16
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Pistons",
+    "market": "Detroit",
+    "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 114,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 28,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 27,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 29,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 30,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Josh Smith",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "6",
+          "id": "7838f72d-0e86-45f7-86ab-2077498d208a",
+          "statistics": {
+            "minutes": "42:34",
+            "field_goals_made": 8,
+            "field_goals_att": 23,
+            "field_goals_pct": 34.8,
+            "three_points_made": 2,
+            "three_points_att": 8,
+            "three_points_pct": 25,
+            "two_points_made": 6,
+            "two_points_att": 15,
+            "two_points_pct": 0.4,
+            "blocked_att": 0,
+            "free_throws_made": 4,
+            "free_throws_att": 6,
+            "free_throws_pct": 66.7,
+            "offensive_rebounds": 5,
+            "defensive_rebounds": 8,
+            "rebounds": 13,
+            "assists": 7,
+            "turnovers": 3,
+            "steals": 4,
+            "blocks": 5,
+            "assists_turnover_ratio": 2.33,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 10,
+            "points": 22
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Josh Smith",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "6",
+          "id": "7838f72d-0e86-45f7-86ab-2077498d208a",
+          "statistics": {
+            "minutes": "42:34",
+            "field_goals_made": 8,
+            "field_goals_att": 23,
+            "field_goals_pct": 34.8,
+            "three_points_made": 2,
+            "three_points_att": 8,
+            "three_points_pct": 25,
+            "two_points_made": 6,
+            "two_points_att": 15,
+            "two_points_pct": 0.4,
+            "blocked_att": 0,
+            "free_throws_made": 4,
+            "free_throws_att": 6,
+            "free_throws_pct": 66.7,
+            "offensive_rebounds": 5,
+            "defensive_rebounds": 8,
+            "rebounds": 13,
+            "assists": 7,
+            "turnovers": 3,
+            "steals": 4,
+            "blocks": 5,
+            "assists_turnover_ratio": 2.33,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 10,
+            "points": 22
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Josh Smith",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "6",
+          "id": "7838f72d-0e86-45f7-86ab-2077498d208a",
+          "statistics": {
+            "minutes": "42:34",
+            "field_goals_made": 8,
+            "field_goals_att": 23,
+            "field_goals_pct": 34.8,
+            "three_points_made": 2,
+            "three_points_att": 8,
+            "three_points_pct": 25,
+            "two_points_made": 6,
+            "two_points_att": 15,
+            "two_points_pct": 0.4,
+            "blocked_att": 0,
+            "free_throws_made": 4,
+            "free_throws_att": 6,
+            "free_throws_pct": 66.7,
+            "offensive_rebounds": 5,
+            "defensive_rebounds": 8,
+            "rebounds": 13,
+            "assists": 7,
+            "turnovers": 3,
+            "steals": 4,
+            "blocks": 5,
+            "assists_turnover_ratio": 2.33,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 10,
+            "points": 22
+          }
+        }
+      ]
+    }
+  }
+}

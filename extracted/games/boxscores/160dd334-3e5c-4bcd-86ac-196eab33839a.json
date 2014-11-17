@@ -1,0 +1,304 @@
+{
+  "id": "160dd334-3e5c-4bcd-86ac-196eab33839a",
+  "status": "closed",
+  "coverage": "boxscore",
+  "scheduled": "2013-10-15T23:00:00+00:00",
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Cavaliers",
+    "market": "Cleveland",
+    "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 74,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 27,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 15,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 17,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 15,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Dion Waiters",
+          "position": "G",
+          "primary_position": "SG",
+          "jersey_number": "3",
+          "id": "1bf4b5c7-e31d-4c22-9d89-7b909e3cb43c",
+          "statistics": {
+            "minutes": "00:00",
+            "field_goals_made": 0,
+            "field_goals_att": 0,
+            "field_goals_pct": 0,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 0,
+            "two_points_att": 0,
+            "two_points_pct": 0,
+            "blocked_att": 0,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 0,
+            "rebounds": 0,
+            "assists": 0,
+            "turnovers": 0,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 0,
+            "points": 0
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Dion Waiters",
+          "position": "G",
+          "primary_position": "SG",
+          "jersey_number": "3",
+          "id": "1bf4b5c7-e31d-4c22-9d89-7b909e3cb43c",
+          "statistics": {
+            "minutes": "00:00",
+            "field_goals_made": 0,
+            "field_goals_att": 0,
+            "field_goals_pct": 0,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 0,
+            "two_points_att": 0,
+            "two_points_pct": 0,
+            "blocked_att": 0,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 0,
+            "rebounds": 0,
+            "assists": 0,
+            "turnovers": 0,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 0,
+            "points": 0
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Dion Waiters",
+          "position": "G",
+          "primary_position": "SG",
+          "jersey_number": "3",
+          "id": "1bf4b5c7-e31d-4c22-9d89-7b909e3cb43c",
+          "statistics": {
+            "minutes": "00:00",
+            "field_goals_made": 0,
+            "field_goals_att": 0,
+            "field_goals_pct": 0,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 0,
+            "two_points_att": 0,
+            "two_points_pct": 0,
+            "blocked_att": 0,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 0,
+            "rebounds": 0,
+            "assists": 0,
+            "turnovers": 0,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 0,
+            "points": 0
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Bobcats",
+    "market": "Charlotte",
+    "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 92,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 17,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 23,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 32,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 20,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Kemba Walker",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "15",
+          "id": "a35ee8ed-f1db-4f7e-bb17-f823e8ee0b38",
+          "statistics": {
+            "minutes": "00:00",
+            "field_goals_made": 0,
+            "field_goals_att": 0,
+            "field_goals_pct": 0,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 0,
+            "two_points_att": 0,
+            "two_points_pct": 0,
+            "blocked_att": 0,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 0,
+            "rebounds": 0,
+            "assists": 0,
+            "turnovers": 0,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 0,
+            "points": 0
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Kemba Walker",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "15",
+          "id": "a35ee8ed-f1db-4f7e-bb17-f823e8ee0b38",
+          "statistics": {
+            "minutes": "00:00",
+            "field_goals_made": 0,
+            "field_goals_att": 0,
+            "field_goals_pct": 0,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 0,
+            "two_points_att": 0,
+            "two_points_pct": 0,
+            "blocked_att": 0,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 0,
+            "rebounds": 0,
+            "assists": 0,
+            "turnovers": 0,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 0,
+            "points": 0
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Kemba Walker",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "15",
+          "id": "a35ee8ed-f1db-4f7e-bb17-f823e8ee0b38",
+          "statistics": {
+            "minutes": "00:00",
+            "field_goals_made": 0,
+            "field_goals_att": 0,
+            "field_goals_pct": 0,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 0,
+            "two_points_att": 0,
+            "two_points_pct": 0,
+            "blocked_att": 0,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 0,
+            "rebounds": 0,
+            "assists": 0,
+            "turnovers": 0,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 0,
+            "points": 0
+          }
+        }
+      ]
+    }
+  }
+}

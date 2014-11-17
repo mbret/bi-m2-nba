@@ -1,0 +1,308 @@
+{
+  "id": "aadc7378-bdb6-4bcb-8cf8-054fac54c553",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2013-11-21T02:30:00+00:00",
+  "duration": "2:34",
+  "attendance": 20045,
+  "lead_changes": 2,
+  "times_tied": 1,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Mavericks",
+    "market": "Dallas",
+    "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 123,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 29,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 32,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 26,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 36,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Monta Ellis",
+          "position": "G",
+          "primary_position": "SG",
+          "jersey_number": "11",
+          "id": "0c144557-df20-492c-bf75-be53adf92699",
+          "statistics": {
+            "minutes": "40:17",
+            "field_goals_made": 13,
+            "field_goals_att": 18,
+            "field_goals_pct": 72.2,
+            "three_points_made": 2,
+            "three_points_att": 4,
+            "three_points_pct": 50,
+            "two_points_made": 11,
+            "two_points_att": 14,
+            "two_points_pct": 0.786,
+            "blocked_att": 0,
+            "free_throws_made": 9,
+            "free_throws_att": 12,
+            "free_throws_pct": 75,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 2,
+            "rebounds": 2,
+            "assists": 9,
+            "turnovers": 3,
+            "steals": 2,
+            "blocks": 0,
+            "assists_turnover_ratio": 3,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 2,
+            "points": 37
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Samuel Dalembert",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "1",
+          "id": "ca06ce60-1fb3-40a1-bb50-a16f75f4ea5d",
+          "statistics": {
+            "minutes": "31:48",
+            "field_goals_made": 1,
+            "field_goals_att": 3,
+            "field_goals_pct": 33.3,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 1,
+            "two_points_att": 3,
+            "two_points_pct": 0.333,
+            "blocked_att": 0,
+            "free_throws_made": 4,
+            "free_throws_att": 4,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 8,
+            "rebounds": 10,
+            "assists": 0,
+            "turnovers": 2,
+            "steals": 0,
+            "blocks": 4,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 5,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -5,
+            "points": 6
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Monta Ellis",
+          "position": "G",
+          "primary_position": "SG",
+          "jersey_number": "11",
+          "id": "0c144557-df20-492c-bf75-be53adf92699",
+          "statistics": {
+            "minutes": "40:17",
+            "field_goals_made": 13,
+            "field_goals_att": 18,
+            "field_goals_pct": 72.2,
+            "three_points_made": 2,
+            "three_points_att": 4,
+            "three_points_pct": 50,
+            "two_points_made": 11,
+            "two_points_att": 14,
+            "two_points_pct": 0.786,
+            "blocked_att": 0,
+            "free_throws_made": 9,
+            "free_throws_att": 12,
+            "free_throws_pct": 75,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 2,
+            "rebounds": 2,
+            "assists": 9,
+            "turnovers": 3,
+            "steals": 2,
+            "blocks": 0,
+            "assists_turnover_ratio": 3,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 2,
+            "points": 37
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Rockets",
+    "market": "Houston",
+    "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 120,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 40,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 28,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 33,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 19,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Dwight Howard",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "12",
+          "id": "ae8df356-5e57-43e7-be4d-5ec7663312bd",
+          "statistics": {
+            "minutes": "36:15",
+            "field_goals_made": 12,
+            "field_goals_att": 16,
+            "field_goals_pct": 75,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 12,
+            "two_points_att": 16,
+            "two_points_pct": 0.75,
+            "blocked_att": 3,
+            "free_throws_made": 9,
+            "free_throws_att": 13,
+            "free_throws_pct": 69.2,
+            "offensive_rebounds": 3,
+            "defensive_rebounds": 8,
+            "rebounds": 11,
+            "assists": 1,
+            "turnovers": 1,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 1,
+            "personal_fouls": 3,
+            "tech_fouls": 1,
+            "flagrant_fouls": 0,
+            "pls_min": 1,
+            "points": 33
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Dwight Howard",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "12",
+          "id": "ae8df356-5e57-43e7-be4d-5ec7663312bd",
+          "statistics": {
+            "minutes": "36:15",
+            "field_goals_made": 12,
+            "field_goals_att": 16,
+            "field_goals_pct": 75,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 12,
+            "two_points_att": 16,
+            "two_points_pct": 0.75,
+            "blocked_att": 3,
+            "free_throws_made": 9,
+            "free_throws_att": 13,
+            "free_throws_pct": 69.2,
+            "offensive_rebounds": 3,
+            "defensive_rebounds": 8,
+            "rebounds": 11,
+            "assists": 1,
+            "turnovers": 1,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 1,
+            "personal_fouls": 3,
+            "tech_fouls": 1,
+            "flagrant_fouls": 0,
+            "pls_min": 1,
+            "points": 33
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Chandler Parsons",
+          "position": "F",
+          "primary_position": "SF",
+          "jersey_number": "25",
+          "id": "434e09b0-2da5-44f4-b406-b5a80852d71d",
+          "statistics": {
+            "minutes": "37:51",
+            "field_goals_made": 7,
+            "field_goals_att": 10,
+            "field_goals_pct": 70,
+            "three_points_made": 4,
+            "three_points_att": 5,
+            "three_points_pct": 80,
+            "two_points_made": 3,
+            "two_points_att": 5,
+            "two_points_pct": 0.6,
+            "blocked_att": 0,
+            "free_throws_made": 3,
+            "free_throws_att": 4,
+            "free_throws_pct": 75,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 4,
+            "rebounds": 5,
+            "assists": 11,
+            "turnovers": 2,
+            "steals": 4,
+            "blocks": 0,
+            "assists_turnover_ratio": 5.5,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 5,
+            "points": 21
+          }
+        }
+      ]
+    }
+  }
+}

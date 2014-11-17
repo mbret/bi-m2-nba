@@ -90,11 +90,11 @@
       "injuries": [
         {
           "id": "070e536c-fd94-4bbf-bb5d-6e1b2e5da1dd",
-          "comment": "Aldridge will not play in Saturday's (11/15) game.",
+          "comment": "Aldridge is questionable to play in Monday's (11/17) game.",
           "desc": "Illness",
           "status": "Day To Day",
           "start_date": "2014-11-14",
-          "update_date": "2014-11-15"
+          "update_date": "2014-11-16"
         }
       ]
     },
@@ -260,7 +260,17 @@
         "year": 2008,
         "round": "1",
         "pick": "25"
-      }
+      },
+      "injuries": [
+        {
+          "id": "ce8a5e0c-7bc9-441a-ad5c-adbf0794cdbe",
+          "comment": "Batum is listed as doubtful for Monday's (11/17) game.",
+          "desc": "Knee",
+          "status": "Day To Day",
+          "start_date": "2014-11-09",
+          "update_date": "2014-11-16"
+        }
+      ]
     },
     {
       "id": "b7ede5da-bc2f-47fe-8468-dd4b2679603c",

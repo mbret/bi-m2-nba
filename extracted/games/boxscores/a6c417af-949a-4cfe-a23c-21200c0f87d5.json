@@ -1,0 +1,74 @@
+{
+  "id": "a6c417af-949a-4cfe-a23c-21200c0f87d5",
+  "status": "closed",
+  "coverage": "boxscore",
+  "scheduled": "2013-10-06T02:00:00+00:00",
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Lakers",
+    "market": "Los Angeles",
+    "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 104,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 28,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 32,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 10,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 34,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {}
+  },
+  "away": {
+    "name": "Warriors",
+    "market": "Golden State",
+    "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 95,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 29,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 28,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 14,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 24,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {}
+  }
+}

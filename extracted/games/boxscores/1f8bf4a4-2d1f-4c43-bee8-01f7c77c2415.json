@@ -1,0 +1,306 @@
+{
+  "id": "1f8bf4a4-2d1f-4c43-bee8-01f7c77c2415",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2014-01-29T01:00:00+00:00",
+  "duration": "2:23",
+  "attendance": 18314,
+  "lead_changes": 3,
+  "times_tied": 4,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Rockets",
+    "market": "Houston",
+    "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 97,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 20,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 19,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 33,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 25,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Dwight Howard",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "12",
+          "id": "ae8df356-5e57-43e7-be4d-5ec7663312bd",
+          "statistics": {
+            "minutes": "35:35",
+            "field_goals_made": 5,
+            "field_goals_att": 15,
+            "field_goals_pct": 33.3,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 5,
+            "two_points_att": 15,
+            "two_points_pct": 0.333,
+            "blocked_att": 2,
+            "free_throws_made": 13,
+            "free_throws_att": 25,
+            "free_throws_pct": 52,
+            "offensive_rebounds": 7,
+            "defensive_rebounds": 9,
+            "rebounds": 16,
+            "assists": 0,
+            "turnovers": 6,
+            "steals": 0,
+            "blocks": 1,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "points": 23
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Dwight Howard",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "12",
+          "id": "ae8df356-5e57-43e7-be4d-5ec7663312bd",
+          "statistics": {
+            "minutes": "35:35",
+            "field_goals_made": 5,
+            "field_goals_att": 15,
+            "field_goals_pct": 33.3,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 5,
+            "two_points_att": 15,
+            "two_points_pct": 0.333,
+            "blocked_att": 2,
+            "free_throws_made": 13,
+            "free_throws_att": 25,
+            "free_throws_pct": 52,
+            "offensive_rebounds": 7,
+            "defensive_rebounds": 9,
+            "rebounds": 16,
+            "assists": 0,
+            "turnovers": 6,
+            "steals": 0,
+            "blocks": 1,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "points": 23
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Jeremy Lin",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "7",
+          "id": "287c389a-0499-4f80-ac4f-1a72366af999",
+          "statistics": {
+            "minutes": "44:03",
+            "field_goals_made": 5,
+            "field_goals_att": 13,
+            "field_goals_pct": 38.5,
+            "three_points_made": 1,
+            "three_points_att": 5,
+            "three_points_pct": 20,
+            "two_points_made": 4,
+            "two_points_att": 8,
+            "two_points_pct": 0.5,
+            "blocked_att": 0,
+            "free_throws_made": 7,
+            "free_throws_att": 7,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 2,
+            "rebounds": 3,
+            "assists": 8,
+            "turnovers": 3,
+            "steals": 0,
+            "blocks": 1,
+            "assists_turnover_ratio": 2.67,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 7,
+            "points": 18
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Spurs",
+    "market": "San Antonio",
+    "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 90,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 28,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 18,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 18,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 26,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Boris Diaw",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "33",
+          "id": "52eba610-a87e-4c05-bb2d-dfb71bb32d03",
+          "statistics": {
+            "minutes": "33:32",
+            "field_goals_made": 9,
+            "field_goals_att": 20,
+            "field_goals_pct": 45,
+            "three_points_made": 2,
+            "three_points_att": 2,
+            "three_points_pct": 100,
+            "two_points_made": 7,
+            "two_points_att": 18,
+            "two_points_pct": 0.389,
+            "blocked_att": 1,
+            "free_throws_made": 2,
+            "free_throws_att": 3,
+            "free_throws_pct": 66.7,
+            "offensive_rebounds": 4,
+            "defensive_rebounds": 7,
+            "rebounds": 11,
+            "assists": 4,
+            "turnovers": 3,
+            "steals": 0,
+            "blocks": 2,
+            "assists_turnover_ratio": 1.33,
+            "personal_fouls": 5,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -8,
+            "points": 22
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Tim Duncan",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "21",
+          "id": "1f9d116b-7c1b-4d1a-bf02-59ba4b22092e",
+          "statistics": {
+            "minutes": "30:14",
+            "field_goals_made": 6,
+            "field_goals_att": 10,
+            "field_goals_pct": 60,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 6,
+            "two_points_att": 10,
+            "two_points_pct": 0.6,
+            "blocked_att": 0,
+            "free_throws_made": 0,
+            "free_throws_att": 2,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 6,
+            "defensive_rebounds": 8,
+            "rebounds": 14,
+            "assists": 2,
+            "turnovers": 3,
+            "steals": 1,
+            "blocks": 4,
+            "assists_turnover_ratio": 0.67,
+            "personal_fouls": 5,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 2,
+            "points": 12
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Cory Joseph",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "5",
+          "id": "5769354c-0661-4ac7-86e5-3fd51506df36",
+          "statistics": {
+            "minutes": "22:44",
+            "field_goals_made": 3,
+            "field_goals_att": 5,
+            "field_goals_pct": 60,
+            "three_points_made": 0,
+            "three_points_att": 1,
+            "three_points_pct": 0,
+            "two_points_made": 3,
+            "two_points_att": 4,
+            "two_points_pct": 0.75,
+            "blocked_att": 1,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 2,
+            "rebounds": 2,
+            "assists": 5,
+            "turnovers": 0,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 6,
+            "points": 8
+          }
+        }
+      ]
+    }
+  }
+}

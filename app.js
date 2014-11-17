@@ -6,7 +6,7 @@ var _          = require('lodash');
 var connection = mysql.createConnection({
     host     : 'localhost',
     user     : 'root',
-    password : '',
+    password : 'root',
     database : database
 });
 
@@ -28,7 +28,7 @@ async.waterfall([
      */
     function emptyAllTable(callback){
 
-        var tables = ['team', 'team_player', 'team_coatch', 'player', 'injury', 'coatch'];
+        var tables = ['team', 'team_player', 'team_coatch', 'player', 'injury', 'coatch', 'game'];
         var tasks = [];
         _.forEach(tables, function( table ) {
 
@@ -263,6 +263,50 @@ async.waterfall([
         });
     },
 
+    /*
+     * Fill the table game
+     * @require: /games/boxscores/*.jons
+     */
+    function fillGame(callback){
+
+        var files = require('fs').readdirSync(extractedPath + '/games/boxscores');
+        var games = [];
+
+        // Loop over each files with a sync iterator function
+        // in parallel
+        async.each( files, function(file, callback){
+
+            if(/(.*).json/.test(file)) {
+
+                data = require('fs').readFileSync(extractedPath + '/games/boxscores/' + file, 'utf8');
+                var game = JSON.parse(data);
+
+                // Games that has not been played
+                if(game.status == 'unnecessary'){
+                    return callback();
+                }
+
+                connection.query(
+                    "INSERT INTO `bi-m2`.`game` (`id`, `team_home_id`, `team_away_id`, `away_points`, `home_points`, `duration` ) VALUES ('"+game.id+"', '"+game.home.id+"', '"+game.away.id+"', '"+game.away.points+"', '"+game.home.points+"', '"+game.duration+"')",
+                    function(err, rows) {
+                        return callback(err);
+                    }
+                );
+            }
+        },
+        function(err){
+            if(!err) console.log('Table game filled');
+            return callback(err);
+        });
+    },
+
+    function fillGameStatistic( callback ){
+        return callback();
+    },
+
+    function fillGameStatisticForPlayers( callback ){
+        return callback();
+    },
 
 
 ],

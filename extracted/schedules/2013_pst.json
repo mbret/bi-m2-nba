@@ -1,0 +1,3463 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "season": {
+    "id": "22ae1aa6-d28a-452f-b6ce-c120e03c6b7d",
+    "year": 2013,
+    "type": "PST"
+  },
+  "games": [
+    {
+      "id": "b9ca64b8-f1a6-407a-a624-327d7c0e677b",
+      "title": "Game 1",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-04-19T16:30:00+00:00",
+      "venue": {
+        "id": "62cc9661-7b13-56e7-bf4a-bba7ad7be8da",
+        "name": "Air Canada Centre",
+        "capacity": 19800,
+        "address": "40 Bay St.",
+        "city": "Toronto",
+        "state": "ON",
+        "zip": "M5J 2X2",
+        "country": "CAN"
+      },
+      "broadcast": {
+        "network": "ESPN",
+        "satellite": "206",
+        "internet": "WatchESPN"
+      },
+      "home": {
+        "name": "Toronto Raptors",
+        "alias": "TOR",
+        "seed": 3,
+        "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Brooklyn Nets",
+        "alias": "BKN",
+        "seed": 6,
+        "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "582c27bb-9946-4b9b-9047-eb75658a5093",
+      "title": "Game 1",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-04-19T19:30:00+00:00",
+      "venue": {
+        "id": "792ec100-691e-5e16-8ef8-79b2b6ee38ba",
+        "name": "Staples Center",
+        "capacity": 18997,
+        "address": "1111 S. Figueroa St.",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90015",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ABC"
+      },
+      "home": {
+        "name": "Los Angeles Clippers",
+        "alias": "LAC",
+        "seed": 3,
+        "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Golden State Warriors",
+        "alias": "GSW",
+        "seed": 6,
+        "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "63bb1eb9-0824-447a-ae04-ad4a2e91c149",
+      "title": "Game 1",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-04-19T23:00:00+00:00",
+      "venue": {
+        "id": "24bb478e-eb31-5f8a-8c8d-07f513169ec1",
+        "name": "Bankers Life Fieldhouse",
+        "capacity": 18165,
+        "address": "125 S. Pennsylvania St.",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "46204",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ESPN",
+        "satellite": "206",
+        "internet": "WatchESPN"
+      },
+      "home": {
+        "name": "Indiana Pacers",
+        "alias": "IND",
+        "seed": 1,
+        "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Atlanta Hawks",
+        "alias": "ATL",
+        "seed": 8,
+        "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "d9946a04-bc50-43cb-8d11-3770132a4c21",
+      "title": "Game 1",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-04-20T01:30:00+00:00",
+      "venue": {
+        "id": "a13af216-4409-5021-8dd5-255cc71bffc3",
+        "name": "Chesapeake Energy Arena",
+        "capacity": 18203,
+        "address": "100 W. Reno Ave.",
+        "city": "Oklahoma City",
+        "state": "OK",
+        "zip": "73102",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ESPN",
+        "satellite": "206",
+        "internet": "WatchESPN"
+      },
+      "home": {
+        "name": "Oklahoma City Thunder",
+        "alias": "OKC",
+        "seed": 2,
+        "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Memphis Grizzlies",
+        "alias": "MEM",
+        "seed": 7,
+        "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "51a25f7d-8ce7-4980-bee0-b2d9dd623c37",
+      "title": "Game 1",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-04-20T17:00:00+00:00",
+      "venue": {
+        "id": "8a7580c0-4052-54d5-85cd-85aab6200acf",
+        "name": "AT&T Center",
+        "capacity": 18581,
+        "address": "One AT&T Center Parkway",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "78219",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "San Antonio Spurs",
+        "alias": "SAS",
+        "seed": 1,
+        "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Dallas Mavericks",
+        "alias": "DAL",
+        "seed": 8,
+        "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "f660857a-f6de-4622-a7d5-f1200ff759dc",
+      "title": "Game 1",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-04-20T19:30:00+00:00",
+      "venue": {
+        "id": "b67d5f09-28b2-5bc6-9097-af312007d2f4",
+        "name": "American Airlines Arena",
+        "capacity": 19600,
+        "address": "601 Biscayne Blvd.",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "33132",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ABC"
+      },
+      "home": {
+        "name": "Miami Heat",
+        "alias": "MIA",
+        "seed": 2,
+        "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Charlotte Bobcats",
+        "alias": "CHA",
+        "seed": 7,
+        "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "8c41cd17-b40a-4cf4-bc2a-8863078fb98e",
+      "title": "Game 1",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-04-20T23:00:00+00:00",
+      "venue": {
+        "id": "38911649-acfd-551a-949b-68f0fcaa44e7",
+        "name": "United Center",
+        "capacity": 20917,
+        "address": "1901 W. Madison St.",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60612",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "Chicago Bulls",
+        "alias": "CHI",
+        "seed": 4,
+        "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Washington Wizards",
+        "alias": "WAS",
+        "seed": 5,
+        "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "21ad4a9d-0008-4b12-8eb4-34abf207d8b8",
+      "title": "Game 1",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-04-21T01:30:00+00:00",
+      "venue": {
+        "id": "5b239206-57ce-50aa-baaa-627f3349dfdc",
+        "name": "Toyota Center",
+        "capacity": 18043,
+        "address": "1510 Polk St.",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "77002",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "Houston Rockets",
+        "alias": "HOU",
+        "seed": 4,
+        "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Portland Trail Blazers",
+        "alias": "POR",
+        "seed": 5,
+        "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "8cf04bb1-6771-4c9c-8550-2774818c627f",
+      "title": "Game 2",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-04-22T00:00:00+00:00",
+      "venue": {
+        "id": "a13af216-4409-5021-8dd5-255cc71bffc3",
+        "name": "Chesapeake Energy Arena",
+        "capacity": 18203,
+        "address": "100 W. Reno Ave.",
+        "city": "Oklahoma City",
+        "state": "OK",
+        "zip": "73102",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "Oklahoma City Thunder",
+        "alias": "OKC",
+        "seed": 2,
+        "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Memphis Grizzlies",
+        "alias": "MEM",
+        "seed": 7,
+        "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "a8e1f2a6-2843-4e66-a308-b2126592f9c3",
+      "title": "Game 2",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-04-22T02:30:00+00:00",
+      "venue": {
+        "id": "792ec100-691e-5e16-8ef8-79b2b6ee38ba",
+        "name": "Staples Center",
+        "capacity": 18997,
+        "address": "1111 S. Figueroa St.",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90015",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "Los Angeles Clippers",
+        "alias": "LAC",
+        "seed": 3,
+        "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Golden State Warriors",
+        "alias": "GSW",
+        "seed": 6,
+        "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "e617e58a-622a-49a6-b739-47410a3bd012",
+      "title": "Game 2",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-04-22T23:00:00+00:00",
+      "venue": {
+        "id": "24bb478e-eb31-5f8a-8c8d-07f513169ec1",
+        "name": "Bankers Life Fieldhouse",
+        "capacity": 18165,
+        "address": "125 S. Pennsylvania St.",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "46204",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "Indiana Pacers",
+        "alias": "IND",
+        "seed": 1,
+        "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Atlanta Hawks",
+        "alias": "ATL",
+        "seed": 8,
+        "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "95ae7162-0673-4465-9610-f5cb7ecc1ae0",
+      "title": "Game 2",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-04-22T23:30:00+00:00",
+      "venue": {
+        "id": "62cc9661-7b13-56e7-bf4a-bba7ad7be8da",
+        "name": "Air Canada Centre",
+        "capacity": 19800,
+        "address": "40 Bay St.",
+        "city": "Toronto",
+        "state": "ON",
+        "zip": "M5J 2X2",
+        "country": "CAN"
+      },
+      "broadcast": {
+        "network": "NBA TV",
+        "satellite": "216"
+      },
+      "home": {
+        "name": "Toronto Raptors",
+        "alias": "TOR",
+        "seed": 3,
+        "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Brooklyn Nets",
+        "alias": "BKN",
+        "seed": 6,
+        "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "4edc6586-d1ef-447d-9189-32b7eded3a99",
+      "title": "Game 2",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-04-23T01:30:00+00:00",
+      "venue": {
+        "id": "38911649-acfd-551a-949b-68f0fcaa44e7",
+        "name": "United Center",
+        "capacity": 20917,
+        "address": "1901 W. Madison St.",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60612",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "Chicago Bulls",
+        "alias": "CHI",
+        "seed": 4,
+        "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Washington Wizards",
+        "alias": "WAS",
+        "seed": 5,
+        "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "ac686774-a146-40d4-8258-bea09f1465a6",
+      "title": "Game 2",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-04-23T23:00:00+00:00",
+      "venue": {
+        "id": "b67d5f09-28b2-5bc6-9097-af312007d2f4",
+        "name": "American Airlines Arena",
+        "capacity": 19600,
+        "address": "601 Biscayne Blvd.",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "33132",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "Miami Heat",
+        "alias": "MIA",
+        "seed": 2,
+        "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Charlotte Bobcats",
+        "alias": "CHA",
+        "seed": 7,
+        "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "c0228af1-f787-4e3f-a3bb-e245ad56137c",
+      "title": "Game 2",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-04-24T00:00:00+00:00",
+      "venue": {
+        "id": "8a7580c0-4052-54d5-85cd-85aab6200acf",
+        "name": "AT&T Center",
+        "capacity": 18581,
+        "address": "One AT&T Center Parkway",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "78219",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "NBA TV",
+        "satellite": "216"
+      },
+      "home": {
+        "name": "San Antonio Spurs",
+        "alias": "SAS",
+        "seed": 1,
+        "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Dallas Mavericks",
+        "alias": "DAL",
+        "seed": 8,
+        "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "5c5cbef6-a7b8-4bfc-a271-6a72e6ff9a51",
+      "title": "Game 2",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-04-24T01:30:00+00:00",
+      "venue": {
+        "id": "5b239206-57ce-50aa-baaa-627f3349dfdc",
+        "name": "Toyota Center",
+        "capacity": 18043,
+        "address": "1510 Polk St.",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "77002",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "Houston Rockets",
+        "alias": "HOU",
+        "seed": 4,
+        "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Portland Trail Blazers",
+        "alias": "POR",
+        "seed": 5,
+        "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "5b40aec4-49f7-4674-b6a3-9dbdd26db974",
+      "title": "Game 3",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-04-24T23:00:00+00:00",
+      "venue": {
+        "id": "fd21f639-8a47-51ac-a5dd-590629d445cf",
+        "name": "Philips Arena",
+        "capacity": 18118,
+        "address": "One Philips Drive",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30303",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "NBA TV",
+        "satellite": "216"
+      },
+      "home": {
+        "name": "Atlanta Hawks",
+        "alias": "ATL",
+        "seed": 8,
+        "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Indiana Pacers",
+        "alias": "IND",
+        "seed": 1,
+        "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "46e349a5-13ce-405e-854e-097ed9680396",
+      "title": "Game 3",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-04-25T00:00:00+00:00",
+      "venue": {
+        "id": "7657c204-a20b-527a-99cb-dc29218462aa",
+        "name": "FedEx Forum",
+        "capacity": 18119,
+        "address": "191 Beale St",
+        "city": "Memphis",
+        "state": "TN",
+        "zip": "38103",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "Memphis Grizzlies",
+        "alias": "MEM",
+        "seed": 7,
+        "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Oklahoma City Thunder",
+        "alias": "OKC",
+        "seed": 2,
+        "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "e952b101-3eff-466c-a29b-fa78331180aa",
+      "title": "Game 3",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-04-25T02:30:00+00:00",
+      "venue": {
+        "id": "e25e21f2-1d67-5f13-910b-81fc8629eea7",
+        "name": "Oracle Arena",
+        "capacity": 19596,
+        "address": "7000 Coliseum Way",
+        "city": "Oakland",
+        "state": "CA",
+        "zip": "94621",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "Golden State Warriors",
+        "alias": "GSW",
+        "seed": 6,
+        "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Los Angeles Clippers",
+        "alias": "LAC",
+        "seed": 3,
+        "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "8224fe25-95ed-4dda-b1d2-6e9505ee13ab",
+      "title": "Game 3",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-04-25T23:00:00+00:00",
+      "venue": {
+        "id": "7a330bcd-ac0f-50ca-bc29-2460e5c476b3",
+        "name": "Barclays Center",
+        "capacity": 18200,
+        "address": "620 Atlantic Avenue.",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11217",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ESPN2",
+        "satellite": "209",
+        "internet": "WatchESPN"
+      },
+      "home": {
+        "name": "Brooklyn Nets",
+        "alias": "BKN",
+        "seed": 6,
+        "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Toronto Raptors",
+        "alias": "TOR",
+        "seed": 3,
+        "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "6c6e566d-0bf2-4c50-a320-f1355f3db9b0",
+      "title": "Game 3",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-04-26T00:00:00+00:00",
+      "venue": {
+        "id": "f62d5b49-d646-56e9-ba60-a875a00830f8",
+        "name": "Verizon Center",
+        "capacity": 20290,
+        "address": "601 F St. N.W.",
+        "city": "Washington",
+        "state": "DC",
+        "zip": "20004",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ESPN",
+        "satellite": "206",
+        "internet": "WatchESPN"
+      },
+      "home": {
+        "name": "Washington Wizards",
+        "alias": "WAS",
+        "seed": 5,
+        "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Chicago Bulls",
+        "alias": "CHI",
+        "seed": 4,
+        "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "5f8d810e-8228-455e-ba28-d9300a946858",
+      "title": "Game 3",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-04-26T02:30:00+00:00",
+      "venue": {
+        "id": "1d1f74a2-7b35-56f0-8cbd-552c51cb2c14",
+        "name": "Moda Center",
+        "capacity": 19980,
+        "address": "1 Center Court",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "97227",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ESPN",
+        "satellite": "206",
+        "internet": "WatchESPN"
+      },
+      "home": {
+        "name": "Portland Trail Blazers",
+        "alias": "POR",
+        "seed": 5,
+        "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Houston Rockets",
+        "alias": "HOU",
+        "seed": 4,
+        "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "0cee7a0d-c320-4c4d-9fc3-fa273c2992f4",
+      "title": "Game 4",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-04-26T18:00:00+00:00",
+      "venue": {
+        "id": "fd21f639-8a47-51ac-a5dd-590629d445cf",
+        "name": "Philips Arena",
+        "capacity": 18118,
+        "address": "One Philips Drive",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30303",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "Atlanta Hawks",
+        "alias": "ATL",
+        "seed": 8,
+        "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Indiana Pacers",
+        "alias": "IND",
+        "seed": 1,
+        "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "2eab6356-9c03-49dd-bd39-a9e1afa111d2",
+      "title": "Game 3",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-04-26T20:30:00+00:00",
+      "venue": {
+        "id": "401ba62f-19b5-5bfc-84d6-021772943311",
+        "name": "American Airlines Center",
+        "capacity": 19200,
+        "address": "2500 Victory Ave.",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "75219",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "Dallas Mavericks",
+        "alias": "DAL",
+        "seed": 8,
+        "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "San Antonio Spurs",
+        "alias": "SAS",
+        "seed": 1,
+        "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "7ec8acd4-0bc9-404b-ae33-1a3e8a4b285a",
+      "title": "Game 3",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-04-26T23:00:00+00:00",
+      "venue": {
+        "id": "a380f011-6e5d-5430-9f37-209e1e8a9b6f",
+        "name": "Time Warner Cable Arena",
+        "capacity": 19026,
+        "address": "330 E. Trade St.",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "28202",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ESPN",
+        "satellite": "206",
+        "internet": "WatchESPN"
+      },
+      "home": {
+        "name": "Charlotte Bobcats",
+        "alias": "CHA",
+        "seed": 7,
+        "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Miami Heat",
+        "alias": "MIA",
+        "seed": 2,
+        "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "e30c708e-4145-4bd0-8aa6-55e6e2c4a150",
+      "title": "Game 4",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-04-27T01:30:00+00:00",
+      "venue": {
+        "id": "7657c204-a20b-527a-99cb-dc29218462aa",
+        "name": "FedEx Forum",
+        "capacity": 18119,
+        "address": "191 Beale St",
+        "city": "Memphis",
+        "state": "TN",
+        "zip": "38103",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ESPN",
+        "satellite": "206",
+        "internet": "WatchESPN"
+      },
+      "home": {
+        "name": "Memphis Grizzlies",
+        "alias": "MEM",
+        "seed": 7,
+        "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Oklahoma City Thunder",
+        "alias": "OKC",
+        "seed": 2,
+        "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "b1661361-8bc2-42a4-a5bf-6f4d3dd7dc81",
+      "title": "Game 4",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-04-27T17:00:00+00:00",
+      "venue": {
+        "id": "f62d5b49-d646-56e9-ba60-a875a00830f8",
+        "name": "Verizon Center",
+        "capacity": 20290,
+        "address": "601 F St. N.W.",
+        "city": "Washington",
+        "state": "DC",
+        "zip": "20004",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ABC"
+      },
+      "home": {
+        "name": "Washington Wizards",
+        "alias": "WAS",
+        "seed": 5,
+        "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Chicago Bulls",
+        "alias": "CHI",
+        "seed": 4,
+        "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "b8b9e9c6-db17-4d2b-9ef8-d131ddc6cfd5",
+      "title": "Game 4",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-04-27T19:30:00+00:00",
+      "venue": {
+        "id": "e25e21f2-1d67-5f13-910b-81fc8629eea7",
+        "name": "Oracle Arena",
+        "capacity": 19596,
+        "address": "7000 Coliseum Way",
+        "city": "Oakland",
+        "state": "CA",
+        "zip": "94621",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ABC"
+      },
+      "home": {
+        "name": "Golden State Warriors",
+        "alias": "GSW",
+        "seed": 6,
+        "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Los Angeles Clippers",
+        "alias": "LAC",
+        "seed": 3,
+        "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "a7584d10-59d1-4efb-8394-757a6368e29f",
+      "title": "Game 4",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-04-27T23:00:00+00:00",
+      "venue": {
+        "id": "7a330bcd-ac0f-50ca-bc29-2460e5c476b3",
+        "name": "Barclays Center",
+        "capacity": 18200,
+        "address": "620 Atlantic Avenue.",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11217",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "Brooklyn Nets",
+        "alias": "BKN",
+        "seed": 6,
+        "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Toronto Raptors",
+        "alias": "TOR",
+        "seed": 3,
+        "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "772e5f46-6519-407b-9e72-7075afb0f229",
+      "title": "Game 4",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-04-28T01:30:00+00:00",
+      "venue": {
+        "id": "1d1f74a2-7b35-56f0-8cbd-552c51cb2c14",
+        "name": "Moda Center",
+        "capacity": 19980,
+        "address": "1 Center Court",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "97227",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "Portland Trail Blazers",
+        "alias": "POR",
+        "seed": 5,
+        "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Houston Rockets",
+        "alias": "HOU",
+        "seed": 4,
+        "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "fdeb6991-e543-4660-8b86-fd779a02af78",
+      "title": "Game 4",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-04-28T23:00:00+00:00",
+      "venue": {
+        "id": "a380f011-6e5d-5430-9f37-209e1e8a9b6f",
+        "name": "Time Warner Cable Arena",
+        "capacity": 19026,
+        "address": "330 E. Trade St.",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "28202",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "Charlotte Bobcats",
+        "alias": "CHA",
+        "seed": 7,
+        "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Miami Heat",
+        "alias": "MIA",
+        "seed": 2,
+        "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "b7e8e6d1-e3a5-4f77-beb2-12b297aa01ca",
+      "title": "Game 5",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-04-29T00:00:00+00:00",
+      "venue": {
+        "id": "24bb478e-eb31-5f8a-8c8d-07f513169ec1",
+        "name": "Bankers Life Fieldhouse",
+        "capacity": 18165,
+        "address": "125 S. Pennsylvania St.",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "46204",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "NBA TV",
+        "satellite": "216"
+      },
+      "home": {
+        "name": "Indiana Pacers",
+        "alias": "IND",
+        "seed": 1,
+        "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Atlanta Hawks",
+        "alias": "ATL",
+        "seed": 8,
+        "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "12905f3e-226b-4cf4-b926-e29b05052f93",
+      "title": "Game 4",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-04-29T01:30:00+00:00",
+      "venue": {
+        "id": "401ba62f-19b5-5bfc-84d6-021772943311",
+        "name": "American Airlines Center",
+        "capacity": 19200,
+        "address": "2500 Victory Ave.",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "75219",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "Dallas Mavericks",
+        "alias": "DAL",
+        "seed": 8,
+        "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "San Antonio Spurs",
+        "alias": "SAS",
+        "seed": 1,
+        "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "796fbb66-fe02-4328-a50b-3c2bbdadc828",
+      "title": "Game 5",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-04-30T00:00:00+00:00",
+      "venue": {
+        "id": "38911649-acfd-551a-949b-68f0fcaa44e7",
+        "name": "United Center",
+        "capacity": 20917,
+        "address": "1901 W. Madison St.",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60612",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "Chicago Bulls",
+        "alias": "CHI",
+        "seed": 4,
+        "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Washington Wizards",
+        "alias": "WAS",
+        "seed": 5,
+        "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "f18653ce-9cce-4f4c-9752-23a055fdb324",
+      "title": "Game 5",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-04-30T01:00:00+00:00",
+      "venue": {
+        "id": "a13af216-4409-5021-8dd5-255cc71bffc3",
+        "name": "Chesapeake Energy Arena",
+        "capacity": 18203,
+        "address": "100 W. Reno Ave.",
+        "city": "Oklahoma City",
+        "state": "OK",
+        "zip": "73102",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "NBA TV",
+        "satellite": "216"
+      },
+      "home": {
+        "name": "Oklahoma City Thunder",
+        "alias": "OKC",
+        "seed": 2,
+        "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Memphis Grizzlies",
+        "alias": "MEM",
+        "seed": 7,
+        "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "4c17fa95-218d-496c-ba64-0acc1c0fa638",
+      "title": "Game 5",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-04-30T02:30:00+00:00",
+      "venue": {
+        "id": "792ec100-691e-5e16-8ef8-79b2b6ee38ba",
+        "name": "Staples Center",
+        "capacity": 18997,
+        "address": "1111 S. Figueroa St.",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90015",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "Los Angeles Clippers",
+        "alias": "LAC",
+        "seed": 3,
+        "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Golden State Warriors",
+        "alias": "GSW",
+        "seed": 6,
+        "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "c49e3b07-6230-47ee-bcff-dd1c01d52fe3",
+      "title": "Game 5 (if necessary)",
+      "status": "unnecessary",
+      "coverage": "full",
+      "scheduled": "2014-04-30T05:00:00+00:00",
+      "venue": {
+        "id": "b67d5f09-28b2-5bc6-9097-af312007d2f4",
+        "name": "American Airlines Arena",
+        "capacity": 19600,
+        "address": "601 Biscayne Blvd.",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "33132",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Miami Heat",
+        "alias": "MIA",
+        "seed": 2,
+        "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Charlotte Bobcats",
+        "alias": "CHA",
+        "seed": 7,
+        "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "2176b807-6ae9-4df3-8835-f647362ed1dc",
+      "title": "Game 5",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-04-30T23:00:00+00:00",
+      "venue": {
+        "id": "8a7580c0-4052-54d5-85cd-85aab6200acf",
+        "name": "AT&T Center",
+        "capacity": 18581,
+        "address": "One AT&T Center Parkway",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "78219",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "San Antonio Spurs",
+        "alias": "SAS",
+        "seed": 1,
+        "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Dallas Mavericks",
+        "alias": "DAL",
+        "seed": 8,
+        "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "c4e6c865-bec1-4358-98d5-f58fc54d8d64",
+      "title": "Game 5",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-04-30T23:30:00+00:00",
+      "venue": {
+        "id": "62cc9661-7b13-56e7-bf4a-bba7ad7be8da",
+        "name": "Air Canada Centre",
+        "capacity": 19800,
+        "address": "40 Bay St.",
+        "city": "Toronto",
+        "state": "ON",
+        "zip": "M5J 2X2",
+        "country": "CAN"
+      },
+      "broadcast": {
+        "network": "NBA TV",
+        "satellite": "216"
+      },
+      "home": {
+        "name": "Toronto Raptors",
+        "alias": "TOR",
+        "seed": 3,
+        "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Brooklyn Nets",
+        "alias": "BKN",
+        "seed": 6,
+        "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "ad9d8932-fa3d-4135-a534-527fce453093",
+      "title": "Game 5",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-01T01:30:00+00:00",
+      "venue": {
+        "id": "5b239206-57ce-50aa-baaa-627f3349dfdc",
+        "name": "Toyota Center",
+        "capacity": 18043,
+        "address": "1510 Polk St.",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "77002",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "Houston Rockets",
+        "alias": "HOU",
+        "seed": 4,
+        "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Portland Trail Blazers",
+        "alias": "POR",
+        "seed": 5,
+        "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "fd8a83da-835a-471d-a6b1-b7b6b07af60a",
+      "title": "Game 6 (if necessary)",
+      "status": "unnecessary",
+      "coverage": "full",
+      "scheduled": "2014-05-01T05:00:00+00:00",
+      "venue": {
+        "id": "f62d5b49-d646-56e9-ba60-a875a00830f8",
+        "name": "Verizon Center",
+        "capacity": 20290,
+        "address": "601 F St. N.W.",
+        "city": "Washington",
+        "state": "DC",
+        "zip": "20004",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Washington Wizards",
+        "alias": "WAS",
+        "seed": 5,
+        "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Chicago Bulls",
+        "alias": "CHI",
+        "seed": 4,
+        "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "c8179120-cfb2-4a13-8588-b1bb376a8890",
+      "title": "Game 6",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-01T23:00:00+00:00",
+      "venue": {
+        "id": "fd21f639-8a47-51ac-a5dd-590629d445cf",
+        "name": "Philips Arena",
+        "capacity": 18118,
+        "address": "One Philips Drive",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30303",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "NBA TV",
+        "satellite": "216"
+      },
+      "home": {
+        "name": "Atlanta Hawks",
+        "alias": "ATL",
+        "seed": 8,
+        "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Indiana Pacers",
+        "alias": "IND",
+        "seed": 1,
+        "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "f237894a-8727-4059-91ca-91b700ee904a",
+      "title": "Game 6",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-02T00:00:00+00:00",
+      "venue": {
+        "id": "7657c204-a20b-527a-99cb-dc29218462aa",
+        "name": "FedEx Forum",
+        "capacity": 18119,
+        "address": "191 Beale St",
+        "city": "Memphis",
+        "state": "TN",
+        "zip": "38103",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "Memphis Grizzlies",
+        "alias": "MEM",
+        "seed": 7,
+        "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Oklahoma City Thunder",
+        "alias": "OKC",
+        "seed": 2,
+        "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "bb0ca0ed-52c4-41fb-995d-f23ed57613c1",
+      "title": "Game 6",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-02T02:30:00+00:00",
+      "venue": {
+        "id": "e25e21f2-1d67-5f13-910b-81fc8629eea7",
+        "name": "Oracle Arena",
+        "capacity": 19596,
+        "address": "7000 Coliseum Way",
+        "city": "Oakland",
+        "state": "CA",
+        "zip": "94621",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "Golden State Warriors",
+        "alias": "GSW",
+        "seed": 6,
+        "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Los Angeles Clippers",
+        "alias": "LAC",
+        "seed": 3,
+        "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "1a6c5a19-d182-4738-9836-cf5377f89146",
+      "title": "Game 6 (if necessary)",
+      "status": "unnecessary",
+      "coverage": "full",
+      "scheduled": "2014-05-02T05:00:00+00:00",
+      "venue": {
+        "id": "a380f011-6e5d-5430-9f37-209e1e8a9b6f",
+        "name": "Time Warner Cable Arena",
+        "capacity": 19026,
+        "address": "330 E. Trade St.",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "28202",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Charlotte Bobcats",
+        "alias": "CHA",
+        "seed": 7,
+        "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Miami Heat",
+        "alias": "MIA",
+        "seed": 2,
+        "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "b9fd330a-d593-4225-ad3c-52ec97baee37",
+      "title": "Game 6",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-02T23:00:00+00:00",
+      "venue": {
+        "id": "7a330bcd-ac0f-50ca-bc29-2460e5c476b3",
+        "name": "Barclays Center",
+        "capacity": 18200,
+        "address": "620 Atlantic Avenue.",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11217",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ESPN2",
+        "satellite": "209",
+        "internet": "WatchESPN"
+      },
+      "home": {
+        "name": "Brooklyn Nets",
+        "alias": "BKN",
+        "seed": 6,
+        "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Toronto Raptors",
+        "alias": "TOR",
+        "seed": 3,
+        "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "28d41571-92af-4c6f-83af-50b4334dbb41",
+      "title": "Game 6 ",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-03T00:00:00+00:00",
+      "venue": {
+        "id": "401ba62f-19b5-5bfc-84d6-021772943311",
+        "name": "American Airlines Center",
+        "capacity": 19200,
+        "address": "2500 Victory Ave.",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "75219",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ESPN",
+        "satellite": "206",
+        "internet": "WatchESPN"
+      },
+      "home": {
+        "name": "Dallas Mavericks",
+        "alias": "DAL",
+        "seed": 8,
+        "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "San Antonio Spurs",
+        "alias": "SAS",
+        "seed": 1,
+        "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "e6583433-9b46-4114-a754-acd7d8dccceb",
+      "title": "Game 6",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-03T02:30:00+00:00",
+      "venue": {
+        "id": "1d1f74a2-7b35-56f0-8cbd-552c51cb2c14",
+        "name": "Moda Center",
+        "capacity": 19980,
+        "address": "1 Center Court",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "97227",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ESPN",
+        "satellite": "206",
+        "internet": "WatchESPN"
+      },
+      "home": {
+        "name": "Portland Trail Blazers",
+        "alias": "POR",
+        "seed": 5,
+        "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Houston Rockets",
+        "alias": "HOU",
+        "seed": 4,
+        "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "275616d8-0f5a-48af-93b3-b918a4d51cf9",
+      "title": "Game 7 (if necessary)",
+      "status": "unnecessary",
+      "coverage": "full",
+      "scheduled": "2014-05-03T05:00:00+00:00",
+      "venue": {
+        "id": "38911649-acfd-551a-949b-68f0fcaa44e7",
+        "name": "United Center",
+        "capacity": 20917,
+        "address": "1901 W. Madison St.",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60612",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Chicago Bulls",
+        "alias": "CHI",
+        "seed": 4,
+        "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Washington Wizards",
+        "alias": "WAS",
+        "seed": 5,
+        "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "42b6a5ad-c0bd-4bb7-af6e-76f408f83aae",
+      "title": "Game 7",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-03T21:30:00+00:00",
+      "venue": {
+        "id": "24bb478e-eb31-5f8a-8c8d-07f513169ec1",
+        "name": "Bankers Life Fieldhouse",
+        "capacity": 18165,
+        "address": "125 S. Pennsylvania St.",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "46204",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "Indiana Pacers",
+        "alias": "IND",
+        "seed": 1,
+        "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Atlanta Hawks",
+        "alias": "ATL",
+        "seed": 8,
+        "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "673533ef-c3f9-43a0-9c21-e841dfce0b61",
+      "title": "Game 7",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-04T00:00:00+00:00",
+      "venue": {
+        "id": "a13af216-4409-5021-8dd5-255cc71bffc3",
+        "name": "Chesapeake Energy Arena",
+        "capacity": 18203,
+        "address": "100 W. Reno Ave.",
+        "city": "Oklahoma City",
+        "state": "OK",
+        "zip": "73102",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "Oklahoma City Thunder",
+        "alias": "OKC",
+        "seed": 2,
+        "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Memphis Grizzlies",
+        "alias": "MEM",
+        "seed": 7,
+        "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "695ffa2a-17e2-4c75-991d-a2436ba86767",
+      "title": "Game 7",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-04T02:30:00+00:00",
+      "venue": {
+        "id": "792ec100-691e-5e16-8ef8-79b2b6ee38ba",
+        "name": "Staples Center",
+        "capacity": 18997,
+        "address": "1111 S. Figueroa St.",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90015",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "Los Angeles Clippers",
+        "alias": "LAC",
+        "seed": 3,
+        "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Golden State Warriors",
+        "alias": "GSW",
+        "seed": 6,
+        "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "2180b1ee-350e-4c00-bb41-25b8301d1667",
+      "title": "Game 7 (if necessary)",
+      "status": "unnecessary",
+      "coverage": "full",
+      "scheduled": "2014-05-04T05:00:00+00:00",
+      "venue": {
+        "id": "b67d5f09-28b2-5bc6-9097-af312007d2f4",
+        "name": "American Airlines Arena",
+        "capacity": 19600,
+        "address": "601 Biscayne Blvd.",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "33132",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Miami Heat",
+        "alias": "MIA",
+        "seed": 2,
+        "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Charlotte Bobcats",
+        "alias": "CHA",
+        "seed": 7,
+        "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "a1e978a2-31a0-47b4-b5b1-f90027dd5a0b",
+      "title": "Game 7 (if necessary)",
+      "status": "unnecessary",
+      "coverage": "full",
+      "scheduled": "2014-05-04T05:00:00+00:00",
+      "venue": {
+        "id": "5b239206-57ce-50aa-baaa-627f3349dfdc",
+        "name": "Toyota Center",
+        "capacity": 18043,
+        "address": "1510 Polk St.",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "77002",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ABC"
+      },
+      "home": {
+        "name": "Houston Rockets",
+        "alias": "HOU",
+        "seed": 4,
+        "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Portland Trail Blazers",
+        "alias": "POR",
+        "seed": 5,
+        "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "aa607197-e2ef-479a-b974-caf4fdd5ee5d",
+      "title": "Game 7",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-04T17:00:00+00:00",
+      "venue": {
+        "id": "62cc9661-7b13-56e7-bf4a-bba7ad7be8da",
+        "name": "Air Canada Centre",
+        "capacity": 19800,
+        "address": "40 Bay St.",
+        "city": "Toronto",
+        "state": "ON",
+        "zip": "M5J 2X2",
+        "country": "CAN"
+      },
+      "broadcast": {
+        "network": "ABC"
+      },
+      "home": {
+        "name": "Toronto Raptors",
+        "alias": "TOR",
+        "seed": 3,
+        "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Brooklyn Nets",
+        "alias": "BKN",
+        "seed": 6,
+        "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "901c6c23-03a8-4ee4-96f1-038480f7e2c1",
+      "title": "Game 7",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-04T19:30:00+00:00",
+      "venue": {
+        "id": "8a7580c0-4052-54d5-85cd-85aab6200acf",
+        "name": "AT&T Center",
+        "capacity": 18581,
+        "address": "One AT&T Center Parkway",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "78219",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ABC"
+      },
+      "home": {
+        "name": "San Antonio Spurs",
+        "alias": "SAS",
+        "seed": 1,
+        "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Dallas Mavericks",
+        "alias": "DAL",
+        "seed": 8,
+        "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "826ea15f-8767-40da-b7e0-e25da535cf7e",
+      "title": "Game 1",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-05T23:00:00+00:00",
+      "venue": {
+        "id": "24bb478e-eb31-5f8a-8c8d-07f513169ec1",
+        "name": "Bankers Life Fieldhouse",
+        "capacity": 18165,
+        "address": "125 S. Pennsylvania St.",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "46204",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "Indiana Pacers",
+        "alias": "IND",
+        "seed": 1,
+        "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Washington Wizards",
+        "alias": "WAS",
+        "seed": 5,
+        "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "b2ba72d9-f226-4c6e-9acf-29bbbeaedb95",
+      "title": "Game 1",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-06T01:30:00+00:00",
+      "venue": {
+        "id": "a13af216-4409-5021-8dd5-255cc71bffc3",
+        "name": "Chesapeake Energy Arena",
+        "capacity": 18203,
+        "address": "100 W. Reno Ave.",
+        "city": "Oklahoma City",
+        "state": "OK",
+        "zip": "73102",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "Oklahoma City Thunder",
+        "alias": "OKC",
+        "seed": 2,
+        "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Los Angeles Clippers",
+        "alias": "LAC",
+        "seed": 3,
+        "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "1c5a7c26-e5da-416a-b7a2-e424dc0a2cb8",
+      "title": "Game 1",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-06T23:00:00+00:00",
+      "venue": {
+        "id": "b67d5f09-28b2-5bc6-9097-af312007d2f4",
+        "name": "American Airlines Arena",
+        "capacity": 19600,
+        "address": "601 Biscayne Blvd.",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "33132",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "Miami Heat",
+        "alias": "MIA",
+        "seed": 2,
+        "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Brooklyn Nets",
+        "alias": "BKN",
+        "seed": 6,
+        "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "451d1637-e17b-42ea-bdf3-d0afa0de16be",
+      "title": "Game 1",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-07T01:30:00+00:00",
+      "venue": {
+        "id": "8a7580c0-4052-54d5-85cd-85aab6200acf",
+        "name": "AT&T Center",
+        "capacity": 18581,
+        "address": "One AT&T Center Parkway",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "78219",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "San Antonio Spurs",
+        "alias": "SAS",
+        "seed": 1,
+        "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Portland Trail Blazers",
+        "alias": "POR",
+        "seed": 5,
+        "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "c415dd8f-067d-46b2-878d-3ef05104746d",
+      "title": "Game 2",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-07T23:00:00+00:00",
+      "venue": {
+        "id": "24bb478e-eb31-5f8a-8c8d-07f513169ec1",
+        "name": "Bankers Life Fieldhouse",
+        "capacity": 18165,
+        "address": "125 S. Pennsylvania St.",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "46204",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "Indiana Pacers",
+        "alias": "IND",
+        "seed": 1,
+        "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Washington Wizards",
+        "alias": "WAS",
+        "seed": 5,
+        "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "19dcaefc-596f-43e4-a611-967745ec7049",
+      "title": "Game 2",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-08T01:30:00+00:00",
+      "venue": {
+        "id": "a13af216-4409-5021-8dd5-255cc71bffc3",
+        "name": "Chesapeake Energy Arena",
+        "capacity": 18203,
+        "address": "100 W. Reno Ave.",
+        "city": "Oklahoma City",
+        "state": "OK",
+        "zip": "73102",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "Oklahoma City Thunder",
+        "alias": "OKC",
+        "seed": 2,
+        "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Los Angeles Clippers",
+        "alias": "LAC",
+        "seed": 3,
+        "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "df20040c-0f49-4147-8c34-cee34e595570",
+      "title": "Game 2",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-08T23:00:00+00:00",
+      "venue": {
+        "id": "b67d5f09-28b2-5bc6-9097-af312007d2f4",
+        "name": "American Airlines Arena",
+        "capacity": 19600,
+        "address": "601 Biscayne Blvd.",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "33132",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ESPN2",
+        "satellite": "209",
+        "internet": "WatchESPN"
+      },
+      "home": {
+        "name": "Miami Heat",
+        "alias": "MIA",
+        "seed": 2,
+        "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Brooklyn Nets",
+        "alias": "BKN",
+        "seed": 6,
+        "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "fb68e87f-ee4a-4d35-9be5-3821c8ae26ce",
+      "title": "Game 2",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-09T01:30:00+00:00",
+      "venue": {
+        "id": "8a7580c0-4052-54d5-85cd-85aab6200acf",
+        "name": "AT&T Center",
+        "capacity": 18581,
+        "address": "One AT&T Center Parkway",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "78219",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ESPN2",
+        "satellite": "209",
+        "internet": "WatchESPN"
+      },
+      "home": {
+        "name": "San Antonio Spurs",
+        "alias": "SAS",
+        "seed": 1,
+        "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Portland Trail Blazers",
+        "alias": "POR",
+        "seed": 5,
+        "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "568a7230-182e-4de1-8855-a2d0831f5cb0",
+      "title": "Game 3",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-10T00:00:00+00:00",
+      "venue": {
+        "id": "f62d5b49-d646-56e9-ba60-a875a00830f8",
+        "name": "Verizon Center",
+        "capacity": 20290,
+        "address": "601 F St. N.W.",
+        "city": "Washington",
+        "state": "DC",
+        "zip": "20004",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ESPN",
+        "satellite": "206",
+        "internet": "WatchESPN"
+      },
+      "home": {
+        "name": "Washington Wizards",
+        "alias": "WAS",
+        "seed": 5,
+        "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Indiana Pacers",
+        "alias": "IND",
+        "seed": 1,
+        "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "b5e53f50-a19f-42cd-8758-cd7b8734cc82",
+      "title": "Game 3",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-10T02:30:00+00:00",
+      "venue": {
+        "id": "792ec100-691e-5e16-8ef8-79b2b6ee38ba",
+        "name": "Staples Center",
+        "capacity": 18997,
+        "address": "1111 S. Figueroa St.",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90015",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ESPN",
+        "satellite": "206",
+        "internet": "WatchESPN"
+      },
+      "home": {
+        "name": "Los Angeles Clippers",
+        "alias": "LAC",
+        "seed": 3,
+        "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Oklahoma City Thunder",
+        "alias": "OKC",
+        "seed": 2,
+        "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "62d77bf5-1885-4034-8f5d-d6ee10572ee8",
+      "title": "Game 3",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-11T00:00:00+00:00",
+      "venue": {
+        "id": "7a330bcd-ac0f-50ca-bc29-2460e5c476b3",
+        "name": "Barclays Center",
+        "capacity": 18200,
+        "address": "620 Atlantic Avenue.",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11217",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ABC"
+      },
+      "home": {
+        "name": "Brooklyn Nets",
+        "alias": "BKN",
+        "seed": 6,
+        "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Miami Heat",
+        "alias": "MIA",
+        "seed": 2,
+        "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "3e1fa36e-7e7a-4fea-8fa6-ead747824cc1",
+      "title": "Game 3",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-11T02:30:00+00:00",
+      "venue": {
+        "id": "1d1f74a2-7b35-56f0-8cbd-552c51cb2c14",
+        "name": "Moda Center",
+        "capacity": 19980,
+        "address": "1 Center Court",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "97227",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ESPN",
+        "satellite": "206",
+        "internet": "WatchESPN"
+      },
+      "home": {
+        "name": "Portland Trail Blazers",
+        "alias": "POR",
+        "seed": 5,
+        "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "San Antonio Spurs",
+        "alias": "SAS",
+        "seed": 1,
+        "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "2c363dad-4fdc-448c-8c29-ebdf7b3d8538",
+      "title": "Game 4",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-11T19:30:00+00:00",
+      "venue": {
+        "id": "792ec100-691e-5e16-8ef8-79b2b6ee38ba",
+        "name": "Staples Center",
+        "capacity": 18997,
+        "address": "1111 S. Figueroa St.",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90015",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ABC"
+      },
+      "home": {
+        "name": "Los Angeles Clippers",
+        "alias": "LAC",
+        "seed": 3,
+        "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Oklahoma City Thunder",
+        "alias": "OKC",
+        "seed": 2,
+        "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "f8997113-cfb0-4893-a32a-56e4b90a9eb0",
+      "title": "Game 4",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-12T00:00:00+00:00",
+      "venue": {
+        "id": "f62d5b49-d646-56e9-ba60-a875a00830f8",
+        "name": "Verizon Center",
+        "capacity": 20290,
+        "address": "601 F St. N.W.",
+        "city": "Washington",
+        "state": "DC",
+        "zip": "20004",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "Washington Wizards",
+        "alias": "WAS",
+        "seed": 5,
+        "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Indiana Pacers",
+        "alias": "IND",
+        "seed": 1,
+        "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "00450af1-266c-47aa-b9e1-66991c8f7431",
+      "title": "Game 4",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-13T00:00:00+00:00",
+      "venue": {
+        "id": "7a330bcd-ac0f-50ca-bc29-2460e5c476b3",
+        "name": "Barclays Center",
+        "capacity": 18200,
+        "address": "620 Atlantic Avenue.",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11217",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "Brooklyn Nets",
+        "alias": "BKN",
+        "seed": 6,
+        "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Miami Heat",
+        "alias": "MIA",
+        "seed": 2,
+        "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "25167c1b-48af-4ec8-adca-141deb374f25",
+      "title": "Game 4",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-13T02:30:00+00:00",
+      "venue": {
+        "id": "1d1f74a2-7b35-56f0-8cbd-552c51cb2c14",
+        "name": "Moda Center",
+        "capacity": 19980,
+        "address": "1 Center Court",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "97227",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "Portland Trail Blazers",
+        "alias": "POR",
+        "seed": 5,
+        "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "San Antonio Spurs",
+        "alias": "SAS",
+        "seed": 1,
+        "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "765a520e-f9df-4480-ab45-df26a8c273b3",
+      "title": "Game 5",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-13T23:00:00+00:00",
+      "venue": {
+        "id": "24bb478e-eb31-5f8a-8c8d-07f513169ec1",
+        "name": "Bankers Life Fieldhouse",
+        "capacity": 18165,
+        "address": "125 S. Pennsylvania St.",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "46204",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "Indiana Pacers",
+        "alias": "IND",
+        "seed": 1,
+        "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Washington Wizards",
+        "alias": "WAS",
+        "seed": 5,
+        "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "8db4d0cc-f8b6-4d73-8d1b-13c242df4d06",
+      "title": "Game 5",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-14T01:30:00+00:00",
+      "venue": {
+        "id": "a13af216-4409-5021-8dd5-255cc71bffc3",
+        "name": "Chesapeake Energy Arena",
+        "capacity": 18203,
+        "address": "100 W. Reno Ave.",
+        "city": "Oklahoma City",
+        "state": "OK",
+        "zip": "73102",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "Oklahoma City Thunder",
+        "alias": "OKC",
+        "seed": 2,
+        "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Los Angeles Clippers",
+        "alias": "LAC",
+        "seed": 3,
+        "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "e07612c4-423c-4962-8d1b-8c52e4cb0697",
+      "title": "Game 5",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-14T23:00:00+00:00",
+      "venue": {
+        "id": "b67d5f09-28b2-5bc6-9097-af312007d2f4",
+        "name": "American Airlines Arena",
+        "capacity": 19600,
+        "address": "601 Biscayne Blvd.",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "33132",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "Miami Heat",
+        "alias": "MIA",
+        "seed": 2,
+        "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Brooklyn Nets",
+        "alias": "BKN",
+        "seed": 6,
+        "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "170c89e5-4ad1-467d-a319-ff8f8daa24cb",
+      "title": "Game 5",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-15T01:30:00+00:00",
+      "venue": {
+        "id": "8a7580c0-4052-54d5-85cd-85aab6200acf",
+        "name": "AT&T Center",
+        "capacity": 18581,
+        "address": "One AT&T Center Parkway",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "78219",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "San Antonio Spurs",
+        "alias": "SAS",
+        "seed": 1,
+        "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Portland Trail Blazers",
+        "alias": "POR",
+        "seed": 5,
+        "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "a063068d-7146-4e5c-854e-699f371e207e",
+      "title": "Game 6",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-16T00:00:00+00:00",
+      "venue": {
+        "id": "f62d5b49-d646-56e9-ba60-a875a00830f8",
+        "name": "Verizon Center",
+        "capacity": 20290,
+        "address": "601 F St. N.W.",
+        "city": "Washington",
+        "state": "DC",
+        "zip": "20004",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ESPN",
+        "satellite": "206",
+        "internet": "WatchESPN"
+      },
+      "home": {
+        "name": "Washington Wizards",
+        "alias": "WAS",
+        "seed": 5,
+        "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Indiana Pacers",
+        "alias": "IND",
+        "seed": 1,
+        "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "1739c2c5-86c6-4b0a-bcf8-6175e1310f1b",
+      "title": "Game 6",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-16T02:30:00+00:00",
+      "venue": {
+        "id": "792ec100-691e-5e16-8ef8-79b2b6ee38ba",
+        "name": "Staples Center",
+        "capacity": 18997,
+        "address": "1111 S. Figueroa St.",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90015",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ESPN",
+        "satellite": "206",
+        "internet": "WatchESPN"
+      },
+      "home": {
+        "name": "Los Angeles Clippers",
+        "alias": "LAC",
+        "seed": 3,
+        "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Oklahoma City Thunder",
+        "alias": "OKC",
+        "seed": 2,
+        "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "336cef4f-8c01-493f-bcb3-e7b51e8f3908",
+      "title": "Game 6 (if necessary)",
+      "status": "unnecessary",
+      "coverage": "full",
+      "scheduled": "2014-05-17T00:00:00+00:00",
+      "venue": {
+        "id": "1d1f74a2-7b35-56f0-8cbd-552c51cb2c14",
+        "name": "Moda Center",
+        "capacity": 19980,
+        "address": "1 Center Court",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "97227",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ESPN",
+        "satellite": "206",
+        "internet": "WatchESPN"
+      },
+      "home": {
+        "name": "Portland Trail Blazers",
+        "alias": "POR",
+        "seed": 5,
+        "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "San Antonio Spurs",
+        "alias": "SAS",
+        "seed": 1,
+        "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "adbc7b1d-9331-40bd-bc61-ec7ee129be67",
+      "title": "Game 6 (if necessary)",
+      "status": "unnecessary",
+      "coverage": "full",
+      "scheduled": "2014-05-17T00:00:00+00:00",
+      "venue": {
+        "id": "7a330bcd-ac0f-50ca-bc29-2460e5c476b3",
+        "name": "Barclays Center",
+        "capacity": 18200,
+        "address": "620 Atlantic Avenue.",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11217",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ESPN",
+        "satellite": "206",
+        "internet": "WatchESPN"
+      },
+      "home": {
+        "name": "Brooklyn Nets",
+        "alias": "BKN",
+        "seed": 6,
+        "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Miami Heat",
+        "alias": "MIA",
+        "seed": 2,
+        "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "8252d0d1-5795-4b18-bcdf-fe11605e27b8",
+      "title": "Game 1",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-18T19:30:00+00:00",
+      "venue": {
+        "id": "24bb478e-eb31-5f8a-8c8d-07f513169ec1",
+        "name": "Bankers Life Fieldhouse",
+        "capacity": 18165,
+        "address": "125 S. Pennsylvania St.",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "46204",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ABC"
+      },
+      "home": {
+        "name": "Indiana Pacers",
+        "alias": "IND",
+        "seed": 1,
+        "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Miami Heat",
+        "alias": "MIA",
+        "seed": 2,
+        "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "b180abae-955e-4a38-9cb7-aa7138403688",
+      "title": "Game 7 (if necessary)",
+      "status": "unnecessary",
+      "coverage": "full",
+      "scheduled": "2014-05-19T00:00:00+00:00",
+      "venue": {
+        "id": "24bb478e-eb31-5f8a-8c8d-07f513169ec1",
+        "name": "Bankers Life Fieldhouse",
+        "capacity": 18165,
+        "address": "125 S. Pennsylvania St.",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "46204",
+        "country": "USA"
+      },
+      "home": {
+        "name": "Indiana Pacers",
+        "alias": "IND",
+        "seed": 1,
+        "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Washington Wizards",
+        "alias": "WAS",
+        "seed": 5,
+        "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "f8f2d944-7bc0-4818-9240-83d92e15c2a2",
+      "title": "Game 7 (if necessary)",
+      "status": "unnecessary",
+      "coverage": "full",
+      "scheduled": "2014-05-19T00:00:00+00:00",
+      "venue": {
+        "id": "b67d5f09-28b2-5bc6-9097-af312007d2f4",
+        "name": "American Airlines Arena",
+        "capacity": 19600,
+        "address": "601 Biscayne Blvd.",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "33132",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ABC"
+      },
+      "home": {
+        "name": "Miami Heat",
+        "alias": "MIA",
+        "seed": 2,
+        "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Brooklyn Nets",
+        "alias": "BKN",
+        "seed": 6,
+        "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "03c1a43b-c216-4973-b7db-ebccb0afa4cd",
+      "title": "Game 7 (if necessary)",
+      "status": "unnecessary",
+      "coverage": "full",
+      "scheduled": "2014-05-19T00:30:00+00:00",
+      "venue": {
+        "id": "a13af216-4409-5021-8dd5-255cc71bffc3",
+        "name": "Chesapeake Energy Arena",
+        "capacity": 18203,
+        "address": "100 W. Reno Ave.",
+        "city": "Oklahoma City",
+        "state": "OK",
+        "zip": "73102",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "Oklahoma City Thunder",
+        "alias": "OKC",
+        "seed": 2,
+        "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Los Angeles Clippers",
+        "alias": "LAC",
+        "seed": 3,
+        "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "708ef46b-47ed-4689-8f81-dc857ad115f3",
+      "title": "Game 7 (if necessary)",
+      "status": "unnecessary",
+      "coverage": "full",
+      "scheduled": "2014-05-20T00:00:00+00:00",
+      "venue": {
+        "id": "8a7580c0-4052-54d5-85cd-85aab6200acf",
+        "name": "AT&T Center",
+        "capacity": 18581,
+        "address": "One AT&T Center Parkway",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "78219",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "San Antonio Spurs",
+        "alias": "SAS",
+        "seed": 1,
+        "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Portland Trail Blazers",
+        "alias": "POR",
+        "seed": 5,
+        "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "840bf0ea-427e-4b30-9669-a44e0b1b8cb7",
+      "title": "Game 1",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-20T01:00:00+00:00",
+      "venue": {
+        "id": "8a7580c0-4052-54d5-85cd-85aab6200acf",
+        "name": "AT&T Center",
+        "capacity": 18581,
+        "address": "One AT&T Center Parkway",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "78219",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "San Antonio Spurs",
+        "alias": "SAS",
+        "seed": 1,
+        "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Oklahoma City Thunder",
+        "alias": "OKC",
+        "seed": 2,
+        "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "9d7e036f-4a34-400f-8230-d60b8bdb9cc5",
+      "title": "Game 2",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-21T00:30:00+00:00",
+      "venue": {
+        "id": "24bb478e-eb31-5f8a-8c8d-07f513169ec1",
+        "name": "Bankers Life Fieldhouse",
+        "capacity": 18165,
+        "address": "125 S. Pennsylvania St.",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "46204",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ESPN",
+        "satellite": "206",
+        "internet": "WatchESPN"
+      },
+      "home": {
+        "name": "Indiana Pacers",
+        "alias": "IND",
+        "seed": 1,
+        "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Miami Heat",
+        "alias": "MIA",
+        "seed": 2,
+        "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "058e03b4-867b-4d64-853a-11aa7b4acd7c",
+      "title": "Game 2",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-22T01:00:00+00:00",
+      "venue": {
+        "id": "8a7580c0-4052-54d5-85cd-85aab6200acf",
+        "name": "AT&T Center",
+        "capacity": 18581,
+        "address": "One AT&T Center Parkway",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "78219",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "San Antonio Spurs",
+        "alias": "SAS",
+        "seed": 1,
+        "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Oklahoma City Thunder",
+        "alias": "OKC",
+        "seed": 2,
+        "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "7bcae4c7-073d-485b-af1e-59c014913305",
+      "title": "Game 3",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-25T00:30:00+00:00",
+      "venue": {
+        "id": "b67d5f09-28b2-5bc6-9097-af312007d2f4",
+        "name": "American Airlines Arena",
+        "capacity": 19600,
+        "address": "601 Biscayne Blvd.",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "33132",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ESPN",
+        "satellite": "206",
+        "internet": "WatchESPN"
+      },
+      "home": {
+        "name": "Miami Heat",
+        "alias": "MIA",
+        "seed": 2,
+        "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Indiana Pacers",
+        "alias": "IND",
+        "seed": 1,
+        "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "075a91f2-83c6-4875-a95f-be9faea99b8f",
+      "title": "Game 3",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-26T00:30:00+00:00",
+      "venue": {
+        "id": "a13af216-4409-5021-8dd5-255cc71bffc3",
+        "name": "Chesapeake Energy Arena",
+        "capacity": 18203,
+        "address": "100 W. Reno Ave.",
+        "city": "Oklahoma City",
+        "state": "OK",
+        "zip": "73102",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "Oklahoma City Thunder",
+        "alias": "OKC",
+        "seed": 2,
+        "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "San Antonio Spurs",
+        "alias": "SAS",
+        "seed": 1,
+        "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "709a6385-8256-4eae-98eb-68e613ce7772",
+      "title": "Game 4",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-27T00:30:00+00:00",
+      "venue": {
+        "id": "b67d5f09-28b2-5bc6-9097-af312007d2f4",
+        "name": "American Airlines Arena",
+        "capacity": 19600,
+        "address": "601 Biscayne Blvd.",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "33132",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ESPN",
+        "satellite": "206",
+        "internet": "WatchESPN"
+      },
+      "home": {
+        "name": "Miami Heat",
+        "alias": "MIA",
+        "seed": 2,
+        "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Indiana Pacers",
+        "alias": "IND",
+        "seed": 1,
+        "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "7c404f16-885e-4dbb-9e61-e41a51202150",
+      "title": "Game 4",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-28T01:00:00+00:00",
+      "venue": {
+        "id": "a13af216-4409-5021-8dd5-255cc71bffc3",
+        "name": "Chesapeake Energy Arena",
+        "capacity": 18203,
+        "address": "100 W. Reno Ave.",
+        "city": "Oklahoma City",
+        "state": "OK",
+        "zip": "73102",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "Oklahoma City Thunder",
+        "alias": "OKC",
+        "seed": 2,
+        "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "San Antonio Spurs",
+        "alias": "SAS",
+        "seed": 1,
+        "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "209669df-0a31-4015-a61c-17f048c9d54c",
+      "title": "Game 5",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-29T00:30:00+00:00",
+      "venue": {
+        "id": "24bb478e-eb31-5f8a-8c8d-07f513169ec1",
+        "name": "Bankers Life Fieldhouse",
+        "capacity": 18165,
+        "address": "125 S. Pennsylvania St.",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "46204",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ESPN",
+        "satellite": "206",
+        "internet": "WatchESPN"
+      },
+      "home": {
+        "name": "Indiana Pacers",
+        "alias": "IND",
+        "seed": 1,
+        "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Miami Heat",
+        "alias": "MIA",
+        "seed": 2,
+        "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "94575ec2-715c-4fb4-9bfc-25d934f67c7e",
+      "title": "Game 5",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-30T01:00:00+00:00",
+      "venue": {
+        "id": "8a7580c0-4052-54d5-85cd-85aab6200acf",
+        "name": "AT&T Center",
+        "capacity": 18581,
+        "address": "One AT&T Center Parkway",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "78219",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "San Antonio Spurs",
+        "alias": "SAS",
+        "seed": 1,
+        "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Oklahoma City Thunder",
+        "alias": "OKC",
+        "seed": 2,
+        "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "7398028d-bdc8-492c-8727-2f7f386027fa",
+      "title": "Game 6",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-05-31T00:30:00+00:00",
+      "venue": {
+        "id": "b67d5f09-28b2-5bc6-9097-af312007d2f4",
+        "name": "American Airlines Arena",
+        "capacity": 19600,
+        "address": "601 Biscayne Blvd.",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "33132",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ESPN",
+        "satellite": "206",
+        "internet": "WatchESPN"
+      },
+      "home": {
+        "name": "Miami Heat",
+        "alias": "MIA",
+        "seed": 2,
+        "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Indiana Pacers",
+        "alias": "IND",
+        "seed": 1,
+        "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "dd4c372f-849d-4009-948c-2bf7292c860d",
+      "title": "Game 6",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-06-01T00:30:00+00:00",
+      "venue": {
+        "id": "a13af216-4409-5021-8dd5-255cc71bffc3",
+        "name": "Chesapeake Energy Arena",
+        "capacity": 18203,
+        "address": "100 W. Reno Ave.",
+        "city": "Oklahoma City",
+        "state": "OK",
+        "zip": "73102",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "Oklahoma City Thunder",
+        "alias": "OKC",
+        "seed": 2,
+        "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "San Antonio Spurs",
+        "alias": "SAS",
+        "seed": 1,
+        "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "673454b2-f6d8-4657-8901-940cecef00b9",
+      "title": "Game 7 (if necessary)",
+      "status": "unnecessary",
+      "coverage": "full",
+      "scheduled": "2014-06-02T00:30:00+00:00",
+      "venue": {
+        "id": "24bb478e-eb31-5f8a-8c8d-07f513169ec1",
+        "name": "Bankers Life Fieldhouse",
+        "capacity": 18165,
+        "address": "125 S. Pennsylvania St.",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "46204",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ESPN",
+        "satellite": "206",
+        "internet": "WatchESPN"
+      },
+      "home": {
+        "name": "Indiana Pacers",
+        "alias": "IND",
+        "seed": 1,
+        "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Miami Heat",
+        "alias": "MIA",
+        "seed": 2,
+        "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "43426c87-a390-4754-bfd2-bc03a87e7611",
+      "title": "Game 7 (if necessary)",
+      "status": "unnecessary",
+      "coverage": "full",
+      "scheduled": "2014-06-03T01:00:00+00:00",
+      "venue": {
+        "id": "8a7580c0-4052-54d5-85cd-85aab6200acf",
+        "name": "AT&T Center",
+        "capacity": 18581,
+        "address": "One AT&T Center Parkway",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "78219",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "TNT",
+        "satellite": "245"
+      },
+      "home": {
+        "name": "San Antonio Spurs",
+        "alias": "SAS",
+        "seed": 1,
+        "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Oklahoma City Thunder",
+        "alias": "OKC",
+        "seed": 2,
+        "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "aa73eece-131d-44f6-95dc-cbdb7bcf3bf7",
+      "title": "Game 1",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-06-06T01:00:00+00:00",
+      "venue": {
+        "id": "8a7580c0-4052-54d5-85cd-85aab6200acf",
+        "name": "AT&T Center",
+        "capacity": 18581,
+        "address": "One AT&T Center Parkway",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "78219",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ABC"
+      },
+      "home": {
+        "name": "San Antonio Spurs",
+        "alias": "SAS",
+        "seed": 1,
+        "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Miami Heat",
+        "alias": "MIA",
+        "seed": 2,
+        "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "b29133e0-6813-4858-963d-f1f4081ce156",
+      "title": "Game 2",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-06-09T00:00:00+00:00",
+      "venue": {
+        "id": "8a7580c0-4052-54d5-85cd-85aab6200acf",
+        "name": "AT&T Center",
+        "capacity": 18581,
+        "address": "One AT&T Center Parkway",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "78219",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ABC"
+      },
+      "home": {
+        "name": "San Antonio Spurs",
+        "alias": "SAS",
+        "seed": 1,
+        "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Miami Heat",
+        "alias": "MIA",
+        "seed": 2,
+        "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "f2b162ea-9d24-454f-a201-95a5cd6ae266",
+      "title": "Game 3",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-06-11T01:00:00+00:00",
+      "venue": {
+        "id": "b67d5f09-28b2-5bc6-9097-af312007d2f4",
+        "name": "American Airlines Arena",
+        "capacity": 19600,
+        "address": "601 Biscayne Blvd.",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "33132",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ABC"
+      },
+      "home": {
+        "name": "Miami Heat",
+        "alias": "MIA",
+        "seed": 2,
+        "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "San Antonio Spurs",
+        "alias": "SAS",
+        "seed": 1,
+        "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "a190f8de-2697-4099-b4af-81a20a53b387",
+      "title": "Game 4",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-06-13T01:00:00+00:00",
+      "venue": {
+        "id": "b67d5f09-28b2-5bc6-9097-af312007d2f4",
+        "name": "American Airlines Arena",
+        "capacity": 19600,
+        "address": "601 Biscayne Blvd.",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "33132",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ABC"
+      },
+      "home": {
+        "name": "Miami Heat",
+        "alias": "MIA",
+        "seed": 2,
+        "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "San Antonio Spurs",
+        "alias": "SAS",
+        "seed": 1,
+        "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "5c0218d6-5cbc-428b-9a52-9f53bec2a128",
+      "title": "Game 5",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2014-06-16T00:00:00+00:00",
+      "venue": {
+        "id": "8a7580c0-4052-54d5-85cd-85aab6200acf",
+        "name": "AT&T Center",
+        "capacity": 18581,
+        "address": "One AT&T Center Parkway",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "78219",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ABC"
+      },
+      "home": {
+        "name": "San Antonio Spurs",
+        "alias": "SAS",
+        "seed": 1,
+        "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Miami Heat",
+        "alias": "MIA",
+        "seed": 2,
+        "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "066198fe-54a5-42ab-a533-fe9194af4ac2",
+      "title": "Game 6 (if necessary)",
+      "status": "unnecessary",
+      "coverage": "full",
+      "scheduled": "2014-06-18T01:00:00+00:00",
+      "venue": {
+        "id": "b67d5f09-28b2-5bc6-9097-af312007d2f4",
+        "name": "American Airlines Arena",
+        "capacity": 19600,
+        "address": "601 Biscayne Blvd.",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "33132",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ABC"
+      },
+      "home": {
+        "name": "Miami Heat",
+        "alias": "MIA",
+        "seed": 2,
+        "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "San Antonio Spurs",
+        "alias": "SAS",
+        "seed": 1,
+        "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    },
+    {
+      "id": "e40a894a-1968-420b-a390-02a9addf47d6",
+      "title": "Game 7 (if necessary)",
+      "status": "unnecessary",
+      "coverage": "full",
+      "scheduled": "2014-06-21T01:00:00+00:00",
+      "venue": {
+        "id": "8a7580c0-4052-54d5-85cd-85aab6200acf",
+        "name": "AT&T Center",
+        "capacity": 18581,
+        "address": "One AT&T Center Parkway",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "78219",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ABC"
+      },
+      "home": {
+        "name": "San Antonio Spurs",
+        "alias": "SAS",
+        "seed": 1,
+        "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Miami Heat",
+        "alias": "MIA",
+        "seed": 2,
+        "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    }
+  ]
+}

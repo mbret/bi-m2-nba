@@ -1,0 +1,38 @@
+{
+  "id": "076a871b-2979-4402-acd4-2d9510615ef1",
+  "status": "closed",
+  "coverage": "boxscore",
+  "scheduled": "2013-10-26T00:30:00+00:00",
+  "clock": "00:00",
+  "quarter": 1,
+  "home": {
+    "name": "Bucks",
+    "market": "Milwaukee",
+    "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 0,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 0,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {}
+  },
+  "away": {
+    "name": "Raptors",
+    "market": "Toronto",
+    "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 0,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 0,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {}
+  }
+}

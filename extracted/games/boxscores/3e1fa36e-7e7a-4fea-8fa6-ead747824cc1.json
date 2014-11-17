@@ -1,0 +1,309 @@
+{
+  "id": "3e1fa36e-7e7a-4fea-8fa6-ead747824cc1",
+  "title": "Game 3",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2014-05-11T02:30:00+00:00",
+  "duration": "2:28",
+  "attendance": 20321,
+  "lead_changes": 2,
+  "times_tied": 0,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Trail Blazers",
+    "market": "Portland",
+    "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 103,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 18,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 22,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 29,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 34,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Wesley Matthews",
+          "position": "G",
+          "primary_position": "SG",
+          "jersey_number": "2",
+          "id": "795bcca3-0cca-448c-8198-85c664f76c75",
+          "statistics": {
+            "minutes": "39:43",
+            "field_goals_made": 6,
+            "field_goals_att": 14,
+            "field_goals_pct": 42.9,
+            "three_points_made": 4,
+            "three_points_att": 10,
+            "three_points_pct": 40,
+            "two_points_made": 2,
+            "two_points_att": 4,
+            "two_points_pct": 0.5,
+            "blocked_att": 0,
+            "free_throws_made": 6,
+            "free_throws_att": 7,
+            "free_throws_pct": 85.7,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 4,
+            "rebounds": 4,
+            "assists": 1,
+            "turnovers": 1,
+            "steals": 2,
+            "blocks": 0,
+            "assists_turnover_ratio": 1,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -10,
+            "points": 22
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "LaMarcus Aldridge",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "12",
+          "id": "3157a0b5-1b4c-46d1-934c-ac2df3810950",
+          "statistics": {
+            "minutes": "39:10",
+            "field_goals_made": 9,
+            "field_goals_att": 23,
+            "field_goals_pct": 39.1,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 9,
+            "two_points_att": 23,
+            "two_points_pct": 0.391,
+            "blocked_att": 0,
+            "free_throws_made": 3,
+            "free_throws_att": 4,
+            "free_throws_pct": 75,
+            "offensive_rebounds": 3,
+            "defensive_rebounds": 9,
+            "rebounds": 12,
+            "assists": 1,
+            "turnovers": 2,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 0.5,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -7,
+            "points": 21
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Damian Lillard",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "0",
+          "id": "5382cf43-3a79-4a5a-a7fd-153906fe65dd",
+          "statistics": {
+            "minutes": "43:01",
+            "field_goals_made": 7,
+            "field_goals_att": 21,
+            "field_goals_pct": 33.3,
+            "three_points_made": 0,
+            "three_points_att": 6,
+            "three_points_pct": 0,
+            "two_points_made": 7,
+            "two_points_att": 15,
+            "two_points_pct": 0.467,
+            "blocked_att": 0,
+            "free_throws_made": 7,
+            "free_throws_att": 7,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 2,
+            "rebounds": 3,
+            "assists": 9,
+            "turnovers": 2,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 4.5,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -8,
+            "points": 21
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Spurs",
+    "market": "San Antonio",
+    "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 118,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 28,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 32,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 23,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 35,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Tony Parker",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "9",
+          "id": "b1b2d578-44df-4e05-9884-31dd89e82cf0",
+          "statistics": {
+            "minutes": "34:57",
+            "field_goals_made": 12,
+            "field_goals_att": 20,
+            "field_goals_pct": 60,
+            "three_points_made": 2,
+            "three_points_att": 3,
+            "three_points_pct": 66.7,
+            "two_points_made": 10,
+            "two_points_att": 17,
+            "two_points_pct": 0.588,
+            "blocked_att": 0,
+            "free_throws_made": 3,
+            "free_throws_att": 3,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 1,
+            "rebounds": 2,
+            "assists": 6,
+            "turnovers": 3,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 2,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 2,
+            "points": 29
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Kawhi Leonard",
+          "position": "F-G",
+          "primary_position": "SF",
+          "jersey_number": "2",
+          "id": "c12fb587-fc86-471c-8a84-19caf31325ce",
+          "statistics": {
+            "minutes": "28:55",
+            "field_goals_made": 4,
+            "field_goals_att": 10,
+            "field_goals_pct": 40,
+            "three_points_made": 1,
+            "three_points_att": 3,
+            "three_points_pct": 33.3,
+            "two_points_made": 3,
+            "two_points_att": 7,
+            "two_points_pct": 0.429,
+            "blocked_att": 0,
+            "free_throws_made": 7,
+            "free_throws_att": 7,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 10,
+            "rebounds": 10,
+            "assists": 0,
+            "turnovers": 0,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 3,
+            "points": 16
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Tony Parker",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "9",
+          "id": "b1b2d578-44df-4e05-9884-31dd89e82cf0",
+          "statistics": {
+            "minutes": "34:57",
+            "field_goals_made": 12,
+            "field_goals_att": 20,
+            "field_goals_pct": 60,
+            "three_points_made": 2,
+            "three_points_att": 3,
+            "three_points_pct": 66.7,
+            "two_points_made": 10,
+            "two_points_att": 17,
+            "two_points_pct": 0.588,
+            "blocked_att": 0,
+            "free_throws_made": 3,
+            "free_throws_att": 3,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 1,
+            "rebounds": 2,
+            "assists": 6,
+            "turnovers": 3,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 2,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 2,
+            "points": 29
+          }
+        }
+      ]
+    }
+  }
+}

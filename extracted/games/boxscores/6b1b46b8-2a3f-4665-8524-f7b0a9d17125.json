@@ -1,0 +1,306 @@
+{
+  "id": "6b1b46b8-2a3f-4665-8524-f7b0a9d17125",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2013-10-17T00:00:00+00:00",
+  "duration": "2:12",
+  "attendance": 21405,
+  "lead_changes": 0,
+  "times_tied": 1,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Bulls",
+    "market": "Chicago",
+    "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 96,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 24,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 31,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 21,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 20,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Derrick Rose",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "1",
+          "id": "48341095-ae5a-4d61-bcc8-1b0ceed870b2",
+          "statistics": {
+            "minutes": "22:01",
+            "field_goals_made": 6,
+            "field_goals_att": 9,
+            "field_goals_pct": 66.7,
+            "three_points_made": 1,
+            "three_points_att": 2,
+            "three_points_pct": 50,
+            "two_points_made": 5,
+            "two_points_att": 7,
+            "two_points_pct": 0.714,
+            "blocked_att": 1,
+            "free_throws_made": 9,
+            "free_throws_att": 10,
+            "free_throws_pct": 90,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 2,
+            "rebounds": 2,
+            "assists": 2,
+            "turnovers": 1,
+            "steals": 0,
+            "blocks": 1,
+            "assists_turnover_ratio": 2,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 25,
+            "points": 22
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Taj Gibson",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "22",
+          "id": "9c8dc8ee-6207-48d5-81ee-f362f5e17f9b",
+          "statistics": {
+            "minutes": "23:16",
+            "field_goals_made": 4,
+            "field_goals_att": 8,
+            "field_goals_pct": 50,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 4,
+            "two_points_att": 8,
+            "two_points_pct": 0.5,
+            "blocked_att": 0,
+            "free_throws_made": 3,
+            "free_throws_att": 8,
+            "free_throws_pct": 37.5,
+            "offensive_rebounds": 5,
+            "defensive_rebounds": 7,
+            "rebounds": 12,
+            "assists": 0,
+            "turnovers": 1,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "points": 11
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Kirk Hinrich",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "12",
+          "id": "2ef5faba-5362-4111-98ed-22f7c639521e",
+          "statistics": {
+            "minutes": "25:13",
+            "field_goals_made": 2,
+            "field_goals_att": 6,
+            "field_goals_pct": 33.3,
+            "three_points_made": 1,
+            "three_points_att": 3,
+            "three_points_pct": 33.3,
+            "two_points_made": 1,
+            "two_points_att": 3,
+            "two_points_pct": 0.333,
+            "blocked_att": 0,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 3,
+            "rebounds": 3,
+            "assists": 5,
+            "turnovers": 2,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 2.5,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 8,
+            "points": 5
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Pistons",
+    "market": "Detroit",
+    "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 81,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 16,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 18,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 19,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 28,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Kentavious Caldwell-Pope",
+          "position": "G",
+          "primary_position": "SG",
+          "jersey_number": "5",
+          "id": "cecc054e-b9ec-4c71-8bbb-5ee665a8c3a9",
+          "statistics": {
+            "minutes": "39:53",
+            "field_goals_made": 6,
+            "field_goals_att": 17,
+            "field_goals_pct": 35.3,
+            "three_points_made": 3,
+            "three_points_att": 4,
+            "three_points_pct": 75,
+            "two_points_made": 3,
+            "two_points_att": 13,
+            "two_points_pct": 0.231,
+            "blocked_att": 1,
+            "free_throws_made": 3,
+            "free_throws_att": 3,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 5,
+            "rebounds": 7,
+            "assists": 1,
+            "turnovers": 1,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 1,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -14,
+            "points": 18
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Andre Drummond",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "0",
+          "id": "440b769d-2b8b-477f-80d7-cb21d83c0d52",
+          "statistics": {
+            "minutes": "27:31",
+            "field_goals_made": 1,
+            "field_goals_att": 7,
+            "field_goals_pct": 14.3,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 1,
+            "two_points_att": 7,
+            "two_points_pct": 0.143,
+            "blocked_att": 0,
+            "free_throws_made": 3,
+            "free_throws_att": 6,
+            "free_throws_pct": 50,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 8,
+            "rebounds": 10,
+            "assists": 0,
+            "turnovers": 3,
+            "steals": 0,
+            "blocks": 1,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -26,
+            "points": 5
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Peyton Siva",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "34",
+          "id": "246a3ea8-462d-4eeb-802d-e464cde2ce0c",
+          "statistics": {
+            "minutes": "26:25",
+            "field_goals_made": 1,
+            "field_goals_att": 7,
+            "field_goals_pct": 14.3,
+            "three_points_made": 1,
+            "three_points_att": 2,
+            "three_points_pct": 50,
+            "two_points_made": 0,
+            "two_points_att": 5,
+            "two_points_pct": 0,
+            "blocked_att": 1,
+            "free_throws_made": 1,
+            "free_throws_att": 2,
+            "free_throws_pct": 50,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 1,
+            "rebounds": 1,
+            "assists": 9,
+            "turnovers": 1,
+            "steals": 2,
+            "blocks": 0,
+            "assists_turnover_ratio": 9,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "points": 4
+          }
+        }
+      ]
+    }
+  }
+}

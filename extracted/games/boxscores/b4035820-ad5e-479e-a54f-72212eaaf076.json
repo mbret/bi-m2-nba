@@ -1,0 +1,308 @@
+{
+  "id": "b4035820-ad5e-479e-a54f-72212eaaf076",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2013-11-04T00:30:00+00:00",
+  "duration": "2:17",
+  "attendance": 19812,
+  "lead_changes": 1,
+  "times_tied": 0,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Knicks",
+    "market": "New York",
+    "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 100,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 19,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 30,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 29,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 22,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Carmelo Anthony",
+          "position": "F",
+          "primary_position": "SF",
+          "jersey_number": "7",
+          "id": "32688af1-7ac2-432e-b60a-74b9bd89df57",
+          "statistics": {
+            "minutes": "44:04",
+            "field_goals_made": 8,
+            "field_goals_att": 21,
+            "field_goals_pct": 38.1,
+            "three_points_made": 2,
+            "three_points_att": 6,
+            "three_points_pct": 33.3,
+            "two_points_made": 6,
+            "two_points_att": 15,
+            "two_points_pct": 0.4,
+            "blocked_att": 0,
+            "free_throws_made": 4,
+            "free_throws_att": 5,
+            "free_throws_pct": 80,
+            "offensive_rebounds": 5,
+            "defensive_rebounds": 12,
+            "rebounds": 17,
+            "assists": 3,
+            "turnovers": 5,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 0.6,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 8,
+            "points": 22
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Carmelo Anthony",
+          "position": "F",
+          "primary_position": "SF",
+          "jersey_number": "7",
+          "id": "32688af1-7ac2-432e-b60a-74b9bd89df57",
+          "statistics": {
+            "minutes": "44:04",
+            "field_goals_made": 8,
+            "field_goals_att": 21,
+            "field_goals_pct": 38.1,
+            "three_points_made": 2,
+            "three_points_att": 6,
+            "three_points_pct": 33.3,
+            "two_points_made": 6,
+            "two_points_att": 15,
+            "two_points_pct": 0.4,
+            "blocked_att": 0,
+            "free_throws_made": 4,
+            "free_throws_att": 5,
+            "free_throws_pct": 80,
+            "offensive_rebounds": 5,
+            "defensive_rebounds": 12,
+            "rebounds": 17,
+            "assists": 3,
+            "turnovers": 5,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 0.6,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 8,
+            "points": 22
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Raymond Felton",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "2",
+          "id": "83b736a0-6c1e-4526-b948-e4781251cb73",
+          "statistics": {
+            "minutes": "38:06",
+            "field_goals_made": 3,
+            "field_goals_att": 12,
+            "field_goals_pct": 25,
+            "three_points_made": 0,
+            "three_points_att": 3,
+            "three_points_pct": 0,
+            "two_points_made": 3,
+            "two_points_att": 9,
+            "two_points_pct": 0.333,
+            "blocked_att": 0,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 2,
+            "rebounds": 2,
+            "assists": 12,
+            "turnovers": 3,
+            "steals": 3,
+            "blocks": 1,
+            "assists_turnover_ratio": 4,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -17,
+            "points": 8
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Timberwolves",
+    "market": "Minnesota",
+    "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 109,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 40,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 24,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 29,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 16,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Kevin Love",
+          "position": "F-C",
+          "primary_position": "PF",
+          "jersey_number": "42",
+          "id": "7d615ccd-db96-42a3-9a6c-7f18ea25634e",
+          "statistics": {
+            "minutes": "40:31",
+            "field_goals_made": 10,
+            "field_goals_att": 19,
+            "field_goals_pct": 52.6,
+            "three_points_made": 2,
+            "three_points_att": 8,
+            "three_points_pct": 25,
+            "two_points_made": 8,
+            "two_points_att": 11,
+            "two_points_pct": 0.727,
+            "blocked_att": 0,
+            "free_throws_made": 12,
+            "free_throws_att": 15,
+            "free_throws_pct": 80,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 13,
+            "rebounds": 15,
+            "assists": 5,
+            "turnovers": 4,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 1.25,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 24,
+            "points": 34
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Kevin Love",
+          "position": "F-C",
+          "primary_position": "PF",
+          "jersey_number": "42",
+          "id": "7d615ccd-db96-42a3-9a6c-7f18ea25634e",
+          "statistics": {
+            "minutes": "40:31",
+            "field_goals_made": 10,
+            "field_goals_att": 19,
+            "field_goals_pct": 52.6,
+            "three_points_made": 2,
+            "three_points_att": 8,
+            "three_points_pct": 25,
+            "two_points_made": 8,
+            "two_points_att": 11,
+            "two_points_pct": 0.727,
+            "blocked_att": 0,
+            "free_throws_made": 12,
+            "free_throws_att": 15,
+            "free_throws_pct": 80,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 13,
+            "rebounds": 15,
+            "assists": 5,
+            "turnovers": 4,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 1.25,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 24,
+            "points": 34
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Ricky Rubio",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "9",
+          "id": "a3531f82-7374-41e7-ac71-ef5071ad2a12",
+          "statistics": {
+            "minutes": "40:30",
+            "field_goals_made": 3,
+            "field_goals_att": 11,
+            "field_goals_pct": 27.3,
+            "three_points_made": 0,
+            "three_points_att": 3,
+            "three_points_pct": 0,
+            "two_points_made": 3,
+            "two_points_att": 8,
+            "two_points_pct": 0.375,
+            "blocked_att": 0,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 5,
+            "rebounds": 6,
+            "assists": 10,
+            "turnovers": 4,
+            "steals": 3,
+            "blocks": 0,
+            "assists_turnover_ratio": 2.5,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 13,
+            "points": 8
+          }
+        }
+      ]
+    }
+  }
+}

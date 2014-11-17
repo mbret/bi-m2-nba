@@ -1,0 +1,308 @@
+{
+  "id": "1633136f-1881-43d8-b665-0e01dbe02b1c",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2013-11-17T03:30:00+00:00",
+  "duration": "2:24",
+  "attendance": 19349,
+  "lead_changes": 3,
+  "times_tied": 3,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Clippers",
+    "market": "Los Angeles",
+    "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 110,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 29,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 25,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 22,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 34,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Blake Griffin",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "32",
+          "id": "18358040-89d8-4e25-a6a6-9e209c26fb3a",
+          "statistics": {
+            "minutes": "39:59",
+            "field_goals_made": 12,
+            "field_goals_att": 19,
+            "field_goals_pct": 63.2,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 12,
+            "two_points_att": 19,
+            "two_points_pct": 0.632,
+            "blocked_att": 1,
+            "free_throws_made": 6,
+            "free_throws_att": 11,
+            "free_throws_pct": 54.5,
+            "offensive_rebounds": 3,
+            "defensive_rebounds": 9,
+            "rebounds": 12,
+            "assists": 2,
+            "turnovers": 3,
+            "steals": 0,
+            "blocks": 1,
+            "assists_turnover_ratio": 0.67,
+            "personal_fouls": 5,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 7,
+            "points": 30
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "DeAndre Jordan",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "6",
+          "id": "0036a1fa-ff9a-44a5-8061-68b828ee2b1e",
+          "statistics": {
+            "minutes": "35:11",
+            "field_goals_made": 2,
+            "field_goals_att": 3,
+            "field_goals_pct": 66.7,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 2,
+            "two_points_att": 3,
+            "two_points_pct": 0.667,
+            "blocked_att": 0,
+            "free_throws_made": 5,
+            "free_throws_att": 8,
+            "free_throws_pct": 62.5,
+            "offensive_rebounds": 6,
+            "defensive_rebounds": 10,
+            "rebounds": 16,
+            "assists": 0,
+            "turnovers": 2,
+            "steals": 0,
+            "blocks": 5,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 5,
+            "points": 9
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Chris Paul",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "3",
+          "id": "942c53e3-7268-44e3-b0a9-fdff55a72c03",
+          "statistics": {
+            "minutes": "34:28",
+            "field_goals_made": 3,
+            "field_goals_att": 12,
+            "field_goals_pct": 25,
+            "three_points_made": 2,
+            "three_points_att": 4,
+            "three_points_pct": 50,
+            "two_points_made": 1,
+            "two_points_att": 8,
+            "two_points_pct": 0.125,
+            "blocked_att": 0,
+            "free_throws_made": 4,
+            "free_throws_att": 4,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 7,
+            "rebounds": 7,
+            "assists": 13,
+            "turnovers": 1,
+            "steals": 3,
+            "blocks": 0,
+            "assists_turnover_ratio": 13,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 7,
+            "points": 12
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Nets",
+    "market": "Brooklyn",
+    "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 103,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 26,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 29,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 20,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 28,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Mason Plumlee",
+          "position": "F-C",
+          "primary_position": "C",
+          "jersey_number": "1",
+          "id": "9570a938-324f-40e8-92dd-8a4fcf4a953b",
+          "statistics": {
+            "minutes": "26:36",
+            "field_goals_made": 7,
+            "field_goals_att": 10,
+            "field_goals_pct": 70,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 7,
+            "two_points_att": 10,
+            "two_points_pct": 0.7,
+            "blocked_att": 1,
+            "free_throws_made": 5,
+            "free_throws_att": 12,
+            "free_throws_pct": 41.7,
+            "offensive_rebounds": 4,
+            "defensive_rebounds": 2,
+            "rebounds": 6,
+            "assists": 0,
+            "turnovers": 0,
+            "steals": 1,
+            "blocks": 1,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -9,
+            "points": 19
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Reggie Evans",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "30",
+          "id": "980b7f61-d112-4150-bf02-0f5dbda4deb7",
+          "statistics": {
+            "minutes": "21:45",
+            "field_goals_made": 1,
+            "field_goals_att": 2,
+            "field_goals_pct": 50,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 1,
+            "two_points_att": 2,
+            "two_points_pct": 0.5,
+            "blocked_att": 1,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 9,
+            "rebounds": 11,
+            "assists": 0,
+            "turnovers": 1,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -5,
+            "points": 2
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Joe Johnson",
+          "position": "G-F",
+          "primary_position": "SG",
+          "jersey_number": "7",
+          "id": "2c14656f-1be0-4bd5-9a1f-e9684a89a489",
+          "statistics": {
+            "minutes": "34:17",
+            "field_goals_made": 5,
+            "field_goals_att": 17,
+            "field_goals_pct": 29.4,
+            "three_points_made": 2,
+            "three_points_att": 6,
+            "three_points_pct": 33.3,
+            "two_points_made": 3,
+            "two_points_att": 11,
+            "two_points_pct": 0.273,
+            "blocked_att": 1,
+            "free_throws_made": 1,
+            "free_throws_att": 2,
+            "free_throws_pct": 50,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 2,
+            "rebounds": 3,
+            "assists": 6,
+            "turnovers": 2,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 3,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 1,
+            "points": 13
+          }
+        }
+      ]
+    }
+  }
+}

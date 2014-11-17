@@ -82,7 +82,26 @@
               "desc": "Thumb",
               "status": "Out",
               "start_date": "2014-10-03",
-              "update_date": "2014-11-15"
+              "update_date": "2014-11-16"
+            }
+          ]
+        },
+        {
+          "id": "fd1d76ee-9ec0-460c-b12b-29e584923cb6",
+          "full_name": "Kobe Bryant",
+          "first_name": "Kobe",
+          "last_name": "Bryant",
+          "position": "G",
+          "primary_position": "SG",
+          "jersey_number": "24",
+          "injuries": [
+            {
+              "id": "23a8d62d-6974-4cfc-a5a5-aeddb91b755a",
+              "comment": "Bryant is expected to play in Sunday's (11/16) game.",
+              "desc": "Illness",
+              "status": "Day To Day",
+              "start_date": "2014-11-15",
+              "update_date": "2014-11-16"
             }
           ]
         }
@@ -123,11 +142,11 @@
           "injuries": [
             {
               "id": "5dcbf4c4-29cd-4ed4-9e43-5f439b99c69f",
-              "comment": "Johnson sprained his ankle in Saturday's game and his status for future games is unknown.",
+              "comment": "Johnson is questionable for Monday's (11/17) game.",
               "desc": "Ankle",
               "status": "Day To Day",
               "start_date": "2014-11-15",
-              "update_date": "2014-11-15"
+              "update_date": "2014-11-16"
             }
           ]
         }
@@ -251,11 +270,11 @@
           "injuries": [
             {
               "id": "192f9ddc-f5de-474f-8eec-022e5f4be476",
-              "comment": "Payne is questionable for Saturday's (11/15) game.",
+              "comment": "Payne is questionable for Tuesday's (11/18) game.",
               "desc": "Foot",
               "status": "Day To Day",
               "start_date": "2014-10-31",
-              "update_date": "2014-11-15"
+              "update_date": "2014-11-16"
             }
           ]
         },
@@ -296,11 +315,11 @@
           "injuries": [
             {
               "id": "0ca46fc6-8adf-4b85-9bc0-f4763f843dd5",
-              "comment": "Shumpert is listed as doubtful for Sunday's (11/16) game.",
+              "comment": "Shumpert is out for Sunday's (11/16) game.",
               "desc": "Hip",
               "status": "Day To Day",
               "start_date": "2014-11-14",
-              "update_date": "2014-11-15"
+              "update_date": "2014-11-16"
             }
           ]
         },
@@ -315,11 +334,11 @@
           "injuries": [
             {
               "id": "5bd8f566-285a-47f7-88c8-c8103e1fd020",
-              "comment": "Bargnani is progressing but has not been given a return date.",
+              "comment": "Bargnani will miss Sunday's (11/16) game.",
               "desc": "Hamstring",
               "status": "Out",
               "start_date": "2014-10-21",
-              "update_date": "2014-11-13"
+              "update_date": "2014-11-16"
             }
           ]
         },
@@ -360,11 +379,11 @@
           "injuries": [
             {
               "id": "70092f32-462c-4dcb-a8e3-ed67c2298277",
-              "comment": "Wade is questionable for Sunday's (11/16) game.",
+              "comment": "Wade will not dress for Sunday's (11/16) game.",
               "desc": "Hamstring",
               "status": "Day To Day",
               "start_date": "2014-11-14",
-              "update_date": "2014-11-15"
+              "update_date": "2014-11-16"
             }
           ]
         },
@@ -379,11 +398,11 @@
           "injuries": [
             {
               "id": "af9f14f5-50a0-4676-b322-01dac5786ab0",
-              "comment": "Granger is questionable for Sunday's (11/16) game.",
+              "comment": "Granger is going to dress, but likely won't see any minutes in Sunday's (11/16) game.",
               "desc": "Hamstring",
               "status": "Day To Day",
               "start_date": "2014-11-05",
-              "update_date": "2014-11-15"
+              "update_date": "2014-11-16"
             }
           ]
         },
@@ -398,11 +417,11 @@
           "injuries": [
             {
               "id": "57ea4eb0-cdc9-45dd-b1d9-567257f0f55f",
-              "comment": "McRoberts is questionable for Sunday's (11/16) game.",
+              "comment": "McRoberts will not dress for Sunday's (11/16) game.",
               "desc": "Toe",
               "status": "Day To Day",
               "start_date": "2014-11-14",
-              "update_date": "2014-11-15"
+              "update_date": "2014-11-16"
             }
           ]
         },
@@ -443,11 +462,11 @@
           "injuries": [
             {
               "id": "1cb9b355-d98c-456d-b81f-f3dee6b1282a",
-              "comment": "Gordon was seen Saturday night wearing a walking boot but no injury has been reported.",
-              "desc": "Unknown",
-              "status": "Unknown",
+              "comment": "Gordon is out indefinitely with a broken foot.",
+              "desc": "Foot",
+              "status": "Out Indefinitely",
               "start_date": "2014-11-15",
-              "update_date": "2014-11-15"
+              "update_date": "2014-11-16"
             }
           ]
         },
@@ -507,11 +526,11 @@
           "injuries": [
             {
               "id": "13133278-192e-4a08-a736-de2a1ca7247c",
-              "comment": "West will not play in Saturday's (11/15) game.",
+              "comment": "West is questionable for Wedneday's (11/19) game.",
               "desc": "Ankle",
               "status": "Out",
               "start_date": "2014-10-20",
-              "update_date": "2014-11-14"
+              "update_date": "2014-11-16"
             }
           ]
         },
@@ -545,11 +564,11 @@
           "injuries": [
             {
               "id": "fc6e4691-8d2f-4b6c-8df6-025f20b1033c",
-              "comment": "Miles will not play in Saturday's (11/15) game after suffering a calf injury.",
+              "comment": "Milesis questionable for Wednesday's (11/19) game.",
               "desc": "Calf",
               "status": "Out",
               "start_date": "2014-11-14",
-              "update_date": "2014-11-15"
+              "update_date": "2014-11-16"
             }
           ]
         },
@@ -564,11 +583,11 @@
           "injuries": [
             {
               "id": "478e144e-26d7-459a-aa92-369108f44ffc",
-              "comment": "Watson is targeting to return on November 17.",
+              "comment": "Watson is questionable for Wednesday's (11/19) game.",
               "desc": "Foot",
               "status": "Out",
               "start_date": "2014-10-27",
-              "update_date": "2014-11-13"
+              "update_date": "2014-11-16"
             }
           ]
         },
@@ -583,11 +602,11 @@
           "injuries": [
             {
               "id": "a7d01ee8-24d2-44cc-9cc7-a4cb8228b164",
-              "comment": "Stuckey will not play in Saturday's (11/15) game, but is close to a return.",
+              "comment": "Stuckey is questionable for Wednesday's (11/19) game.",
               "desc": "Foot",
               "status": "Out",
               "start_date": "2014-11-05",
-              "update_date": "2014-11-15"
+              "update_date": "2014-11-16"
             }
           ]
         },
@@ -628,11 +647,30 @@
           "injuries": [
             {
               "id": "070e536c-fd94-4bbf-bb5d-6e1b2e5da1dd",
-              "comment": "Aldridge will not play in Saturday's (11/15) game.",
+              "comment": "Aldridge is questionable to play in Monday's (11/17) game.",
               "desc": "Illness",
               "status": "Day To Day",
               "start_date": "2014-11-14",
-              "update_date": "2014-11-15"
+              "update_date": "2014-11-16"
+            }
+          ]
+        },
+        {
+          "id": "a89ac040-715d-4057-8fc0-9d71ad06fa0a",
+          "full_name": "Nicolas Batum",
+          "first_name": "Nicolas",
+          "last_name": "Batum",
+          "position": "F",
+          "primary_position": "SF",
+          "jersey_number": "88",
+          "injuries": [
+            {
+              "id": "ce8a5e0c-7bc9-441a-ad5c-adbf0794cdbe",
+              "comment": "Batum is listed as doubtful for Monday's (11/17) game.",
+              "desc": "Knee",
+              "status": "Day To Day",
+              "start_date": "2014-11-09",
+              "update_date": "2014-11-16"
             }
           ]
         }
@@ -654,11 +692,11 @@
           "injuries": [
             {
               "id": "0c62815a-4782-4828-9a0c-e7374043306b",
-              "comment": "Belinelli will not play in Saturday's (11/15) game.",
+              "comment": "Belinelli will not play in Monday's (11/17) game.",
               "desc": "Groin",
               "status": "Out",
               "start_date": "2014-11-05",
-              "update_date": "2014-11-15"
+              "update_date": "2014-11-16"
             }
           ]
         },
@@ -673,11 +711,11 @@
           "injuries": [
             {
               "id": "3ddc705e-c5f9-4b79-8313-a807f0a73d3c",
-              "comment": "Splitter will not play in Saturday's (11/15) game.",
+              "comment": "Splitter will not play Monday's (11/17) game.",
               "desc": "Calf",
               "status": "Out Indefinitely",
               "start_date": "2014-09-29",
-              "update_date": "2014-11-15"
+              "update_date": "2014-11-16"
             }
           ]
         },
@@ -725,44 +763,6 @@
               "update_date": "2014-11-14"
             }
           ]
-        },
-        {
-          "id": "912e7aa3-dd03-4a98-9980-0442e108f287",
-          "full_name": "Patrick Beverley",
-          "first_name": "Patrick",
-          "last_name": "Beverley",
-          "position": "G",
-          "primary_position": "PG",
-          "jersey_number": "2",
-          "injuries": [
-            {
-              "id": "922135c5-8025-4daa-9d29-eeb6e133fc4f",
-              "comment": "Beverley is expected to play in Sunday's (11/16) game.",
-              "desc": "Hamstring",
-              "status": "Out",
-              "start_date": "2014-10-29",
-              "update_date": "2014-11-15"
-            }
-          ]
-        },
-        {
-          "id": "9f4fea8a-52e6-4243-8a66-3857663b7c38",
-          "full_name": "Tarik Black",
-          "first_name": "Tarik",
-          "last_name": "Black",
-          "position": "F",
-          "primary_position": "PF",
-          "jersey_number": "10",
-          "injuries": [
-            {
-              "id": "8784f852-f35d-480c-a78b-6910d8b67bbf",
-              "comment": "Black is questionable to play in Sunday's (11/16) after suffering an injury in practice.",
-              "desc": "Leg Contusion",
-              "status": "Day To Day",
-              "start_date": "2014-11-15",
-              "update_date": "2014-11-15"
-            }
-          ]
         }
       ]
     },
@@ -782,11 +782,11 @@
           "injuries": [
             {
               "id": "2c553e35-9d6c-4da1-9b90-6971b961797a",
-              "comment": "Martin is questionable to play in Saturday's (11/15) game.",
+              "comment": "Martin is questionable to play in Monday's (11/17) game.",
               "desc": "Plantar Fasciitis",
               "status": "Day To Day",
               "start_date": "2014-10-29",
-              "update_date": "2014-11-15"
+              "update_date": "2014-11-16"
             }
           ]
         },
@@ -846,11 +846,11 @@
           "injuries": [
             {
               "id": "33d2fe3f-90c1-472c-bc4c-8d9adcdbea0c",
-              "comment": "Middleton is questionable for Saturday's (11/16) game.",
+              "comment": "Middleton is probable for Sunday's (11/17) game.",
               "desc": "Knee",
               "status": "Day To Day",
               "start_date": "2014-11-14",
-              "update_date": "2014-11-15"
+              "update_date": "2014-11-16"
             }
           ]
         },
@@ -891,11 +891,11 @@
           "injuries": [
             {
               "id": "7e7519cf-63f8-4941-9260-93fa68f3426e",
-              "comment": "Rose will not play in Saturday's (11/15) game.",
+              "comment": "Rose is listed as questionable for Monday's (11/17) game.",
               "desc": "Hamstring",
               "status": "Day To Day",
               "start_date": "2014-11-12",
-              "update_date": "2014-11-15"
+              "update_date": "2014-11-16"
             }
           ]
         }
@@ -1000,11 +1000,11 @@
           "injuries": [
             {
               "id": "87404668-0d67-47ff-9c83-c295fd299c64",
-              "comment": "Foye is questionable to play in Sunday's (11/16) game.",
+              "comment": "Foye is out for Sunday's (11/16) game, but should be back on the court soon.",
               "desc": "Knee",
               "status": "Day To Day",
               "start_date": "2014-11-13",
-              "update_date": "2014-11-15"
+              "update_date": "2014-11-16"
             }
           ]
         }
@@ -1026,30 +1026,11 @@
           "injuries": [
             {
               "id": "964195ea-3f75-49f8-b79c-2183c9d01447",
-              "comment": "Neal suffered a concussion and will have to sit out at least a few days until he is cleared to play.",
+              "comment": "Neal is questionable for Monday's (11/17) game after suffering a concussion on Saturday night.",
               "desc": "Concussion",
               "status": "Day To Day",
               "start_date": "2014-11-15",
-              "update_date": "2014-11-15"
-            }
-          ]
-        },
-        {
-          "id": "e17a3191-b05c-4878-8be6-21028b8ec007",
-          "full_name": "Marvin Williams",
-          "first_name": "Marvin",
-          "last_name": "Williams",
-          "position": "F",
-          "primary_position": "PF",
-          "jersey_number": "2",
-          "injuries": [
-            {
-              "id": "dcbdec36-504e-46ac-84ec-5bd14ba94ce3",
-              "comment": "Williams will play in Saturday's (11/15) game.",
-              "desc": "Knee",
-              "status": "Day To Day",
-              "start_date": "2014-11-15",
-              "update_date": "2014-11-15"
+              "update_date": "2014-11-16"
             }
           ]
         },
@@ -1135,11 +1116,11 @@
           "injuries": [
             {
               "id": "fa80f736-fbb3-436a-827b-2a3b1f987847",
-              "comment": "Beal could return as soon as the last week of November.",
+              "comment": "Beal could make is season debut on Friday, November 22.",
               "desc": "Wrist (Non-Shooting)",
               "status": "Out",
               "start_date": "2014-10-11",
-              "update_date": "2014-11-10"
+              "update_date": "2014-11-16"
             }
           ]
         }
@@ -1284,11 +1265,11 @@
           "injuries": [
             {
               "id": "246106a2-cfc1-43f1-a351-8b3dfc68e9fc",
-              "comment": "Hood will not play in Saturday's (11/15) game.",
+              "comment": "Hood is questionable for Tuesday's (11/16) game.",
               "desc": "Plantar Fasciitis",
               "status": "Out",
               "start_date": "2014-11-08",
-              "update_date": "2014-11-15"
+              "update_date": "2014-11-16"
             }
           ]
         }

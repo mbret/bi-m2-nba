@@ -1,0 +1,308 @@
+{
+  "id": "6a79b587-d2ad-4961-8c15-6b13a58086cb",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2014-01-05T00:30:00+00:00",
+  "duration": "2:16",
+  "attendance": 17732,
+  "lead_changes": 6,
+  "times_tied": 5,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Nets",
+    "market": "Brooklyn",
+    "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 89,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 22,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 29,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 16,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 22,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Deron Williams",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "8",
+          "id": "8edce943-917a-407a-825d-3f66cd1c107a",
+          "statistics": {
+            "minutes": "37:43",
+            "field_goals_made": 7,
+            "field_goals_att": 10,
+            "field_goals_pct": 70,
+            "three_points_made": 1,
+            "three_points_att": 3,
+            "three_points_pct": 33.3,
+            "two_points_made": 6,
+            "two_points_att": 7,
+            "two_points_pct": 0.857,
+            "blocked_att": 0,
+            "free_throws_made": 6,
+            "free_throws_att": 7,
+            "free_throws_pct": 85.7,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 2,
+            "rebounds": 2,
+            "assists": 6,
+            "turnovers": 1,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 6,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 5,
+            "points": 21
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Reggie Evans",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "30",
+          "id": "980b7f61-d112-4150-bf02-0f5dbda4deb7",
+          "statistics": {
+            "minutes": "27:28",
+            "field_goals_made": 3,
+            "field_goals_att": 6,
+            "field_goals_pct": 50,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 3,
+            "two_points_att": 6,
+            "two_points_pct": 0.5,
+            "blocked_att": 1,
+            "free_throws_made": 2,
+            "free_throws_att": 4,
+            "free_throws_pct": 50,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 9,
+            "rebounds": 11,
+            "assists": 0,
+            "turnovers": 1,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 6,
+            "points": 8
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Deron Williams",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "8",
+          "id": "8edce943-917a-407a-825d-3f66cd1c107a",
+          "statistics": {
+            "minutes": "37:43",
+            "field_goals_made": 7,
+            "field_goals_att": 10,
+            "field_goals_pct": 70,
+            "three_points_made": 1,
+            "three_points_att": 3,
+            "three_points_pct": 33.3,
+            "two_points_made": 6,
+            "two_points_att": 7,
+            "two_points_pct": 0.857,
+            "blocked_att": 0,
+            "free_throws_made": 6,
+            "free_throws_att": 7,
+            "free_throws_pct": 85.7,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 2,
+            "rebounds": 2,
+            "assists": 6,
+            "turnovers": 1,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 6,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 5,
+            "points": 21
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Cavaliers",
+    "market": "Cleveland",
+    "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 82,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 17,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 21,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 27,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 17,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Dion Waiters",
+          "position": "G",
+          "primary_position": "SG",
+          "jersey_number": "3",
+          "id": "1bf4b5c7-e31d-4c22-9d89-7b909e3cb43c",
+          "statistics": {
+            "minutes": "28:29",
+            "field_goals_made": 9,
+            "field_goals_att": 18,
+            "field_goals_pct": 50,
+            "three_points_made": 3,
+            "three_points_att": 5,
+            "three_points_pct": 60,
+            "two_points_made": 6,
+            "two_points_att": 13,
+            "two_points_pct": 0.462,
+            "blocked_att": 0,
+            "free_throws_made": 5,
+            "free_throws_att": 6,
+            "free_throws_pct": 83.3,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 1,
+            "rebounds": 2,
+            "assists": 0,
+            "turnovers": 4,
+            "steals": 0,
+            "blocks": 1,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 3,
+            "tech_fouls": 1,
+            "flagrant_fouls": 0,
+            "pls_min": -7,
+            "points": 26
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Anderson Varejao",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "17",
+          "id": "2c861696-d71b-4419-8a13-2f9e294ad0b5",
+          "statistics": {
+            "minutes": "35:32",
+            "field_goals_made": 2,
+            "field_goals_att": 6,
+            "field_goals_pct": 33.3,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 2,
+            "two_points_att": 6,
+            "two_points_pct": 0.333,
+            "blocked_att": 0,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 4,
+            "defensive_rebounds": 8,
+            "rebounds": 12,
+            "assists": 1,
+            "turnovers": 2,
+            "steals": 0,
+            "blocks": 2,
+            "assists_turnover_ratio": 0.5,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -5,
+            "points": 4
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Jarrett Jack",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "1",
+          "id": "c3a3881d-92e9-4352-979b-d8465a5a3605",
+          "statistics": {
+            "minutes": "38:25",
+            "field_goals_made": 1,
+            "field_goals_att": 8,
+            "field_goals_pct": 12.5,
+            "three_points_made": 0,
+            "three_points_att": 1,
+            "three_points_pct": 0,
+            "two_points_made": 1,
+            "two_points_att": 7,
+            "two_points_pct": 0.143,
+            "blocked_att": 1,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 3,
+            "rebounds": 4,
+            "assists": 7,
+            "turnovers": 1,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 7,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -9,
+            "points": 2
+          }
+        }
+      ]
+    }
+  }
+}

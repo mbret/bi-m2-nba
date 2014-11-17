@@ -1,0 +1,308 @@
+{
+  "id": "d09a563b-72d6-4986-9d71-ebc871b4790b",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2014-01-08T00:00:00+00:00",
+  "duration": "2:07",
+  "attendance": 13344,
+  "lead_changes": 1,
+  "times_tied": 3,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Cavaliers",
+    "market": "Cleveland",
+    "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 111,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 36,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 28,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 27,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 20,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "C.J. Miles",
+          "position": "G",
+          "primary_position": "SG",
+          "jersey_number": "0",
+          "id": "732b1bd6-d99a-4971-bc2c-4de4842b4a9a",
+          "statistics": {
+            "minutes": "31:24",
+            "field_goals_made": 11,
+            "field_goals_att": 18,
+            "field_goals_pct": 61.1,
+            "three_points_made": 10,
+            "three_points_att": 14,
+            "three_points_pct": 71.4,
+            "two_points_made": 1,
+            "two_points_att": 4,
+            "two_points_pct": 0.25,
+            "blocked_att": 1,
+            "free_throws_made": 2,
+            "free_throws_att": 3,
+            "free_throws_pct": 66.7,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 3,
+            "rebounds": 5,
+            "assists": 2,
+            "turnovers": 0,
+            "steals": 2,
+            "blocks": 0,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 32,
+            "points": 34
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Anderson Varejao",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "17",
+          "id": "2c861696-d71b-4419-8a13-2f9e294ad0b5",
+          "statistics": {
+            "minutes": "26:22",
+            "field_goals_made": 8,
+            "field_goals_att": 10,
+            "field_goals_pct": 80,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 8,
+            "two_points_att": 10,
+            "two_points_pct": 0.8,
+            "blocked_att": 0,
+            "free_throws_made": 2,
+            "free_throws_att": 5,
+            "free_throws_pct": 40,
+            "offensive_rebounds": 3,
+            "defensive_rebounds": 11,
+            "rebounds": 14,
+            "assists": 2,
+            "turnovers": 1,
+            "steals": 0,
+            "blocks": 1,
+            "assists_turnover_ratio": 2,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 21,
+            "points": 18
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Dion Waiters",
+          "position": "G",
+          "primary_position": "SG",
+          "jersey_number": "3",
+          "id": "1bf4b5c7-e31d-4c22-9d89-7b909e3cb43c",
+          "statistics": {
+            "minutes": "27:38",
+            "field_goals_made": 5,
+            "field_goals_att": 14,
+            "field_goals_pct": 35.7,
+            "three_points_made": 1,
+            "three_points_att": 4,
+            "three_points_pct": 25,
+            "two_points_made": 4,
+            "two_points_att": 10,
+            "two_points_pct": 0.4,
+            "blocked_att": 2,
+            "free_throws_made": 1,
+            "free_throws_att": 3,
+            "free_throws_pct": 33.3,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 4,
+            "rebounds": 4,
+            "assists": 8,
+            "turnovers": 2,
+            "steals": 2,
+            "blocks": 0,
+            "assists_turnover_ratio": 4,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 16,
+            "points": 12
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "76ers",
+    "market": "Philadelphia",
+    "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 93,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 20,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 21,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 25,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 27,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Michael Carter-Williams",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "1",
+          "id": "1f5e7dfc-225d-4a25-8857-e6f8192b4c44",
+          "statistics": {
+            "minutes": "36:43",
+            "field_goals_made": 13,
+            "field_goals_att": 25,
+            "field_goals_pct": 52,
+            "three_points_made": 2,
+            "three_points_att": 7,
+            "three_points_pct": 28.6,
+            "two_points_made": 11,
+            "two_points_att": 18,
+            "two_points_pct": 0.611,
+            "blocked_att": 4,
+            "free_throws_made": 5,
+            "free_throws_att": 7,
+            "free_throws_pct": 71.4,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 5,
+            "rebounds": 6,
+            "assists": 5,
+            "turnovers": 1,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 5,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -30,
+            "points": 33
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Michael Carter-Williams",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "1",
+          "id": "1f5e7dfc-225d-4a25-8857-e6f8192b4c44",
+          "statistics": {
+            "minutes": "36:43",
+            "field_goals_made": 13,
+            "field_goals_att": 25,
+            "field_goals_pct": 52,
+            "three_points_made": 2,
+            "three_points_att": 7,
+            "three_points_pct": 28.6,
+            "two_points_made": 11,
+            "two_points_att": 18,
+            "two_points_pct": 0.611,
+            "blocked_att": 4,
+            "free_throws_made": 5,
+            "free_throws_att": 7,
+            "free_throws_pct": 71.4,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 5,
+            "rebounds": 6,
+            "assists": 5,
+            "turnovers": 1,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 5,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -30,
+            "points": 33
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Michael Carter-Williams",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "1",
+          "id": "1f5e7dfc-225d-4a25-8857-e6f8192b4c44",
+          "statistics": {
+            "minutes": "36:43",
+            "field_goals_made": 13,
+            "field_goals_att": 25,
+            "field_goals_pct": 52,
+            "three_points_made": 2,
+            "three_points_att": 7,
+            "three_points_pct": 28.6,
+            "two_points_made": 11,
+            "two_points_att": 18,
+            "two_points_pct": 0.611,
+            "blocked_att": 4,
+            "free_throws_made": 5,
+            "free_throws_att": 7,
+            "free_throws_pct": 71.4,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 5,
+            "rebounds": 6,
+            "assists": 5,
+            "turnovers": 1,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 5,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -30,
+            "points": 33
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "id": "2232e9d4-e0cd-4077-a319-ec49ee10b630",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2013-11-18T02:30:00+00:00",
+  "duration": "2:04",
+  "attendance": 18997,
+  "lead_changes": 5,
+  "times_tied": 9,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Lakers",
+    "market": "Los Angeles",
+    "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 114,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 27,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 23,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 29,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 35,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Jordan Hill",
+          "position": "C-F",
+          "primary_position": "PF",
+          "jersey_number": "27",
+          "id": "91ec3171-9b9c-48ee-bb52-d075dc41bacb",
+          "statistics": {
+            "minutes": "35:44",
+            "field_goals_made": 11,
+            "field_goals_att": 16,
+            "field_goals_pct": 68.8,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 11,
+            "two_points_att": 16,
+            "two_points_pct": 0.688,
+            "blocked_att": 0,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 5,
+            "defensive_rebounds": 12,
+            "rebounds": 17,
+            "assists": 1,
+            "turnovers": 2,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 0.5,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 12,
+            "points": 24
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Jordan Hill",
+          "position": "C-F",
+          "primary_position": "PF",
+          "jersey_number": "27",
+          "id": "91ec3171-9b9c-48ee-bb52-d075dc41bacb",
+          "statistics": {
+            "minutes": "35:44",
+            "field_goals_made": 11,
+            "field_goals_att": 16,
+            "field_goals_pct": 68.8,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 11,
+            "two_points_att": 16,
+            "two_points_pct": 0.688,
+            "blocked_att": 0,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 5,
+            "defensive_rebounds": 12,
+            "rebounds": 17,
+            "assists": 1,
+            "turnovers": 2,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 0.5,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 12,
+            "points": 24
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Steve Blake",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "5",
+          "id": "b7ede5da-bc2f-47fe-8468-dd4b2679603c",
+          "statistics": {
+            "minutes": "35:07",
+            "field_goals_made": 3,
+            "field_goals_att": 7,
+            "field_goals_pct": 42.9,
+            "three_points_made": 1,
+            "three_points_att": 3,
+            "three_points_pct": 33.3,
+            "two_points_made": 2,
+            "two_points_att": 4,
+            "two_points_pct": 0.5,
+            "blocked_att": 0,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 1,
+            "rebounds": 1,
+            "assists": 16,
+            "turnovers": 4,
+            "steals": 4,
+            "blocks": 0,
+            "assists_turnover_ratio": 4,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 2,
+            "points": 9
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Pistons",
+    "market": "Detroit",
+    "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 99,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 29,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 27,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 15,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 28,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Brandon Jennings",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "7",
+          "id": "bb084342-fc44-4035-82c4-2789174b723e",
+          "statistics": {
+            "minutes": "39:00",
+            "field_goals_made": 8,
+            "field_goals_att": 22,
+            "field_goals_pct": 36.4,
+            "three_points_made": 4,
+            "three_points_att": 8,
+            "three_points_pct": 50,
+            "two_points_made": 4,
+            "two_points_att": 14,
+            "two_points_pct": 0.286,
+            "blocked_att": 3,
+            "free_throws_made": 3,
+            "free_throws_att": 3,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 3,
+            "defensive_rebounds": 2,
+            "rebounds": 5,
+            "assists": 14,
+            "turnovers": 3,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 4.67,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -1,
+            "points": 23
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Andre Drummond",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "0",
+          "id": "440b769d-2b8b-477f-80d7-cb21d83c0d52",
+          "statistics": {
+            "minutes": "37:35",
+            "field_goals_made": 7,
+            "field_goals_att": 9,
+            "field_goals_pct": 77.8,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 7,
+            "two_points_att": 9,
+            "two_points_pct": 0.778,
+            "blocked_att": 0,
+            "free_throws_made": 0,
+            "free_throws_att": 2,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 3,
+            "defensive_rebounds": 10,
+            "rebounds": 13,
+            "assists": 0,
+            "turnovers": 1,
+            "steals": 2,
+            "blocks": 1,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -16,
+            "points": 14
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Brandon Jennings",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "7",
+          "id": "bb084342-fc44-4035-82c4-2789174b723e",
+          "statistics": {
+            "minutes": "39:00",
+            "field_goals_made": 8,
+            "field_goals_att": 22,
+            "field_goals_pct": 36.4,
+            "three_points_made": 4,
+            "three_points_att": 8,
+            "three_points_pct": 50,
+            "two_points_made": 4,
+            "two_points_att": 14,
+            "two_points_pct": 0.286,
+            "blocked_att": 3,
+            "free_throws_made": 3,
+            "free_throws_att": 3,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 3,
+            "defensive_rebounds": 2,
+            "rebounds": 5,
+            "assists": 14,
+            "turnovers": 3,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 4.67,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -1,
+            "points": 23
+          }
+        }
+      ]
+    }
+  }
+}

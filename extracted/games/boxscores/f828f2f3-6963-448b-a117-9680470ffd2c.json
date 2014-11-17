@@ -1,0 +1,308 @@
+{
+  "id": "f828f2f3-6963-448b-a117-9680470ffd2c",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2013-11-19T01:30:00+00:00",
+  "duration": "2:21",
+  "attendance": 19790,
+  "lead_changes": 3,
+  "times_tied": 5,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Mavericks",
+    "market": "Dallas",
+    "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 97,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 18,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 25,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 31,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 23,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Monta Ellis",
+          "position": "G",
+          "primary_position": "SG",
+          "jersey_number": "11",
+          "id": "0c144557-df20-492c-bf75-be53adf92699",
+          "statistics": {
+            "minutes": "39:26",
+            "field_goals_made": 7,
+            "field_goals_att": 14,
+            "field_goals_pct": 50,
+            "three_points_made": 1,
+            "three_points_att": 2,
+            "three_points_pct": 50,
+            "two_points_made": 6,
+            "two_points_att": 12,
+            "two_points_pct": 0.5,
+            "blocked_att": 1,
+            "free_throws_made": 9,
+            "free_throws_att": 13,
+            "free_throws_pct": 69.2,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 3,
+            "rebounds": 4,
+            "assists": 10,
+            "turnovers": 4,
+            "steals": 0,
+            "blocks": 2,
+            "assists_turnover_ratio": 2.5,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 2,
+            "points": 24
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Samuel Dalembert",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "1",
+          "id": "ca06ce60-1fb3-40a1-bb50-a16f75f4ea5d",
+          "statistics": {
+            "minutes": "27:32",
+            "field_goals_made": 3,
+            "field_goals_att": 6,
+            "field_goals_pct": 50,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 3,
+            "two_points_att": 6,
+            "two_points_pct": 0.5,
+            "blocked_att": 2,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 5,
+            "defensive_rebounds": 9,
+            "rebounds": 14,
+            "assists": 0,
+            "turnovers": 1,
+            "steals": 0,
+            "blocks": 3,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 1,
+            "points": 8
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Monta Ellis",
+          "position": "G",
+          "primary_position": "SG",
+          "jersey_number": "11",
+          "id": "0c144557-df20-492c-bf75-be53adf92699",
+          "statistics": {
+            "minutes": "39:26",
+            "field_goals_made": 7,
+            "field_goals_att": 14,
+            "field_goals_pct": 50,
+            "three_points_made": 1,
+            "three_points_att": 2,
+            "three_points_pct": 50,
+            "two_points_made": 6,
+            "two_points_att": 12,
+            "two_points_pct": 0.5,
+            "blocked_att": 1,
+            "free_throws_made": 9,
+            "free_throws_att": 13,
+            "free_throws_pct": 69.2,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 3,
+            "rebounds": 4,
+            "assists": 10,
+            "turnovers": 4,
+            "steals": 0,
+            "blocks": 2,
+            "assists_turnover_ratio": 2.5,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 2,
+            "points": 24
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "76ers",
+    "market": "Philadelphia",
+    "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 94,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 21,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 26,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 24,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 23,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Evan Turner",
+          "position": "F-G",
+          "primary_position": "SF",
+          "jersey_number": "12",
+          "id": "ca4f6af4-c203-41d0-97a3-0286710710b6",
+          "statistics": {
+            "minutes": "36:18",
+            "field_goals_made": 10,
+            "field_goals_att": 22,
+            "field_goals_pct": 45.5,
+            "three_points_made": 2,
+            "three_points_att": 4,
+            "three_points_pct": 50,
+            "two_points_made": 8,
+            "two_points_att": 18,
+            "two_points_pct": 0.444,
+            "blocked_att": 4,
+            "free_throws_made": 4,
+            "free_throws_att": 6,
+            "free_throws_pct": 66.7,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 7,
+            "rebounds": 9,
+            "assists": 7,
+            "turnovers": 4,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 1.75,
+            "personal_fouls": 3,
+            "tech_fouls": 1,
+            "flagrant_fouls": 0,
+            "pls_min": 9,
+            "points": 26
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Spencer Hawes",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "00",
+          "id": "ddb5d888-09e5-435a-9009-a2549d8c8382",
+          "statistics": {
+            "minutes": "36:16",
+            "field_goals_made": 4,
+            "field_goals_att": 11,
+            "field_goals_pct": 36.4,
+            "three_points_made": 1,
+            "three_points_att": 3,
+            "three_points_pct": 33.3,
+            "two_points_made": 3,
+            "two_points_att": 8,
+            "two_points_pct": 0.375,
+            "blocked_att": 1,
+            "free_throws_made": 1,
+            "free_throws_att": 2,
+            "free_throws_pct": 50,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 10,
+            "rebounds": 11,
+            "assists": 4,
+            "turnovers": 0,
+            "steals": 1,
+            "blocks": 3,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 9,
+            "points": 10
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Evan Turner",
+          "position": "F-G",
+          "primary_position": "SF",
+          "jersey_number": "12",
+          "id": "ca4f6af4-c203-41d0-97a3-0286710710b6",
+          "statistics": {
+            "minutes": "36:18",
+            "field_goals_made": 10,
+            "field_goals_att": 22,
+            "field_goals_pct": 45.5,
+            "three_points_made": 2,
+            "three_points_att": 4,
+            "three_points_pct": 50,
+            "two_points_made": 8,
+            "two_points_att": 18,
+            "two_points_pct": 0.444,
+            "blocked_att": 4,
+            "free_throws_made": 4,
+            "free_throws_att": 6,
+            "free_throws_pct": 66.7,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 7,
+            "rebounds": 9,
+            "assists": 7,
+            "turnovers": 4,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 1.75,
+            "personal_fouls": 3,
+            "tech_fouls": 1,
+            "flagrant_fouls": 0,
+            "pls_min": 9,
+            "points": 26
+          }
+        }
+      ]
+    }
+  }
+}

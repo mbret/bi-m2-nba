@@ -1,0 +1,308 @@
+{
+  "id": "6c9526ea-9b8d-44e3-aabb-8a53ef02dad3",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2014-01-08T02:00:00+00:00",
+  "duration": "2:19",
+  "attendance": 16224,
+  "lead_changes": 0,
+  "times_tied": 0,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Nuggets",
+    "market": "Denver",
+    "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 129,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 31,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 37,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 35,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 26,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Randy Foye",
+          "position": "G",
+          "primary_position": "SG",
+          "jersey_number": "4",
+          "id": "701c8530-7906-42b0-a016-3ddf366ca957",
+          "statistics": {
+            "minutes": "38:45",
+            "field_goals_made": 8,
+            "field_goals_att": 17,
+            "field_goals_pct": 47.1,
+            "three_points_made": 7,
+            "three_points_att": 12,
+            "three_points_pct": 58.3,
+            "two_points_made": 1,
+            "two_points_att": 5,
+            "two_points_pct": 0.2,
+            "blocked_att": 0,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 4,
+            "rebounds": 5,
+            "assists": 5,
+            "turnovers": 1,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 5,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 31,
+            "points": 23
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Kenneth Faried",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "35",
+          "id": "6ee485e1-534f-4d07-9492-c30b1ae9d607",
+          "statistics": {
+            "minutes": "32:15",
+            "field_goals_made": 6,
+            "field_goals_att": 8,
+            "field_goals_pct": 75,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 6,
+            "two_points_att": 8,
+            "two_points_pct": 0.75,
+            "blocked_att": 0,
+            "free_throws_made": 9,
+            "free_throws_att": 12,
+            "free_throws_pct": 75,
+            "offensive_rebounds": 3,
+            "defensive_rebounds": 10,
+            "rebounds": 13,
+            "assists": 1,
+            "turnovers": 2,
+            "steals": 0,
+            "blocks": 1,
+            "assists_turnover_ratio": 0.5,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 27,
+            "points": 21
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Ty Lawson",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "3",
+          "id": "95fd2469-00cc-481c-a42d-5ec9eaa80868",
+          "statistics": {
+            "minutes": "33:23",
+            "field_goals_made": 5,
+            "field_goals_att": 10,
+            "field_goals_pct": 50,
+            "three_points_made": 1,
+            "three_points_att": 4,
+            "three_points_pct": 25,
+            "two_points_made": 4,
+            "two_points_att": 6,
+            "two_points_pct": 0.667,
+            "blocked_att": 0,
+            "free_throws_made": 8,
+            "free_throws_att": 9,
+            "free_throws_pct": 88.9,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 2,
+            "rebounds": 4,
+            "assists": 13,
+            "turnovers": 4,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 3.25,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 19,
+            "points": 19
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Celtics",
+    "market": "Boston",
+    "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 98,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 23,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 22,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 33,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 20,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Jeff Green",
+          "position": "G-F",
+          "primary_position": "SF",
+          "jersey_number": "8",
+          "id": "b9155864-4192-4ad7-8652-57a0844c87b3",
+          "statistics": {
+            "minutes": "35:29",
+            "field_goals_made": 7,
+            "field_goals_att": 19,
+            "field_goals_pct": 36.8,
+            "three_points_made": 2,
+            "three_points_att": 7,
+            "three_points_pct": 28.6,
+            "two_points_made": 5,
+            "two_points_att": 12,
+            "two_points_pct": 0.417,
+            "blocked_att": 3,
+            "free_throws_made": 1,
+            "free_throws_att": 2,
+            "free_throws_pct": 50,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 4,
+            "rebounds": 4,
+            "assists": 1,
+            "turnovers": 2,
+            "steals": 2,
+            "blocks": 1,
+            "assists_turnover_ratio": 0.5,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -28,
+            "points": 17
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Brandon Bass",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "30",
+          "id": "d214d3a9-9aaa-4296-bcf0-60a1769d7a70",
+          "statistics": {
+            "minutes": "25:45",
+            "field_goals_made": 3,
+            "field_goals_att": 10,
+            "field_goals_pct": 30,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 3,
+            "two_points_att": 10,
+            "two_points_pct": 0.3,
+            "blocked_att": 0,
+            "free_throws_made": 9,
+            "free_throws_att": 11,
+            "free_throws_pct": 81.8,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 6,
+            "rebounds": 7,
+            "assists": 1,
+            "turnovers": 1,
+            "steals": 1,
+            "blocks": 1,
+            "assists_turnover_ratio": 1,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -30,
+            "points": 15
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Jordan Crawford",
+          "position": "G",
+          "primary_position": "SG",
+          "jersey_number": "27",
+          "id": "264a1d66-7f41-465a-b64c-c0f20ab31ad3",
+          "statistics": {
+            "minutes": "21:24",
+            "field_goals_made": 3,
+            "field_goals_att": 9,
+            "field_goals_pct": 33.3,
+            "three_points_made": 0,
+            "three_points_att": 1,
+            "three_points_pct": 0,
+            "two_points_made": 3,
+            "two_points_att": 8,
+            "two_points_pct": 0.375,
+            "blocked_att": 1,
+            "free_throws_made": 4,
+            "free_throws_att": 4,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 2,
+            "rebounds": 2,
+            "assists": 5,
+            "turnovers": 1,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 5,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -16,
+            "points": 10
+          }
+        }
+      ]
+    }
+  }
+}

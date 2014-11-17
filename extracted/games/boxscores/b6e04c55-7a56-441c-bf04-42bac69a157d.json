@@ -1,0 +1,73 @@
+{
+  "id": "b6e04c55-7a56-441c-bf04-42bac69a157d",
+  "status": "closed",
+  "coverage": "boxscore",
+  "scheduled": "2013-10-08T02:00:00+00:00",
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Suns",
+    "market": "Phoenix",
+    "id": "583ecfa8-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 130,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 32,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 37,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 30,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 31,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {}
+  },
+  "away": {
+    "name": "Maccabi Haifa",
+    "id": "97283c79-61e5-4016-b0a4-8a68da09ee4e",
+    "points": 89,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 16,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 31,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 19,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 23,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {}
+  }
+}

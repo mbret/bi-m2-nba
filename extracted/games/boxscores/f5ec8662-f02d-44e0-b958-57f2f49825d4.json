@@ -1,0 +1,308 @@
+{
+  "id": "f5ec8662-f02d-44e0-b958-57f2f49825d4",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2014-01-26T23:30:00+00:00",
+  "duration": "2:25",
+  "attendance": 18624,
+  "lead_changes": 3,
+  "times_tied": 2,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Celtics",
+    "market": "Boston",
+    "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 79,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 17,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 17,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 19,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 26,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Brandon Bass",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "30",
+          "id": "d214d3a9-9aaa-4296-bcf0-60a1769d7a70",
+          "statistics": {
+            "minutes": "34:21",
+            "field_goals_made": 6,
+            "field_goals_att": 6,
+            "field_goals_pct": 100,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 6,
+            "two_points_att": 6,
+            "two_points_pct": 1,
+            "blocked_att": 0,
+            "free_throws_made": 5,
+            "free_throws_att": 6,
+            "free_throws_pct": 83.3,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 6,
+            "rebounds": 8,
+            "assists": 1,
+            "turnovers": 2,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 0.5,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 10,
+            "points": 17
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Rajon Rondo",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "9",
+          "id": "977b67b1-4665-4f97-ba3b-7d7778efecdb",
+          "statistics": {
+            "minutes": "30:21",
+            "field_goals_made": 5,
+            "field_goals_att": 14,
+            "field_goals_pct": 35.7,
+            "three_points_made": 2,
+            "three_points_att": 6,
+            "three_points_pct": 33.3,
+            "two_points_made": 3,
+            "two_points_att": 8,
+            "two_points_pct": 0.375,
+            "blocked_att": 0,
+            "free_throws_made": 1,
+            "free_throws_att": 1,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 8,
+            "rebounds": 8,
+            "assists": 8,
+            "turnovers": 5,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 1.6,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 1,
+            "points": 13
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Rajon Rondo",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "9",
+          "id": "977b67b1-4665-4f97-ba3b-7d7778efecdb",
+          "statistics": {
+            "minutes": "30:21",
+            "field_goals_made": 5,
+            "field_goals_att": 14,
+            "field_goals_pct": 35.7,
+            "three_points_made": 2,
+            "three_points_att": 6,
+            "three_points_pct": 33.3,
+            "two_points_made": 3,
+            "two_points_att": 8,
+            "two_points_pct": 0.375,
+            "blocked_att": 0,
+            "free_throws_made": 1,
+            "free_throws_att": 1,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 8,
+            "rebounds": 8,
+            "assists": 8,
+            "turnovers": 5,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 1.6,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 1,
+            "points": 13
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Nets",
+    "market": "Brooklyn",
+    "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 85,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 11,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 24,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 24,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 26,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Andray Blatche",
+          "position": "C-F",
+          "primary_position": "PF",
+          "jersey_number": "0",
+          "id": "46e5e763-b41c-4fc9-9e04-909ee0b9073f",
+          "statistics": {
+            "minutes": "25:12",
+            "field_goals_made": 6,
+            "field_goals_att": 15,
+            "field_goals_pct": 40,
+            "three_points_made": 0,
+            "three_points_att": 1,
+            "three_points_pct": 0,
+            "two_points_made": 6,
+            "two_points_att": 14,
+            "two_points_pct": 0.429,
+            "blocked_att": 2,
+            "free_throws_made": 5,
+            "free_throws_att": 6,
+            "free_throws_pct": 83.3,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 2,
+            "rebounds": 4,
+            "assists": 1,
+            "turnovers": 1,
+            "steals": 2,
+            "blocks": 2,
+            "assists_turnover_ratio": 1,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 6,
+            "points": 17
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Shaun Livingston",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "14",
+          "id": "77f1a040-ff8b-4e20-9db9-dfb6aa041585",
+          "statistics": {
+            "minutes": "22:29",
+            "field_goals_made": 4,
+            "field_goals_att": 8,
+            "field_goals_pct": 50,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 4,
+            "two_points_att": 8,
+            "two_points_pct": 0.5,
+            "blocked_att": 0,
+            "free_throws_made": 1,
+            "free_throws_att": 2,
+            "free_throws_pct": 50,
+            "offensive_rebounds": 3,
+            "defensive_rebounds": 5,
+            "rebounds": 8,
+            "assists": 2,
+            "turnovers": 1,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 2,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 1,
+            "points": 9
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Deron Williams",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "8",
+          "id": "8edce943-917a-407a-825d-3f66cd1c107a",
+          "statistics": {
+            "minutes": "34:24",
+            "field_goals_made": 3,
+            "field_goals_att": 8,
+            "field_goals_pct": 37.5,
+            "three_points_made": 0,
+            "three_points_att": 2,
+            "three_points_pct": 0,
+            "two_points_made": 3,
+            "two_points_att": 6,
+            "two_points_pct": 0.5,
+            "blocked_att": 1,
+            "free_throws_made": 1,
+            "free_throws_att": 2,
+            "free_throws_pct": 50,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 6,
+            "rebounds": 7,
+            "assists": 7,
+            "turnovers": 2,
+            "steals": 2,
+            "blocks": 0,
+            "assists_turnover_ratio": 3.5,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 1,
+            "points": 7
+          }
+        }
+      ]
+    }
+  }
+}

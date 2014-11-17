@@ -1,0 +1,308 @@
+{
+  "id": "f3dcbf68-14e8-4d45-abe2-223c7a6ee778",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2014-01-08T02:00:00+00:00",
+  "duration": "2:20",
+  "attendance": 18547,
+  "lead_changes": 10,
+  "times_tied": 2,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Jazz",
+    "market": "Utah",
+    "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 112,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 30,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 29,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 31,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 22,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Gordon Hayward",
+          "position": "G-F",
+          "primary_position": "SF",
+          "jersey_number": "20",
+          "id": "a1ddebee-950c-497d-9acd-b5061360b464",
+          "statistics": {
+            "minutes": "37:10",
+            "field_goals_made": 13,
+            "field_goals_att": 16,
+            "field_goals_pct": 81.3,
+            "three_points_made": 2,
+            "three_points_att": 3,
+            "three_points_pct": 66.7,
+            "two_points_made": 11,
+            "two_points_att": 13,
+            "two_points_pct": 0.846,
+            "blocked_att": 0,
+            "free_throws_made": 9,
+            "free_throws_att": 13,
+            "free_throws_pct": 69.2,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 11,
+            "rebounds": 11,
+            "assists": 7,
+            "turnovers": 4,
+            "steals": 2,
+            "blocks": 1,
+            "assists_turnover_ratio": 1.75,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 11,
+            "points": 37
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Gordon Hayward",
+          "position": "G-F",
+          "primary_position": "SF",
+          "jersey_number": "20",
+          "id": "a1ddebee-950c-497d-9acd-b5061360b464",
+          "statistics": {
+            "minutes": "37:10",
+            "field_goals_made": 13,
+            "field_goals_att": 16,
+            "field_goals_pct": 81.3,
+            "three_points_made": 2,
+            "three_points_att": 3,
+            "three_points_pct": 66.7,
+            "two_points_made": 11,
+            "two_points_att": 13,
+            "two_points_pct": 0.846,
+            "blocked_att": 0,
+            "free_throws_made": 9,
+            "free_throws_att": 13,
+            "free_throws_pct": 69.2,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 11,
+            "rebounds": 11,
+            "assists": 7,
+            "turnovers": 4,
+            "steals": 2,
+            "blocks": 1,
+            "assists_turnover_ratio": 1.75,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 11,
+            "points": 37
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Gordon Hayward",
+          "position": "G-F",
+          "primary_position": "SF",
+          "jersey_number": "20",
+          "id": "a1ddebee-950c-497d-9acd-b5061360b464",
+          "statistics": {
+            "minutes": "37:10",
+            "field_goals_made": 13,
+            "field_goals_att": 16,
+            "field_goals_pct": 81.3,
+            "three_points_made": 2,
+            "three_points_att": 3,
+            "three_points_pct": 66.7,
+            "two_points_made": 11,
+            "two_points_att": 13,
+            "two_points_pct": 0.846,
+            "blocked_att": 0,
+            "free_throws_made": 9,
+            "free_throws_att": 13,
+            "free_throws_pct": 69.2,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 11,
+            "rebounds": 11,
+            "assists": 7,
+            "turnovers": 4,
+            "steals": 2,
+            "blocks": 1,
+            "assists_turnover_ratio": 1.75,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 11,
+            "points": 37
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Thunder",
+    "market": "Oklahoma City",
+    "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 101,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 28,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 19,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 27,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 27,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Kevin Durant",
+          "position": "F",
+          "primary_position": "SF",
+          "jersey_number": "35",
+          "id": "53f2fa48-e61b-49fb-843d-8a3e872257eb",
+          "statistics": {
+            "minutes": "45:11",
+            "field_goals_made": 14,
+            "field_goals_att": 34,
+            "field_goals_pct": 41.2,
+            "three_points_made": 3,
+            "three_points_att": 13,
+            "three_points_pct": 23.1,
+            "two_points_made": 11,
+            "two_points_att": 21,
+            "two_points_pct": 0.524,
+            "blocked_att": 0,
+            "free_throws_made": 17,
+            "free_throws_att": 19,
+            "free_throws_pct": 89.5,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 7,
+            "rebounds": 7,
+            "assists": 5,
+            "turnovers": 0,
+            "steals": 4,
+            "blocks": 2,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -12,
+            "points": 48
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Kevin Durant",
+          "position": "F",
+          "primary_position": "SF",
+          "jersey_number": "35",
+          "id": "53f2fa48-e61b-49fb-843d-8a3e872257eb",
+          "statistics": {
+            "minutes": "45:11",
+            "field_goals_made": 14,
+            "field_goals_att": 34,
+            "field_goals_pct": 41.2,
+            "three_points_made": 3,
+            "three_points_att": 13,
+            "three_points_pct": 23.1,
+            "two_points_made": 11,
+            "two_points_att": 21,
+            "two_points_pct": 0.524,
+            "blocked_att": 0,
+            "free_throws_made": 17,
+            "free_throws_att": 19,
+            "free_throws_pct": 89.5,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 7,
+            "rebounds": 7,
+            "assists": 5,
+            "turnovers": 0,
+            "steals": 4,
+            "blocks": 2,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -12,
+            "points": 48
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Reggie Jackson",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "15",
+          "id": "7b745dde-a011-45a8-98a8-460a9facb3ce",
+          "statistics": {
+            "minutes": "42:03",
+            "field_goals_made": 6,
+            "field_goals_att": 14,
+            "field_goals_pct": 42.9,
+            "three_points_made": 1,
+            "three_points_att": 4,
+            "three_points_pct": 25,
+            "two_points_made": 5,
+            "two_points_att": 10,
+            "two_points_pct": 0.5,
+            "blocked_att": 1,
+            "free_throws_made": 7,
+            "free_throws_att": 10,
+            "free_throws_pct": 70,
+            "offensive_rebounds": 3,
+            "defensive_rebounds": 2,
+            "rebounds": 5,
+            "assists": 6,
+            "turnovers": 4,
+            "steals": 4,
+            "blocks": 0,
+            "assists_turnover_ratio": 1.5,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -3,
+            "points": 20
+          }
+        }
+      ]
+    }
+  }
+}

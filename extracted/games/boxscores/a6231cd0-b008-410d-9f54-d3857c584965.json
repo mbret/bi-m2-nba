@@ -1,0 +1,22 @@
+{
+  "id": "a6231cd0-b008-410d-9f54-d3857c584965",
+  "status": "created",
+  "coverage": "full",
+  "scheduled": "2014-01-30T00:30:00+00:00",
+  "home": {
+    "name": "Hawks",
+    "market": "Atlanta",
+    "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 0,
+    "scoring": [],
+    "leaders": {}
+  },
+  "away": {
+    "name": "Pistons",
+    "market": "Detroit",
+    "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 0,
+    "scoring": [],
+    "leaders": {}
+  }
+}

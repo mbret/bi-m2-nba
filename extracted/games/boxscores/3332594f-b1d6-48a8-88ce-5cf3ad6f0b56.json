@@ -1,0 +1,308 @@
+{
+  "id": "3332594f-b1d6-48a8-88ce-5cf3ad6f0b56",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2013-12-22T01:30:00+00:00",
+  "duration": "2:08",
+  "attendance": 18581,
+  "lead_changes": 5,
+  "times_tied": 4,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Spurs",
+    "market": "San Antonio",
+    "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 100,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 21,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 29,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 26,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 24,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Tony Parker",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "9",
+          "id": "b1b2d578-44df-4e05-9884-31dd89e82cf0",
+          "statistics": {
+            "minutes": "32:46",
+            "field_goals_made": 6,
+            "field_goals_att": 14,
+            "field_goals_pct": 42.9,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 6,
+            "two_points_att": 14,
+            "two_points_pct": 0.429,
+            "blocked_att": 0,
+            "free_throws_made": 11,
+            "free_throws_att": 13,
+            "free_throws_pct": 84.6,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 2,
+            "rebounds": 2,
+            "assists": 8,
+            "turnovers": 0,
+            "steals": 2,
+            "blocks": 0,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -6,
+            "points": 23
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Tiago Splitter",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "22",
+          "id": "8c81dcdb-fec1-4186-98ce-310f9f55bb0a",
+          "statistics": {
+            "minutes": "24:04",
+            "field_goals_made": 3,
+            "field_goals_att": 9,
+            "field_goals_pct": 33.3,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 3,
+            "two_points_att": 9,
+            "two_points_pct": 0.333,
+            "blocked_att": 2,
+            "free_throws_made": 0,
+            "free_throws_att": 2,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 9,
+            "rebounds": 11,
+            "assists": 2,
+            "turnovers": 2,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 1,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 4,
+            "points": 6
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Tony Parker",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "9",
+          "id": "b1b2d578-44df-4e05-9884-31dd89e82cf0",
+          "statistics": {
+            "minutes": "32:46",
+            "field_goals_made": 6,
+            "field_goals_att": 14,
+            "field_goals_pct": 42.9,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 6,
+            "two_points_att": 14,
+            "two_points_pct": 0.429,
+            "blocked_att": 0,
+            "free_throws_made": 11,
+            "free_throws_att": 13,
+            "free_throws_pct": 84.6,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 2,
+            "rebounds": 2,
+            "assists": 8,
+            "turnovers": 0,
+            "steals": 2,
+            "blocks": 0,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -6,
+            "points": 23
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Thunder",
+    "market": "Oklahoma City",
+    "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 113,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 21,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 40,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 24,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 28,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Russell Westbrook",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "0",
+          "id": "74a45eed-f2b0-4886-ae71-d04cf7d59528",
+          "statistics": {
+            "minutes": "34:16",
+            "field_goals_made": 13,
+            "field_goals_att": 22,
+            "field_goals_pct": 59.1,
+            "three_points_made": 2,
+            "three_points_att": 5,
+            "three_points_pct": 40,
+            "two_points_made": 11,
+            "two_points_att": 17,
+            "two_points_pct": 0.647,
+            "blocked_att": 0,
+            "free_throws_made": 3,
+            "free_throws_att": 3,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 2,
+            "rebounds": 4,
+            "assists": 8,
+            "turnovers": 3,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 2.67,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 5,
+            "points": 31
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Serge Ibaka",
+          "position": "F-C",
+          "primary_position": "PF",
+          "jersey_number": "9",
+          "id": "0afca4ef-6ad4-4f96-8cd2-b20b59c6ce90",
+          "statistics": {
+            "minutes": "32:39",
+            "field_goals_made": 6,
+            "field_goals_att": 14,
+            "field_goals_pct": 42.9,
+            "three_points_made": 2,
+            "three_points_att": 4,
+            "three_points_pct": 50,
+            "two_points_made": 4,
+            "two_points_att": 10,
+            "two_points_pct": 0.4,
+            "blocked_att": 3,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 3,
+            "defensive_rebounds": 11,
+            "rebounds": 14,
+            "assists": 1,
+            "turnovers": 2,
+            "steals": 1,
+            "blocks": 3,
+            "assists_turnover_ratio": 0.5,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 9,
+            "points": 14
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Russell Westbrook",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "0",
+          "id": "74a45eed-f2b0-4886-ae71-d04cf7d59528",
+          "statistics": {
+            "minutes": "34:16",
+            "field_goals_made": 13,
+            "field_goals_att": 22,
+            "field_goals_pct": 59.1,
+            "three_points_made": 2,
+            "three_points_att": 5,
+            "three_points_pct": 40,
+            "two_points_made": 11,
+            "two_points_att": 17,
+            "two_points_pct": 0.647,
+            "blocked_att": 0,
+            "free_throws_made": 3,
+            "free_throws_att": 3,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 2,
+            "rebounds": 4,
+            "assists": 8,
+            "turnovers": 3,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 2.67,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 5,
+            "points": 31
+          }
+        }
+      ]
+    }
+  }
+}

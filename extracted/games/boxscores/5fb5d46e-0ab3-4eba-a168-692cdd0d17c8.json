@@ -1,0 +1,74 @@
+{
+  "id": "5fb5d46e-0ab3-4eba-a168-692cdd0d17c8",
+  "status": "closed",
+  "coverage": "boxscore",
+  "scheduled": "2013-10-24T02:00:00+00:00",
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Kings",
+    "market": "Sacramento",
+    "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 91,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 23,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 25,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 22,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 21,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {}
+  },
+  "away": {
+    "name": "Warriors",
+    "market": "Golden State",
+    "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 90,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 20,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 31,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 30,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 9,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {}
+  }
+}

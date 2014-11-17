@@ -1,0 +1,43 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "season": {
+    "id": "5f45c666-ba68-48d6-a905-f19702ab7e4c",
+    "year": 2012,
+    "type": "PST"
+  },
+  "games": [
+    {
+      "id": "e52afb27-e769-4620-a48a-91a820382739",
+      "status": "closed",
+      "coverage": "full",
+      "scheduled": "2013-06-12T01:00:00+00:00",
+      "venue": {
+        "id": "8a7580c0-4052-54d5-85cd-85aab6200acf",
+        "name": "AT&T Center",
+        "capacity": 18581,
+        "address": "One AT&T Center Parkway",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "78219",
+        "country": "USA"
+      },
+      "broadcast": {
+        "network": "ABC"
+      },
+      "home": {
+        "name": "San Antonio Spurs",
+        "alias": "SA",
+        "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c"
+      },
+      "away": {
+        "name": "Miami Heat",
+        "alias": "MIA",
+        "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
+      }
+    }
+  ]
+}

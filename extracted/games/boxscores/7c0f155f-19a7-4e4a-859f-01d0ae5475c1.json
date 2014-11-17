@@ -1,0 +1,308 @@
+{
+  "id": "7c0f155f-19a7-4e4a-859f-01d0ae5475c1",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2013-11-06T00:30:00+00:00",
+  "duration": "2:42",
+  "attendance": 19812,
+  "lead_changes": 1,
+  "times_tied": 3,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Knicks",
+    "market": "New York",
+    "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 97,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 28,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 26,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 22,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 21,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Carmelo Anthony",
+          "position": "F",
+          "primary_position": "SF",
+          "jersey_number": "7",
+          "id": "32688af1-7ac2-432e-b60a-74b9bd89df57",
+          "statistics": {
+            "minutes": "44:37",
+            "field_goals_made": 10,
+            "field_goals_att": 28,
+            "field_goals_pct": 35.7,
+            "three_points_made": 2,
+            "three_points_att": 5,
+            "three_points_pct": 40,
+            "two_points_made": 8,
+            "two_points_att": 23,
+            "two_points_pct": 0.348,
+            "blocked_att": 2,
+            "free_throws_made": 10,
+            "free_throws_att": 10,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 4,
+            "rebounds": 5,
+            "assists": 2,
+            "turnovers": 2,
+            "steals": 2,
+            "blocks": 0,
+            "assists_turnover_ratio": 1,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -5,
+            "points": 32
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Raymond Felton",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "2",
+          "id": "83b736a0-6c1e-4526-b948-e4781251cb73",
+          "statistics": {
+            "minutes": "37:18",
+            "field_goals_made": 6,
+            "field_goals_att": 15,
+            "field_goals_pct": 40,
+            "three_points_made": 2,
+            "three_points_att": 7,
+            "three_points_pct": 28.6,
+            "two_points_made": 4,
+            "two_points_att": 8,
+            "two_points_pct": 0.5,
+            "blocked_att": 0,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 3,
+            "defensive_rebounds": 3,
+            "rebounds": 6,
+            "assists": 2,
+            "turnovers": 2,
+            "steals": 2,
+            "blocks": 1,
+            "assists_turnover_ratio": 1,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -5,
+            "points": 14
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Raymond Felton",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "2",
+          "id": "83b736a0-6c1e-4526-b948-e4781251cb73",
+          "statistics": {
+            "minutes": "37:18",
+            "field_goals_made": 6,
+            "field_goals_att": 15,
+            "field_goals_pct": 40,
+            "three_points_made": 2,
+            "three_points_att": 7,
+            "three_points_pct": 28.6,
+            "two_points_made": 4,
+            "two_points_att": 8,
+            "two_points_pct": 0.5,
+            "blocked_att": 0,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 3,
+            "defensive_rebounds": 3,
+            "rebounds": 6,
+            "assists": 2,
+            "turnovers": 2,
+            "steals": 2,
+            "blocks": 1,
+            "assists_turnover_ratio": 1,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -5,
+            "points": 14
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Bobcats",
+    "market": "Charlotte",
+    "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 102,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 31,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 33,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 18,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 20,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Kemba Walker",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "15",
+          "id": "a35ee8ed-f1db-4f7e-bb17-f823e8ee0b38",
+          "statistics": {
+            "minutes": "35:20",
+            "field_goals_made": 9,
+            "field_goals_att": 20,
+            "field_goals_pct": 45,
+            "three_points_made": 3,
+            "three_points_att": 7,
+            "three_points_pct": 42.9,
+            "two_points_made": 6,
+            "two_points_att": 13,
+            "two_points_pct": 0.462,
+            "blocked_att": 0,
+            "free_throws_made": 4,
+            "free_throws_att": 5,
+            "free_throws_pct": 80,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 5,
+            "rebounds": 5,
+            "assists": 6,
+            "turnovers": 3,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 2,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 3,
+            "points": 25
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Gerald Henderson",
+          "position": "G",
+          "primary_position": "SG",
+          "jersey_number": "9",
+          "id": "390c3ce6-7e5b-4aba-bd54-4dfb6add4767",
+          "statistics": {
+            "minutes": "35:40",
+            "field_goals_made": 5,
+            "field_goals_att": 13,
+            "field_goals_pct": 38.5,
+            "three_points_made": 1,
+            "three_points_att": 1,
+            "three_points_pct": 100,
+            "two_points_made": 4,
+            "two_points_att": 12,
+            "two_points_pct": 0.333,
+            "blocked_att": 2,
+            "free_throws_made": 7,
+            "free_throws_att": 8,
+            "free_throws_pct": 87.5,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 7,
+            "rebounds": 8,
+            "assists": 2,
+            "turnovers": 2,
+            "steals": 2,
+            "blocks": 0,
+            "assists_turnover_ratio": 1,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 1,
+            "points": 18
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Kemba Walker",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "15",
+          "id": "a35ee8ed-f1db-4f7e-bb17-f823e8ee0b38",
+          "statistics": {
+            "minutes": "35:20",
+            "field_goals_made": 9,
+            "field_goals_att": 20,
+            "field_goals_pct": 45,
+            "three_points_made": 3,
+            "three_points_att": 7,
+            "three_points_pct": 42.9,
+            "two_points_made": 6,
+            "two_points_att": 13,
+            "two_points_pct": 0.462,
+            "blocked_att": 0,
+            "free_throws_made": 4,
+            "free_throws_att": 5,
+            "free_throws_pct": 80,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 5,
+            "rebounds": 5,
+            "assists": 6,
+            "turnovers": 3,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 2,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 3,
+            "points": 25
+          }
+        }
+      ]
+    }
+  }
+}

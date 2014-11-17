@@ -1,0 +1,307 @@
+{
+  "id": "b01cadeb-3232-423e-8681-d01eb61bf4d6",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2013-11-06T01:00:00+00:00",
+  "duration": "2:12",
+  "attendance": 13404,
+  "lead_changes": 4,
+  "times_tied": 3,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Pelicans",
+    "market": "New Orleans",
+    "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 98,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 28,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 17,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 24,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 29,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Eric Gordon",
+          "position": "G",
+          "primary_position": "SG",
+          "jersey_number": "10",
+          "id": "f8d6c74c-e0bd-41ed-a814-f0b25259fe0a",
+          "statistics": {
+            "minutes": "34:13",
+            "field_goals_made": 7,
+            "field_goals_att": 17,
+            "field_goals_pct": 41.2,
+            "three_points_made": 3,
+            "three_points_att": 5,
+            "three_points_pct": 60,
+            "two_points_made": 4,
+            "two_points_att": 12,
+            "two_points_pct": 0.333,
+            "blocked_att": 2,
+            "free_throws_made": 3,
+            "free_throws_att": 3,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 2,
+            "rebounds": 3,
+            "assists": 5,
+            "turnovers": 2,
+            "steals": 3,
+            "blocks": 0,
+            "assists_turnover_ratio": 2.5,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -4,
+            "points": 20
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Anthony Davis",
+          "position": "F-C",
+          "primary_position": "PF",
+          "jersey_number": "23",
+          "id": "ea8826b8-1f76-4eab-b61e-ffcb176880f3",
+          "statistics": {
+            "minutes": "39:42",
+            "field_goals_made": 5,
+            "field_goals_att": 14,
+            "field_goals_pct": 35.7,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 5,
+            "two_points_att": 14,
+            "two_points_pct": 0.357,
+            "blocked_att": 0,
+            "free_throws_made": 7,
+            "free_throws_att": 8,
+            "free_throws_pct": 87.5,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 10,
+            "rebounds": 11,
+            "assists": 0,
+            "turnovers": 1,
+            "steals": 0,
+            "blocks": 5,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -3,
+            "points": 17
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Jrue Holiday",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "11",
+          "id": "65700e81-3aa0-49a9-8a94-004f2cfb64e5",
+          "statistics": {
+            "minutes": "24:55",
+            "field_goals_made": 1,
+            "field_goals_att": 7,
+            "field_goals_pct": 14.3,
+            "three_points_made": 1,
+            "three_points_att": 2,
+            "three_points_pct": 50,
+            "two_points_made": 0,
+            "two_points_att": 5,
+            "two_points_pct": 0,
+            "blocked_att": 0,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 4,
+            "rebounds": 5,
+            "assists": 9,
+            "turnovers": 6,
+            "steals": 2,
+            "blocks": 2,
+            "assists_turnover_ratio": 1.5,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -6,
+            "points": 3
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Suns",
+    "market": "Phoenix",
+    "id": "583ecfa8-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 104,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 17,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 24,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 37,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 26,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Eric Bledsoe",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "2",
+          "id": "8cee3c73-f765-4000-882d-0c6d0b8acbe3",
+          "statistics": {
+            "minutes": "31:51",
+            "field_goals_made": 10,
+            "field_goals_att": 12,
+            "field_goals_pct": 83.3,
+            "three_points_made": 1,
+            "three_points_att": 2,
+            "three_points_pct": 50,
+            "two_points_made": 9,
+            "two_points_att": 10,
+            "two_points_pct": 0.9,
+            "blocked_att": 0,
+            "free_throws_made": 4,
+            "free_throws_att": 4,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 4,
+            "rebounds": 4,
+            "assists": 5,
+            "turnovers": 5,
+            "steals": 3,
+            "blocks": 0,
+            "assists_turnover_ratio": 1,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "points": 25
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Marcus Morris",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "15",
+          "id": "4d7cb358-0fec-482f-9f57-92c39e8bf214",
+          "statistics": {
+            "minutes": "26:25",
+            "field_goals_made": 4,
+            "field_goals_att": 8,
+            "field_goals_pct": 50,
+            "three_points_made": 2,
+            "three_points_att": 3,
+            "three_points_pct": 66.7,
+            "two_points_made": 2,
+            "two_points_att": 5,
+            "two_points_pct": 0.4,
+            "blocked_att": 2,
+            "free_throws_made": 6,
+            "free_throws_att": 8,
+            "free_throws_pct": 75,
+            "offensive_rebounds": 4,
+            "defensive_rebounds": 5,
+            "rebounds": 9,
+            "assists": 1,
+            "turnovers": 1,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 1,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 7,
+            "points": 16
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Ish Smith",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "3",
+          "id": "05a90cd6-73de-43d5-9d30-bc2588d03262",
+          "statistics": {
+            "minutes": "16:09",
+            "field_goals_made": 1,
+            "field_goals_att": 4,
+            "field_goals_pct": 25,
+            "three_points_made": 0,
+            "three_points_att": 1,
+            "three_points_pct": 0,
+            "two_points_made": 1,
+            "two_points_att": 3,
+            "two_points_pct": 0.333,
+            "blocked_att": 0,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 2,
+            "rebounds": 2,
+            "assists": 8,
+            "turnovers": 1,
+            "steals": 0,
+            "blocks": 1,
+            "assists_turnover_ratio": 8,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 6,
+            "points": 2
+          }
+        }
+      ]
+    }
+  }
+}

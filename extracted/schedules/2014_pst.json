@@ -1,0 +1,13 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "season": {
+    "id": "5ba3cd4d-495b-4683-bfbe-56ba2eb84cf2",
+    "year": 2014,
+    "type": "PST"
+  },
+  "games": []
+}

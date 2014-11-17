@@ -1,0 +1,308 @@
+{
+  "id": "bda298fa-4616-4851-81d1-ed27acc23d0e",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2014-01-20T00:00:00+00:00",
+  "duration": "1:57",
+  "attendance": 18096,
+  "lead_changes": 4,
+  "times_tied": 5,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Spurs",
+    "market": "San Antonio",
+    "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 110,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 29,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 24,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 31,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 26,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Patty Mills",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "8",
+          "id": "9e917c97-5227-4581-9ab5-2dd07a7187ef",
+          "statistics": {
+            "minutes": "26:43",
+            "field_goals_made": 8,
+            "field_goals_att": 12,
+            "field_goals_pct": 66.7,
+            "three_points_made": 4,
+            "three_points_att": 6,
+            "three_points_pct": 66.7,
+            "two_points_made": 4,
+            "two_points_att": 6,
+            "two_points_pct": 0.667,
+            "blocked_att": 2,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 2,
+            "rebounds": 2,
+            "assists": 7,
+            "turnovers": 1,
+            "steals": 3,
+            "blocks": 0,
+            "assists_turnover_ratio": 7,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 21,
+            "points": 20
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Tim Duncan",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "21",
+          "id": "1f9d116b-7c1b-4d1a-bf02-59ba4b22092e",
+          "statistics": {
+            "minutes": "27:45",
+            "field_goals_made": 4,
+            "field_goals_att": 7,
+            "field_goals_pct": 57.1,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 4,
+            "two_points_att": 7,
+            "two_points_pct": 0.571,
+            "blocked_att": 1,
+            "free_throws_made": 3,
+            "free_throws_att": 7,
+            "free_throws_pct": 42.9,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 12,
+            "rebounds": 13,
+            "assists": 2,
+            "turnovers": 0,
+            "steals": 0,
+            "blocks": 3,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 14,
+            "points": 11
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Patty Mills",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "8",
+          "id": "9e917c97-5227-4581-9ab5-2dd07a7187ef",
+          "statistics": {
+            "minutes": "26:43",
+            "field_goals_made": 8,
+            "field_goals_att": 12,
+            "field_goals_pct": 66.7,
+            "three_points_made": 4,
+            "three_points_att": 6,
+            "three_points_pct": 66.7,
+            "two_points_made": 4,
+            "two_points_att": 6,
+            "two_points_pct": 0.667,
+            "blocked_att": 2,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 2,
+            "rebounds": 2,
+            "assists": 7,
+            "turnovers": 1,
+            "steals": 3,
+            "blocks": 0,
+            "assists_turnover_ratio": 7,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 21,
+            "points": 20
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Bucks",
+    "market": "Milwaukee",
+    "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 82,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 16,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 22,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 22,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 22,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Brandon Knight",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "11",
+          "id": "f58a9803-0ede-4c0b-acbd-08bc0da229af",
+          "statistics": {
+            "minutes": "32:16",
+            "field_goals_made": 8,
+            "field_goals_att": 16,
+            "field_goals_pct": 50,
+            "three_points_made": 2,
+            "three_points_att": 4,
+            "three_points_pct": 50,
+            "two_points_made": 6,
+            "two_points_att": 12,
+            "two_points_pct": 0.5,
+            "blocked_att": 2,
+            "free_throws_made": 3,
+            "free_throws_att": 3,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 1,
+            "rebounds": 1,
+            "assists": 3,
+            "turnovers": 3,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 1,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -14,
+            "points": 21
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "John Henson",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "31",
+          "id": "c555e067-c4d5-43f6-99af-716b6005cbba",
+          "statistics": {
+            "minutes": "23:48",
+            "field_goals_made": 5,
+            "field_goals_att": 11,
+            "field_goals_pct": 45.5,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 5,
+            "two_points_att": 11,
+            "two_points_pct": 0.455,
+            "blocked_att": 1,
+            "free_throws_made": 0,
+            "free_throws_att": 1,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 3,
+            "defensive_rebounds": 8,
+            "rebounds": 11,
+            "assists": 1,
+            "turnovers": 0,
+            "steals": 1,
+            "blocks": 2,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 5,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -15,
+            "points": 10
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Nate Wolters",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "6",
+          "id": "729da0f6-59b0-4be3-afc9-98301c1de7ce",
+          "statistics": {
+            "minutes": "12:00",
+            "field_goals_made": 3,
+            "field_goals_att": 7,
+            "field_goals_pct": 42.9,
+            "three_points_made": 0,
+            "three_points_att": 1,
+            "three_points_pct": 0,
+            "two_points_made": 3,
+            "two_points_att": 6,
+            "two_points_pct": 0.5,
+            "blocked_att": 1,
+            "free_throws_made": 3,
+            "free_throws_att": 5,
+            "free_throws_pct": 60,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 0,
+            "rebounds": 1,
+            "assists": 3,
+            "turnovers": 0,
+            "steals": 0,
+            "blocks": 1,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -4,
+            "points": 9
+          }
+        }
+      ]
+    }
+  }
+}

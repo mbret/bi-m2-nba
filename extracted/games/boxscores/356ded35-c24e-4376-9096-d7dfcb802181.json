@@ -1,0 +1,307 @@
+{
+  "id": "356ded35-c24e-4376-9096-d7dfcb802181",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2014-01-24T03:30:00+00:00",
+  "duration": "2:35",
+  "attendance": 20066,
+  "lead_changes": 12,
+  "times_tied": 8,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Trail Blazers",
+    "market": "Portland",
+    "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 110,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 27,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 32,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 27,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 24,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "LaMarcus Aldridge",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "12",
+          "id": "3157a0b5-1b4c-46d1-934c-ac2df3810950",
+          "statistics": {
+            "minutes": "38:15",
+            "field_goals_made": 15,
+            "field_goals_att": 29,
+            "field_goals_pct": 51.7,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 15,
+            "two_points_att": 29,
+            "two_points_pct": 0.517,
+            "blocked_att": 1,
+            "free_throws_made": 14,
+            "free_throws_att": 17,
+            "free_throws_pct": 82.4,
+            "offensive_rebounds": 4,
+            "defensive_rebounds": 9,
+            "rebounds": 13,
+            "assists": 5,
+            "turnovers": 2,
+            "steals": 0,
+            "blocks": 2,
+            "assists_turnover_ratio": 2.5,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 4,
+            "points": 44
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "LaMarcus Aldridge",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "12",
+          "id": "3157a0b5-1b4c-46d1-934c-ac2df3810950",
+          "statistics": {
+            "minutes": "38:15",
+            "field_goals_made": 15,
+            "field_goals_att": 29,
+            "field_goals_pct": 51.7,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 15,
+            "two_points_att": 29,
+            "two_points_pct": 0.517,
+            "blocked_att": 1,
+            "free_throws_made": 14,
+            "free_throws_att": 17,
+            "free_throws_pct": 82.4,
+            "offensive_rebounds": 4,
+            "defensive_rebounds": 9,
+            "rebounds": 13,
+            "assists": 5,
+            "turnovers": 2,
+            "steals": 0,
+            "blocks": 2,
+            "assists_turnover_ratio": 2.5,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 4,
+            "points": 44
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Nicolas Batum",
+          "position": "F",
+          "primary_position": "SF",
+          "jersey_number": "88",
+          "id": "a89ac040-715d-4057-8fc0-9d71ad06fa0a",
+          "statistics": {
+            "minutes": "37:47",
+            "field_goals_made": 1,
+            "field_goals_att": 5,
+            "field_goals_pct": 20,
+            "three_points_made": 0,
+            "three_points_att": 3,
+            "three_points_pct": 0,
+            "two_points_made": 1,
+            "two_points_att": 2,
+            "two_points_pct": 0.5,
+            "blocked_att": 0,
+            "free_throws_made": 4,
+            "free_throws_att": 4,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 6,
+            "rebounds": 7,
+            "assists": 10,
+            "turnovers": 2,
+            "steals": 2,
+            "blocks": 0,
+            "assists_turnover_ratio": 5,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -3,
+            "points": 6
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Nuggets",
+    "market": "Denver",
+    "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 105,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 30,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 37,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 24,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 14,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Wilson Chandler",
+          "position": "F",
+          "primary_position": "SF",
+          "jersey_number": "21",
+          "id": "db90c8f4-5d2a-4ff9-8f57-1fc44a253dcf",
+          "statistics": {
+            "minutes": "32:33",
+            "field_goals_made": 7,
+            "field_goals_att": 11,
+            "field_goals_pct": 63.6,
+            "three_points_made": 1,
+            "three_points_att": 2,
+            "three_points_pct": 50,
+            "two_points_made": 6,
+            "two_points_att": 9,
+            "two_points_pct": 0.667,
+            "blocked_att": 0,
+            "free_throws_made": 3,
+            "free_throws_att": 4,
+            "free_throws_pct": 75,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 3,
+            "rebounds": 3,
+            "assists": 0,
+            "turnovers": 4,
+            "steals": 1,
+            "blocks": 1,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 5,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -5,
+            "points": 18
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "J.J. Hickson",
+          "position": "F",
+          "primary_position": "C",
+          "jersey_number": "7",
+          "id": "7ea5ebcb-e825-4b6e-bd46-13a45c88c09c",
+          "statistics": {
+            "minutes": "36:50",
+            "field_goals_made": 6,
+            "field_goals_att": 10,
+            "field_goals_pct": 60,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 6,
+            "two_points_att": 10,
+            "two_points_pct": 0.6,
+            "blocked_att": 1,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 6,
+            "rebounds": 7,
+            "assists": 5,
+            "turnovers": 3,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 1.67,
+            "personal_fouls": 5,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "points": 12
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Ty Lawson",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "3",
+          "id": "95fd2469-00cc-481c-a42d-5ec9eaa80868",
+          "statistics": {
+            "minutes": "37:38",
+            "field_goals_made": 3,
+            "field_goals_att": 11,
+            "field_goals_pct": 27.3,
+            "three_points_made": 0,
+            "three_points_att": 2,
+            "three_points_pct": 0,
+            "two_points_made": 3,
+            "two_points_att": 9,
+            "two_points_pct": 0.333,
+            "blocked_att": 1,
+            "free_throws_made": 7,
+            "free_throws_att": 9,
+            "free_throws_pct": 77.8,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 2,
+            "rebounds": 2,
+            "assists": 11,
+            "turnovers": 3,
+            "steals": 2,
+            "blocks": 0,
+            "assists_turnover_ratio": 3.67,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 1,
+            "points": 13
+          }
+        }
+      ]
+    }
+  }
+}

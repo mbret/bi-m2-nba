@@ -1,0 +1,308 @@
+{
+  "id": "a57b02c4-8c8b-44ad-82bf-26568e20830a",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2014-01-30T01:30:00+00:00",
+  "duration": "2:35",
+  "attendance": 19359,
+  "lead_changes": 7,
+  "times_tied": 6,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Mavericks",
+    "market": "Dallas",
+    "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 115,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 30,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 27,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 28,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 30,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Dirk Nowitzki",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "41",
+          "id": "b4fb962d-4f36-4b82-89e3-dec4733329c3",
+          "statistics": {
+            "minutes": "35:04",
+            "field_goals_made": 13,
+            "field_goals_att": 21,
+            "field_goals_pct": 61.9,
+            "three_points_made": 1,
+            "three_points_att": 3,
+            "three_points_pct": 33.3,
+            "two_points_made": 12,
+            "two_points_att": 18,
+            "two_points_pct": 0.667,
+            "blocked_att": 1,
+            "free_throws_made": 11,
+            "free_throws_att": 11,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 4,
+            "defensive_rebounds": 13,
+            "rebounds": 17,
+            "assists": 3,
+            "turnovers": 2,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 1.5,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 6,
+            "points": 38
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Dirk Nowitzki",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "41",
+          "id": "b4fb962d-4f36-4b82-89e3-dec4733329c3",
+          "statistics": {
+            "minutes": "35:04",
+            "field_goals_made": 13,
+            "field_goals_att": 21,
+            "field_goals_pct": 61.9,
+            "three_points_made": 1,
+            "three_points_att": 3,
+            "three_points_pct": 33.3,
+            "two_points_made": 12,
+            "two_points_att": 18,
+            "two_points_pct": 0.667,
+            "blocked_att": 1,
+            "free_throws_made": 11,
+            "free_throws_att": 11,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 4,
+            "defensive_rebounds": 13,
+            "rebounds": 17,
+            "assists": 3,
+            "turnovers": 2,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 1.5,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 6,
+            "points": 38
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Monta Ellis",
+          "position": "G",
+          "primary_position": "SG",
+          "jersey_number": "11",
+          "id": "0c144557-df20-492c-bf75-be53adf92699",
+          "statistics": {
+            "minutes": "31:02",
+            "field_goals_made": 3,
+            "field_goals_att": 10,
+            "field_goals_pct": 30,
+            "three_points_made": 0,
+            "three_points_att": 1,
+            "three_points_pct": 0,
+            "two_points_made": 3,
+            "two_points_att": 9,
+            "two_points_pct": 0.333,
+            "blocked_att": 0,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 0,
+            "rebounds": 1,
+            "assists": 5,
+            "turnovers": 4,
+            "steals": 2,
+            "blocks": 0,
+            "assists_turnover_ratio": 1.25,
+            "personal_fouls": 5,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 3,
+            "points": 6
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Rockets",
+    "market": "Houston",
+    "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 117,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 32,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 31,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 28,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 26,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Chandler Parsons",
+          "position": "F",
+          "primary_position": "SF",
+          "jersey_number": "25",
+          "id": "434e09b0-2da5-44f4-b406-b5a80852d71d",
+          "statistics": {
+            "minutes": "38:39",
+            "field_goals_made": 9,
+            "field_goals_att": 17,
+            "field_goals_pct": 52.9,
+            "three_points_made": 2,
+            "three_points_att": 6,
+            "three_points_pct": 33.3,
+            "two_points_made": 7,
+            "two_points_att": 11,
+            "two_points_pct": 0.636,
+            "blocked_att": 1,
+            "free_throws_made": 6,
+            "free_throws_att": 9,
+            "free_throws_pct": 66.7,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 3,
+            "rebounds": 4,
+            "assists": 5,
+            "turnovers": 2,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 2.5,
+            "personal_fouls": 5,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 1,
+            "points": 26
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Donatas Motiejunas",
+          "position": "F-C",
+          "primary_position": "PF",
+          "jersey_number": "20",
+          "id": "8d7da9a1-22b3-40a4-b6f1-caae9c956b6a",
+          "statistics": {
+            "minutes": "25:46",
+            "field_goals_made": 4,
+            "field_goals_att": 5,
+            "field_goals_pct": 80,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 4,
+            "two_points_att": 5,
+            "two_points_pct": 0.8,
+            "blocked_att": 0,
+            "free_throws_made": 4,
+            "free_throws_att": 6,
+            "free_throws_pct": 66.7,
+            "offensive_rebounds": 4,
+            "defensive_rebounds": 9,
+            "rebounds": 13,
+            "assists": 0,
+            "turnovers": 1,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 5,
+            "points": 12
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Jeremy Lin",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "7",
+          "id": "287c389a-0499-4f80-ac4f-1a72366af999",
+          "statistics": {
+            "minutes": "37:13",
+            "field_goals_made": 8,
+            "field_goals_att": 14,
+            "field_goals_pct": 57.1,
+            "three_points_made": 2,
+            "three_points_att": 3,
+            "three_points_pct": 66.7,
+            "two_points_made": 6,
+            "two_points_att": 11,
+            "two_points_pct": 0.545,
+            "blocked_att": 0,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 6,
+            "rebounds": 7,
+            "assists": 7,
+            "turnovers": 2,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 3.5,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 1,
+            "points": 18
+          }
+        }
+      ]
+    }
+  }
+}

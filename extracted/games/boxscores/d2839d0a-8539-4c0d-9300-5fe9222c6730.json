@@ -1,0 +1,308 @@
+{
+  "id": "d2839d0a-8539-4c0d-9300-5fe9222c6730",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2013-11-27T00:00:00+00:00",
+  "duration": "2:04",
+  "attendance": 19204,
+  "lead_changes": 17,
+  "times_tied": 8,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Wizards",
+    "market": "Washington",
+    "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 116,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 31,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 28,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 23,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 34,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "John Wall",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "2",
+          "id": "6769d1ca-0581-48b0-b487-b5c87b8f696e",
+          "statistics": {
+            "minutes": "36:36",
+            "field_goals_made": 10,
+            "field_goals_att": 18,
+            "field_goals_pct": 55.6,
+            "three_points_made": 0,
+            "three_points_att": 2,
+            "three_points_pct": 0,
+            "two_points_made": 10,
+            "two_points_att": 16,
+            "two_points_pct": 0.625,
+            "blocked_att": 1,
+            "free_throws_made": 11,
+            "free_throws_att": 12,
+            "free_throws_pct": 91.7,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 5,
+            "rebounds": 6,
+            "assists": 9,
+            "turnovers": 3,
+            "steals": 3,
+            "blocks": 0,
+            "assists_turnover_ratio": 3,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 8,
+            "points": 31
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Martell Webster",
+          "position": "F-G",
+          "primary_position": "SF",
+          "jersey_number": "9",
+          "id": "8b93c7f5-bb43-4a72-98fe-312cd08fc957",
+          "statistics": {
+            "minutes": "42:42",
+            "field_goals_made": 8,
+            "field_goals_att": 15,
+            "field_goals_pct": 53.3,
+            "three_points_made": 4,
+            "three_points_att": 8,
+            "three_points_pct": 50,
+            "two_points_made": 4,
+            "two_points_att": 7,
+            "two_points_pct": 0.571,
+            "blocked_att": 0,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 7,
+            "rebounds": 9,
+            "assists": 3,
+            "turnovers": 0,
+            "steals": 4,
+            "blocks": 1,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 12,
+            "points": 20
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "John Wall",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "2",
+          "id": "6769d1ca-0581-48b0-b487-b5c87b8f696e",
+          "statistics": {
+            "minutes": "36:36",
+            "field_goals_made": 10,
+            "field_goals_att": 18,
+            "field_goals_pct": 55.6,
+            "three_points_made": 0,
+            "three_points_att": 2,
+            "three_points_pct": 0,
+            "two_points_made": 10,
+            "two_points_att": 16,
+            "two_points_pct": 0.625,
+            "blocked_att": 1,
+            "free_throws_made": 11,
+            "free_throws_att": 12,
+            "free_throws_pct": 91.7,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 5,
+            "rebounds": 6,
+            "assists": 9,
+            "turnovers": 3,
+            "steals": 3,
+            "blocks": 0,
+            "assists_turnover_ratio": 3,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 8,
+            "points": 31
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Lakers",
+    "market": "Los Angeles",
+    "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 111,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 29,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 26,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 22,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 34,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Jordan Farmar",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "1",
+          "id": "644202b7-dc0a-4602-b5cc-6b557e095708",
+          "statistics": {
+            "minutes": "26:05",
+            "field_goals_made": 9,
+            "field_goals_att": 11,
+            "field_goals_pct": 81.8,
+            "three_points_made": 3,
+            "three_points_att": 4,
+            "three_points_pct": 75,
+            "two_points_made": 6,
+            "two_points_att": 7,
+            "two_points_pct": 0.857,
+            "blocked_att": 0,
+            "free_throws_made": 1,
+            "free_throws_att": 2,
+            "free_throws_pct": 50,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 2,
+            "rebounds": 2,
+            "assists": 8,
+            "turnovers": 1,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 8,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 6,
+            "points": 22
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Jordan Hill",
+          "position": "C-F",
+          "primary_position": "PF",
+          "jersey_number": "27",
+          "id": "91ec3171-9b9c-48ee-bb52-d075dc41bacb",
+          "statistics": {
+            "minutes": "30:07",
+            "field_goals_made": 5,
+            "field_goals_att": 10,
+            "field_goals_pct": 50,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 5,
+            "two_points_att": 10,
+            "two_points_pct": 0.5,
+            "blocked_att": 0,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 5,
+            "defensive_rebounds": 3,
+            "rebounds": 8,
+            "assists": 0,
+            "turnovers": 3,
+            "steals": 0,
+            "blocks": 2,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -7,
+            "points": 10
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Pau Gasol",
+          "position": "C-F",
+          "primary_position": "PF",
+          "jersey_number": "16",
+          "id": "4aafa7e4-d271-42d2-8979-bdefcd221d30",
+          "statistics": {
+            "minutes": "34:45",
+            "field_goals_made": 8,
+            "field_goals_att": 15,
+            "field_goals_pct": 53.3,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 8,
+            "two_points_att": 15,
+            "two_points_pct": 0.533,
+            "blocked_att": 0,
+            "free_throws_made": 1,
+            "free_throws_att": 1,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 4,
+            "rebounds": 6,
+            "assists": 8,
+            "turnovers": 5,
+            "steals": 0,
+            "blocks": 2,
+            "assists_turnover_ratio": 1.6,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -2,
+            "points": 17
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "id": "4c3b8a4f-29b5-4de2-bf2e-144a7211fef5",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2014-02-02T01:30:00+00:00",
+  "duration": "2:25",
+  "attendance": 19812,
+  "lead_changes": 7,
+  "times_tied": 2,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Knicks",
+    "market": "New York",
+    "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 91,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 22,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 24,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 25,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 20,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Carmelo Anthony",
+          "position": "F",
+          "primary_position": "SF",
+          "jersey_number": "7",
+          "id": "32688af1-7ac2-432e-b60a-74b9bd89df57",
+          "statistics": {
+            "minutes": "40:51",
+            "field_goals_made": 8,
+            "field_goals_att": 17,
+            "field_goals_pct": 47.1,
+            "three_points_made": 1,
+            "three_points_att": 4,
+            "three_points_pct": 25,
+            "two_points_made": 7,
+            "two_points_att": 13,
+            "two_points_pct": 0.538,
+            "blocked_att": 1,
+            "free_throws_made": 9,
+            "free_throws_att": 13,
+            "free_throws_pct": 69.2,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 7,
+            "rebounds": 8,
+            "assists": 4,
+            "turnovers": 7,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 0.57,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -10,
+            "points": 26
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Tyson Chandler",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "6",
+          "id": "3cd2d1c1-d575-45fd-b069-3f0adf57796d",
+          "statistics": {
+            "minutes": "33:38",
+            "field_goals_made": 4,
+            "field_goals_att": 5,
+            "field_goals_pct": 80,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 4,
+            "two_points_att": 5,
+            "two_points_pct": 0.8,
+            "blocked_att": 0,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 4,
+            "defensive_rebounds": 7,
+            "rebounds": 11,
+            "assists": 0,
+            "turnovers": 1,
+            "steals": 0,
+            "blocks": 2,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -10,
+            "points": 8
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Carmelo Anthony",
+          "position": "F",
+          "primary_position": "SF",
+          "jersey_number": "7",
+          "id": "32688af1-7ac2-432e-b60a-74b9bd89df57",
+          "statistics": {
+            "minutes": "40:51",
+            "field_goals_made": 8,
+            "field_goals_att": 17,
+            "field_goals_pct": 47.1,
+            "three_points_made": 1,
+            "three_points_att": 4,
+            "three_points_pct": 25,
+            "two_points_made": 7,
+            "two_points_att": 13,
+            "two_points_pct": 0.538,
+            "blocked_att": 1,
+            "free_throws_made": 9,
+            "free_throws_att": 13,
+            "free_throws_pct": 69.2,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 7,
+            "rebounds": 8,
+            "assists": 4,
+            "turnovers": 7,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 0.57,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -10,
+            "points": 26
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Heat",
+    "market": "Miami",
+    "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 106,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 29,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 24,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 24,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 29,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "LeBron James",
+          "position": "F",
+          "primary_position": "SF",
+          "jersey_number": "6",
+          "id": "0afbe608-940a-4d5d-a1f7-468718c67d91",
+          "statistics": {
+            "minutes": "39:06",
+            "field_goals_made": 13,
+            "field_goals_att": 22,
+            "field_goals_pct": 59.1,
+            "three_points_made": 1,
+            "three_points_att": 3,
+            "three_points_pct": 33.3,
+            "two_points_made": 12,
+            "two_points_att": 19,
+            "two_points_pct": 0.632,
+            "blocked_att": 1,
+            "free_throws_made": 3,
+            "free_throws_att": 6,
+            "free_throws_pct": 50,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 7,
+            "rebounds": 8,
+            "assists": 7,
+            "turnovers": 2,
+            "steals": 6,
+            "blocks": 0,
+            "assists_turnover_ratio": 3.5,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 14,
+            "points": 30
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Chris Bosh",
+          "position": "C-F",
+          "primary_position": "PF",
+          "jersey_number": "1",
+          "id": "f5163a3f-f880-4c2c-ac9b-00db844246b2",
+          "statistics": {
+            "minutes": "37:23",
+            "field_goals_made": 2,
+            "field_goals_att": 11,
+            "field_goals_pct": 18.2,
+            "three_points_made": 0,
+            "three_points_att": 3,
+            "three_points_pct": 0,
+            "two_points_made": 2,
+            "two_points_att": 8,
+            "two_points_pct": 0.25,
+            "blocked_att": 3,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 10,
+            "rebounds": 10,
+            "assists": 0,
+            "turnovers": 0,
+            "steals": 1,
+            "blocks": 1,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 14,
+            "points": 4
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "LeBron James",
+          "position": "F",
+          "primary_position": "SF",
+          "jersey_number": "6",
+          "id": "0afbe608-940a-4d5d-a1f7-468718c67d91",
+          "statistics": {
+            "minutes": "39:06",
+            "field_goals_made": 13,
+            "field_goals_att": 22,
+            "field_goals_pct": 59.1,
+            "three_points_made": 1,
+            "three_points_att": 3,
+            "three_points_pct": 33.3,
+            "two_points_made": 12,
+            "two_points_att": 19,
+            "two_points_pct": 0.632,
+            "blocked_att": 1,
+            "free_throws_made": 3,
+            "free_throws_att": 6,
+            "free_throws_pct": 50,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 7,
+            "rebounds": 8,
+            "assists": 7,
+            "turnovers": 2,
+            "steals": 6,
+            "blocks": 0,
+            "assists_turnover_ratio": 3.5,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 14,
+            "points": 30
+          }
+        }
+      ]
+    }
+  }
+}

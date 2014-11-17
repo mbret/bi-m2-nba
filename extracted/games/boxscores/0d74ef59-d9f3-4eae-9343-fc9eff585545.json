@@ -1,0 +1,308 @@
+{
+  "id": "0d74ef59-d9f3-4eae-9343-fc9eff585545",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2013-11-05T00:00:00+00:00",
+  "duration": "2:09",
+  "attendance": 11089,
+  "lead_changes": 5,
+  "times_tied": 5,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "76ers",
+    "market": "Philadelphia",
+    "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 90,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 22,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 20,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 23,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 25,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Evan Turner",
+          "position": "G-F",
+          "primary_position": "SF",
+          "jersey_number": "12",
+          "id": "ca4f6af4-c203-41d0-97a3-0286710710b6",
+          "statistics": {
+            "minutes": "25:05",
+            "field_goals_made": 7,
+            "field_goals_att": 12,
+            "field_goals_pct": 58.3,
+            "three_points_made": 0,
+            "three_points_att": 1,
+            "three_points_pct": 0,
+            "two_points_made": 7,
+            "two_points_att": 11,
+            "two_points_pct": 0.636,
+            "blocked_att": 2,
+            "free_throws_made": 4,
+            "free_throws_att": 5,
+            "free_throws_pct": 80,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 5,
+            "rebounds": 7,
+            "assists": 1,
+            "turnovers": 5,
+            "steals": 3,
+            "blocks": 0,
+            "assists_turnover_ratio": 0.2,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -26,
+            "points": 18
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Spencer Hawes",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "00",
+          "id": "ddb5d888-09e5-435a-9009-a2549d8c8382",
+          "statistics": {
+            "minutes": "26:22",
+            "field_goals_made": 1,
+            "field_goals_att": 6,
+            "field_goals_pct": 16.7,
+            "three_points_made": 1,
+            "three_points_att": 2,
+            "three_points_pct": 50,
+            "two_points_made": 0,
+            "two_points_att": 4,
+            "two_points_pct": 0,
+            "blocked_att": 0,
+            "free_throws_made": 2,
+            "free_throws_att": 4,
+            "free_throws_pct": 50,
+            "offensive_rebounds": 3,
+            "defensive_rebounds": 5,
+            "rebounds": 8,
+            "assists": 3,
+            "turnovers": 3,
+            "steals": 0,
+            "blocks": 1,
+            "assists_turnover_ratio": 1,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -41,
+            "points": 5
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Darius Morris",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "7",
+          "id": "29bb28eb-bebc-4230-84a5-294bb28b5b9f",
+          "statistics": {
+            "minutes": "19:27",
+            "field_goals_made": 2,
+            "field_goals_att": 6,
+            "field_goals_pct": 33.3,
+            "three_points_made": 0,
+            "three_points_att": 3,
+            "three_points_pct": 0,
+            "two_points_made": 2,
+            "two_points_att": 3,
+            "two_points_pct": 0.667,
+            "blocked_att": 1,
+            "free_throws_made": 4,
+            "free_throws_att": 5,
+            "free_throws_pct": 80,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 1,
+            "rebounds": 2,
+            "assists": 5,
+            "turnovers": 2,
+            "steals": 4,
+            "blocks": 0,
+            "assists_turnover_ratio": 2.5,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 15,
+            "points": 8
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Warriors",
+    "market": "Golden State",
+    "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 110,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 36,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 30,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 32,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 12,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Andre Iguodala",
+          "position": "G-F",
+          "primary_position": "SF",
+          "jersey_number": "9",
+          "id": "9fdcd102-1c82-4e32-b366-c93139352c75",
+          "statistics": {
+            "minutes": "32:39",
+            "field_goals_made": 11,
+            "field_goals_att": 18,
+            "field_goals_pct": 61.1,
+            "three_points_made": 7,
+            "three_points_att": 11,
+            "three_points_pct": 63.6,
+            "two_points_made": 4,
+            "two_points_att": 7,
+            "two_points_pct": 0.571,
+            "blocked_att": 0,
+            "free_throws_made": 3,
+            "free_throws_att": 4,
+            "free_throws_pct": 75,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 2,
+            "rebounds": 3,
+            "assists": 3,
+            "turnovers": 1,
+            "steals": 3,
+            "blocks": 1,
+            "assists_turnover_ratio": 3,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 35,
+            "points": 32
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Stephen Curry",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "30",
+          "id": "8ec91366-faea-4196-bbfd-b8fab7434795",
+          "statistics": {
+            "minutes": "29:13",
+            "field_goals_made": 7,
+            "field_goals_att": 16,
+            "field_goals_pct": 43.8,
+            "three_points_made": 2,
+            "three_points_att": 9,
+            "three_points_pct": 22.2,
+            "two_points_made": 5,
+            "two_points_att": 7,
+            "two_points_pct": 0.714,
+            "blocked_att": 0,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 3,
+            "defensive_rebounds": 7,
+            "rebounds": 10,
+            "assists": 12,
+            "turnovers": 2,
+            "steals": 5,
+            "blocks": 1,
+            "assists_turnover_ratio": 6,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 34,
+            "points": 18
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Stephen Curry",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "30",
+          "id": "8ec91366-faea-4196-bbfd-b8fab7434795",
+          "statistics": {
+            "minutes": "29:13",
+            "field_goals_made": 7,
+            "field_goals_att": 16,
+            "field_goals_pct": 43.8,
+            "three_points_made": 2,
+            "three_points_att": 9,
+            "three_points_pct": 22.2,
+            "two_points_made": 5,
+            "two_points_att": 7,
+            "two_points_pct": 0.714,
+            "blocked_att": 0,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 3,
+            "defensive_rebounds": 7,
+            "rebounds": 10,
+            "assists": 12,
+            "turnovers": 2,
+            "steals": 5,
+            "blocks": 1,
+            "assists_turnover_ratio": 6,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 34,
+            "points": 18
+          }
+        }
+      ]
+    }
+  }
+}

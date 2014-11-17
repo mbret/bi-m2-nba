@@ -1,0 +1,308 @@
+{
+  "id": "c2d2edd8-1169-4a2a-8aaf-b18a65503e59",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2014-01-03T00:30:00+00:00",
+  "duration": "2:13",
+  "attendance": 20350,
+  "lead_changes": 4,
+  "times_tied": 6,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Heat",
+    "market": "Miami",
+    "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 114,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 33,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 28,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 26,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 27,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "LeBron James",
+          "position": "F",
+          "primary_position": "SF",
+          "jersey_number": "6",
+          "id": "0afbe608-940a-4d5d-a1f7-468718c67d91",
+          "statistics": {
+            "minutes": "39:34",
+            "field_goals_made": 10,
+            "field_goals_att": 16,
+            "field_goals_pct": 62.5,
+            "three_points_made": 1,
+            "three_points_att": 4,
+            "three_points_pct": 25,
+            "two_points_made": 9,
+            "two_points_att": 12,
+            "two_points_pct": 0.75,
+            "blocked_att": 0,
+            "free_throws_made": 5,
+            "free_throws_att": 8,
+            "free_throws_pct": 62.5,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 5,
+            "rebounds": 5,
+            "assists": 5,
+            "turnovers": 8,
+            "steals": 0,
+            "blocks": 1,
+            "assists_turnover_ratio": 0.63,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -11,
+            "points": 26
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Mario Chalmers",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "15",
+          "id": "b60c920c-b42e-4896-9f6d-7f3031fc6492",
+          "statistics": {
+            "minutes": "31:54",
+            "field_goals_made": 6,
+            "field_goals_att": 10,
+            "field_goals_pct": 60,
+            "three_points_made": 1,
+            "three_points_att": 3,
+            "three_points_pct": 33.3,
+            "two_points_made": 5,
+            "two_points_att": 7,
+            "two_points_pct": 0.714,
+            "blocked_att": 0,
+            "free_throws_made": 4,
+            "free_throws_att": 5,
+            "free_throws_pct": 80,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 6,
+            "rebounds": 7,
+            "assists": 3,
+            "turnovers": 0,
+            "steals": 3,
+            "blocks": 0,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -13,
+            "points": 17
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Dwyane Wade",
+          "position": "G",
+          "primary_position": "SG",
+          "jersey_number": "3",
+          "id": "2038ebc0-a35b-4979-9fd6-15c72c435101",
+          "statistics": {
+            "minutes": "35:45",
+            "field_goals_made": 9,
+            "field_goals_att": 18,
+            "field_goals_pct": 50,
+            "three_points_made": 2,
+            "three_points_att": 2,
+            "three_points_pct": 100,
+            "two_points_made": 7,
+            "two_points_att": 16,
+            "two_points_pct": 0.438,
+            "blocked_att": 0,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 3,
+            "rebounds": 4,
+            "assists": 5,
+            "turnovers": 2,
+            "steals": 3,
+            "blocks": 0,
+            "assists_turnover_ratio": 2.5,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -11,
+            "points": 22
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Warriors",
+    "market": "Golden State",
+    "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 123,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 38,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 27,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 31,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 27,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Stephen Curry",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "30",
+          "id": "8ec91366-faea-4196-bbfd-b8fab7434795",
+          "statistics": {
+            "minutes": "43:43",
+            "field_goals_made": 13,
+            "field_goals_att": 22,
+            "field_goals_pct": 59.1,
+            "three_points_made": 8,
+            "three_points_att": 15,
+            "three_points_pct": 53.3,
+            "two_points_made": 5,
+            "two_points_att": 7,
+            "two_points_pct": 0.714,
+            "blocked_att": 0,
+            "free_throws_made": 2,
+            "free_throws_att": 3,
+            "free_throws_pct": 66.7,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 2,
+            "rebounds": 2,
+            "assists": 12,
+            "turnovers": 4,
+            "steals": 2,
+            "blocks": 0,
+            "assists_turnover_ratio": 3,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 16,
+            "points": 36
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "David Lee",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "10",
+          "id": "9a48ac5c-430e-4306-b393-bd366e922334",
+          "statistics": {
+            "minutes": "35:45",
+            "field_goals_made": 13,
+            "field_goals_att": 17,
+            "field_goals_pct": 76.5,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 13,
+            "two_points_att": 17,
+            "two_points_pct": 0.765,
+            "blocked_att": 0,
+            "free_throws_made": 6,
+            "free_throws_att": 7,
+            "free_throws_pct": 85.7,
+            "offensive_rebounds": 3,
+            "defensive_rebounds": 11,
+            "rebounds": 14,
+            "assists": 3,
+            "turnovers": 3,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 1,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 17,
+            "points": 32
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Stephen Curry",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "30",
+          "id": "8ec91366-faea-4196-bbfd-b8fab7434795",
+          "statistics": {
+            "minutes": "43:43",
+            "field_goals_made": 13,
+            "field_goals_att": 22,
+            "field_goals_pct": 59.1,
+            "three_points_made": 8,
+            "three_points_att": 15,
+            "three_points_pct": 53.3,
+            "two_points_made": 5,
+            "two_points_att": 7,
+            "two_points_pct": 0.714,
+            "blocked_att": 0,
+            "free_throws_made": 2,
+            "free_throws_att": 3,
+            "free_throws_pct": 66.7,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 2,
+            "rebounds": 2,
+            "assists": 12,
+            "turnovers": 4,
+            "steals": 2,
+            "blocks": 0,
+            "assists_turnover_ratio": 3,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 16,
+            "points": 36
+          }
+        }
+      ]
+    }
+  }
+}

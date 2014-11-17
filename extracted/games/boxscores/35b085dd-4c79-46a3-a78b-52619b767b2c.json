@@ -1,0 +1,308 @@
+{
+  "id": "35b085dd-4c79-46a3-a78b-52619b767b2c",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2013-12-05T01:00:00+00:00",
+  "duration": "2:16",
+  "attendance": 14524,
+  "lead_changes": 10,
+  "times_tied": 19,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Pelicans",
+    "market": "New Orleans",
+    "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 97,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 24,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 29,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 24,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 20,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Jrue Holiday",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "11",
+          "id": "65700e81-3aa0-49a9-8a94-004f2cfb64e5",
+          "statistics": {
+            "minutes": "36:17",
+            "field_goals_made": 10,
+            "field_goals_att": 17,
+            "field_goals_pct": 58.8,
+            "three_points_made": 4,
+            "three_points_att": 5,
+            "three_points_pct": 80,
+            "two_points_made": 6,
+            "two_points_att": 12,
+            "two_points_pct": 0.5,
+            "blocked_att": 0,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 3,
+            "rebounds": 4,
+            "assists": 9,
+            "turnovers": 3,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 3,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 6,
+            "points": 26
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Al-Farouq Aminu",
+          "position": "F",
+          "primary_position": "SF",
+          "jersey_number": "0",
+          "id": "56ff7cb8-4828-4aaa-8f95-0bf569a0786d",
+          "statistics": {
+            "minutes": "33:34",
+            "field_goals_made": 8,
+            "field_goals_att": 17,
+            "field_goals_pct": 47.1,
+            "three_points_made": 0,
+            "three_points_att": 1,
+            "three_points_pct": 0,
+            "two_points_made": 8,
+            "two_points_att": 16,
+            "two_points_pct": 0.5,
+            "blocked_att": 4,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 4,
+            "defensive_rebounds": 16,
+            "rebounds": 20,
+            "assists": 1,
+            "turnovers": 3,
+            "steals": 3,
+            "blocks": 0,
+            "assists_turnover_ratio": 0.33,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 1,
+            "points": 16
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Jrue Holiday",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "11",
+          "id": "65700e81-3aa0-49a9-8a94-004f2cfb64e5",
+          "statistics": {
+            "minutes": "36:17",
+            "field_goals_made": 10,
+            "field_goals_att": 17,
+            "field_goals_pct": 58.8,
+            "three_points_made": 4,
+            "three_points_att": 5,
+            "three_points_pct": 80,
+            "two_points_made": 6,
+            "two_points_att": 12,
+            "two_points_pct": 0.5,
+            "blocked_att": 0,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 3,
+            "rebounds": 4,
+            "assists": 9,
+            "turnovers": 3,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 3,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 6,
+            "points": 26
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Mavericks",
+    "market": "Dallas",
+    "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 100,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 27,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 25,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 23,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 25,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Dirk Nowitzki",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "41",
+          "id": "b4fb962d-4f36-4b82-89e3-dec4733329c3",
+          "statistics": {
+            "minutes": "32:06",
+            "field_goals_made": 7,
+            "field_goals_att": 17,
+            "field_goals_pct": 41.2,
+            "three_points_made": 1,
+            "three_points_att": 3,
+            "three_points_pct": 33.3,
+            "two_points_made": 6,
+            "two_points_att": 14,
+            "two_points_pct": 0.429,
+            "blocked_att": 0,
+            "free_throws_made": 6,
+            "free_throws_att": 8,
+            "free_throws_pct": 75,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 7,
+            "rebounds": 7,
+            "assists": 3,
+            "turnovers": 1,
+            "steals": 2,
+            "blocks": 4,
+            "assists_turnover_ratio": 3,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 10,
+            "points": 21
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Samuel Dalembert",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "1",
+          "id": "ca06ce60-1fb3-40a1-bb50-a16f75f4ea5d",
+          "statistics": {
+            "minutes": "18:49",
+            "field_goals_made": 3,
+            "field_goals_att": 6,
+            "field_goals_pct": 50,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 3,
+            "two_points_att": 6,
+            "two_points_pct": 0.5,
+            "blocked_att": 0,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 4,
+            "defensive_rebounds": 3,
+            "rebounds": 7,
+            "assists": 1,
+            "turnovers": 0,
+            "steals": 0,
+            "blocks": 1,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 2,
+            "points": 6
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Monta Ellis",
+          "position": "G",
+          "primary_position": "SG",
+          "jersey_number": "11",
+          "id": "0c144557-df20-492c-bf75-be53adf92699",
+          "statistics": {
+            "minutes": "39:18",
+            "field_goals_made": 5,
+            "field_goals_att": 13,
+            "field_goals_pct": 38.5,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 5,
+            "two_points_att": 13,
+            "two_points_pct": 0.385,
+            "blocked_att": 0,
+            "free_throws_made": 4,
+            "free_throws_att": 6,
+            "free_throws_pct": 66.7,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 6,
+            "rebounds": 6,
+            "assists": 10,
+            "turnovers": 1,
+            "steals": 3,
+            "blocks": 0,
+            "assists_turnover_ratio": 10,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -3,
+            "points": 14
+          }
+        }
+      ]
+    }
+  }
+}

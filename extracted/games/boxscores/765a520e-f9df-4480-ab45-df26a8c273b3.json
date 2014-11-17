@@ -1,0 +1,309 @@
+{
+  "id": "765a520e-f9df-4480-ab45-df26a8c273b3",
+  "title": "Game 5",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2014-05-13T23:00:00+00:00",
+  "duration": "2:19",
+  "attendance": 18165,
+  "lead_changes": 3,
+  "times_tied": 1,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Pacers",
+    "market": "Indiana",
+    "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 79,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 19,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 19,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 14,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 27,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "David West",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "21",
+          "id": "2365e884-e0d9-43a4-8efe-a4bd9a14329a",
+          "statistics": {
+            "minutes": "33:31",
+            "field_goals_made": 7,
+            "field_goals_att": 14,
+            "field_goals_pct": 50,
+            "three_points_made": 1,
+            "three_points_att": 1,
+            "three_points_pct": 100,
+            "two_points_made": 6,
+            "two_points_att": 13,
+            "two_points_pct": 0.462,
+            "blocked_att": 0,
+            "free_throws_made": 2,
+            "free_throws_att": 3,
+            "free_throws_pct": 66.7,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 5,
+            "rebounds": 6,
+            "assists": 3,
+            "turnovers": 1,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 3,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -35,
+            "points": 17
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "David West",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "21",
+          "id": "2365e884-e0d9-43a4-8efe-a4bd9a14329a",
+          "statistics": {
+            "minutes": "33:31",
+            "field_goals_made": 7,
+            "field_goals_att": 14,
+            "field_goals_pct": 50,
+            "three_points_made": 1,
+            "three_points_att": 1,
+            "three_points_pct": 100,
+            "two_points_made": 6,
+            "two_points_att": 13,
+            "two_points_pct": 0.462,
+            "blocked_att": 0,
+            "free_throws_made": 2,
+            "free_throws_att": 3,
+            "free_throws_pct": 66.7,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 5,
+            "rebounds": 6,
+            "assists": 3,
+            "turnovers": 1,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 3,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -35,
+            "points": 17
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Lance Stephenson",
+          "position": "G",
+          "primary_position": "SG",
+          "jersey_number": "1",
+          "id": "01e8f44f-f1ee-4d3a-86bd-c29d597ba9bd",
+          "statistics": {
+            "minutes": "27:52",
+            "field_goals_made": 4,
+            "field_goals_att": 8,
+            "field_goals_pct": 50,
+            "three_points_made": 1,
+            "three_points_att": 1,
+            "three_points_pct": 100,
+            "two_points_made": 3,
+            "two_points_att": 7,
+            "two_points_pct": 0.429,
+            "blocked_att": 1,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 0,
+            "rebounds": 0,
+            "assists": 3,
+            "turnovers": 1,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 3,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -23,
+            "points": 9
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Wizards",
+    "market": "Washington",
+    "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 102,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 25,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 20,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 31,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 26,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Marcin Gortat",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "4",
+          "id": "f0deff5f-c269-4389-9713-b8a7e70207cb",
+          "statistics": {
+            "minutes": "36:00",
+            "field_goals_made": 13,
+            "field_goals_att": 15,
+            "field_goals_pct": 86.7,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 13,
+            "two_points_att": 15,
+            "two_points_pct": 0.867,
+            "blocked_att": 0,
+            "free_throws_made": 5,
+            "free_throws_att": 7,
+            "free_throws_pct": 71.4,
+            "offensive_rebounds": 7,
+            "defensive_rebounds": 9,
+            "rebounds": 16,
+            "assists": 2,
+            "turnovers": 3,
+            "steals": 1,
+            "blocks": 1,
+            "assists_turnover_ratio": 0.67,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 35,
+            "points": 31
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Marcin Gortat",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "4",
+          "id": "f0deff5f-c269-4389-9713-b8a7e70207cb",
+          "statistics": {
+            "minutes": "36:00",
+            "field_goals_made": 13,
+            "field_goals_att": 15,
+            "field_goals_pct": 86.7,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 13,
+            "two_points_att": 15,
+            "two_points_pct": 0.867,
+            "blocked_att": 0,
+            "free_throws_made": 5,
+            "free_throws_att": 7,
+            "free_throws_pct": 71.4,
+            "offensive_rebounds": 7,
+            "defensive_rebounds": 9,
+            "rebounds": 16,
+            "assists": 2,
+            "turnovers": 3,
+            "steals": 1,
+            "blocks": 1,
+            "assists_turnover_ratio": 0.67,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 35,
+            "points": 31
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "John Wall",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "2",
+          "id": "6769d1ca-0581-48b0-b487-b5c87b8f696e",
+          "statistics": {
+            "minutes": "33:46",
+            "field_goals_made": 11,
+            "field_goals_att": 20,
+            "field_goals_pct": 55,
+            "three_points_made": 3,
+            "three_points_att": 6,
+            "three_points_pct": 50,
+            "two_points_made": 8,
+            "two_points_att": 14,
+            "two_points_pct": 0.571,
+            "blocked_att": 1,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 4,
+            "rebounds": 5,
+            "assists": 5,
+            "turnovers": 5,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 1,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 30,
+            "points": 27
+          }
+        }
+      ]
+    }
+  }
+}

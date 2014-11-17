@@ -1,0 +1,308 @@
+{
+  "id": "67f045a4-7c9e-43b8-afc7-72456493742c",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2013-11-14T01:00:00+00:00",
+  "duration": "2:19",
+  "attendance": 15057,
+  "lead_changes": 7,
+  "times_tied": 2,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Hawks",
+    "market": "Atlanta",
+    "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 91,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 24,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 21,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 23,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 23,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Jeff Teague",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "0",
+          "id": "9cf99a61-6b51-4aed-8940-0480dc512b36",
+          "statistics": {
+            "minutes": "39:50",
+            "field_goals_made": 7,
+            "field_goals_att": 17,
+            "field_goals_pct": 41.2,
+            "three_points_made": 0,
+            "three_points_att": 2,
+            "three_points_pct": 0,
+            "two_points_made": 7,
+            "two_points_att": 15,
+            "two_points_pct": 0.467,
+            "blocked_att": 2,
+            "free_throws_made": 11,
+            "free_throws_att": 14,
+            "free_throws_pct": 78.6,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 4,
+            "rebounds": 5,
+            "assists": 8,
+            "turnovers": 4,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 2,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 12,
+            "points": 25
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "DeMarre Carroll",
+          "position": "F",
+          "primary_position": "SF",
+          "jersey_number": "5",
+          "id": "664afb4f-3fc1-4e25-bcb8-bab2c0c3c33b",
+          "statistics": {
+            "minutes": "32:50",
+            "field_goals_made": 2,
+            "field_goals_att": 7,
+            "field_goals_pct": 28.6,
+            "three_points_made": 0,
+            "three_points_att": 2,
+            "three_points_pct": 0,
+            "two_points_made": 2,
+            "two_points_att": 5,
+            "two_points_pct": 0.4,
+            "blocked_att": 0,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 9,
+            "rebounds": 9,
+            "assists": 2,
+            "turnovers": 1,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 2,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 5,
+            "points": 4
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Jeff Teague",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "0",
+          "id": "9cf99a61-6b51-4aed-8940-0480dc512b36",
+          "statistics": {
+            "minutes": "39:50",
+            "field_goals_made": 7,
+            "field_goals_att": 17,
+            "field_goals_pct": 41.2,
+            "three_points_made": 0,
+            "three_points_att": 2,
+            "three_points_pct": 0,
+            "two_points_made": 7,
+            "two_points_att": 15,
+            "two_points_pct": 0.467,
+            "blocked_att": 2,
+            "free_throws_made": 11,
+            "free_throws_att": 14,
+            "free_throws_pct": 78.6,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 4,
+            "rebounds": 5,
+            "assists": 8,
+            "turnovers": 4,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 2,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 12,
+            "points": 25
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Knicks",
+    "market": "New York",
+    "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 95,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 29,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 26,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 10,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 30,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Carmelo Anthony",
+          "position": "F",
+          "primary_position": "SF",
+          "jersey_number": "7",
+          "id": "32688af1-7ac2-432e-b60a-74b9bd89df57",
+          "statistics": {
+            "minutes": "40:02",
+            "field_goals_made": 9,
+            "field_goals_att": 25,
+            "field_goals_pct": 36,
+            "three_points_made": 3,
+            "three_points_att": 6,
+            "three_points_pct": 50,
+            "two_points_made": 6,
+            "two_points_att": 19,
+            "two_points_pct": 0.316,
+            "blocked_att": 2,
+            "free_throws_made": 4,
+            "free_throws_att": 5,
+            "free_throws_pct": 80,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 4,
+            "rebounds": 4,
+            "assists": 2,
+            "turnovers": 2,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 1,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -5,
+            "points": 25
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Andrea Bargnani",
+          "position": "F-C",
+          "primary_position": "PF",
+          "jersey_number": "77",
+          "id": "339879bc-5749-44cb-81b0-83449911f13d",
+          "statistics": {
+            "minutes": "30:59",
+            "field_goals_made": 8,
+            "field_goals_att": 15,
+            "field_goals_pct": 53.3,
+            "three_points_made": 2,
+            "three_points_att": 4,
+            "three_points_pct": 50,
+            "two_points_made": 6,
+            "two_points_att": 11,
+            "two_points_pct": 0.545,
+            "blocked_att": 1,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 4,
+            "defensive_rebounds": 7,
+            "rebounds": 11,
+            "assists": 2,
+            "turnovers": 1,
+            "steals": 0,
+            "blocks": 1,
+            "assists_turnover_ratio": 2,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 6,
+            "points": 20
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Iman Shumpert",
+          "position": "G-F",
+          "primary_position": "SG",
+          "jersey_number": "21",
+          "id": "1f9ac202-95e8-4974-9a94-ff3609ca7441",
+          "statistics": {
+            "minutes": "34:52",
+            "field_goals_made": 2,
+            "field_goals_att": 8,
+            "field_goals_pct": 25,
+            "three_points_made": 1,
+            "three_points_att": 4,
+            "three_points_pct": 25,
+            "two_points_made": 1,
+            "two_points_att": 4,
+            "two_points_pct": 0.25,
+            "blocked_att": 1,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 5,
+            "rebounds": 6,
+            "assists": 9,
+            "turnovers": 0,
+            "steals": 4,
+            "blocks": 1,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 15,
+            "points": 5
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "id": "fc6a1546-40d2-42f3-b3d7-4e4ae62a6768",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2013-12-17T00:30:00+00:00",
+  "duration": "2:01",
+  "attendance": 15146,
+  "lead_changes": 3,
+  "times_tied": 3,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Hawks",
+    "market": "Atlanta",
+    "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 114,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 20,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 27,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 35,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 32,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Al Horford",
+          "position": "C-F",
+          "primary_position": "C",
+          "jersey_number": "15",
+          "id": "cf3a87ec-c2f7-42e8-9698-6f8b2ba916a9",
+          "statistics": {
+            "minutes": "32:40",
+            "field_goals_made": 9,
+            "field_goals_att": 17,
+            "field_goals_pct": 52.9,
+            "three_points_made": 0,
+            "three_points_att": 1,
+            "three_points_pct": 0,
+            "two_points_made": 9,
+            "two_points_att": 16,
+            "two_points_pct": 0.563,
+            "blocked_att": 0,
+            "free_throws_made": 1,
+            "free_throws_att": 1,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 5,
+            "defensive_rebounds": 6,
+            "rebounds": 11,
+            "assists": 5,
+            "turnovers": 2,
+            "steals": 0,
+            "blocks": 1,
+            "assists_turnover_ratio": 2.5,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 13,
+            "points": 19
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Al Horford",
+          "position": "C-F",
+          "primary_position": "C",
+          "jersey_number": "15",
+          "id": "cf3a87ec-c2f7-42e8-9698-6f8b2ba916a9",
+          "statistics": {
+            "minutes": "32:40",
+            "field_goals_made": 9,
+            "field_goals_att": 17,
+            "field_goals_pct": 52.9,
+            "three_points_made": 0,
+            "three_points_att": 1,
+            "three_points_pct": 0,
+            "two_points_made": 9,
+            "two_points_att": 16,
+            "two_points_pct": 0.563,
+            "blocked_att": 0,
+            "free_throws_made": 1,
+            "free_throws_att": 1,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 5,
+            "defensive_rebounds": 6,
+            "rebounds": 11,
+            "assists": 5,
+            "turnovers": 2,
+            "steals": 0,
+            "blocks": 1,
+            "assists_turnover_ratio": 2.5,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 13,
+            "points": 19
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Jeff Teague",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "0",
+          "id": "9cf99a61-6b51-4aed-8940-0480dc512b36",
+          "statistics": {
+            "minutes": "38:42",
+            "field_goals_made": 6,
+            "field_goals_att": 16,
+            "field_goals_pct": 37.5,
+            "three_points_made": 2,
+            "three_points_att": 3,
+            "three_points_pct": 66.7,
+            "two_points_made": 4,
+            "two_points_att": 13,
+            "two_points_pct": 0.308,
+            "blocked_att": 2,
+            "free_throws_made": 3,
+            "free_throws_att": 4,
+            "free_throws_pct": 75,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 4,
+            "rebounds": 4,
+            "assists": 10,
+            "turnovers": 2,
+            "steals": 1,
+            "blocks": 1,
+            "assists_turnover_ratio": 5,
+            "personal_fouls": 1,
+            "tech_fouls": 1,
+            "flagrant_fouls": 0,
+            "pls_min": 8,
+            "points": 17
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Lakers",
+    "market": "Los Angeles",
+    "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 100,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 28,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 26,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 19,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 27,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Nick Young",
+          "position": "F-G",
+          "primary_position": "SG",
+          "jersey_number": "0",
+          "id": "d323405a-4655-4261-b0fa-9524523143a1",
+          "statistics": {
+            "minutes": "32:43",
+            "field_goals_made": 7,
+            "field_goals_att": 14,
+            "field_goals_pct": 50,
+            "three_points_made": 5,
+            "three_points_att": 7,
+            "three_points_pct": 71.4,
+            "two_points_made": 2,
+            "two_points_att": 7,
+            "two_points_pct": 0.286,
+            "blocked_att": 0,
+            "free_throws_made": 4,
+            "free_throws_att": 4,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 3,
+            "rebounds": 4,
+            "assists": 1,
+            "turnovers": 1,
+            "steals": 0,
+            "blocks": 1,
+            "assists_turnover_ratio": 1,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -3,
+            "points": 23
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Pau Gasol",
+          "position": "C-F",
+          "primary_position": "PF",
+          "jersey_number": "16",
+          "id": "4aafa7e4-d271-42d2-8979-bdefcd221d30",
+          "statistics": {
+            "minutes": "32:10",
+            "field_goals_made": 7,
+            "field_goals_att": 9,
+            "field_goals_pct": 77.8,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 7,
+            "two_points_att": 9,
+            "two_points_pct": 0.778,
+            "blocked_att": 0,
+            "free_throws_made": 2,
+            "free_throws_att": 4,
+            "free_throws_pct": 50,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 8,
+            "rebounds": 10,
+            "assists": 2,
+            "turnovers": 3,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 0.67,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -4,
+            "points": 16
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Kobe Bryant",
+          "position": "G",
+          "primary_position": "SG",
+          "jersey_number": "24",
+          "id": "fd1d76ee-9ec0-460c-b12b-29e584923cb6",
+          "statistics": {
+            "minutes": "32:10",
+            "field_goals_made": 4,
+            "field_goals_att": 14,
+            "field_goals_pct": 28.6,
+            "three_points_made": 0,
+            "three_points_att": 5,
+            "three_points_pct": 0,
+            "two_points_made": 4,
+            "two_points_att": 9,
+            "two_points_pct": 0.444,
+            "blocked_att": 0,
+            "free_throws_made": 0,
+            "free_throws_att": 1,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 3,
+            "rebounds": 3,
+            "assists": 6,
+            "turnovers": 5,
+            "steals": 2,
+            "blocks": 0,
+            "assists_turnover_ratio": 1.2,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -4,
+            "points": 8
+          }
+        }
+      ]
+    }
+  }
+}

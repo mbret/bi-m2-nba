@@ -1,0 +1,308 @@
+{
+  "id": "b6ba9486-2cdf-45a9-afef-4758ecfcb1b0",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2013-10-16T02:00:00+00:00",
+  "duration": "2:19",
+  "attendance": 11516,
+  "lead_changes": 0,
+  "times_tied": 2,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Suns",
+    "market": "Phoenix",
+    "id": "583ecfa8-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 96,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 24,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 23,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 19,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 30,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Goran Dragic",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "1",
+          "id": "fea7b92a-0124-4775-8747-e4828f0dab8b",
+          "statistics": {
+            "minutes": "28:33",
+            "field_goals_made": 8,
+            "field_goals_att": 12,
+            "field_goals_pct": 66.7,
+            "three_points_made": 4,
+            "three_points_att": 4,
+            "three_points_pct": 100,
+            "two_points_made": 4,
+            "two_points_att": 8,
+            "two_points_pct": 0.5,
+            "blocked_att": 2,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 0,
+            "rebounds": 2,
+            "assists": 2,
+            "turnovers": 4,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 0.5,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -9,
+            "points": 20
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "P.J. Tucker",
+          "position": "F",
+          "primary_position": "SF",
+          "jersey_number": "17",
+          "id": "da7d17aa-f245-4710-820c-99d29a7458b4",
+          "statistics": {
+            "minutes": "19:54",
+            "field_goals_made": 0,
+            "field_goals_att": 4,
+            "field_goals_pct": 0,
+            "three_points_made": 0,
+            "three_points_att": 1,
+            "three_points_pct": 0,
+            "two_points_made": 0,
+            "two_points_att": 3,
+            "two_points_pct": 0,
+            "blocked_att": 1,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 5,
+            "rebounds": 6,
+            "assists": 0,
+            "turnovers": 0,
+            "steals": 0,
+            "blocks": 1,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 4,
+            "points": 2
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Eric Bledsoe",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "2",
+          "id": "8cee3c73-f765-4000-882d-0c6d0b8acbe3",
+          "statistics": {
+            "minutes": "28:06",
+            "field_goals_made": 3,
+            "field_goals_att": 6,
+            "field_goals_pct": 50,
+            "three_points_made": 0,
+            "three_points_att": 2,
+            "three_points_pct": 0,
+            "two_points_made": 3,
+            "two_points_att": 4,
+            "two_points_pct": 0.75,
+            "blocked_att": 0,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 0,
+            "rebounds": 0,
+            "assists": 7,
+            "turnovers": 4,
+            "steals": 4,
+            "blocks": 0,
+            "assists_turnover_ratio": 1.75,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -8,
+            "points": 8
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Clippers",
+    "market": "Los Angeles",
+    "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 102,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 33,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 30,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 13,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 26,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Chris Paul",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "3",
+          "id": "942c53e3-7268-44e3-b0a9-fdff55a72c03",
+          "statistics": {
+            "minutes": "31:27",
+            "field_goals_made": 9,
+            "field_goals_att": 16,
+            "field_goals_pct": 56.3,
+            "three_points_made": 2,
+            "three_points_att": 5,
+            "three_points_pct": 40,
+            "two_points_made": 7,
+            "two_points_att": 11,
+            "two_points_pct": 0.636,
+            "blocked_att": 0,
+            "free_throws_made": 4,
+            "free_throws_att": 6,
+            "free_throws_pct": 66.7,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 3,
+            "rebounds": 5,
+            "assists": 9,
+            "turnovers": 5,
+            "steals": 2,
+            "blocks": 0,
+            "assists_turnover_ratio": 1.8,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 11,
+            "points": 24
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "DeAndre Jordan",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "6",
+          "id": "0036a1fa-ff9a-44a5-8061-68b828ee2b1e",
+          "statistics": {
+            "minutes": "31:11",
+            "field_goals_made": 5,
+            "field_goals_att": 7,
+            "field_goals_pct": 71.4,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 5,
+            "two_points_att": 7,
+            "two_points_pct": 0.714,
+            "blocked_att": 0,
+            "free_throws_made": 1,
+            "free_throws_att": 5,
+            "free_throws_pct": 20,
+            "offensive_rebounds": 4,
+            "defensive_rebounds": 7,
+            "rebounds": 11,
+            "assists": 2,
+            "turnovers": 4,
+            "steals": 0,
+            "blocks": 5,
+            "assists_turnover_ratio": 0.5,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 10,
+            "points": 11
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Chris Paul",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "3",
+          "id": "942c53e3-7268-44e3-b0a9-fdff55a72c03",
+          "statistics": {
+            "minutes": "31:27",
+            "field_goals_made": 9,
+            "field_goals_att": 16,
+            "field_goals_pct": 56.3,
+            "three_points_made": 2,
+            "three_points_att": 5,
+            "three_points_pct": 40,
+            "two_points_made": 7,
+            "two_points_att": 11,
+            "two_points_pct": 0.636,
+            "blocked_att": 0,
+            "free_throws_made": 4,
+            "free_throws_att": 6,
+            "free_throws_pct": 66.7,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 3,
+            "rebounds": 5,
+            "assists": 9,
+            "turnovers": 5,
+            "steals": 2,
+            "blocks": 0,
+            "assists_turnover_ratio": 1.8,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 11,
+            "points": 24
+          }
+        }
+      ]
+    }
+  }
+}

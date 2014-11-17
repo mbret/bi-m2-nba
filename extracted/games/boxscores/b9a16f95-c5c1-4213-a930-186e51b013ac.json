@@ -1,0 +1,307 @@
+{
+  "id": "b9a16f95-c5c1-4213-a930-186e51b013ac",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2013-11-16T03:30:00+00:00",
+  "duration": "2:03",
+  "attendance": 18997,
+  "lead_changes": 22,
+  "times_tied": 14,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Lakers",
+    "market": "Los Angeles",
+    "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 86,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 17,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 23,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 26,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 20,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Jodie Meeks",
+          "position": "G",
+          "primary_position": "SG",
+          "jersey_number": "20",
+          "id": "d6001098-cdde-46a5-85a3-f581ae471f9a",
+          "statistics": {
+            "minutes": "37:56",
+            "field_goals_made": 10,
+            "field_goals_att": 16,
+            "field_goals_pct": 62.5,
+            "three_points_made": 5,
+            "three_points_att": 9,
+            "three_points_pct": 55.6,
+            "two_points_made": 5,
+            "two_points_att": 7,
+            "two_points_pct": 0.714,
+            "blocked_att": 0,
+            "free_throws_made": 0,
+            "free_throws_att": 1,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 3,
+            "rebounds": 3,
+            "assists": 0,
+            "turnovers": 2,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 1,
+            "points": 25
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Pau Gasol",
+          "position": "C-F",
+          "primary_position": "PF",
+          "jersey_number": "16",
+          "id": "4aafa7e4-d271-42d2-8979-bdefcd221d30",
+          "statistics": {
+            "minutes": "33:04",
+            "field_goals_made": 4,
+            "field_goals_att": 12,
+            "field_goals_pct": 33.3,
+            "three_points_made": 0,
+            "three_points_att": 1,
+            "three_points_pct": 0,
+            "two_points_made": 4,
+            "two_points_att": 11,
+            "two_points_pct": 0.364,
+            "blocked_att": 2,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 12,
+            "rebounds": 13,
+            "assists": 3,
+            "turnovers": 1,
+            "steals": 0,
+            "blocks": 1,
+            "assists_turnover_ratio": 3,
+            "personal_fouls": 1,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "points": 10
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Steve Blake",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "5",
+          "id": "b7ede5da-bc2f-47fe-8468-dd4b2679603c",
+          "statistics": {
+            "minutes": "36:20",
+            "field_goals_made": 4,
+            "field_goals_att": 9,
+            "field_goals_pct": 44.4,
+            "three_points_made": 1,
+            "three_points_att": 4,
+            "three_points_pct": 25,
+            "two_points_made": 3,
+            "two_points_att": 5,
+            "two_points_pct": 0.6,
+            "blocked_att": 1,
+            "free_throws_made": 0,
+            "free_throws_att": 0,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 7,
+            "rebounds": 7,
+            "assists": 10,
+            "turnovers": 1,
+            "steals": 2,
+            "blocks": 0,
+            "assists_turnover_ratio": 10,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -9,
+            "points": 9
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Grizzlies",
+    "market": "Memphis",
+    "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 89,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 24,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 16,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 23,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 26,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Zach Randolph",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "50",
+          "id": "f5987aa7-b7fd-4bd6-855d-fd6407324950",
+          "statistics": {
+            "minutes": "35:44",
+            "field_goals_made": 11,
+            "field_goals_att": 18,
+            "field_goals_pct": 61.1,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 11,
+            "two_points_att": 18,
+            "two_points_pct": 0.611,
+            "blocked_att": 2,
+            "free_throws_made": 6,
+            "free_throws_att": 6,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 3,
+            "defensive_rebounds": 8,
+            "rebounds": 11,
+            "assists": 2,
+            "turnovers": 1,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 2,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 8,
+            "points": 28
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Zach Randolph",
+          "position": "F",
+          "primary_position": "PF",
+          "jersey_number": "50",
+          "id": "f5987aa7-b7fd-4bd6-855d-fd6407324950",
+          "statistics": {
+            "minutes": "35:44",
+            "field_goals_made": 11,
+            "field_goals_att": 18,
+            "field_goals_pct": 61.1,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 11,
+            "two_points_att": 18,
+            "two_points_pct": 0.611,
+            "blocked_att": 2,
+            "free_throws_made": 6,
+            "free_throws_att": 6,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 3,
+            "defensive_rebounds": 8,
+            "rebounds": 11,
+            "assists": 2,
+            "turnovers": 1,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 2,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 8,
+            "points": 28
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Marc Gasol",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "33",
+          "id": "b73a8508-23a1-49ee-a466-aa9ea8add09e",
+          "statistics": {
+            "minutes": "41:31",
+            "field_goals_made": 6,
+            "field_goals_att": 15,
+            "field_goals_pct": 40,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 6,
+            "two_points_att": 15,
+            "two_points_pct": 0.4,
+            "blocked_att": 1,
+            "free_throws_made": 6,
+            "free_throws_att": 6,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 7,
+            "rebounds": 8,
+            "assists": 8,
+            "turnovers": 1,
+            "steals": 3,
+            "blocks": 3,
+            "assists_turnover_ratio": 8,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 1,
+            "points": 18
+          }
+        }
+      ]
+    }
+  }
+}

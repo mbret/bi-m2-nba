@@ -1,0 +1,436 @@
+{
+  "id": "932ba84a-554d-461f-a6c0-baaa98b62fc8",
+  "status": "closed",
+  "coverage": "boxscore",
+  "scheduled": "2013-10-06T00:00:00+00:00",
+  "clock": "00:00",
+  "quarter": 4,
+  "venue": {
+    "id": "5b239206-57ce-50aa-baaa-627f3349dfdc",
+    "name": "Toyota Center",
+    "capacity": 18043,
+    "address": "1510 Polk St.",
+    "city": "Houston",
+    "state": "TX",
+    "zip": "77002",
+    "country": "USA"
+  },
+  "home": {
+    "name": "Rockets",
+    "market": "Houston",
+    "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 115,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 33,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 24,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 34,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 24,
+        "type": "quarter"
+      }
+    ],
+    "players": [
+      {
+        "full_name": "Greg Smith",
+        "first_name": "Greg",
+        "last_name": "Smith",
+        "position": "F-C",
+        "primary_position": "C",
+        "jersey_number": "4",
+        "id": "55282562-23ba-4c6f-9f8e-417d3ffb79e0",
+        "active": true
+      },
+      {
+        "full_name": "Aaron Brooks",
+        "first_name": "Aaron",
+        "last_name": "Brooks",
+        "position": "G",
+        "primary_position": "PG",
+        "jersey_number": "0",
+        "id": "b838cbad-0877-4189-ba3d-039962da7ebd",
+        "active": true
+      },
+      {
+        "full_name": "Jeremy Lin",
+        "first_name": "Jeremy",
+        "last_name": "Lin",
+        "position": "G",
+        "primary_position": "PG",
+        "jersey_number": "7",
+        "id": "287c389a-0499-4f80-ac4f-1a72366af999",
+        "active": true
+      },
+      {
+        "full_name": "Dwight Howard",
+        "first_name": "Dwight",
+        "last_name": "Howard",
+        "position": "C",
+        "primary_position": "C",
+        "jersey_number": "12",
+        "id": "ae8df356-5e57-43e7-be4d-5ec7663312bd",
+        "active": true
+      },
+      {
+        "full_name": "Terrence Jones",
+        "first_name": "Terrence",
+        "last_name": "Jones",
+        "position": "F",
+        "primary_position": "PF",
+        "jersey_number": "6",
+        "id": "39975493-d411-4d59-a015-8119c6c6e6ef",
+        "active": true
+      },
+      {
+        "full_name": "Donatas Motiejunas",
+        "first_name": "Donatas",
+        "last_name": "Motiejunas",
+        "position": "F-C",
+        "primary_position": "PF",
+        "jersey_number": "20",
+        "id": "8d7da9a1-22b3-40a4-b6f1-caae9c956b6a",
+        "active": true
+      },
+      {
+        "full_name": "Marcus Camby",
+        "first_name": "Marcus",
+        "last_name": "Camby",
+        "position": "C",
+        "primary_position": "C",
+        "jersey_number": "21",
+        "id": "219daaa0-0e4b-4ba0-94b8-213b6a5d5383",
+        "active": true
+      },
+      {
+        "full_name": "Jordan Henriquez",
+        "first_name": "Jordan",
+        "last_name": "Henriquez",
+        "position": "C",
+        "primary_position": "C",
+        "jersey_number": "35",
+        "id": "81d7afef-f148-4ebd-8e0b-a5a0e2351a16",
+        "active": true
+      },
+      {
+        "full_name": "James Harden",
+        "first_name": "James",
+        "last_name": "Harden",
+        "position": "G",
+        "primary_position": "SG",
+        "jersey_number": "13",
+        "id": "a52b2c84-9c3d-4d6e-8a3b-10e75d11c2bc",
+        "active": true
+      },
+      {
+        "full_name": "Robert Covington",
+        "first_name": "Robert",
+        "last_name": "Covington",
+        "position": "F",
+        "primary_position": "PF",
+        "jersey_number": "33",
+        "id": "3e512d9e-ff9c-4f23-a4fd-a88128ee3af2",
+        "active": true
+      },
+      {
+        "full_name": "Isaiah Canaan",
+        "first_name": "Isaiah",
+        "last_name": "Canaan",
+        "position": "G",
+        "primary_position": "PG",
+        "jersey_number": "1",
+        "id": "98a43535-8643-45ff-a954-2afecb418a9d",
+        "active": true
+      },
+      {
+        "full_name": "Omer Asik",
+        "first_name": "Omer",
+        "last_name": "Asik",
+        "position": "C",
+        "primary_position": "C",
+        "jersey_number": "3",
+        "id": "d4a231a9-f064-43b5-af78-59801dda6155",
+        "active": true
+      },
+      {
+        "full_name": "Patrick Beverley",
+        "first_name": "Patrick",
+        "last_name": "Beverley",
+        "position": "G",
+        "primary_position": "PG",
+        "jersey_number": "2",
+        "id": "912e7aa3-dd03-4a98-9980-0442e108f287",
+        "active": true
+      },
+      {
+        "full_name": "Omri Casspi",
+        "first_name": "Omri",
+        "last_name": "Casspi",
+        "position": "F",
+        "primary_position": "SF",
+        "jersey_number": "18",
+        "id": "da0de6b8-d6a9-4cd0-8cdd-3e6b5c35282c",
+        "active": true
+      },
+      {
+        "full_name": "Reggie Williams",
+        "first_name": "Reggie",
+        "last_name": "Williams",
+        "position": "G-F",
+        "primary_position": "SF",
+        "jersey_number": "55",
+        "id": "b1d48323-0ef7-478e-a10c-cbd9f2e3f1df",
+        "active": true
+      },
+      {
+        "full_name": "Ronnie Brewer",
+        "first_name": "Ronnie",
+        "last_name": "Brewer",
+        "position": "G-F",
+        "primary_position": "SG",
+        "jersey_number": "10",
+        "id": "78f9898e-be53-496e-adad-a610515f2635",
+        "active": true
+      },
+      {
+        "full_name": "Chandler Parsons",
+        "first_name": "Chandler",
+        "last_name": "Parsons",
+        "position": "F",
+        "primary_position": "SF",
+        "jersey_number": "25",
+        "id": "434e09b0-2da5-44f4-b406-b5a80852d71d",
+        "active": true
+      },
+      {
+        "full_name": "Francisco Garcia",
+        "first_name": "Francisco",
+        "last_name": "Garcia",
+        "position": "G-F",
+        "primary_position": "SG",
+        "jersey_number": "32",
+        "id": "e0ac1008-1bff-43ab-8416-5d8ff755b392",
+        "active": true
+      }
+    ]
+  },
+  "away": {
+    "name": "Pelicans",
+    "market": "New Orleans",
+    "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 116,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 22,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 31,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 29,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 34,
+        "type": "quarter"
+      }
+    ],
+    "players": [
+      {
+        "full_name": "Anthony Davis",
+        "first_name": "Anthony",
+        "last_name": "Davis",
+        "position": "F-C",
+        "primary_position": "PF",
+        "jersey_number": "23",
+        "id": "ea8826b8-1f76-4eab-b61e-ffcb176880f3",
+        "active": true
+      },
+      {
+        "full_name": "Lance Thomas",
+        "first_name": "Lance",
+        "last_name": "Thomas",
+        "position": "F",
+        "primary_position": "SF",
+        "jersey_number": "42",
+        "id": "f76acd63-bf42-4fa7-9985-a7838f9cb029",
+        "active": true
+      },
+      {
+        "full_name": "Arinze Onuaku",
+        "first_name": "Arinze",
+        "last_name": "Onuaku",
+        "position": "F-C",
+        "primary_position": "PF",
+        "jersey_number": "21",
+        "id": "4abf845d-638e-45ce-8cdc-c90331404be4",
+        "active": true
+      },
+      {
+        "full_name": "Darius Miller",
+        "first_name": "Darius",
+        "last_name": "Miller",
+        "position": "F",
+        "primary_position": "SF",
+        "jersey_number": "2",
+        "id": "ef98a67f-6d45-45af-be21-23fc07eb3f17",
+        "active": true
+      },
+      {
+        "full_name": "Anthony Morrow",
+        "first_name": "Anthony",
+        "last_name": "Morrow",
+        "position": "G",
+        "primary_position": "SG",
+        "jersey_number": "3",
+        "id": "294d0821-162a-47d8-9156-6036749ffbf8",
+        "active": true
+      },
+      {
+        "full_name": "Jason Smith",
+        "first_name": "Jason",
+        "last_name": "Smith",
+        "position": "F-C",
+        "primary_position": "PF",
+        "jersey_number": "14",
+        "id": "7992dce6-a785-4b31-9655-abd5a6f028f0",
+        "active": true
+      },
+      {
+        "full_name": "Jrue Holiday",
+        "first_name": "Jrue",
+        "last_name": "Holiday",
+        "position": "G",
+        "primary_position": "PG",
+        "jersey_number": "11",
+        "id": "65700e81-3aa0-49a9-8a94-004f2cfb64e5",
+        "active": true
+      },
+      {
+        "full_name": "Lazar Hayward",
+        "first_name": "Lazar",
+        "last_name": "Hayward",
+        "position": "F",
+        "primary_position": "SF",
+        "jersey_number": "15",
+        "id": "8c39dda0-8e5a-41d2-a56b-20fb42f69e5e",
+        "active": true
+      },
+      {
+        "full_name": "Tyreke Evans",
+        "first_name": "Tyreke",
+        "last_name": "Evans",
+        "position": "G",
+        "primary_position": "SG",
+        "jersey_number": "1",
+        "id": "f4526ee7-400d-496b-91cb-6e210595b845",
+        "active": true
+      },
+      {
+        "full_name": "Rodney Carney",
+        "first_name": "Rodney",
+        "last_name": "Carney",
+        "position": "G-F",
+        "primary_position": "SF",
+        "jersey_number": "31",
+        "id": "cb841e88-8cbc-4762-be9f-efb126a28e59",
+        "active": true
+      },
+      {
+        "full_name": "Austin Rivers",
+        "first_name": "Austin",
+        "last_name": "Rivers",
+        "position": "G",
+        "primary_position": "SG",
+        "jersey_number": "25",
+        "id": "34a159c8-9fe6-4386-bf01-3446f4248bcb",
+        "active": true
+      },
+      {
+        "full_name": "Eric Gordon",
+        "first_name": "Eric",
+        "last_name": "Gordon",
+        "position": "G",
+        "primary_position": "SG",
+        "jersey_number": "10",
+        "id": "f8d6c74c-e0bd-41ed-a814-f0b25259fe0a",
+        "active": true
+      },
+      {
+        "full_name": "Ryan Anderson",
+        "first_name": "Ryan",
+        "last_name": "Anderson",
+        "position": "F",
+        "primary_position": "PF",
+        "jersey_number": "33",
+        "id": "4cbbd39c-bece-43a6-80a7-fcd4e72a9e03",
+        "active": true
+      },
+      {
+        "full_name": "Greg Stiemsma",
+        "first_name": "Greg",
+        "last_name": "Stiemsma",
+        "position": "C",
+        "primary_position": "C",
+        "jersey_number": "34",
+        "id": "fe6c0b34-aadf-403c-bc8c-bca254544d04",
+        "active": true
+      },
+      {
+        "full_name": "Jeff Withey",
+        "first_name": "Jeff",
+        "last_name": "Withey",
+        "position": "C",
+        "primary_position": "C",
+        "jersey_number": "5",
+        "id": "6c2124da-2ab9-4cad-bd88-224c87e6e6f3",
+        "active": true
+      },
+      {
+        "full_name": "Al-Farouq Aminu",
+        "first_name": "Al-Farouq",
+        "last_name": "Aminu",
+        "position": "F",
+        "primary_position": "SF",
+        "jersey_number": "0",
+        "id": "56ff7cb8-4828-4aaa-8f95-0bf569a0786d",
+        "active": true
+      },
+      {
+        "full_name": "Brian Roberts",
+        "first_name": "Brian",
+        "last_name": "Roberts",
+        "position": "G",
+        "primary_position": "PG",
+        "jersey_number": "22",
+        "id": "eb1f731e-653d-435f-8ccb-3a7f15f84116",
+        "active": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,344 @@
+{
+  "id": "c2633fcd-d476-4421-b602-a35c297b5dff",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2014-01-16T00:00:00+00:00",
+  "duration": "3:08",
+  "attendance": 16489,
+  "lead_changes": 20,
+  "times_tied": 14,
+  "clock": "00:00",
+  "quarter": 7,
+  "home": {
+    "name": "Magic",
+    "market": "Orlando",
+    "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 125,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 20,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 29,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 31,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 21,
+        "type": "quarter"
+      },
+      {
+        "number": 1,
+        "sequence": 5,
+        "points": 10,
+        "type": "overtime"
+      },
+      {
+        "number": 2,
+        "sequence": 6,
+        "points": 8,
+        "type": "overtime"
+      },
+      {
+        "number": 3,
+        "sequence": 7,
+        "points": 6,
+        "type": "overtime"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Victor Oladipo",
+          "position": "G",
+          "primary_position": "SG",
+          "jersey_number": "5",
+          "id": "ae9e275c-9dce-4c10-a108-cfee6958df48",
+          "statistics": {
+            "minutes": "57:11",
+            "field_goals_made": 15,
+            "field_goals_att": 24,
+            "field_goals_pct": 62.5,
+            "three_points_made": 1,
+            "three_points_att": 4,
+            "three_points_pct": 25,
+            "two_points_made": 14,
+            "two_points_att": 20,
+            "two_points_pct": 0.7,
+            "blocked_att": 2,
+            "free_throws_made": 4,
+            "free_throws_att": 5,
+            "free_throws_pct": 80,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 4,
+            "rebounds": 4,
+            "assists": 8,
+            "turnovers": 8,
+            "steals": 3,
+            "blocks": 1,
+            "assists_turnover_ratio": 1,
+            "personal_fouls": 5,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 9,
+            "points": 35
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Tobias Harris",
+          "position": "F",
+          "primary_position": "SF",
+          "jersey_number": "12",
+          "id": "82f09975-6a8d-42e4-b42c-a52b9349ed50",
+          "statistics": {
+            "minutes": "43:01",
+            "field_goals_made": 10,
+            "field_goals_att": 16,
+            "field_goals_pct": 62.5,
+            "three_points_made": 1,
+            "three_points_att": 3,
+            "three_points_pct": 33.3,
+            "two_points_made": 9,
+            "two_points_att": 13,
+            "two_points_pct": 0.692,
+            "blocked_att": 1,
+            "free_throws_made": 1,
+            "free_throws_att": 2,
+            "free_throws_pct": 50,
+            "offensive_rebounds": 4,
+            "defensive_rebounds": 12,
+            "rebounds": 16,
+            "assists": 2,
+            "turnovers": 1,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 2,
+            "personal_fouls": 6,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 5,
+            "points": 22
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Jameer Nelson",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "14",
+          "id": "5d3681c6-9c73-4895-9b59-b4851069469f",
+          "statistics": {
+            "minutes": "54:10",
+            "field_goals_made": 13,
+            "field_goals_att": 30,
+            "field_goals_pct": 43.3,
+            "three_points_made": 3,
+            "three_points_att": 13,
+            "three_points_pct": 23.1,
+            "two_points_made": 10,
+            "two_points_att": 17,
+            "two_points_pct": 0.588,
+            "blocked_att": 0,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 6,
+            "rebounds": 6,
+            "assists": 10,
+            "turnovers": 2,
+            "steals": 1,
+            "blocks": 0,
+            "assists_turnover_ratio": 5,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -3,
+            "points": 31
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Bulls",
+    "market": "Chicago",
+    "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 128,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 26,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 20,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 27,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 28,
+        "type": "quarter"
+      },
+      {
+        "number": 1,
+        "sequence": 5,
+        "points": 10,
+        "type": "overtime"
+      },
+      {
+        "number": 2,
+        "sequence": 6,
+        "points": 8,
+        "type": "overtime"
+      },
+      {
+        "number": 3,
+        "sequence": 7,
+        "points": 9,
+        "type": "overtime"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Joakim Noah",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "13",
+          "id": "b6eee153-eac4-41e5-afcb-ab46cf7a8ba8",
+          "statistics": {
+            "minutes": "48:41",
+            "field_goals_made": 9,
+            "field_goals_att": 16,
+            "field_goals_pct": 56.3,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 9,
+            "two_points_att": 16,
+            "two_points_pct": 0.563,
+            "blocked_att": 1,
+            "free_throws_made": 8,
+            "free_throws_att": 10,
+            "free_throws_pct": 80,
+            "offensive_rebounds": 7,
+            "defensive_rebounds": 12,
+            "rebounds": 19,
+            "assists": 6,
+            "turnovers": 4,
+            "steals": 2,
+            "blocks": 2,
+            "assists_turnover_ratio": 1.5,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -1,
+            "points": 26
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Joakim Noah",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "13",
+          "id": "b6eee153-eac4-41e5-afcb-ab46cf7a8ba8",
+          "statistics": {
+            "minutes": "48:41",
+            "field_goals_made": 9,
+            "field_goals_att": 16,
+            "field_goals_pct": 56.3,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 9,
+            "two_points_att": 16,
+            "two_points_pct": 0.563,
+            "blocked_att": 1,
+            "free_throws_made": 8,
+            "free_throws_att": 10,
+            "free_throws_pct": 80,
+            "offensive_rebounds": 7,
+            "defensive_rebounds": 12,
+            "rebounds": 19,
+            "assists": 6,
+            "turnovers": 4,
+            "steals": 2,
+            "blocks": 2,
+            "assists_turnover_ratio": 1.5,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -1,
+            "points": 26
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "D.J. Augustin",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "14",
+          "id": "a18805c2-d746-4d4b-be83-5b96c3bdf6af",
+          "statistics": {
+            "minutes": "40:01",
+            "field_goals_made": 7,
+            "field_goals_att": 18,
+            "field_goals_pct": 38.9,
+            "three_points_made": 3,
+            "three_points_att": 8,
+            "three_points_pct": 37.5,
+            "two_points_made": 4,
+            "two_points_att": 10,
+            "two_points_pct": 0.4,
+            "blocked_att": 0,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 4,
+            "rebounds": 5,
+            "assists": 9,
+            "turnovers": 0,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 8,
+            "points": 19
+          }
+        }
+      ]
+    }
+  }
+}

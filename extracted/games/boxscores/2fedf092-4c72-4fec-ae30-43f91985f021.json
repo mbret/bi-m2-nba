@@ -1,0 +1,332 @@
+{
+  "id": "2fedf092-4c72-4fec-ae30-43f91985f021",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2013-12-04T00:00:00+00:00",
+  "duration": "3:11",
+  "attendance": 10061,
+  "lead_changes": 23,
+  "times_tied": 16,
+  "clock": "00:00",
+  "quarter": 6,
+  "home": {
+    "name": "76ers",
+    "market": "Philadelphia",
+    "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 126,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 29,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 29,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 27,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 19,
+        "type": "quarter"
+      },
+      {
+        "number": 1,
+        "sequence": 5,
+        "points": 14,
+        "type": "overtime"
+      },
+      {
+        "number": 2,
+        "sequence": 6,
+        "points": 8,
+        "type": "overtime"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Michael Carter-Williams",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "1",
+          "id": "1f5e7dfc-225d-4a25-8857-e6f8192b4c44",
+          "statistics": {
+            "minutes": "46:32",
+            "field_goals_made": 11,
+            "field_goals_att": 19,
+            "field_goals_pct": 57.9,
+            "three_points_made": 1,
+            "three_points_att": 5,
+            "three_points_pct": 20,
+            "two_points_made": 10,
+            "two_points_att": 14,
+            "two_points_pct": 0.714,
+            "blocked_att": 0,
+            "free_throws_made": 4,
+            "free_throws_att": 7,
+            "free_throws_pct": 57.1,
+            "offensive_rebounds": 7,
+            "defensive_rebounds": 5,
+            "rebounds": 12,
+            "assists": 10,
+            "turnovers": 7,
+            "steals": 3,
+            "blocks": 0,
+            "assists_turnover_ratio": 1.43,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 12,
+            "points": 27
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Michael Carter-Williams",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "1",
+          "id": "1f5e7dfc-225d-4a25-8857-e6f8192b4c44",
+          "statistics": {
+            "minutes": "46:32",
+            "field_goals_made": 11,
+            "field_goals_att": 19,
+            "field_goals_pct": 57.9,
+            "three_points_made": 1,
+            "three_points_att": 5,
+            "three_points_pct": 20,
+            "two_points_made": 10,
+            "two_points_att": 14,
+            "two_points_pct": 0.714,
+            "blocked_att": 0,
+            "free_throws_made": 4,
+            "free_throws_att": 7,
+            "free_throws_pct": 57.1,
+            "offensive_rebounds": 7,
+            "defensive_rebounds": 5,
+            "rebounds": 12,
+            "assists": 10,
+            "turnovers": 7,
+            "steals": 3,
+            "blocks": 0,
+            "assists_turnover_ratio": 1.43,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 12,
+            "points": 27
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Michael Carter-Williams",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "1",
+          "id": "1f5e7dfc-225d-4a25-8857-e6f8192b4c44",
+          "statistics": {
+            "minutes": "46:32",
+            "field_goals_made": 11,
+            "field_goals_att": 19,
+            "field_goals_pct": 57.9,
+            "three_points_made": 1,
+            "three_points_att": 5,
+            "three_points_pct": 20,
+            "two_points_made": 10,
+            "two_points_att": 14,
+            "two_points_pct": 0.714,
+            "blocked_att": 0,
+            "free_throws_made": 4,
+            "free_throws_att": 7,
+            "free_throws_pct": 57.1,
+            "offensive_rebounds": 7,
+            "defensive_rebounds": 5,
+            "rebounds": 12,
+            "assists": 10,
+            "turnovers": 7,
+            "steals": 3,
+            "blocks": 0,
+            "assists_turnover_ratio": 1.43,
+            "personal_fouls": 4,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 12,
+            "points": 27
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Magic",
+    "market": "Orlando",
+    "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 125,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 34,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 23,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 23,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 24,
+        "type": "quarter"
+      },
+      {
+        "number": 1,
+        "sequence": 5,
+        "points": 14,
+        "type": "overtime"
+      },
+      {
+        "number": 2,
+        "sequence": 6,
+        "points": 7,
+        "type": "overtime"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Arron Afflalo",
+          "position": "G-F",
+          "primary_position": "SG",
+          "jersey_number": "4",
+          "id": "4287b809-4c78-4433-9790-b1d5fdef46e8",
+          "statistics": {
+            "minutes": "52:25",
+            "field_goals_made": 14,
+            "field_goals_att": 27,
+            "field_goals_pct": 51.9,
+            "three_points_made": 5,
+            "three_points_att": 13,
+            "three_points_pct": 38.5,
+            "two_points_made": 9,
+            "two_points_att": 14,
+            "two_points_pct": 0.643,
+            "blocked_att": 0,
+            "free_throws_made": 10,
+            "free_throws_att": 11,
+            "free_throws_pct": 90.9,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 5,
+            "rebounds": 6,
+            "assists": 5,
+            "turnovers": 3,
+            "steals": 2,
+            "blocks": 0,
+            "assists_turnover_ratio": 1.67,
+            "personal_fouls": 5,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 5,
+            "points": 43
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Victor Oladipo",
+          "position": "G",
+          "primary_position": "SG",
+          "jersey_number": "5",
+          "id": "ae9e275c-9dce-4c10-a108-cfee6958df48",
+          "statistics": {
+            "minutes": "51:35",
+            "field_goals_made": 8,
+            "field_goals_att": 18,
+            "field_goals_pct": 44.4,
+            "three_points_made": 0,
+            "three_points_att": 5,
+            "three_points_pct": 0,
+            "two_points_made": 8,
+            "two_points_att": 13,
+            "two_points_pct": 0.615,
+            "blocked_att": 3,
+            "free_throws_made": 10,
+            "free_throws_att": 12,
+            "free_throws_pct": 83.3,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 10,
+            "rebounds": 10,
+            "assists": 10,
+            "turnovers": 3,
+            "steals": 3,
+            "blocks": 0,
+            "assists_turnover_ratio": 3.33,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -3,
+            "points": 26
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Victor Oladipo",
+          "position": "G",
+          "primary_position": "SG",
+          "jersey_number": "5",
+          "id": "ae9e275c-9dce-4c10-a108-cfee6958df48",
+          "statistics": {
+            "minutes": "51:35",
+            "field_goals_made": 8,
+            "field_goals_att": 18,
+            "field_goals_pct": 44.4,
+            "three_points_made": 0,
+            "three_points_att": 5,
+            "three_points_pct": 0,
+            "two_points_made": 8,
+            "two_points_att": 13,
+            "two_points_pct": 0.615,
+            "blocked_att": 3,
+            "free_throws_made": 10,
+            "free_throws_att": 12,
+            "free_throws_pct": 83.3,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 10,
+            "rebounds": 10,
+            "assists": 10,
+            "turnovers": 3,
+            "steals": 3,
+            "blocks": 0,
+            "assists_turnover_ratio": 3.33,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -3,
+            "points": 26
+          }
+        }
+      ]
+    }
+  }
+}

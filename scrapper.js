@@ -6,196 +6,274 @@ var jf = require('jsonfile');
 var extractedPath = 'extracted';
 var async      = require('async');
 var _          = require('lodash');
-var host = 'api.sportsdatallc.org';
+var request    = require('request');
+var host = 'http://api.sportsdatallc.org';
 // maxime, joris
 var keys = ['khr6x4favjaqctsp6h29ucnn','5n9qx5mnseq5za8xevz2vbz7'];
-var usedKey = 0;
+var usedKey = 1;
+
+// x ms second between each requests
+var nextAPIcallTimeout = 1000;
+var APIcallTimoutExtra = 1000;
 
 console.log('Start of program');
 async.series([
 
-    function(callback){
-        extractInjuriesFromAPI(function(err){
-            return callback(err);
-        });
-    },
-
 //    function(callback){
+//        console.log('Start extracting of injuries');
+//        extractInjuriesFromAPI(function(err){
+//            return callback(err);
+//        });
+//    },
+//
+//    function(callback){
+//        console.log('Start extracting of teams profile');
 //        extractAllTeamProfileFromAPI(function(err){
 //            callback(err);
 //        });
 //    },
-
+//
 //    function(callback){
+//        console.log('Start extracting of players profile');
 //        extractAllPlayerProfileFromAPI(function(err){
 //            callback(err);
 //        });
 //    },
+//
+//    function(callback){
+//        console.log('Start extracting of schedules');
+//        extractScheduleFromAPI(function(err){
+//            return callback(err);
+//        });
+//    },
+//
+//    function(callback){
+//        console.log('Start extracting of boxscores');
+//        extractBoxScoresFromAPI(function(err){
+//            return callback(err);
+//        });
+//    },
 
     function(callback){
-        extractScheduleFromAPI(function(err){
+        console.log('Start extracting of summaries');
+        extractGamesSummariesFromAPI(function(err){
             return callback(err);
-        })
+        });
     }
 ],
 function(err, results) {
     if(err){
         console.error('Error in main program: ' + err.stack);
+        console.log('End of program with error');
+        process.exit(code=0);
     }
-    console.log('End of program');
+    console.log('End of program with sucess');
 });
 
+/**
+ * @require: schedules/*.json
+ * @param callback
+ */
+function extractBoxScoresFromAPI(callback){
+
+    require('fs').readdir(extractedPath + '/schedules',function(err,files){
+        if(err) return callback(err);
+
+        // Loop over schedules
+        async.eachSeries( files, function(file, callback){
+
+            if(/(.*).json/.test(file)) {
+
+                try {
+                    data = require('fs').readFileSync(extractedPath + '/schedules/' + file, 'utf8');
+                    schedule = JSON.parse(data);
+
+                    // Loop over all games inside schedule
+                    async.eachSeries( schedule.games, function(game, callback){
+
+                        var fileToCreate = extractedPath + '/games/boxscores/' + game.id + '.json';
+                        var urlToCall = host + '/nba-t3/games/' + game.id + '/boxscore.json?api_key=' + keys[usedKey];
+
+                        if( require('fs').existsSync(fileToCreate) ){
+                            console.log('Element ' + game.id + ' skipped because already extracted!');
+                            return callback();
+                        }
+                        else{
+                            setTimeout(function () {
+                                nextAPIcallTimeout += APIcallTimoutExtra;
+
+                                console.log('call: ' + urlToCall + ' after: ' + nextAPIcallTimeout + 'ms');
+                                request(urlToCall, function(error, response, body){
+                                    if(error) return callback(error);
+                                    if (response.statusCode == 403) {
+                                        return callback(new Error(response.body));
+                                    }
+                                    else{
+                                        var obj2 = JSON.parse(body);
+                                        jf.writeFileSync(fileToCreate, obj2);
+                                        console.log('Element ' + game.id + ' extracted!');
+                                        return callback();
+                                    }
+                                });
+
+                            }, nextAPIcallTimeout);
+                        }
+
+                    }, function(err){
+                        return callback(err);
+                    });
+
+                } catch (err) {
+                    return callback(err);
+                }
+            }
+            else{
+                return callback();
+            }
+
+        }, function(err){
+            return callback(err);
+        });
+    });
+}
 
 function extractScheduleFromAPI( callback ){
 
+    async.eachSeries([2012,2013,2014], function( year, callback){
 
-    var tasks = [];
+        async.eachSeries( ['pre', 'reg', 'pst'], function( nba_season, callback){
 
-    // 2014, 2013, 2012
-    var tick = 0;
-    for(var i = 2012; i<= 2014; i++){
-        tick++;
-        doCall(i, 'pre', tick);
-        tick++;
-        doCall(i, 'reg', tick);
-        tick++;
-        doCall(i, 'pst', tick);
-    }
+            var fileToCreate = extractedPath + '/schedules/' + year + '_' + nba_season + '.json';
+            var urlToCall = host + '/nba-t3/games/' + year + '/' + nba_season + '/schedule.json?api_key=' + keys[usedKey];
 
+            if( require('fs').existsSync(fileToCreate) ){
+                console.log('Element schedule ' +year+ ' ' +nba_season+ ' skipped because already extracted!');
+                return callback();
+            }
+            else{
+                setTimeout(function() {
 
-    function doCall( year, nba_season, tick ){
-        setTimeout(function(){
-            console.log('/nba-t3/games/' + year + '/' + nba_season + '/schedule.json?api_key=' + keys[usedKey]);
-            var request = http.request(
-                {
-                    host: host,
-                    port: 80,
-                    path: '/nba-t3/games/' + year + '/' + nba_season + '/schedule.json?api_key=' + keys[usedKey]
-                },
-                function(response) {
-                    var str = '';
+                    nextAPIcallTimeout += APIcallTimoutExtra;
+                    console.log('call: ' + urlToCall + ' after: ' + nextAPIcallTimeout + 'ms');
 
-                    //another chunk of data has been recieved, so append it to `str`
-                    response.on('data', function (chunk) {
-                        str += chunk;
+                    request(urlToCall, function(error, response, body){
+                        if(error) return callback(error);
+                        if (response.statusCode == 403) {
+                            return callback(new Error(new Error(response.body)));
+                        }
+                        else{
+                            var obj2 = JSON.parse(body);
+                            jf.writeFileSync(fileToCreate, obj2);
+                            console.log('Element schedule ' +year+ ' ' +nba_season+ ' extracted!');
+                            return callback();
+                        }
                     });
 
-                    //the whole response has been recieved, so we just print it out here
-                    response.on('end', function () {
+                }, nextAPIcallTimeout);
+            }
 
-                        var obj2 = JSON.parse(str);
-                        jf.writeFileSync(extractedPath + '/schedules/' + year + '_'+nba_season+'.json', obj2);
+        }, function(err){
+            return callback(err);
+        });
 
-                        return callback(null);
-                    });
-                }
-            );
-            request.on('error', function(err) {
-                return callback(err);
-            });
-            request.end();
-        , 3000 * tick});
-    }
+    }, function(err){
+        return callback(err);
+    });
 
 }
 
-
+/**
+ *
+ * @require: nothing
+ */
 function extractInjuriesFromAPI( callback ){
-    console.log('/nba-t3/league/injuries.json?api_key=' + keys[usedKey]);
-    var request = http.request(
-        {
-            host: host,
-            port: 80,
-            path: '/nba-t3/league/injuries.json?api_key=' + keys[usedKey]
-        },
-        function(response) {
-            var str = '';
 
-            //another chunk of data has been recieved, so append it to `str`
-            response.on('data', function (chunk) {
-                str += chunk;
+    var fileToCreate = extractedPath + '/injuries.json';
+    var urlToCall = host + '/nba-t3/league/injuries.json?api_key=' + keys[usedKey];
+
+    if( require('fs').existsSync(fileToCreate) ){
+        console.log('Element injuries skipped because already extracted!');
+        return callback();
+    }
+    else{
+        setTimeout(function () {
+            nextAPIcallTimeout += APIcallTimoutExtra;
+
+            console.log('call: ' + urlToCall + ' after: ' + nextAPIcallTimeout + 'ms');
+            request(urlToCall, function(error, response, body){
+                if(error) return callback(error);
+                if (response.statusCode == 403) {
+                    return callback(new Error(response.body));
+                }
+                else{
+                    var obj2 = JSON.parse(body);
+                    jf.writeFileSync(fileToCreate, obj2);
+                    console.log('Element injuries.json extracted!');
+                    return callback();
+                }
             });
 
-            //the whole response has been recieved, so we just print it out here
-            response.on('end', function () {
-
-                var obj2 = JSON.parse(str);
-                jf.writeFileSync(extractedPath + '/injuries.json', obj2);
-
-                return callback(null);
-            });
-        }
-    );
-    request.on('error', function(err) {
-        return callback(err);
-    });
-    request.end();
+        }, nextAPIcallTimeout);
+    }
 }
 
 /*
  * Get all team profiles
- * REQUIRE: league-hierarchy.json
+ * @require: league-hierarchy.json
  */
 function extractAllTeamProfileFromAPI( callback ){
+
     require('fs').readFile(extractedPath + '/league-hierarchy.json', 'utf8', function (err, data) {
         if (err) return callback(err);
 
         obj = JSON.parse(data);
 
-        var listOfTeams = [];
-        // Loop over conference
-        _.forEach(obj.conferences, function (conference) {
-            // Loop over division
-            _.forEach(conference.divisions, function (division) {
-                // Loop over teams
-                _.forEach(division.teams, function (team) {
-                    listOfTeams.push(team);
-                });
-            });
-        });
+        async.eachSeries(obj.conferences, function(conference, callback){
 
-        for(var i = 0; i< listOfTeams.length; i++){
-            doSetTimeout(listOfTeams[i], i+1, listOfTeams.length);
-        }
+            async.eachSeries(conference.divisions, function(division, callback){
 
-        function doSetTimeout(team, i, maxOfi) {
-            setTimeout(function(){
-                console.log('/nba-t3/teams/'+team.id+'/profile.json?api_key=' + keys[usedKey]);
-                var request = http.request(
-                    {
-                        host: host,
-                        port: 80,
-                        path: '/nba-t3/teams/'+team.id+'/profile.json?api_key=' + keys[usedKey]
-                    },
-                    function(response) {
-                        var str = '';
+                async.eachSeries(division.teams, function(team, callback){
 
-                        //another chunk of data has been recieved, so append it to `str`
-                        response.on('data', function (chunk) {
-                            str += chunk;
-                        });
+                    var fileToCreate = extractedPath + '/teams/' + team.name + '.json';
+                    var urlToCall = host + '/nba-t3/teams/'+team.id+'/profile.json?api_key=' + keys[usedKey];
 
-                        //the whole response has been recieved, so we just print it out here
-                        response.on('end', function () {
-
-                            var obj2 = JSON.parse(str);
-                            jf.writeFileSync(extractedPath + '/teams/' + team.name + '.json', obj2);
-
-                            if(maxOfi == i) return callback(null);
-                        });
+                    if( require('fs').existsSync(fileToCreate) ){
+                        console.log('Element '+team.id+' skipped because already extracted!');
+                        return callback();
                     }
-                );
-                request.on('error', function(err) {
+                    else{
+                        setTimeout(function () {
+                            nextAPIcallTimeout += APIcallTimoutExtra;
+                            console.log('call: ' + urlToCall + ' after: ' + nextAPIcallTimeout + 'ms');
+                            request(urlToCall, function(error, response, body){
+                                if(error) return callback(error);
+                                if (response.statusCode == 403) {
+                                    return callback(new Error(response.body));
+                                }
+                                else{
+                                    var obj2 = JSON.parse(body);
+                                    jf.writeFileSync(fileToCreate, obj2);
+                                    console.log('Element '+team.id+' extracted!');
+                                    return callback();
+                                }
+                            });
+
+                        }, nextAPIcallTimeout);
+                    }
+                }, function(err){
                     return callback(err);
                 });
-                request.end();
-            }, 2000*i);
-        }
+            }, function(err){
+                return callback(err);
+            });
+        }, function(err){
+            return callback(err);
+        });
     });
 }
 
 /*
- * REQUIRE: team-x-x.json
+ * @require /teams/*.json
  */
 function extractAllPlayerProfileFromAPI( callback ){
 
@@ -204,8 +282,11 @@ function extractAllPlayerProfileFromAPI( callback ){
         if(err) return callback(err);
 
         var players = [];
-        files.forEach(function(file){
-//            console.log(file);
+
+        /*
+         * Loop over files synchronously
+         */
+        async.eachSeries( files, function(file, callback){
 
             if(/(.*).json/.test(file)) {
 
@@ -213,51 +294,119 @@ function extractAllPlayerProfileFromAPI( callback ){
                     data = require('fs').readFileSync(extractedPath + '/teams/' + file, 'utf8');
                     obj = JSON.parse(data);
 
-                    for (var i = 0; i < obj.players.length; i++) {
-                        players.push(obj.players[i]);
-                    }
+                    /*
+                     * Loop over players synchronously
+                     */
+                    async.eachSeries(obj.players, function(player, callback){
+
+                        var fileToCreate = extractedPath + '/players/' + player.full_name + '.json';
+                        var urlToCall = host + '/nba-t3/players/' + player.id + '/profile.json?api_key=' + keys[usedKey];
+
+                        if( require('fs').existsSync(fileToCreate) ){
+                            console.log('Element '+player.id+'skipped because already extracted!');
+                            return callback();
+                        }
+                        else{
+                            setTimeout(function () {
+                                nextAPIcallTimeout += APIcallTimoutExtra;
+
+                                console.log('call: ' + urlToCall + ' after: ' + nextAPIcallTimeout + 'ms');
+                                request(urlToCall, function(error, response, body){
+                                    if(error) return callback(error);
+                                    if (response.statusCode == 403) {
+                                        return callback(new Error(response.body));
+                                    }
+                                    else{
+                                        var obj2 = JSON.parse(body);
+                                        jf.writeFileSync(fileToCreate, obj2);
+
+                                        console.log('Element '+player.id+' extracted!');
+                                        return callback();
+                                    }
+                                });
+
+                            }, nextAPIcallTimeout);
+                        }
+
+                    }, function(err){
+                        return callback(err);
+                    })
                 } catch (err) {
                     return callback(err);
                 }
             }
-        });
+            else{
+                return callback();
+            }
+        },function(err){
+            return callback(err);
+        })
+    });
+}
 
-        for (var i = 0; i < players.length; i++) {
-            doSetTimeout(players[i], i+1, players.length);
-        }
+/**
+ *
+ * @require /schedules/*.json
+ */
+function extractGamesSummariesFromAPI( callback ){
 
-        function doSetTimeout(player, i, maxOfi) {
-            setTimeout(function () {
-                console.log('/nba-t3/players/' + player.id + '/profile.json?api_key=' + keys[usedKey]);
-                var request = http.request(
-                    {
-                        host: host,
-                        port: 80,
-                        path: '/nba-t3/players/' + player.id + '/profile.json?api_key=' + keys[usedKey]
-                    },
-                    function (response) {
-                        var str = '';
+    require('fs').readdir(extractedPath + '/schedules',function(err,files){
+        if(err) return callback(err);
 
-                        //another chunk of data has been recieved, so append it to `str`
-                        response.on('data', function (chunk) {
-                            str += chunk;
-                        });
+        // Loop over schedules
+        async.eachSeries( files, function(file, callback){
 
-                        //the whole response has been recieved, so we just print it out here
-                        response.on('end', function () {
+            if(/(.*).json/.test(file)) {
 
-                            var obj2 = JSON.parse(str);
-                            jf.writeFileSync(extractedPath + '/players/' + player.full_name + '.json', obj2);
+                try {
+                    data = require('fs').readFileSync(extractedPath + '/schedules/' + file, 'utf8');
+                    schedule = JSON.parse(data);
 
-                            if(maxOfi == i) return callback(null);
-                        });
-                    }
-                );
-                request.on('error', function (err) {
+                    // Loop over all games inside schedule
+                    async.eachSeries( schedule.games, function(game, callback){
+
+                        var fileToCreate = extractedPath + '/games/summaries/' + game.id + '.json';
+                        var urlToCall = host + '/nba-t3/games/' + game.id + '/summary.json?api_key=' + keys[usedKey];
+
+                        if( require('fs').existsSync(fileToCreate) ){
+                            console.log('Element [game summary ' + game.id + '] skipped because already extracted!');
+                            return callback();
+                        }
+                        else{
+                            setTimeout(function () {
+                                nextAPIcallTimeout += APIcallTimoutExtra;
+
+                                console.log('call: ' + urlToCall + ' after: ' + nextAPIcallTimeout + 'ms');
+                                request(urlToCall, function(error, response, body){
+                                    if(error) return callback(error);
+                                    if (response.statusCode == 403) {
+                                        return callback(new Error(response.body));
+                                    }
+                                    else{
+                                        var obj2 = JSON.parse(body);
+                                        jf.writeFileSync(fileToCreate, obj2);
+                                        console.log('Element [game summary ' + game.id + '] extracted!');
+                                        return callback();
+                                    }
+                                });
+
+                            }, nextAPIcallTimeout);
+                        }
+
+                    }, function(err){
+                        return callback(err);
+                    });
+
+                } catch (err) {
                     return callback(err);
-                });
-                request.end();
-            }, 4000 * i);
-        }
+                }
+            }
+            else{
+                return callback();
+            }
+
+        }, function(err){
+            return callback(err);
+        });
     });
 }

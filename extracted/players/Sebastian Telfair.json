@@ -1,0 +1,102 @@
+{
+  "id": "e2661b9b-eb57-456d-9ee3-c2f740284a20",
+  "status": "ACT",
+  "full_name": "Sebastian Telfair",
+  "first_name": "Sebastian",
+  "last_name": "Telfair",
+  "abbr_name": "S.Telfair",
+  "height": 72,
+  "weight": 170,
+  "position": "G",
+  "primary_position": "PG",
+  "jersey_number": "31",
+  "experience": "9",
+  "college": "Abraham Lincoln HS (NY)",
+  "birth_place": "Brooklyn, NY, USA",
+  "birthdate": "1985-06-09",
+  "updated": "2014-08-04T23:05:58+00:00",
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "team": {
+    "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+    "name": "Thunder",
+    "market": "Oklahoma City",
+    "alias": "OKC"
+  },
+  "draft": {
+    "team_id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c",
+    "year": 2004,
+    "round": "1",
+    "pick": "13"
+  },
+  "seasons": [
+    {
+      "id": "fb89a852-3f68-4505-85b0-19b428b261d5",
+      "year": 2014,
+      "type": "REG",
+      "teams": [
+        {
+          "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+          "name": "Thunder",
+          "market": "Oklahoma City",
+          "alias": "OKC",
+          "total": {
+            "games_played": 10,
+            "games_started": 1,
+            "minutes": 224,
+            "field_goals_made": 26,
+            "field_goals_att": 83,
+            "three_points_made": 10,
+            "three_points_att": 41,
+            "blocked_att": 6,
+            "free_throws_made": 20,
+            "free_throws_att": 29,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 19,
+            "assists": 35,
+            "turnovers": 14,
+            "steals": 9,
+            "blocks": 0,
+            "personal_fouls": 21,
+            "tech_fouls": 2,
+            "points": 82,
+            "flagrant_fouls": 1,
+            "free_throws_pct": 0.69,
+            "two_points_pct": 0.381,
+            "three_points_pct": 0.244,
+            "field_goals_pct": 0.313,
+            "rebounds": 21,
+            "assists_turnover_ratio": 2.5,
+            "two_points_made": 16,
+            "two_points_att": 42
+          },
+          "average": {
+            "points": 8.2,
+            "blocked_att": 0.6,
+            "turnovers": 1.4,
+            "free_throws_att": 2.9,
+            "field_goals_att": 8.3,
+            "off_rebounds": 0.2,
+            "two_points_att": 4.2,
+            "assists": 3.5,
+            "blocks": 0,
+            "personal_fouls": 2.1,
+            "two_points_made": 1.6,
+            "flagrant_fouls": 0.1,
+            "rebounds": 2.1,
+            "three_points_made": 1,
+            "minutes": 22.4,
+            "def_rebounds": 1.9,
+            "free_throws_made": 2,
+            "field_goals_made": 2.6,
+            "steals": 0.9,
+            "three_points_att": 4.1
+          }
+        }
+      ]
+    }
+  ]
+}

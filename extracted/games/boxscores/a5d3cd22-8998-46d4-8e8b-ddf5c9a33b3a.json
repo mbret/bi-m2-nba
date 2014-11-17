@@ -1,0 +1,308 @@
+{
+  "id": "a5d3cd22-8998-46d4-8e8b-ddf5c9a33b3a",
+  "status": "closed",
+  "coverage": "full",
+  "scheduled": "2013-11-09T01:00:00+00:00",
+  "duration": "2:10",
+  "attendance": 18209,
+  "lead_changes": 10,
+  "times_tied": 6,
+  "clock": "00:00",
+  "quarter": 4,
+  "home": {
+    "name": "Pelicans",
+    "market": "New Orleans",
+    "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 96,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 28,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 27,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 14,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 27,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Anthony Davis",
+          "position": "F-C",
+          "primary_position": "PF",
+          "jersey_number": "23",
+          "id": "ea8826b8-1f76-4eab-b61e-ffcb176880f3",
+          "statistics": {
+            "minutes": "37:10",
+            "field_goals_made": 12,
+            "field_goals_att": 18,
+            "field_goals_pct": 66.7,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 12,
+            "two_points_att": 18,
+            "two_points_pct": 0.667,
+            "blocked_att": 1,
+            "free_throws_made": 8,
+            "free_throws_att": 11,
+            "free_throws_pct": 72.7,
+            "offensive_rebounds": 4,
+            "defensive_rebounds": 8,
+            "rebounds": 12,
+            "assists": 3,
+            "turnovers": 2,
+            "steals": 1,
+            "blocks": 6,
+            "assists_turnover_ratio": 1.5,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 14,
+            "points": 32
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Anthony Davis",
+          "position": "F-C",
+          "primary_position": "PF",
+          "jersey_number": "23",
+          "id": "ea8826b8-1f76-4eab-b61e-ffcb176880f3",
+          "statistics": {
+            "minutes": "37:10",
+            "field_goals_made": 12,
+            "field_goals_att": 18,
+            "field_goals_pct": 66.7,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 12,
+            "two_points_att": 18,
+            "two_points_pct": 0.667,
+            "blocked_att": 1,
+            "free_throws_made": 8,
+            "free_throws_att": 11,
+            "free_throws_pct": 72.7,
+            "offensive_rebounds": 4,
+            "defensive_rebounds": 8,
+            "rebounds": 12,
+            "assists": 3,
+            "turnovers": 2,
+            "steals": 1,
+            "blocks": 6,
+            "assists_turnover_ratio": 1.5,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 14,
+            "points": 32
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Jrue Holiday",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "11",
+          "id": "65700e81-3aa0-49a9-8a94-004f2cfb64e5",
+          "statistics": {
+            "minutes": "39:25",
+            "field_goals_made": 5,
+            "field_goals_att": 15,
+            "field_goals_pct": 33.3,
+            "three_points_made": 0,
+            "three_points_att": 1,
+            "three_points_pct": 0,
+            "two_points_made": 5,
+            "two_points_att": 14,
+            "two_points_pct": 0.357,
+            "blocked_att": 0,
+            "free_throws_made": 3,
+            "free_throws_att": 4,
+            "free_throws_pct": 75,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 5,
+            "rebounds": 5,
+            "assists": 13,
+            "turnovers": 4,
+            "steals": 4,
+            "blocks": 0,
+            "assists_turnover_ratio": 3.25,
+            "personal_fouls": 2,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": 6,
+            "points": 13
+          }
+        }
+      ]
+    }
+  },
+  "away": {
+    "name": "Lakers",
+    "market": "Los Angeles",
+    "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 85,
+    "scoring": [
+      {
+        "number": 1,
+        "sequence": 1,
+        "points": 27,
+        "type": "quarter"
+      },
+      {
+        "number": 2,
+        "sequence": 2,
+        "points": 21,
+        "type": "quarter"
+      },
+      {
+        "number": 3,
+        "sequence": 3,
+        "points": 18,
+        "type": "quarter"
+      },
+      {
+        "number": 4,
+        "sequence": 4,
+        "points": 19,
+        "type": "quarter"
+      }
+    ],
+    "leaders": {
+      "points": [
+        {
+          "full_name": "Chris Kaman",
+          "position": "C",
+          "primary_position": "C",
+          "jersey_number": "9",
+          "id": "859f0120-c1e1-4b75-ba10-3dca7020312b",
+          "statistics": {
+            "minutes": "23:31",
+            "field_goals_made": 7,
+            "field_goals_att": 13,
+            "field_goals_pct": 53.8,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 7,
+            "two_points_att": 13,
+            "two_points_pct": 0.538,
+            "blocked_att": 1,
+            "free_throws_made": 2,
+            "free_throws_att": 2,
+            "free_throws_pct": 100,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 4,
+            "rebounds": 4,
+            "assists": 2,
+            "turnovers": 2,
+            "steals": 0,
+            "blocks": 2,
+            "assists_turnover_ratio": 1,
+            "personal_fouls": 3,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -8,
+            "points": 16
+          }
+        }
+      ],
+      "rebounds": [
+        {
+          "full_name": "Jordan Hill",
+          "position": "C-F",
+          "primary_position": "PF",
+          "jersey_number": "27",
+          "id": "91ec3171-9b9c-48ee-bb52-d075dc41bacb",
+          "statistics": {
+            "minutes": "22:17",
+            "field_goals_made": 2,
+            "field_goals_att": 4,
+            "field_goals_pct": 50,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "three_points_pct": 0,
+            "two_points_made": 2,
+            "two_points_att": 4,
+            "two_points_pct": 0.5,
+            "blocked_att": 0,
+            "free_throws_made": 0,
+            "free_throws_att": 6,
+            "free_throws_pct": 0,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 11,
+            "rebounds": 13,
+            "assists": 1,
+            "turnovers": 0,
+            "steals": 1,
+            "blocks": 1,
+            "assists_turnover_ratio": 0,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -4,
+            "points": 4
+          }
+        }
+      ],
+      "assists": [
+        {
+          "full_name": "Steve Blake",
+          "position": "G",
+          "primary_position": "PG",
+          "jersey_number": "5",
+          "id": "b7ede5da-bc2f-47fe-8468-dd4b2679603c",
+          "statistics": {
+            "minutes": "36:29",
+            "field_goals_made": 4,
+            "field_goals_att": 11,
+            "field_goals_pct": 36.4,
+            "three_points_made": 2,
+            "three_points_att": 5,
+            "three_points_pct": 40,
+            "two_points_made": 2,
+            "two_points_att": 6,
+            "two_points_pct": 0.333,
+            "blocked_att": 0,
+            "free_throws_made": 3,
+            "free_throws_att": 4,
+            "free_throws_pct": 75,
+            "offensive_rebounds": 0,
+            "defensive_rebounds": 3,
+            "rebounds": 3,
+            "assists": 8,
+            "turnovers": 5,
+            "steals": 0,
+            "blocks": 0,
+            "assists_turnover_ratio": 1.6,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "flagrant_fouls": 0,
+            "pls_min": -12,
+            "points": 13
+          }
+        }
+      ]
+    }
+  }
+}
