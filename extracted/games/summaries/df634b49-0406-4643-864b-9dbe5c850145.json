@@ -1,0 +1,16 @@
+{
+  "id": "df634b49-0406-4643-864b-9dbe5c850145",
+  "status": "scheduled",
+  "coverage": "full",
+  "scheduled": "2015-03-27T23:30:00+00:00",
+  "venue": {
+    "id": "7a330bcd-ac0f-50ca-bc29-2460e5c476b3",
+    "name": "Barclays Center",
+    "capacity": 18200,
+    "address": "620 Atlantic Avenue.",
+    "city": "Brooklyn",
+    "state": "NY",
+    "zip": "11217",
+    "country": "USA"
+  }
+}

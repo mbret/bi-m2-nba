@@ -1,0 +1,16 @@
+{
+  "id": "2166e3c0-38e7-4f60-972c-3010653205c4",
+  "status": "scheduled",
+  "coverage": "full",
+  "scheduled": "2015-02-28T00:00:00+00:00",
+  "venue": {
+    "id": "24bb478e-eb31-5f8a-8c8d-07f513169ec1",
+    "name": "Bankers Life Fieldhouse",
+    "capacity": 18165,
+    "address": "125 S. Pennsylvania St.",
+    "city": "Indianapolis",
+    "state": "IN",
+    "zip": "46204",
+    "country": "USA"
+  }
+}

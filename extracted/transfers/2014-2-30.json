@@ -1,0 +1,82 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-03-02T05:00:00+00:00",
+  "end_time": "2014-03-03T04:59:59+00:00",
+  "players": [
+    {
+      "id": "2af72a11-d1ed-47df-bc20-8bafaef96c61",
+      "full_name": "Viacheslav Kravtsov",
+      "first_name": "Viacheslav",
+      "last_name": "Kravtsov",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "55",
+      "transfers": [
+        {
+          "id": "1273836e-c16f-4fef-8dc7-33ec2d6f1459",
+          "notes": "Waived",
+          "effective_date": "2014-03-01",
+          "last_modified": "2014-03-02T20:05:58+00:00",
+          "from_team": {
+            "id": "583ecfa8-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Suns",
+            "market": "Phoenix"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dc4004c4-654d-45d4-b07b-0d2117d140d2",
+      "full_name": "Ben Gordon",
+      "first_name": "Ben",
+      "last_name": "Gordon",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "7",
+      "transfers": [
+        {
+          "id": "306c6eaa-491e-427e-952f-203ec3637bdf",
+          "notes": "Waived",
+          "effective_date": "2014-03-02",
+          "last_modified": "2014-03-02T18:46:33+00:00",
+          "from_team": {
+            "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hornets",
+            "market": "Charlotte"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7d3518ea-875e-4bc2-96dd-8d496b91515e",
+      "full_name": "Jimmer Fredette",
+      "first_name": "Jimmer",
+      "last_name": "Fredette",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "32",
+      "transfers": [
+        {
+          "id": "9e330dff-336e-4eb6-82b7-9db8fd3ec0b7",
+          "notes": "Signed for rest of season",
+          "effective_date": "2014-03-02",
+          "last_modified": "2014-03-02T18:43:47+00:00",
+          "from_team": {
+            "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bulls",
+            "market": "Chicago"
+          },
+          "to_team": {
+            "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bulls",
+            "market": "Chicago"
+          }
+        }
+      ]
+    }
+  ]
+}

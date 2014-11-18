@@ -1,0 +1,53 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-01-29T05:00:00+00:00",
+  "end_time": "2014-01-30T04:59:59+00:00",
+  "players": [
+    {
+      "id": "29bb28eb-bebc-4230-84a5-294bb28b5b9f",
+      "full_name": "Darius Morris",
+      "first_name": "Darius",
+      "last_name": "Morris",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "4",
+      "transfers": [
+        {
+          "id": "d0b8b057-4f56-4a27-a1ad-6450a5265ae7",
+          "effective_date": "2014-01-27",
+          "last_modified": "2014-01-29T17:21:00+00:00",
+          "from_team": {
+            "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Clippers",
+            "market": "Los Angeles"
+          }
+        }
+      ]
+    },
+    {
+      "id": "30aeabf6-27f6-4560-8c78-0f8857ef27ed",
+      "full_name": "Royal Ivey",
+      "first_name": "Royal",
+      "last_name": "Ivey",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "7",
+      "transfers": [
+        {
+          "id": "d88b9d4b-8f69-451a-825b-97dfa7e8bb3d",
+          "effective_date": "2014-01-27",
+          "last_modified": "2014-01-30T02:09:30+00:00",
+          "to_team": {
+            "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Thunder",
+            "market": "Oklahoma City"
+          }
+        }
+      ]
+    }
+  ]
+}

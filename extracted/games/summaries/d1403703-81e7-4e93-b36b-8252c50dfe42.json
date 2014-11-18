@@ -1,0 +1,16 @@
+{
+  "id": "d1403703-81e7-4e93-b36b-8252c50dfe42",
+  "status": "scheduled",
+  "coverage": "full",
+  "scheduled": "2014-12-27T00:00:00+00:00",
+  "venue": {
+    "id": "aecd8da6-0404-599c-a792-4b33fb084a2a",
+    "name": "Amway Center",
+    "capacity": 18846,
+    "address": "400 W. Church St.",
+    "city": "Orlando",
+    "state": "FL",
+    "zip": "32801",
+    "country": "USA"
+  }
+}

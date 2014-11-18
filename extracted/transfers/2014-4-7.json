@@ -1,0 +1,105 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-04-07T04:00:00+00:00",
+  "end_time": "2014-04-08T03:59:59+00:00",
+  "players": [
+    {
+      "id": "02797242-a34a-472a-9547-d874771fa793",
+      "full_name": "Royce White",
+      "first_name": "Royce",
+      "last_name": "White",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "35",
+      "transfers": [
+        {
+          "id": "3a5ee7ca-8d51-43f3-8d87-176387ffdbe0",
+          "effective_date": "2014-03-27",
+          "last_modified": "2014-04-07T16:14:05+00:00",
+          "from_team": {
+            "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Kings",
+            "market": "Sacramento"
+          }
+        }
+      ]
+    },
+    {
+      "id": "299c44c1-ab5f-4029-9ef2-b55ddd60a8f1",
+      "full_name": "Adonis Thomas",
+      "first_name": "Adonis",
+      "last_name": "Thomas",
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "1",
+      "transfers": [
+        {
+          "id": "a79a6f35-109f-44d9-a33d-96caba4bd524",
+          "effective_date": "2014-04-07",
+          "last_modified": "2014-04-07T19:50:49+00:00",
+          "from_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          },
+          "to_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "96b5d418-9825-443f-8e44-ea2c7f4e11a0",
+      "full_name": "Andris Biedrins",
+      "first_name": "Andris",
+      "last_name": "Biedrins",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "11",
+      "transfers": [
+        {
+          "id": "befc6540-cdf5-4e56-8468-69be3f8efd04",
+          "effective_date": "2014-04-06",
+          "last_modified": "2014-04-07T16:21:43+00:00",
+          "from_team": {
+            "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Jazz",
+            "market": "Utah"
+          }
+        }
+      ]
+    },
+    {
+      "id": "78f9898e-be53-496e-adad-a610515f2635",
+      "full_name": "Ronnie Brewer",
+      "first_name": "Ronnie",
+      "last_name": "Brewer",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "11",
+      "transfers": [
+        {
+          "id": "dd66c34d-c4a6-424c-9891-ae0f8903e6fe",
+          "effective_date": "2014-04-07",
+          "last_modified": "2014-04-07T19:50:21+00:00",
+          "from_team": {
+            "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bulls",
+            "market": "Chicago"
+          },
+          "to_team": {
+            "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bulls",
+            "market": "Chicago"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-03-09T05:00:00+00:00",
+  "end_time": "2014-03-10T03:59:59+00:00",
+  "players": [
+    {
+      "id": "562677c1-2a13-4934-a801-a6c88c619e83",
+      "full_name": "Troy Daniels",
+      "first_name": "Troy",
+      "last_name": "Daniels",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "30",
+      "transfers": [
+        {
+          "id": "6e0c0f1e-4d54-4599-82e3-a06f864237ac",
+          "notes": "Daniels reassigned Rio Grande Valley (NBDL).",
+          "effective_date": "2014-03-09",
+          "last_modified": "2014-03-09T18:34:48+00:00",
+          "from_team": {
+            "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Rockets",
+            "market": "Houston"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "0d187d04-4cd9-44b3-9a29-408fac5b011e",
+  "status": "ACT",
+  "full_name": "Dante Exum",
+  "first_name": "Dante",
+  "last_name": "Exum",
+  "abbr_name": "D.Exum",
+  "height": 78,
+  "weight": 188,
+  "position": "G",
+  "primary_position": "PG",
+  "jersey_number": "11",
+  "experience": "0",
+  "birth_place": "Melbourne, VIC, AUS",
+  "birthdate": "1995-07-13",
+  "updated": "2014-10-08T01:12:40+00:00",
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "team": {
+    "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+    "name": "Jazz",
+    "market": "Utah",
+    "alias": "UTA"
+  },
+  "draft": {
+    "team_id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+    "year": 2014,
+    "round": "1",
+    "pick": "5"
+  },
+  "seasons": [
+    {
+      "id": "fb89a852-3f68-4505-85b0-19b428b261d5",
+      "year": 2014,
+      "type": "REG",
+      "teams": [
+        {
+          "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+          "name": "Jazz",
+          "market": "Utah",
+          "alias": "UTA",
+          "total": {
+            "games_played": 11,
+            "games_started": 0,
+            "minutes": 208,
+            "field_goals_made": 21,
+            "field_goals_att": 50,
+            "three_points_made": 9,
+            "three_points_att": 29,
+            "blocked_att": 0,
+            "free_throws_made": 10,
+            "free_throws_att": 17,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 15,
+            "assists": 27,
+            "turnovers": 12,
+            "steals": 6,
+            "blocks": 4,
+            "personal_fouls": 22,
+            "tech_fouls": 0,
+            "points": 61,
+            "flagrant_fouls": 0,
+            "free_throws_pct": 0.588,
+            "two_points_pct": 0.571,
+            "three_points_pct": 0.31,
+            "field_goals_pct": 0.42,
+            "rebounds": 17,
+            "assists_turnover_ratio": 2.25,
+            "two_points_made": 12,
+            "two_points_att": 21
+          },
+          "average": {
+            "points": 5.5,
+            "blocked_att": 0,
+            "turnovers": 1.09,
+            "free_throws_att": 1.55,
+            "field_goals_att": 4.55,
+            "off_rebounds": 0.18,
+            "two_points_att": 1.91,
+            "assists": 2.5,
+            "blocks": 0.36,
+            "personal_fouls": 2,
+            "two_points_made": 1.09,
+            "flagrant_fouls": 0,
+            "rebounds": 1.55,
+            "three_points_made": 0.82,
+            "minutes": 18.9,
+            "def_rebounds": 1.36,
+            "free_throws_made": 0.91,
+            "field_goals_made": 1.91,
+            "steals": 0.55,
+            "three_points_att": 2.64
+          }
+        }
+      ]
+    }
+  ]
+}

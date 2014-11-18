@@ -1,0 +1,115 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-02-25T05:00:00+00:00",
+  "end_time": "2014-02-26T04:59:59+00:00",
+  "players": [
+    {
+      "id": "b673f424-d4e4-4925-b501-f024890865ad",
+      "full_name": "Glen Davis",
+      "first_name": "Glen",
+      "last_name": "Davis",
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "1da2cdfc-cf66-45c8-9ab7-e6593feb3199",
+          "effective_date": "2014-02-24",
+          "last_modified": "2014-02-25T18:18:38+00:00",
+          "from_team": {
+            "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Clippers",
+            "market": "Los Angeles"
+          },
+          "to_team": {
+            "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Clippers",
+            "market": "Los Angeles"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b8a77045-a325-4ac1-ad9c-d065ec1f41a4",
+      "full_name": "Dewayne Dedmon",
+      "first_name": "Dewayne",
+      "last_name": "Dedmon",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "3",
+      "transfers": [
+        {
+          "id": "54e0e430-3a42-4cb0-ab5d-1a1c4b3ae583",
+          "effective_date": "2014-02-25",
+          "last_modified": "2014-02-25T18:17:29+00:00",
+          "from_team": {
+            "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Magic",
+            "market": "Orlando"
+          },
+          "to_team": {
+            "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Magic",
+            "market": "Orlando"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6c73ff64-44b8-4383-a21b-61ac145b446c",
+      "full_name": "DeAndre Liggins",
+      "first_name": "DeAndre",
+      "last_name": "Liggins",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "14",
+      "transfers": [
+        {
+          "id": "9c9812a2-15d0-4d03-b854-02b4b7cc7c51",
+          "effective_date": "2014-02-25",
+          "last_modified": "2014-02-25T18:17:54+00:00",
+          "from_team": {
+            "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Heat",
+            "market": "Miami"
+          },
+          "to_team": {
+            "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Heat",
+            "market": "Miami"
+          }
+        }
+      ]
+    },
+    {
+      "id": "299c44c1-ab5f-4029-9ef2-b55ddd60a8f1",
+      "full_name": "Adonis Thomas",
+      "first_name": "Adonis",
+      "last_name": "Thomas",
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "1",
+      "transfers": [
+        {
+          "id": "9cca0dbd-79cd-40e5-a341-a9f3ffddbad0",
+          "effective_date": "2014-02-25",
+          "last_modified": "2014-02-25T18:17:07+00:00",
+          "from_team": {
+            "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Magic",
+            "market": "Orlando"
+          },
+          "to_team": {
+            "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Magic",
+            "market": "Orlando"
+          }
+        }
+      ]
+    }
+  ]
+}

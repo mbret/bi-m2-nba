@@ -1,0 +1,32 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-02-01T05:00:00+00:00",
+  "end_time": "2014-02-02T04:59:59+00:00",
+  "players": [
+    {
+      "id": "d87252c3-bca1-484d-8dae-6b1daae2fb75",
+      "full_name": "Othyus Jeffers",
+      "first_name": "Othyus",
+      "last_name": "Jeffers",
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "e74d9fbd-3619-4328-aff5-26a591ab41a2",
+          "effective_date": "2014-02-01",
+          "last_modified": "2014-02-01T16:47:10+00:00",
+          "from_team": {
+            "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Spurs",
+            "market": "San Antonio"
+          }
+        }
+      ]
+    }
+  ]
+}

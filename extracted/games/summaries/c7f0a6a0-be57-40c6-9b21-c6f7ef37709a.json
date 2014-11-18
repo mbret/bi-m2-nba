@@ -1,0 +1,16 @@
+{
+  "id": "c7f0a6a0-be57-40c6-9b21-c6f7ef37709a",
+  "status": "scheduled",
+  "coverage": "full",
+  "scheduled": "2015-01-06T00:00:00+00:00",
+  "venue": {
+    "id": "b3dca541-859e-5301-bf90-4ec677a514a9",
+    "name": "Wells Fargo Center",
+    "capacity": 20328,
+    "address": "3601 S. Broad St.",
+    "city": "Philadelphia",
+    "state": "PA",
+    "zip": "19148",
+    "country": "USA"
+  }
+}

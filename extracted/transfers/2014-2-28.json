@@ -1,0 +1,117 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-02-28T05:00:00+00:00",
+  "end_time": "2014-03-01T04:59:59+00:00",
+  "players": [
+    {
+      "id": "49e2e5b6-0800-40b3-a5de-499653a019e9",
+      "full_name": "Danny Granger",
+      "first_name": "Danny",
+      "last_name": "Granger",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "22",
+      "transfers": [
+        {
+          "id": "05887c75-46b2-43ef-afb0-fd6778b25d17",
+          "desc": "Signed as free agent",
+          "effective_date": "2014-02-28",
+          "last_modified": "2014-02-28T23:02:05+00:00",
+          "from_team": {
+            "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Clippers",
+            "market": "Los Angeles"
+          },
+          "to_team": {
+            "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Clippers",
+            "market": "Los Angeles"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2c9b1fc5-7590-425a-a7e9-d02a7e3f8d7c",
+      "full_name": "Chris Babb",
+      "first_name": "Chris",
+      "last_name": "Babb",
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "6ce842c2-bf45-43cc-a677-f46891138afb",
+          "effective_date": "2014-02-28",
+          "last_modified": "2014-02-28T19:31:01+00:00",
+          "from_team": {
+            "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Celtics",
+            "market": "Boston"
+          },
+          "to_team": {
+            "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Celtics",
+            "market": "Boston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9e70fd45-4543-429c-aed7-3ce81ef5906d",
+      "full_name": "Caron Butler",
+      "first_name": "Caron",
+      "last_name": "Butler",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "31",
+      "transfers": [
+        {
+          "id": "c9d4def8-bbf6-42f6-93e6-31226d604ff3",
+          "effective_date": "2014-02-27",
+          "last_modified": "2014-02-28T20:11:13+00:00",
+          "from_team": {
+            "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bucks",
+            "market": "Milwaukee"
+          },
+          "to_team": {
+            "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Thunder",
+            "market": "Oklahoma City"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f77263f9-a97c-45b9-91f0-0f0da4156b9f",
+      "full_name": "Beno Udrih",
+      "first_name": "Beno",
+      "last_name": "Udrih",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "19",
+      "transfers": [
+        {
+          "id": "f7e19246-688f-4be0-8c1b-8a9b1d511c23",
+          "notes": "Signed as Free Agent",
+          "effective_date": "2014-02-27",
+          "last_modified": "2014-02-28T20:15:51+00:00",
+          "from_team": {
+            "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Grizzlies",
+            "market": "Memphis"
+          },
+          "to_team": {
+            "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Grizzlies",
+            "market": "Memphis"
+          }
+        }
+      ]
+    }
+  ]
+}

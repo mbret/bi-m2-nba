@@ -1,0 +1,16 @@
+{
+  "id": "bb636caf-d477-47c1-92cb-c945bd04c708",
+  "status": "scheduled",
+  "coverage": "full",
+  "scheduled": "2014-12-05T01:00:00+00:00",
+  "venue": {
+    "id": "583152aa-de75-5bea-ac92-ac5b8a51f9f9",
+    "name": "Madison Square Garden",
+    "capacity": 19812,
+    "address": "Four Pennsylvania Plaza",
+    "city": "New York",
+    "state": "NY",
+    "zip": "10001",
+    "country": "USA"
+  }
+}

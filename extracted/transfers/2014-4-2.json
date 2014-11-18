@@ -1,0 +1,38 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-04-02T04:00:00+00:00",
+  "end_time": "2014-04-03T03:59:59+00:00",
+  "players": [
+    {
+      "id": "84a2f85a-083c-46aa-aa22-e3761023adc4",
+      "full_name": "Damion James",
+      "first_name": "Damion",
+      "last_name": "James",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "7",
+      "transfers": [
+        {
+          "id": "aa9b37c2-6ee9-4478-9168-04e13f0a67e7",
+          "notes": "James was signed by San Antonio to a 10-day contract.",
+          "effective_date": "2014-04-02",
+          "last_modified": "2014-04-02T21:08:20+00:00",
+          "from_team": {
+            "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Spurs",
+            "market": "San Antonio"
+          },
+          "to_team": {
+            "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Spurs",
+            "market": "San Antonio"
+          }
+        }
+      ]
+    }
+  ]
+}

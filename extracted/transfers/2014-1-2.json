@@ -1,0 +1,32 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-01-02T05:00:00+00:00",
+  "end_time": "2014-01-03T04:59:59+00:00",
+  "players": [
+    {
+      "id": "e47a4dd7-8199-4c1e-9945-75dd415447be",
+      "full_name": "Lou Amundson",
+      "first_name": "Lou",
+      "last_name": "Amundson",
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "89",
+      "transfers": [
+        {
+          "id": "c7e2f73e-5f33-457d-9408-bc96eb9d2829",
+          "effective_date": "2014-01-02",
+          "last_modified": "2014-01-02T15:27:00+00:00",
+          "from_team": {
+            "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pelicans",
+            "market": "New Orleans"
+          }
+        }
+      ]
+    }
+  ]
+}

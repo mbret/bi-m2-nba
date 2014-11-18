@@ -1,0 +1,16 @@
+{
+  "id": "0bde4da0-f626-4593-bc21-3af9b94d08d7",
+  "status": "scheduled",
+  "coverage": "full",
+  "scheduled": "2015-01-14T02:00:00+00:00",
+  "venue": {
+    "id": "1d2e59b2-2479-5f84-a6a7-e82f65dd8442",
+    "name": "US Airways Center",
+    "capacity": 18422,
+    "address": "201 E. Jefferson St.",
+    "city": "Phoenix",
+    "state": "AZ",
+    "zip": "85004",
+    "country": "USA"
+  }
+}

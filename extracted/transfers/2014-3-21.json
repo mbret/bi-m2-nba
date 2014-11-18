@@ -1,0 +1,65 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-03-21T04:00:00+00:00",
+  "end_time": "2014-03-22T03:59:59+00:00",
+  "players": [
+    {
+      "id": "047d0b63-4142-46e9-8f04-a61622ae2375",
+      "full_name": "Seth Curry",
+      "first_name": "Seth",
+      "last_name": "Curry",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "30",
+      "transfers": [
+        {
+          "id": "0f58c56d-124c-46f1-b5ed-a340dd105295",
+          "notes": "Cleveland signed Curry to a 10-day contract.",
+          "effective_date": "2014-03-21",
+          "last_modified": "2014-03-21T20:53:37+00:00",
+          "from_team": {
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Cavaliers",
+            "market": "Cleveland"
+          },
+          "to_team": {
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Cavaliers",
+            "market": "Cleveland"
+          }
+        }
+      ]
+    },
+    {
+      "id": "159ae2dc-3ab2-4c19-9fca-6a39a249df3e",
+      "full_name": "D.J. White",
+      "first_name": "D.J.",
+      "last_name": "White",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "9536c20c-2073-4135-abc4-cb1a31a3ccab",
+          "notes": "Charlotte signed White to a 10-day contract.",
+          "effective_date": "2014-03-21",
+          "last_modified": "2014-03-21T20:52:44+00:00",
+          "from_team": {
+            "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hornets",
+            "market": "Charlotte"
+          },
+          "to_team": {
+            "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hornets",
+            "market": "Charlotte"
+          }
+        }
+      ]
+    }
+  ]
+}

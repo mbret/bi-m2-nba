@@ -1,0 +1,37 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-03-29T04:00:00+00:00",
+  "end_time": "2014-03-30T03:59:59+00:00",
+  "players": [
+    {
+      "id": "f92a3b51-687c-4931-8744-9d9fc1e2ac31",
+      "full_name": "D.J. Stephens",
+      "first_name": "D.J.",
+      "last_name": "Stephens",
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "24",
+      "transfers": [
+        {
+          "id": "52f46109-139c-4a3c-876e-b405a14a6eaa",
+          "effective_date": "2014-03-30",
+          "last_modified": "2014-03-30T00:10:46+00:00",
+          "from_team": {
+            "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bucks",
+            "market": "Milwaukee"
+          },
+          "to_team": {
+            "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bucks",
+            "market": "Milwaukee"
+          }
+        }
+      ]
+    }
+  ]
+}

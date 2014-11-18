@@ -1,0 +1,37 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-04-16T04:00:00+00:00",
+  "end_time": "2014-04-17T03:59:59+00:00",
+  "players": [
+    {
+      "id": "3d386f0a-05bb-4f9b-b1d1-17f6f80b3b71",
+      "full_name": "Josh Powell",
+      "first_name": "Josh",
+      "last_name": "Powell",
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "21",
+      "transfers": [
+        {
+          "id": "07183ce7-3291-4474-8d26-d50d474f4d38",
+          "effective_date": "2014-04-17",
+          "last_modified": "2014-04-17T00:43:19+00:00",
+          "from_team": {
+            "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Rockets",
+            "market": "Houston"
+          },
+          "to_team": {
+            "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Rockets",
+            "market": "Houston"
+          }
+        }
+      ]
+    }
+  ]
+}

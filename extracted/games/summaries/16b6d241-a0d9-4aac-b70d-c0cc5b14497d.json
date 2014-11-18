@@ -1,0 +1,16 @@
+{
+  "id": "16b6d241-a0d9-4aac-b70d-c0cc5b14497d",
+  "status": "scheduled",
+  "coverage": "full",
+  "scheduled": "2015-01-03T00:00:00+00:00",
+  "venue": {
+    "id": "a380f011-6e5d-5430-9f37-209e1e8a9b6f",
+    "name": "Time Warner Cable Arena",
+    "capacity": 19026,
+    "address": "330 E. Trade St.",
+    "city": "Charlotte",
+    "state": "NC",
+    "zip": "28202",
+    "country": "USA"
+  }
+}

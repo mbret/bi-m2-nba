@@ -1,0 +1,16 @@
+{
+  "id": "802766f3-1a40-46a9-9412-065e05baec75",
+  "status": "scheduled",
+  "coverage": "full",
+  "scheduled": "2015-03-17T00:00:00+00:00",
+  "venue": {
+    "id": "b67d5f09-28b2-5bc6-9097-af312007d2f4",
+    "name": "American Airlines Arena",
+    "capacity": 19600,
+    "address": "601 Biscayne Blvd.",
+    "city": "Miami",
+    "state": "FL",
+    "zip": "33132",
+    "country": "USA"
+  }
+}

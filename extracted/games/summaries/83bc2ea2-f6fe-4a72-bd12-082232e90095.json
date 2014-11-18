@@ -1,0 +1,16 @@
+{
+  "id": "83bc2ea2-f6fe-4a72-bd12-082232e90095",
+  "status": "scheduled",
+  "coverage": "full",
+  "scheduled": "2014-12-06T00:30:00+00:00",
+  "venue": {
+    "id": "62cc9661-7b13-56e7-bf4a-bba7ad7be8da",
+    "name": "Air Canada Centre",
+    "capacity": 19800,
+    "address": "40 Bay St.",
+    "city": "Toronto",
+    "state": "ON",
+    "zip": "M5J 2X2",
+    "country": "CAN"
+  }
+}

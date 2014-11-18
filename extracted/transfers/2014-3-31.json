@@ -1,0 +1,59 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-03-31T04:00:00+00:00",
+  "end_time": "2014-04-01T03:59:59+00:00",
+  "players": [
+    {
+      "id": "f78e5895-0da3-46a5-810c-47e957bb1e6a",
+      "full_name": "Scotty Hopson",
+      "first_name": "Scotty",
+      "last_name": "Hopson",
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "336c174f-40f0-4fb1-a443-8a0f1cec86a6",
+          "notes": "Cleveland signed Hopson for remainder of season.",
+          "effective_date": "2014-03-31",
+          "last_modified": "2014-03-31T17:29:54+00:00",
+          "from_team": {
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Cavaliers",
+            "market": "Cleveland"
+          },
+          "to_team": {
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Cavaliers",
+            "market": "Cleveland"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6fa41995-a8ae-417f-8246-db0e8b6c360a",
+      "full_name": "Mustafa Shakur",
+      "first_name": "Mustafa",
+      "last_name": "Shakur",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "22",
+      "transfers": [
+        {
+          "id": "6f062dd1-d507-464a-beb4-9fec922b590b",
+          "effective_date": "2014-03-31",
+          "last_modified": "2014-03-31T17:44:10+00:00",
+          "from_team": {
+            "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Thunder",
+            "market": "Oklahoma City"
+          }
+        }
+      ]
+    }
+  ]
+}

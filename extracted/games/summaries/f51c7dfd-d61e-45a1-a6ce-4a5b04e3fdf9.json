@@ -1,0 +1,16 @@
+{
+  "id": "f51c7dfd-d61e-45a1-a6ce-4a5b04e3fdf9",
+  "status": "scheduled",
+  "coverage": "full",
+  "scheduled": "2015-01-12T02:00:00+00:00",
+  "venue": {
+    "id": "446e0f70-beea-5104-903f-fb65985711a1",
+    "name": "Sleep Train Arena",
+    "capacity": 17317,
+    "address": "One Sports Parkway",
+    "city": "Sacramento",
+    "state": "CA",
+    "zip": "95834",
+    "country": "USA"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "0c91373f-056e-4727-8ce6-66c49a83eb63",
+  "status": "scheduled",
+  "coverage": "full",
+  "scheduled": "2015-03-22T19:00:00+00:00",
+  "venue": {
+    "id": "9bb9599c-17dd-4253-82bb-96fae950a32f",
+    "name": "BMO Harris Bradley Center",
+    "capacity": 19000,
+    "address": "1001 N Fourth St",
+    "city": "Milwaukee",
+    "state": "WI",
+    "zip": "53203",
+    "country": "USA"
+  }
+}

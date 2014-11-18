@@ -1,0 +1,102 @@
+{
+  "id": "1c1c0edb-84df-42a8-a74b-5899849cd41a",
+  "status": "ACT",
+  "full_name": "Shabazz Napier",
+  "first_name": "Shabazz",
+  "last_name": "Napier",
+  "abbr_name": "S.Napier",
+  "height": 73,
+  "weight": 175,
+  "position": "G",
+  "primary_position": "PG",
+  "jersey_number": "13",
+  "experience": "0",
+  "college": "Connecticut",
+  "birth_place": "Roxbury, MA, USA",
+  "birthdate": "1991-07-14",
+  "updated": "2014-10-05T02:07:08+00:00",
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "team": {
+    "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+    "name": "Heat",
+    "market": "Miami",
+    "alias": "MIA"
+  },
+  "draft": {
+    "team_id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+    "year": 2014,
+    "round": "1",
+    "pick": "24"
+  },
+  "seasons": [
+    {
+      "id": "fb89a852-3f68-4505-85b0-19b428b261d5",
+      "year": 2014,
+      "type": "REG",
+      "teams": [
+        {
+          "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+          "name": "Heat",
+          "market": "Miami",
+          "alias": "MIA",
+          "total": {
+            "games_played": 11,
+            "games_started": 0,
+            "minutes": 227,
+            "field_goals_made": 21,
+            "field_goals_att": 47,
+            "three_points_made": 8,
+            "three_points_att": 23,
+            "blocked_att": 2,
+            "free_throws_made": 7,
+            "free_throws_att": 11,
+            "offensive_rebounds": 6,
+            "defensive_rebounds": 25,
+            "assists": 26,
+            "turnovers": 22,
+            "steals": 10,
+            "blocks": 1,
+            "personal_fouls": 19,
+            "tech_fouls": 0,
+            "points": 57,
+            "flagrant_fouls": 0,
+            "free_throws_pct": 0.636,
+            "two_points_pct": 0.542,
+            "three_points_pct": 0.348,
+            "field_goals_pct": 0.447,
+            "rebounds": 31,
+            "assists_turnover_ratio": 1.18,
+            "two_points_made": 13,
+            "two_points_att": 24
+          },
+          "average": {
+            "points": 5.2,
+            "blocked_att": 0.18,
+            "turnovers": 2,
+            "free_throws_att": 1,
+            "field_goals_att": 4.27,
+            "off_rebounds": 0.55,
+            "two_points_att": 2.18,
+            "assists": 2.4,
+            "blocks": 0.09,
+            "personal_fouls": 1.73,
+            "two_points_made": 1.18,
+            "flagrant_fouls": 0,
+            "rebounds": 2.82,
+            "three_points_made": 0.73,
+            "minutes": 20.6,
+            "def_rebounds": 2.27,
+            "free_throws_made": 0.64,
+            "field_goals_made": 1.91,
+            "steals": 0.91,
+            "three_points_att": 2.09
+          }
+        }
+      ]
+    }
+  ]
+}

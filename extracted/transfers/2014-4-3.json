@@ -1,0 +1,90 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-04-03T04:00:00+00:00",
+  "end_time": "2014-04-04T03:59:59+00:00",
+  "players": [
+    {
+      "id": "00278ead-9420-47ba-a8c6-18e5c61d1492",
+      "full_name": "A.J. Price",
+      "first_name": "A.J.",
+      "last_name": "Price",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "12",
+      "transfers": [
+        {
+          "id": "6360a2a6-9ccb-4800-b9a9-1375378c82ad",
+          "notes": "Minnesota waived Price on Thursday (4/3).",
+          "effective_date": "2014-04-03",
+          "last_modified": "2014-04-03T18:01:38+00:00",
+          "from_team": {
+            "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Timberwolves",
+            "market": "Minnesota"
+          }
+        }
+      ]
+    },
+    {
+      "id": "84a2f85a-083c-46aa-aa22-e3761023adc4",
+      "full_name": "Damion James",
+      "first_name": "Damion",
+      "last_name": "James",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "7",
+      "transfers": [
+        {
+          "id": "69709632-01ad-4a4a-b5bd-f4c1d4751f09",
+          "effective_date": "2014-04-03",
+          "last_modified": "2014-04-03T13:53:34+00:00",
+          "from_team": {
+            "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Spurs",
+            "market": "San Antonio"
+          }
+        },
+        {
+          "id": "b88a006c-77b6-452a-a4fe-3060bd6733e9",
+          "effective_date": "2014-04-04",
+          "last_modified": "2014-04-04T02:39:51+00:00",
+          "from_team": {
+            "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Spurs",
+            "market": "San Antonio"
+          },
+          "to_team": {
+            "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Spurs",
+            "market": "San Antonio"
+          }
+        }
+      ]
+    },
+    {
+      "id": "047d0b63-4142-46e9-8f04-a61622ae2375",
+      "full_name": "Seth Curry",
+      "first_name": "Seth",
+      "last_name": "Curry",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "30",
+      "transfers": [
+        {
+          "id": "ce7d7694-a7df-41ac-aea8-b0dafd35e523",
+          "effective_date": "2014-04-03",
+          "last_modified": "2014-04-03T13:53:20+00:00",
+          "from_team": {
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Cavaliers",
+            "market": "Cleveland"
+          }
+        }
+      ]
+    }
+  ]
+}

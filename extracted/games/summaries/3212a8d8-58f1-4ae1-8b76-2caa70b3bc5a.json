@@ -1,0 +1,16 @@
+{
+  "id": "3212a8d8-58f1-4ae1-8b76-2caa70b3bc5a",
+  "status": "scheduled",
+  "coverage": "full",
+  "scheduled": "2015-03-26T00:00:00+00:00",
+  "venue": {
+    "id": "7657c204-a20b-527a-99cb-dc29218462aa",
+    "name": "FedEx Forum",
+    "capacity": 18119,
+    "address": "191 Beale St",
+    "city": "Memphis",
+    "state": "TN",
+    "zip": "38103",
+    "country": "USA"
+  }
+}

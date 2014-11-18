@@ -1,0 +1,53 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-03-19T04:00:00+00:00",
+  "end_time": "2014-03-20T03:59:59+00:00",
+  "players": [
+    {
+      "id": "22c95020-7431-48ee-a538-4be886c9eac1",
+      "full_name": "Orlando Johnson",
+      "first_name": "Orlando",
+      "last_name": "Johnson",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "1d0a4e3b-8fd4-492c-beee-664d2b28bcee",
+          "effective_date": "2014-03-18",
+          "last_modified": "2014-03-19T14:56:35+00:00",
+          "from_team": {
+            "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Kings",
+            "market": "Sacramento"
+          }
+        }
+      ]
+    },
+    {
+      "id": "299c44c1-ab5f-4029-9ef2-b55ddd60a8f1",
+      "full_name": "Adonis Thomas",
+      "first_name": "Adonis",
+      "last_name": "Thomas",
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "1",
+      "transfers": [
+        {
+          "id": "7f50fcc4-6676-4d0f-b951-8142e518a9a1",
+          "effective_date": "2014-03-18",
+          "last_modified": "2014-03-19T14:59:29+00:00",
+          "from_team": {
+            "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Magic",
+            "market": "Orlando"
+          }
+        }
+      ]
+    }
+  ]
+}

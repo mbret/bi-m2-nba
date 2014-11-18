@@ -1,0 +1,16 @@
+{
+  "id": "ee8c3487-82ca-4e05-b649-69623a930b71",
+  "status": "scheduled",
+  "coverage": "full",
+  "scheduled": "2015-01-16T03:30:00+00:00",
+  "venue": {
+    "id": "792ec100-691e-5e16-8ef8-79b2b6ee38ba",
+    "name": "Staples Center",
+    "capacity": 18997,
+    "address": "1111 S. Figueroa St.",
+    "city": "Los Angeles",
+    "state": "CA",
+    "zip": "90015",
+    "country": "USA"
+  }
+}

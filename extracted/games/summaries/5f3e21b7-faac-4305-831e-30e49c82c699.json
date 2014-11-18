@@ -1,0 +1,16 @@
+{
+  "id": "5f3e21b7-faac-4305-831e-30e49c82c699",
+  "status": "scheduled",
+  "coverage": "full",
+  "scheduled": "2015-03-02T00:00:00+00:00",
+  "venue": {
+    "id": "5b239206-57ce-50aa-baaa-627f3349dfdc",
+    "name": "Toyota Center",
+    "capacity": 18043,
+    "address": "1510 Polk St.",
+    "city": "Houston",
+    "state": "TX",
+    "zip": "77002",
+    "country": "USA"
+  }
+}

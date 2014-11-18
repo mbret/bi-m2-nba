@@ -1,0 +1,32 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-02-22T05:00:00+00:00",
+  "end_time": "2014-02-23T04:59:59+00:00",
+  "players": [
+    {
+      "id": "4b9ea469-6408-431c-862e-662aefecea7b",
+      "full_name": "Jared Cunningham",
+      "first_name": "Jared",
+      "last_name": "Cunningham",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "9",
+      "transfers": [
+        {
+          "id": "285a3390-4e2b-41e0-8295-b236c4ab11ac",
+          "effective_date": "2014-02-22",
+          "last_modified": "2014-02-22T23:02:35+00:00",
+          "from_team": {
+            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hawks",
+            "market": "Atlanta"
+          }
+        }
+      ]
+    }
+  ]
+}

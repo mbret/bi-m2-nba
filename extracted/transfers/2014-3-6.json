@@ -1,0 +1,63 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-03-06T05:00:00+00:00",
+  "end_time": "2014-03-07T04:59:59+00:00",
+  "players": [
+    {
+      "id": "b1d48323-0ef7-478e-a10c-cbd9f2e3f1df",
+      "full_name": "Reggie Williams",
+      "first_name": "Reggie",
+      "last_name": "Williams",
+      "position": "G-F",
+      "primary_position": "SF",
+      "jersey_number": "55",
+      "transfers": [
+        {
+          "id": "3fb90f8b-6fd5-4306-aa81-4c74525322b0",
+          "effective_date": "2014-03-06",
+          "last_modified": "2014-03-06T23:09:54+00:00",
+          "from_team": {
+            "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Thunder",
+            "market": "Oklahoma City"
+          },
+          "to_team": {
+            "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Thunder",
+            "market": "Oklahoma City"
+          }
+        }
+      ]
+    },
+    {
+      "id": "02797242-a34a-472a-9547-d874771fa793",
+      "full_name": "Royce White",
+      "first_name": "Royce",
+      "last_name": "White",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "35",
+      "transfers": [
+        {
+          "id": "aa967aa4-39f0-4d67-93c7-1e0529f9f9bf",
+          "effective_date": "2014-03-06",
+          "last_modified": "2014-03-06T23:09:22+00:00",
+          "from_team": {
+            "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Kings",
+            "market": "Sacramento"
+          },
+          "to_team": {
+            "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Kings",
+            "market": "Sacramento"
+          }
+        }
+      ]
+    }
+  ]
+}

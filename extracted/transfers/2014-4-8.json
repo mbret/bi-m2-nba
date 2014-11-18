@@ -1,0 +1,63 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-04-08T04:00:00+00:00",
+  "end_time": "2014-04-09T03:59:59+00:00",
+  "players": [
+    {
+      "id": "ef0cf1e1-e3e1-48e6-aace-fdfd3c0fb719",
+      "full_name": "Grant Jerrett",
+      "first_name": "Grant",
+      "last_name": "Jerrett",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "7",
+      "transfers": [
+        {
+          "id": "4e8a8bdf-e7a0-4b78-a11d-ad8f6ea1715c",
+          "effective_date": "2014-04-08",
+          "last_modified": "2014-04-08T22:07:05+00:00",
+          "from_team": {
+            "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Thunder",
+            "market": "Oklahoma City"
+          },
+          "to_team": {
+            "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Thunder",
+            "market": "Oklahoma City"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d87252c3-bca1-484d-8dae-6b1daae2fb75",
+      "full_name": "Othyus Jeffers",
+      "first_name": "Othyus",
+      "last_name": "Jeffers",
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "64519fb0-95e5-4731-9050-0e1461f3b3b3",
+          "effective_date": "2014-04-08",
+          "last_modified": "2014-04-08T22:03:19+00:00",
+          "from_team": {
+            "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Timberwolves",
+            "market": "Minnesota"
+          },
+          "to_team": {
+            "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Timberwolves",
+            "market": "Minnesota"
+          }
+        }
+      ]
+    }
+  ]
+}

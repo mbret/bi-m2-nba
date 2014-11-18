@@ -1,0 +1,77 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-04-17T04:00:00+00:00",
+  "end_time": "2014-04-18T03:59:59+00:00",
+  "players": [
+    {
+      "id": "2e663dab-1632-462a-a113-dbe35ef65f2e",
+      "full_name": "James Nunnally",
+      "first_name": "James",
+      "last_name": "Nunnally",
+      "position": "F",
+      "primary_position": "SF",
+      "transfers": [
+        {
+          "id": "07244048-5746-4e88-a680-75c6fd5818df",
+          "effective_date": "2014-04-13",
+          "last_modified": "2014-04-17T13:43:15+00:00",
+          "from_team": {
+            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hawks",
+            "market": "Atlanta"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fe9ef206-e376-459d-8877-6145db5f6ee2",
+      "full_name": "Lamar Odom",
+      "first_name": "Lamar",
+      "last_name": "Odom",
+      "position": "F",
+      "primary_position": "SF",
+      "transfers": [
+        {
+          "id": "6dd6bb98-8c1e-4c84-9225-66b8c03286d0",
+          "effective_date": "2014-04-16",
+          "last_modified": "2014-04-17T13:53:09+00:00",
+          "from_team": {
+            "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Knicks",
+            "market": "New York"
+          },
+          "to_team": {
+            "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Knicks",
+            "market": "New York"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7df74140-7064-4162-8228-b1079cd0c0f1",
+      "full_name": "Dexter Pittman",
+      "first_name": "Dexter",
+      "last_name": "Pittman",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "45",
+      "transfers": [
+        {
+          "id": "b1a6d0f5-4756-482a-8932-c3f1a6e73fad",
+          "effective_date": "2014-04-15",
+          "last_modified": "2014-04-17T13:46:17+00:00",
+          "from_team": {
+            "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Rockets",
+            "market": "Houston"
+          }
+        }
+      ]
+    }
+  ]
+}

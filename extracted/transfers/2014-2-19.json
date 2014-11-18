@@ -1,0 +1,110 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-02-19T05:00:00+00:00",
+  "end_time": "2014-02-20T04:59:59+00:00",
+  "players": [
+    {
+      "id": "8641c4fe-b822-45e5-998a-13b85b30e215",
+      "full_name": "Jason Terry",
+      "first_name": "Jason",
+      "last_name": "Terry",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "31",
+      "transfers": [
+        {
+          "id": "193d8e3d-ed9a-4237-9733-c9a361d4ceca",
+          "effective_date": "2014-02-19",
+          "last_modified": "2014-02-19T22:43:28+00:00",
+          "from_team": {
+            "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nets",
+            "market": "Brooklyn"
+          },
+          "to_team": {
+            "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Kings",
+            "market": "Sacramento"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d5ef3cfe-2ab9-4b77-823a-62678c13058f",
+      "full_name": "Marcus Thornton",
+      "first_name": "Marcus",
+      "last_name": "Thornton",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "4",
+      "transfers": [
+        {
+          "id": "be9d8281-d902-4702-ad77-81e391422b21",
+          "effective_date": "2014-02-19",
+          "last_modified": "2014-02-19T22:41:21+00:00",
+          "from_team": {
+            "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Kings",
+            "market": "Sacramento"
+          },
+          "to_team": {
+            "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nets",
+            "market": "Brooklyn"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3c3cfbfd-c76f-4b92-a412-6f8b9e294c29",
+      "full_name": "Sasha Vujacic",
+      "first_name": "Sasha",
+      "last_name": "Vujacic",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "18",
+      "transfers": [
+        {
+          "id": "cb0d87c9-12dd-4e0f-a895-489551cdd73a",
+          "effective_date": "2014-02-19",
+          "last_modified": "2014-02-19T18:39:21+00:00",
+          "from_team": {
+            "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Clippers",
+            "market": "Los Angeles"
+          }
+        }
+      ]
+    },
+    {
+      "id": "980b7f61-d112-4150-bf02-0f5dbda4deb7",
+      "full_name": "Reggie Evans",
+      "first_name": "Reggie",
+      "last_name": "Evans",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "30",
+      "transfers": [
+        {
+          "id": "e277b265-77ab-44ff-a904-7e5d0f6c02f4",
+          "effective_date": "2014-02-19",
+          "last_modified": "2014-02-19T22:42:55+00:00",
+          "from_team": {
+            "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nets",
+            "market": "Brooklyn"
+          },
+          "to_team": {
+            "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Kings",
+            "market": "Sacramento"
+          }
+        }
+      ]
+    }
+  ]
+}

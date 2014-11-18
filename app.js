@@ -29,7 +29,7 @@ async.waterfall([
      */
     function emptyAllTable(callback){
 
-        var tables = ['injury', 'team_player', 'team_coatch', 'coatch', 'game_stat', 'game_player_stat', 'game', 'player', 'team' ];
+        var tables = ['injury', 'team_player', 'team_coatch', 'coatch', 'game_stat', 'game_player_stat', 'game', 'player', 'team', 'transfer' ];
         async.eachSeries(tables, function( table, callback ) {
             connection.query('TRUNCATE ' + table, function(err, rows) {
                 if (err) return callback(err);
@@ -44,110 +44,85 @@ async.waterfall([
 
     /*
      * fill table team with all teams
+     * Use the /teams/*.json to know all teams.
      */
     function fillTeam(callback){
 
         // Get data from json
-        require('fs').readFile(extractedPath + '/league-hierarchy.json', 'utf8', function (err, data) {
-            if (err) return callback(err);
-            obj = JSON.parse(data);
-            var teamToAdd = [];
+        var files = require('fs').readdirSync(extractedPath + '/teams');
 
-            // Loop over conference
-            _.forEach(obj.conferences, function( conference ) {
+        async.eachSeries(files, function(file, callback){
 
-                // Loop over division
-                _.forEach(conference.divisions, function( division ) {
-
-                    // Loop over teams
-                    _.forEach(division.teams, function( team ) {
-
-                        // Register new team
-                        teamToAdd.push({
-                            id: team.id,
-                            conference: conference.name,
-                            division: division.name,
-                            name: team.name,
-                            season: ''
-                        });
-
-                    });
-
+            // Take only json files
+            if(/(.*).json/.test(file) ) {
+                data = require('fs').readFileSync(extractedPath + '/teams/' + file, 'utf8');
+                team = JSON.parse(data);
+                connection.query(
+                    "INSERT INTO `bi-m2`.`team` (`id`, `conference`, `division`, `name`) " +
+                    "VALUES ('"+team.id+"', '"+team.conference.name+"', '"+team.division.name+"', '"+team.name+"')", function(err, rows) {
+                    return callback(err);
                 });
-            });
-
-            // Add all team
-            async.each(teamToAdd, function( team, cbAsync) {
-                connection.query("INSERT INTO `bi-m2`.`team` (`id`, `conference`, `division`, `name`, `season`) VALUES ('"+team.id+"', '"+team.conference+"', '"+team.division+"', '"+team.name+"', '"+team.season+"')", function(err, rows) {
-                    return cbAsync(err);
-                });
-            }, function(err){
-                if(!err) console.log('Table team filled');
-                return callback(err);
-            });
-
+            }
+            else{
+                return callback();
+            }
+        }, function(err){
+            if(!err) console.log('Table team filled');
+            return callback(err);
         });
     },
 
-    /*
+    /**
+     * Fill all coaches present in /teams/*.js for all teams.
+     * @todo Find a way to get more than only 2014 coaches (vecause the use of /teams/*.json is not reliable)
      * @require: teams/*.json
-     * @todo only coatches for our team
+     *
      */
     function fillCoatch(callback){
         var files = require('fs').readdirSync(extractedPath + '/teams');
         var teams = [];
-        files.forEach(function(file){
+        async.eachSeries(files, function(file, callback){
 
             if(/(.*).json/.test(file)) {
                 data = require('fs').readFileSync(extractedPath + '/teams/' + file, 'utf8');
                 teams.push( JSON.parse(data) );
+                var team = JSON.parse(data);
+                async.eachSeries(team.coaches, function(coach, callback){
+                    connection.query(
+                            "INSERT INTO `bi-m2`.`coatch` (`id`, `full_name`, `position`, `experience` ) " +
+                            "VALUES ('"+coach.id+"', "+mysql.escape(coach.full_name)+", '"+coach.position+"', '"+coach.experience+"')", function(err, rows) {
+                        return callback(err);
+                    });
+                }, function(err){
+                    return callback(err);
+                })
             }
-        });
-
-        var entries = [];
-        _.forEach(teams, function( team ) {
-            _.forEach(team.coaches, function( coatch ) {
-                entries.push({
-                    id: coatch.id,
-                    full_name: coatch.full_name,
-                    position: coatch.position,
-                    experience: coatch.experience
-                });
-
-            });
-        });
-
-        // Add all entries
-        async.each(entries, function( entry, cbAsync) {
-            connection.query("INSERT INTO `bi-m2`.`coatch` (`id`, `full_name`, `position`, `experience` ) VALUES ('"+entry.id+"', "+mysql.escape(entry.full_name)+", '"+entry.position+"', '"+entry.experience+"')", function(err, rows) {
-                return cbAsync(err);
-            });
+            else{
+                return callback();
+            }
         }, function(err){
             if(!err) console.log('Table coatch filled');
             return callback(err, teams);
         });
     },
 
-
+    /**
+     * Fill for all teams the coaches presents
+     * @todo for the moment we only have coatches for 2014
+     * @param teams
+     * @param callback
+     */
     function fillTeamCoatch(teams, callback){
-        var entries = [];
-        _.forEach(teams, function( team ) {
-            _.forEach(team.coaches, function( coatch ) {
-                entries.push({
-                    team_id: team.id,
-                    coatch_id: coatch.id,
-                    start_date: '2014-01-01',
-                    end_date: '2014-12-31',
-                    season: 2014
+        async.eachSeries(teams, function( team, callback ) {
+            async.eachSeries(team.coaches, function( coach, callback ) {
+                connection.query(
+                        "INSERT INTO `bi-m2`.`team_coatch` (`coatch_id`, `team_id`, `start_date`, `end_date`, `season` ) " +
+                        "VALUES ('"+coach.id+"', '"+team.id+"', '2014-01-01', '2014-12-31', 2014)", function(err, rows) {
+                    return callback(err);
                 });
 
-            });
-        });
-
-        // Add all entries
-        async.each(entries, function( entry, cbAsync) {
-            connection.query("INSERT INTO `bi-m2`.`team_coatch` (`coatch_id`, `team_id`, `start_date`, `end_date`, `season` ) VALUES ('"+entry.coatch_id+"', '"+entry.team_id+"', '"+entry.start_date+"', '"+entry.end_date+"', '"+entry.season+"')", function(err, rows) {
-                return cbAsync(err);
+            }, function(err){
+                return callback(err);
             });
         }, function(err){
             if(!err) console.log('Table team_coatch filled');
@@ -194,6 +169,7 @@ async.waterfall([
     /*
      * Fill for our team the players actives
      * Check all players but keep and store only players that has played in our team.
+     * @todo check why we only have history from 2013 to 2014 for team only
      */
     function fillTeamPlayer(teams, players, callback){
 
@@ -284,16 +260,14 @@ async.waterfall([
                 data = require('fs').readFileSync(extractedPath + '/games/summaries/' + file, 'utf8');
                 var game = JSON.parse(data);
 
-                // Take only games that involve our team
-                if( game.home.id == ourTeamId || game.away.id == ourTeamId ){
-
-                    // Reject games that has not been played or with missing values
-                    if(game.status == 'unnecessary' || !game.home || !game.away){
-                        console.log('No required values for game ' + game.id + ' summaries, game skipped for insert in table game');
-                        return callback();
-                    }
-                    else{
-
+                // Reject games that has not been played or with missing values
+                if(game.status == 'unnecessary' || !game.home || !game.away) {
+                    console.log('No required values for game ' + game.id + ' summaries, game skipped for insert in table game');
+                    return callback();
+                }
+                else{
+                    // Take only games that involve our team
+                    if( (game.home && (game.home.id == ourTeamId)) || (game.away && (game.away.id == ourTeamId)) ){
                         games.push( game );
                         connection.query(
                                 "INSERT INTO `bi-m2`.`game` (`id`, `team_home_id`, `team_away_id`, `away_points`, `home_points`, `duration`, `date` ) "+
@@ -303,10 +277,10 @@ async.waterfall([
                             }
                         );
                     }
-                }
-                else{
-                    console.log('Game summary rejected because not about our team');
-                    return callback(null);
+                    else{
+                        console.log('Game summary rejected because not about our team');
+                        return callback(null);
+                    }
                 }
             }
             else{
@@ -409,6 +383,60 @@ async.waterfall([
             return callback(err);
         });
     },
+
+    function fillTransfers(callback){
+
+        var files = require('fs').readdirSync(extractedPath + '/transfers');
+
+        async.each( files, function(file, callback){
+
+                if(/(.*).json/.test(file)) {
+
+                    data = require('fs').readFileSync(extractedPath + '/transfers/' + file, 'utf8');
+                    var transfer = JSON.parse(data);
+
+                    async.eachSeries(transfer.players, function(player, callback){
+
+                        async.eachSeries(player.transfers, function(playerTransfer, callback){
+
+                            if(!playerTransfer.from_team){
+                                connection.query(
+                                        "INSERT INTO `bi-m2`.`transfer` (`id`, `start_date`, `end_date`, `player_id`, `effective_date`, `to_team_id` ) "+
+                                        "VALUES ('"+playerTransfer.id+"', '"+transfer.start_time+"', '"+transfer.end_time+"', '"+player.id+"', '"+playerTransfer.effective_date+"', '"+playerTransfer.to_team.id+"')",
+                                    function(err, rows) {
+                                        return callback(err);
+                                    }
+                                );
+                            }
+                            else{
+                                connection.query(
+                                        "INSERT INTO `bi-m2`.`transfer` (`id`, `start_date`, `end_date`, `player_id`, `effective_date`, `from_team_id` ) "+
+                                        "VALUES ('"+playerTransfer.id+"', '"+transfer.start_time+"', '"+transfer.end_time+"', '"+player.id+"', '"+playerTransfer.effective_date+"', '"+playerTransfer.from_team.id+"')",
+                                    function(err, rows) {
+                                        return callback(err);
+                                    }
+                                );
+                            }
+
+
+                        }, function(err){
+                            return callback(err);
+                        });
+
+                    }, function(err){
+                        return callback(err);
+                    });
+
+                }
+                else{
+                    return callback(null);
+                }
+            },
+            function(err){
+                if(!err) console.log('Table transfers filled');
+                return callback(err);
+            });
+    }
 ],
 function(err, results) {
     if(err){

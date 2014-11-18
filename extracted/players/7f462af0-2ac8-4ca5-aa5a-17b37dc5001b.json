@@ -1,0 +1,102 @@
+{
+  "id": "7f462af0-2ac8-4ca5-aa5a-17b37dc5001b",
+  "status": "ACT",
+  "full_name": "Glenn Robinson III",
+  "first_name": "Glenn",
+  "last_name": "Robinson",
+  "abbr_name": "G.Robinson",
+  "height": 78,
+  "weight": 220,
+  "position": "F",
+  "primary_position": "SF",
+  "jersey_number": "1",
+  "experience": "0",
+  "college": "Michigan",
+  "birth_place": "Saint John, IN, USA",
+  "birthdate": "1994-01-08",
+  "updated": "2014-09-26T15:35:23+00:00",
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "team": {
+    "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+    "name": "Timberwolves",
+    "market": "Minnesota",
+    "alias": "MIN"
+  },
+  "draft": {
+    "team_id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+    "year": 2014,
+    "round": "2",
+    "pick": "40"
+  },
+  "seasons": [
+    {
+      "id": "fb89a852-3f68-4505-85b0-19b428b261d5",
+      "year": 2014,
+      "type": "REG",
+      "teams": [
+        {
+          "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+          "name": "Timberwolves",
+          "market": "Minnesota",
+          "alias": "MIN",
+          "total": {
+            "games_played": 2,
+            "games_started": 0,
+            "minutes": 9,
+            "field_goals_made": 0,
+            "field_goals_att": 0,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "blocked_att": 0,
+            "free_throws_made": 1,
+            "free_throws_att": 2,
+            "offensive_rebounds": 1,
+            "defensive_rebounds": 0,
+            "assists": 0,
+            "turnovers": 0,
+            "steals": 0,
+            "blocks": 0,
+            "personal_fouls": 0,
+            "tech_fouls": 0,
+            "points": 1,
+            "flagrant_fouls": 0,
+            "free_throws_pct": 0.5,
+            "two_points_pct": 0,
+            "three_points_pct": 0,
+            "field_goals_pct": 0,
+            "rebounds": 1,
+            "assists_turnover_ratio": 0,
+            "two_points_made": 0,
+            "two_points_att": 0
+          },
+          "average": {
+            "points": 0.5,
+            "blocked_att": 0,
+            "turnovers": 0,
+            "free_throws_att": 1,
+            "field_goals_att": 0,
+            "off_rebounds": 0.5,
+            "two_points_att": 0,
+            "assists": 0,
+            "blocks": 0,
+            "personal_fouls": 0,
+            "two_points_made": 0,
+            "flagrant_fouls": 0,
+            "rebounds": 0.5,
+            "three_points_made": 0,
+            "minutes": 4.5,
+            "def_rebounds": 0,
+            "free_throws_made": 0.5,
+            "field_goals_made": 0,
+            "steals": 0,
+            "three_points_att": 0
+          }
+        }
+      ]
+    }
+  ]
+}

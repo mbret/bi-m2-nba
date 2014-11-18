@@ -10,12 +10,12 @@ var request    = require('request');
 var host = 'http://api.sportsdatallc.org';
 // maxime, joris, colon
 var keys = ['khr6x4favjaqctsp6h29ucnn','5n9qx5mnseq5za8xevz2vbz7', '8tp8f44kaavt2jdag3gpn35a'];
-var usedKey = 2;
+var usedKey = 1;
 var ourTeamId     = '583ec773-fb46-11e1-82cb-f4ce4684ea4c'; // Cavaliers
 
 // x ms second between each requests
 var nextAPIcallTimeout = 1000;
-var APIcallTimoutExtra = 1000;
+//var APIcallTimoutExtra = 1000;
 
 console.log('Start of program');
 async.series([
@@ -61,6 +61,13 @@ async.series([
         extractGamesSummariesFromAPI( [ourTeamId], function(err){
             return callback(err);
         });
+    },
+
+    function(callback){
+        console.log('Start extracting of transfers');
+        extractTransfersFromAPI( function(err){
+            return callback(err);
+        })
     }
 ],
 function(err, results) {
@@ -108,7 +115,7 @@ function extractBoxScoresFromAPI( teamIdFilter, callback){
                             }
                             else{
                                 setTimeout(function () {
-                                    nextAPIcallTimeout += APIcallTimoutExtra;
+//                                    nextAPIcallTimeout += APIcallTimoutExtra;
 
                                     console.log('call: ' + urlToCall + ' after: ' + nextAPIcallTimeout + 'ms');
                                     request(urlToCall, function(error, response, body){
@@ -166,7 +173,7 @@ function extractScheduleFromAPI( callback ){
             else{
                 setTimeout(function() {
 
-                    nextAPIcallTimeout += APIcallTimoutExtra;
+//                    nextAPIcallTimeout += APIcallTimoutExtra;
                     console.log('call: ' + urlToCall + ' after: ' + nextAPIcallTimeout + 'ms');
 
                     request(urlToCall, function(error, response, body){
@@ -210,7 +217,7 @@ function extractInjuriesFromAPI( callback ){
     }
     else{
         setTimeout(function () {
-            nextAPIcallTimeout += APIcallTimoutExtra;
+//            nextAPIcallTimeout += APIcallTimoutExtra;
 
             console.log('call: ' + urlToCall + ' after: ' + nextAPIcallTimeout + 'ms');
             request(urlToCall, function(error, response, body){
@@ -256,7 +263,7 @@ function extractAllTeamProfileFromAPI( callback ){
                     }
                     else{
                         setTimeout(function () {
-                            nextAPIcallTimeout += APIcallTimoutExtra;
+//                            nextAPIcallTimeout += APIcallTimoutExtra;
                             console.log('call: ' + urlToCall + ' after: ' + nextAPIcallTimeout + 'ms');
                             request(urlToCall, function(error, response, body){
                                 if(error) return callback(error);
@@ -288,6 +295,7 @@ function extractAllTeamProfileFromAPI( callback ){
 /**
  * Get all profiles for all NBA players.
  * We use all teams/*.json to get all possible players
+ * @todo Find a way to find all players for all years (because we only have players of 2014 season here)
  * @require /teams/*.json
  */
 function extractAllPlayerProfileFromAPI( callback  ){
@@ -322,7 +330,7 @@ function extractAllPlayerProfileFromAPI( callback  ){
                         }
                         else{
                             setTimeout(function () {
-                                nextAPIcallTimeout += APIcallTimoutExtra;
+//                                nextAPIcallTimeout += APIcallTimoutExtra;
 
                                 console.log('call: ' + urlToCall + ' after: ' + nextAPIcallTimeout + 'ms');
                                 request(urlToCall, function(error, response, body){
@@ -392,7 +400,7 @@ function extractGamesSummariesFromAPI( teamIdFilter, callback ){
                             }
                             else{
                                 setTimeout(function () {
-                                    nextAPIcallTimeout += APIcallTimoutExtra;
+//                                    nextAPIcallTimeout += APIcallTimoutExtra;
 
                                     console.log('call: ' + urlToCall + ' after: ' + nextAPIcallTimeout + 'ms');
                                     request(urlToCall, function(error, response, body){
@@ -429,5 +437,54 @@ function extractGamesSummariesFromAPI( teamIdFilter, callback ){
         }, function(err){
             return callback(err);
         });
+    });
+}
+
+function extractTransfersFromAPI(callback){
+
+    async.eachSeries([2014,2013,2012], function(year, callback){
+        var months = [];
+        for(var i = 1;i<=12;i++) months.push(i);
+        async.eachSeries(months, function(month, callback){
+            var days = [];
+            for(var j = 1;j<=31;j++) days.push(j);
+            async.eachSeries(days, function(day, callback){
+
+
+                var fileToCreate = extractedPath + '/transfers/' + year + '-' + month + '-' + day + '.json';
+                var urlToCall = host + '/nba-t3/league/' + year + '/' + month + '/' + day + '/transfers.json?api_key=' + keys[usedKey];
+
+                if( require('fs').existsSync(fileToCreate) ){
+                    console.log('Element [transfers ' + year + '-' + month + '-' + day + '] skipped because already extracted!');
+                    return callback();
+                }
+                else{
+                    setTimeout(function () {
+
+                        console.log('call: ' + urlToCall + ' after: ' + nextAPIcallTimeout + 'ms');
+                        request(urlToCall, function(error, response, body){
+                            if(error) return callback(error);
+                            if (response.statusCode == 403) {
+                                return callback(new Error(response.body));
+                            }
+                            else{
+                                var obj2 = JSON.parse(body);
+                                jf.writeFileSync(fileToCreate, obj2);
+                                console.log('Element [transfers ' + year + '-' + month + '-' + day + '] extracted!');
+                                return callback();
+                            }
+                        });
+
+                    }, nextAPIcallTimeout);
+                }
+
+            }, function(err){
+                return callback(err);
+            });
+        }, function(err){
+            return callback(err);
+        });
+    }, function(err){
+        return callback(err);
     });
 }

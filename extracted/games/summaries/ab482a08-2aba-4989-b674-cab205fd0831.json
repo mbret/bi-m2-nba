@@ -1,0 +1,16 @@
+{
+  "id": "ab482a08-2aba-4989-b674-cab205fd0831",
+  "status": "scheduled",
+  "coverage": "full",
+  "scheduled": "2015-03-11T00:30:00+00:00",
+  "venue": {
+    "id": "401ba62f-19b5-5bfc-84d6-021772943311",
+    "name": "American Airlines Center",
+    "capacity": 19200,
+    "address": "2500 Victory Ave.",
+    "city": "Dallas",
+    "state": "TX",
+    "zip": "75219",
+    "country": "USA"
+  }
+}

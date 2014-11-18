@@ -1,0 +1,16 @@
+{
+  "id": "8b30d3d3-650c-4be7-8b71-fb3acf980610",
+  "status": "scheduled",
+  "coverage": "full",
+  "scheduled": "2015-04-03T00:00:00+00:00",
+  "venue": {
+    "id": "42cddf7a-0e1f-5f91-ae6f-c620582fdb01",
+    "name": "Quicken Loans Arena",
+    "capacity": 20562,
+    "address": "One Center Court",
+    "city": "Cleveland",
+    "state": "OH",
+    "zip": "44115",
+    "country": "USA"
+  }
+}

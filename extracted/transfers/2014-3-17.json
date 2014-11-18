@@ -1,0 +1,57 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-03-17T04:00:00+00:00",
+  "end_time": "2014-03-18T03:59:59+00:00",
+  "players": [
+    {
+      "id": "b1d48323-0ef7-478e-a10c-cbd9f2e3f1df",
+      "full_name": "Reggie Williams",
+      "first_name": "Reggie",
+      "last_name": "Williams",
+      "position": "G-F",
+      "primary_position": "SF",
+      "jersey_number": "55",
+      "transfers": [
+        {
+          "id": "a4ccc2fc-3ce8-4700-af3b-c318d0071a43",
+          "effective_date": "2014-03-16",
+          "last_modified": "2014-03-17T21:39:16+00:00",
+          "from_team": {
+            "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Thunder",
+            "market": "Oklahoma City"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2e663dab-1632-462a-a113-dbe35ef65f2e",
+      "full_name": "James Nunnally",
+      "first_name": "James",
+      "last_name": "Nunnally",
+      "position": "F",
+      "primary_position": "SF",
+      "transfers": [
+        {
+          "id": "bed6bb65-d5ea-49ce-bf31-71776782a56d",
+          "effective_date": "2014-03-17",
+          "last_modified": "2014-03-17T18:05:38+00:00",
+          "from_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          },
+          "to_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    }
+  ]
+}

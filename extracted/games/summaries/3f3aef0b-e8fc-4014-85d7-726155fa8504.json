@@ -1,0 +1,16 @@
+{
+  "id": "3f3aef0b-e8fc-4014-85d7-726155fa8504",
+  "status": "scheduled",
+  "coverage": "full",
+  "scheduled": "2015-03-07T00:30:00+00:00",
+  "venue": {
+    "id": "fd21f639-8a47-51ac-a5dd-590629d445cf",
+    "name": "Philips Arena",
+    "capacity": 18118,
+    "address": "One Philips Drive",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30303",
+    "country": "USA"
+  }
+}

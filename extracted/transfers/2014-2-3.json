@@ -1,0 +1,53 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-02-03T05:00:00+00:00",
+  "end_time": "2014-02-04T04:59:59+00:00",
+  "players": [
+    {
+      "id": "30aeabf6-27f6-4560-8c78-0f8857ef27ed",
+      "full_name": "Royal Ivey",
+      "first_name": "Royal",
+      "last_name": "Ivey",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "7",
+      "transfers": [
+        {
+          "id": "2d628358-10d1-4078-8ffc-b1085b2b94f2",
+          "effective_date": "2014-02-03",
+          "last_modified": "2014-02-03T16:26:50+00:00",
+          "from_team": {
+            "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Thunder",
+            "market": "Oklahoma City"
+          }
+        }
+      ]
+    },
+    {
+      "id": "66e28766-9b3b-4b4f-a770-85b206f4fc22",
+      "full_name": "Mike James",
+      "first_name": "Mike",
+      "last_name": "James",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "8",
+      "transfers": [
+        {
+          "id": "f0ce138a-f894-4777-a56d-9302a7ff8829",
+          "effective_date": "2014-02-03",
+          "last_modified": "2014-02-03T16:33:02+00:00",
+          "from_team": {
+            "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bulls",
+            "market": "Chicago"
+          }
+        }
+      ]
+    }
+  ]
+}

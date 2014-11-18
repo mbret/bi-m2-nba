@@ -1,0 +1,53 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-02-24T05:00:00+00:00",
+  "end_time": "2014-02-25T04:59:59+00:00",
+  "players": [
+    {
+      "id": "f77263f9-a97c-45b9-91f0-0f0da4156b9f",
+      "full_name": "Beno Udrih",
+      "first_name": "Beno",
+      "last_name": "Udrih",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "19",
+      "transfers": [
+        {
+          "id": "150932a1-9cd9-4503-9868-29aa97b34bc6",
+          "effective_date": "2014-02-24",
+          "last_modified": "2014-02-24T23:20:43+00:00",
+          "from_team": {
+            "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Knicks",
+            "market": "New York"
+          }
+        }
+      ]
+    },
+    {
+      "id": "776dc759-cd97-49ac-aa4d-acc99eb9620d",
+      "full_name": "Metta World Peace",
+      "first_name": "Metta",
+      "last_name": "World Peace",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "51",
+      "transfers": [
+        {
+          "id": "5f4bcd18-057f-4102-8da6-bdf143c3deaa",
+          "effective_date": "2014-02-24",
+          "last_modified": "2014-02-24T23:20:15+00:00",
+          "from_team": {
+            "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Knicks",
+            "market": "New York"
+          }
+        }
+      ]
+    }
+  ]
+}

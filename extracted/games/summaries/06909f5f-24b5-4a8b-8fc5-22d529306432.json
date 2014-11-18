@@ -1,0 +1,16 @@
+{
+  "id": "06909f5f-24b5-4a8b-8fc5-22d529306432",
+  "status": "scheduled",
+  "coverage": "full",
+  "scheduled": "2014-12-13T01:00:00+00:00",
+  "venue": {
+    "id": "6ec47e31-f778-5319-b6c4-3254e076ba0e",
+    "name": "Smoothie King Center",
+    "capacity": 17188,
+    "address": "1501 Girod St.",
+    "city": "New Orleans",
+    "state": "LA",
+    "zip": "70113",
+    "country": "USA"
+  }
+}

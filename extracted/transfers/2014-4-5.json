@@ -1,0 +1,58 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-04-05T04:00:00+00:00",
+  "end_time": "2014-04-06T03:59:59+00:00",
+  "players": [
+    {
+      "id": "602c4ed3-8df5-4192-9e49-cb465d931c98",
+      "full_name": "Chris Wright",
+      "first_name": "Chris",
+      "last_name": "Wright",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "15",
+      "transfers": [
+        {
+          "id": "9937a828-2666-4413-b5d9-90f408b6d0cc",
+          "effective_date": "2014-04-06",
+          "last_modified": "2014-04-06T01:09:00+00:00",
+          "from_team": {
+            "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bucks",
+            "market": "Milwaukee"
+          },
+          "to_team": {
+            "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bucks",
+            "market": "Milwaukee"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f92a3b51-687c-4931-8744-9d9fc1e2ac31",
+      "full_name": "D.J. Stephens",
+      "first_name": "D.J.",
+      "last_name": "Stephens",
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "24",
+      "transfers": [
+        {
+          "id": "d4471316-44bc-46fc-a481-749b5f37bc00",
+          "effective_date": "2014-04-06",
+          "last_modified": "2014-04-06T01:10:01+00:00",
+          "from_team": {
+            "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bucks",
+            "market": "Milwaukee"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-01-07T05:00:00+00:00",
+  "end_time": "2014-01-08T04:59:59+00:00",
+  "players": [
+    {
+      "id": "8c178ce0-62a3-404b-aaf1-78420670efcc",
+      "full_name": "Daniel Orton",
+      "first_name": "Daniel",
+      "last_name": "Orton",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "33",
+      "transfers": [
+        {
+          "id": "0be62001-b897-47bc-828b-1e2e1fc944fe",
+          "effective_date": "2014-01-07",
+          "last_modified": "2014-01-07T23:05:04+00:00",
+          "from_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "718aec05-73fa-4c3f-8275-dda9f489b00e",
+      "full_name": "Shawne Williams",
+      "first_name": "Shawne",
+      "last_name": "Williams",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "43",
+      "transfers": [
+        {
+          "id": "1efd3822-4d00-4b69-9d30-c6f7c4168ef4",
+          "effective_date": "2014-01-07",
+          "last_modified": "2014-01-07T19:34:24+00:00",
+          "from_team": {
+            "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Lakers",
+            "market": "Los Angeles"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2dcbc097-72e7-4c7c-8f79-90ca7bb67d4f",
+      "full_name": "Mike Harris",
+      "first_name": "Mike",
+      "last_name": "Harris",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "33",
+      "transfers": [
+        {
+          "id": "3c4160d9-8de2-44d2-87b9-421ad97c8fa5",
+          "effective_date": "2014-01-07",
+          "last_modified": "2014-01-07T19:34:06+00:00",
+          "from_team": {
+            "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Jazz",
+            "market": "Utah"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3da0addc-639a-42ad-875d-96d050ac3711",
+      "full_name": "Cartier Martin",
+      "first_name": "Cartier",
+      "last_name": "Martin",
+      "position": "F-G",
+      "primary_position": "SF",
+      "jersey_number": "35",
+      "transfers": [
+        {
+          "id": "4ec42ba2-9250-4916-87f1-44a46aa1875a",
+          "effective_date": "2014-01-07",
+          "last_modified": "2014-01-07T23:05:19+00:00",
+          "from_team": {
+            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hawks",
+            "market": "Atlanta"
+          }
+        }
+      ]
+    },
+    {
+      "id": "715b1b3b-9416-41b2-a8c3-21385285c4c0",
+      "full_name": "Stephen Jackson",
+      "first_name": "Stephen",
+      "last_name": "Jackson",
+      "position": "F-G",
+      "primary_position": "SF",
+      "jersey_number": "1",
+      "transfers": [
+        {
+          "id": "77e5a740-622c-46b8-834d-9c3f52d1ae75",
+          "effective_date": "2014-01-07",
+          "last_modified": "2014-01-07T20:27:00+00:00",
+          "from_team": {
+            "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Clippers",
+            "market": "Los Angeles"
+          }
+        }
+      ]
+    }
+  ]
+}

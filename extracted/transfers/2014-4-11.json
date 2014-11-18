@@ -1,0 +1,38 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-04-11T04:00:00+00:00",
+  "end_time": "2014-04-12T03:59:59+00:00",
+  "players": [
+    {
+      "id": "9b8dc513-fdf5-44af-ac6c-9b1c26ba856a",
+      "full_name": "James Southerland",
+      "first_name": "James",
+      "last_name": "Southerland",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "31",
+      "transfers": [
+        {
+          "id": "e6f49bd9-95ac-4f7c-b484-e6fdd2b97531",
+          "notes": "New Orleans has signed James Southerland.",
+          "effective_date": "2014-04-11",
+          "last_modified": "2014-04-11T19:51:32+00:00",
+          "from_team": {
+            "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pelicans",
+            "market": "New Orleans"
+          },
+          "to_team": {
+            "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pelicans",
+            "market": "New Orleans"
+          }
+        }
+      ]
+    }
+  ]
+}

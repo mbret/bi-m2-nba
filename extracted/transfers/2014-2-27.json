@@ -1,0 +1,100 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-02-27T05:00:00+00:00",
+  "end_time": "2014-02-28T04:59:59+00:00",
+  "players": [
+    {
+      "id": "7c636961-816a-4b44-8991-671df9d91d9c",
+      "full_name": "Mike Muscala",
+      "first_name": "Mike",
+      "last_name": "Muscala",
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "31",
+      "transfers": [
+        {
+          "id": "1a60463a-ad79-433a-a3db-fa7239a2185e",
+          "effective_date": "2014-02-27",
+          "last_modified": "2014-02-27T21:08:45+00:00",
+          "from_team": {
+            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hawks",
+            "market": "Atlanta"
+          },
+          "to_team": {
+            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hawks",
+            "market": "Atlanta"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7d3518ea-875e-4bc2-96dd-8d496b91515e",
+      "full_name": "Jimmer Fredette",
+      "first_name": "Jimmer",
+      "last_name": "Fredette",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "32",
+      "transfers": [
+        {
+          "id": "1c47eacf-689e-43d8-b16c-11d481128b3c",
+          "effective_date": "2014-02-27",
+          "last_modified": "2014-02-27T22:14:11+00:00",
+          "from_team": {
+            "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Kings",
+            "market": "Sacramento"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7df74140-7064-4162-8228-b1079cd0c0f1",
+      "full_name": "Dexter Pittman",
+      "first_name": "Dexter",
+      "last_name": "Pittman",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "45",
+      "transfers": [
+        {
+          "id": "adb1ead4-ed8d-4099-ba25-c4ef1900c2a3",
+          "effective_date": "2014-02-27",
+          "last_modified": "2014-02-27T21:06:53+00:00",
+          "from_team": {
+            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hawks",
+            "market": "Atlanta"
+          }
+        }
+      ]
+    },
+    {
+      "id": "098f0b33-9a6b-47b0-95c7-4aba176a4206",
+      "full_name": "Shannon Brown",
+      "first_name": "Shannon",
+      "last_name": "Brown",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "26",
+      "transfers": [
+        {
+          "id": "c8413868-ca59-4761-81fa-9c12cd9356bd",
+          "effective_date": "2014-02-22",
+          "last_modified": "2014-02-27T16:52:38+00:00",
+          "from_team": {
+            "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Spurs",
+            "market": "San Antonio"
+          }
+        }
+      ]
+    }
+  ]
+}

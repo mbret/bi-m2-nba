@@ -1,0 +1,47 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-03-11T04:00:00+00:00",
+  "end_time": "2014-03-12T03:59:59+00:00",
+  "players": [
+    {
+      "id": "b1d48323-0ef7-478e-a10c-cbd9f2e3f1df",
+      "full_name": "Reggie Williams",
+      "first_name": "Reggie",
+      "last_name": "Williams",
+      "position": "G-F",
+      "primary_position": "SF",
+      "jersey_number": "55",
+      "transfers": [
+        {
+          "id": "6859f3a2-4bdd-4bbf-802f-d08de00b7e87",
+          "effective_date": "2014-03-12",
+          "last_modified": "2014-03-12T01:14:52+00:00",
+          "from_team": {
+            "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Thunder",
+            "market": "Oklahoma City"
+          },
+          "to_team": {
+            "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Thunder",
+            "market": "Oklahoma City"
+          }
+        },
+        {
+          "id": "d96db9a5-73e4-4fa8-a63a-7dc6d6948aa4",
+          "effective_date": "2014-03-11",
+          "last_modified": "2014-03-11T14:21:08+00:00",
+          "from_team": {
+            "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Thunder",
+            "market": "Oklahoma City"
+          }
+        }
+      ]
+    }
+  ]
+}

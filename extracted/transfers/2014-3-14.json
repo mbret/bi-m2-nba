@@ -1,0 +1,184 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-03-14T04:00:00+00:00",
+  "end_time": "2014-03-15T03:59:59+00:00",
+  "players": [
+    {
+      "id": "a2a15cb3-9a7d-4e24-b3ce-62cb4e1c3c68",
+      "full_name": "Lorenzo Brown",
+      "first_name": "Lorenzo",
+      "last_name": "Brown",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "24",
+      "transfers": [
+        {
+          "id": "45a6b756-11c7-4125-bc7a-45ece81cad29",
+          "notes": "Brown was waived by Philadelphia.",
+          "effective_date": "2014-03-14",
+          "last_modified": "2014-03-14T18:19:05+00:00",
+          "from_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "20398336-b5b7-4766-8339-30aa350836f9",
+      "full_name": "Darius Johnson-Odom",
+      "first_name": "Darius",
+      "last_name": "Johnson-Odom",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "4f38e291-fcca-43f9-bb1d-4b530aa54c09",
+          "notes": "Darius Johnson-Odom signed 10-day contract with Philadelphia.",
+          "effective_date": "2014-03-14",
+          "last_modified": "2014-03-14T18:17:49+00:00",
+          "from_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          },
+          "to_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "602c4ed3-8df5-4192-9e49-cb465d931c98",
+      "full_name": "Chris Wright",
+      "first_name": "Chris",
+      "last_name": "Wright",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "15",
+      "transfers": [
+        {
+          "id": "6f90032c-bc97-4cb7-b1c2-c9146b3164d6",
+          "notes": "Wright signed 10-day contract with the Bucks.",
+          "effective_date": "2014-03-14",
+          "last_modified": "2014-03-14T18:12:12+00:00",
+          "from_team": {
+            "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bucks",
+            "market": "Milwaukee"
+          },
+          "to_team": {
+            "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bucks",
+            "market": "Milwaukee"
+          }
+        }
+      ]
+    },
+    {
+      "id": "562677c1-2a13-4934-a801-a6c88c619e83",
+      "full_name": "Troy Daniels",
+      "first_name": "Troy",
+      "last_name": "Daniels",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "30",
+      "transfers": [
+        {
+          "id": "81eaae89-c02c-43e1-95ad-476ea21f5520",
+          "effective_date": "2014-03-09",
+          "last_modified": "2014-03-14T15:05:32+00:00",
+          "from_team": {
+            "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Rockets",
+            "market": "Houston"
+          },
+          "to_team": {
+            "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Rockets",
+            "market": "Houston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6c73ff64-44b8-4383-a21b-61ac145b446c",
+      "full_name": "DeAndre Liggins",
+      "first_name": "DeAndre",
+      "last_name": "Liggins",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "14",
+      "transfers": [
+        {
+          "id": "92622bcf-7c11-44f8-ac6b-1ed99bf70a73",
+          "notes": "Heat waive DeAndre Liggins.",
+          "effective_date": "2014-03-14",
+          "last_modified": "2014-03-14T20:47:02+00:00",
+          "from_team": {
+            "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Heat",
+            "market": "Miami"
+          }
+        }
+      ]
+    },
+    {
+      "id": "e0a7db01-de87-4765-8f73-f52794e8deb9",
+      "full_name": "Justin Hamilton",
+      "first_name": "Justin",
+      "last_name": "Hamilton",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "7",
+      "transfers": [
+        {
+          "id": "d3d3d8c0-d5f0-44d0-8582-e1cf7dee0b70",
+          "notes": "Miami signs Justin Hamilton.",
+          "effective_date": "2014-03-14",
+          "last_modified": "2014-03-14T20:45:43+00:00",
+          "from_team": {
+            "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hornets",
+            "market": "Charlotte"
+          },
+          "to_team": {
+            "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Heat",
+            "market": "Miami"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a41f3a4c-45a9-4dfd-9088-af794283488a",
+      "full_name": "Tony Mitchell",
+      "first_name": "Tony",
+      "last_name": "Mitchell",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "e93fd6d8-26be-4462-8634-47d8070ad59e",
+          "notes": "Mitchell's 10-day contract with Milwaukee expired and was not renewed.",
+          "effective_date": "2014-03-14",
+          "last_modified": "2014-03-14T18:14:03+00:00",
+          "from_team": {
+            "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bucks",
+            "market": "Milwaukee"
+          }
+        }
+      ]
+    }
+  ]
+}

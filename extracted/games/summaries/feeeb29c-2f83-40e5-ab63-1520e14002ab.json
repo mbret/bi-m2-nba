@@ -1,0 +1,16 @@
+{
+  "id": "feeeb29c-2f83-40e5-ab63-1520e14002ab",
+  "status": "scheduled",
+  "coverage": "full",
+  "scheduled": "2015-01-10T03:30:00+00:00",
+  "venue": {
+    "id": "e25e21f2-1d67-5f13-910b-81fc8629eea7",
+    "name": "Oracle Arena",
+    "capacity": 19596,
+    "address": "7000 Coliseum Way",
+    "city": "Oakland",
+    "state": "CA",
+    "zip": "94621",
+    "country": "USA"
+  }
+}

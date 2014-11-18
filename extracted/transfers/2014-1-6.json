@@ -1,0 +1,95 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-01-06T05:00:00+00:00",
+  "end_time": "2014-01-07T04:59:59+00:00",
+  "players": [
+    {
+      "id": "e280fb55-d679-4233-9091-526003824ab7",
+      "full_name": "Hamady Ndiaye",
+      "first_name": "Hamady",
+      "last_name": "Ndiaye",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "55",
+      "transfers": [
+        {
+          "id": "1be72e4a-767f-4093-9ba1-48077fb4250e",
+          "effective_date": "2014-01-06",
+          "last_modified": "2014-01-06T20:38:58+00:00",
+          "from_team": {
+            "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Kings",
+            "market": "Sacramento"
+          }
+        }
+      ]
+    },
+    {
+      "id": "047d0b63-4142-46e9-8f04-a61622ae2375",
+      "full_name": "Seth Curry",
+      "first_name": "Seth",
+      "last_name": "Curry",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "30",
+      "transfers": [
+        {
+          "id": "34b89957-5356-4a0c-96be-3248ada99524",
+          "effective_date": "2014-01-06",
+          "last_modified": "2014-01-06T15:46:58+00:00",
+          "from_team": {
+            "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Grizzlies",
+            "market": "Memphis"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4585e74b-abff-4366-8de3-b316c94c1e21",
+      "full_name": "Solomon Jones",
+      "first_name": "Solomon",
+      "last_name": "Jones",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "25",
+      "transfers": [
+        {
+          "id": "897e1ac7-9b12-43b3-941d-9104fc1c2112",
+          "effective_date": "2014-01-04",
+          "last_modified": "2014-01-06T15:38:43+00:00",
+          "from_team": {
+            "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Magic",
+            "market": "Orlando"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b73f251d-0f80-4d1c-beb0-1351415e55cf",
+      "full_name": "Maalik Wayns",
+      "first_name": "Maalik",
+      "last_name": "Wayns",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "5",
+      "transfers": [
+        {
+          "id": "a09c9eda-5af8-4849-8947-a4028cbb1915",
+          "effective_date": "2014-01-06",
+          "last_modified": "2014-01-06T15:40:31+00:00",
+          "from_team": {
+            "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Clippers",
+            "market": "Los Angeles"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-02-21T05:00:00+00:00",
+  "end_time": "2014-02-22T04:59:59+00:00",
+  "players": [
+    {
+      "id": "29ff98a7-e749-43f6-82c3-f9526041e519",
+      "full_name": "Earl Clark",
+      "first_name": "Earl",
+      "last_name": "Clark",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "4605e3e3-029a-4ee0-bec7-f9f60eaf6244",
+          "effective_date": "2014-02-21",
+          "last_modified": "2014-02-21T15:12:09+00:00",
+          "from_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b673f424-d4e4-4925-b501-f024890865ad",
+      "full_name": "Glen Davis",
+      "first_name": "Glen",
+      "last_name": "Davis",
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "50773a1a-80c5-441b-aa48-40ef86629b93",
+          "effective_date": "2014-02-21",
+          "last_modified": "2014-02-21T18:53:04+00:00",
+          "from_team": {
+            "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Magic",
+            "market": "Orlando"
+          }
+        }
+      ]
+    },
+    {
+      "id": "78f9898e-be53-496e-adad-a610515f2635",
+      "full_name": "Ronnie Brewer",
+      "first_name": "Ronnie",
+      "last_name": "Brewer",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "11",
+      "transfers": [
+        {
+          "id": "874b7f60-c277-415c-a0ff-234a82625514",
+          "effective_date": "2014-02-21",
+          "last_modified": "2014-02-21T21:54:58+00:00",
+          "from_team": {
+            "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Rockets",
+            "market": "Houston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8ea6ce08-16f5-4e55-8844-0ccd58258951",
+      "full_name": "Antawn Jamison",
+      "first_name": "Antawn",
+      "last_name": "Jamison",
+      "position": "F",
+      "primary_position": "PF",
+      "transfers": [
+        {
+          "id": "9dda991a-4b98-4332-80fd-aa81b85e0ec4",
+          "effective_date": "2014-02-21",
+          "last_modified": "2014-02-21T18:40:36+00:00",
+          "from_team": {
+            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hawks",
+            "market": "Atlanta"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-04-10T04:00:00+00:00",
+  "end_time": "2014-04-11T03:59:59+00:00",
+  "players": [
+    {
+      "id": "66e28766-9b3b-4b4f-a770-85b206f4fc22",
+      "full_name": "Mike James",
+      "first_name": "Mike",
+      "last_name": "James",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "8",
+      "transfers": [
+        {
+          "id": "1c1209e6-2aed-4a68-9c1e-94dca8b5a7e0",
+          "notes": "Chicago has signed Mike James for rest of season.",
+          "effective_date": "2014-04-10",
+          "last_modified": "2014-04-10T20:34:32+00:00",
+          "from_team": {
+            "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bulls",
+            "market": "Chicago"
+          },
+          "to_team": {
+            "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bulls",
+            "market": "Chicago"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7df74140-7064-4162-8228-b1079cd0c0f1",
+      "full_name": "Dexter Pittman",
+      "first_name": "Dexter",
+      "last_name": "Pittman",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "45",
+      "transfers": [
+        {
+          "id": "3608323b-2f1d-4035-86e9-5f92422262a7",
+          "notes": "Houston Rockets have signed Dexter Pittman.",
+          "effective_date": "2014-04-10",
+          "last_modified": "2014-04-10T20:33:36+00:00",
+          "from_team": {
+            "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Rockets",
+            "market": "Houston"
+          },
+          "to_team": {
+            "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Rockets",
+            "market": "Houston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "e47a4dd7-8199-4c1e-9945-75dd415447be",
+      "full_name": "Lou Amundson",
+      "first_name": "Lou",
+      "last_name": "Amundson",
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "89",
+      "transfers": [
+        {
+          "id": "86af305d-8682-4329-abcd-ad49cd9b1f0b",
+          "notes": "Chicago has signed Lou Amundson for the remainder of the season.",
+          "effective_date": "2014-04-10",
+          "last_modified": "2014-04-10T20:37:27+00:00",
+          "from_team": {
+            "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bulls",
+            "market": "Chicago"
+          },
+          "to_team": {
+            "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bulls",
+            "market": "Chicago"
+          }
+        }
+      ]
+    },
+    {
+      "id": "55282562-23ba-4c6f-9f8e-417d3ffb79e0",
+      "full_name": "Greg Smith",
+      "first_name": "Greg",
+      "last_name": "Smith",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "4",
+      "transfers": [
+        {
+          "id": "cc2044c7-b627-4a33-8055-0f6ccc9fd575",
+          "notes": "Rockets waive F/C Greg Smith.",
+          "effective_date": "2014-04-10",
+          "last_modified": "2014-04-10T20:29:20+00:00",
+          "from_team": {
+            "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Rockets",
+            "market": "Houston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2e663dab-1632-462a-a113-dbe35ef65f2e",
+      "full_name": "James Nunnally",
+      "first_name": "James",
+      "last_name": "Nunnally",
+      "position": "F",
+      "primary_position": "SF",
+      "transfers": [
+        {
+          "id": "f8e1381d-c160-4b9d-a0e0-98c915a9041f",
+          "effective_date": "2014-04-09",
+          "last_modified": "2014-04-10T13:50:05+00:00",
+          "from_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    }
+  ]
+}

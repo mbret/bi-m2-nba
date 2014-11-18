@@ -1,0 +1,32 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-03-24T04:00:00+00:00",
+  "end_time": "2014-03-25T03:59:59+00:00",
+  "players": [
+    {
+      "id": "5dae144f-d344-482a-bfc7-a6cff12be8f1",
+      "full_name": "Shane Edwards",
+      "first_name": "Shane",
+      "last_name": "Edwards",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "24",
+      "transfers": [
+        {
+          "id": "65c7bd87-d5d2-4e4d-bbfe-3767338f3502",
+          "effective_date": "2014-03-22",
+          "last_modified": "2014-03-24T18:00:13+00:00",
+          "from_team": {
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Cavaliers",
+            "market": "Cleveland"
+          }
+        }
+      ]
+    }
+  ]
+}

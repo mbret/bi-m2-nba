@@ -1,0 +1,16 @@
+{
+  "id": "1f5d6fff-575b-4e98-b6eb-4dfc40c63198",
+  "status": "scheduled",
+  "coverage": "full",
+  "scheduled": "2015-02-13T01:00:00+00:00",
+  "venue": {
+    "id": "38911649-acfd-551a-949b-68f0fcaa44e7",
+    "name": "United Center",
+    "capacity": 20917,
+    "address": "1901 W. Madison St.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60612",
+    "country": "USA"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "22dd51ed-46d6-45fd-87b4-4dbc7944602e",
+  "status": "scheduled",
+  "coverage": "full",
+  "scheduled": "2015-02-25T00:30:00+00:00",
+  "venue": {
+    "id": "e83899a5-a6dd-58f8-bd42-34b4857ee714",
+    "name": "The Palace of Auburn Hills",
+    "capacity": 22076,
+    "address": "Six Championship Drive",
+    "city": "Auburn Hills",
+    "state": "MI",
+    "zip": "48326",
+    "country": "USA"
+  }
+}

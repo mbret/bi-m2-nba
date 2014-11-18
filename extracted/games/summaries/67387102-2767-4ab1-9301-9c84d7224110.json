@@ -1,0 +1,16 @@
+{
+  "id": "67387102-2767-4ab1-9301-9c84d7224110",
+  "status": "scheduled",
+  "coverage": "full",
+  "scheduled": "2014-12-12T01:00:00+00:00",
+  "venue": {
+    "id": "a13af216-4409-5021-8dd5-255cc71bffc3",
+    "name": "Chesapeake Energy Arena",
+    "capacity": 18203,
+    "address": "100 W. Reno Ave.",
+    "city": "Oklahoma City",
+    "state": "OK",
+    "zip": "73102",
+    "country": "USA"
+  }
+}

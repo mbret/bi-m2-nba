@@ -1,0 +1,16 @@
+{
+  "id": "fd0a6f0d-76d5-4c80-8307-16eee9c184e7",
+  "status": "scheduled",
+  "coverage": "full",
+  "scheduled": "2015-04-12T19:00:00+00:00",
+  "venue": {
+    "id": "7d69b080-91ca-53c9-9302-45c1a72c5549",
+    "name": "TD Garden",
+    "capacity": 17565,
+    "address": "100 Legends Way",
+    "city": "Boston",
+    "state": "MA",
+    "zip": "02114",
+    "country": "USA"
+  }
+}

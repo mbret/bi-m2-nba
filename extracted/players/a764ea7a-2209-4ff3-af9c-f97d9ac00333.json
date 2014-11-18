@@ -1,0 +1,101 @@
+{
+  "id": "a764ea7a-2209-4ff3-af9c-f97d9ac00333",
+  "status": "ACT",
+  "full_name": "Kostas Papanikolaou",
+  "first_name": "Kostas",
+  "last_name": "Papanikolaou",
+  "abbr_name": "K.Papanikolaou",
+  "height": 81,
+  "weight": 230,
+  "position": "F",
+  "primary_position": "SF",
+  "jersey_number": "16",
+  "experience": "0",
+  "birth_place": "Trikala,,GRE",
+  "birthdate": "1990-07-31",
+  "updated": "2014-08-08T22:47:06+00:00",
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "team": {
+    "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+    "name": "Rockets",
+    "market": "Houston",
+    "alias": "HOU"
+  },
+  "draft": {
+    "team_id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+    "year": 2012,
+    "round": "2",
+    "pick": "48"
+  },
+  "seasons": [
+    {
+      "id": "fb89a852-3f68-4505-85b0-19b428b261d5",
+      "year": 2014,
+      "type": "REG",
+      "teams": [
+        {
+          "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+          "name": "Rockets",
+          "market": "Houston",
+          "alias": "HOU",
+          "total": {
+            "games_played": 11,
+            "games_started": 1,
+            "minutes": 257,
+            "field_goals_made": 20,
+            "field_goals_att": 67,
+            "three_points_made": 12,
+            "three_points_att": 42,
+            "blocked_att": 7,
+            "free_throws_made": 2,
+            "free_throws_att": 3,
+            "offensive_rebounds": 18,
+            "defensive_rebounds": 28,
+            "assists": 33,
+            "turnovers": 24,
+            "steals": 11,
+            "blocks": 7,
+            "personal_fouls": 22,
+            "tech_fouls": 0,
+            "points": 54,
+            "flagrant_fouls": 0,
+            "free_throws_pct": 0.667,
+            "two_points_pct": 0.32,
+            "three_points_pct": 0.286,
+            "field_goals_pct": 0.299,
+            "rebounds": 46,
+            "assists_turnover_ratio": 1.38,
+            "two_points_made": 8,
+            "two_points_att": 25
+          },
+          "average": {
+            "points": 4.9,
+            "blocked_att": 0.64,
+            "turnovers": 2.18,
+            "free_throws_att": 0.27,
+            "field_goals_att": 6.09,
+            "off_rebounds": 1.64,
+            "two_points_att": 2.27,
+            "assists": 3,
+            "blocks": 0.64,
+            "personal_fouls": 2,
+            "two_points_made": 0.73,
+            "flagrant_fouls": 0,
+            "rebounds": 4.18,
+            "three_points_made": 1.09,
+            "minutes": 23.4,
+            "def_rebounds": 2.55,
+            "free_throws_made": 0.18,
+            "field_goals_made": 1.82,
+            "steals": 1,
+            "three_points_att": 3.82
+          }
+        }
+      ]
+    }
+  ]
+}

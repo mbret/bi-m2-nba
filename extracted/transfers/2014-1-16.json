@@ -1,0 +1,32 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-01-16T05:00:00+00:00",
+  "end_time": "2014-01-17T04:59:59+00:00",
+  "players": [
+    {
+      "id": "b73f251d-0f80-4d1c-beb0-1351415e55cf",
+      "full_name": "Maalik Wayns",
+      "first_name": "Maalik",
+      "last_name": "Wayns",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "5",
+      "transfers": [
+        {
+          "id": "d394eff0-330e-45f0-9ef7-ee72cd3ae834",
+          "effective_date": "2014-01-16",
+          "last_modified": "2014-01-16T20:41:17+00:00",
+          "from_team": {
+            "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Clippers",
+            "market": "Los Angeles"
+          }
+        }
+      ]
+    }
+  ]
+}

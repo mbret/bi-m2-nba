@@ -1,0 +1,95 @@
+{
+  "id": "b9f31942-1870-4f61-a9dd-48508a8e07cb",
+  "status": "ACT",
+  "full_name": "Joey Dorsey",
+  "first_name": "Joey",
+  "last_name": "Dorsey",
+  "abbr_name": "J.Dorsey",
+  "height": 80,
+  "weight": 268,
+  "position": "F-C",
+  "primary_position": "PF",
+  "jersey_number": "8",
+  "college": "Memphis",
+  "birth_place": "Baltimore, MD",
+  "birthdate": "1983-12-16",
+  "updated": "2014-10-07T22:23:23+00:00",
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "team": {
+    "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+    "name": "Rockets",
+    "market": "Houston",
+    "alias": "HOU"
+  },
+  "seasons": [
+    {
+      "id": "fb89a852-3f68-4505-85b0-19b428b261d5",
+      "year": 2014,
+      "type": "REG",
+      "teams": [
+        {
+          "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+          "name": "Rockets",
+          "market": "Houston",
+          "alias": "HOU",
+          "total": {
+            "games_played": 6,
+            "games_started": 0,
+            "minutes": 29,
+            "field_goals_made": 2,
+            "field_goals_att": 5,
+            "three_points_made": 0,
+            "three_points_att": 0,
+            "blocked_att": 0,
+            "free_throws_made": 0,
+            "free_throws_att": 2,
+            "offensive_rebounds": 2,
+            "defensive_rebounds": 7,
+            "assists": 1,
+            "turnovers": 4,
+            "steals": 1,
+            "blocks": 1,
+            "personal_fouls": 7,
+            "tech_fouls": 0,
+            "points": 4,
+            "flagrant_fouls": 0,
+            "free_throws_pct": 0,
+            "two_points_pct": 0.4,
+            "three_points_pct": 0,
+            "field_goals_pct": 0.4,
+            "rebounds": 9,
+            "assists_turnover_ratio": 0.25,
+            "two_points_made": 2,
+            "two_points_att": 5
+          },
+          "average": {
+            "points": 0.7,
+            "blocked_att": 0,
+            "turnovers": 0.67,
+            "free_throws_att": 0.33,
+            "field_goals_att": 0.83,
+            "off_rebounds": 0.33,
+            "two_points_att": 0.83,
+            "assists": 0.2,
+            "blocks": 0.17,
+            "personal_fouls": 1.17,
+            "two_points_made": 0.33,
+            "flagrant_fouls": 0,
+            "rebounds": 1.5,
+            "three_points_made": 0,
+            "minutes": 4.8,
+            "def_rebounds": 1.17,
+            "free_throws_made": 0,
+            "field_goals_made": 0.33,
+            "steals": 0.17,
+            "three_points_att": 0
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "0a3ad54b-2a0d-4939-af23-1e933ee34699",
+  "status": "scheduled",
+  "coverage": "full",
+  "scheduled": "2015-02-01T01:00:00+00:00",
+  "venue": {
+    "id": "7aed802e-3562-5b73-af1b-3859529f9b95",
+    "name": "Target Center",
+    "capacity": 19356,
+    "address": "600 First Ave. North",
+    "city": "Minneapolis",
+    "state": "MN",
+    "zip": "55403",
+    "country": "USA"
+  }
+}

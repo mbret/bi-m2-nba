@@ -1,0 +1,172 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-02-20T05:00:00+00:00",
+  "end_time": "2014-02-21T04:59:59+00:00",
+  "players": [
+    {
+      "id": "94865c10-48cc-4c4b-bb25-06a5c675941b",
+      "full_name": "MarShon Brooks",
+      "first_name": "MarShon",
+      "last_name": "Brooks",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "09ccef3b-443b-4257-a77c-285ad08c985f",
+          "effective_date": "2014-02-20",
+          "last_modified": "2014-02-20T06:10:02+00:00",
+          "from_team": {
+            "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Warriors",
+            "market": "Golden State"
+          },
+          "to_team": {
+            "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Lakers",
+            "market": "Los Angeles"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3564afa0-a583-4c08-bd5c-e232f4f272c1",
+      "full_name": "Roger Mason Jr.",
+      "first_name": "Roger",
+      "last_name": "Mason",
+      "position": "G",
+      "primary_position": "SG",
+      "transfers": [
+        {
+          "id": "1e5a57a1-0d72-4465-9f81-fffc6881a683",
+          "effective_date": "2014-02-20",
+          "last_modified": "2014-02-20T23:17:09+00:00",
+          "from_team": {
+            "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Kings",
+            "market": "Sacramento"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3da0addc-639a-42ad-875d-96d050ac3711",
+      "full_name": "Cartier Martin",
+      "first_name": "Cartier",
+      "last_name": "Martin",
+      "position": "F-G",
+      "primary_position": "SF",
+      "jersey_number": "35",
+      "transfers": [
+        {
+          "id": "24528102-3635-463b-8fca-61cf5ba97afa",
+          "effective_date": "2014-02-20",
+          "last_modified": "2014-02-20T23:18:04+00:00",
+          "from_team": {
+            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hawks",
+            "market": "Atlanta"
+          }
+        }
+      ]
+    },
+    {
+      "id": "22c95020-7431-48ee-a538-4be886c9eac1",
+      "full_name": "Orlando Johnson",
+      "first_name": "Orlando",
+      "last_name": "Johnson",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "620b7639-3f3c-4999-9358-abaebd37d845",
+          "effective_date": "2014-02-21",
+          "last_modified": "2014-02-21T03:59:26+00:00",
+          "from_team": {
+            "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pacers",
+            "market": "Indiana"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b7ede5da-bc2f-47fe-8468-dd4b2679603c",
+      "full_name": "Steve Blake",
+      "first_name": "Steve",
+      "last_name": "Blake",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "25",
+      "transfers": [
+        {
+          "id": "7a1898d4-3748-4cb1-ae74-93cdfa7a8145",
+          "effective_date": "2014-02-20",
+          "last_modified": "2014-02-20T06:08:55+00:00",
+          "from_team": {
+            "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Lakers",
+            "market": "Los Angeles"
+          },
+          "to_team": {
+            "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Warriors",
+            "market": "Golden State"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2c157857-fffd-4eb5-8e2a-b28ebea8da77",
+      "full_name": "Kent Bazemore",
+      "first_name": "Kent",
+      "last_name": "Bazemore",
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "24",
+      "transfers": [
+        {
+          "id": "8f387ae5-6d27-400f-954b-4e499119dea1",
+          "effective_date": "2014-02-20",
+          "last_modified": "2014-02-20T06:09:32+00:00",
+          "from_team": {
+            "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Warriors",
+            "market": "Golden State"
+          },
+          "to_team": {
+            "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Lakers",
+            "market": "Los Angeles"
+          }
+        }
+      ]
+    },
+    {
+      "id": "718aec05-73fa-4c3f-8275-dda9f489b00e",
+      "full_name": "Shawne Williams",
+      "first_name": "Shawne",
+      "last_name": "Williams",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "43",
+      "transfers": [
+        {
+          "id": "cfd9b1a9-6074-465f-817a-ad1226541ea8",
+          "effective_date": "2014-02-16",
+          "last_modified": "2014-02-20T18:22:34+00:00",
+          "from_team": {
+            "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Lakers",
+            "market": "Los Angeles"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-03-27T04:00:00+00:00",
+  "end_time": "2014-03-28T03:59:59+00:00",
+  "players": [
+    {
+      "id": "ab55b5eb-f998-4480-a69b-eacaa7325ff3",
+      "full_name": "Willie Reed",
+      "first_name": "Willie",
+      "last_name": "Reed",
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "55",
+      "transfers": [
+        {
+          "id": "4a7d5496-7743-4b28-b7c6-f07a601214a8",
+          "effective_date": "2014-03-27",
+          "last_modified": "2014-03-27T20:20:54+00:00",
+          "from_team": {
+            "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Kings",
+            "market": "Sacramento"
+          },
+          "to_team": {
+            "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Kings",
+            "market": "Sacramento"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "4cff927f-2fd8-41b2-bbad-5f01dd3b729d",
+  "status": "scheduled",
+  "coverage": "full",
+  "scheduled": "2015-03-13T00:00:00+00:00",
+  "venue": {
+    "id": "8a7580c0-4052-54d5-85cd-85aab6200acf",
+    "name": "AT&T Center",
+    "capacity": 18581,
+    "address": "One AT&T Center Parkway",
+    "city": "San Antonio",
+    "state": "TX",
+    "zip": "78219",
+    "country": "USA"
+  }
+}

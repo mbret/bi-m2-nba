@@ -1,0 +1,87 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-02-26T05:00:00+00:00",
+  "end_time": "2014-02-27T04:59:59+00:00",
+  "players": [
+    {
+      "id": "49e2e5b6-0800-40b3-a5de-499653a019e9",
+      "full_name": "Danny Granger",
+      "first_name": "Danny",
+      "last_name": "Granger",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "22",
+      "transfers": [
+        {
+          "id": "012db47f-0ec6-4add-9e9b-baf2f9f205c3",
+          "notes": "Agreed to buyout with 76ers",
+          "effective_date": "2014-02-26",
+          "last_modified": "2014-02-26T23:23:54+00:00",
+          "from_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "23dfb4c0-f7ff-4372-b379-09fd61ce2616",
+      "full_name": "Drew Gooden",
+      "first_name": "Drew",
+      "last_name": "Gooden",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "90",
+      "transfers": [
+        {
+          "id": "0cd41f77-907d-4759-b854-dfec7658c027",
+          "notes": "Signed to 10-Day contract",
+          "effective_date": "2014-02-26",
+          "last_modified": "2014-02-26T22:02:47+00:00",
+          "from_team": {
+            "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Wizards",
+            "market": "Washington"
+          },
+          "to_team": {
+            "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Wizards",
+            "market": "Washington"
+          }
+        }
+      ]
+    },
+    {
+      "id": "22c95020-7431-48ee-a538-4be886c9eac1",
+      "full_name": "Orlando Johnson",
+      "first_name": "Orlando",
+      "last_name": "Johnson",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "f45f859a-09e7-409d-8f85-263f25d08a92",
+          "notes": "Signed to 10-Day contract",
+          "effective_date": "2014-02-26",
+          "last_modified": "2014-02-26T22:00:35+00:00",
+          "from_team": {
+            "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Kings",
+            "market": "Sacramento"
+          },
+          "to_team": {
+            "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Kings",
+            "market": "Sacramento"
+          }
+        }
+      ]
+    }
+  ]
+}
