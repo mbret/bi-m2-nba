@@ -400,9 +400,11 @@ async.waterfall([
 
                     async.eachSeries(transfer.players, function(player, callback){
 
+                        // Loop over the transferts of this player for this date
                         async.eachSeries(player.transfers, function(playerTransfer, callback){
 
-                            if(!playerTransfer.from_team){
+                            if(playerTransfer.to_team){
+//                                if( ! playerTransfer.to_team ) console.log(playerTransfer);
                                 connection.query(
                                         "INSERT INTO `bi-m2`.`transfer` (`id`, `start_date`, `end_date`, `player_id`, `effective_date`, `to_team_id` ) "+
                                         "VALUES ('"+playerTransfer.id+"', '"+transfer.start_time+"', '"+transfer.end_time+"', '"+player.id+"', '"+playerTransfer.effective_date+"', '"+playerTransfer.to_team.id+"')",
@@ -411,7 +413,7 @@ async.waterfall([
                                     }
                                 );
                             }
-                            else{
+                            else if( playerTransfer.from_team) {
                                 connection.query(
                                         "INSERT INTO `bi-m2`.`transfer` (`id`, `start_date`, `end_date`, `player_id`, `effective_date`, `from_team_id` ) "+
                                         "VALUES ('"+playerTransfer.id+"', '"+transfer.start_time+"', '"+transfer.end_time+"', '"+player.id+"', '"+playerTransfer.effective_date+"', '"+playerTransfer.from_team.id+"')",
@@ -419,6 +421,10 @@ async.waterfall([
                                         return callback(err);
                                     }
                                 );
+                            }
+                            else{
+                                console.log('No teams from/to for the transfert ' + playerTransfer.effective_date + ' for the player ' + player.full_name)
+                                return callback();
                             }
 
 
