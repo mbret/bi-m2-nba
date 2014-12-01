@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Nov 17, 2014 at 07:43 PM
+-- Generation Time: Dec 01, 2014 at 01:30 PM
 -- Server version: 5.6.12-log
 -- PHP Version: 5.4.12
 
@@ -43,11 +43,11 @@ CREATE TABLE IF NOT EXISTS `coatch` (
 
 CREATE TABLE IF NOT EXISTS `game` (
   `id` varchar(200) NOT NULL,
-  `team_home_id` varchar(200) NOT NULL,
+  `team_home_id` varchar(200) DEFAULT NULL,
   `away_points` int(11) NOT NULL,
   `home_points` int(11) NOT NULL,
   `duration` varchar(200) NOT NULL,
-  `team_away_id` varchar(200) NOT NULL,
+  `team_away_id` varchar(200) DEFAULT NULL,
   `date` date NOT NULL,
   KEY `team_home_id` (`team_home_id`,`team_away_id`),
   KEY `team_away_id` (`team_away_id`),
@@ -76,12 +76,15 @@ CREATE TABLE IF NOT EXISTS `game_player_stat` (
   `rebounds` double NOT NULL,
   `steals` double NOT NULL,
   `tech_fouls` double NOT NULL,
-  `player_id` varchar(200) NOT NULL,
-  `game_id` varchar(200) NOT NULL,
+  `player_id` varchar(200) DEFAULT NULL,
+  `game_id` varchar(200) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `player_id` (`player_id`),
-  KEY `game_id` (`game_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+  KEY `game_id` (`game_id`),
+  KEY `game_id_2` (`game_id`),
+  KEY `player_id_2` (`player_id`),
+  KEY `game_id_3` (`game_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1603 ;
 
 -- --------------------------------------------------------
 
@@ -103,9 +106,11 @@ CREATE TABLE IF NOT EXISTS `game_stat` (
   `steals` double DEFAULT NULL,
   `blocks` double DEFAULT NULL,
   `team_id` varchar(200) DEFAULT NULL,
-  `game_id` varchar(200) NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+  `game_id` varchar(200) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `team_id` (`team_id`),
+  KEY `game_id` (`game_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=211 ;
 
 -- --------------------------------------------------------
 
@@ -168,7 +173,7 @@ CREATE TABLE IF NOT EXISTS `team_coatch` (
   `start_date` date NOT NULL,
   `end_date` date NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=31 ;
 
 -- --------------------------------------------------------
 
@@ -181,37 +186,28 @@ CREATE TABLE IF NOT EXISTS `team_player` (
   `date_start` date NOT NULL,
   `date_end` date NOT NULL,
   `season` int(11) NOT NULL,
-  `player_id` varchar(200) NOT NULL,
-  `team_id` varchar(200) NOT NULL,
+  `player_id` varchar(200) DEFAULT NULL,
+  `team_id` varchar(200) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `player_id` (`player_id`,`team_id`),
   KEY `team_id` (`team_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=31 ;
+
+-- --------------------------------------------------------
 
 --
--- Constraints for dumped tables
+-- Table structure for table `transfer`
 --
 
---
--- Constraints for table `game`
---
-ALTER TABLE `game`
-ADD CONSTRAINT `game_ibfk_2` FOREIGN KEY (`team_away_id`) REFERENCES `team` (`id`),
-ADD CONSTRAINT `game_ibfk_1` FOREIGN KEY (`team_home_id`) REFERENCES `team` (`id`);
-
---
--- Constraints for table `game_player_stat`
---
-ALTER TABLE `game_player_stat`
-ADD CONSTRAINT `game_player_stat_ibfk_2` FOREIGN KEY (`game_id`) REFERENCES `game` (`id`),
-ADD CONSTRAINT `game_player_stat_ibfk_1` FOREIGN KEY (`player_id`) REFERENCES `player` (`id`);
-
---
--- Constraints for table `team_player`
---
-ALTER TABLE `team_player`
-ADD CONSTRAINT `team_player_ibfk_2` FOREIGN KEY (`team_id`) REFERENCES `team` (`id`),
-ADD CONSTRAINT `team_player_ibfk_1` FOREIGN KEY (`player_id`) REFERENCES `player` (`id`);
+CREATE TABLE IF NOT EXISTS `transfer` (
+  `id` varchar(200) NOT NULL,
+  `start_date` date NOT NULL,
+  `end_date` date NOT NULL,
+  `effective_date` date NOT NULL,
+  `from_team_id` varchar(200) NOT NULL,
+  `to_team_id` varchar(200) DEFAULT NULL,
+  `player_id` varchar(200) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
