@@ -1,0 +1,136 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-07-04T04:00:00+00:00",
+  "end_time": "2014-07-05T03:59:59+00:00",
+  "players": [
+    {
+      "id": "3919daa3-0cc4-4c44-a3cc-10f5f9c31fe5",
+      "full_name": "Jason Maxiell",
+      "first_name": "Jason",
+      "last_name": "Maxiell",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "54",
+      "transfers": [
+        {
+          "id": "117bc7dc-1f7b-4570-9999-e87b6717fd9d",
+          "notes": "Orlando has waived Jason Maxiell.",
+          "desc": "Waived",
+          "effective_date": "2014-07-04",
+          "last_modified": "2014-07-04T18:34:51+00:00",
+          "from_team": {
+            "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Magic",
+            "market": "Orlando"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ad0aa3eb-81c3-4688-b769-e0375cdb5c13",
+      "full_name": "Thabo Sefolosha",
+      "first_name": "Thabo",
+      "last_name": "Sefolosha",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "25",
+      "transfers": [
+        {
+          "id": "3e4baefc-dc2e-49d0-85d0-73d627dbd22c",
+          "notes": "Atlanta has signed FA Sefolosha.",
+          "desc": "Free Agency",
+          "effective_date": "2014-07-04",
+          "last_modified": "2014-07-04T18:33:37+00:00",
+          "to_team": {
+            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hawks",
+            "market": "Atlanta"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bfe054d7-7f26-4445-aa1e-c1cc175f854c",
+      "full_name": "Steve Novak",
+      "first_name": "Steve",
+      "last_name": "Novak",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "16",
+      "transfers": [
+        {
+          "id": "be889ff2-260e-4b89-aa05-c4e745ecc956",
+          "notes": "Toronto trades Novak to Utah for Diante Garrett.",
+          "desc": "Trade",
+          "effective_date": "2014-07-04",
+          "last_modified": "2014-07-04T21:24:33+00:00",
+          "from_team": {
+            "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Raptors",
+            "market": "Toronto"
+          },
+          "to_team": {
+            "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Jazz",
+            "market": "Utah"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ddb5d888-09e5-435a-9009-a2549d8c8382",
+      "full_name": "Spencer Hawes",
+      "first_name": "Spencer",
+      "last_name": "Hawes",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "10",
+      "transfers": [
+        {
+          "id": "d724b2d5-513c-4491-94b3-675873635a2d",
+          "notes": "Los Angeles Clippers has signed FA Hawes.",
+          "desc": "Free Agency",
+          "effective_date": "2014-07-04",
+          "last_modified": "2014-07-04T23:33:26+00:00",
+          "to_team": {
+            "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Clippers",
+            "market": "Los Angeles"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fb76341d-1738-4996-9ec5-c7ad80de504e",
+      "full_name": "Diante Garrett",
+      "first_name": "Diante",
+      "last_name": "Garrett",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "10",
+      "transfers": [
+        {
+          "id": "eda553e8-9492-405e-81d3-9f18ca2b12eb",
+          "notes": "Utah traded Garrett to Toronto for Steve Novak.",
+          "desc": "Trade",
+          "effective_date": "2014-07-04",
+          "last_modified": "2014-07-04T21:23:25+00:00",
+          "from_team": {
+            "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Jazz",
+            "market": "Utah"
+          },
+          "to_team": {
+            "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Raptors",
+            "market": "Toronto"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-10-22T04:00:00+00:00",
+  "end_time": "2014-10-23T03:59:59+00:00",
+  "players": [
+    {
+      "id": "bab1b58c-6d77-433c-bf21-c4a3a6b24b7f",
+      "full_name": "Rodney McGruder",
+      "first_name": "Rodney",
+      "last_name": "McGruder",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "77",
+      "transfers": [
+        {
+          "id": "71b00da7-1989-4037-afd4-9b6a15f0ed96",
+          "effective_date": "2014-10-22",
+          "last_modified": "2014-10-22T12:56:41+00:00",
+          "from_team": {
+            "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Celtics",
+            "market": "Boston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "69ad92c6-2203-4b71-9cc7-108a0aad6ccd",
+      "full_name": "Erik Murphy",
+      "first_name": "Erik",
+      "last_name": "Murphy",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "42",
+      "transfers": [
+        {
+          "id": "7b5a18f2-4898-4841-9d76-d39bfa967327",
+          "effective_date": "2014-10-22",
+          "last_modified": "2014-10-22T12:57:38+00:00",
+          "from_team": {
+            "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Celtics",
+            "market": "Boston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "17d7d84a-1d9c-48e4-b13c-3c365ea16f13",
+      "full_name": "John Lucas III",
+      "first_name": "John",
+      "last_name": "Lucas III",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "15",
+      "transfers": [
+        {
+          "id": "b9698bd3-6919-49bd-88f5-f51e683891e7",
+          "effective_date": "2014-10-22",
+          "last_modified": "2014-10-22T12:59:18+00:00",
+          "from_team": {
+            "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Wizards",
+            "market": "Washington"
+          },
+          "to_team": {
+            "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Wizards",
+            "market": "Washington"
+          }
+        }
+      ]
+    }
+  ]
+}

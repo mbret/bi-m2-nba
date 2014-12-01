@@ -1,0 +1,53 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2013-09-13T04:00:00+00:00",
+  "end_time": "2013-09-14T03:59:59+00:00",
+  "players": [
+    {
+      "id": "29bb28eb-bebc-4230-84a5-294bb28b5b9f",
+      "full_name": "Darius Morris",
+      "first_name": "Darius",
+      "last_name": "Morris",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "4",
+      "transfers": [
+        {
+          "id": "74c6a02e-ea77-4826-bb56-e3684923a70e",
+          "effective_date": "2013-09-12",
+          "last_modified": "2013-09-13T14:59:39+00:00",
+          "to_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6d41d6a3-a201-47c5-b0ce-76864e7c3ddc",
+      "full_name": "Khalif Wyatt",
+      "first_name": "Khalif",
+      "last_name": "Wyatt",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "22",
+      "transfers": [
+        {
+          "id": "c56c3085-727b-4d98-b701-335abc3e0a7d",
+          "effective_date": "2013-09-13",
+          "last_modified": "2013-09-13T15:00:43+00:00",
+          "to_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2013-10-21T04:00:00+00:00",
+  "end_time": "2013-10-22T03:59:59+00:00",
+  "players": [
+    {
+      "id": "e30389b3-1d38-4e0e-a558-72f7719c6144",
+      "full_name": "Jarvis Varnado",
+      "first_name": "Jarvis",
+      "last_name": "Varnado",
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "40",
+      "transfers": [
+        {
+          "id": "4e11625f-3ec1-4a76-98f2-718e4e248bae",
+          "effective_date": "2013-10-21",
+          "last_modified": "2013-10-21T18:43:26+00:00",
+          "from_team": {
+            "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Heat",
+            "market": "Miami"
+          }
+        }
+      ]
+    },
+    {
+      "id": "1f0687ca-c8f2-4c71-8306-8a18cbf6cc60",
+      "full_name": "James Johnson",
+      "first_name": "James",
+      "last_name": "Johnson",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "3",
+      "transfers": [
+        {
+          "id": "63b18f36-66d5-4b11-be69-5cd706e40b1b",
+          "effective_date": "2013-10-21",
+          "last_modified": "2013-10-21T18:42:45+00:00",
+          "from_team": {
+            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hawks",
+            "market": "Atlanta"
+          }
+        }
+      ]
+    },
+    {
+      "id": "27c3cb5e-7c6b-4ef7-bffe-73f0283a6805",
+      "full_name": "Brandon Davies",
+      "first_name": "Brandon",
+      "last_name": "Davies",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "7e98ac36-da7d-4b1d-be48-06292691fde0",
+          "effective_date": "2013-10-21",
+          "last_modified": "2013-10-21T20:28:44+00:00",
+          "from_team": {
+            "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Clippers",
+            "market": "Los Angeles"
+          }
+        }
+      ]
+    },
+    {
+      "id": "72875113-59b0-447b-927c-ef8df1e87dd6",
+      "full_name": "Dan Nwaelele",
+      "first_name": "Dan",
+      "last_name": "Nwaelele",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "7",
+      "transfers": [
+        {
+          "id": "9a2fc060-1d5b-4a03-8c85-326b83b3aa3e",
+          "effective_date": "2013-10-21",
+          "last_modified": "2013-10-21T14:13:47+00:00",
+          "from_team": {
+            "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Spurs",
+            "market": "San Antonio"
+          }
+        }
+      ]
+    },
+    {
+      "id": "488e848e-1eb9-4f7c-8b50-eb0676582762",
+      "full_name": "Courtney Fells",
+      "first_name": "Courtney",
+      "last_name": "Fells",
+      "position": "G-F",
+      "primary_position": "NA",
+      "jersey_number": "27",
+      "transfers": [
+        {
+          "id": "c7af4313-0906-428c-9b12-17b7028c616d",
+          "effective_date": "2013-10-21",
+          "last_modified": "2013-10-21T14:13:32+00:00",
+          "from_team": {
+            "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Spurs",
+            "market": "San Antonio"
+          }
+        }
+      ]
+    }
+  ]
+}

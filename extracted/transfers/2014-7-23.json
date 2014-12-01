@@ -1,0 +1,32 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-07-23T04:00:00+00:00",
+  "end_time": "2014-07-24T03:59:59+00:00",
+  "players": [
+    {
+      "id": "8a21a022-d3e4-468f-9eeb-c05c29284b79",
+      "full_name": "Rashard Lewis",
+      "first_name": "Rashard",
+      "last_name": "Lewis",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "5c1f7b9c-0998-41c6-8517-e1b9c9ec9c89",
+          "effective_date": "2014-07-23",
+          "last_modified": "2014-07-23T20:57:07+00:00",
+          "from_team": {
+            "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Mavericks",
+            "market": "Dallas"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2013-12-05T05:00:00+00:00",
+  "end_time": "2013-12-06T04:59:59+00:00",
+  "players": [
+    {
+      "id": "b8a77045-a325-4ac1-ad9c-d065ec1f41a4",
+      "full_name": "Dewayne Dedmon",
+      "first_name": "Dewayne",
+      "last_name": "Dedmon",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "3",
+      "transfers": [
+        {
+          "id": "12ccf9e1-bf0d-4945-9a80-f29eb3cc62f8",
+          "effective_date": "2013-12-05",
+          "last_modified": "2013-12-05T18:27:25+00:00",
+          "from_team": {
+            "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Warriors",
+            "market": "Golden State"
+          }
+        }
+      ]
+    }
+  ]
+}

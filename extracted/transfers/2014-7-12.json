@@ -1,0 +1,57 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-07-12T04:00:00+00:00",
+  "end_time": "2014-07-13T03:59:59+00:00",
+  "players": [
+    {
+      "id": "fe9ef206-e376-459d-8877-6145db5f6ee2",
+      "full_name": "Lamar Odom",
+      "first_name": "Lamar",
+      "last_name": "Odom",
+      "position": "F",
+      "primary_position": "SF",
+      "transfers": [
+        {
+          "id": "a199590d-7188-4b40-8a12-150e2528e0fd",
+          "effective_date": "2014-07-12",
+          "last_modified": "2014-07-12T17:41:25+00:00",
+          "from_team": {
+            "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Knicks",
+            "market": "New York"
+          }
+        }
+      ]
+    },
+    {
+      "id": "eee7ca97-fce8-4af4-94b5-f5b107c76b46",
+      "full_name": "Alonzo Gee",
+      "first_name": "Alonzo",
+      "last_name": "Gee",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "33",
+      "transfers": [
+        {
+          "id": "d32ac97f-19ae-444b-9403-6afa34762af9",
+          "effective_date": "2014-07-12",
+          "last_modified": "2014-07-12T17:38:21+00:00",
+          "from_team": {
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Cavaliers",
+            "market": "Cleveland"
+          },
+          "to_team": {
+            "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pelicans",
+            "market": "New Orleans"
+          }
+        }
+      ]
+    }
+  ]
+}

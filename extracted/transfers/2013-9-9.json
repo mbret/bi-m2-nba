@@ -1,0 +1,166 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2013-09-09T04:00:00+00:00",
+  "end_time": "2013-09-10T03:59:59+00:00",
+  "players": [
+    {
+      "id": "69ad92c6-2203-4b71-9cc7-108a0aad6ccd",
+      "full_name": "Erik Murphy",
+      "first_name": "Erik",
+      "last_name": "Murphy",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "42",
+      "transfers": [
+        {
+          "id": "13ca3b9d-dc0f-4de9-b28d-c1eb3593d16a",
+          "effective_date": "2013-09-09",
+          "last_modified": "2013-09-09T19:29:59+00:00",
+          "from_team": {
+            "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bulls",
+            "market": "Chicago"
+          },
+          "to_team": {
+            "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bulls",
+            "market": "Chicago"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8ea6ce08-16f5-4e55-8844-0ccd58258951",
+      "full_name": "Antawn Jamison",
+      "first_name": "Antawn",
+      "last_name": "Jamison",
+      "position": "F",
+      "primary_position": "PF",
+      "transfers": [
+        {
+          "id": "1531791b-8d72-463b-9ecb-0fe79a8e6d7a",
+          "effective_date": "2013-09-09",
+          "last_modified": "2013-09-09T18:18:48+00:00",
+          "from_team": {
+            "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Clippers",
+            "market": "Los Angeles"
+          },
+          "to_team": {
+            "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Clippers",
+            "market": "Los Angeles"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d7285ad2-1576-4388-a07c-afb4591b1e8e",
+      "full_name": "Byron Mullens",
+      "first_name": "Byron",
+      "last_name": "Mullens",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "30",
+      "transfers": [
+        {
+          "id": "9ea008ee-f1d0-4020-98b2-cb942e19f7ef",
+          "effective_date": "2013-09-09",
+          "last_modified": "2013-09-09T18:20:09+00:00",
+          "from_team": {
+            "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Clippers",
+            "market": "Los Angeles"
+          },
+          "to_team": {
+            "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Clippers",
+            "market": "Los Angeles"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f76acd63-bf42-4fa7-9985-a7838f9cb029",
+      "full_name": "Lance Thomas",
+      "first_name": "Lance",
+      "last_name": "Thomas",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "42",
+      "transfers": [
+        {
+          "id": "b50d2fad-86e8-4d64-9cdc-da0d8f863a78",
+          "effective_date": "2013-09-09",
+          "last_modified": "2013-09-09T20:17:54+00:00",
+          "from_team": {
+            "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pelicans",
+            "market": "New Orleans"
+          },
+          "to_team": {
+            "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pelicans",
+            "market": "New Orleans"
+          }
+        }
+      ]
+    },
+    {
+      "id": "78f9898e-be53-496e-adad-a610515f2635",
+      "full_name": "Ronnie Brewer",
+      "first_name": "Ronnie",
+      "last_name": "Brewer",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "11",
+      "transfers": [
+        {
+          "id": "d15ae41f-a945-43f4-b588-10525110e442",
+          "effective_date": "2013-09-09",
+          "last_modified": "2013-09-09T19:01:48+00:00",
+          "from_team": {
+            "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Rockets",
+            "market": "Houston"
+          },
+          "to_team": {
+            "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Rockets",
+            "market": "Houston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "79b65432-3224-4da9-a1dc-2a08d089c917",
+      "full_name": "Gary Neal",
+      "first_name": "Gary",
+      "last_name": "Neal",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "12",
+      "transfers": [
+        {
+          "id": "f1d68946-45cc-4e90-80d2-b598d6f57ee0",
+          "effective_date": "2013-09-09",
+          "last_modified": "2013-09-09T18:09:31+00:00",
+          "from_team": {
+            "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bucks",
+            "market": "Milwaukee"
+          },
+          "to_team": {
+            "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bucks",
+            "market": "Milwaukee"
+          }
+        }
+      ]
+    }
+  ]
+}

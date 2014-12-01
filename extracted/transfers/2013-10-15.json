@@ -1,0 +1,116 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2013-10-15T04:00:00+00:00",
+  "end_time": "2013-10-16T03:59:59+00:00",
+  "players": [
+    {
+      "id": "ff482131-2cfa-41e1-ba23-6e8503b55ed2",
+      "full_name": "Damien Wilkins",
+      "first_name": "Damien",
+      "last_name": "Wilkins",
+      "position": "G-F",
+      "primary_position": "SF",
+      "jersey_number": "2",
+      "transfers": [
+        {
+          "id": "12bf4588-d0ee-458c-9399-637be4427685",
+          "effective_date": "2013-10-15",
+          "last_modified": "2013-10-15T14:52:48+00:00",
+          "from_team": {
+            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hawks",
+            "market": "Atlanta"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a0c41880-d184-4397-aa87-e302ae376882",
+      "full_name": "Corey Maggette",
+      "first_name": "Corey",
+      "last_name": "Maggette",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "14",
+      "transfers": [
+        {
+          "id": "23e44ac4-fe52-449f-8cec-543353e93620",
+          "effective_date": "2013-10-15",
+          "last_modified": "2013-10-15T17:57:06+00:00",
+          "from_team": {
+            "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Spurs",
+            "market": "San Antonio"
+          }
+        }
+      ]
+    },
+    {
+      "id": "299c44c1-ab5f-4029-9ef2-b55ddd60a8f1",
+      "full_name": "Adonis Thomas",
+      "first_name": "Adonis",
+      "last_name": "Thomas",
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "1",
+      "transfers": [
+        {
+          "id": "7fb6bdf5-de74-4b84-b97c-4345eaa43ecd",
+          "effective_date": "2013-10-15",
+          "last_modified": "2013-10-15T14:53:21+00:00",
+          "from_team": {
+            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hawks",
+            "market": "Atlanta"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3f7aa055-2205-40ca-8aef-2356171a32ee",
+      "full_name": "David Lighty",
+      "first_name": "David",
+      "last_name": "Lighty",
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "20",
+      "transfers": [
+        {
+          "id": "de0df9b4-3615-4536-bcc6-302bdd3d605b",
+          "effective_date": "2013-10-15",
+          "last_modified": "2013-10-15T14:52:34+00:00",
+          "from_team": {
+            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hawks",
+            "market": "Atlanta"
+          }
+        }
+      ]
+    },
+    {
+      "id": "0c44472a-b86e-41ee-88c3-cb0bf33ad262",
+      "full_name": "Dwayne Jones",
+      "first_name": "Dwayne",
+      "last_name": "Jones",
+      "position": "F-C",
+      "primary_position": "C",
+      "jersey_number": "42",
+      "transfers": [
+        {
+          "id": "f24c112c-68dd-46df-85d2-f917666f8d42",
+          "effective_date": "2013-10-15",
+          "last_modified": "2013-10-15T14:53:38+00:00",
+          "from_team": {
+            "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Jazz",
+            "market": "Utah"
+          }
+        }
+      ]
+    }
+  ]
+}

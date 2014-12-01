@@ -1,0 +1,101 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-07-01T04:00:00+00:00",
+  "end_time": "2014-07-02T03:59:59+00:00",
+  "players": [
+    {
+      "id": "3da0addc-639a-42ad-875d-96d050ac3711",
+      "full_name": "Cartier Martin",
+      "first_name": "Cartier",
+      "last_name": "Martin",
+      "position": "F-G",
+      "primary_position": "SF",
+      "jersey_number": "35",
+      "transfers": [
+        {
+          "id": "38058582-5867-4c51-abab-99d228637f61",
+          "notes": "Detroit has signed FA Martin.",
+          "desc": "Free Agency",
+          "effective_date": "2014-07-01",
+          "last_modified": "2014-07-01T21:14:55+00:00",
+          "to_team": {
+            "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pistons",
+            "market": "Detroit"
+          }
+        }
+      ]
+    },
+    {
+      "id": "77f1a040-ff8b-4e20-9db9-dfb6aa041585",
+      "full_name": "Shaun Livingston",
+      "first_name": "Shaun",
+      "last_name": "Livingston",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "34",
+      "transfers": [
+        {
+          "id": "a76d694f-f3fb-46ae-b3f0-5f3f8a813d02",
+          "notes": "Golden State has signed FA Livingston",
+          "desc": "Free Agency",
+          "effective_date": "2014-07-02",
+          "last_modified": "2014-07-02T00:58:47+00:00",
+          "to_team": {
+            "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Warriors",
+            "market": "Golden State"
+          }
+        }
+      ]
+    },
+    {
+      "id": "27ce12ca-20d5-4911-b0aa-c43f960b7ef0",
+      "full_name": "James Anderson",
+      "first_name": "James",
+      "last_name": "Anderson",
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "9",
+      "transfers": [
+        {
+          "id": "dca98d5d-4513-425e-b9e9-0ba9d6d2fe4d",
+          "effective_date": "2014-07-01",
+          "last_modified": "2014-07-01T04:04:34+00:00",
+          "from_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d6001098-cdde-46a5-85a3-f581ae471f9a",
+      "full_name": "Jodie Meeks",
+      "first_name": "Jodie",
+      "last_name": "Meeks",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "20",
+      "transfers": [
+        {
+          "id": "e2f12542-baaa-4956-8c8c-e1149e9a9999",
+          "notes": "Detroit has signed FA Meeks.",
+          "desc": "Free Agency",
+          "effective_date": "2014-07-01",
+          "last_modified": "2014-07-01T21:10:29+00:00",
+          "to_team": {
+            "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pistons",
+            "market": "Detroit"
+          }
+        }
+      ]
+    }
+  ]
+}

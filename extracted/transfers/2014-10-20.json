@@ -1,0 +1,338 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-10-20T04:00:00+00:00",
+  "end_time": "2014-10-21T03:59:59+00:00",
+  "players": [
+    {
+      "id": "30b5095c-26b6-4d26-bea4-8249d3d687b8",
+      "full_name": "Jeremy Tyler",
+      "first_name": "Jeremy",
+      "last_name": "Tyler",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "3",
+      "transfers": [
+        {
+          "id": "05c51b8e-0175-4574-aee3-b1dea7145d61",
+          "notes": "Los Angeles waives C Tyler.",
+          "desc": "Waived",
+          "effective_date": "2014-10-20",
+          "last_modified": "2014-10-20T16:31:49+00:00",
+          "from_team": {
+            "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Lakers",
+            "market": "Los Angeles"
+          }
+        }
+      ]
+    },
+    {
+      "id": "85a90d54-873d-48e6-b7ab-ac02995ad327",
+      "full_name": "Stephen Holt",
+      "first_name": "Stephen",
+      "last_name": "Holt",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "15",
+      "transfers": [
+        {
+          "id": "0ba3eba4-af38-453a-a56e-6f34606e76e9",
+          "notes": "Cleveland waives G Holt.",
+          "desc": "Waived",
+          "effective_date": "2014-10-20",
+          "last_modified": "2014-10-20T15:09:56+00:00",
+          "from_team": {
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Cavaliers",
+            "market": "Cleveland"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7e67ec2d-3b78-4bf3-aeb8-5f43bfad3e80",
+      "full_name": "Hasheem Thabeet",
+      "first_name": "Hasheem",
+      "last_name": "Thabeet",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "32",
+      "transfers": [
+        {
+          "id": "1c701f08-49d8-4668-bcc0-07b7d0ebcb02",
+          "notes": "Detroit waives C Thabeet.",
+          "desc": "Waived",
+          "effective_date": "2014-10-20",
+          "last_modified": "2014-10-20T17:38:11+00:00",
+          "from_team": {
+            "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pistons",
+            "market": "Detroit"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ca3731d3-6ed1-49e6-817d-e8892759c13f",
+      "full_name": "Brian Cook",
+      "first_name": "Brian",
+      "last_name": "Cook",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "43",
+      "transfers": [
+        {
+          "id": "2eb16c21-b511-4e68-a8ff-17789156bb77",
+          "notes": "Detroit waives F Cook.",
+          "desc": "Waived",
+          "effective_date": "2014-10-20",
+          "last_modified": "2014-10-20T19:43:00+00:00",
+          "from_team": {
+            "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pistons",
+            "market": "Detroit"
+          }
+        }
+      ]
+    },
+    {
+      "id": "089602ef-f2c1-474d-8d35-5da0689429ef",
+      "full_name": "David Wear",
+      "first_name": "David",
+      "last_name": "Wear",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "31",
+      "transfers": [
+        {
+          "id": "521bf143-4ea8-4ce8-be61-7cff686de0e0",
+          "notes": "Sacramento placed F Wear on waivers.",
+          "desc": "Waived",
+          "effective_date": "2014-10-20",
+          "last_modified": "2014-10-20T15:10:26+00:00",
+          "from_team": {
+            "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Kings",
+            "market": "Sacramento"
+          }
+        }
+      ]
+    },
+    {
+      "id": "724b61fe-2644-4dcd-b356-3cdb95a2cdc0",
+      "full_name": "Larry Drew II",
+      "first_name": "Larry",
+      "last_name": "Drew",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "55aa97d3-9024-4a0e-80d6-8c9d5fbbbb71",
+          "notes": "Miami signs G Drew II.",
+          "desc": "Free Agency",
+          "effective_date": "2014-10-20",
+          "last_modified": "2014-10-20T17:56:52+00:00",
+          "to_team": {
+            "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Heat",
+            "market": "Miami"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a61a1458-1481-4474-8c30-bf4c3430050d",
+      "full_name": "Deonte Burton",
+      "first_name": "Deonte",
+      "last_name": "Burton",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "630824bb-545d-45e9-994b-1645d1c728b9",
+          "notes": "Sacramento placed G Burton on waivers.",
+          "desc": "Waived",
+          "effective_date": "2014-10-20",
+          "last_modified": "2014-10-20T15:09:09+00:00",
+          "from_team": {
+            "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Kings",
+            "market": "Sacramento"
+          }
+        }
+      ]
+    },
+    {
+      "id": "77bd2144-648d-4194-ac9a-2a21ac042229",
+      "full_name": "Chris Crawford",
+      "first_name": "Chris",
+      "last_name": "Crawford",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "10",
+      "transfers": [
+        {
+          "id": "630f2182-a6a7-4e12-a6c1-aa2d8cf1b3a8",
+          "notes": "Cleveland waives G Crawford.",
+          "desc": "Waived",
+          "effective_date": "2014-10-20",
+          "last_modified": "2014-10-20T15:09:32+00:00",
+          "from_team": {
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Cavaliers",
+            "market": "Cleveland"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2a15cb3-9a7d-4e24-b3ce-62cb4e1c3c68",
+      "full_name": "Lorenzo Brown",
+      "first_name": "Lorenzo",
+      "last_name": "Brown",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "24",
+      "transfers": [
+        {
+          "id": "95a46ad6-1978-46df-95e6-0b4ada72be29",
+          "notes": "Detroit waives G Brown.",
+          "desc": "Waived",
+          "effective_date": "2014-10-20",
+          "last_modified": "2014-10-20T19:42:32+00:00",
+          "from_team": {
+            "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pistons",
+            "market": "Detroit"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2deb2a0f-95f1-4f33-a471-cad4e7cef3c3",
+      "full_name": "Sim Bhullar",
+      "first_name": "Sim",
+      "last_name": "Bhullar",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "32",
+      "transfers": [
+        {
+          "id": "98406c88-f9b8-490b-bbc2-417c8841cc11",
+          "notes": "Sacramento placed C Bhullar on waivers.",
+          "desc": "Waived",
+          "effective_date": "2014-10-20",
+          "last_modified": "2014-10-20T15:08:42+00:00",
+          "from_team": {
+            "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Kings",
+            "market": "Sacramento"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6acc7c11-10c9-4b0c-b90a-d42ae893d2c2",
+      "full_name": "Keith Appling",
+      "first_name": "Keith",
+      "last_name": "Appling",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "1",
+      "transfers": [
+        {
+          "id": "98cf0cf3-d80a-4fd7-adcd-392365457977",
+          "notes": "Los Angeles waives G Appling.",
+          "desc": "Waived",
+          "effective_date": "2014-10-20",
+          "last_modified": "2014-10-20T23:40:17+00:00",
+          "from_team": {
+            "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Lakers",
+            "market": "Los Angeles"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5db8869f-4513-45f4-b3b9-e8349d7e9937",
+      "full_name": "Josh Bostic",
+      "first_name": "Josh",
+      "last_name": "Bostic",
+      "position": "F-G",
+      "primary_position": "SF",
+      "jersey_number": "23",
+      "transfers": [
+        {
+          "id": "b84bb0e6-6426-43f0-b290-1d1a02401550",
+          "notes": "Detroit waives F-G Bostic.",
+          "desc": "Waived",
+          "effective_date": "2014-10-20",
+          "last_modified": "2014-10-20T19:42:11+00:00",
+          "from_team": {
+            "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pistons",
+            "market": "Detroit"
+          }
+        }
+      ]
+    },
+    {
+      "id": "238e8363-aa63-4f01-b47c-5405e78b16e6",
+      "full_name": "Sean Kilpatrick",
+      "first_name": "Sean",
+      "last_name": "Kilpatrick",
+      "position": "G",
+      "primary_position": "NA",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "d8da5739-ceeb-40b0-b051-76e37a7cec4c",
+          "notes": "Golden State signs FA Kilpatrick.",
+          "desc": "Free Agency",
+          "effective_date": "2014-10-20",
+          "last_modified": "2014-10-20T22:51:45+00:00",
+          "from_team": {
+            "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Warriors",
+            "market": "Golden State"
+          },
+          "to_team": {
+            "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Warriors",
+            "market": "Golden State"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8b22865d-7de4-4a86-b13d-21f4b97f4dcd",
+      "full_name": "Kyrylo Fesenko",
+      "first_name": "Kyrylo",
+      "last_name": "Fesenko",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "44",
+      "transfers": [
+        {
+          "id": "fd2ad0b3-fd0c-4c78-8af8-507d0e693684",
+          "notes": "Minnesota waives C Fesenko.",
+          "desc": "Waived",
+          "effective_date": "2014-10-20",
+          "last_modified": "2014-10-20T21:27:13+00:00",
+          "from_team": {
+            "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Timberwolves",
+            "market": "Minnesota"
+          }
+        }
+      ]
+    }
+  ]
+}

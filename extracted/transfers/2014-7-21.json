@@ -1,0 +1,52 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-07-21T04:00:00+00:00",
+  "end_time": "2014-07-22T03:59:59+00:00",
+  "players": [
+    {
+      "id": "ca4f6af4-c203-41d0-97a3-0286710710b6",
+      "full_name": "Evan Turner",
+      "first_name": "Evan",
+      "last_name": "Turner",
+      "position": "F-G",
+      "primary_position": "SF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "30f33e93-94ac-4e8b-b67e-abb1c0506de9",
+          "notes": "Boston has signed FA F/G Turner.",
+          "desc": "Free Agency",
+          "effective_date": "2014-07-21",
+          "last_modified": "2014-07-21T22:20:59+00:00",
+          "to_team": {
+            "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Celtics",
+            "market": "Boston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f4fddfaa-9928-404d-8941-1a29782d8400",
+      "full_name": "Jan Vesely",
+      "first_name": "Jan",
+      "last_name": "Vesely",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "b663e3fa-10b4-4ab1-9ddc-ae6319383116",
+          "notes": "FA F Vesely has signed with team in Turkey.",
+          "desc": "Free Agency",
+          "effective_date": "2014-07-21",
+          "last_modified": "2014-07-21T20:09:37+00:00"
+        }
+      ]
+    }
+  ]
+}

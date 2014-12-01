@@ -1,0 +1,297 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-07-15T04:00:00+00:00",
+  "end_time": "2014-07-16T03:59:59+00:00",
+  "players": [
+    {
+      "id": "1a072572-763d-4839-b920-82b48d8e296a",
+      "full_name": "Kris Humphries",
+      "first_name": "Kris",
+      "last_name": "Humphries",
+      "position": "C-F",
+      "primary_position": "C",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "043abfc2-e713-4744-9197-c1cea08358d8",
+          "notes": "Washington receives C-F Humphries in sign and trade with Boston.",
+          "desc": "Trade",
+          "effective_date": "2014-07-15",
+          "last_modified": "2014-07-15T20:03:04+00:00",
+          "from_team": {
+            "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Celtics",
+            "market": "Boston"
+          },
+          "to_team": {
+            "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Wizards",
+            "market": "Washington"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d4a231a9-f064-43b5-af78-59801dda6155",
+      "full_name": "Omer Asik",
+      "first_name": "Omer",
+      "last_name": "Asik",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "21f01ee4-9ee2-4132-8c9f-33ed5292e68c",
+          "notes": "Houston has traded C Asik to New Orleans as part of 3 team trade.",
+          "desc": "Trade",
+          "effective_date": "2014-07-15",
+          "last_modified": "2014-07-15T18:08:05+00:00",
+          "from_team": {
+            "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Rockets",
+            "market": "Houston"
+          },
+          "to_team": {
+            "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pelicans",
+            "market": "New Orleans"
+          }
+        }
+      ]
+    },
+    {
+      "id": "e2661b9b-eb57-456d-9ee3-c2f740284a20",
+      "full_name": "Sebastian Telfair",
+      "first_name": "Sebastian",
+      "last_name": "Telfair",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "326702da-d709-412a-af4f-e6dbe9186c9f",
+          "notes": "Oklahoma City has signed FA G Telfair.",
+          "desc": "Free Agency",
+          "effective_date": "2014-07-15",
+          "last_modified": "2014-07-15T17:21:32+00:00",
+          "to_team": {
+            "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Thunder",
+            "market": "Oklahoma City"
+          }
+        }
+      ]
+    },
+    {
+      "id": "66e28766-9b3b-4b4f-a770-85b206f4fc22",
+      "full_name": "Mike James",
+      "first_name": "Mike",
+      "last_name": "James",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "33c61db3-fff2-491a-8a83-e635699fa5fe",
+          "notes": "Chicago released G James.",
+          "desc": "Released",
+          "effective_date": "2014-07-15",
+          "last_modified": "2014-07-15T21:47:13+00:00",
+          "from_team": {
+            "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bulls",
+            "market": "Chicago"
+          }
+        }
+      ]
+    },
+    {
+      "id": "86da224d-e103-412a-8406-1ca8976726e7",
+      "full_name": "Trevor Booker",
+      "first_name": "Trevor",
+      "last_name": "Booker",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "3479150f-c40d-40df-970e-42461ded4635",
+          "notes": "Utah has signed FA F Booker.",
+          "desc": "Free Agency",
+          "effective_date": "2014-07-15",
+          "last_modified": "2014-07-15T17:51:46+00:00",
+          "to_team": {
+            "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Jazz",
+            "market": "Utah"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4cbe58e4-5e4b-46b0-9f7b-6cf18ad002c6",
+      "full_name": "James Ennis",
+      "first_name": "James",
+      "last_name": "Ennis",
+      "position": "G-F",
+      "primary_position": "SF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "3b2831b8-6a66-4d61-a72e-85154bd697c4",
+          "notes": "Miami has signed FA G/F Ennis.",
+          "desc": "Free Agency",
+          "effective_date": "2014-07-15",
+          "last_modified": "2014-07-15T22:39:06+00:00",
+          "to_team": {
+            "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Heat",
+            "market": "Miami"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bb4593a2-6662-49dd-843a-fa775ef86c42",
+      "full_name": "Jeff Adrien",
+      "first_name": "Jeff",
+      "last_name": "Adrien",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "4ffabf33-05c4-4ea6-98ef-13b6fe4eae16",
+          "notes": "Houston has signed FA F Adrien.",
+          "desc": "Free Agency",
+          "effective_date": "2014-07-15",
+          "last_modified": "2014-07-15T17:17:58+00:00",
+          "to_team": {
+            "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Rockets",
+            "market": "Houston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6995981a-66a6-42df-ab3a-886eab12aabd",
+      "full_name": "Carlos Boozer",
+      "first_name": "Carlos",
+      "last_name": "Boozer",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "547cb61d-bf13-42a3-9ace-a709c260d825",
+          "notes": "Chicago amnestied F Boozer.",
+          "desc": "Released",
+          "effective_date": "2014-07-15",
+          "last_modified": "2014-07-15T21:13:48+00:00",
+          "from_team": {
+            "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bulls",
+            "market": "Chicago"
+          }
+        }
+      ]
+    },
+    {
+      "id": "440251c0-601a-471a-9bdf-a8c7cd7efda8",
+      "full_name": "Mike Miller",
+      "first_name": "Mike",
+      "last_name": "Miller",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "68eb376d-52fd-44ea-b97f-f965e3bef970",
+          "notes": "Cleveland has signed FA F Miller.",
+          "desc": "Free Agency",
+          "effective_date": "2014-07-15",
+          "last_modified": "2014-07-15T21:44:39+00:00",
+          "to_team": {
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Cavaliers",
+            "market": "Cleveland"
+          }
+        }
+      ]
+    },
+    {
+      "id": "e47a4dd7-8199-4c1e-9945-75dd415447be",
+      "full_name": "Lou Amundson",
+      "first_name": "Lou",
+      "last_name": "Amundson",
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "71d515cc-4ddc-4372-abc1-5e198d677745",
+          "notes": "Chicago released F/C Amundson.",
+          "desc": "Released",
+          "effective_date": "2014-07-15",
+          "last_modified": "2014-07-15T21:47:44+00:00",
+          "from_team": {
+            "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bulls",
+            "market": "Chicago"
+          }
+        }
+      ]
+    },
+    {
+      "id": "427b45ce-28f8-48ab-9687-9d5f7d61e479",
+      "full_name": "Anthony Randolph",
+      "first_name": "Anthony",
+      "last_name": "Randolph",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "77f5ea78-7483-4f95-9a6e-f1d6e8fe1cf8",
+          "notes": "Orlando has waived F Randolph.",
+          "desc": "Waiver",
+          "effective_date": "2014-07-15",
+          "last_modified": "2014-07-15T19:55:44+00:00",
+          "from_team": {
+            "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Magic",
+            "market": "Orlando"
+          }
+        }
+      ]
+    },
+    {
+      "id": "78f9898e-be53-496e-adad-a610515f2635",
+      "full_name": "Ronnie Brewer",
+      "first_name": "Ronnie",
+      "last_name": "Brewer",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "9926f33a-4088-40f9-be0d-6f5601b28539",
+          "notes": "Chicago released F Brewer.",
+          "desc": "Released",
+          "effective_date": "2014-07-15",
+          "last_modified": "2014-07-15T21:46:29+00:00",
+          "from_team": {
+            "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bulls",
+            "market": "Chicago"
+          }
+        }
+      ]
+    }
+  ]
+}

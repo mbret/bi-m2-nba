@@ -1,0 +1,174 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-07-07T04:00:00+00:00",
+  "end_time": "2014-07-08T03:59:59+00:00",
+  "players": [
+    {
+      "id": "48ceabf2-4a9b-4b4e-9e44-1f12113894c1",
+      "full_name": "Julyan Stone",
+      "first_name": "Julyan",
+      "last_name": "Stone",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "77",
+      "transfers": [
+        {
+          "id": "18506a44-ced2-4e0f-b6ad-52aa93b40a9b",
+          "notes": "Toronto has waived Stone.",
+          "desc": "Waived",
+          "effective_date": "2014-07-07",
+          "last_modified": "2014-07-07T23:59:48+00:00",
+          "from_team": {
+            "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Raptors",
+            "market": "Toronto"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7ff02e19-e829-4e56-9a34-233a71fce76c",
+      "full_name": "Bojan Bogdanovic",
+      "first_name": "Bojan",
+      "last_name": "Bogdanovic",
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "44",
+      "transfers": [
+        {
+          "id": "46e5087b-e7f8-493a-8a05-7297ffc5b76d",
+          "notes": "Brooklyn has signed Bogdanovic to three-year deal.",
+          "desc": "Contract Signing",
+          "effective_date": "2014-07-07",
+          "last_modified": "2014-07-07T23:59:16+00:00",
+          "from_team": {
+            "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nets",
+            "market": "Brooklyn"
+          },
+          "to_team": {
+            "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nets",
+            "market": "Brooklyn"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d5ea8739-c9aa-46dd-97e1-52f6821382ef",
+      "full_name": "Nando De Colo",
+      "first_name": "Nando",
+      "last_name": "De Colo",
+      "position": "G",
+      "primary_position": "PG",
+      "transfers": [
+        {
+          "id": "48f5c4cc-b6ac-4b00-8c87-72d96dced875",
+          "effective_date": "2014-07-08",
+          "last_modified": "2014-07-08T00:01:10+00:00",
+          "from_team": {
+            "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Raptors",
+            "market": "Toronto"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3a29a6a9-c588-48bf-8140-251bb59458c7",
+      "full_name": "Aaron Gray",
+      "first_name": "Aaron",
+      "last_name": "Gray",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "34",
+      "transfers": [
+        {
+          "id": "5fb4551e-f5e1-4ddb-b647-c30261f8af4b",
+          "notes": "Detroit has signed FA Gray.",
+          "desc": "Free Agency",
+          "effective_date": "2014-07-07",
+          "last_modified": "2014-07-07T20:41:17+00:00",
+          "to_team": {
+            "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pistons",
+            "market": "Detroit"
+          }
+        }
+      ]
+    },
+    {
+      "id": "54723896-1f7b-4150-95d6-0392596a328f",
+      "full_name": "Josh McRoberts",
+      "first_name": "Josh",
+      "last_name": "McRoberts",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "4",
+      "transfers": [
+        {
+          "id": "65841ff7-942b-4d6d-8e98-8ef3386c5cb6",
+          "notes": "Miami has signed FA McRoberts.",
+          "desc": "Free Agency",
+          "effective_date": "2014-07-07",
+          "last_modified": "2014-07-07T19:29:31+00:00",
+          "to_team": {
+            "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Heat",
+            "market": "Miami"
+          }
+        }
+      ]
+    },
+    {
+      "id": "49e2e5b6-0800-40b3-a5de-499653a019e9",
+      "full_name": "Danny Granger",
+      "first_name": "Danny",
+      "last_name": "Granger",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "22",
+      "transfers": [
+        {
+          "id": "7a67429e-42ad-4930-92a1-54251514d0f6",
+          "notes": "Miami has signed FA Granger.",
+          "desc": "Free Agency",
+          "effective_date": "2014-07-07",
+          "last_modified": "2014-07-07T19:47:46+00:00",
+          "to_team": {
+            "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Heat",
+            "market": "Miami"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4d3a5b96-f4e1-424f-b8e2-1995b0eaa5d7",
+      "full_name": "Channing Frye",
+      "first_name": "Channing",
+      "last_name": "Frye",
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "8",
+      "transfers": [
+        {
+          "id": "869145ae-5a9d-41a2-bd43-728400fbdb3d",
+          "notes": "Orlando has signed FA Frye.",
+          "desc": "Free Agency",
+          "effective_date": "2014-07-07",
+          "last_modified": "2014-07-07T22:03:48+00:00",
+          "to_team": {
+            "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Magic",
+            "market": "Orlando"
+          }
+        }
+      ]
+    }
+  ]
+}

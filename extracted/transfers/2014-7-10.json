@@ -1,0 +1,63 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-07-10T04:00:00+00:00",
+  "end_time": "2014-07-11T03:59:59+00:00",
+  "players": [
+    {
+      "id": "859f0120-c1e1-4b75-ba10-3dca7020312b",
+      "full_name": "Chris Kaman",
+      "first_name": "Chris",
+      "last_name": "Kaman",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "9",
+      "transfers": [
+        {
+          "id": "a90fc81a-3d5b-4ecd-952b-f329781af767",
+          "effective_date": "2014-07-10",
+          "last_modified": "2014-07-10T18:34:57+00:00",
+          "from_team": {
+            "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Lakers",
+            "market": "Los Angeles"
+          },
+          "to_team": {
+            "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Trail Blazers",
+            "market": "Portland"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b7ede5da-bc2f-47fe-8468-dd4b2679603c",
+      "full_name": "Steve Blake",
+      "first_name": "Steve",
+      "last_name": "Blake",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "25",
+      "transfers": [
+        {
+          "id": "c1d018c7-55a3-4929-b4b7-bccc223d4c5c",
+          "effective_date": "2014-07-10",
+          "last_modified": "2014-07-10T18:35:55+00:00",
+          "from_team": {
+            "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Warriors",
+            "market": "Golden State"
+          },
+          "to_team": {
+            "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Trail Blazers",
+            "market": "Portland"
+          }
+        }
+      ]
+    }
+  ]
+}

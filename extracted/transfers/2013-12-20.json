@@ -1,0 +1,37 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2013-12-20T05:00:00+00:00",
+  "end_time": "2013-12-21T04:59:59+00:00",
+  "players": [
+    {
+      "id": "9fd789bc-0aa4-4028-b114-5014deacfbe2",
+      "full_name": "Kendall Marshall",
+      "first_name": "Kendall",
+      "last_name": "Marshall",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "5",
+      "transfers": [
+        {
+          "id": "a2989f11-db3e-44db-8b80-1f774aea1daf",
+          "effective_date": "2013-12-19",
+          "last_modified": "2013-12-20T15:32:42+00:00",
+          "from_team": {
+            "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Lakers",
+            "market": "Los Angeles"
+          },
+          "to_team": {
+            "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Lakers",
+            "market": "Los Angeles"
+          }
+        }
+      ]
+    }
+  ]
+}

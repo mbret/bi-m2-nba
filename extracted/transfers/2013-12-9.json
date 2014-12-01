@@ -1,0 +1,214 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2013-12-09T05:00:00+00:00",
+  "end_time": "2013-12-10T04:59:59+00:00",
+  "players": [
+    {
+      "id": "cbe8d33e-a92a-473c-942f-90d8b76ed77c",
+      "full_name": "Greivis Vasquez",
+      "first_name": "Greivis",
+      "last_name": "Vasquez",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "21",
+      "transfers": [
+        {
+          "id": "0357fbd0-f53e-4a1b-8f98-345bb465de53",
+          "effective_date": "2013-12-09",
+          "last_modified": "2013-12-09T15:48:38+00:00",
+          "from_team": {
+            "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Kings",
+            "market": "Sacramento"
+          },
+          "to_team": {
+            "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Raptors",
+            "market": "Toronto"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3a29a6a9-c588-48bf-8140-251bb59458c7",
+      "full_name": "Aaron Gray",
+      "first_name": "Aaron",
+      "last_name": "Gray",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "34",
+      "transfers": [
+        {
+          "id": "08455297-d29e-4cd0-9fd3-b8aeb8b100d7",
+          "effective_date": "2013-12-09",
+          "last_modified": "2013-12-09T15:49:38+00:00",
+          "from_team": {
+            "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Raptors",
+            "market": "Toronto"
+          },
+          "to_team": {
+            "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Kings",
+            "market": "Sacramento"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ce98c0bb-a288-436f-9e44-c6ceed4206f0",
+      "full_name": "Chuck Hayes",
+      "first_name": "Chuck",
+      "last_name": "Hayes",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "44",
+      "transfers": [
+        {
+          "id": "09c26e76-cb27-4237-a6e3-e050866aeb5d",
+          "effective_date": "2013-12-09",
+          "last_modified": "2013-12-09T15:48:50+00:00",
+          "from_team": {
+            "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Kings",
+            "market": "Sacramento"
+          },
+          "to_team": {
+            "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Raptors",
+            "market": "Toronto"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a18805c2-d746-4d4b-be83-5b96c3bdf6af",
+      "full_name": "D.J. Augustin",
+      "first_name": "D.J.",
+      "last_name": "Augustin",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "14",
+      "transfers": [
+        {
+          "id": "46feead5-2345-4289-b45d-0ffdd4501a15",
+          "effective_date": "2013-12-09",
+          "last_modified": "2013-12-09T22:02:36+00:00",
+          "from_team": {
+            "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Raptors",
+            "market": "Toronto"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ed09f424-fb27-4fb9-add8-a2e7e3ef76c5",
+      "full_name": "John Salmons",
+      "first_name": "John",
+      "last_name": "Salmons",
+      "position": "F-G",
+      "primary_position": "SF",
+      "jersey_number": "15",
+      "transfers": [
+        {
+          "id": "53da756a-8799-4563-b7c7-daf5c582e450",
+          "effective_date": "2013-12-09",
+          "last_modified": "2013-12-09T15:49:02+00:00",
+          "from_team": {
+            "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Kings",
+            "market": "Sacramento"
+          },
+          "to_team": {
+            "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Raptors",
+            "market": "Toronto"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5a25d084-9ef7-4e81-8da8-737b5a9d6ed9",
+      "full_name": "Patrick Patterson",
+      "first_name": "Patrick",
+      "last_name": "Patterson",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "54",
+      "transfers": [
+        {
+          "id": "6e2a92fc-9041-4e2f-b11c-8d72d7492ea2",
+          "effective_date": "2013-12-09",
+          "last_modified": "2013-12-09T15:49:12+00:00",
+          "from_team": {
+            "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Kings",
+            "market": "Sacramento"
+          },
+          "to_team": {
+            "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Raptors",
+            "market": "Toronto"
+          }
+        }
+      ]
+    },
+    {
+      "id": "79d56fd7-f4ed-4905-9d04-dff4b5352334",
+      "full_name": "Rudy Gay",
+      "first_name": "Rudy",
+      "last_name": "Gay",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "8",
+      "transfers": [
+        {
+          "id": "d9cf8ebd-7d3b-4bd4-a552-aa55c29b844c",
+          "effective_date": "2013-12-09",
+          "last_modified": "2013-12-09T15:49:48+00:00",
+          "from_team": {
+            "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Raptors",
+            "market": "Toronto"
+          },
+          "to_team": {
+            "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Kings",
+            "market": "Sacramento"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c863e2c3-c758-49b8-be35-ccac4131186c",
+      "full_name": "Quincy Acy",
+      "first_name": "Quincy",
+      "last_name": "Acy",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "4",
+      "transfers": [
+        {
+          "id": "ff409adf-0a2b-4fdc-baa7-1515ceacba00",
+          "effective_date": "2013-12-09",
+          "last_modified": "2013-12-09T15:49:29+00:00",
+          "from_team": {
+            "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Raptors",
+            "market": "Toronto"
+          },
+          "to_team": {
+            "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Kings",
+            "market": "Sacramento"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-08-11T04:00:00+00:00",
+  "end_time": "2014-08-12T03:59:59+00:00",
+  "players": [
+    {
+      "id": "fb76341d-1738-4996-9ec5-c7ad80de504e",
+      "full_name": "Diante Garrett",
+      "first_name": "Diante",
+      "last_name": "Garrett",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "b77ced45-e541-40af-a6b9-5f39ee3f9359",
+          "notes": "Portland has signed FA G Garrett to nonguaranteed training camp contract.",
+          "desc": "Free Agency",
+          "effective_date": "2014-08-11",
+          "last_modified": "2014-08-11T20:23:52+00:00",
+          "to_team": {
+            "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Trail Blazers",
+            "market": "Portland"
+          }
+        }
+      ]
+    },
+    {
+      "id": "537803c5-6cd0-48d8-872e-53bc71c85065",
+      "full_name": "Alex Kirk",
+      "first_name": "Alex",
+      "last_name": "Kirk",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "d71b3842-d3d2-4e10-aa3b-ae8bbfcfa1f1",
+          "notes": "Cleveland has signed FA C Kirk.",
+          "desc": "Free Agency",
+          "effective_date": "2014-08-11",
+          "last_modified": "2014-08-11T20:16:25+00:00",
+          "to_team": {
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Cavaliers",
+            "market": "Cleveland"
+          }
+        }
+      ]
+    }
+  ]
+}

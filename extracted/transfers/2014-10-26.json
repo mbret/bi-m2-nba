@@ -1,0 +1,218 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-10-26T04:00:00+00:00",
+  "end_time": "2014-10-27T03:59:59+00:00",
+  "players": [
+    {
+      "id": "29ff98a7-e749-43f6-82c3-f9526041e519",
+      "full_name": "Earl Clark",
+      "first_name": "Earl",
+      "last_name": "Clark",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "10212f9d-55f5-4979-aa48-a12d914d1109",
+          "notes": "Houston waives F Clark.",
+          "desc": "Waived",
+          "effective_date": "2014-10-26",
+          "last_modified": "2014-10-26T14:36:03+00:00",
+          "from_team": {
+            "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Rockets",
+            "market": "Houston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3a29a6a9-c588-48bf-8140-251bb59458c7",
+      "full_name": "Aaron Gray",
+      "first_name": "Aaron",
+      "last_name": "Gray",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "34",
+      "transfers": [
+        {
+          "id": "e2eb8b44-f8bd-4c03-b910-1ba73bdb7503",
+          "notes": "Detroit waives C Gray.",
+          "desc": "Waived",
+          "effective_date": "2014-10-27",
+          "last_modified": "2014-10-27T01:29:48+00:00",
+          "from_team": {
+            "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pistons",
+            "market": "Detroit"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3c7cd5c8-2e75-4330-a558-ba7df5595477",
+      "full_name": "Drew Gordon",
+      "first_name": "Drew",
+      "last_name": "Gordon",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "30",
+      "transfers": [
+        {
+          "id": "a51a3063-3393-470e-9570-bc707172f3f8",
+          "notes": "Philadelphia waives F Gordon.",
+          "desc": "Waived",
+          "effective_date": "2014-10-26",
+          "last_modified": "2014-10-26T15:27:56+00:00",
+          "from_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "53df69b9-f573-4c68-8064-d4bc29374606",
+      "full_name": "Patrick Christopher",
+      "first_name": "Patrick",
+      "last_name": "Christopher",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "23",
+      "transfers": [
+        {
+          "id": "9563487e-710a-4af1-9e14-2dfaa0670d78",
+          "notes": "Memphis waives G Christopher.",
+          "desc": "Waived",
+          "effective_date": "2014-10-26",
+          "last_modified": "2014-10-26T14:37:54+00:00",
+          "from_team": {
+            "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Grizzlies",
+            "market": "Memphis"
+          }
+        }
+      ]
+    },
+    {
+      "id": "57f717d5-0c6e-4079-a6d2-c73ba44979b2",
+      "full_name": "Malcolm Lee",
+      "first_name": "Malcolm",
+      "last_name": "Lee",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "11",
+      "transfers": [
+        {
+          "id": "3a66642c-a26e-4d33-8be2-351294abdf8e",
+          "notes": "Philadelphia waives G Lee.",
+          "desc": "Waived",
+          "effective_date": "2014-10-26",
+          "last_modified": "2014-10-26T14:33:17+00:00",
+          "from_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "62bc2f36-5cb9-449d-a5c4-b9f0f7863a37",
+      "full_name": "Ronald Roberts, Jr.",
+      "first_name": "Ronald",
+      "last_name": "Roberts",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "7",
+      "transfers": [
+        {
+          "id": "ef945b56-4bda-4be3-a95b-5f3e0f1db913",
+          "notes": "Philadelphia waives F Roberts, Jr.",
+          "desc": "Waived",
+          "effective_date": "2014-10-26",
+          "last_modified": "2014-10-26T14:33:38+00:00",
+          "from_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6e6545d7-7d40-4a3f-b962-5e17a9860fce",
+      "full_name": "Jarell Eddie",
+      "first_name": "Jarell",
+      "last_name": "Eddie",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "d354fd9d-219e-44db-ba15-92bc6db6d794",
+          "notes": "Boston waives F Eddie.",
+          "desc": "Waived",
+          "effective_date": "2014-10-26",
+          "last_modified": "2014-10-26T16:55:34+00:00",
+          "from_team": {
+            "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Celtics",
+            "market": "Boston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "75b5993f-922d-4ad8-9f20-f646f39a4eaa",
+      "full_name": "Malcolm Thomas",
+      "first_name": "Malcolm",
+      "last_name": "Thomas",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "5675d7db-6b4d-47ba-9fd9-bfec73341b37",
+          "notes": "Philadelphia signs F Thomas.",
+          "desc": "Free Agency",
+          "effective_date": "2014-10-26",
+          "last_modified": "2014-10-26T19:19:18+00:00",
+          "to_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "e9ba0168-1eec-469f-8fdc-1b01cf698877",
+      "full_name": "Kalin Lucas",
+      "first_name": "Kalin",
+      "last_name": "Lucas",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "27",
+      "transfers": [
+        {
+          "id": "5afb3b13-d3a4-4f5b-b882-4e6758d63b3e",
+          "notes": "Memphis waives G Lucas.",
+          "desc": "Waived",
+          "effective_date": "2014-10-26",
+          "last_modified": "2014-10-26T14:38:24+00:00",
+          "from_team": {
+            "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Grizzlies",
+            "market": "Memphis"
+          }
+        }
+      ]
+    }
+  ]
+}

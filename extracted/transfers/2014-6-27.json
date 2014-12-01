@@ -1,0 +1,813 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-06-27T04:00:00+00:00",
+  "end_time": "2014-06-28T03:59:59+00:00",
+  "players": [
+    {
+      "id": "3bbc7cc3-7b02-41ac-8707-ef8494633709",
+      "full_name": "DeAndre Daniels",
+      "first_name": "DeAndre",
+      "last_name": "Daniels",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "0183d40c-799e-423f-b013-fb193180005c",
+          "notes": "Toronto drafted Daniels 37th overall.",
+          "desc": "Draft",
+          "effective_date": "2014-06-27",
+          "last_modified": "2014-06-27T19:56:26+00:00",
+          "to_team": {
+            "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Raptors",
+            "market": "Toronto"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f847d881-06ca-43c5-903f-3950a0117f98",
+      "full_name": "K.J. McDaniels",
+      "first_name": "K.J.",
+      "last_name": "McDaniels",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "14",
+      "transfers": [
+        {
+          "id": "1a0bd978-1e10-4be9-be72-1ca9372de1a0",
+          "effective_date": "2014-06-27",
+          "last_modified": "2014-06-27T14:23:53+00:00",
+          "from_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          },
+          "to_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a98c111a-5145-4b0d-aaa7-a2d6024e1e31",
+      "full_name": "Devyn Marble",
+      "first_name": "Devyn",
+      "last_name": "Marble",
+      "position": "G-F",
+      "primary_position": "SF",
+      "jersey_number": "11",
+      "transfers": [
+        {
+          "id": "230f8fce-2cb8-4319-aae6-08e72cec3463",
+          "notes": "Denver drafted Marble 56th overall and then traded his rights to Orlando.",
+          "desc": "Draft/trade",
+          "effective_date": "2014-06-27",
+          "last_modified": "2014-06-27T21:25:59+00:00",
+          "from_team": {
+            "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nuggets",
+            "market": "Denver"
+          },
+          "to_team": {
+            "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Magic",
+            "market": "Orlando"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f2625432-3903-4f90-9b0b-2e4f63856bb0",
+      "full_name": "Nikola Jokic",
+      "first_name": "Nikola",
+      "last_name": "Jokic",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "3a0b0de7-c7cd-4427-876b-fa5e27c55269",
+          "notes": "Denver drafted Jokic 41st overall.",
+          "desc": "Draft",
+          "effective_date": "2014-06-27",
+          "last_modified": "2014-06-27T20:18:36+00:00",
+          "to_team": {
+            "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nuggets",
+            "market": "Denver"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b4282659-dd1a-4042-a075-7df4890858e7",
+      "full_name": "Bogdan Bogdanovic",
+      "first_name": "Bogdan",
+      "last_name": "Bogdanovic",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "3fd40cda-85d5-4324-9b83-490ca65251e7",
+          "notes": "Phoenix drafted Bogdanovic 27th overall.",
+          "desc": "Draft",
+          "effective_date": "2014-06-27",
+          "last_modified": "2014-06-27T21:53:57+00:00",
+          "to_team": {
+            "id": "583ecfa8-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Suns",
+            "market": "Phoenix"
+          }
+        }
+      ]
+    },
+    {
+      "id": "664f0884-717b-4f4a-a1a6-79f08acb41bd",
+      "full_name": "Bruno Caboclo",
+      "first_name": "Bruno",
+      "last_name": "Caboclo",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "5",
+      "transfers": [
+        {
+          "id": "41a8d17f-8e44-489c-8ce5-0243b9e7e1bf",
+          "notes": "Toronto drafted Caboclo 20th overall.",
+          "desc": "Draft",
+          "effective_date": "2014-06-27",
+          "last_modified": "2014-06-27T21:50:01+00:00",
+          "to_team": {
+            "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Raptors",
+            "market": "Toronto"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8426ab40-888d-4f89-976c-cd9e23717653",
+      "full_name": "Spencer Dinwiddie",
+      "first_name": "Spencer",
+      "last_name": "Dinwiddie",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "8",
+      "transfers": [
+        {
+          "id": "42ac554f-9bad-4286-86f9-404debdcb2fa",
+          "notes": "Detroit drafted Dinwiddie 38th overall.",
+          "desc": "Draft",
+          "effective_date": "2014-06-27",
+          "last_modified": "2014-06-27T19:58:05+00:00",
+          "from_team": {
+            "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pistons",
+            "market": "Detroit"
+          },
+          "to_team": {
+            "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pistons",
+            "market": "Detroit"
+          }
+        }
+      ]
+    },
+    {
+      "id": "66d13b81-7a2d-464d-973e-302de7ad0ae1",
+      "full_name": "Alessandro Gentile",
+      "first_name": "Alessandro",
+      "last_name": "Gentile",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "46b3bd4d-4dbe-48c8-bc02-20ba47d43c70",
+          "notes": "Minnesota drafted Gentile 53rd overall.",
+          "desc": "Draft",
+          "effective_date": "2014-06-27",
+          "last_modified": "2014-06-27T21:18:47+00:00",
+          "to_team": {
+            "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Timberwolves",
+            "market": "Minnesota"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8f6cd02e-f153-4fd6-ae64-5de2e3d677af",
+      "full_name": "Jordan McRae",
+      "first_name": "Jordan",
+      "last_name": "McRae",
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "4b4dc835-0731-467c-987a-df8f72e4d461",
+          "notes": "San Antonio drafted McRae 58th overall and then traded his rights to Philadelphia.",
+          "desc": "Draft/trade",
+          "effective_date": "2014-06-27",
+          "last_modified": "2014-06-27T21:35:03+00:00",
+          "from_team": {
+            "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Spurs",
+            "market": "San Antonio"
+          },
+          "to_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a3ecd4d9-a3ed-4a45-a47f-49eacf07f7aa",
+      "full_name": "Jarnell Stokes",
+      "first_name": "Jarnell",
+      "last_name": "Stokes",
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "1",
+      "transfers": [
+        {
+          "id": "4bb8a2c4-4114-4250-a489-dffab0ca39a5",
+          "notes": "Stokes was drafted by Utah 35th overall and then traded to Memphis.",
+          "effective_date": "2014-06-27",
+          "last_modified": "2014-06-27T19:51:27+00:00",
+          "from_team": {
+            "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Jazz",
+            "market": "Utah"
+          },
+          "to_team": {
+            "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Grizzlies",
+            "market": "Memphis"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7b0f360a-ff81-429e-acd7-849be494083c",
+      "full_name": "Alec Brown",
+      "first_name": "Alec",
+      "last_name": "Brown",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "531c565e-1c54-4980-bb5b-d97b6d61f1b7",
+          "notes": "Phoenix drafted Brown 50th overall.",
+          "desc": "Draft",
+          "effective_date": "2014-06-27",
+          "last_modified": "2014-06-27T21:03:36+00:00",
+          "to_team": {
+            "id": "583ecfa8-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Suns",
+            "market": "Phoenix"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a465418b-0933-40b4-8f01-253d046872e1",
+      "full_name": "Dwight Powell",
+      "first_name": "Dwight",
+      "last_name": "Powell",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "12",
+      "transfers": [
+        {
+          "id": "56f7259a-e40f-40ef-8268-2e260dd2bd7e",
+          "notes": "Charlotte drafted Powell 45th overall.",
+          "desc": "Draft",
+          "effective_date": "2014-06-27",
+          "last_modified": "2014-06-27T20:48:40+00:00",
+          "from_team": {
+            "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hornets",
+            "market": "Charlotte"
+          },
+          "to_team": {
+            "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hornets",
+            "market": "Charlotte"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b5ab9421-3f69-4045-8a99-8cba9fed4da4",
+      "full_name": "Louis Labeyrie",
+      "first_name": "Louis",
+      "last_name": "Labeyrie",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "6200da69-cf5f-43d2-bab0-1199978681ad",
+          "notes": "Indiana drafted Labeyrie 57th overall and then traded his rights to New York.",
+          "desc": "Draft/trade",
+          "effective_date": "2014-06-27",
+          "last_modified": "2014-06-27T21:29:56+00:00",
+          "from_team": {
+            "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pacers",
+            "market": "Indiana"
+          },
+          "to_team": {
+            "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Knicks",
+            "market": "New York"
+          }
+        }
+      ]
+    },
+    {
+      "id": "44ec1037-795f-4a4a-92c2-004d5bd4f3e6",
+      "full_name": "Johnny O'Bryant III",
+      "first_name": "Johnny",
+      "last_name": "O'Bryant",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "3",
+      "transfers": [
+        {
+          "id": "64d9f0bb-f30d-4df2-a302-13ae31e4ef66",
+          "notes": "Milwaukee drafted O'Bryant 36th overall. ",
+          "desc": "Draft",
+          "effective_date": "2014-06-27",
+          "last_modified": "2014-06-27T19:53:48+00:00",
+          "to_team": {
+            "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bucks",
+            "market": "Milwaukee"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5b315e15-6633-4ce2-8200-71b821553314",
+      "full_name": "Jerami Grant",
+      "first_name": "Jerami",
+      "last_name": "Grant",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "39",
+      "transfers": [
+        {
+          "id": "7db622c6-59c4-4a21-93e7-2cb60f487016",
+          "notes": "Philadelphia drafted Grant 39th overall.",
+          "desc": "Draft",
+          "effective_date": "2014-06-27",
+          "last_modified": "2014-06-27T19:59:56+00:00",
+          "to_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3d43f259-7c1b-47ed-9dfd-d9478751d4ff",
+      "full_name": "Markel Brown",
+      "first_name": "Markel",
+      "last_name": "Brown",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "22",
+      "transfers": [
+        {
+          "id": "9832ffc2-314c-4cd7-ba09-c6e26e89a097",
+          "notes": "Minnesota drafted Brown 44th overall and then traded his rights to Brooklyn.",
+          "desc": "Draft/Trade",
+          "effective_date": "2014-06-27",
+          "last_modified": "2014-06-27T20:35:16+00:00",
+          "from_team": {
+            "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Timberwolves",
+            "market": "Minnesota"
+          },
+          "to_team": {
+            "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nets",
+            "market": "Brooklyn"
+          }
+        }
+      ]
+    },
+    {
+      "id": "02bdc54a-4db6-45d0-966e-d7659dd4ce13",
+      "full_name": "Russ Smith",
+      "first_name": "Russ",
+      "last_name": "Smith",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "9",
+      "transfers": [
+        {
+          "id": "987ec32d-ab12-4de8-a6fe-defa5a4c7712",
+          "notes": "Philadelphia drafted Smith 47th overall and then traded his rights to New Orleans.",
+          "desc": "Draft/Trade",
+          "effective_date": "2014-06-27",
+          "last_modified": "2014-06-27T20:54:56+00:00",
+          "from_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          },
+          "to_team": {
+            "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pelicans",
+            "market": "New Orleans"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7f462af0-2ac8-4ca5-aa5a-17b37dc5001b",
+      "full_name": "Glenn Robinson III",
+      "first_name": "Glenn",
+      "last_name": "Robinson",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "1",
+      "transfers": [
+        {
+          "id": "a0c76b6b-bc42-4064-9d76-5ad7074131ae",
+          "effective_date": "2014-06-27",
+          "last_modified": "2014-06-27T19:37:10+00:00",
+          "from_team": {
+            "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Timberwolves",
+            "market": "Minnesota"
+          },
+          "to_team": {
+            "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Timberwolves",
+            "market": "Minnesota"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d98a598a-5ef5-4194-9fb2-c400370151be",
+      "full_name": "Cameron Bairstow",
+      "first_name": "Cameron",
+      "last_name": "Bairstow",
+      "position": "F-C",
+      "primary_position": "C",
+      "jersey_number": "41",
+      "transfers": [
+        {
+          "id": "a261b687-19d9-4f6c-ab88-13821517ffa3",
+          "notes": "Chicago drafted Bairstow 49th overall.",
+          "desc": "Draft",
+          "effective_date": "2014-06-27",
+          "last_modified": "2014-06-27T21:01:22+00:00",
+          "from_team": {
+            "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bulls",
+            "market": "Chicago"
+          },
+          "to_team": {
+            "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bulls",
+            "market": "Chicago"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7fb15c57-6024-4b0c-9493-8d52d3ef3c24",
+      "full_name": "Walter Tavares",
+      "first_name": "Walter",
+      "last_name": "Tavares",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "a9569e8c-42c7-4497-913f-9ffb58261754",
+          "notes": "Atlanta drafted Tavares 43rd overall.",
+          "desc": "Draft",
+          "effective_date": "2014-06-27",
+          "last_modified": "2014-06-27T20:31:49+00:00",
+          "from_team": {
+            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hawks",
+            "market": "Atlanta"
+          },
+          "to_team": {
+            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hawks",
+            "market": "Atlanta"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d35cc4c9-3ac2-4b4b-96e1-0189ea985095",
+      "full_name": "Xavier Thames",
+      "first_name": "Xavier",
+      "last_name": "Thames",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "aab103bf-03c0-4082-92a2-5359890dc9e3",
+          "notes": "Toronto drafted Thames 59th overall and then traded his rights to Brooklyn.",
+          "desc": "Draft/trade",
+          "effective_date": "2014-06-27",
+          "last_modified": "2014-06-27T21:37:11+00:00",
+          "from_team": {
+            "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Raptors",
+            "market": "Toronto"
+          },
+          "to_team": {
+            "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nets",
+            "market": "Brooklyn"
+          }
+        }
+      ]
+    },
+    {
+      "id": "06255060-3d3d-44f6-a776-2aab8e57584a",
+      "full_name": "Dario Saric",
+      "first_name": "Dario",
+      "last_name": "Saric",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "b14788ff-726e-4bd8-96ee-e97616bbaa1d",
+          "notes": "Orlando drafted Saric 12th overall and then traded his rights to Philadelphia.",
+          "desc": "Draft/trade",
+          "effective_date": "2014-06-27",
+          "last_modified": "2014-06-27T21:45:54+00:00",
+          "from_team": {
+            "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Magic",
+            "market": "Orlando"
+          },
+          "to_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "64c0e4e5-8711-4b86-8072-745f6084df73",
+      "full_name": "Thanasis Antetokounmpo",
+      "first_name": "Thanasis",
+      "last_name": "Antetokounmpo",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "43",
+      "transfers": [
+        {
+          "id": "c4f4d404-606b-4fd0-b9b2-818f30582559",
+          "notes": "New York drafted Antetokounmpo 51st overall.",
+          "desc": "Draft",
+          "effective_date": "2014-06-27",
+          "last_modified": "2014-06-27T21:07:49+00:00",
+          "to_team": {
+            "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Knicks",
+            "market": "New York"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12b17a30-c238-4cac-9e31-85e81d8ac53e",
+      "full_name": "Cleanthony Early",
+      "first_name": "Cleanthony",
+      "last_name": "Early",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "17",
+      "transfers": [
+        {
+          "id": "c6a9a99e-18d5-4b23-911a-f450d45a5df5",
+          "notes": "Drafted 34th Overall by the New York Knicks.",
+          "effective_date": "2014-06-27",
+          "last_modified": "2014-06-27T19:48:26+00:00",
+          "to_team": {
+            "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Knicks",
+            "market": "New York"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4970099b-0a37-44f6-9b71-304040992efc",
+      "full_name": "Lamar Patterson",
+      "first_name": "Lamar",
+      "last_name": "Patterson",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "c712b05f-cd0e-42da-98b3-6107f22035c0",
+          "notes": "Milwaukee drafted Patterson 48th overall.",
+          "desc": "Draft",
+          "effective_date": "2014-06-27",
+          "last_modified": "2014-06-27T20:58:27+00:00",
+          "from_team": {
+            "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bucks",
+            "market": "Milwaukee"
+          },
+          "to_team": {
+            "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bucks",
+            "market": "Milwaukee"
+          }
+        }
+      ]
+    },
+    {
+      "id": "906ca5da-217a-4545-aa61-43bc5fdb55d2",
+      "full_name": "Nemanja Dangubic",
+      "first_name": "Nemanja",
+      "last_name": "Dangubic",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "ca73a90d-e589-4e65-a58c-6db4aff15e25",
+          "notes": "Philadelphia drafted Dangubic and then traded his rights to San Antonio.",
+          "desc": "Draft/trade",
+          "effective_date": "2014-06-27",
+          "last_modified": "2014-06-27T21:21:53+00:00",
+          "from_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          },
+          "to_team": {
+            "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Spurs",
+            "market": "San Antonio"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7f9a1243-6571-40cb-b80b-882cde378c70",
+      "full_name": "Cory Jefferson",
+      "first_name": "Cory",
+      "last_name": "Jefferson",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "21",
+      "transfers": [
+        {
+          "id": "cca023c9-9798-4e9f-a11d-de0544d3b9cc",
+          "notes": "San Antonio drafted Jefferson 60th overall and then traded his rights to Philadelphia who then traded Jefferson to Brooklyn.",
+          "desc": "Draft/trade",
+          "effective_date": "2014-06-27",
+          "last_modified": "2014-06-27T21:41:09+00:00",
+          "from_team": {
+            "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Spurs",
+            "market": "San Antonio"
+          },
+          "to_team": {
+            "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nets",
+            "market": "Brooklyn"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c8a8aa60-09ba-4b88-bbb1-fdcdd6ea8c4a",
+      "full_name": "Semaj Christon",
+      "first_name": "Semaj",
+      "last_name": "Christon",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "22",
+      "transfers": [
+        {
+          "id": "d0624523-971f-49e5-8254-05ffa66ba581",
+          "notes": "Miami drafted Christon 55th overall and then traded his rights to Oklahoma City.",
+          "desc": "Draft/trade",
+          "effective_date": "2014-06-27",
+          "last_modified": "2014-06-27T21:23:58+00:00",
+          "from_team": {
+            "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Heat",
+            "market": "Miami"
+          },
+          "to_team": {
+            "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Thunder",
+            "market": "Oklahoma City"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6dba15f0-f107-4eb5-bc20-5f67316df9d5",
+      "full_name": "Vasilije Micic",
+      "first_name": "Vasilije",
+      "last_name": "Micic",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "dc1dcd07-e587-4bce-956b-7cc91461658d",
+          "notes": "Philadelphia drafted Micic 52nd overall.",
+          "desc": "Draft",
+          "effective_date": "2014-06-27",
+          "last_modified": "2014-06-27T21:13:56+00:00",
+          "to_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "98ec8372-22fd-4ab4-88f2-94b47df7cb58",
+      "full_name": "Nick Johnson",
+      "first_name": "Nick",
+      "last_name": "Johnson",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "3",
+      "transfers": [
+        {
+          "id": "ea7c7dc3-e3ee-4953-98a5-f1b7acdf0382",
+          "notes": "Houston drafted Johnson 42nd overall.",
+          "desc": "Draft",
+          "effective_date": "2014-06-27",
+          "last_modified": "2014-06-27T20:22:02+00:00",
+          "to_team": {
+            "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Rockets",
+            "market": "Houston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "03d77214-5780-4715-8df2-13de3af5ea2d",
+      "full_name": "Jordan Clarkson",
+      "first_name": "Jordan",
+      "last_name": "Clarkson",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "6",
+      "transfers": [
+        {
+          "id": "f6ed1eb0-fa59-4e4d-8c43-199f7365b149",
+          "notes": "Washington drafted Clarkson 46th overall and then traded rights to Los Angeles.",
+          "desc": "Draft/Trade",
+          "effective_date": "2014-06-27",
+          "last_modified": "2014-06-27T20:51:45+00:00",
+          "from_team": {
+            "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Lakers",
+            "market": "Los Angeles"
+          },
+          "to_team": {
+            "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Lakers",
+            "market": "Los Angeles"
+          }
+        }
+      ]
+    }
+  ]
+}

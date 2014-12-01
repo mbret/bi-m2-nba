@@ -1,0 +1,74 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-10-15T04:00:00+00:00",
+  "end_time": "2014-10-16T03:59:59+00:00",
+  "players": [
+    {
+      "id": "da99ba23-b51d-4956-a204-6151d5a1a3d5",
+      "full_name": "Joe Jackson",
+      "first_name": "Joe",
+      "last_name": "Jackson",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "32",
+      "transfers": [
+        {
+          "id": "224dfea9-0779-4387-89ac-3429de01349a",
+          "effective_date": "2014-10-15",
+          "last_modified": "2014-10-15T13:10:48+00:00",
+          "from_team": {
+            "id": "583ecfa8-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Suns",
+            "market": "Phoenix"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c6761a85-10b8-49ee-8d27-f162db735172",
+      "full_name": "Jamil Wilson",
+      "first_name": "Jamil",
+      "last_name": "Wilson",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "2bdf80e3-81eb-4117-9fcd-8c59c751c0c4",
+          "effective_date": "2014-10-15",
+          "last_modified": "2014-10-15T13:11:30+00:00",
+          "from_team": {
+            "id": "583ecfa8-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Suns",
+            "market": "Phoenix"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3bc1f313-b16c-494c-a59d-5dafdb3b6649",
+      "full_name": "Casey Prather",
+      "first_name": "Casey",
+      "last_name": "Prather",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "23",
+      "transfers": [
+        {
+          "id": "bf8d886e-7c48-4602-b52b-855897900c1e",
+          "effective_date": "2014-10-15",
+          "last_modified": "2014-10-15T13:11:05+00:00",
+          "from_team": {
+            "id": "583ecfa8-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Suns",
+            "market": "Phoenix"
+          }
+        }
+      ]
+    }
+  ]
+}

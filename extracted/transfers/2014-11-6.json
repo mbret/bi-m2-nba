@@ -1,0 +1,58 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-11-06T05:00:00+00:00",
+  "end_time": "2014-11-07T04:59:59+00:00",
+  "players": [
+    {
+      "id": "00278ead-9420-47ba-a8c6-18e5c61d1492",
+      "full_name": "A.J. Price",
+      "first_name": "A.J.",
+      "last_name": "Price",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "21",
+      "transfers": [
+        {
+          "id": "c26c3261-ddad-41f8-8bc1-6ae97281c6b0",
+          "effective_date": "2014-11-06",
+          "last_modified": "2014-11-06T23:11:26+00:00",
+          "from_team": {
+            "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pacers",
+            "market": "Indiana"
+          },
+          "to_team": {
+            "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pacers",
+            "market": "Indiana"
+          }
+        }
+      ]
+    },
+    {
+      "id": "92fd1542-d9c3-4fc9-9f31-00b85e5f13d3",
+      "full_name": "Jordan Hamilton",
+      "first_name": "Jordan",
+      "last_name": "Hamilton",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "25",
+      "transfers": [
+        {
+          "id": "d59ff4ca-17e6-4543-9066-e7885101bf28",
+          "effective_date": "2014-11-06",
+          "last_modified": "2014-11-06T23:11:55+00:00",
+          "from_team": {
+            "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Jazz",
+            "market": "Utah"
+          }
+        }
+      ]
+    }
+  ]
+}

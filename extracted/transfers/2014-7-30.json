@@ -1,0 +1,53 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-07-30T04:00:00+00:00",
+  "end_time": "2014-07-31T03:59:59+00:00",
+  "players": [
+    {
+      "id": "91da23db-ca4f-4abd-a9e0-d8741c147d4f",
+      "full_name": "Hilton Armstrong",
+      "first_name": "Hilton",
+      "last_name": "Armstrong",
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "57",
+      "transfers": [
+        {
+          "id": "54efbc34-973c-454b-a098-184058271570",
+          "effective_date": "2014-07-30",
+          "last_modified": "2014-07-30T23:39:37+00:00",
+          "from_team": {
+            "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Warriors",
+            "market": "Golden State"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9e0aea48-a918-4685-8341-f4953f745bd2",
+      "full_name": "Melvin Ely",
+      "first_name": "Melvin",
+      "last_name": "Ely",
+      "position": "F-C",
+      "primary_position": "C",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "c0b976a7-4132-41fe-bdc7-8267d13edadd",
+          "effective_date": "2014-07-30",
+          "last_modified": "2014-07-30T23:40:52+00:00",
+          "from_team": {
+            "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Wizards",
+            "market": "Washington"
+          }
+        }
+      ]
+    }
+  ]
+}

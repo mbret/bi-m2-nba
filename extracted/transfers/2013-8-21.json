@@ -1,0 +1,37 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2013-08-21T04:00:00+00:00",
+  "end_time": "2013-08-22T03:59:59+00:00",
+  "players": [
+    {
+      "id": "e8a19123-81c1-49b4-ac6d-6862e63427c8",
+      "full_name": "Josh Harrellson",
+      "first_name": "Josh",
+      "last_name": "Harrellson",
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "55",
+      "transfers": [
+        {
+          "id": "c930bade-38d0-4711-8c5a-3bcab320544f",
+          "effective_date": "2013-08-20",
+          "last_modified": "2013-08-21T14:34:12+00:00",
+          "from_team": {
+            "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pistons",
+            "market": "Detroit"
+          },
+          "to_team": {
+            "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pistons",
+            "market": "Detroit"
+          }
+        }
+      ]
+    }
+  ]
+}

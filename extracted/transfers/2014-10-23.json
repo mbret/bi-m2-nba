@@ -1,0 +1,200 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-10-23T04:00:00+00:00",
+  "end_time": "2014-10-24T03:59:59+00:00",
+  "players": [
+    {
+      "id": "101de23a-cb10-44bb-b7c2-d90680f8fa4c",
+      "full_name": "Akil Mitchell",
+      "first_name": "Akil",
+      "last_name": "Mitchell",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "25",
+      "transfers": [
+        {
+          "id": "283bacb1-2177-45b8-84ca-424ce3057db1",
+          "effective_date": "2014-10-24",
+          "last_modified": "2014-10-24T00:19:37+00:00",
+          "from_team": {
+            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hawks",
+            "market": "Atlanta"
+          }
+        }
+      ]
+    },
+    {
+      "id": "29ff98a7-e749-43f6-82c3-f9526041e519",
+      "full_name": "Earl Clark",
+      "first_name": "Earl",
+      "last_name": "Clark",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "2",
+      "transfers": [
+        {
+          "id": "30456f5b-56d9-4727-89dc-6f0fa0005caa",
+          "effective_date": "2014-10-23",
+          "last_modified": "2014-10-23T12:44:02+00:00",
+          "from_team": {
+            "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Grizzlies",
+            "market": "Memphis"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3b8024e6-5872-4ceb-b675-415715527776",
+      "full_name": "Hassan Whiteside",
+      "first_name": "Hassan",
+      "last_name": "Whiteside",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "10",
+      "transfers": [
+        {
+          "id": "46c1a6ab-8c16-4349-8d2e-388f68dcf81d",
+          "effective_date": "2014-10-23",
+          "last_modified": "2014-10-23T12:43:13+00:00",
+          "from_team": {
+            "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Grizzlies",
+            "market": "Memphis"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3d386f0a-05bb-4f9b-b1d1-17f6f80b3b71",
+      "full_name": "Josh Powell",
+      "first_name": "Josh",
+      "last_name": "Powell",
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "21",
+      "transfers": [
+        {
+          "id": "674b4090-a6cf-4763-a44a-37c5e003ff9c",
+          "effective_date": "2014-10-24",
+          "last_modified": "2014-10-24T00:17:30+00:00",
+          "from_team": {
+            "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Rockets",
+            "market": "Houston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "978b7877-1608-4035-8999-840a8b000213",
+      "full_name": "Marcus E. Williams",
+      "first_name": "Marcus",
+      "last_name": "Williams",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "22",
+      "transfers": [
+        {
+          "id": "9300352c-b4ac-4fd8-82e9-881b2169f5aa",
+          "effective_date": "2014-10-23",
+          "last_modified": "2014-10-23T12:40:45+00:00",
+          "from_team": {
+            "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nuggets",
+            "market": "Denver"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f0ba938e-d631-48d3-9618-e0090a68a02d",
+      "full_name": "Quincy Miller",
+      "first_name": "Quincy",
+      "last_name": "Miller",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "30",
+      "transfers": [
+        {
+          "id": "9ae07a92-2a81-4f90-8a23-e56c20918ce6",
+          "effective_date": "2014-10-23",
+          "last_modified": "2014-10-23T12:41:09+00:00",
+          "from_team": {
+            "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nuggets",
+            "market": "Denver"
+          }
+        }
+      ]
+    },
+    {
+      "id": "99bb0128-a4a8-4891-9297-1ab602dc345d",
+      "full_name": "Jerrelle Benimon",
+      "first_name": "Jerrelle",
+      "last_name": "Benimon",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "20",
+      "transfers": [
+        {
+          "id": "b3635c51-70c0-45eb-bdcb-a5218505c5a9",
+          "effective_date": "2014-10-23",
+          "last_modified": "2014-10-23T12:42:38+00:00",
+          "from_team": {
+            "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nuggets",
+            "market": "Denver"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3778453d-f9cf-440c-a5c3-37f39f5f2882",
+      "full_name": "Jack Cooley",
+      "first_name": "Jack",
+      "last_name": "Cooley",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "45",
+      "transfers": [
+        {
+          "id": "d0656c6f-d099-4419-95c7-7d25fa49d0e9",
+          "effective_date": "2014-10-23",
+          "last_modified": "2014-10-23T12:45:24+00:00",
+          "from_team": {
+            "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Jazz",
+            "market": "Utah"
+          }
+        }
+      ]
+    },
+    {
+      "id": "90c64141-1d4d-4935-9387-fe236313c3f5",
+      "full_name": "Dahntay Jones",
+      "first_name": "Dahntay",
+      "last_name": "Jones",
+      "position": "F-G",
+      "primary_position": "SF",
+      "jersey_number": "30",
+      "transfers": [
+        {
+          "id": "ddcc8f94-e174-4ccc-b953-c64e9e06c33d",
+          "effective_date": "2014-10-23",
+          "last_modified": "2014-10-23T12:46:20+00:00",
+          "from_team": {
+            "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Jazz",
+            "market": "Utah"
+          }
+        }
+      ]
+    }
+  ]
+}

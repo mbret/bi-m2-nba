@@ -1,0 +1,32 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2013-10-18T04:00:00+00:00",
+  "end_time": "2013-10-19T03:59:59+00:00",
+  "players": [
+    {
+      "id": "3236fca5-06eb-47fe-8648-9fca802e0866",
+      "full_name": "Gary Forbes",
+      "first_name": "Gary",
+      "last_name": "Forbes",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "9",
+      "transfers": [
+        {
+          "id": "d0f725da-a369-44b9-8e11-ccfcfb0db457",
+          "effective_date": "2013-10-18",
+          "last_modified": "2013-10-18T14:22:40+00:00",
+          "from_team": {
+            "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nets",
+            "market": "Brooklyn"
+          }
+        }
+      ]
+    }
+  ]
+}

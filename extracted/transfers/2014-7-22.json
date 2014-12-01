@@ -1,0 +1,146 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-07-22T04:00:00+00:00",
+  "end_time": "2014-07-23T03:59:59+00:00",
+  "players": [
+    {
+      "id": "75b5993f-922d-4ad8-9f20-f646f39a4eaa",
+      "full_name": "Malcolm Thomas",
+      "first_name": "Malcolm",
+      "last_name": "Thomas",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "5038fd41-d507-46a8-9e10-db873dbbd92b",
+          "notes": "Utah has traded F Thomas to Cleveland.",
+          "desc": "Trade",
+          "effective_date": "2014-07-22",
+          "last_modified": "2014-07-22T22:55:50+00:00",
+          "from_team": {
+            "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Jazz",
+            "market": "Utah"
+          },
+          "to_team": {
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Cavaliers",
+            "market": "Cleveland"
+          }
+        }
+      ]
+    },
+    {
+      "id": "69ad92c6-2203-4b71-9cc7-108a0aad6ccd",
+      "full_name": "Erik Murphy",
+      "first_name": "Erik",
+      "last_name": "Murphy",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "a2552a74-1d33-4c7d-86ab-178af49db482",
+          "notes": "Utah has traded F Murphy to Cleveland.",
+          "desc": "Trade",
+          "effective_date": "2014-07-22",
+          "last_modified": "2014-07-22T22:56:34+00:00",
+          "from_team": {
+            "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Jazz",
+            "market": "Utah"
+          },
+          "to_team": {
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Cavaliers",
+            "market": "Cleveland"
+          }
+        }
+      ]
+    },
+    {
+      "id": "00f0e10f-0533-4924-aa04-88d6754ddacb",
+      "full_name": "Carrick Felix",
+      "first_name": "Carrick",
+      "last_name": "Felix",
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "bc853b4b-3fde-4d1c-942f-f42acc2e735b",
+          "notes": "Cleveland has traded G/F Felix to Utah.",
+          "desc": "Trade",
+          "effective_date": "2014-07-22",
+          "last_modified": "2014-07-22T22:57:27+00:00",
+          "from_team": {
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Cavaliers",
+            "market": "Cleveland"
+          },
+          "to_team": {
+            "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Jazz",
+            "market": "Utah"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4acebb9a-c4b2-4b49-9c73-f34d8fcc2395",
+      "full_name": "Brandon Rush",
+      "first_name": "Brandon",
+      "last_name": "Rush",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "bee8aaef-5185-4e7b-a1ee-ba4a43007c5d",
+          "notes": "Golden State has signed FA G Rush.",
+          "desc": "Free Agency",
+          "effective_date": "2014-07-22",
+          "last_modified": "2014-07-22T20:03:27+00:00",
+          "to_team": {
+            "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Warriors",
+            "market": "Golden State"
+          }
+        }
+      ]
+    },
+    {
+      "id": "17d7d84a-1d9c-48e4-b13c-3c365ea16f13",
+      "full_name": "John Lucas III",
+      "first_name": "John",
+      "last_name": "Lucas III",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "e3f033cb-e9e6-4a84-b26e-4b1609fe965f",
+          "notes": "Utah traded G Lucas III to Cleveland.",
+          "desc": "Trade",
+          "effective_date": "2014-07-22",
+          "last_modified": "2014-07-22T22:54:06+00:00",
+          "from_team": {
+            "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Jazz",
+            "market": "Utah"
+          },
+          "to_team": {
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Cavaliers",
+            "market": "Cleveland"
+          }
+        }
+      ]
+    }
+  ]
+}

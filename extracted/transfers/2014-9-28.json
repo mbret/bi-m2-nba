@@ -1,0 +1,136 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-09-28T04:00:00+00:00",
+  "end_time": "2014-09-29T03:59:59+00:00",
+  "players": [
+    {
+      "id": "ee82d0ca-c0d2-499b-92ca-af4f085e2452",
+      "full_name": "Chris Johnson",
+      "first_name": "Chris",
+      "last_name": "Johnson",
+      "position": "C-F",
+      "primary_position": "C",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "41071b31-7c53-48c4-ad52-db81a3aaf99d",
+          "notes": "Miami signs C-F Johnson to training camp deal.",
+          "desc": "Free Agency",
+          "effective_date": "2014-09-28",
+          "last_modified": "2014-09-28T21:23:10+00:00",
+          "from_team": {
+            "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Heat",
+            "market": "Miami"
+          },
+          "to_team": {
+            "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Heat",
+            "market": "Miami"
+          }
+        }
+      ]
+    },
+    {
+      "id": "17d7d84a-1d9c-48e4-b13c-3c365ea16f13",
+      "full_name": "John Lucas III",
+      "first_name": "John",
+      "last_name": "Lucas III",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "5dd754c8-804a-4368-83d7-2fb2c8546052",
+          "notes": "Boston waives G Lucas III.",
+          "desc": "Waived",
+          "effective_date": "2014-09-28",
+          "last_modified": "2014-09-28T21:13:01+00:00",
+          "from_team": {
+            "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Celtics",
+            "market": "Boston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "75b5993f-922d-4ad8-9f20-f646f39a4eaa",
+      "full_name": "Malcolm Thomas",
+      "first_name": "Malcolm",
+      "last_name": "Thomas",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "800782a0-f1aa-49d9-ba8c-0a0144e6a98e",
+          "notes": "Boston waives F Thomas.",
+          "desc": "Waived",
+          "effective_date": "2014-09-28",
+          "last_modified": "2014-09-28T21:13:51+00:00",
+          "from_team": {
+            "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Celtics",
+            "market": "Boston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3919daa3-0cc4-4c44-a3cc-10f5f9c31fe5",
+      "full_name": "Jason Maxiell",
+      "first_name": "Jason",
+      "last_name": "Maxiell",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "959f8009-bc64-43d0-b963-11ba5d647233",
+          "notes": "Charlotte signs F Maxiell to non-guaranteed contract.",
+          "desc": "Free Agency",
+          "effective_date": "2014-09-28",
+          "last_modified": "2014-09-29T00:00:04+00:00",
+          "to_team": {
+            "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hornets",
+            "market": "Charlotte"
+          }
+        }
+      ]
+    },
+    {
+      "id": "e3848f10-1f5a-4feb-b2ad-0b4dce9b1209",
+      "full_name": "Christopher Johnson",
+      "first_name": "Christopher",
+      "last_name": "Johnson",
+      "position": "F-G",
+      "primary_position": "SF",
+      "jersey_number": "12",
+      "transfers": [
+        {
+          "id": "99e46aed-e8ab-4eba-ad27-fc858b24eb53",
+          "notes": "Philadelphia claims F-G Johnson off waivers from Boston.",
+          "desc": "Waiver Claim",
+          "effective_date": "2014-09-28",
+          "last_modified": "2014-09-28T21:16:57+00:00",
+          "from_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          },
+          "to_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    }
+  ]
+}

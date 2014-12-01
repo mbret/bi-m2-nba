@@ -1,0 +1,34 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-09-02T04:00:00+00:00",
+  "end_time": "2014-09-03T03:59:59+00:00",
+  "players": [
+    {
+      "id": "e6dd018a-aad4-489d-981e-d330d2ac2906",
+      "full_name": "James Michael McAdoo",
+      "first_name": "James Michael",
+      "last_name": "McAdoo",
+      "position": "F",
+      "primary_position": "NA",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "8e20efb7-c543-4751-8595-5e9d26bb9b7f",
+          "notes": "Golden State has signed FA F McAdoo.",
+          "desc": "Free Agency",
+          "effective_date": "2014-09-02",
+          "last_modified": "2014-09-02T20:22:20+00:00",
+          "to_team": {
+            "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Warriors",
+            "market": "Golden State"
+          }
+        }
+      ]
+    }
+  ]
+}

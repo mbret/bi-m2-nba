@@ -1,0 +1,132 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-10-17T04:00:00+00:00",
+  "end_time": "2014-10-18T03:59:59+00:00",
+  "players": [
+    {
+      "id": "46bb99cd-123f-4d42-bfcb-ad2891df2e0e",
+      "full_name": "Elijah Millsap",
+      "first_name": "Elijah",
+      "last_name": "Millsap",
+      "position": "G-F",
+      "primary_position": "SF",
+      "jersey_number": "18",
+      "transfers": [
+        {
+          "id": "0498233a-bc39-4f35-af87-4f485d35af25",
+          "effective_date": "2014-10-17",
+          "last_modified": "2014-10-17T12:52:59+00:00",
+          "from_team": {
+            "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bucks",
+            "market": "Milwaukee"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6ef9e6c3-f6c5-4569-80d7-97c79b180e81",
+      "full_name": "Will Bynum",
+      "first_name": "Will",
+      "last_name": "Bynum",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "12",
+      "transfers": [
+        {
+          "id": "3e5069b7-a025-4011-817e-ed369531e80c",
+          "notes": "Detroit trades G Bynum to Boston.",
+          "desc": "Trade",
+          "effective_date": "2014-10-17",
+          "last_modified": "2014-10-17T14:22:51+00:00",
+          "from_team": {
+            "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pistons",
+            "market": "Detroit"
+          },
+          "to_team": {
+            "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Celtics",
+            "market": "Boston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "602c4ed3-8df5-4192-9e49-cb465d931c98",
+      "full_name": "Chris Wright",
+      "first_name": "Chris",
+      "last_name": "Wright",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "15",
+      "transfers": [
+        {
+          "id": "8cdde380-7280-41c4-a61f-10844c330b96",
+          "effective_date": "2014-10-17",
+          "last_modified": "2014-10-17T12:54:54+00:00",
+          "from_team": {
+            "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bucks",
+            "market": "Milwaukee"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11612dd6-431c-486d-88aa-789f3adf8149",
+      "full_name": "Dionte Christmas",
+      "first_name": "Dionte",
+      "last_name": "Christmas",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "22",
+      "transfers": [
+        {
+          "id": "8f15ebd3-eefd-4bec-997c-aea2e7ec6853",
+          "notes": "New Orleans waives G Christmas.",
+          "desc": "Waived",
+          "effective_date": "2014-10-17",
+          "last_modified": "2014-10-17T17:17:01+00:00",
+          "from_team": {
+            "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pelicans",
+            "market": "New Orleans"
+          }
+        }
+      ]
+    },
+    {
+      "id": "db276a05-67d9-45fc-a5b1-96aeea8e83df",
+      "full_name": "Joel Anthony",
+      "first_name": "Joel",
+      "last_name": "Anthony",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "50",
+      "transfers": [
+        {
+          "id": "fac99971-e144-4db0-8bc4-69d3d96fb42b",
+          "notes": "Boston trades C Anthony to Detroit.",
+          "desc": "Trade",
+          "effective_date": "2014-10-17",
+          "last_modified": "2014-10-17T14:22:09+00:00",
+          "from_team": {
+            "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Celtics",
+            "market": "Boston"
+          },
+          "to_team": {
+            "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pistons",
+            "market": "Detroit"
+          }
+        }
+      ]
+    }
+  ]
+}

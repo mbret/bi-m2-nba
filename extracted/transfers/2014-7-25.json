@@ -1,0 +1,184 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-07-25T04:00:00+00:00",
+  "end_time": "2014-07-26T03:59:59+00:00",
+  "players": [
+    {
+      "id": "55e9d1e5-6ea3-4475-9877-d9d1f5f1910d",
+      "full_name": "Pierre Jackson",
+      "first_name": "Pierre",
+      "last_name": "Jackson",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "14e7fad9-e0d6-4bf2-b72e-7c8abc10e717",
+          "notes": "Philadelphia has signed FA G Jackson",
+          "desc": "Free Agency",
+          "effective_date": "2014-07-25",
+          "last_modified": "2014-07-25T16:32:27+00:00",
+          "to_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "0dae5927-7029-441d-bd2e-25fe0ddc58c3",
+      "full_name": "Jannero Pargo",
+      "first_name": "Jannero",
+      "last_name": "Pargo",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "4dde63ca-16cd-4f6a-aa08-8327d0ce35aa",
+          "notes": "Charlotte has resigned FA G Pargo.",
+          "desc": "Free Agency",
+          "effective_date": "2014-07-25",
+          "last_modified": "2014-07-25T20:13:13+00:00",
+          "to_team": {
+            "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hornets",
+            "market": "Charlotte"
+          }
+        },
+        {
+          "id": "7f22d64e-66c8-477a-a129-448afccbf79e",
+          "notes": "Pargo signed 2 year deal with Maccabi Electra Tel Aviv.",
+          "desc": "Free Agency",
+          "effective_date": "2014-07-25",
+          "last_modified": "2014-07-25T16:31:52+00:00",
+          "from_team": {
+            "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hornets",
+            "market": "Charlotte"
+          }
+        }
+      ]
+    },
+    {
+      "id": "81f26bbb-c9a8-488a-8f3e-dbede7757677",
+      "full_name": "Erick Green",
+      "first_name": "Erick",
+      "last_name": "Green",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "4f765b40-6a97-4825-a2bc-2ec5e2e13315",
+          "notes": "Denver has signed FA G Green.",
+          "desc": "Free Agency",
+          "effective_date": "2014-07-25",
+          "last_modified": "2014-07-25T16:34:26+00:00",
+          "to_team": {
+            "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nuggets",
+            "market": "Denver"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11612dd6-431c-486d-88aa-789f3adf8149",
+      "full_name": "Dionte Christmas",
+      "first_name": "Dionte",
+      "last_name": "Christmas",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "7f728fdb-0aa5-412c-9e8c-00de657faff6",
+          "notes": "Phoenix has waived G Christmas.",
+          "desc": "Waived",
+          "effective_date": "2014-07-25",
+          "last_modified": "2014-07-25T16:31:00+00:00",
+          "from_team": {
+            "id": "583ecfa8-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Suns",
+            "market": "Phoenix"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7d3518ea-875e-4bc2-96dd-8d496b91515e",
+      "full_name": "Jimmer Fredette",
+      "first_name": "Jimmer",
+      "last_name": "Fredette",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "c1c569e7-67e3-4bcb-b25a-fce0677f278d",
+          "notes": "New Orleans has signed FA G Fredette.",
+          "desc": "Free Agency",
+          "effective_date": "2014-07-25",
+          "last_modified": "2014-07-25T16:30:17+00:00",
+          "to_team": {
+            "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pelicans",
+            "market": "New Orleans"
+          }
+        }
+      ]
+    },
+    {
+      "id": "1a3d62c9-f569-4019-9f0e-6b99afe628a0",
+      "full_name": "Luke Ridnour",
+      "first_name": "Luke",
+      "last_name": "Ridnour",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "efd6806c-2382-4eb8-9d13-df0770962309",
+          "notes": "Orlando has signed FA G Ridnour.",
+          "desc": "Free Agency",
+          "effective_date": "2014-07-25",
+          "last_modified": "2014-07-25T21:18:01+00:00",
+          "to_team": {
+            "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Magic",
+            "market": "Orlando"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5d3681c6-9c73-4895-9b59-b4851069469f",
+      "full_name": "Jameer Nelson",
+      "first_name": "Jameer",
+      "last_name": "Nelson",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "fa67a132-b448-457b-b09c-b93b10734651",
+          "notes": "Orlando has signed FA G Nelson.",
+          "desc": "Free Agency",
+          "effective_date": "2014-07-25",
+          "last_modified": "2014-07-25T16:33:05+00:00",
+          "to_team": {
+            "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Magic",
+            "market": "Orlando"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2013-12-13T05:00:00+00:00",
+  "end_time": "2013-12-14T04:59:59+00:00",
+  "players": [
+    {
+      "id": "ac2c0c6b-e25f-4dbc-a12c-084a41fb8136",
+      "full_name": "Josh Childress",
+      "first_name": "Josh",
+      "last_name": "Childress",
+      "position": "F-G",
+      "primary_position": "SF",
+      "jersey_number": "27",
+      "transfers": [
+        {
+          "id": "ca95cdd6-3f0b-4bb7-96e9-631dcead2cef",
+          "effective_date": "2013-12-13",
+          "last_modified": "2013-12-13T22:57:50+00:00",
+          "from_team": {
+            "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pelicans",
+            "market": "New Orleans"
+          }
+        }
+      ]
+    }
+  ]
+}

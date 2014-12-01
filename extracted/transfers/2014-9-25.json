@@ -1,0 +1,37 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-09-25T04:00:00+00:00",
+  "end_time": "2014-09-26T03:59:59+00:00",
+  "players": [
+    {
+      "id": "1981e577-063e-426a-af2c-adf666403911",
+      "full_name": "Ronnie Price",
+      "first_name": "Ronnie",
+      "last_name": "Price",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "10",
+      "transfers": [
+        {
+          "id": "2fd7c3ce-263e-4310-ac76-6f636021b9d7",
+          "effective_date": "2014-09-25",
+          "last_modified": "2014-09-25T12:46:09+00:00",
+          "from_team": {
+            "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Lakers",
+            "market": "Los Angeles"
+          },
+          "to_team": {
+            "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Lakers",
+            "market": "Los Angeles"
+          }
+        }
+      ]
+    }
+  ]
+}

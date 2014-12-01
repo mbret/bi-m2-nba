@@ -1,0 +1,113 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-11-09T05:00:00+00:00",
+  "end_time": "2014-11-10T04:59:59+00:00",
+  "players": [
+    {
+      "id": "a3ecd4d9-a3ed-4a45-a47f-49eacf07f7aa",
+      "full_name": "Jarnell Stokes",
+      "first_name": "Jarnell",
+      "last_name": "Stokes",
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "1",
+      "transfers": [
+        {
+          "id": "15dbc87a-f748-44c6-ad8a-c227cb60ac9f",
+          "notes": "Memphis recalls Stokes from D-League affiliate.",
+          "desc": "Recalled",
+          "effective_date": "2014-11-09",
+          "last_modified": "2014-11-09T16:01:44+00:00",
+          "from_team": {
+            "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Grizzlies",
+            "market": "Memphis"
+          },
+          "to_team": {
+            "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Grizzlies",
+            "market": "Memphis"
+          }
+        }
+      ]
+    },
+    {
+      "id": "703719b2-2db0-4590-90f7-0be1041c1f81",
+      "full_name": "Jordan Adams",
+      "first_name": "Jordan",
+      "last_name": "Adams",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "3",
+      "transfers": [
+        {
+          "id": "2c46542e-1d31-4054-b8ec-d7a9c005b845",
+          "notes": "Memphis recalls Adams from D-League affiliate.",
+          "desc": "Recalled",
+          "effective_date": "2014-11-09",
+          "last_modified": "2014-11-09T16:02:14+00:00",
+          "from_team": {
+            "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Grizzlies",
+            "market": "Memphis"
+          },
+          "to_team": {
+            "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Grizzlies",
+            "market": "Memphis"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a465418b-0933-40b4-8f01-253d046872e1",
+      "full_name": "Dwight Powell",
+      "first_name": "Dwight",
+      "last_name": "Powell",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "12",
+      "transfers": [
+        {
+          "id": "4456f72c-028a-4cb3-9f4a-1b299a603bf7",
+          "notes": "Boston sends Powell to Maine (NBADL).",
+          "desc": "Assigned",
+          "effective_date": "2014-11-09",
+          "last_modified": "2014-11-09T22:23:43+00:00",
+          "from_team": {
+            "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Celtics",
+            "market": "Boston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "e9ba0168-1eec-469f-8fdc-1b01cf698877",
+      "full_name": "Kalin Lucas",
+      "first_name": "Kalin",
+      "last_name": "Lucas",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "27",
+      "transfers": [
+        {
+          "id": "6021dee7-e2fe-4e2c-9561-1e6fe07b6e4d",
+          "notes": "Memphis waives Lucas.",
+          "desc": "Waived",
+          "effective_date": "2014-11-09",
+          "last_modified": "2014-11-09T23:45:29+00:00",
+          "from_team": {
+            "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Grizzlies",
+            "market": "Memphis"
+          }
+        }
+      ]
+    }
+  ]
+}

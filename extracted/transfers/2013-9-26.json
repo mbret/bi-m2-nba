@@ -1,0 +1,32 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2013-09-26T04:00:00+00:00",
+  "end_time": "2013-09-27T03:59:59+00:00",
+  "players": [
+    {
+      "id": "dc59b4b4-6b59-4c69-94f0-70599fd938d7",
+      "full_name": "Jerel McNeal",
+      "first_name": "Jerel",
+      "last_name": "McNeal",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "23",
+      "transfers": [
+        {
+          "id": "43ef1a32-d6a7-4495-a0fe-8bc3249ab189",
+          "effective_date": "2013-09-26",
+          "last_modified": "2013-09-26T19:13:27+00:00",
+          "from_team": {
+            "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Jazz",
+            "market": "Utah"
+          }
+        }
+      ]
+    }
+  ]
+}

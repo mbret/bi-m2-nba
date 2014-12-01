@@ -1,0 +1,34 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-11-02T04:00:00+00:00",
+  "end_time": "2014-11-03T04:59:59+00:00",
+  "players": [
+    {
+      "id": "484cae7f-ed5a-42c0-9f18-a60cfe237573",
+      "full_name": "Will Cherry",
+      "first_name": "Will",
+      "last_name": "Cherry",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "188fe24b-64dc-4cf2-9eb6-8f5d191963c2",
+          "notes": "Cleveland signs FA G Cherry.",
+          "desc": "Free Agent",
+          "effective_date": "2014-11-02",
+          "last_modified": "2014-11-02T19:02:25+00:00",
+          "to_team": {
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Cavaliers",
+            "market": "Cleveland"
+          }
+        }
+      ]
+    }
+  ]
+}

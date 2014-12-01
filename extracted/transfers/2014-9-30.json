@@ -1,0 +1,57 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-09-30T04:00:00+00:00",
+  "end_time": "2014-10-01T03:59:59+00:00",
+  "players": [
+    {
+      "id": "eee7ca97-fce8-4af4-94b5-f5b107c76b46",
+      "full_name": "Alonzo Gee",
+      "first_name": "Alonzo",
+      "last_name": "Gee",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "87455b64-6d21-4103-af8a-58c5787a6003",
+          "notes": "Denver signs FA F Gee.",
+          "desc": "Free Agency",
+          "effective_date": "2014-09-30",
+          "last_modified": "2014-09-30T14:44:45+00:00",
+          "to_team": {
+            "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nuggets",
+            "market": "Denver"
+          }
+        }
+      ]
+    },
+    {
+      "id": "55e9d1e5-6ea3-4475-9877-d9d1f5f1910d",
+      "full_name": "Pierre Jackson",
+      "first_name": "Pierre",
+      "last_name": "Jackson",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "95f5d783-aaa1-4d8d-883b-7b65534c7829",
+          "notes": "Philadelphia waives G Jackson.",
+          "desc": "Waived",
+          "effective_date": "2014-09-30",
+          "last_modified": "2014-09-30T21:31:46+00:00",
+          "from_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    }
+  ]
+}

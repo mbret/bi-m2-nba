@@ -1,0 +1,84 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-07-18T04:00:00+00:00",
+  "end_time": "2014-07-19T03:59:59+00:00",
+  "players": [
+    {
+      "id": "a062f75e-860c-4792-ac47-d6109fd0159c",
+      "full_name": "Eric Griffin",
+      "first_name": "Eric",
+      "last_name": "Griffin",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "0c06bf22-5daf-44d7-ac82-91c143ce3feb",
+          "effective_date": "2014-07-18",
+          "last_modified": "2014-07-18T23:10:23+00:00",
+          "from_team": {
+            "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Mavericks",
+            "market": "Dallas"
+          },
+          "to_team": {
+            "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Mavericks",
+            "market": "Dallas"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9fd789bc-0aa4-4028-b114-5014deacfbe2",
+      "full_name": "Kendall Marshall",
+      "first_name": "Kendall",
+      "last_name": "Marshall",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "12",
+      "transfers": [
+        {
+          "id": "875248b7-3144-4b20-9a26-52a99b23f8b1",
+          "effective_date": "2014-07-18",
+          "last_modified": "2014-07-18T22:48:08+00:00",
+          "from_team": {
+            "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Lakers",
+            "market": "Los Angeles"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6995981a-66a6-42df-ab3a-886eab12aabd",
+      "full_name": "Carlos Boozer",
+      "first_name": "Carlos",
+      "last_name": "Boozer",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "b459134e-e4d0-445d-9925-2e7418ead0bc",
+          "effective_date": "2014-07-18",
+          "last_modified": "2014-07-18T17:13:34+00:00",
+          "from_team": {
+            "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Lakers",
+            "market": "Los Angeles"
+          },
+          "to_team": {
+            "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Lakers",
+            "market": "Los Angeles"
+          }
+        }
+      ]
+    }
+  ]
+}

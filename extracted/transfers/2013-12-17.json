@@ -1,0 +1,32 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2013-12-17T05:00:00+00:00",
+  "end_time": "2013-12-18T04:59:59+00:00",
+  "players": [
+    {
+      "id": "66e28766-9b3b-4b4f-a770-85b206f4fc22",
+      "full_name": "Mike James",
+      "first_name": "Mike",
+      "last_name": "James",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "8",
+      "transfers": [
+        {
+          "id": "be16fe7c-5e5b-45a7-9e9b-08300344589c",
+          "effective_date": "2013-12-17",
+          "last_modified": "2013-12-17T16:27:21+00:00",
+          "from_team": {
+            "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bulls",
+            "market": "Chicago"
+          }
+        }
+      ]
+    }
+  ]
+}

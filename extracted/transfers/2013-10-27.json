@@ -1,0 +1,158 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2013-10-27T04:00:00+00:00",
+  "end_time": "2013-10-28T03:59:59+00:00",
+  "players": [
+    {
+      "id": "ee82d0ca-c0d2-499b-92ca-af4f085e2452",
+      "full_name": "Chris Johnson",
+      "first_name": "Chris",
+      "last_name": "Johnson",
+      "position": "C-F",
+      "primary_position": "C",
+      "jersey_number": "21",
+      "transfers": [
+        {
+          "id": "094ef5ca-ef7b-42ff-8382-fcc9fa33e697",
+          "effective_date": "2013-10-27",
+          "last_modified": "2013-10-27T06:27:16+00:00",
+          "from_team": {
+            "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Timberwolves",
+            "market": "Minnesota"
+          }
+        }
+      ]
+    },
+    {
+      "id": "602c4ed3-8df5-4192-9e49-cb465d931c98",
+      "full_name": "Chris Wright",
+      "first_name": "Chris",
+      "last_name": "Wright",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "15",
+      "transfers": [
+        {
+          "id": "35b67f51-c3ce-4ee4-bc8d-8d744749bb9f",
+          "effective_date": "2013-10-27",
+          "last_modified": "2013-10-27T06:28:20+00:00",
+          "from_team": {
+            "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Raptors",
+            "market": "Toronto"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2b48a99a-d60b-42f0-953a-8e92b8c92ab8",
+      "full_name": "Dominic McGuire",
+      "first_name": "Dominic",
+      "last_name": "McGuire",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "8",
+      "transfers": [
+        {
+          "id": "a2cb4574-9bd0-4692-9bb6-397791a390c8",
+          "effective_date": "2013-10-27",
+          "last_modified": "2013-10-27T06:26:10+00:00",
+          "from_team": {
+            "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Jazz",
+            "market": "Utah"
+          }
+        }
+      ]
+    },
+    {
+      "id": "88527323-3637-4cae-b7a2-01de8a64e8da",
+      "full_name": "Carlos Morais",
+      "first_name": "Carlos",
+      "last_name": "Morais",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "6",
+      "transfers": [
+        {
+          "id": "bba59d88-fbe3-461b-9cf7-1fca260c6a33",
+          "effective_date": "2013-10-27",
+          "last_modified": "2013-10-27T06:28:10+00:00",
+          "from_team": {
+            "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Raptors",
+            "market": "Toronto"
+          }
+        }
+      ]
+    },
+    {
+      "id": "05dea31d-f1ff-491b-9f17-8be88b26f413",
+      "full_name": "Justin Holiday",
+      "first_name": "Justin",
+      "last_name": "Holiday",
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "7",
+      "transfers": [
+        {
+          "id": "c11e0b17-2542-4ba6-9f6d-c2c52fb98e5a",
+          "effective_date": "2013-10-27",
+          "last_modified": "2013-10-27T06:26:20+00:00",
+          "from_team": {
+            "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Jazz",
+            "market": "Utah"
+          }
+        }
+      ]
+    },
+    {
+      "id": "53491d84-e238-4c6e-a2a7-7d880134874f",
+      "full_name": "Eric Dawson",
+      "first_name": "Eric",
+      "last_name": "Dawson",
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "25",
+      "transfers": [
+        {
+          "id": "e0987cfa-e3dc-41b6-bf15-4f2d0b273c51",
+          "effective_date": "2013-10-27",
+          "last_modified": "2013-10-27T06:25:50+00:00",
+          "from_team": {
+            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hawks",
+            "market": "Atlanta"
+          }
+        }
+      ]
+    },
+    {
+      "id": "84a2f85a-083c-46aa-aa22-e3761023adc4",
+      "full_name": "Damion James",
+      "first_name": "Damion",
+      "last_name": "James",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "7",
+      "transfers": [
+        {
+          "id": "fb80dd3a-a9c3-4265-bb43-cbe81034fd64",
+          "effective_date": "2013-10-27",
+          "last_modified": "2013-10-27T06:26:34+00:00",
+          "from_team": {
+            "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nuggets",
+            "market": "Denver"
+          }
+        }
+      ]
+    }
+  ]
+}

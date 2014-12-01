@@ -1,0 +1,225 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2013-10-29T04:00:00+00:00",
+  "end_time": "2013-10-30T03:59:59+00:00",
+  "players": [
+    {
+      "id": "27c3cb5e-7c6b-4ef7-bffe-73f0283a6805",
+      "full_name": "Brandon Davies",
+      "first_name": "Brandon",
+      "last_name": "Davies",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "05a455c8-3c1c-45f8-b6f5-d6ed35145476",
+          "effective_date": "2013-10-28",
+          "last_modified": "2013-10-29T14:47:20+00:00",
+          "from_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          },
+          "to_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5014fd11-2275-4137-9a88-bf8e3c0040ac",
+      "full_name": "Dee Bost",
+      "first_name": "Dee",
+      "last_name": "Bost",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "2",
+      "transfers": [
+        {
+          "id": "1132a2e1-9db9-4738-ab6c-93a4cb6c7a46",
+          "effective_date": "2013-10-22",
+          "last_modified": "2013-10-29T15:07:11+00:00",
+          "from_team": {
+            "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Trail Blazers",
+            "market": "Portland"
+          }
+        }
+      ]
+    },
+    {
+      "id": "585fcb11-46d0-4cc5-93d1-e4a8383050b8",
+      "full_name": "Michael Lee",
+      "first_name": "Michael",
+      "last_name": "Lee",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "20",
+      "transfers": [
+        {
+          "id": "262ce15f-7611-41b7-91dc-b11f18ef6eea",
+          "effective_date": "2013-10-28",
+          "last_modified": "2013-10-29T14:51:00+00:00",
+          "from_team": {
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Cavaliers",
+            "market": "Cleveland"
+          }
+        }
+      ]
+    },
+    {
+      "id": "80e40879-5feb-4fcf-8069-fdecd4d1b802",
+      "full_name": "Patrick O'Bryant",
+      "first_name": "Patrick",
+      "last_name": "O'Bryant",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "18",
+      "transfers": [
+        {
+          "id": "3fb7fafb-1286-4596-a0c5-d062bd3a2734",
+          "effective_date": "2013-10-23",
+          "last_modified": "2013-10-29T14:48:40+00:00",
+          "from_team": {
+            "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hornets",
+            "market": "Charlotte"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2e663dab-1632-462a-a113-dbe35ef65f2e",
+      "full_name": "James Nunnally",
+      "first_name": "James",
+      "last_name": "Nunnally",
+      "position": "F",
+      "primary_position": "SF",
+      "transfers": [
+        {
+          "id": "44a5ed3c-b390-4a43-bb44-ca00195988ce",
+          "effective_date": "2013-10-24",
+          "last_modified": "2013-10-29T15:05:04+00:00",
+          "from_team": {
+            "id": "583ecfa8-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Suns",
+            "market": "Phoenix"
+          }
+        }
+      ]
+    },
+    {
+      "id": "57f717d5-0c6e-4079-a6d2-c73ba44979b2",
+      "full_name": "Malcolm Lee",
+      "first_name": "Malcolm",
+      "last_name": "Lee",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "11",
+      "transfers": [
+        {
+          "id": "88d7f6ee-18aa-4e8d-8a28-187e578ff4ce",
+          "effective_date": "2013-10-29",
+          "last_modified": "2013-10-29T14:51:22+00:00",
+          "from_team": {
+            "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Wizards",
+            "market": "Washington"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9fd789bc-0aa4-4028-b114-5014deacfbe2",
+      "full_name": "Kendall Marshall",
+      "first_name": "Kendall",
+      "last_name": "Marshall",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "5",
+      "transfers": [
+        {
+          "id": "8d5be305-b112-4ef1-8524-a52a186a947c",
+          "effective_date": "2013-10-29",
+          "last_modified": "2013-10-29T14:51:32+00:00",
+          "from_team": {
+            "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Wizards",
+            "market": "Washington"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6bdfbe83-5aa3-4cbc-a102-bcf305c56fc4",
+      "full_name": "E.J. Singler",
+      "first_name": "E.J.",
+      "last_name": "Singler",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "33",
+      "transfers": [
+        {
+          "id": "acc6da2c-e053-47f3-b0da-2125f08c71ef",
+          "effective_date": "2013-10-29",
+          "last_modified": "2013-10-29T15:08:02+00:00",
+          "from_team": {
+            "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Trail Blazers",
+            "market": "Portland"
+          }
+        }
+      ]
+    },
+    {
+      "id": "098f0b33-9a6b-47b0-95c7-4aba176a4206",
+      "full_name": "Shannon Brown",
+      "first_name": "Shannon",
+      "last_name": "Brown",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "26",
+      "transfers": [
+        {
+          "id": "e92f63c7-bfdc-47b2-b9d4-1e54af6cc3ba",
+          "effective_date": "2013-10-28",
+          "last_modified": "2013-10-29T15:09:35+00:00",
+          "from_team": {
+            "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Wizards",
+            "market": "Washington"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ff907e95-7c1a-4c63-b957-cf3fd3a750da",
+      "full_name": "Richard Howell",
+      "first_name": "Richard",
+      "last_name": "Howell",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "21",
+      "transfers": [
+        {
+          "id": "f4ffffc0-3381-4dd7-8eee-fd6dbaae77bc",
+          "effective_date": "2013-10-29",
+          "last_modified": "2013-10-29T15:07:39+00:00",
+          "from_team": {
+            "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Trail Blazers",
+            "market": "Portland"
+          }
+        }
+      ]
+    }
+  ]
+}

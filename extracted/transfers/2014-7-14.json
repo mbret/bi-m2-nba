@@ -1,0 +1,1317 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-07-14T04:00:00+00:00",
+  "end_time": "2014-07-15T03:59:59+00:00",
+  "players": [
+    {
+      "id": "da0de6b8-d6a9-4cd0-8cdd-3e6b5c35282c",
+      "full_name": "Omri Casspi",
+      "first_name": "Omri",
+      "last_name": "Casspi",
+      "position": "G-F",
+      "primary_position": "SF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "02fa0407-00dc-420a-9e5f-5e4996cb7325",
+          "notes": "Houston traded G/F Casspi to New Orleans.",
+          "desc": "Trade",
+          "effective_date": "2014-07-14",
+          "last_modified": "2014-07-14T16:14:46+00:00",
+          "from_team": {
+            "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Rockets",
+            "market": "Houston"
+          },
+          "to_team": {
+            "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pelicans",
+            "market": "New Orleans"
+          }
+        }
+      ]
+    },
+    {
+      "id": "48ceabf2-4a9b-4b4e-9e44-1f12113894c1",
+      "full_name": "Julyan Stone",
+      "first_name": "Julyan",
+      "last_name": "Stone",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "77",
+      "transfers": [
+        {
+          "id": "0751579a-1119-4159-b0a8-f5d74427493c",
+          "notes": "Toronto has signed FA G Stone.",
+          "desc": "Free Agency",
+          "effective_date": "2014-07-14",
+          "last_modified": "2014-07-14T19:04:44+00:00",
+          "to_team": {
+            "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Raptors",
+            "market": "Toronto"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ed343fa6-397c-4456-9f3f-63efee6706b5",
+      "full_name": "Udonis Haslem",
+      "first_name": "Udonis",
+      "last_name": "Haslem",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "0f6b90ff-64c6-4cd9-a2fb-5d07bc27c900",
+          "notes": "C/F Haslem opted out of his contract at end of season becoming an UFA.",
+          "desc": "Free Agent",
+          "effective_date": "2014-06-28",
+          "last_modified": "2014-07-14T20:07:25+00:00",
+          "from_team": {
+            "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Heat",
+            "market": "Miami"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ed09f424-fb27-4fb9-add8-a2e7e3ef76c5",
+      "full_name": "John Salmons",
+      "first_name": "John",
+      "last_name": "Salmons",
+      "position": "F-G",
+      "primary_position": "SF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "0f963b60-562c-49be-bf84-8c39b04a2da4",
+          "notes": "Toronto traded G/F Salmons to Atlanta.",
+          "desc": "Trade",
+          "effective_date": "2014-06-29",
+          "last_modified": "2014-07-14T18:56:42+00:00",
+          "from_team": {
+            "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Raptors",
+            "market": "Toronto"
+          },
+          "to_team": {
+            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hawks",
+            "market": "Atlanta"
+          }
+        },
+        {
+          "id": "435d8ad5-41f0-4b44-9e33-61bfcfdbedb8",
+          "notes": "New Orleans will sign FA G/F Salmons.",
+          "desc": "Free Agency",
+          "effective_date": "2014-07-14",
+          "last_modified": "2014-07-14T20:59:18+00:00",
+          "to_team": {
+            "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pelicans",
+            "market": "New Orleans"
+          }
+        },
+        {
+          "id": "510c7c05-dad5-4149-b809-1a430c7155f3",
+          "notes": "Atlanta has waived F/G Salmons.",
+          "desc": "Waived",
+          "effective_date": "2014-07-12",
+          "last_modified": "2014-07-14T18:57:46+00:00",
+          "from_team": {
+            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hawks",
+            "market": "Atlanta"
+          }
+        }
+      ]
+    },
+    {
+      "id": "01e8f44f-f1ee-4d3a-86bd-c29d597ba9bd",
+      "full_name": "Lance Stephenson",
+      "first_name": "Lance",
+      "last_name": "Stephenson",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "10513f56-a80c-4299-a0dc-d71a011f7716",
+          "notes": "G Stephenson became UFA at end of season.",
+          "desc": "Free Agent",
+          "effective_date": "2014-06-26",
+          "last_modified": "2014-07-14T19:47:06+00:00",
+          "from_team": {
+            "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pacers",
+            "market": "Indiana"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4287b809-4c78-4433-9790-b1d5fdef46e8",
+      "full_name": "Arron Afflalo",
+      "first_name": "Arron",
+      "last_name": "Afflalo",
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "1f01fa02-1251-4022-9ca4-653837769080",
+          "notes": "Orlando traded G/F Afflalo to Denver for Fournier.",
+          "desc": "Trade",
+          "effective_date": "2014-07-14",
+          "last_modified": "2014-07-14T19:29:21+00:00",
+          "from_team": {
+            "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Magic",
+            "market": "Orlando"
+          },
+          "to_team": {
+            "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nuggets",
+            "market": "Denver"
+          }
+        }
+      ]
+    },
+    {
+      "id": "48f84650-080a-42e5-adfb-3074d6f17037",
+      "full_name": "Jose Calderon",
+      "first_name": "Jose",
+      "last_name": "Calderon",
+      "position": "G",
+      "primary_position": "PG",
+      "transfers": [
+        {
+          "id": "1f3a6d76-68de-42de-b034-d04be7ce1812",
+          "notes": "Dallas has traded G Calderon to New York Knicks.",
+          "desc": "Trade",
+          "effective_date": "2014-07-14",
+          "last_modified": "2014-07-14T18:25:29+00:00",
+          "from_team": {
+            "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Mavericks",
+            "market": "Dallas"
+          },
+          "to_team": {
+            "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Knicks",
+            "market": "New York"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9392d5b6-3dbf-4375-8fdd-4dafaae6ede4",
+      "full_name": "Trevor Ariza",
+      "first_name": "Trevor",
+      "last_name": "Ariza",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "29744d42-4fee-4434-b7a0-643a54d69096",
+          "notes": "Houston acquires F Ariza in 3 team trade with Washington and New Orleans.",
+          "desc": "Trade",
+          "effective_date": "2014-07-14",
+          "last_modified": "2014-07-14T16:18:23+00:00",
+          "from_team": {
+            "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Wizards",
+            "market": "Washington"
+          },
+          "to_team": {
+            "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Rockets",
+            "market": "Houston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "83b736a0-6c1e-4526-b948-e4781251cb73",
+      "full_name": "Raymond Felton",
+      "first_name": "Raymond",
+      "last_name": "Felton",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "2",
+      "transfers": [
+        {
+          "id": "2c207cd4-99fc-4430-ba34-061631792fe7",
+          "notes": "New York has traded G Felton to Dallas.",
+          "desc": "Trade",
+          "effective_date": "2014-07-14",
+          "last_modified": "2014-07-14T18:27:37+00:00",
+          "from_team": {
+            "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Knicks",
+            "market": "New York"
+          },
+          "to_team": {
+            "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Mavericks",
+            "market": "Dallas"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d5ef3cfe-2ab9-4b77-823a-62678c13058f",
+      "full_name": "Marcus Thornton",
+      "first_name": "Marcus",
+      "last_name": "Thornton",
+      "position": "G",
+      "primary_position": "SG",
+      "transfers": [
+        {
+          "id": "38b12346-9fca-40bd-9259-d0eec9913d4f",
+          "notes": "Brooklyn traded G Thornton to Boston.",
+          "desc": "Trade",
+          "effective_date": "2014-07-14",
+          "last_modified": "2014-07-14T18:12:44+00:00",
+          "from_team": {
+            "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nets",
+            "market": "Brooklyn"
+          },
+          "to_team": {
+            "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Celtics",
+            "market": "Boston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fa1c4130-38de-4ea1-b93a-4c3c962473e6",
+      "full_name": "Vince Carter",
+      "first_name": "Vince",
+      "last_name": "Carter",
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "3ed6260e-2ef8-476d-a186-33dbf293613c",
+          "notes": "Memphis has signed FA G/F Carter.",
+          "desc": "Free Agency",
+          "effective_date": "2014-07-14",
+          "last_modified": "2014-07-14T17:47:26+00:00",
+          "to_team": {
+            "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Grizzlies",
+            "market": "Memphis"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9e70fd45-4543-429c-aed7-3ce81ef5906d",
+      "full_name": "Caron Butler",
+      "first_name": "Caron",
+      "last_name": "Butler",
+      "position": "F",
+      "primary_position": "SF",
+      "transfers": [
+        {
+          "id": "46aa9cec-83b3-40dc-ab8f-5f64ce9c1f81",
+          "notes": "Detroit has signed FA Butler.",
+          "desc": "Free Agency",
+          "effective_date": "2014-07-14",
+          "last_modified": "2014-07-14T16:09:55+00:00",
+          "to_team": {
+            "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pistons",
+            "market": "Detroit"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4970099b-0a37-44f6-9b71-304040992efc",
+      "full_name": "Lamar Patterson",
+      "first_name": "Lamar",
+      "last_name": "Patterson",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "4c1b4d67-eb94-4011-95b0-96861ca3eca6",
+          "notes": "G Patterson was drafted by Milwaukee and then traded to Atlanta.",
+          "desc": "Trade",
+          "effective_date": "2014-06-26",
+          "last_modified": "2014-07-14T20:15:40+00:00",
+          "from_team": {
+            "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bucks",
+            "market": "Milwaukee"
+          },
+          "to_team": {
+            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hawks",
+            "market": "Atlanta"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7a303bc0-f105-4bcb-afe0-61d49dfe43a9",
+      "full_name": "Brendan Haywood",
+      "first_name": "Brendan",
+      "last_name": "Haywood",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "62979bc8-9d1b-49a9-b2b9-77d3bfb4e36d",
+          "notes": "Charlotte traded C Haywood to Cleveland.",
+          "desc": "Trade",
+          "effective_date": "2014-07-14",
+          "last_modified": "2014-07-14T17:38:17+00:00",
+          "from_team": {
+            "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hornets",
+            "market": "Charlotte"
+          },
+          "to_team": {
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Cavaliers",
+            "market": "Cleveland"
+          }
+        }
+      ]
+    },
+    {
+      "id": "462416b4-840b-4c4a-a9bf-7d9e0b594e20",
+      "full_name": "Sergey Karasev",
+      "first_name": "Sergey",
+      "last_name": "Karasev",
+      "position": "G-F",
+      "primary_position": "SG",
+      "transfers": [
+        {
+          "id": "62ac4e46-cc78-4b26-90f4-7a9e2041525e",
+          "notes": "Brooklyn acquired G/F Karasev from Cleveland.",
+          "desc": "Trade",
+          "effective_date": "2014-07-14",
+          "last_modified": "2014-07-14T18:19:01+00:00",
+          "from_team": {
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Cavaliers",
+            "market": "Cleveland"
+          },
+          "to_team": {
+            "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nets",
+            "market": "Brooklyn"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2629c593-5f7c-4d34-aec7-6b949572af2a",
+      "full_name": "Louis Williams",
+      "first_name": "Louis",
+      "last_name": "Williams",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "65dd1aad-ac18-4722-b509-eb862b5f9cb7",
+          "notes": "Atlanta traded G Williams to Toronto.",
+          "desc": "Trade",
+          "effective_date": "2014-06-29",
+          "last_modified": "2014-07-14T19:06:11+00:00",
+          "from_team": {
+            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hawks",
+            "market": "Atlanta"
+          },
+          "to_team": {
+            "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Raptors",
+            "market": "Toronto"
+          }
+        }
+      ]
+    },
+    {
+      "id": "51921718-0c38-42b8-8411-3d640a889c04",
+      "full_name": "Andrew Bynum",
+      "first_name": "Andrew",
+      "last_name": "Bynum",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "6ad97a2b-7a7d-45ee-8a37-c97d1a01b9be",
+          "notes": "Indiana released C Bynum.",
+          "desc": "Released",
+          "effective_date": "2014-07-14",
+          "last_modified": "2014-07-14T19:44:03+00:00",
+          "from_team": {
+            "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pacers",
+            "market": "Indiana"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ab55b5eb-f998-4480-a69b-eacaa7325ff3",
+      "full_name": "Willie Reed",
+      "first_name": "Willie",
+      "last_name": "Reed",
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "6bbd79df-971b-4a1d-a3f2-d7dda9a7b76f",
+          "notes": "Sacramento has waived F Reed.",
+          "desc": "Waived",
+          "effective_date": "2014-06-29",
+          "last_modified": "2014-07-14T20:45:17+00:00",
+          "from_team": {
+            "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Kings",
+            "market": "Sacramento"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a18805c2-d746-4d4b-be83-5b96c3bdf6af",
+      "full_name": "D.J. Augustin",
+      "first_name": "D.J.",
+      "last_name": "Augustin",
+      "position": "G",
+      "primary_position": "PG",
+      "transfers": [
+        {
+          "id": "703c941d-e21d-44d4-8f80-b527508f7482",
+          "notes": "Detroit has signed FA Augustin.",
+          "desc": "Free Agency",
+          "effective_date": "2014-07-14",
+          "last_modified": "2014-07-14T16:10:46+00:00",
+          "to_team": {
+            "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pistons",
+            "market": "Detroit"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ca4f6af4-c203-41d0-97a3-0286710710b6",
+      "full_name": "Evan Turner",
+      "first_name": "Evan",
+      "last_name": "Turner",
+      "position": "F-G",
+      "primary_position": "SF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "75a9b538-83de-4ca1-8c06-e64186fe907d",
+          "notes": "G/F Turner became UFA at end of season.",
+          "desc": "Free Agent",
+          "effective_date": "2014-06-30",
+          "last_modified": "2014-07-14T19:48:31+00:00",
+          "from_team": {
+            "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pacers",
+            "market": "Indiana"
+          }
+        }
+      ]
+    },
+    {
+      "id": "732b1bd6-d99a-4971-bc2c-4de4842b4a9a",
+      "full_name": "C.J. Miles",
+      "first_name": "C.J.",
+      "last_name": "Miles",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "7aeafc37-fdbc-4855-b410-1ae6ed5720d1",
+          "notes": "Indiana has signed FA G/F Miles.",
+          "desc": "Free Agency",
+          "effective_date": "2014-07-14",
+          "last_modified": "2014-07-14T19:22:02+00:00",
+          "to_team": {
+            "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pacers",
+            "market": "Indiana"
+          }
+        }
+      ]
+    },
+    {
+      "id": "e8482324-a0fa-43fe-88bf-96ec27ea502b",
+      "full_name": "Shane Battier",
+      "first_name": "Shane",
+      "last_name": "Battier",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "31",
+      "transfers": [
+        {
+          "id": "7b1b7b2d-83eb-42be-9505-359934ccd9be",
+          "notes": "G/F Battier has confirmed he is retiring.",
+          "desc": "Retirement",
+          "effective_date": "2014-06-17",
+          "last_modified": "2014-07-14T20:01:20+00:00",
+          "from_team": {
+            "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Heat",
+            "market": "Miami"
+          }
+        }
+      ]
+    },
+    {
+      "id": "294d0821-162a-47d8-9156-6036749ffbf8",
+      "full_name": "Anthony Morrow",
+      "first_name": "Anthony",
+      "last_name": "Morrow",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "800bad2e-3197-4575-95a3-2d1b9876271b",
+          "notes": "Oklahoma City has signed FA G/F Morrow.",
+          "desc": "Free Agency",
+          "effective_date": "2014-07-14",
+          "last_modified": "2014-07-14T17:45:23+00:00",
+          "to_team": {
+            "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Thunder",
+            "market": "Oklahoma City"
+          }
+        }
+      ]
+    },
+    {
+      "id": "76c71fde-f27f-4a50-8f7f-421898aacc72",
+      "full_name": "Shane Larkin",
+      "first_name": "Shane",
+      "last_name": "Larkin",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "81b707d5-73e0-48d6-ba8c-23eab2440914",
+          "notes": "Dallas traded G Larkin to New York.",
+          "desc": "Trade",
+          "effective_date": "2014-07-14",
+          "last_modified": "2014-07-14T18:31:19+00:00",
+          "from_team": {
+            "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Mavericks",
+            "market": "Dallas"
+          },
+          "to_team": {
+            "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Knicks",
+            "market": "New York"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2c157857-fffd-4eb5-8e2a-b28ebea8da77",
+      "full_name": "Kent Bazemore",
+      "first_name": "Kent",
+      "last_name": "Bazemore",
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "83424098-f681-4164-8730-ef0aa57316ab",
+          "notes": "Atlanta has signed FA G/F Bazemore.",
+          "desc": "Free Agency",
+          "effective_date": "2014-07-14",
+          "last_modified": "2014-07-14T17:48:51+00:00",
+          "to_team": {
+            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hawks",
+            "market": "Atlanta"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ca06ce60-1fb3-40a1-bb50-a16f75f4ea5d",
+      "full_name": "Samuel Dalembert",
+      "first_name": "Samuel",
+      "last_name": "Dalembert",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "11",
+      "transfers": [
+        {
+          "id": "871ddd25-b87a-4de0-b954-b1d28bbc9714",
+          "notes": "Dallas has traded C Dalembert to New York Knicks.",
+          "desc": "Trade",
+          "effective_date": "2014-07-14",
+          "last_modified": "2014-07-14T18:26:08+00:00",
+          "from_team": {
+            "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Mavericks",
+            "market": "Dallas"
+          },
+          "to_team": {
+            "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Knicks",
+            "market": "New York"
+          }
+        }
+      ]
+    },
+    {
+      "id": "31d384f9-3877-4c72-b95f-b08bae5a5762",
+      "full_name": "Greg Oden",
+      "first_name": "Greg",
+      "last_name": "Oden",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "89409b4f-a352-4ed0-a54b-4343c25eceaf",
+          "notes": "C Oden became UFA at end of the season.",
+          "desc": "Free Agent",
+          "effective_date": "2014-07-14",
+          "last_modified": "2014-07-14T20:11:52+00:00",
+          "from_team": {
+            "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Heat",
+            "market": "Miami"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bda5388e-a657-4e2c-8e12-6ed474518d25",
+      "full_name": "Isaiah Thomas",
+      "first_name": "Isaiah",
+      "last_name": "Thomas",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "8f8aec39-d36a-4c3f-a9b2-c3f77e197482",
+          "notes": "Phoenix has signed RFA Thomas.",
+          "desc": "Free Agency",
+          "effective_date": "2014-07-14",
+          "last_modified": "2014-07-14T20:37:52+00:00",
+          "from_team": {
+            "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Kings",
+            "market": "Sacramento"
+          },
+          "to_team": {
+            "id": "583ecfa8-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Suns",
+            "market": "Phoenix"
+          }
+        }
+      ]
+    },
+    {
+      "id": "427b45ce-28f8-48ab-9687-9d5f7d61e479",
+      "full_name": "Anthony Randolph",
+      "first_name": "Anthony",
+      "last_name": "Randolph",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "92e80a76-2186-4b5c-b1b6-82c6a87f2168",
+          "notes": "Denver traded C/F Randolph to Chicago as part of Draft night trade.",
+          "desc": "Trade",
+          "effective_date": "2014-06-26",
+          "last_modified": "2014-07-14T19:17:39+00:00",
+          "from_team": {
+            "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nuggets",
+            "market": "Denver"
+          },
+          "to_team": {
+            "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bulls",
+            "market": "Chicago"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3cd2d1c1-d575-45fd-b069-3f0adf57796d",
+      "full_name": "Tyson Chandler",
+      "first_name": "Tyson",
+      "last_name": "Chandler",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "6",
+      "transfers": [
+        {
+          "id": "944c48ce-1819-4e36-890c-13b47f5c3a05",
+          "notes": "New York Knicks traded C Chandler to Dallas.",
+          "desc": "Trade",
+          "effective_date": "2014-07-14",
+          "last_modified": "2014-07-14T18:23:46+00:00",
+          "from_team": {
+            "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Knicks",
+            "market": "New York"
+          },
+          "to_team": {
+            "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Mavericks",
+            "market": "Dallas"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a465418b-0933-40b4-8f01-253d046872e1",
+      "full_name": "Dwight Powell",
+      "first_name": "Dwight",
+      "last_name": "Powell",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "9b997d79-3376-4c2f-9c65-6ccf5c913e67",
+          "notes": "Charlotte traded the draft rights for F Powell to Cleveland. ",
+          "desc": "Trade",
+          "effective_date": "2014-07-14",
+          "last_modified": "2014-07-14T17:39:23+00:00",
+          "from_team": {
+            "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hornets",
+            "market": "Charlotte"
+          },
+          "to_team": {
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Cavaliers",
+            "market": "Cleveland"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6198401e-043a-4f61-846e-cfeb963caddc",
+      "full_name": "Toney Douglas",
+      "first_name": "Toney",
+      "last_name": "Douglas",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "9d2f8dd2-5e68-4d05-90e5-fdff71a8dfa6",
+          "notes": "G Douglas became a UFA at end of season.",
+          "desc": "Free Agent",
+          "effective_date": "2014-07-14",
+          "last_modified": "2014-07-14T20:04:07+00:00",
+          "from_team": {
+            "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Heat",
+            "market": "Miami"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9e0aea48-a918-4685-8341-f4953f745bd2",
+      "full_name": "Melvin Ely",
+      "first_name": "Melvin",
+      "last_name": "Ely",
+      "position": "F-C",
+      "primary_position": "C",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "a474f7a8-92eb-4280-9313-b3cf9700571d",
+          "notes": "New Orleans has traded F/C Ely to Washington.",
+          "desc": "Trade",
+          "effective_date": "2014-07-14",
+          "last_modified": "2014-07-14T16:15:52+00:00",
+          "from_team": {
+            "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pelicans",
+            "market": "New Orleans"
+          },
+          "to_team": {
+            "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Wizards",
+            "market": "Washington"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a4ad5c7c-e823-4e1f-922d-459dc0bd3ae3",
+      "full_name": "Earl Watson",
+      "first_name": "Earl",
+      "last_name": "Watson",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "a5025e8a-f6f8-4cbc-96dd-1e78b2e0bbf4",
+          "notes": "G Watson has not decided to retire as a player yet but has hopes to become coach in NBA if he does.",
+          "desc": "Retirement",
+          "effective_date": "2014-06-30",
+          "last_modified": "2014-07-14T20:41:37+00:00",
+          "from_team": {
+            "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Trail Blazers",
+            "market": "Portland"
+          }
+        }
+      ]
+    },
+    {
+      "id": "1bb08c8b-8176-4de7-939f-9f8072e3afc6",
+      "full_name": "Derek Fisher",
+      "first_name": "Derek",
+      "last_name": "Fisher",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "6",
+      "transfers": [
+        {
+          "id": "b2c2b6a7-3a10-4502-ba29-de2dc5940574",
+          "notes": "G Fisher has retired as a player and signed onto become the Head Coach of the New York Knicks.",
+          "desc": "Retirement",
+          "effective_date": "2014-06-26",
+          "last_modified": "2014-07-14T20:25:31+00:00",
+          "from_team": {
+            "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Thunder",
+            "market": "Oklahoma City"
+          }
+        }
+      ]
+    },
+    {
+      "id": "e43acd9a-43b7-4676-9e97-2ba1d34ef2de",
+      "full_name": "Mo Williams",
+      "first_name": "Mo",
+      "last_name": "Williams",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "b90659b6-64b6-439a-915e-35c0e36ba29d",
+          "notes": "G Williams became UFA at end of season.",
+          "desc": "Free Agent",
+          "effective_date": "2014-06-26",
+          "last_modified": "2014-07-14T20:42:30+00:00",
+          "from_team": {
+            "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Trail Blazers",
+            "market": "Portland"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dd0cee88-72aa-4591-a336-186fc899f3f5",
+      "full_name": "Tyler Zeller",
+      "first_name": "Tyler",
+      "last_name": "Zeller",
+      "position": "C",
+      "primary_position": "C",
+      "transfers": [
+        {
+          "id": "bb5ee5b1-8eac-43a8-9244-3723f5088bdf",
+          "notes": "Boston acquired C Zeller in three team trade with Brooklyn and Cleveland.",
+          "desc": "Trade",
+          "effective_date": "2014-07-14",
+          "last_modified": "2014-07-14T18:13:48+00:00",
+          "from_team": {
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Cavaliers",
+            "market": "Cleveland"
+          },
+          "to_team": {
+            "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Celtics",
+            "market": "Boston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f78e5895-0da3-46a5-810c-47e957bb1e6a",
+      "full_name": "Scotty Hopson",
+      "first_name": "Scotty",
+      "last_name": "Hopson",
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "bc3b1254-cb6c-4941-85be-b756e3fd4d57",
+          "desc": "Trade",
+          "effective_date": "2014-07-14",
+          "last_modified": "2014-07-14T16:12:25+00:00",
+          "from_team": {
+            "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hornets",
+            "market": "Charlotte"
+          },
+          "to_team": {
+            "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pelicans",
+            "market": "New Orleans"
+          }
+        }
+      ]
+    },
+    {
+      "id": "440251c0-601a-471a-9bdf-a8c7cd7efda8",
+      "full_name": "Mike Miller",
+      "first_name": "Mike",
+      "last_name": "Miller",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "c76ddaf0-81ea-499f-83ea-6031f4e49299",
+          "notes": "Miller became an UFA at end of season.",
+          "desc": "Free Agent",
+          "effective_date": "2014-07-14",
+          "last_modified": "2014-07-14T19:56:35+00:00",
+          "from_team": {
+            "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Grizzlies",
+            "market": "Memphis"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8a21a022-d3e4-468f-9eeb-c05c29284b79",
+      "full_name": "Rashard Lewis",
+      "first_name": "Rashard",
+      "last_name": "Lewis",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "c924155e-a390-44bd-9d05-c19ec2512bba",
+          "notes": "F Lewis became an UFA at end of season.",
+          "desc": "Free Agent",
+          "effective_date": "2014-07-14",
+          "last_modified": "2014-07-14T20:10:10+00:00",
+          "from_team": {
+            "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Heat",
+            "market": "Miami"
+          }
+        }
+      ]
+    },
+    {
+      "id": "47e00cc4-53ca-453b-993a-0f58279e2a94",
+      "full_name": "Wayne Ellington",
+      "first_name": "Wayne",
+      "last_name": "Ellington",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "2",
+      "transfers": [
+        {
+          "id": "d237e8a5-3d3e-4031-8f16-f18d9cd30fea",
+          "notes": "Dallas traded G Ellington to New York Knicks.",
+          "desc": "Trade",
+          "effective_date": "2014-07-14",
+          "last_modified": "2014-07-14T18:29:38+00:00",
+          "from_team": {
+            "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Mavericks",
+            "market": "Dallas"
+          },
+          "to_team": {
+            "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Knicks",
+            "market": "New York"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b736d95c-8474-48b2-9000-24ce926eace3",
+      "full_name": "Evan Fournier",
+      "first_name": "Evan",
+      "last_name": "Fournier",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "d281e8aa-8272-402b-af4e-47e443d864a3",
+          "desc": "Denver traded Evan Fournier to Orlando for SF Aflalo.",
+          "effective_date": "2014-07-14",
+          "last_modified": "2014-07-14T19:28:20+00:00",
+          "from_team": {
+            "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nuggets",
+            "market": "Denver"
+          },
+          "to_team": {
+            "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Magic",
+            "market": "Orlando"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ae9050a8-f83f-4a66-9741-308c47730103",
+      "full_name": "Michael Beasley",
+      "first_name": "Michael",
+      "last_name": "Beasley",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "d82c4b15-faa7-4b01-a1b9-543279409cdf",
+          "notes": "F Beasley became UFA at end of season.",
+          "desc": "Free Agent",
+          "effective_date": "2014-07-14",
+          "last_modified": "2014-07-14T20:02:44+00:00",
+          "from_team": {
+            "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Heat",
+            "market": "Miami"
+          }
+        }
+      ]
+    },
+    {
+      "id": "eee7ca97-fce8-4af4-94b5-f5b107c76b46",
+      "full_name": "Alonzo Gee",
+      "first_name": "Alonzo",
+      "last_name": "Gee",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "d8c995ca-3111-42ba-8b30-9d6a55312c60",
+          "notes": "New Orleans traded G/F Gee to Houston.",
+          "desc": "Trade",
+          "effective_date": "2014-07-14",
+          "last_modified": "2014-07-14T16:13:52+00:00",
+          "from_team": {
+            "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pelicans",
+            "market": "New Orleans"
+          },
+          "to_team": {
+            "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Rockets",
+            "market": "Houston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c3a3881d-92e9-4352-979b-d8465a5a3605",
+      "full_name": "Jarrett Jack",
+      "first_name": "Jarrett",
+      "last_name": "Jack",
+      "position": "G",
+      "primary_position": "PG",
+      "transfers": [
+        {
+          "id": "d91bdddf-3c4f-4f6d-9d65-3c723813b34a",
+          "notes": "Brooklyn acquired G Jack in three team trade with Cleveland and Boston.",
+          "desc": "Trade",
+          "effective_date": "2014-07-14",
+          "last_modified": "2014-07-14T18:17:24+00:00",
+          "from_team": {
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Cavaliers",
+            "market": "Cleveland"
+          },
+          "to_team": {
+            "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nets",
+            "market": "Brooklyn"
+          }
+        }
+      ]
+    },
+    {
+      "id": "434e09b0-2da5-44f4-b406-b5a80852d71d",
+      "full_name": "Chandler Parsons",
+      "first_name": "Chandler",
+      "last_name": "Parsons",
+      "position": "F",
+      "primary_position": "SF",
+      "transfers": [
+        {
+          "id": "de8dc4cc-4117-4cdc-9277-f8fe41876543",
+          "notes": "Dallas has signed FA Parsons.",
+          "desc": "Free Agency",
+          "effective_date": "2014-07-14",
+          "last_modified": "2014-07-14T16:07:30+00:00",
+          "to_team": {
+            "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Mavericks",
+            "market": "Dallas"
+          }
+        }
+      ]
+    },
+    {
+      "id": "332332d8-b7c4-4730-9f44-d905f6fc2975",
+      "full_name": "Ray Allen",
+      "first_name": "Ray",
+      "last_name": "Allen",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "ef8ae5cf-e52f-42ea-9cd3-6255e872c635",
+          "notes": "G Allen became UFA at end of season.",
+          "desc": "Free Agent",
+          "effective_date": "2014-07-14",
+          "last_modified": "2014-07-14T19:59:36+00:00",
+          "from_team": {
+            "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Heat",
+            "market": "Miami"
+          }
+        }
+      ]
+    },
+    {
+      "id": "0a574a5f-3e6c-4eff-b63d-eacf4ee3951b",
+      "full_name": "Alex Oriakhi",
+      "first_name": "Alex",
+      "last_name": "Oriakhi",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "f5418f1b-f668-40ef-9aeb-e38e6a510d76",
+          "notes": "Sacramento has signed FA F Oriakhi.",
+          "desc": "Free Agency",
+          "effective_date": "2014-07-14",
+          "last_modified": "2014-07-14T17:43:59+00:00",
+          "to_team": {
+            "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Kings",
+            "market": "Sacramento"
+          }
+        }
+      ]
+    },
+    {
+      "id": "09d25155-c3be-4246-a986-55921a1b5e61",
+      "full_name": "James Jones",
+      "first_name": "James",
+      "last_name": "Jones",
+      "position": "F-G",
+      "primary_position": "SF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "f9a1c797-379b-4ae2-bdfe-fbefcec1d2f9",
+          "notes": "G/F Jones became a UFA at end of season.",
+          "desc": "Free Agent",
+          "effective_date": "2014-07-14",
+          "last_modified": "2014-07-14T20:08:40+00:00",
+          "from_team": {
+            "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Heat",
+            "market": "Miami"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4aafa7e4-d271-42d2-8979-bdefcd221d30",
+      "full_name": "Pau Gasol",
+      "first_name": "Pau",
+      "last_name": "Gasol",
+      "position": "F-C",
+      "primary_position": "PF",
+      "transfers": [
+        {
+          "id": "fc863e3e-5327-4d8b-9ecb-cac866fa6d6a",
+          "notes": "Chicago has signed FA F/C Pau Gasol.",
+          "desc": "Free Agency",
+          "effective_date": "2014-07-14",
+          "last_modified": "2014-07-14T17:43:10+00:00",
+          "to_team": {
+            "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bulls",
+            "market": "Chicago"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3f0fe7a4-888a-4564-aa0d-f310b05071bd",
+      "full_name": "Paul Pierce",
+      "first_name": "Paul",
+      "last_name": "Pierce",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "feccaae5-de61-4422-b523-d5c2e6c6f972",
+          "notes": "Washington has signed FA Pierce.",
+          "desc": "Free Agency",
+          "effective_date": "2014-07-14",
+          "last_modified": "2014-07-14T17:30:20+00:00",
+          "to_team": {
+            "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Wizards",
+            "market": "Washington"
+          }
+        }
+      ]
+    }
+  ]
+}

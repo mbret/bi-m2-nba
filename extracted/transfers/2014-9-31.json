@@ -1,0 +1,37 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-10-01T04:00:00+00:00",
+  "end_time": "2014-10-02T03:59:59+00:00",
+  "players": [
+    {
+      "id": "85387f13-e153-44b4-88c9-cc8088edce64",
+      "full_name": "Pops Mensah-Bonsu",
+      "first_name": "Pops",
+      "last_name": "Mensah-Bonsu",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "44",
+      "transfers": [
+        {
+          "id": "9e676b72-e0c7-4392-ae1e-81c3e3e441aa",
+          "effective_date": "2014-10-01",
+          "last_modified": "2014-10-01T12:36:12+00:00",
+          "from_team": {
+            "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nuggets",
+            "market": "Denver"
+          },
+          "to_team": {
+            "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nuggets",
+            "market": "Denver"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,401 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2013-09-06T04:00:00+00:00",
+  "end_time": "2013-09-07T03:59:59+00:00",
+  "players": [
+    {
+      "id": "a18805c2-d746-4d4b-be83-5b96c3bdf6af",
+      "full_name": "D.J. Augustin",
+      "first_name": "D.J.",
+      "last_name": "Augustin",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "14",
+      "transfers": [
+        {
+          "id": "12205b4c-159c-498e-be0b-dc6f277a24e2",
+          "effective_date": "2013-09-06",
+          "last_modified": "2013-09-06T21:18:03+00:00",
+          "from_team": {
+            "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Raptors",
+            "market": "Toronto"
+          },
+          "to_team": {
+            "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Raptors",
+            "market": "Toronto"
+          }
+        }
+      ]
+    },
+    {
+      "id": "47f88b06-686d-47c2-89bd-58e9406be8da",
+      "full_name": "Nate Robinson",
+      "first_name": "Nate",
+      "last_name": "Robinson",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "5",
+      "transfers": [
+        {
+          "id": "251c598e-37b8-4467-9e4b-c265bb735e68",
+          "effective_date": "2013-09-06",
+          "last_modified": "2013-09-06T21:16:01+00:00",
+          "from_team": {
+            "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nuggets",
+            "market": "Denver"
+          },
+          "to_team": {
+            "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nuggets",
+            "market": "Denver"
+          }
+        }
+      ]
+    },
+    {
+      "id": "e5b54fa6-88e0-4702-9677-282f204a43e1",
+      "full_name": "Phil Pressey",
+      "first_name": "Phil",
+      "last_name": "Pressey",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "26",
+      "transfers": [
+        {
+          "id": "28c1aa89-a8b6-4256-b08e-659432dbf91b",
+          "effective_date": "2013-09-06",
+          "last_modified": "2013-09-06T20:29:22+00:00",
+          "from_team": {
+            "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Celtics",
+            "market": "Boston"
+          },
+          "to_team": {
+            "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Celtics",
+            "market": "Boston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "1647115a-1607-4250-889e-8ae1af98fc92",
+      "full_name": "Tony Wroten",
+      "first_name": "Tony",
+      "last_name": "Wroten",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "8",
+      "transfers": [
+        {
+          "id": "3c80acbf-efc0-4a5d-8567-bf150b7a05bf",
+          "effective_date": "2013-09-06",
+          "last_modified": "2013-09-06T18:28:31+00:00",
+          "from_team": {
+            "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Grizzlies",
+            "market": "Memphis"
+          },
+          "to_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "311e29d3-80fc-40a1-9e32-6ddcc1a6798f",
+      "full_name": "Linas Kleiza",
+      "first_name": "Linas",
+      "last_name": "Kleiza",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "11",
+      "transfers": [
+        {
+          "id": "40b1c5ab-6e96-40a8-91b6-45b66f7d02d9",
+          "effective_date": "2013-09-06",
+          "last_modified": "2013-09-06T21:24:50+00:00",
+          "from_team": {
+            "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Raptors",
+            "market": "Toronto"
+          },
+          "to_team": {
+            "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Raptors",
+            "market": "Toronto"
+          }
+        }
+      ]
+    },
+    {
+      "id": "60bb6586-4287-4893-9688-6a109e8b03b0",
+      "full_name": "Jermaine O'Neal",
+      "first_name": "Jermaine",
+      "last_name": "O'Neal",
+      "position": "C-F",
+      "primary_position": "C",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "49d56b14-f556-4f55-93af-327ea30f0842",
+          "effective_date": "2013-09-06",
+          "last_modified": "2013-09-06T20:02:56+00:00",
+          "from_team": {
+            "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Warriors",
+            "market": "Golden State"
+          },
+          "to_team": {
+            "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Warriors",
+            "market": "Golden State"
+          }
+        }
+      ]
+    },
+    {
+      "id": "05254222-e77b-4d83-a36b-be339b1867a8",
+      "full_name": "Quentin Richardson",
+      "first_name": "Quentin",
+      "last_name": "Richardson",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "68144f32-4793-47a5-b4d9-ee4c67e69953",
+          "effective_date": "2013-09-06",
+          "last_modified": "2013-09-06T21:27:18+00:00",
+          "from_team": {
+            "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Raptors",
+            "market": "Toronto"
+          },
+          "to_team": {
+            "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Raptors",
+            "market": "Toronto"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c56ebb34-6a42-4e41-ae40-8b161f51950d",
+      "full_name": "Elias Harris",
+      "first_name": "Elias",
+      "last_name": "Harris",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "2",
+      "transfers": [
+        {
+          "id": "7ad6b46d-959e-4a60-9ad2-da06c3c34480",
+          "effective_date": "2013-09-06",
+          "last_modified": "2013-09-06T20:52:02+00:00",
+          "from_team": {
+            "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Lakers",
+            "market": "Los Angeles"
+          },
+          "to_team": {
+            "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Lakers",
+            "market": "Los Angeles"
+          }
+        }
+      ]
+    },
+    {
+      "id": "27ce12ca-20d5-4911-b0aa-c43f960b7ef0",
+      "full_name": "James Anderson",
+      "first_name": "James",
+      "last_name": "Anderson",
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "9",
+      "transfers": [
+        {
+          "id": "81b6a355-77f3-4256-b59b-376c0fb00aa4",
+          "effective_date": "2013-09-06",
+          "last_modified": "2013-09-06T18:06:40+00:00",
+          "from_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          },
+          "to_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dbe29331-de46-427a-b79a-cc52d23cb050",
+      "full_name": "C.J. Leslie",
+      "first_name": "C.J.",
+      "last_name": "Leslie",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "25",
+      "transfers": [
+        {
+          "id": "85e5ce5b-07d2-4014-a675-aba31b0fa846",
+          "effective_date": "2013-09-06",
+          "last_modified": "2013-09-06T19:12:52+00:00",
+          "from_team": {
+            "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Knicks",
+            "market": "New York"
+          },
+          "to_team": {
+            "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Knicks",
+            "market": "New York"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ee6b8f67-08cc-4d6f-ac8a-9f7c2432cb80",
+      "full_name": "Shelvin Mack",
+      "first_name": "Shelvin",
+      "last_name": "Mack",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "8",
+      "transfers": [
+        {
+          "id": "9720727e-e72a-4202-aa40-3c5d272a2bf8",
+          "effective_date": "2013-09-06",
+          "last_modified": "2013-09-06T18:58:06+00:00",
+          "from_team": {
+            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hawks",
+            "market": "Atlanta"
+          },
+          "to_team": {
+            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hawks",
+            "market": "Atlanta"
+          }
+        }
+      ]
+    },
+    {
+      "id": "81421153-fc21-4496-b040-1305018cde46",
+      "full_name": "Tim Ohlbrecht",
+      "first_name": "Tim",
+      "last_name": "Ohlbrecht",
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "20",
+      "transfers": [
+        {
+          "id": "bf95f3d9-b2f3-421b-ad2a-4cf7c71ccff8",
+          "effective_date": "2013-09-06",
+          "last_modified": "2013-09-06T18:23:58+00:00",
+          "from_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          },
+          "to_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f2b96713-fb76-4465-b096-f962855bad23",
+      "full_name": "Xavier Henry",
+      "first_name": "Xavier",
+      "last_name": "Henry",
+      "position": "F-G",
+      "primary_position": "SF",
+      "jersey_number": "7",
+      "transfers": [
+        {
+          "id": "d6d8c9fc-5456-4836-8f08-5359df030804",
+          "effective_date": "2013-09-06",
+          "last_modified": "2013-09-06T20:54:33+00:00",
+          "from_team": {
+            "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Lakers",
+            "market": "Los Angeles"
+          },
+          "to_team": {
+            "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Lakers",
+            "market": "Los Angeles"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f77263f9-a97c-45b9-91f0-0f0da4156b9f",
+      "full_name": "Beno Udrih",
+      "first_name": "Beno",
+      "last_name": "Udrih",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "19",
+      "transfers": [
+        {
+          "id": "db7e3a75-8afa-4113-ab8e-85df13232812",
+          "effective_date": "2013-09-06",
+          "last_modified": "2013-09-06T19:18:32+00:00",
+          "from_team": {
+            "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Magic",
+            "market": "Orlando"
+          },
+          "to_team": {
+            "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Knicks",
+            "market": "New York"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4cbe58e4-5e4b-46b0-9f7b-6cf18ad002c6",
+      "full_name": "James Ennis",
+      "first_name": "James",
+      "last_name": "Ennis",
+      "position": "G-F",
+      "primary_position": "SF",
+      "jersey_number": "32",
+      "transfers": [
+        {
+          "id": "e6009c1b-0cf7-49d4-98df-6d5e8a86b2e8",
+          "effective_date": "2013-09-06",
+          "last_modified": "2013-09-06T20:38:40+00:00",
+          "from_team": {
+            "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Heat",
+            "market": "Miami"
+          },
+          "to_team": {
+            "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Heat",
+            "market": "Miami"
+          }
+        }
+      ]
+    }
+  ]
+}

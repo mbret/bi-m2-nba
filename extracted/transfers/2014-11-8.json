@@ -1,0 +1,57 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-11-08T05:00:00+00:00",
+  "end_time": "2014-11-09T04:59:59+00:00",
+  "players": [
+    {
+      "id": "a3ecd4d9-a3ed-4a45-a47f-49eacf07f7aa",
+      "full_name": "Jarnell Stokes",
+      "first_name": "Jarnell",
+      "last_name": "Stokes",
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "1",
+      "transfers": [
+        {
+          "id": "db1ae482-eb99-47e6-aa18-1927bd9dd905",
+          "notes": "Memphis assigns Stokes to Iowa (NBADL).",
+          "desc": "Assigned",
+          "effective_date": "2014-11-08",
+          "last_modified": "2014-11-08T17:21:57+00:00",
+          "from_team": {
+            "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Grizzlies",
+            "market": "Memphis"
+          }
+        }
+      ]
+    },
+    {
+      "id": "703719b2-2db0-4590-90f7-0be1041c1f81",
+      "full_name": "Jordan Adams",
+      "first_name": "Jordan",
+      "last_name": "Adams",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "3",
+      "transfers": [
+        {
+          "id": "e40896d7-c9c2-4d98-b919-d317df839009",
+          "notes": "Memphis assigns Adams to Iowa (NBDADL).",
+          "desc": "Assigned",
+          "effective_date": "2014-11-08",
+          "last_modified": "2014-11-08T17:21:20+00:00",
+          "from_team": {
+            "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Grizzlies",
+            "market": "Memphis"
+          }
+        }
+      ]
+    }
+  ]
+}

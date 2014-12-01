@@ -1,0 +1,746 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-10-25T04:00:00+00:00",
+  "end_time": "2014-10-26T03:59:59+00:00",
+  "players": [
+    {
+      "id": "047d0b63-4142-46e9-8f04-a61622ae2375",
+      "full_name": "Seth Curry",
+      "first_name": "Seth",
+      "last_name": "Curry",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "30",
+      "transfers": [
+        {
+          "id": "9b01c054-e544-43fc-8173-b8621c2ce494",
+          "effective_date": "2014-10-25",
+          "last_modified": "2014-10-25T23:12:06+00:00",
+          "from_team": {
+            "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Magic",
+            "market": "Orlando"
+          }
+        }
+      ]
+    },
+    {
+      "id": "091f4c76-2882-44a3-b49c-bd0566c0c450",
+      "full_name": "Doron Lamb",
+      "first_name": "Doron",
+      "last_name": "Lamb",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "8",
+      "transfers": [
+        {
+          "id": "b772576b-53a2-4a45-9bad-253b6f2a2675",
+          "effective_date": "2014-10-25",
+          "last_modified": "2014-10-25T23:31:35+00:00",
+          "from_team": {
+            "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Mavericks",
+            "market": "Dallas"
+          }
+        }
+      ]
+    },
+    {
+      "id": "0d022b46-bcfe-4c43-af87-490c7d5ae34a",
+      "full_name": "Casper Ware",
+      "first_name": "Casper",
+      "last_name": "Ware",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "f8d761f6-4df5-48b0-8711-3697633f3798",
+          "effective_date": "2014-10-25",
+          "last_modified": "2014-10-25T23:36:48+00:00",
+          "from_team": {
+            "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nets",
+            "market": "Brooklyn"
+          }
+        }
+      ]
+    },
+    {
+      "id": "0d5fda49-9c91-4224-8dba-338716d0a954",
+      "full_name": "Xavier Silas",
+      "first_name": "Xavier",
+      "last_name": "Silas",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "5",
+      "transfers": [
+        {
+          "id": "2305c67b-05e2-43c9-9297-7d43847c91c7",
+          "effective_date": "2014-10-25",
+          "last_modified": "2014-10-25T23:34:09+00:00",
+          "from_team": {
+            "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Wizards",
+            "market": "Washington"
+          }
+        }
+      ]
+    },
+    {
+      "id": "138f5c1f-b8e6-4e7c-b8ef-ecb7faa7b936",
+      "full_name": "Langston Galloway",
+      "first_name": "Langston",
+      "last_name": "Galloway",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "2",
+      "transfers": [
+        {
+          "id": "169d121d-342b-4017-8d4e-e0d5a549a984",
+          "effective_date": "2014-10-25",
+          "last_modified": "2014-10-25T23:23:35+00:00",
+          "from_team": {
+            "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Knicks",
+            "market": "New York"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13ef372a-5fd1-4336-9901-12e120a5fbd7",
+      "full_name": "Khem Birch",
+      "first_name": "Khem",
+      "last_name": "Birch",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "14",
+      "transfers": [
+        {
+          "id": "8379af9e-53d4-421d-8ccd-653200df1fcf",
+          "effective_date": "2014-10-25",
+          "last_modified": "2014-10-25T23:15:51+00:00",
+          "from_team": {
+            "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Heat",
+            "market": "Miami"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14257ed6-7cbc-44a7-8b9e-433aebe71ec9",
+      "full_name": "Kadeem Batts",
+      "first_name": "Kadeem",
+      "last_name": "Batts",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "20",
+      "transfers": [
+        {
+          "id": "f98f1320-babc-40d8-bcf7-bad14cd90113",
+          "effective_date": "2014-10-25",
+          "last_modified": "2014-10-25T23:12:52+00:00",
+          "from_team": {
+            "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Magic",
+            "market": "Orlando"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15d5a470-7465-48d4-b595-d8e989a0c95b",
+      "full_name": "Drew Crawford",
+      "first_name": "Drew",
+      "last_name": "Crawford",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "1",
+      "transfers": [
+        {
+          "id": "0738635e-640b-43db-be4a-9b2be613517c",
+          "effective_date": "2014-10-25",
+          "last_modified": "2014-10-25T23:13:22+00:00",
+          "from_team": {
+            "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Magic",
+            "market": "Orlando"
+          }
+        }
+      ]
+    },
+    {
+      "id": "17d7d84a-1d9c-48e4-b13c-3c365ea16f13",
+      "full_name": "John Lucas III",
+      "first_name": "John",
+      "last_name": "Lucas III",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "15",
+      "transfers": [
+        {
+          "id": "c023d69a-f2bd-42cd-bfc5-44e1595e5041",
+          "effective_date": "2014-10-25",
+          "last_modified": "2014-10-25T23:31:53+00:00",
+          "from_team": {
+            "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Wizards",
+            "market": "Washington"
+          }
+        }
+      ]
+    },
+    {
+      "id": "1ec2cc7a-3ff3-41b4-915b-6235507e44e4",
+      "full_name": "Aaron Craft",
+      "first_name": "Aaron",
+      "last_name": "Craft",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "2",
+      "transfers": [
+        {
+          "id": "17ee13a6-b318-40be-b3b9-d525370c2359",
+          "effective_date": "2014-10-25",
+          "last_modified": "2014-10-25T23:20:34+00:00",
+          "from_team": {
+            "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Warriors",
+            "market": "Golden State"
+          }
+        }
+      ]
+    },
+    {
+      "id": "238e8363-aa63-4f01-b47c-5405e78b16e6",
+      "full_name": "Sean Kilpatrick",
+      "first_name": "Sean",
+      "last_name": "Kilpatrick",
+      "position": "G",
+      "primary_position": "NA",
+      "jersey_number": "25",
+      "transfers": [
+        {
+          "id": "d72d00ee-ba41-4fe8-acc1-73d8e57258c1",
+          "effective_date": "2014-10-25",
+          "last_modified": "2014-10-25T23:30:40+00:00",
+          "from_team": {
+            "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Warriors",
+            "market": "Golden State"
+          }
+        }
+      ]
+    },
+    {
+      "id": "246a3ea8-462d-4eeb-802d-e464cde2ce0c",
+      "full_name": "Peyton Siva",
+      "first_name": "Peyton",
+      "last_name": "Siva",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "17",
+      "transfers": [
+        {
+          "id": "ce873a2a-80e9-423a-ae71-66916a661051",
+          "effective_date": "2014-10-25",
+          "last_modified": "2014-10-25T23:10:37+00:00",
+          "from_team": {
+            "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Magic",
+            "market": "Orlando"
+          }
+        }
+      ]
+    },
+    {
+      "id": "25fdb12e-49e8-4615-967c-d13935c6a32f",
+      "full_name": "Brock Motum",
+      "first_name": "Brock",
+      "last_name": "Motum",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "24",
+      "transfers": [
+        {
+          "id": "a436fafc-3c69-4171-b482-d28739791571",
+          "effective_date": "2014-10-25",
+          "last_modified": "2014-10-25T23:33:17+00:00",
+          "from_team": {
+            "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Jazz",
+            "market": "Utah"
+          }
+        }
+      ]
+    },
+    {
+      "id": "299c44c1-ab5f-4029-9ef2-b55ddd60a8f1",
+      "full_name": "Adonis Thomas",
+      "first_name": "Adonis",
+      "last_name": "Thomas",
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "1",
+      "transfers": [
+        {
+          "id": "8eaee0a1-872a-4749-ac61-668141589253",
+          "effective_date": "2014-10-25",
+          "last_modified": "2014-10-25T23:35:58+00:00",
+          "from_team": {
+            "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pacers",
+            "market": "Indiana"
+          }
+        }
+      ]
+    },
+    {
+      "id": "29bb28eb-bebc-4230-84a5-294bb28b5b9f",
+      "full_name": "Darius Morris",
+      "first_name": "Darius",
+      "last_name": "Morris",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "4",
+      "transfers": [
+        {
+          "id": "2232e1aa-8ff9-46a1-9976-f76ec8dd1d6f",
+          "effective_date": "2014-10-25",
+          "last_modified": "2014-10-25T23:32:45+00:00",
+          "from_team": {
+            "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Trail Blazers",
+            "market": "Portland"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2b0dfd31-6682-44f2-b579-42d3aa005183",
+      "full_name": "Chris Singleton",
+      "first_name": "Chris",
+      "last_name": "Singleton",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "45",
+      "transfers": [
+        {
+          "id": "135952a6-9526-46a1-aca6-8304bbb5e0b5",
+          "effective_date": "2014-10-25",
+          "last_modified": "2014-10-25T23:34:53+00:00",
+          "from_team": {
+            "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pacers",
+            "market": "Indiana"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2bd97a34-ced9-4413-bfaa-94dbafaa0fdd",
+      "full_name": "JaMychal Green",
+      "first_name": "JaMychal",
+      "last_name": "Green",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "41",
+      "transfers": [
+        {
+          "id": "575059ee-3828-4f1c-8272-1d34aaa75fda",
+          "effective_date": "2014-10-25",
+          "last_modified": "2014-10-25T23:24:35+00:00",
+          "from_team": {
+            "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Spurs",
+            "market": "San Antonio"
+          }
+        }
+      ]
+    },
+    {
+      "id": "32f1c278-f93b-4f75-a624-8b0bab05035e",
+      "full_name": "Roscoe Smith",
+      "first_name": "Roscoe",
+      "last_name": "Smith",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "14",
+      "transfers": [
+        {
+          "id": "5c9aca0c-2b99-41ee-b391-96e4b30ad266",
+          "effective_date": "2014-10-25",
+          "last_modified": "2014-10-25T23:35:37+00:00",
+          "from_team": {
+            "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Lakers",
+            "market": "Los Angeles"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3e4e194a-f66b-41e3-8581-bd0545fb9acb",
+      "full_name": "Ivan Johnson",
+      "first_name": "Ivan",
+      "last_name": "Johnson",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "44",
+      "transfers": [
+        {
+          "id": "6434fe72-4406-422c-ac30-6d0bf68a30a7",
+          "effective_date": "2014-10-25",
+          "last_modified": "2014-10-25T23:26:59+00:00",
+          "from_team": {
+            "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Mavericks",
+            "market": "Dallas"
+          }
+        }
+      ]
+    },
+    {
+      "id": "484cae7f-ed5a-42c0-9f18-a60cfe237573",
+      "full_name": "Will Cherry",
+      "first_name": "Will",
+      "last_name": "Cherry",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "1",
+      "transfers": [
+        {
+          "id": "4fc11f70-45e3-47ff-8ed2-149a20fdea08",
+          "effective_date": "2014-10-25",
+          "last_modified": "2014-10-25T23:20:13+00:00",
+          "from_team": {
+            "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Raptors",
+            "market": "Toronto"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4abf845d-638e-45ce-8cdc-c90331404be4",
+      "full_name": "Arinze Onuaku",
+      "first_name": "Arinze",
+      "last_name": "Onuaku",
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "33",
+      "transfers": [
+        {
+          "id": "f9275612-11c1-4efb-add6-0695c3823c8e",
+          "effective_date": "2014-10-25",
+          "last_modified": "2014-10-25T23:33:44+00:00",
+          "from_team": {
+            "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pacers",
+            "market": "Indiana"
+          }
+        }
+      ]
+    },
+    {
+      "id": "596e4281-9051-4c8d-907f-4ee5db704832",
+      "full_name": "Jason Kapono",
+      "first_name": "Jason",
+      "last_name": "Kapono",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "22",
+      "transfers": [
+        {
+          "id": "2863879b-e23d-415f-864d-cfef7f79d158",
+          "effective_date": "2014-10-25",
+          "last_modified": "2014-10-25T23:28:30+00:00",
+          "from_team": {
+            "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Warriors",
+            "market": "Golden State"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5b297372-b2af-445e-a4bc-777982dbc1e3",
+      "full_name": "Joe Ingles",
+      "first_name": "Joe",
+      "last_name": "Ingles",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "7",
+      "transfers": [
+        {
+          "id": "461d8d7f-e328-4e9b-a0b8-661008db32d7",
+          "effective_date": "2014-10-25",
+          "last_modified": "2014-10-25T23:25:30+00:00",
+          "from_team": {
+            "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Clippers",
+            "market": "Los Angeles"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5b59ce10-becf-4ab4-be21-a33fe998a90c",
+      "full_name": "Earl Barron",
+      "first_name": "Earl",
+      "last_name": "Barron",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "30",
+      "transfers": [
+        {
+          "id": "42d81ac5-69ad-41fc-97bd-9476f80ab05d",
+          "effective_date": "2014-10-25",
+          "last_modified": "2014-10-25T23:15:25+00:00",
+          "from_team": {
+            "id": "583ecfa8-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Suns",
+            "market": "Phoenix"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5dae144f-d344-482a-bfc7-a6cff12be8f1",
+      "full_name": "Shane Edwards",
+      "first_name": "Shane",
+      "last_name": "Edwards",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "24",
+      "transfers": [
+        {
+          "id": "199b97af-b211-4360-a976-e1fd1f4b7946",
+          "effective_date": "2014-10-25",
+          "last_modified": "2014-10-25T23:21:31+00:00",
+          "from_team": {
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Cavaliers",
+            "market": "Cleveland"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7535bdf4-58e6-44dd-a060-c57ce395fa2e",
+      "full_name": "Jabari Brown",
+      "first_name": "Jabari",
+      "last_name": "Brown",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "15",
+      "transfers": [
+        {
+          "id": "2ac1fe4a-eb47-47ff-bc49-3811834e76d6",
+          "effective_date": "2014-10-25",
+          "last_modified": "2014-10-25T23:19:35+00:00",
+          "from_team": {
+            "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Lakers",
+            "market": "Los Angeles"
+          }
+        }
+      ]
+    },
+    {
+      "id": "754c99af-d464-4c62-b9f1-e268627b1c46",
+      "full_name": "Bernard James",
+      "first_name": "Bernard",
+      "last_name": "James",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "5",
+      "transfers": [
+        {
+          "id": "042c7990-36c7-41d1-8e95-c7f88fc28688",
+          "effective_date": "2014-10-25",
+          "last_modified": "2014-10-25T23:26:04+00:00",
+          "from_team": {
+            "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Mavericks",
+            "market": "Dallas"
+          }
+        }
+      ]
+    },
+    {
+      "id": "83a48bf7-df2b-470e-98ec-c57629fe4fd1",
+      "full_name": "Brady Heslip",
+      "first_name": "Brady",
+      "last_name": "Heslip",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "3",
+      "transfers": [
+        {
+          "id": "7f375f45-b53b-46f3-8a87-451ad0a3274f",
+          "effective_date": "2014-10-25",
+          "last_modified": "2014-10-25T23:25:06+00:00",
+          "from_team": {
+            "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Timberwolves",
+            "market": "Minnesota"
+          }
+        }
+      ]
+    },
+    {
+      "id": "84a2f85a-083c-46aa-aa22-e3761023adc4",
+      "full_name": "Damion James",
+      "first_name": "Damion",
+      "last_name": "James",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "7",
+      "transfers": [
+        {
+          "id": "903eae4c-f034-4c00-a705-bcdbfe1b2b35",
+          "effective_date": "2014-10-25",
+          "last_modified": "2014-10-25T23:26:22+00:00",
+          "from_team": {
+            "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Wizards",
+            "market": "Washington"
+          }
+        }
+      ]
+    },
+    {
+      "id": "92fd1542-d9c3-4fc9-9f31-00b85e5f13d3",
+      "full_name": "Jordan Hamilton",
+      "first_name": "Jordan",
+      "last_name": "Hamilton",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "25",
+      "transfers": [
+        {
+          "id": "bc71954c-63b2-4506-9ae6-22ed1c30e29f",
+          "effective_date": "2014-10-25",
+          "last_modified": "2014-10-25T23:13:52+00:00",
+          "from_team": {
+            "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Raptors",
+            "market": "Toronto"
+          }
+        }
+      ]
+    },
+    {
+      "id": "93160fba-70a0-4071-a7be-5a5776ed7a5a",
+      "full_name": "Mitchell Watt",
+      "first_name": "Mitchell",
+      "last_name": "Watt",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "21",
+      "transfers": [
+        {
+          "id": "1358878e-bdfd-4a90-890d-bbb9cb319603",
+          "effective_date": "2014-10-25",
+          "last_modified": "2014-10-25T23:37:15+00:00",
+          "from_team": {
+            "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Warriors",
+            "market": "Golden State"
+          }
+        }
+      ]
+    },
+    {
+      "id": "e6dd018a-aad4-489d-981e-d330d2ac2906",
+      "full_name": "James Michael McAdoo",
+      "first_name": "James Michael",
+      "last_name": "McAdoo",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "20",
+      "transfers": [
+        {
+          "id": "0ccdc984-20a8-4c9c-add6-bc6391788d40",
+          "effective_date": "2014-10-25",
+          "last_modified": "2014-10-25T23:32:26+00:00",
+          "from_team": {
+            "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Warriors",
+            "market": "Golden State"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ecafe060-0a4f-4740-9e21-03715d653327",
+      "full_name": "C.J. Fair",
+      "first_name": "C.J.",
+      "last_name": "Fair",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "6",
+      "transfers": [
+        {
+          "id": "12c8c705-c285-4cf2-a161-f4388db16eec",
+          "effective_date": "2014-10-25",
+          "last_modified": "2014-10-25T23:23:14+00:00",
+          "from_team": {
+            "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pacers",
+            "market": "Indiana"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f9d49755-3853-4eb3-b5ee-bdd33ef4f0dc",
+      "full_name": "Trey Johnson",
+      "first_name": "Trey",
+      "last_name": "Johnson",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "33",
+      "transfers": [
+        {
+          "id": "b086c355-137d-49c3-ba8b-cfa427766234",
+          "effective_date": "2014-10-25",
+          "last_modified": "2014-10-25T23:27:34+00:00",
+          "from_team": {
+            "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Kings",
+            "market": "Sacramento"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fb76341d-1738-4996-9ec5-c7ad80de504e",
+      "full_name": "Diante Garrett",
+      "first_name": "Diante",
+      "last_name": "Garrett",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "10",
+      "transfers": [
+        {
+          "id": "70712f82-f7c5-4ac3-bf8a-b52feef53977",
+          "effective_date": "2014-10-25",
+          "last_modified": "2014-10-25T23:23:58+00:00",
+          "from_team": {
+            "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Trail Blazers",
+            "market": "Portland"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-08-14T04:00:00+00:00",
+  "end_time": "2014-08-15T03:59:59+00:00",
+  "players": [
+    {
+      "id": "92fd1542-d9c3-4fc9-9f31-00b85e5f13d3",
+      "full_name": "Jordan Hamilton",
+      "first_name": "Jordan",
+      "last_name": "Hamilton",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "5",
+      "transfers": [
+        {
+          "id": "9e06de82-4ce9-4913-be70-033774c96814",
+          "effective_date": "2014-08-14",
+          "last_modified": "2014-08-14T21:31:55+00:00",
+          "from_team": {
+            "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Raptors",
+            "market": "Toronto"
+          },
+          "to_team": {
+            "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Raptors",
+            "market": "Toronto"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-11-07T05:00:00+00:00",
+  "end_time": "2014-11-08T04:59:59+00:00",
+  "players": [
+    {
+      "id": "05a90cd6-73de-43d5-9d30-bc2588d03262",
+      "full_name": "Ish Smith",
+      "first_name": "Ish",
+      "last_name": "Smith",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "5",
+      "transfers": [
+        {
+          "id": "23df7f0b-76fa-4451-8a79-fcd6ec7e11db",
+          "effective_date": "2014-11-07",
+          "last_modified": "2014-11-07T18:57:43+00:00",
+          "from_team": {
+            "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Thunder",
+            "market": "Oklahoma City"
+          },
+          "to_team": {
+            "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Thunder",
+            "market": "Oklahoma City"
+          }
+        }
+      ]
+    }
+  ]
+}

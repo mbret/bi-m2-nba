@@ -1,0 +1,108 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-06-30T04:00:00+00:00",
+  "end_time": "2014-07-01T03:59:59+00:00",
+  "players": [
+    {
+      "id": "091f4c76-2882-44a3-b49c-bd0566c0c450",
+      "full_name": "Doron Lamb",
+      "first_name": "Doron",
+      "last_name": "Lamb",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "8",
+      "transfers": [
+        {
+          "id": "5fa16954-126d-4495-a84a-7149db15d0eb",
+          "notes": "Orlando waived Lamb Monday 6/30.",
+          "desc": "Waived",
+          "effective_date": "2014-06-30",
+          "last_modified": "2014-06-30T18:52:00+00:00",
+          "from_team": {
+            "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Magic",
+            "market": "Orlando"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5d3681c6-9c73-4895-9b59-b4851069469f",
+      "full_name": "Jameer Nelson",
+      "first_name": "Jameer",
+      "last_name": "Nelson",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "14",
+      "transfers": [
+        {
+          "id": "8c4e4b7d-df0c-4c96-a54a-337aebcaa4d4",
+          "notes": "Orlando waived Nelson on Monday 6/30.",
+          "desc": "Waived",
+          "effective_date": "2014-06-30",
+          "last_modified": "2014-06-30T20:38:50+00:00",
+          "from_team": {
+            "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Magic",
+            "market": "Orlando"
+          }
+        }
+      ]
+    },
+    {
+      "id": "598d0707-7042-497b-9846-93cde9a420d7",
+      "full_name": "Willie Green",
+      "first_name": "Willie",
+      "last_name": "Green",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "34",
+      "transfers": [
+        {
+          "id": "8d5c9ec7-8051-437a-9ee2-a8dc44fdc7ac",
+          "notes": "Orlando has claimed Green off waivers from the Los Angeles Clippers.",
+          "desc": "Waiver Claim",
+          "effective_date": "2014-06-30",
+          "last_modified": "2014-06-30T22:00:10+00:00",
+          "from_team": {
+            "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Clippers",
+            "market": "Los Angeles"
+          },
+          "to_team": {
+            "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Magic",
+            "market": "Orlando"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2cd8fe73-59a9-41c6-b384-cc6b54197279",
+      "full_name": "Chauncey Billups",
+      "first_name": "Chauncey",
+      "last_name": "Billups",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "1",
+      "transfers": [
+        {
+          "id": "ba87c7bc-d86f-407d-b87e-dce21b30d601",
+          "notes": "Detroit declined its team option on Billups on Monday 6/30.",
+          "desc": "Free Agency",
+          "effective_date": "2014-06-30",
+          "last_modified": "2014-06-30T22:31:58+00:00",
+          "from_team": {
+            "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pistons",
+            "market": "Detroit"
+          }
+        }
+      ]
+    }
+  ]
+}

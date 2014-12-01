@@ -384,6 +384,9 @@ async.waterfall([
         });
     },
 
+	/**
+	 * Fill transferts table
+	 */
     function fillTransfers(callback){
 
         var files = require('fs').readdirSync(extractedPath + '/transfers');

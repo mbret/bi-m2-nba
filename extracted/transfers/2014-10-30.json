@@ -1,0 +1,58 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-10-30T04:00:00+00:00",
+  "end_time": "2014-10-31T03:59:59+00:00",
+  "players": [
+    {
+      "id": "b6cdfbf4-fd3f-46f3-b889-732b3bae1da8",
+      "full_name": "Jose Barea",
+      "first_name": "Jose",
+      "last_name": "Barea",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "11",
+      "transfers": [
+        {
+          "id": "79733cfa-0c2b-4647-8c82-61420833f8d4",
+          "effective_date": "2014-10-30",
+          "last_modified": "2014-10-30T19:29:21+00:00",
+          "from_team": {
+            "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Mavericks",
+            "market": "Dallas"
+          },
+          "to_team": {
+            "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Mavericks",
+            "market": "Dallas"
+          }
+        }
+      ]
+    },
+    {
+      "id": "e36dd89d-4783-422b-88db-7f1f81b04fda",
+      "full_name": "Gal Mekel",
+      "first_name": "Gal",
+      "last_name": "Mekel",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "33",
+      "transfers": [
+        {
+          "id": "f83f1a3d-690f-4be4-9a21-cd677963df0b",
+          "effective_date": "2014-10-30",
+          "last_modified": "2014-10-30T13:17:51+00:00",
+          "from_team": {
+            "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Mavericks",
+            "market": "Dallas"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-09-03T04:00:00+00:00",
+  "end_time": "2014-09-04T03:59:59+00:00",
+  "players": [
+    {
+      "id": "b90d7326-f5ab-4ed1-bdd9-db3b43318363",
+      "full_name": "Ekpe Udoh",
+      "first_name": "Ekpe",
+      "last_name": "Udoh",
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "02e15f80-d949-406a-9f92-563dc9c219c0",
+          "effective_date": "2014-09-04",
+          "last_modified": "2014-09-04T00:22:37+00:00",
+          "from_team": {
+            "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Clippers",
+            "market": "Los Angeles"
+          },
+          "to_team": {
+            "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Clippers",
+            "market": "Los Angeles"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6c73ff64-44b8-4383-a21b-61ac145b446c",
+      "full_name": "DeAndre Liggins",
+      "first_name": "DeAndre",
+      "last_name": "Liggins",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "14",
+      "transfers": [
+        {
+          "id": "4e199b8b-a197-47cd-977d-5be4db81ba89",
+          "effective_date": "2014-09-03",
+          "last_modified": "2014-09-03T13:14:08+00:00",
+          "from_team": {
+            "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Clippers",
+            "market": "Los Angeles"
+          },
+          "to_team": {
+            "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Clippers",
+            "market": "Los Angeles"
+          }
+        }
+      ]
+    }
+  ]
+}

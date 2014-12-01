@@ -1,0 +1,34 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-08-31T04:00:00+00:00",
+  "end_time": "2014-09-01T03:59:59+00:00",
+  "players": [
+    {
+      "id": "b477595a-2614-4e8e-9636-451b890ad3e5",
+      "full_name": "Jamaal Franklin",
+      "first_name": "Jamaal",
+      "last_name": "Franklin",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "722140e1-4ee7-4818-81b3-21559136f4bc",
+          "notes": "Memphis waives G Franklin.",
+          "desc": "Waived",
+          "effective_date": "2014-08-31",
+          "last_modified": "2014-08-31T21:02:38+00:00",
+          "from_team": {
+            "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Grizzlies",
+            "market": "Memphis"
+          }
+        }
+      ]
+    }
+  ]
+}

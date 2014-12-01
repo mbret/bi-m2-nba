@@ -1,0 +1,37 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2013-09-07T04:00:00+00:00",
+  "end_time": "2013-09-08T03:59:59+00:00",
+  "players": [
+    {
+      "id": "1bb08c8b-8176-4de7-939f-9f8072e3afc6",
+      "full_name": "Derek Fisher",
+      "first_name": "Derek",
+      "last_name": "Fisher",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "6",
+      "transfers": [
+        {
+          "id": "0d51ddab-41a8-4fa2-b377-e61b80a143c9",
+          "effective_date": "2013-09-07",
+          "last_modified": "2013-09-07T21:59:00+00:00",
+          "from_team": {
+            "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Thunder",
+            "market": "Oklahoma City"
+          },
+          "to_team": {
+            "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Thunder",
+            "market": "Oklahoma City"
+          }
+        }
+      ]
+    }
+  ]
+}

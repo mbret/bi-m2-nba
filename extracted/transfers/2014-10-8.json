@@ -1,0 +1,116 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-10-08T04:00:00+00:00",
+  "end_time": "2014-10-09T03:59:59+00:00",
+  "players": [
+    {
+      "id": "e30389b3-1d38-4e0e-a558-72f7719c6144",
+      "full_name": "Jarvis Varnado",
+      "first_name": "Jarvis",
+      "last_name": "Varnado",
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "40",
+      "transfers": [
+        {
+          "id": "00cd02cf-2ddc-457f-a055-424971c5a820",
+          "effective_date": "2014-10-08",
+          "last_modified": "2014-10-08T13:26:15+00:00",
+          "from_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ded880d5-f1a9-4cfa-a16e-6604e0a16529",
+      "full_name": "Keith Bogans",
+      "first_name": "Keith",
+      "last_name": "Bogans",
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "80",
+      "transfers": [
+        {
+          "id": "504841e7-2856-4c9b-abe1-14f9da7a3977",
+          "effective_date": "2014-10-08",
+          "last_modified": "2014-10-08T13:25:43+00:00",
+          "from_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f76acd63-bf42-4fa7-9985-a7838f9cb029",
+      "full_name": "Lance Thomas",
+      "first_name": "Lance",
+      "last_name": "Thomas",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "42",
+      "transfers": [
+        {
+          "id": "8bfc408b-93af-48dc-973e-a5e809676ed6",
+          "effective_date": "2014-10-09",
+          "last_modified": "2014-10-09T03:45:53+00:00",
+          "to_team": {
+            "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Thunder",
+            "market": "Oklahoma City"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b5ab9421-3f69-4045-8a99-8cba9fed4da4",
+      "full_name": "Louis Labeyrie",
+      "first_name": "Louis",
+      "last_name": "Labeyrie",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "9e831ed8-4d76-431f-97fd-042b1d0e1b46",
+          "effective_date": "2014-10-08",
+          "last_modified": "2014-10-08T23:16:12+00:00",
+          "to_team": {
+            "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Knicks",
+            "market": "New York"
+          }
+        }
+      ]
+    },
+    {
+      "id": "64c0e4e5-8711-4b86-8072-745f6084df73",
+      "full_name": "Thanasis Antetokounmpo",
+      "first_name": "Thanasis",
+      "last_name": "Antetokounmpo",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "43",
+      "transfers": [
+        {
+          "id": "a3d5721f-0ee0-43d6-8cd7-3364776435c9",
+          "effective_date": "2014-10-08",
+          "last_modified": "2014-10-08T23:12:04+00:00",
+          "to_team": {
+            "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Knicks",
+            "market": "New York"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-07-17T04:00:00+00:00",
+  "end_time": "2014-07-18T03:59:59+00:00",
+  "players": [
+    {
+      "id": "15fc95b7-5f6d-4d71-beda-7d9605a0187b",
+      "full_name": "Shayne Whittington",
+      "first_name": "Shayne",
+      "last_name": "Whittington",
+      "position": "C-F",
+      "primary_position": "PF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "0ca062ae-e893-4799-9341-f2794f580858",
+          "effective_date": "2014-07-17",
+          "last_modified": "2014-07-17T17:23:04+00:00",
+          "from_team": {
+            "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pacers",
+            "market": "Indiana"
+          },
+          "to_team": {
+            "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pacers",
+            "market": "Indiana"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7a76d222-962a-4776-90e4-8683af6477bb",
+      "full_name": "DeJuan Blair",
+      "first_name": "DeJuan",
+      "last_name": "Blair",
+      "position": "C-F",
+      "primary_position": "C",
+      "jersey_number": "45",
+      "transfers": [
+        {
+          "id": "abb99f3b-ed9a-4161-a10b-18f67ddbf0e1",
+          "effective_date": "2014-07-17",
+          "last_modified": "2014-07-17T15:39:52+00:00",
+          "from_team": {
+            "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Mavericks",
+            "market": "Dallas"
+          },
+          "to_team": {
+            "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Wizards",
+            "market": "Washington"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b4a94a3a-8563-49bd-97d2-98161cfb6c8d",
+      "full_name": "Rodney Stuckey",
+      "first_name": "Rodney",
+      "last_name": "Stuckey",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "3",
+      "transfers": [
+        {
+          "id": "c043546b-bdab-430d-9b01-c55298bf68bf",
+          "effective_date": "2014-07-17",
+          "last_modified": "2014-07-17T15:44:01+00:00",
+          "from_team": {
+            "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pistons",
+            "market": "Detroit"
+          },
+          "to_team": {
+            "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pacers",
+            "market": "Indiana"
+          }
+        }
+      ]
+    }
+  ]
+}

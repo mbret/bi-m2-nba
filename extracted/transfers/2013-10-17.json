@@ -1,0 +1,95 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2013-10-17T04:00:00+00:00",
+  "end_time": "2013-10-18T03:59:59+00:00",
+  "players": [
+    {
+      "id": "803fffe6-f360-463c-9d2d-b1f0f1dbf174",
+      "full_name": "D'or Fischer",
+      "first_name": "D'or",
+      "last_name": "Fischer",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "21",
+      "transfers": [
+        {
+          "id": "7fac147f-24e1-4569-bcd0-fecc5107e00a",
+          "effective_date": "2013-10-17",
+          "last_modified": "2013-10-17T16:36:44+00:00",
+          "from_team": {
+            "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Wizards",
+            "market": "Washington"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ce5c7cbe-9f59-4046-adf0-23e0caca0cf4",
+      "full_name": "Reginald Becton-Buckner",
+      "first_name": "Reginald",
+      "last_name": "Becton-Buckner",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "23",
+      "transfers": [
+        {
+          "id": "c95d138e-0ca1-47c6-b98f-9cef482708ca",
+          "effective_date": "2013-10-17",
+          "last_modified": "2013-10-17T16:36:22+00:00",
+          "from_team": {
+            "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nuggets",
+            "market": "Denver"
+          }
+        }
+      ]
+    },
+    {
+      "id": "22625bda-3f7e-41f0-98b3-4b20e1dbe980",
+      "full_name": "Kyle Fogg",
+      "first_name": "Kyle",
+      "last_name": "Fogg",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "6",
+      "transfers": [
+        {
+          "id": "f899ddc8-f78c-4af1-ab48-d5dd23549298",
+          "effective_date": "2013-10-17",
+          "last_modified": "2013-10-17T16:36:30+00:00",
+          "from_team": {
+            "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nuggets",
+            "market": "Denver"
+          }
+        }
+      ]
+    },
+    {
+      "id": "20398336-b5b7-4766-8339-30aa350836f9",
+      "full_name": "Darius Johnson-Odom",
+      "first_name": "Darius",
+      "last_name": "Johnson-Odom",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "fae61694-795c-43fd-aa46-a4030ffb4b5b",
+          "effective_date": "2013-10-17",
+          "last_modified": "2013-10-17T16:45:22+00:00",
+          "from_team": {
+            "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Lakers",
+            "market": "Los Angeles"
+          }
+        }
+      ]
+    }
+  ]
+}

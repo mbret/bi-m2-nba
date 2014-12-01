@@ -1,0 +1,32 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2013-09-14T04:00:00+00:00",
+  "end_time": "2013-09-15T03:59:59+00:00",
+  "players": [
+    {
+      "id": "11612dd6-431c-486d-88aa-789f3adf8149",
+      "full_name": "Dionte Christmas",
+      "first_name": "Dionte",
+      "last_name": "Christmas",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "22",
+      "transfers": [
+        {
+          "id": "85f66bb4-ff3a-4ef1-b57b-56384f974d60",
+          "effective_date": "2013-09-13",
+          "last_modified": "2013-09-14T15:56:02+00:00",
+          "to_team": {
+            "id": "583ecfa8-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Suns",
+            "market": "Phoenix"
+          }
+        }
+      ]
+    }
+  ]
+}

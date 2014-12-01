@@ -1,0 +1,479 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-10-24T04:00:00+00:00",
+  "end_time": "2014-10-25T03:59:59+00:00",
+  "players": [
+    {
+      "id": "29ff98a7-e749-43f6-82c3-f9526041e519",
+      "full_name": "Earl Clark",
+      "first_name": "Earl",
+      "last_name": "Clark",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "02a98aec-c023-48f3-93a2-2895f19ebeb4",
+          "notes": "Houston claims Clark off waivers.",
+          "desc": "Waiver Claim",
+          "effective_date": "2014-10-24",
+          "last_modified": "2014-10-24T23:18:43+00:00",
+          "from_team": {
+            "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Rockets",
+            "market": "Houston"
+          },
+          "to_team": {
+            "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Rockets",
+            "market": "Houston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "02259413-3191-4057-9473-caa3268fb189",
+      "full_name": "Bryce Cotton",
+      "first_name": "Bryce",
+      "last_name": "Cotton",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "26",
+      "transfers": [
+        {
+          "id": "34c751c0-2f75-4924-bf30-3f7811006e94",
+          "effective_date": "2014-10-24",
+          "last_modified": "2014-10-24T12:33:43+00:00",
+          "from_team": {
+            "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Spurs",
+            "market": "San Antonio"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4c2fbb52-617b-496d-a7b2-cecbeacabeef",
+      "full_name": "Justin Cobbs",
+      "first_name": "Justin",
+      "last_name": "Cobbs",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "3",
+      "transfers": [
+        {
+          "id": "4d325d7a-7001-42f2-9d84-cb4a1a746457",
+          "notes": "Charlotte places Cobbs on waivers.",
+          "desc": "Waived",
+          "effective_date": "2014-10-24",
+          "last_modified": "2014-10-24T18:26:48+00:00",
+          "from_team": {
+            "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hornets",
+            "market": "Charlotte"
+          }
+        }
+      ]
+    },
+    {
+      "id": "18f43e0e-bf74-4827-9095-9816c0bc779d",
+      "full_name": "Richard Solomon",
+      "first_name": "Richard",
+      "last_name": "Solomon",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "8",
+      "transfers": [
+        {
+          "id": "5db4448f-1ea2-4672-aaff-99782baf5f91",
+          "notes": "Oklahoma City waives Solomon.",
+          "desc": "Waived",
+          "effective_date": "2014-10-24",
+          "last_modified": "2014-10-24T23:23:01+00:00",
+          "from_team": {
+            "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Thunder",
+            "market": "Oklahoma City"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6cc5c3b1-5383-4cf8-8d2f-53b67386d3ec",
+      "full_name": "Dallas Lauderdale",
+      "first_name": "Dallas",
+      "last_name": "Lauderdale",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "21",
+      "transfers": [
+        {
+          "id": "622f03cb-ce68-4438-86a0-b71a9e4d40d9",
+          "notes": "Charlotte waives Lauderdale.",
+          "desc": "Waived",
+          "effective_date": "2014-10-24",
+          "last_modified": "2014-10-24T18:27:27+00:00",
+          "from_team": {
+            "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hornets",
+            "market": "Charlotte"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bf0877d4-819a-440b-b0ad-9ca63eaa6e43",
+      "full_name": "Orlando Sanchez",
+      "first_name": "Orlando",
+      "last_name": "Sanchez",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "26",
+      "transfers": [
+        {
+          "id": "6400ed44-1d34-463c-bec9-0c2f9dd47229",
+          "notes": "New York waives Sanchez.",
+          "desc": "Waived",
+          "effective_date": "2014-10-24",
+          "last_modified": "2014-10-24T18:29:15+00:00",
+          "from_team": {
+            "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Knicks",
+            "market": "New York"
+          }
+        }
+      ]
+    },
+    {
+      "id": "83df10df-eeb4-471d-9bc0-7a2386c47d83",
+      "full_name": "Kevin Jones",
+      "first_name": "Kevin",
+      "last_name": "Jones",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "50",
+      "transfers": [
+        {
+          "id": "6429b822-9977-4c3f-892d-abb6973af364",
+          "notes": "New Orleans waives Jones.",
+          "desc": "Waived",
+          "effective_date": "2014-10-24",
+          "last_modified": "2014-10-24T23:22:20+00:00",
+          "from_team": {
+            "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pelicans",
+            "market": "New Orleans"
+          }
+        }
+      ]
+    },
+    {
+      "id": "0d022b46-bcfe-4c43-af87-490c7d5ae34a",
+      "full_name": "Casper Ware",
+      "first_name": "Casper",
+      "last_name": "Ware",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "6660a1b2-5e0c-478a-a1e9-16c9b510e442",
+          "notes": "Philadelphia trades G Ware to Brooklyn.",
+          "desc": "Trade",
+          "effective_date": "2014-10-24",
+          "last_modified": "2014-10-24T21:42:30+00:00",
+          "from_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          },
+          "to_team": {
+            "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nets",
+            "market": "Brooklyn"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c5a7d59a-fcff-47cf-a836-760902fe28f2",
+      "full_name": "Brian Qvale",
+      "first_name": "Brian",
+      "last_name": "Qvale",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "41",
+      "transfers": [
+        {
+          "id": "76db1f65-d58a-4072-86f7-a81b3a3e68b7",
+          "notes": "Charlotte waives Qvale.",
+          "desc": "Waived",
+          "effective_date": "2014-10-24",
+          "last_modified": "2014-10-24T18:28:32+00:00",
+          "from_team": {
+            "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hornets",
+            "market": "Charlotte"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ab55b5eb-f998-4480-a69b-eacaa7325ff3",
+      "full_name": "Willie Reed",
+      "first_name": "Willie",
+      "last_name": "Reed",
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "55",
+      "transfers": [
+        {
+          "id": "8c03264b-1b94-4ae5-bd0d-d219861efb5b",
+          "effective_date": "2014-10-24",
+          "last_modified": "2014-10-24T12:36:05+00:00",
+          "from_team": {
+            "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nets",
+            "market": "Brooklyn"
+          }
+        }
+      ]
+    },
+    {
+      "id": "895fa449-c569-44d1-ac1b-de05db7d2589",
+      "full_name": "Tyler Johnson",
+      "first_name": "Tyler",
+      "last_name": "Johnson",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "8",
+      "transfers": [
+        {
+          "id": "8d71e217-4c8e-42d2-9cc5-a077fa5d2b33",
+          "effective_date": "2014-10-24",
+          "last_modified": "2014-10-24T12:34:44+00:00",
+          "from_team": {
+            "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Heat",
+            "market": "Miami"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ab56669c-908d-4983-8fcc-19f81b663c82",
+      "full_name": "Talib Zanna",
+      "first_name": "Talib",
+      "last_name": "Zanna",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "44",
+      "transfers": [
+        {
+          "id": "9059d168-f665-4bff-895f-e1b62c85b568",
+          "notes": "Oklahoma City waives Zanna.",
+          "desc": "Waived",
+          "effective_date": "2014-10-24",
+          "last_modified": "2014-10-24T23:24:18+00:00",
+          "from_team": {
+            "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Thunder",
+            "market": "Oklahoma City"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3d84fd6f-bdc6-4442-ae65-127a945574e4",
+      "full_name": "Shawn Jones",
+      "first_name": "Shawn",
+      "last_name": "Jones",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "12",
+      "transfers": [
+        {
+          "id": "937c6a13-e634-434d-9edf-2054d4ce64a5",
+          "effective_date": "2014-10-24",
+          "last_modified": "2014-10-24T12:35:07+00:00",
+          "from_team": {
+            "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Heat",
+            "market": "Miami"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4f4b023f-253c-4ab3-9d1a-4953660293cb",
+      "full_name": "Josh Davis",
+      "first_name": "Josh",
+      "last_name": "Davis",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "4",
+      "transfers": [
+        {
+          "id": "bd638adf-e61f-45e5-bd11-aa80fb9f5308",
+          "effective_date": "2014-10-24",
+          "last_modified": "2014-10-24T12:34:08+00:00",
+          "from_team": {
+            "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Spurs",
+            "market": "San Antonio"
+          }
+        }
+      ]
+    },
+    {
+      "id": "144302aa-3852-4925-bece-cd9a327e6dd6",
+      "full_name": "Marquis Teague",
+      "first_name": "Marquis",
+      "last_name": "Teague",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "c7674931-0eba-4789-aa3a-4b3c37da65a6",
+          "notes": "Brooklyn trades G Teague to Philadelphia.",
+          "desc": "Trade",
+          "effective_date": "2014-10-24",
+          "last_modified": "2014-10-24T21:42:04+00:00",
+          "from_team": {
+            "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nets",
+            "market": "Brooklyn"
+          },
+          "to_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2a5ceef4-9480-48f3-a897-66cb065a2d98",
+      "full_name": "Michael Jenkins",
+      "first_name": "Michael",
+      "last_name": "Jenkins",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "6",
+      "transfers": [
+        {
+          "id": "cbe3b215-7c0c-4a28-9d01-e85ed6e96b44",
+          "notes": "Oklahoma City places Jenkins on waivers.",
+          "desc": "Waived",
+          "effective_date": "2014-10-24",
+          "last_modified": "2014-10-24T23:21:41+00:00",
+          "from_team": {
+            "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Thunder",
+            "market": "Oklahoma City"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6e6545d7-7d40-4a3f-b962-5e17a9860fce",
+      "full_name": "Jarell Eddie",
+      "first_name": "Jarell",
+      "last_name": "Eddie",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "d519a2b5-f899-4f78-8cfa-df7003d038e3",
+          "notes": "Boston claims F Eddie off waivers from Atlanta.",
+          "desc": "Waiver Claim",
+          "effective_date": "2014-10-24",
+          "last_modified": "2014-10-24T17:12:12+00:00",
+          "from_team": {
+            "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Celtics",
+            "market": "Boston"
+          },
+          "to_team": {
+            "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Celtics",
+            "market": "Boston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f92a3b51-687c-4931-8744-9d9fc1e2ac31",
+      "full_name": "D.J. Stephens",
+      "first_name": "D.J.",
+      "last_name": "Stephens",
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "24",
+      "transfers": [
+        {
+          "id": "ddac40ab-862d-4342-93fe-8133874eb28a",
+          "notes": "New Orleans waives Stephens.",
+          "desc": "Waived",
+          "effective_date": "2014-10-24",
+          "last_modified": "2014-10-24T23:23:26+00:00",
+          "from_team": {
+            "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pelicans",
+            "market": "New Orleans"
+          }
+        }
+      ]
+    },
+    {
+      "id": "724b61fe-2644-4dcd-b356-3cdb95a2cdc0",
+      "full_name": "Larry Drew II",
+      "first_name": "Larry",
+      "last_name": "Drew",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "ecc09047-cacf-47d8-a90c-2a49ef3fd34c",
+          "effective_date": "2014-10-24",
+          "last_modified": "2014-10-24T12:34:25+00:00",
+          "from_team": {
+            "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Heat",
+            "market": "Miami"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c01b3fd4-db4c-4369-bd88-b7f6d1ed0cc9",
+      "full_name": "D.J. Mbenga",
+      "first_name": "D.J.",
+      "last_name": "Mbenga",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "28",
+      "transfers": [
+        {
+          "id": "f860c837-5091-498c-ac0f-6d77150fbf41",
+          "notes": "New York waives Mbenga.",
+          "desc": "Waived",
+          "effective_date": "2014-10-24",
+          "last_modified": "2014-10-24T18:27:59+00:00",
+          "from_team": {
+            "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Knicks",
+            "market": "New York"
+          }
+        }
+      ]
+    }
+  ]
+}

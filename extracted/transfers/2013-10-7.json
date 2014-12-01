@@ -1,0 +1,32 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2013-10-07T04:00:00+00:00",
+  "end_time": "2013-10-08T03:59:59+00:00",
+  "players": [
+    {
+      "id": "b4692f24-2d87-443c-88c9-e2d6460a96c1",
+      "full_name": "Josh Akognon",
+      "first_name": "Josh",
+      "last_name": "Akognon",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "2",
+      "transfers": [
+        {
+          "id": "6d01e0ab-a969-4596-b6cd-2721bc88129d",
+          "effective_date": "2013-10-06",
+          "last_modified": "2013-10-07T14:50:55+00:00",
+          "from_team": {
+            "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Grizzlies",
+            "market": "Memphis"
+          }
+        }
+      ]
+    }
+  ]
+}

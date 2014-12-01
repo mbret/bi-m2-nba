@@ -1,0 +1,133 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-07-16T04:00:00+00:00",
+  "end_time": "2014-07-17T03:59:59+00:00",
+  "players": [
+    {
+      "id": "ed343fa6-397c-4456-9f3f-63efee6706b5",
+      "full_name": "Udonis Haslem",
+      "first_name": "Udonis",
+      "last_name": "Haslem",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "07627125-7ed7-46b1-997f-fa868e66129e",
+          "effective_date": "2014-07-16",
+          "last_modified": "2014-07-16T19:29:47+00:00",
+          "from_team": {
+            "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Heat",
+            "market": "Miami"
+          },
+          "to_team": {
+            "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Heat",
+            "market": "Miami"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8a21a022-d3e4-468f-9eeb-c05c29284b79",
+      "full_name": "Rashard Lewis",
+      "first_name": "Rashard",
+      "last_name": "Lewis",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "204f4536-6ada-435c-9593-ceb361630542",
+          "effective_date": "2014-07-16",
+          "last_modified": "2014-07-16T18:32:36+00:00",
+          "from_team": {
+            "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Mavericks",
+            "market": "Dallas"
+          },
+          "to_team": {
+            "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Mavericks",
+            "market": "Dallas"
+          }
+        }
+      ]
+    },
+    {
+      "id": "33a91bda-9f4d-4f80-97d8-9bc574f6afc2",
+      "full_name": "Anthony Tolliver",
+      "first_name": "Anthony",
+      "last_name": "Tolliver",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "43",
+      "transfers": [
+        {
+          "id": "898c7dba-1a09-4295-99af-d5de091a8648",
+          "effective_date": "2014-07-16",
+          "last_modified": "2014-07-16T18:27:52+00:00",
+          "from_team": {
+            "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hornets",
+            "market": "Charlotte"
+          },
+          "to_team": {
+            "id": "583ecfa8-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Suns",
+            "market": "Phoenix"
+          }
+        }
+      ]
+    },
+    {
+      "id": "05a90cd6-73de-43d5-9d30-bc2588d03262",
+      "full_name": "Ish Smith",
+      "first_name": "Ish",
+      "last_name": "Smith",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "3",
+      "transfers": [
+        {
+          "id": "ab84713c-3617-4f5b-a581-10e1c2a43cd7",
+          "effective_date": "2014-07-16",
+          "last_modified": "2014-07-16T19:30:44+00:00",
+          "from_team": {
+            "id": "583ecfa8-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Suns",
+            "market": "Phoenix"
+          }
+        }
+      ]
+    },
+    {
+      "id": "01e8f44f-f1ee-4d3a-86bd-c29d597ba9bd",
+      "full_name": "Lance Stephenson",
+      "first_name": "Lance",
+      "last_name": "Stephenson",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "db9572cc-5562-4022-99d1-808a9717efee",
+          "notes": "Charlotte has signed FA G Stephenson.",
+          "desc": "Free Agency",
+          "effective_date": "2014-07-16",
+          "last_modified": "2014-07-16T13:27:27+00:00",
+          "to_team": {
+            "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hornets",
+            "market": "Charlotte"
+          }
+        }
+      ]
+    }
+  ]
+}

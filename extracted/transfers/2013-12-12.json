@@ -1,0 +1,32 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2013-12-12T05:00:00+00:00",
+  "end_time": "2013-12-13T04:59:59+00:00",
+  "players": [
+    {
+      "id": "9b8dc513-fdf5-44af-ac6c-9b1c26ba856a",
+      "full_name": "James Southerland",
+      "first_name": "James",
+      "last_name": "Southerland",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "31",
+      "transfers": [
+        {
+          "id": "a7586d47-1bc1-41e3-beaa-a20d77bc18fe",
+          "effective_date": "2013-12-12",
+          "last_modified": "2013-12-12T16:36:22+00:00",
+          "from_team": {
+            "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hornets",
+            "market": "Charlotte"
+          }
+        }
+      ]
+    }
+  ]
+}

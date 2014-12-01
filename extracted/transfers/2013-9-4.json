@@ -1,0 +1,74 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2013-09-04T04:00:00+00:00",
+  "end_time": "2013-09-05T03:59:59+00:00",
+  "players": [
+    {
+      "id": "ae9050a8-f83f-4a66-9741-308c47730103",
+      "full_name": "Michael Beasley",
+      "first_name": "Michael",
+      "last_name": "Beasley",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "6",
+      "transfers": [
+        {
+          "id": "4f542cbe-962f-4dde-a45a-9fdfa1d1bd53",
+          "effective_date": "2013-09-03",
+          "last_modified": "2013-09-04T15:18:41+00:00",
+          "from_team": {
+            "id": "583ecfa8-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Suns",
+            "market": "Phoenix"
+          }
+        }
+      ]
+    },
+    {
+      "id": "05254222-e77b-4d83-a36b-be339b1867a8",
+      "full_name": "Quentin Richardson",
+      "first_name": "Quentin",
+      "last_name": "Richardson",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "a50b2ca0-e63c-43b2-8bc2-0d0c23f91e5b",
+          "effective_date": "2013-08-30",
+          "last_modified": "2013-09-04T15:18:10+00:00",
+          "from_team": {
+            "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Raptors",
+            "market": "Toronto"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c3e6f4de-689a-4415-a24d-cf758772d4db",
+      "full_name": "Fab Melo",
+      "first_name": "Fab",
+      "last_name": "Melo",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "14",
+      "transfers": [
+        {
+          "id": "a7db4145-e7dd-4fda-a59a-9c13109f2770",
+          "effective_date": "2013-08-30",
+          "last_modified": "2013-09-04T15:17:43+00:00",
+          "from_team": {
+            "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Grizzlies",
+            "market": "Memphis"
+          }
+        }
+      ]
+    }
+  ]
+}

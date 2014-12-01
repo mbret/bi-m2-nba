@@ -1,0 +1,149 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-09-22T04:00:00+00:00",
+  "end_time": "2014-09-23T03:59:59+00:00",
+  "players": [
+    {
+      "id": "ab55b5eb-f998-4480-a69b-eacaa7325ff3",
+      "full_name": "Willie Reed",
+      "first_name": "Willie",
+      "last_name": "Reed",
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "08633d1e-0e78-4567-bac4-245e0b7da5f6",
+          "notes": "Brooklyn has signed FA F-C Reed to training camp deal.",
+          "desc": "Free Agency",
+          "effective_date": "2014-09-22",
+          "last_modified": "2014-09-22T19:26:53+00:00",
+          "to_team": {
+            "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nets",
+            "market": "Brooklyn"
+          }
+        }
+      ]
+    },
+    {
+      "id": "00278ead-9420-47ba-a8c6-18e5c61d1492",
+      "full_name": "A.J. Price",
+      "first_name": "A.J.",
+      "last_name": "Price",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "17c4a75e-ce27-444f-83f4-e97caf22e2ef",
+          "notes": "Cleveland has signed FA G Price to training camp deal.",
+          "desc": "Free Agency",
+          "effective_date": "2014-09-22",
+          "last_modified": "2014-09-22T19:28:39+00:00",
+          "to_team": {
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Cavaliers",
+            "market": "Cleveland"
+          }
+        }
+      ]
+    },
+    {
+      "id": "90c64141-1d4d-4935-9387-fe236313c3f5",
+      "full_name": "Dahntay Jones",
+      "first_name": "Dahntay",
+      "last_name": "Jones",
+      "position": "F-G",
+      "primary_position": "SF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "3a356e55-16ed-4ff6-90c3-958d531ed15f",
+          "notes": "Utah has signed FA F-G to training camp deal.",
+          "desc": "Free Agency",
+          "effective_date": "2014-09-22",
+          "last_modified": "2014-09-22T19:26:11+00:00",
+          "to_team": {
+            "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Jazz",
+            "market": "Utah"
+          }
+        }
+      ]
+    },
+    {
+      "id": "007a5e3c-978e-49e3-af38-7a4d9354cf21",
+      "full_name": "Rasual Butler",
+      "first_name": "Rasual",
+      "last_name": "Butler",
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "b0120e05-378a-434e-8736-bbf11273659b",
+          "notes": "Washington has signed FA G-F Butler to training camp deal.",
+          "desc": "Free Agency",
+          "effective_date": "2014-09-22",
+          "last_modified": "2014-09-22T23:14:20+00:00",
+          "to_team": {
+            "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Wizards",
+            "market": "Washington"
+          }
+        }
+      ]
+    },
+    {
+      "id": "47e00cc4-53ca-453b-993a-0f58279e2a94",
+      "full_name": "Wayne Ellington",
+      "first_name": "Wayne",
+      "last_name": "Ellington",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "fb13c728-6909-4349-81ca-d242e624cc56",
+          "notes": "Los Angeles Lakers have signed FA G Ellington.",
+          "desc": "Free Agency",
+          "effective_date": "2014-09-22",
+          "last_modified": "2014-09-22T22:48:45+00:00",
+          "to_team": {
+            "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Lakers",
+            "market": "Los Angeles"
+          }
+        }
+      ]
+    },
+    {
+      "id": "091f4c76-2882-44a3-b49c-bd0566c0c450",
+      "full_name": "Doron Lamb",
+      "first_name": "Doron",
+      "last_name": "Lamb",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "fd8aeaec-9fa9-48c5-b87b-174f8d38fcbc",
+          "notes": "Dallas has signed FA G Lamb to non-guaranteed contract.",
+          "desc": "Free Agency",
+          "effective_date": "2014-09-22",
+          "last_modified": "2014-09-22T19:25:32+00:00",
+          "to_team": {
+            "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Mavericks",
+            "market": "Dallas"
+          }
+        }
+      ]
+    }
+  ]
+}

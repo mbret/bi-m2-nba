@@ -1,0 +1,126 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-10-21T04:00:00+00:00",
+  "end_time": "2014-10-22T03:59:59+00:00",
+  "players": [
+    {
+      "id": "6e6545d7-7d40-4a3f-b962-5e17a9860fce",
+      "full_name": "Jarell Eddie",
+      "first_name": "Jarell",
+      "last_name": "Eddie",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "3",
+      "transfers": [
+        {
+          "id": "1c78e5ff-8ab0-4176-91c8-d638b167a29e",
+          "notes": "Atlanta waives F Eddie.",
+          "desc": "Waived",
+          "effective_date": "2014-10-21",
+          "last_modified": "2014-10-21T18:54:37+00:00",
+          "from_team": {
+            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hawks",
+            "market": "Atlanta"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15a6fa24-735c-4613-b14d-bc89f3724720",
+      "full_name": "Yuki Togashi",
+      "first_name": "Yuki",
+      "last_name": "Togashi",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "10",
+      "transfers": [
+        {
+          "id": "4e325209-6016-423d-b72e-c9cbce6c1d05",
+          "notes": "Dallas waives G Togashi.",
+          "desc": "Waived",
+          "effective_date": "2014-10-21",
+          "last_modified": "2014-10-21T16:46:09+00:00",
+          "from_team": {
+            "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Mavericks",
+            "market": "Dallas"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a062f75e-860c-4792-ac47-d6109fd0159c",
+      "full_name": "Eric Griffin",
+      "first_name": "Eric",
+      "last_name": "Griffin",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "21",
+      "transfers": [
+        {
+          "id": "632caf32-e2eb-4320-8ea3-a18a86a8ae3d",
+          "notes": "Dallas waives F Griffin.",
+          "desc": "Waived",
+          "effective_date": "2014-10-21",
+          "last_modified": "2014-10-21T14:42:12+00:00",
+          "from_team": {
+            "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Mavericks",
+            "market": "Dallas"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a08f13f6-6304-44ba-b1cc-5af6b89b883c",
+      "full_name": "Christian Watford",
+      "first_name": "Christian",
+      "last_name": "Watford",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "27",
+      "transfers": [
+        {
+          "id": "8dc47c3f-ae11-441b-8ca9-435c3f373b0c",
+          "notes": "Boston waives F Watford.",
+          "desc": "Waived",
+          "effective_date": "2014-10-21",
+          "last_modified": "2014-10-21T15:57:21+00:00",
+          "from_team": {
+            "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Celtics",
+            "market": "Boston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7df74140-7064-4162-8228-b1079cd0c0f1",
+      "full_name": "Dexter Pittman",
+      "first_name": "Dexter",
+      "last_name": "Pittman",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "45",
+      "transfers": [
+        {
+          "id": "be655ab9-f8b7-4054-8d84-71b62bf31a71",
+          "notes": "Atlanta waives C Pittman.",
+          "desc": "Waived",
+          "effective_date": "2014-10-21",
+          "last_modified": "2014-10-21T18:55:07+00:00",
+          "from_team": {
+            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hawks",
+            "market": "Atlanta"
+          }
+        }
+      ]
+    }
+  ]
+}

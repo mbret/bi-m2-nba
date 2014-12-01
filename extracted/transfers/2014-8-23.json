@@ -1,0 +1,167 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-08-23T04:00:00+00:00",
+  "end_time": "2014-08-24T03:59:59+00:00",
+  "players": [
+    {
+      "id": "7d615ccd-db96-42a3-9a6c-7f18ea25634e",
+      "full_name": "Kevin Love",
+      "first_name": "Kevin",
+      "last_name": "Love",
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "42",
+      "transfers": [
+        {
+          "id": "2f42e491-833b-4d75-8397-c7804dad33b5",
+          "effective_date": "2014-08-23",
+          "last_modified": "2014-08-23T22:25:58+00:00",
+          "from_team": {
+            "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Timberwolves",
+            "market": "Minnesota"
+          },
+          "to_team": {
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Cavaliers",
+            "market": "Cleveland"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5af8d05e-98e0-4d4a-87a3-8f2ce31173a7",
+      "full_name": "Alexey Shved",
+      "first_name": "Alexey",
+      "last_name": "Shved",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "1",
+      "transfers": [
+        {
+          "id": "4fdfbb51-dc01-466b-ad5d-a9cbca75429e",
+          "effective_date": "2014-08-23",
+          "last_modified": "2014-08-23T22:28:59+00:00",
+          "from_team": {
+            "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Timberwolves",
+            "market": "Minnesota"
+          },
+          "to_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "77c425f0-0fce-4fab-bd1e-c915c8fb5bc7",
+      "full_name": "Andrew Wiggins",
+      "first_name": "Andrew",
+      "last_name": "Wiggins",
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "21",
+      "transfers": [
+        {
+          "id": "7339e209-5c0a-40b2-8b42-269ee9a37b80",
+          "effective_date": "2014-08-23",
+          "last_modified": "2014-08-23T22:26:35+00:00",
+          "from_team": {
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Cavaliers",
+            "market": "Cleveland"
+          },
+          "to_team": {
+            "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Timberwolves",
+            "market": "Minnesota"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b634fb27-1562-4d4a-b340-066c46e62d25",
+      "full_name": "Anthony Bennett",
+      "first_name": "Anthony",
+      "last_name": "Bennett",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "15",
+      "transfers": [
+        {
+          "id": "980e4db1-004f-43c8-8421-05b2d7004b6e",
+          "effective_date": "2014-08-23",
+          "last_modified": "2014-08-23T22:27:27+00:00",
+          "from_team": {
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Cavaliers",
+            "market": "Cleveland"
+          },
+          "to_team": {
+            "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Timberwolves",
+            "market": "Minnesota"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a696f51d-0329-4d74-a52a-1d5ef80a1bc8",
+      "full_name": "Luc Mbah a Moute",
+      "first_name": "Luc",
+      "last_name": "Mbah a Moute",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "12",
+      "transfers": [
+        {
+          "id": "acec33c1-1c83-48ef-bf5f-233115d3c6b1",
+          "effective_date": "2014-08-23",
+          "last_modified": "2014-08-23T22:28:27+00:00",
+          "from_team": {
+            "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Timberwolves",
+            "market": "Minnesota"
+          },
+          "to_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "31a50d54-ef46-47a8-863c-6f4d4e5aa184",
+      "full_name": "Thaddeus Young",
+      "first_name": "Thaddeus",
+      "last_name": "Young",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "21",
+      "transfers": [
+        {
+          "id": "c3a1781f-b6db-49d1-86f2-c81ef824a103",
+          "effective_date": "2014-08-23",
+          "last_modified": "2014-08-23T22:27:48+00:00",
+          "from_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          },
+          "to_team": {
+            "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Timberwolves",
+            "market": "Minnesota"
+          }
+        }
+      ]
+    }
+  ]
+}

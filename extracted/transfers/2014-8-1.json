@@ -1,0 +1,37 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-08-01T04:00:00+00:00",
+  "end_time": "2014-08-02T03:59:59+00:00",
+  "players": [
+    {
+      "id": "718aec05-73fa-4c3f-8275-dda9f489b00e",
+      "full_name": "Shawne Williams",
+      "first_name": "Shawne",
+      "last_name": "Williams",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "3",
+      "transfers": [
+        {
+          "id": "ba72d01e-58a8-45a4-b709-23fd72bdbce5",
+          "effective_date": "2014-08-01",
+          "last_modified": "2014-08-01T17:53:02+00:00",
+          "from_team": {
+            "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Heat",
+            "market": "Miami"
+          },
+          "to_team": {
+            "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Heat",
+            "market": "Miami"
+          }
+        }
+      ]
+    }
+  ]
+}

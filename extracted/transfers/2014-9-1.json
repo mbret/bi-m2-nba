@@ -1,0 +1,113 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-09-01T04:00:00+00:00",
+  "end_time": "2014-09-02T03:59:59+00:00",
+  "players": [
+    {
+      "id": "2b0dfd31-6682-44f2-b579-42d3aa005183",
+      "full_name": "Chris Singleton",
+      "first_name": "Chris",
+      "last_name": "Singleton",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "642bfeb5-c06b-44e6-9acc-b72a1a2a8ea6",
+          "notes": "Indiana has signed FA F Singleton.com",
+          "desc": "Free Agency",
+          "effective_date": "2014-09-01",
+          "last_modified": "2014-09-01T18:10:27+00:00",
+          "to_team": {
+            "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pacers",
+            "market": "Indiana"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b3d26b52-f2bf-4c64-a3aa-d3954a1f85ae",
+      "full_name": "Luke Hancock",
+      "first_name": "Luke",
+      "last_name": "Hancock",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "800519f8-fd72-4349-86ff-c9cfc0b1b9fa",
+          "notes": "Memphis has signed FA G Hancock.",
+          "desc": "Free Agency",
+          "effective_date": "2014-09-01",
+          "last_modified": "2014-09-01T18:53:08+00:00",
+          "to_team": {
+            "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Grizzlies",
+            "market": "Memphis"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8641c4fe-b822-45e5-998a-13b85b30e215",
+      "full_name": "Jason Terry",
+      "first_name": "Jason",
+      "last_name": "Terry",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "c3653cb6-8ec1-4ce0-8dfb-a9277dcbac1f",
+          "notes": "Houston has traded for G Terry.",
+          "desc": "Trade",
+          "effective_date": "2014-09-01",
+          "last_modified": "2014-09-01T20:48:06+00:00",
+          "from_team": {
+            "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Kings",
+            "market": "Sacramento"
+          },
+          "to_team": {
+            "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Rockets",
+            "market": "Houston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "eee7ca97-fce8-4af4-94b5-f5b107c76b46",
+      "full_name": "Alonzo Gee",
+      "first_name": "Alonzo",
+      "last_name": "Gee",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "dc040bbb-36dd-411a-8c1d-51983a95d795",
+          "notes": "Sacramento has traded for F Gee from Houston.",
+          "desc": "Trade",
+          "effective_date": "2014-09-01",
+          "last_modified": "2014-09-01T20:48:45+00:00",
+          "from_team": {
+            "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Rockets",
+            "market": "Houston"
+          },
+          "to_team": {
+            "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Kings",
+            "market": "Sacramento"
+          }
+        }
+      ]
+    }
+  ]
+}

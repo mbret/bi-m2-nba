@@ -1,0 +1,204 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-08-26T04:00:00+00:00",
+  "end_time": "2014-08-27T03:59:59+00:00",
+  "players": [
+    {
+      "id": "7e67ec2d-3b78-4bf3-aeb8-5f43bfad3e80",
+      "full_name": "Hasheem Thabeet",
+      "first_name": "Hasheem",
+      "last_name": "Thabeet",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "05de4c64-a34b-45bc-8199-c240c9c2cf5c",
+          "notes": "Philadelphia waives C Thabeet.",
+          "desc": "Waive",
+          "effective_date": "2014-08-26",
+          "last_modified": "2014-08-26T21:03:43+00:00",
+          "from_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        },
+        {
+          "id": "f22cd0f1-3021-4737-87e5-173fb173bd7b",
+          "notes": "Oklahoma City trades C Thabeet to Philadelphia.",
+          "desc": "Trade",
+          "effective_date": "2014-08-26",
+          "last_modified": "2014-08-26T20:54:32+00:00",
+          "from_team": {
+            "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Thunder",
+            "market": "Oklahoma City"
+          },
+          "to_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "94303613-738d-45ef-aee1-d1a6b74545d6",
+      "full_name": "Carlos Delfino",
+      "first_name": "Carlos",
+      "last_name": "Delfino",
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "16b0cf0a-a276-4012-9a13-8f3c76823d30",
+          "notes": "Milwaukee trades G Delfino to Los Angeles Clippers.",
+          "desc": "Trade",
+          "effective_date": "2014-08-26",
+          "last_modified": "2014-08-26T19:08:11+00:00",
+          "from_team": {
+            "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bucks",
+            "market": "Milwaukee"
+          },
+          "to_team": {
+            "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Clippers",
+            "market": "Los Angeles"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5014fd11-2275-4137-9a88-bf8e3c0040ac",
+      "full_name": "Dee Bost",
+      "first_name": "Dee",
+      "last_name": "Bost",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "6bd6b3bc-2c53-47f3-9b5a-35d6d2aa26f8",
+          "notes": "Utah has signed FA G Bost.",
+          "desc": "Free Agency",
+          "effective_date": "2014-08-26",
+          "last_modified": "2014-08-26T15:43:12+00:00",
+          "to_team": {
+            "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Jazz",
+            "market": "Utah"
+          }
+        }
+      ]
+    },
+    {
+      "id": "04856926-1edc-4375-a147-246c4d66b6bb",
+      "full_name": "Jared Dudley",
+      "first_name": "Jared",
+      "last_name": "Dudley",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "8744e424-52e8-41be-b31c-9618cb569f57",
+          "notes": "Los Angeles Clippers have traded F Dudley to Milwaukee.",
+          "desc": "Trade",
+          "effective_date": "2014-08-26",
+          "last_modified": "2014-08-26T19:09:55+00:00",
+          "from_team": {
+            "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Clippers",
+            "market": "Los Angeles"
+          },
+          "to_team": {
+            "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bucks",
+            "market": "Milwaukee"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8a226084-2a76-4ff3-84b8-7dcc263aacc5",
+      "full_name": "Toure' Murry",
+      "first_name": "Toure'",
+      "last_name": "Murry",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "c9065136-ad3e-4d22-bd0c-4af9c7a512c5",
+          "notes": "Utah has signed FA G Murry.",
+          "desc": "Free Agency",
+          "effective_date": "2014-08-26",
+          "last_modified": "2014-08-26T22:09:40+00:00",
+          "to_team": {
+            "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Jazz",
+            "market": "Utah"
+          }
+        }
+      ]
+    },
+    {
+      "id": "964ff158-b9c3-4468-8304-fe3044a2d589",
+      "full_name": "Miroslav Raduljica",
+      "first_name": "Miroslav",
+      "last_name": "Raduljica",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "dea9b535-0e65-4264-abfd-48d903f26239",
+          "notes": "Milwaukee trades C Raduljica to the Los Angeles Clippers.",
+          "desc": "Trade",
+          "effective_date": "2014-08-26",
+          "last_modified": "2014-08-26T19:09:20+00:00",
+          "from_team": {
+            "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bucks",
+            "market": "Milwaukee"
+          },
+          "to_team": {
+            "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Clippers",
+            "market": "Los Angeles"
+          }
+        }
+      ]
+    },
+    {
+      "id": "648a48b6-6753-464f-8a9a-c158cac82b38",
+      "full_name": "Kevin Murphy",
+      "first_name": "Kevin",
+      "last_name": "Murphy",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "f7b59f01-b4b8-490b-a6b7-8bf7545743bf",
+          "notes": "Utah has signed FA G Murphy.",
+          "desc": "Free Agency",
+          "effective_date": "2014-08-26",
+          "last_modified": "2014-08-26T15:42:43+00:00",
+          "to_team": {
+            "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Jazz",
+            "market": "Utah"
+          }
+        }
+      ]
+    }
+  ]
+}

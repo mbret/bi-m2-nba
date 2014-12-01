@@ -1,0 +1,126 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2013-11-12T05:00:00+00:00",
+  "end_time": "2013-11-13T04:59:59+00:00",
+  "players": [
+    {
+      "id": "f76acd63-bf42-4fa7-9985-a7838f9cb029",
+      "full_name": "Lance Thomas",
+      "first_name": "Lance",
+      "last_name": "Thomas",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "42",
+      "transfers": [
+        {
+          "id": "10c04b9b-5f43-4db8-9018-670f555fe44c",
+          "effective_date": "2013-11-12",
+          "last_modified": "2013-11-12T20:19:55+00:00",
+          "from_team": {
+            "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pelicans",
+            "market": "New Orleans"
+          }
+        }
+      ]
+    },
+    {
+      "id": "1456dbf0-ebaf-4c45-96aa-eeec569f8ecc",
+      "full_name": "Jamaal Tinsley",
+      "first_name": "Jamaal",
+      "last_name": "Tinsley",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "6",
+      "transfers": [
+        {
+          "id": "66d81178-98bb-48f5-b58f-5cdd0dad9f34",
+          "effective_date": "2013-11-12",
+          "last_modified": "2013-11-12T20:05:37+00:00",
+          "from_team": {
+            "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Jazz",
+            "market": "Utah"
+          }
+        }
+      ]
+    },
+    {
+      "id": "e47a4dd7-8199-4c1e-9945-75dd415447be",
+      "full_name": "Lou Amundson",
+      "first_name": "Lou",
+      "last_name": "Amundson",
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "89",
+      "transfers": [
+        {
+          "id": "8f6c9a14-7a04-489d-9fcf-d6be18c1837f",
+          "effective_date": "2013-11-12",
+          "last_modified": "2013-11-12T20:19:30+00:00",
+          "from_team": {
+            "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pelicans",
+            "market": "New Orleans"
+          },
+          "to_team": {
+            "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pelicans",
+            "market": "New Orleans"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ac2c0c6b-e25f-4dbc-a12c-084a41fb8136",
+      "full_name": "Josh Childress",
+      "first_name": "Josh",
+      "last_name": "Childress",
+      "position": "F-G",
+      "primary_position": "SF",
+      "jersey_number": "27",
+      "transfers": [
+        {
+          "id": "d2934c9c-0db0-498a-9be1-6cacdab1df4f",
+          "effective_date": "2013-11-12",
+          "last_modified": "2013-11-12T17:32:59+00:00",
+          "from_team": {
+            "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pelicans",
+            "market": "New Orleans"
+          },
+          "to_team": {
+            "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pelicans",
+            "market": "New Orleans"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4abf845d-638e-45ce-8cdc-c90331404be4",
+      "full_name": "Arinze Onuaku",
+      "first_name": "Arinze",
+      "last_name": "Onuaku",
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "33",
+      "transfers": [
+        {
+          "id": "eac452b7-98f0-48ae-95c8-ca763efeeef1",
+          "effective_date": "2013-11-12",
+          "last_modified": "2013-11-12T20:20:06+00:00",
+          "from_team": {
+            "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pelicans",
+            "market": "New Orleans"
+          }
+        }
+      ]
+    }
+  ]
+}

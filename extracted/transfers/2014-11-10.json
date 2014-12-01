@@ -1,0 +1,113 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-11-10T05:00:00+00:00",
+  "end_time": "2014-11-11T04:59:59+00:00",
+  "players": [
+    {
+      "id": "3c7cd5c8-2e75-4330-a558-ba7df5595477",
+      "full_name": "Drew Gordon",
+      "first_name": "Drew",
+      "last_name": "Gordon",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "30",
+      "transfers": [
+        {
+          "id": "1780a770-3411-4ac0-b39d-a0b84947546e",
+          "notes": "Philadelphia recalls Gordon from Delaware (NBADL).",
+          "desc": "Recalled",
+          "effective_date": "2014-11-10",
+          "last_modified": "2014-11-10T18:45:57+00:00",
+          "from_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          },
+          "to_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a465418b-0933-40b4-8f01-253d046872e1",
+      "full_name": "Dwight Powell",
+      "first_name": "Dwight",
+      "last_name": "Powell",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "12",
+      "transfers": [
+        {
+          "id": "3cecd78f-e8b4-4e7f-b381-eacb1914f3c8",
+          "notes": "Boston recalls Powell from Maine (NBADL).",
+          "desc": "Recalled",
+          "effective_date": "2014-11-10",
+          "last_modified": "2014-11-10T17:13:07+00:00",
+          "from_team": {
+            "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Celtics",
+            "market": "Boston"
+          },
+          "to_team": {
+            "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Celtics",
+            "market": "Boston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "75b5993f-922d-4ad8-9f20-f646f39a4eaa",
+      "full_name": "Malcolm Thomas",
+      "first_name": "Malcolm",
+      "last_name": "Thomas",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "11",
+      "transfers": [
+        {
+          "id": "8649bcbb-99a6-457b-b466-e80361357e47",
+          "notes": "Philadelphia waives Thomas.",
+          "desc": "Waived",
+          "effective_date": "2014-11-10",
+          "last_modified": "2014-11-10T20:01:47+00:00",
+          "from_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c37dafbb-a269-41f6-813f-bdb4da388203",
+      "full_name": "Clint Capela",
+      "first_name": "Clint",
+      "last_name": "Capela",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "15",
+      "transfers": [
+        {
+          "id": "c3e545bd-f6a3-4b76-ac97-aa3d275fbc3e",
+          "notes": "Houston sends Capela to Rio Grande (NBADL).",
+          "desc": "Assigned",
+          "effective_date": "2014-11-10",
+          "last_modified": "2014-11-10T20:01:13+00:00",
+          "from_team": {
+            "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Rockets",
+            "market": "Houston"
+          }
+        }
+      ]
+    }
+  ]
+}

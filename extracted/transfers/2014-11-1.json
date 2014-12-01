@@ -1,0 +1,32 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-11-01T04:00:00+00:00",
+  "end_time": "2014-11-02T03:59:59+00:00",
+  "players": [
+    {
+      "id": "00278ead-9420-47ba-a8c6-18e5c61d1492",
+      "full_name": "A.J. Price",
+      "first_name": "A.J.",
+      "last_name": "Price",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "21",
+      "transfers": [
+        {
+          "id": "5ab5b090-ddee-4a1d-b103-0559e364b829",
+          "effective_date": "2014-11-02",
+          "last_modified": "2014-11-02T02:12:19+00:00",
+          "from_team": {
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Cavaliers",
+            "market": "Cleveland"
+          }
+        }
+      ]
+    }
+  ]
+}

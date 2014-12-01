@@ -1,0 +1,58 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2013-10-08T04:00:00+00:00",
+  "end_time": "2013-10-09T03:59:59+00:00",
+  "players": [
+    {
+      "id": "90c64141-1d4d-4935-9387-fe236313c3f5",
+      "full_name": "Dahntay Jones",
+      "first_name": "Dahntay",
+      "last_name": "Jones",
+      "position": "F-G",
+      "primary_position": "SF",
+      "jersey_number": "30",
+      "transfers": [
+        {
+          "id": "d5013328-3bda-4a7d-a602-0d665601c6de",
+          "effective_date": "2013-10-08",
+          "last_modified": "2013-10-08T20:09:11+00:00",
+          "from_team": {
+            "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bulls",
+            "market": "Chicago"
+          }
+        }
+      ]
+    },
+    {
+      "id": "e3848f10-1f5a-4feb-b2ad-0b4dce9b1209",
+      "full_name": "Chris Johnson",
+      "first_name": "Chris",
+      "last_name": "Johnson",
+      "position": "F-G",
+      "primary_position": "SF",
+      "jersey_number": "16",
+      "transfers": [
+        {
+          "id": "f7c6a364-59ce-4c0f-9559-ba87b563fbe2",
+          "effective_date": "2013-10-08",
+          "last_modified": "2013-10-08T21:58:24+00:00",
+          "from_team": {
+            "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nets",
+            "market": "Brooklyn"
+          },
+          "to_team": {
+            "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nets",
+            "market": "Brooklyn"
+          }
+        }
+      ]
+    }
+  ]
+}

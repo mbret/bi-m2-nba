@@ -1,0 +1,53 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2013-10-28T04:00:00+00:00",
+  "end_time": "2013-10-29T03:59:59+00:00",
+  "players": [
+    {
+      "id": "219daaa0-0e4b-4ba0-94b8-213b6a5d5383",
+      "full_name": "Marcus Camby",
+      "first_name": "Marcus",
+      "last_name": "Camby",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "21",
+      "transfers": [
+        {
+          "id": "064a84b2-877e-47ec-9efc-ac453a0b0c92",
+          "effective_date": "2013-10-28",
+          "last_modified": "2013-10-28T15:52:35+00:00",
+          "from_team": {
+            "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Rockets",
+            "market": "Houston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1d48323-0ef7-478e-a10c-cbd9f2e3f1df",
+      "full_name": "Reggie Williams",
+      "first_name": "Reggie",
+      "last_name": "Williams",
+      "position": "G-F",
+      "primary_position": "SF",
+      "jersey_number": "55",
+      "transfers": [
+        {
+          "id": "f5545188-fe4f-4015-a682-4ca25690927a",
+          "effective_date": "2013-10-28",
+          "last_modified": "2013-10-28T16:03:20+00:00",
+          "from_team": {
+            "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Rockets",
+            "market": "Houston"
+          }
+        }
+      ]
+    }
+  ]
+}

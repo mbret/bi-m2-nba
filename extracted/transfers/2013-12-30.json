@@ -1,0 +1,53 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2013-12-30T05:00:00+00:00",
+  "end_time": "2013-12-31T04:59:59+00:00",
+  "players": [
+    {
+      "id": "1ed09a0f-b2d1-4239-b103-918082783abc",
+      "full_name": "Chris Smith",
+      "first_name": "Chris",
+      "last_name": "Smith",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "85020d65-a5be-4ba3-86f7-e07e62737882",
+          "effective_date": "2013-12-30",
+          "last_modified": "2013-12-30T21:57:44+00:00",
+          "from_team": {
+            "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Knicks",
+            "market": "New York"
+          }
+        }
+      ]
+    },
+    {
+      "id": "91da23db-ca4f-4abd-a9e0-d8741c147d4f",
+      "full_name": "Hilton Armstrong",
+      "first_name": "Hilton",
+      "last_name": "Armstrong",
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "57",
+      "transfers": [
+        {
+          "id": "c4de1219-3433-4600-8165-0030d4393883",
+          "effective_date": "2013-12-30",
+          "last_modified": "2013-12-30T16:00:59+00:00",
+          "from_team": {
+            "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Warriors",
+            "market": "Golden State"
+          }
+        }
+      ]
+    }
+  ]
+}

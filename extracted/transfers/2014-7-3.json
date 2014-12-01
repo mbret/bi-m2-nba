@@ -1,0 +1,63 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-07-03T04:00:00+00:00",
+  "end_time": "2014-07-04T03:59:59+00:00",
+  "players": [
+    {
+      "id": "ea162a49-c774-4ace-b629-8eaf2e889ddb",
+      "full_name": "Darren Collison",
+      "first_name": "Darren",
+      "last_name": "Collison",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "7",
+      "transfers": [
+        {
+          "id": "46dba4ce-21bb-4eda-bbf1-3e9382af482a",
+          "effective_date": "2014-07-03",
+          "last_modified": "2014-07-03T19:24:30+00:00",
+          "from_team": {
+            "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Clippers",
+            "market": "Los Angeles"
+          },
+          "to_team": {
+            "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Kings",
+            "market": "Sacramento"
+          }
+        }
+      ]
+    },
+    {
+      "id": "02259413-3191-4057-9473-caa3268fb189",
+      "full_name": "Bryce Cotton",
+      "first_name": "Bryce",
+      "last_name": "Cotton",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "26",
+      "transfers": [
+        {
+          "id": "aa82b1fe-d19b-45ab-8823-b09bca2db690",
+          "effective_date": "2014-07-03",
+          "last_modified": "2014-07-03T19:38:20+00:00",
+          "from_team": {
+            "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Spurs",
+            "market": "San Antonio"
+          },
+          "to_team": {
+            "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Spurs",
+            "market": "San Antonio"
+          }
+        }
+      ]
+    }
+  ]
+}

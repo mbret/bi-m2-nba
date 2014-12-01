@@ -1,0 +1,116 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2013-10-09T04:00:00+00:00",
+  "end_time": "2013-10-10T03:59:59+00:00",
+  "players": [
+    {
+      "id": "e56c4cbf-a2bd-4878-9fec-c061bfcbaae8",
+      "full_name": "Cameron Jones",
+      "first_name": "Cameron",
+      "last_name": "Jones",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "6",
+      "transfers": [
+        {
+          "id": "5f0e933f-4520-45d0-8867-fc0299a71a58",
+          "effective_date": "2013-10-09",
+          "last_modified": "2013-10-09T21:59:31+00:00",
+          "from_team": {
+            "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Warriors",
+            "market": "Golden State"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2bd97a34-ced9-4413-bfaa-94dbafaa0fdd",
+      "full_name": "JaMychal Green",
+      "first_name": "JaMychal",
+      "last_name": "Green",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "41",
+      "transfers": [
+        {
+          "id": "7babc4aa-991f-4f76-a3c5-2c5c5d986eb6",
+          "effective_date": "2013-10-09",
+          "last_modified": "2013-10-09T15:14:28+00:00",
+          "from_team": {
+            "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Clippers",
+            "market": "Los Angeles"
+          }
+        }
+      ]
+    },
+    {
+      "id": "e4a758b3-7f39-434e-8e2b-c854a1e6bb10",
+      "full_name": "Mustapha Farrakhan",
+      "first_name": "Mustapha",
+      "last_name": "Farrakhan",
+      "position": "G",
+      "primary_position": "NA",
+      "jersey_number": "21",
+      "transfers": [
+        {
+          "id": "8f239a61-77bc-47f4-abae-d2328f9f8ac7",
+          "effective_date": "2013-10-09",
+          "last_modified": "2013-10-09T15:14:00+00:00",
+          "from_team": {
+            "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Clippers",
+            "market": "Los Angeles"
+          }
+        }
+      ]
+    },
+    {
+      "id": "1bbe0738-7899-40e7-ab6a-d670282a7ef2",
+      "full_name": "Eric Boateng",
+      "first_name": "Eric",
+      "last_name": "Boateng",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "15",
+      "transfers": [
+        {
+          "id": "c1543a7d-d27a-462e-b007-a65e45a318f4",
+          "effective_date": "2013-10-09",
+          "last_modified": "2013-10-09T20:14:20+00:00",
+          "from_team": {
+            "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Lakers",
+            "market": "Los Angeles"
+          }
+        }
+      ]
+    },
+    {
+      "id": "697c2828-95c8-48fc-b8cb-2ed809df6bfb",
+      "full_name": "Dan Gadzuric",
+      "first_name": "Dan",
+      "last_name": "Gadzuric",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "12",
+      "transfers": [
+        {
+          "id": "ce55922d-2a1f-4a9a-b872-0012427ef458",
+          "effective_date": "2013-10-09",
+          "last_modified": "2013-10-09T20:14:34+00:00",
+          "from_team": {
+            "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Lakers",
+            "market": "Los Angeles"
+          }
+        }
+      ]
+    }
+  ]
+}

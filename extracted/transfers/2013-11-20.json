@@ -1,0 +1,105 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2013-11-20T05:00:00+00:00",
+  "end_time": "2013-11-21T04:59:59+00:00",
+  "players": [
+    {
+      "id": "6255b242-0bbd-4f05-9c61-f44750061410",
+      "full_name": "Elliot Williams",
+      "first_name": "Elliot",
+      "last_name": "Williams",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "25",
+      "transfers": [
+        {
+          "id": "63f076e3-dfa1-4ac1-a225-c7907207499a",
+          "effective_date": "2013-11-20",
+          "last_modified": "2013-11-20T23:19:22+00:00",
+          "from_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          },
+          "to_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "29bb28eb-bebc-4230-84a5-294bb28b5b9f",
+      "full_name": "Darius Morris",
+      "first_name": "Darius",
+      "last_name": "Morris",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "4",
+      "transfers": [
+        {
+          "id": "bdc1453b-a5a9-4024-80f7-7e4e7a37d422",
+          "effective_date": "2013-11-20",
+          "last_modified": "2013-11-20T23:18:37+00:00",
+          "from_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "98d4f327-c5c4-43e3-b6fb-078cb73a15ee",
+      "full_name": "Kwame Brown",
+      "first_name": "Kwame",
+      "last_name": "Brown",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "54",
+      "transfers": [
+        {
+          "id": "bdf18a5f-12d7-4fbb-a109-a1d99d7db392",
+          "effective_date": "2013-11-20",
+          "last_modified": "2013-11-20T23:18:47+00:00",
+          "from_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2a15cb3-9a7d-4e24-b3ce-62cb4e1c3c68",
+      "full_name": "Lorenzo Brown",
+      "first_name": "Lorenzo",
+      "last_name": "Brown",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "24",
+      "transfers": [
+        {
+          "id": "fd89404f-ed57-4706-bf60-bbeed33ebd05",
+          "effective_date": "2013-11-20",
+          "last_modified": "2013-11-20T23:19:38+00:00",
+          "from_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          },
+          "to_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    }
+  ]
+}

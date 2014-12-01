@@ -1,0 +1,832 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-09-26T04:00:00+00:00",
+  "end_time": "2014-09-27T03:59:59+00:00",
+  "players": [
+    {
+      "id": "ca3731d3-6ed1-49e6-817d-e8892759c13f",
+      "full_name": "Brian Cook",
+      "first_name": "Brian",
+      "last_name": "Cook",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "43",
+      "transfers": [
+        {
+          "id": "0d12cc94-9cd4-46ed-b031-b44f83c15c4e",
+          "notes": "Detroit signs FA F Cook.",
+          "desc": "Free Agency",
+          "effective_date": "2014-09-26",
+          "last_modified": "2014-09-26T15:21:38+00:00",
+          "to_team": {
+            "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pistons",
+            "market": "Detroit"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7e67ec2d-3b78-4bf3-aeb8-5f43bfad3e80",
+      "full_name": "Hasheem Thabeet",
+      "first_name": "Hasheem",
+      "last_name": "Thabeet",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "0f8bf38e-6913-4045-9583-d0b576413cbd",
+          "effective_date": "2014-09-26",
+          "last_modified": "2014-09-26T21:23:55+00:00",
+          "from_team": {
+            "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pistons",
+            "market": "Detroit"
+          },
+          "to_team": {
+            "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pistons",
+            "market": "Detroit"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7df74140-7064-4162-8228-b1079cd0c0f1",
+      "full_name": "Dexter Pittman",
+      "first_name": "Dexter",
+      "last_name": "Pittman",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "101d6e56-17bf-4c01-805d-af295b23bb00",
+          "effective_date": "2014-09-26",
+          "last_modified": "2014-09-26T22:11:18+00:00",
+          "from_team": {
+            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hawks",
+            "market": "Atlanta"
+          },
+          "to_team": {
+            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hawks",
+            "market": "Atlanta"
+          }
+        }
+      ]
+    },
+    {
+      "id": "299c44c1-ab5f-4029-9ef2-b55ddd60a8f1",
+      "full_name": "Adonis Thomas",
+      "first_name": "Adonis",
+      "last_name": "Thomas",
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "7",
+      "transfers": [
+        {
+          "id": "117e6815-54af-45b1-9ba6-ca240250b5f3",
+          "effective_date": "2014-09-26",
+          "last_modified": "2014-09-26T20:28:44+00:00",
+          "from_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4970099b-0a37-44f6-9b71-304040992efc",
+      "full_name": "Lamar Patterson",
+      "first_name": "Lamar",
+      "last_name": "Patterson",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "130223b3-715f-4bce-96d7-f3670b1b36d4",
+          "effective_date": "2014-09-26",
+          "last_modified": "2014-09-26T22:09:59+00:00",
+          "from_team": {
+            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hawks",
+            "market": "Atlanta"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d35cc4c9-3ac2-4b4b-96e1-0189ea985095",
+      "full_name": "Xavier Thames",
+      "first_name": "Xavier",
+      "last_name": "Thames",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "1731c770-5210-4cdd-b66a-417a99ca7ac5",
+          "effective_date": "2014-09-26",
+          "last_modified": "2014-09-26T20:08:08+00:00",
+          "from_team": {
+            "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nets",
+            "market": "Brooklyn"
+          }
+        }
+      ]
+    },
+    {
+      "id": "27ce12ca-20d5-4911-b0aa-c43f960b7ef0",
+      "full_name": "James Anderson",
+      "first_name": "James",
+      "last_name": "Anderson",
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "9",
+      "transfers": [
+        {
+          "id": "1faf7036-c512-4588-b15c-3a3e5abd0000",
+          "effective_date": "2014-09-26",
+          "last_modified": "2014-09-26T20:14:00+00:00",
+          "from_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          },
+          "to_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ae9050a8-f83f-4a66-9741-308c47730103",
+      "full_name": "Michael Beasley",
+      "first_name": "Michael",
+      "last_name": "Beasley",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "20678055-f4de-4687-816a-31e3704ab439",
+          "notes": "Memphis has signed FA F Beasley.",
+          "desc": "Free Agency",
+          "effective_date": "2014-09-26",
+          "last_modified": "2014-09-26T14:37:59+00:00",
+          "to_team": {
+            "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Grizzlies",
+            "market": "Memphis"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2c9b1fc5-7590-425a-a7e9-d02a7e3f8d7c",
+      "full_name": "Chris Babb",
+      "first_name": "Chris",
+      "last_name": "Babb",
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "32f1c9eb-c376-4723-a882-1d29bd64a9f1",
+          "notes": "Boston waives G-F Babb.",
+          "desc": "Waived",
+          "effective_date": "2014-09-26",
+          "last_modified": "2014-09-26T15:19:32+00:00",
+          "from_team": {
+            "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Celtics",
+            "market": "Boston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "75b5993f-922d-4ad8-9f20-f646f39a4eaa",
+      "full_name": "Malcolm Thomas",
+      "first_name": "Malcolm",
+      "last_name": "Thomas",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "35197800-afdd-45a3-a8ec-fa820cd9bff1",
+          "desc": "Cleveland trades F Thomas to Boston.",
+          "effective_date": "2014-09-26",
+          "last_modified": "2014-09-26T14:53:22+00:00",
+          "from_team": {
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Cavaliers",
+            "market": "Cleveland"
+          },
+          "to_team": {
+            "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Celtics",
+            "market": "Boston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6e6545d7-7d40-4a3f-b962-5e17a9860fce",
+      "full_name": "Jarell Eddie",
+      "first_name": "Jarell",
+      "last_name": "Eddie",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "4531270a-6e87-4c15-8c0c-d5231c562f2d",
+          "effective_date": "2014-09-26",
+          "last_modified": "2014-09-26T22:07:13+00:00",
+          "from_team": {
+            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hawks",
+            "market": "Atlanta"
+          },
+          "to_team": {
+            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hawks",
+            "market": "Atlanta"
+          }
+        }
+      ]
+    },
+    {
+      "id": "83a48bf7-df2b-470e-98ec-c57629fe4fd1",
+      "full_name": "Brady Heslip",
+      "first_name": "Brady",
+      "last_name": "Heslip",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "3",
+      "transfers": [
+        {
+          "id": "4c0d7805-2dba-490e-ac8f-42c4779efc2f",
+          "notes": "Minnesota signs FA G Heslip to training camp deal.",
+          "desc": "Free Agency",
+          "effective_date": "2014-08-27",
+          "last_modified": "2014-09-26T15:33:26+00:00",
+          "to_team": {
+            "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Timberwolves",
+            "market": "Minnesota"
+          }
+        }
+      ]
+    },
+    {
+      "id": "78f9898e-be53-496e-adad-a610515f2635",
+      "full_name": "Ronnie Brewer",
+      "first_name": "Ronnie",
+      "last_name": "Brewer",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "11",
+      "transfers": [
+        {
+          "id": "57de813e-1c1d-4b9d-b663-2ffafce8e371",
+          "effective_date": "2014-09-26",
+          "last_modified": "2014-09-26T20:51:09+00:00",
+          "from_team": {
+            "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bulls",
+            "market": "Chicago"
+          },
+          "to_team": {
+            "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bulls",
+            "market": "Chicago"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5760645e-06a6-4ce3-a5a7-35913e014add",
+      "full_name": "Ben Hansbrough",
+      "first_name": "Ben",
+      "last_name": "Hansbrough",
+      "position": "G",
+      "primary_position": "NA",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "6d300e57-b619-40fe-8538-6d13316dcc56",
+          "notes": "Chicago signs FA G Hansbrough to training camp roster.",
+          "desc": "Free Agency",
+          "effective_date": "2014-09-26",
+          "last_modified": "2014-09-26T22:45:15+00:00",
+          "to_team": {
+            "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bulls",
+            "market": "Chicago"
+          }
+        }
+      ]
+    },
+    {
+      "id": "69ad92c6-2203-4b71-9cc7-108a0aad6ccd",
+      "full_name": "Erik Murphy",
+      "first_name": "Erik",
+      "last_name": "Murphy",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "92613477-35a7-4cbe-89a5-d1ad14de9100",
+          "notes": "Cleveland trades F Murphy to Boston. ",
+          "desc": "Trade",
+          "effective_date": "2014-09-26",
+          "last_modified": "2014-09-26T14:52:27+00:00",
+          "from_team": {
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Cavaliers",
+            "market": "Cleveland"
+          },
+          "to_team": {
+            "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Celtics",
+            "market": "Boston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7fb15c57-6024-4b0c-9493-8d52d3ef3c24",
+      "full_name": "Walter Tavares",
+      "first_name": "Walter",
+      "last_name": "Tavares",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "959059af-e881-4ec5-acae-a9034c327f5b",
+          "effective_date": "2014-09-26",
+          "last_modified": "2014-09-26T22:13:46+00:00",
+          "from_team": {
+            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hawks",
+            "market": "Atlanta"
+          }
+        }
+      ]
+    },
+    {
+      "id": "eee7ca97-fce8-4af4-94b5-f5b107c76b46",
+      "full_name": "Alonzo Gee",
+      "first_name": "Alonzo",
+      "last_name": "Gee",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "979b6085-5c40-45f7-b0da-066c7f23ceff",
+          "notes": "Sacramento has waived F Gee.",
+          "desc": "Waived",
+          "effective_date": "2014-09-26",
+          "last_modified": "2014-09-26T14:37:21+00:00",
+          "from_team": {
+            "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Kings",
+            "market": "Sacramento"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4585e74b-abff-4366-8de3-b316c94c1e21",
+      "full_name": "Solomon Jones",
+      "first_name": "Solomon",
+      "last_name": "Jones",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "a6d46704-bcca-412d-9760-cd43c915d06e",
+          "notes": "Chicago signs FA F-C Jones to training camp roster.",
+          "desc": "Free Agency",
+          "effective_date": "2014-09-26",
+          "last_modified": "2014-09-26T22:46:05+00:00",
+          "to_team": {
+            "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bulls",
+            "market": "Chicago"
+          }
+        }
+      ]
+    },
+    {
+      "id": "e3848f10-1f5a-4feb-b2ad-0b4dce9b1209",
+      "full_name": "Christopher Johnson",
+      "first_name": "Christopher",
+      "last_name": "Johnson",
+      "position": "F-G",
+      "primary_position": "SF",
+      "jersey_number": "12",
+      "transfers": [
+        {
+          "id": "a761f7e3-71c8-465a-a32a-b911a8b44a99",
+          "notes": "Boston waives F-G Johnson.",
+          "desc": "Waived",
+          "effective_date": "2014-09-26",
+          "last_modified": "2014-09-26T15:21:03+00:00",
+          "from_team": {
+            "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Celtics",
+            "market": "Boston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5a854508-5f41-4009-8986-a162224c511d",
+      "full_name": "E'Twaun Moore",
+      "first_name": "E'Twaun",
+      "last_name": "Moore",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "55",
+      "transfers": [
+        {
+          "id": "b00c7a46-b616-486d-a6d7-aac1f6ccf245",
+          "notes": "Chicago has signed FA G Moore.",
+          "desc": "Free Agency",
+          "effective_date": "2014-09-26",
+          "last_modified": "2014-09-26T14:55:38+00:00",
+          "to_team": {
+            "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bulls",
+            "market": "Chicago"
+          }
+        }
+      ]
+    },
+    {
+      "id": "e8a19123-81c1-49b4-ac6d-6862e63427c8",
+      "full_name": "Josh Harrellson",
+      "first_name": "Josh",
+      "last_name": "Harrellson",
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "55",
+      "transfers": [
+        {
+          "id": "b0f13600-6778-4659-be3d-f8b114010e2e",
+          "effective_date": "2014-09-26",
+          "last_modified": "2014-09-26T21:19:48+00:00",
+          "from_team": {
+            "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pistons",
+            "market": "Detroit"
+          }
+        }
+      ]
+    },
+    {
+      "id": "66e28766-9b3b-4b4f-a770-85b206f4fc22",
+      "full_name": "Mike James",
+      "first_name": "Mike",
+      "last_name": "James",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "8",
+      "transfers": [
+        {
+          "id": "b2cd735e-d3b9-4b9a-b9ca-2940b092a21e",
+          "effective_date": "2014-09-26",
+          "last_modified": "2014-09-26T20:55:09+00:00",
+          "from_team": {
+            "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bulls",
+            "market": "Chicago"
+          },
+          "to_team": {
+            "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bulls",
+            "market": "Chicago"
+          }
+        }
+      ]
+    },
+    {
+      "id": "28512bba-0a6b-4ec2-816a-72f2b43036e1",
+      "full_name": "Elton Brand",
+      "first_name": "Elton",
+      "last_name": "Brand",
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "7",
+      "transfers": [
+        {
+          "id": "b7b5144d-c401-4cae-aff2-ab23d721afa7",
+          "effective_date": "2014-09-26",
+          "last_modified": "2014-09-26T21:58:42+00:00",
+          "from_team": {
+            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hawks",
+            "market": "Atlanta"
+          },
+          "to_team": {
+            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hawks",
+            "market": "Atlanta"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7a3749f6-b03a-49eb-9e1d-07b897bd0b2d",
+      "full_name": "Jakarr Sampson",
+      "first_name": "Jakarr",
+      "last_name": "Sampson",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "b8ef69d1-1b0a-47d8-8839-7905f8c89fb0",
+          "effective_date": "2014-09-26",
+          "last_modified": "2014-09-26T20:25:22+00:00",
+          "from_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a465418b-0933-40b4-8f01-253d046872e1",
+      "full_name": "Dwight Powell",
+      "first_name": "Dwight",
+      "last_name": "Powell",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "c02b5c0d-1d22-4ff7-9985-e526fb33fe78",
+          "notes": "Cleveland trades F Powell to Boston. ",
+          "desc": "Trade",
+          "effective_date": "2014-09-26",
+          "last_modified": "2014-09-26T14:52:57+00:00",
+          "from_team": {
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Cavaliers",
+            "market": "Cleveland"
+          },
+          "to_team": {
+            "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Celtics",
+            "market": "Boston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ded880d5-f1a9-4cfa-a16e-6604e0a16529",
+      "full_name": "Keith Bogans",
+      "first_name": "Keith",
+      "last_name": "Bogans",
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "c1d8dabd-2054-4701-b215-43c2c20a3942",
+          "notes": "Boston trades G-F Bogans to Cleveland.",
+          "desc": "Trade",
+          "effective_date": "2014-09-26",
+          "last_modified": "2014-09-26T14:50:01+00:00",
+          "from_team": {
+            "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Celtics",
+            "market": "Boston"
+          },
+          "to_team": {
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Cavaliers",
+            "market": "Cleveland"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a2a15cb3-9a7d-4e24-b3ce-62cb4e1c3c68",
+      "full_name": "Lorenzo Brown",
+      "first_name": "Lorenzo",
+      "last_name": "Brown",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "c37dbac5-4f00-4f05-8b79-03e7fcd32b1f",
+          "effective_date": "2014-09-26",
+          "last_modified": "2014-09-26T21:10:11+00:00",
+          "from_team": {
+            "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pistons",
+            "market": "Detroit"
+          },
+          "to_team": {
+            "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pistons",
+            "market": "Detroit"
+          }
+        }
+      ]
+    },
+    {
+      "id": "e47a4dd7-8199-4c1e-9945-75dd415447be",
+      "full_name": "Lou Amundson",
+      "first_name": "Lou",
+      "last_name": "Amundson",
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "17",
+      "transfers": [
+        {
+          "id": "c3f7faf0-c778-4028-9a17-16b08e2a5900",
+          "effective_date": "2014-09-26",
+          "last_modified": "2014-09-26T20:49:45+00:00",
+          "from_team": {
+            "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bulls",
+            "market": "Chicago"
+          },
+          "to_team": {
+            "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bulls",
+            "market": "Chicago"
+          }
+        }
+      ]
+    },
+    {
+      "id": "29ff98a7-e749-43f6-82c3-f9526041e519",
+      "full_name": "Earl Clark",
+      "first_name": "Earl",
+      "last_name": "Clark",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "d381fc9d-e2c6-4dec-a685-a77d22d85724",
+          "notes": "Memphis has signed FA F Clark.",
+          "desc": "Free Agency",
+          "effective_date": "2014-09-26",
+          "last_modified": "2014-09-26T14:42:37+00:00",
+          "to_team": {
+            "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Grizzlies",
+            "market": "Memphis"
+          }
+        }
+      ]
+    },
+    {
+      "id": "17d7d84a-1d9c-48e4-b13c-3c365ea16f13",
+      "full_name": "John Lucas III",
+      "first_name": "John",
+      "last_name": "Lucas III",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "e2985063-d0e0-40d3-9721-e7717d821891",
+          "notes": "Cleveland trades G Lucas III to Boston.",
+          "desc": "Trade",
+          "effective_date": "2014-09-26",
+          "last_modified": "2014-09-26T14:51:42+00:00",
+          "from_team": {
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Cavaliers",
+            "market": "Cleveland"
+          },
+          "to_team": {
+            "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Celtics",
+            "market": "Boston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5fd06413-1734-4fca-810e-0974c258db6d",
+      "full_name": "Kim English",
+      "first_name": "Kim",
+      "last_name": "English",
+      "position": "G",
+      "primary_position": "NA",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "e5d165ff-4f26-4b31-a607-624a118c3657",
+          "notes": "Chicago signs FA G English to training camp roster.",
+          "desc": "Free Agency",
+          "effective_date": "2014-09-26",
+          "last_modified": "2014-09-26T22:44:41+00:00",
+          "to_team": {
+            "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bulls",
+            "market": "Chicago"
+          }
+        }
+      ]
+    },
+    {
+      "id": "84d79531-faaf-47ac-9aa9-c374567951d5",
+      "full_name": "Nazr Mohammed",
+      "first_name": "Nazr",
+      "last_name": "Mohammed",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "48",
+      "transfers": [
+        {
+          "id": "ef38181f-bf10-41a8-8b72-103fc8f50f2c",
+          "notes": "Chicago signs FA C Mohammed.",
+          "desc": "Free Agency",
+          "effective_date": "2014-09-26",
+          "last_modified": "2014-09-26T14:54:15+00:00",
+          "to_team": {
+            "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bulls",
+            "market": "Chicago"
+          }
+        }
+      ]
+    },
+    {
+      "id": "089602ef-f2c1-474d-8d35-5da0689429ef",
+      "full_name": "David Wear",
+      "first_name": "David",
+      "last_name": "Wear",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "f2f20ef7-cc33-4c4d-a492-6acbf06472e1",
+          "notes": "Sacramento signs F Wear to training camp roster.",
+          "desc": "Free Agency",
+          "effective_date": "2014-09-26",
+          "last_modified": "2014-09-26T16:28:37+00:00",
+          "to_team": {
+            "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Kings",
+            "market": "Sacramento"
+          }
+        }
+      ]
+    },
+    {
+      "id": "91ac13f8-e8d3-4902-b451-83ff32d2cf28",
+      "full_name": "Ramon Sessions",
+      "first_name": "Ramon",
+      "last_name": "Sessions",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "fa31f693-8810-4a04-87ae-571d4da39ede",
+          "notes": "Sacramento has signed FA G Sessions.",
+          "desc": "Free Agency",
+          "effective_date": "2014-09-26",
+          "last_modified": "2014-09-26T14:55:02+00:00",
+          "to_team": {
+            "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Kings",
+            "market": "Sacramento"
+          }
+        }
+      ]
+    }
+  ]
+}

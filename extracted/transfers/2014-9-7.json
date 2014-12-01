@@ -1,0 +1,51 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-09-07T04:00:00+00:00",
+  "end_time": "2014-09-08T03:59:59+00:00",
+  "players": [
+    {
+      "id": "30b5095c-26b6-4d26-bea4-8249d3d687b8",
+      "full_name": "Jeremy Tyler",
+      "first_name": "Jeremy",
+      "last_name": "Tyler",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "a9e8cb4e-059e-433a-96af-d58822a3d88d",
+          "notes": "New York Knicks traded F Tyler to Sacramento.",
+          "desc": "Trade",
+          "effective_date": "2014-07-12",
+          "last_modified": "2014-09-07T14:29:25+00:00",
+          "from_team": {
+            "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Knicks",
+            "market": "New York"
+          },
+          "to_team": {
+            "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Kings",
+            "market": "Sacramento"
+          }
+        },
+        {
+          "id": "c22860f7-1821-4e42-8313-59ac5537702b",
+          "notes": "Sacramento waived F Tyler.",
+          "desc": "Waived",
+          "effective_date": "2014-09-07",
+          "last_modified": "2014-09-07T14:29:59+00:00",
+          "from_team": {
+            "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Kings",
+            "market": "Sacramento"
+          }
+        }
+      ]
+    }
+  ]
+}

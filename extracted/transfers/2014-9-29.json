@@ -1,0 +1,108 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-09-29T04:00:00+00:00",
+  "end_time": "2014-09-30T03:59:59+00:00",
+  "players": [
+    {
+      "id": "bab1b58c-6d77-433c-bf21-c4a3a6b24b7f",
+      "full_name": "Rodney McGruder",
+      "first_name": "Rodney",
+      "last_name": "McGruder",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "28e43538-c11f-4dc9-b9dc-468d3cc52925",
+          "notes": "Bostons signs FA G McGruder.",
+          "desc": "Free Agency",
+          "effective_date": "2014-09-29",
+          "last_modified": "2014-09-29T17:54:37+00:00",
+          "to_team": {
+            "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Celtics",
+            "market": "Boston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "005948cb-f744-4928-bf7f-d26076717c99",
+      "full_name": "Tim Frazier",
+      "first_name": "Tim",
+      "last_name": "Frazier",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "29289ad8-2520-4bfb-be90-78f0654fc9e5",
+          "notes": "Boston signs FA G Frazier.",
+          "desc": "Free Agency",
+          "effective_date": "2014-09-29",
+          "last_modified": "2014-09-29T17:51:02+00:00",
+          "to_team": {
+            "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Celtics",
+            "market": "Boston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a08f13f6-6304-44ba-b1cc-5af6b89b883c",
+      "full_name": "Christian Watford",
+      "first_name": "Christian",
+      "last_name": "Watford",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "2943ac49-ee49-4a02-b0d6-23c2dddfd60d",
+          "notes": "Boston signs FA F Watford to training camp deal.",
+          "desc": "Free Agency",
+          "effective_date": "2014-09-29",
+          "last_modified": "2014-09-29T17:57:40+00:00",
+          "to_team": {
+            "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Celtics",
+            "market": "Boston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ded880d5-f1a9-4cfa-a16e-6604e0a16529",
+      "full_name": "Keith Bogans",
+      "first_name": "Keith",
+      "last_name": "Bogans",
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "6889ceda-ae70-42e0-867d-f988feb6855e",
+          "notes": "Cleveland trades G-F Bogans to Philadelphia.",
+          "desc": "Trade",
+          "effective_date": "2014-09-29",
+          "last_modified": "2014-09-29T19:12:21+00:00",
+          "from_team": {
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Cavaliers",
+            "market": "Cleveland"
+          },
+          "to_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    }
+  ]
+}

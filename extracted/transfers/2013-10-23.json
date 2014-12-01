@@ -1,0 +1,53 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2013-10-23T04:00:00+00:00",
+  "end_time": "2013-10-24T03:59:59+00:00",
+  "players": [
+    {
+      "id": "c3e6f4de-689a-4415-a24d-cf758772d4db",
+      "full_name": "Fab Melo",
+      "first_name": "Fab",
+      "last_name": "Melo",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "14",
+      "transfers": [
+        {
+          "id": "2e8a0f1f-3edc-4c51-88fb-a1198cff64d8",
+          "effective_date": "2013-10-23",
+          "last_modified": "2013-10-23T16:17:57+00:00",
+          "from_team": {
+            "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Mavericks",
+            "market": "Dallas"
+          }
+        }
+      ]
+    },
+    {
+      "id": "536c1d98-4c10-4266-9d1e-02a46ac547d9",
+      "full_name": "Renaldo Balkman",
+      "first_name": "Renaldo",
+      "last_name": "Balkman",
+      "position": "F",
+      "primary_position": "NA",
+      "jersey_number": "13",
+      "transfers": [
+        {
+          "id": "3cb00643-e9c1-4e32-a43e-1446d4245b66",
+          "effective_date": "2013-10-23",
+          "last_modified": "2013-10-23T16:17:44+00:00",
+          "from_team": {
+            "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Mavericks",
+            "market": "Dallas"
+          }
+        }
+      ]
+    }
+  ]
+}

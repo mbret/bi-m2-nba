@@ -1,0 +1,57 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-07-20T04:00:00+00:00",
+  "end_time": "2014-07-21T03:59:59+00:00",
+  "players": [
+    {
+      "id": "9fd789bc-0aa4-4028-b114-5014deacfbe2",
+      "full_name": "Kendall Marshall",
+      "first_name": "Kendall",
+      "last_name": "Marshall",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "07651786-27d9-41b5-a685-1c3622cdc320",
+          "notes": "Milwaukee claims G Marshall off waivers.",
+          "desc": "Waiver Claim",
+          "effective_date": "2014-07-20",
+          "last_modified": "2014-07-20T17:29:51+00:00",
+          "to_team": {
+            "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bucks",
+            "market": "Milwaukee"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f444ee53-e3b3-4899-923e-a27369ce7e59",
+      "full_name": "Jerryd Bayless",
+      "first_name": "Jerryd",
+      "last_name": "Bayless",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "e5cc8673-d5bf-4f71-8e2b-6369bf7ad4a5",
+          "notes": "Milwaukee has signed FA G Bayless.",
+          "desc": "Free Agency",
+          "effective_date": "2014-07-20",
+          "last_modified": "2014-07-20T17:31:22+00:00",
+          "to_team": {
+            "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bucks",
+            "market": "Milwaukee"
+          }
+        }
+      ]
+    }
+  ]
+}

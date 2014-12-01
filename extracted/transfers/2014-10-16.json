@@ -1,0 +1,53 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-10-16T04:00:00+00:00",
+  "end_time": "2014-10-17T03:59:59+00:00",
+  "players": [
+    {
+      "id": "8c178ce0-62a3-404b-aaf1-78420670efcc",
+      "full_name": "Daniel Orton",
+      "first_name": "Daniel",
+      "last_name": "Orton",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "33",
+      "transfers": [
+        {
+          "id": "747c98ce-adb3-40ca-919f-07a5d1303d91",
+          "effective_date": "2014-10-16",
+          "last_modified": "2014-10-16T17:49:39+00:00",
+          "from_team": {
+            "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Wizards",
+            "market": "Washington"
+          }
+        }
+      ]
+    },
+    {
+      "id": "0b16e757-54e2-48b1-9db3-9b9d749b9894",
+      "full_name": "John Holland",
+      "first_name": "John",
+      "last_name": "Holland",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "10",
+      "transfers": [
+        {
+          "id": "8a498f39-be3c-4636-bff4-9cdc6636f8ca",
+          "effective_date": "2014-10-16",
+          "last_modified": "2014-10-16T13:21:34+00:00",
+          "from_team": {
+            "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Spurs",
+            "market": "San Antonio"
+          }
+        }
+      ]
+    }
+  ]
+}

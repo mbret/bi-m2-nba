@@ -1,0 +1,74 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-10-11T04:00:00+00:00",
+  "end_time": "2014-10-12T03:59:59+00:00",
+  "players": [
+    {
+      "id": "6421be8f-3ac2-477f-8c54-33833df99ef2",
+      "full_name": "Vernon Macklin",
+      "first_name": "Vernon",
+      "last_name": "Macklin",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "35",
+      "transfers": [
+        {
+          "id": "2d8aa2d9-547e-4b7b-b953-befd71f4f20f",
+          "effective_date": "2014-10-11",
+          "last_modified": "2014-10-11T21:37:34+00:00",
+          "from_team": {
+            "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Pelicans",
+            "market": "New Orleans"
+          }
+        }
+      ]
+    },
+    {
+      "id": "648a48b6-6753-464f-8a9a-c158cac82b38",
+      "full_name": "Kevin Murphy",
+      "first_name": "Kevin",
+      "last_name": "Murphy",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "55",
+      "transfers": [
+        {
+          "id": "346f6b7f-5c94-49ae-8e9b-8d5c5a3bef14",
+          "effective_date": "2014-10-11",
+          "last_modified": "2014-10-11T21:38:19+00:00",
+          "from_team": {
+            "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Jazz",
+            "market": "Utah"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5014fd11-2275-4137-9a88-bf8e3c0040ac",
+      "full_name": "Dee Bost",
+      "first_name": "Dee",
+      "last_name": "Bost",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "2",
+      "transfers": [
+        {
+          "id": "6e1f99f5-d139-46d8-9f14-12c6811c12cc",
+          "effective_date": "2014-10-11",
+          "last_modified": "2014-10-11T21:37:53+00:00",
+          "from_team": {
+            "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Jazz",
+            "market": "Utah"
+          }
+        }
+      ]
+    }
+  ]
+}

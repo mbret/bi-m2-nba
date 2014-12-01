@@ -1,0 +1,53 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2013-10-22T04:00:00+00:00",
+  "end_time": "2013-10-23T03:59:59+00:00",
+  "players": [
+    {
+      "id": "193aaf99-08bf-4cde-b11d-1fc36b302afd",
+      "full_name": "Charlie Westbrook",
+      "first_name": "Charlie",
+      "last_name": "Westbrook",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "12",
+      "transfers": [
+        {
+          "id": "49439ac0-d9d2-4022-88bb-8ca823dff4b9",
+          "effective_date": "2013-10-22",
+          "last_modified": "2013-10-22T14:31:48+00:00",
+          "from_team": {
+            "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Heat",
+            "market": "Miami"
+          }
+        }
+      ]
+    },
+    {
+      "id": "724b61fe-2644-4dcd-b356-3cdb95a2cdc0",
+      "full_name": "Larry Drew II",
+      "first_name": "Larry",
+      "last_name": "Drew",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "ca31630c-c1c9-4487-b423-b93cfa1ba98f",
+          "effective_date": "2013-10-22",
+          "last_modified": "2013-10-22T14:31:40+00:00",
+          "from_team": {
+            "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Heat",
+            "market": "Miami"
+          }
+        }
+      ]
+    }
+  ]
+}

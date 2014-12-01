@@ -1,0 +1,58 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-07-02T04:00:00+00:00",
+  "end_time": "2014-07-03T03:59:59+00:00",
+  "players": [
+    {
+      "id": "1981e577-063e-426a-af2c-adf666403911",
+      "full_name": "Ronnie Price",
+      "first_name": "Ronnie",
+      "last_name": "Price",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "9",
+      "transfers": [
+        {
+          "id": "6d81d90a-64da-4ee9-8d6c-f0ff09d99c6d",
+          "effective_date": "2014-07-02",
+          "last_modified": "2014-07-02T23:14:37+00:00",
+          "from_team": {
+            "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Magic",
+            "market": "Orlando"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dc4004c4-654d-45d4-b07b-0d2117d140d2",
+      "full_name": "Ben Gordon",
+      "first_name": "Ben",
+      "last_name": "Gordon",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "7",
+      "transfers": [
+        {
+          "id": "ddce830a-f7a5-4397-a73b-d8c61cfff2fb",
+          "effective_date": "2014-07-02",
+          "last_modified": "2014-07-02T23:05:45+00:00",
+          "from_team": {
+            "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Magic",
+            "market": "Orlando"
+          },
+          "to_team": {
+            "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Magic",
+            "market": "Orlando"
+          }
+        }
+      ]
+    }
+  ]
+}

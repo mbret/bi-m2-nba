@@ -1,0 +1,100 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2013-10-10T04:00:00+00:00",
+  "end_time": "2013-10-11T03:59:59+00:00",
+  "players": [
+    {
+      "id": "b9576fd7-426c-49bd-a501-9a9c48f2fa7e",
+      "full_name": "Abdul Gaddy",
+      "first_name": "Abdul",
+      "last_name": "Gaddy",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "10",
+      "transfers": [
+        {
+          "id": "0ca3e561-7fb5-4c29-a887-d50b5b26067f",
+          "effective_date": "2013-10-10",
+          "last_modified": "2013-10-10T20:29:52+00:00",
+          "from_team": {
+            "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hornets",
+            "market": "Charlotte"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8c178ce0-62a3-404b-aaf1-78420670efcc",
+      "full_name": "Daniel Orton",
+      "first_name": "Daniel",
+      "last_name": "Orton",
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "33",
+      "transfers": [
+        {
+          "id": "34243439-d1f1-4369-8152-2d85d76163e5",
+          "effective_date": "2013-10-10",
+          "last_modified": "2013-10-10T16:25:53+00:00",
+          "from_team": {
+            "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Thunder",
+            "market": "Oklahoma City"
+          }
+        }
+      ]
+    },
+    {
+      "id": "562677c1-2a13-4934-a801-a6c88c619e83",
+      "full_name": "Troy Daniels",
+      "first_name": "Troy",
+      "last_name": "Daniels",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "30",
+      "transfers": [
+        {
+          "id": "8a23a275-3f20-4ccc-9bf9-ffb1094208c4",
+          "effective_date": "2013-10-10",
+          "last_modified": "2013-10-10T20:30:03+00:00",
+          "from_team": {
+            "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Hornets",
+            "market": "Charlotte"
+          }
+        }
+      ]
+    },
+    {
+      "id": "00278ead-9420-47ba-a8c6-18e5c61d1492",
+      "full_name": "A.J. Price",
+      "first_name": "A.J.",
+      "last_name": "Price",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "12",
+      "transfers": [
+        {
+          "id": "9d36068e-0626-49fa-80e0-34b451e11f24",
+          "effective_date": "2013-10-11",
+          "last_modified": "2013-10-11T01:02:51+00:00",
+          "from_team": {
+            "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Timberwolves",
+            "market": "Minnesota"
+          },
+          "to_team": {
+            "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Timberwolves",
+            "market": "Minnesota"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-05-15T04:00:00+00:00",
+  "end_time": "2014-05-16T03:59:59+00:00",
+  "players": [
+    {
+      "id": "46e5e763-b41c-4fc9-9e04-909ee0b9073f",
+      "full_name": "Andray Blatche",
+      "first_name": "Andray",
+      "last_name": "Blatche",
+      "position": "C-F",
+      "primary_position": "C",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "ed2f7352-087e-4f79-a44b-554156272021",
+          "notes": "Blatche has opted out of his contract to explore his free agency options.",
+          "effective_date": "2014-05-15",
+          "last_modified": "2014-05-15T22:25:03+00:00",
+          "from_team": {
+            "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nets",
+            "market": "Brooklyn"
+          }
+        }
+      ]
+    }
+  ]
+}

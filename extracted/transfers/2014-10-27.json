@@ -1,0 +1,377 @@
+{
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "start_time": "2014-10-27T04:00:00+00:00",
+  "end_time": "2014-10-28T03:59:59+00:00",
+  "players": [
+    {
+      "id": "00f0e10f-0533-4924-aa04-88d6754ddacb",
+      "full_name": "Carrick Felix",
+      "first_name": "Carrick",
+      "last_name": "Felix",
+      "position": "G-F",
+      "primary_position": "SG",
+      "jersey_number": "8",
+      "transfers": [
+        {
+          "id": "dd4c37aa-89e7-4a47-9a3c-458a5a75d795",
+          "notes": "Utah waives Felix.",
+          "desc": "Waived",
+          "effective_date": "2014-10-27",
+          "last_modified": "2014-10-27T22:06:17+00:00",
+          "from_team": {
+            "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Jazz",
+            "market": "Utah"
+          }
+        }
+      ]
+    },
+    {
+      "id": "05a90cd6-73de-43d5-9d30-bc2588d03262",
+      "full_name": "Ish Smith",
+      "first_name": "Ish",
+      "last_name": "Smith",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "5",
+      "transfers": [
+        {
+          "id": "70ea6de8-103c-4dd5-8759-6a94df337870",
+          "notes": "Houston waives Smith.",
+          "desc": "Waived",
+          "effective_date": "2014-10-27",
+          "last_modified": "2014-10-27T15:47:22+00:00",
+          "from_team": {
+            "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Rockets",
+            "market": "Houston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "144302aa-3852-4925-bece-cd9a327e6dd6",
+      "full_name": "Marquis Teague",
+      "first_name": "Marquis",
+      "last_name": "Teague",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "b9adc23f-53dc-44df-8a0c-5dca9453f112",
+          "notes": "Philadelphia waives Teague.",
+          "desc": "Waived",
+          "effective_date": "2014-10-27",
+          "last_modified": "2014-10-27T21:17:06+00:00",
+          "from_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "188fa57e-f58b-46ef-a826-3a7b6de8882e",
+      "full_name": "Michael Eric",
+      "first_name": "Michael",
+      "last_name": "Eric",
+      "position": "F-C",
+      "primary_position": "PF",
+      "jersey_number": "50",
+      "transfers": [
+        {
+          "id": "5ec1cbc7-9e43-4ba1-99d4-5a36b1ae45cc",
+          "notes": "Milwaukee waives Eric.",
+          "desc": "Waived",
+          "effective_date": "2014-10-27",
+          "last_modified": "2014-10-27T22:39:10+00:00",
+          "from_team": {
+            "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Bucks",
+            "market": "Milwaukee"
+          }
+        }
+      ]
+    },
+    {
+      "id": "38286e87-15e7-473f-acb3-14f4699a9825",
+      "full_name": "Arnett Moultrie",
+      "first_name": "Arnett",
+      "last_name": "Moultrie",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "5",
+      "transfers": [
+        {
+          "id": "085f66f6-361b-4ce9-8e49-ebdc668acbbd",
+          "notes": "New York waived Moultrie.",
+          "desc": "Waived",
+          "effective_date": "2014-10-27",
+          "last_modified": "2014-10-27T20:36:38+00:00",
+          "from_team": {
+            "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Knicks",
+            "market": "New York"
+          }
+        },
+        {
+          "id": "ec1b8c21-5ebe-43b0-8ec5-c32249980af4",
+          "notes": "Philadelphia trades Moultrie to New York.",
+          "desc": "Trade",
+          "effective_date": "2014-10-27",
+          "last_modified": "2014-10-27T19:41:14+00:00",
+          "from_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          },
+          "to_team": {
+            "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Knicks",
+            "market": "New York"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3e512d9e-ff9c-4f23-a4fd-a88128ee3af2",
+      "full_name": "Robert Covington",
+      "first_name": "Robert",
+      "last_name": "Covington",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "33",
+      "transfers": [
+        {
+          "id": "27a54a42-2c63-4378-be8e-7cd591fee473",
+          "notes": "Houston waives Covington.",
+          "desc": "Waived",
+          "effective_date": "2014-10-27",
+          "last_modified": "2014-10-27T15:48:46+00:00",
+          "from_team": {
+            "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Rockets",
+            "market": "Houston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5b297372-b2af-445e-a4bc-777982dbc1e3",
+      "full_name": "Joe Ingles",
+      "first_name": "Joe",
+      "last_name": "Ingles",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "f37bb906-058b-4342-a17b-8002fc679a0e",
+          "notes": "Utah claims Ingles off waivers from Los Angeles.",
+          "desc": "Waiver Claim",
+          "effective_date": "2014-10-27",
+          "last_modified": "2014-10-27T21:23:29+00:00",
+          "from_team": {
+            "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Clippers",
+            "market": "Los Angeles"
+          },
+          "to_team": {
+            "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Jazz",
+            "market": "Utah"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6255b242-0bbd-4f05-9c61-f44750061410",
+      "full_name": "Elliot Williams",
+      "first_name": "Elliot",
+      "last_name": "Williams",
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "25",
+      "transfers": [
+        {
+          "id": "6c3c720e-7ecf-4ce0-80f7-43ca2153903d",
+          "notes": "Philadelphia waives Williams.",
+          "desc": "Waived",
+          "effective_date": "2014-10-27",
+          "last_modified": "2014-10-27T21:17:37+00:00",
+          "from_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6ef9e6c3-f6c5-4569-80d7-97c79b180e81",
+      "full_name": "Will Bynum",
+      "first_name": "Will",
+      "last_name": "Bynum",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "13e64112-ed1c-42c1-bad2-5444db617578",
+          "notes": "Boston waives Bynum.",
+          "desc": "Waived",
+          "effective_date": "2014-10-27",
+          "last_modified": "2014-10-27T20:45:19+00:00",
+          "from_team": {
+            "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Celtics",
+            "market": "Boston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7abc6664-5864-4a0d-b51b-8ecde15e0934",
+      "full_name": "Travis Outlaw",
+      "first_name": "Travis",
+      "last_name": "Outlaw",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "25",
+      "transfers": [
+        {
+          "id": "2353d727-38ba-4d78-993b-1bfe7322d499",
+          "notes": "Philadelphia waives Outlaw.",
+          "desc": "Waived",
+          "effective_date": "2014-10-27",
+          "last_modified": "2014-10-27T21:21:05+00:00",
+          "from_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        },
+        {
+          "id": "b5ea0eb3-3de7-4993-87b6-6b2fdfa97fae",
+          "notes": "New York trades Outlaw to Philadelphia.",
+          "desc": "Trade",
+          "effective_date": "2014-10-27",
+          "last_modified": "2014-10-27T19:40:44+00:00",
+          "from_team": {
+            "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Knicks",
+            "market": "New York"
+          },
+          "to_team": {
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "76ers",
+            "market": "Philadelphia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "92fd1542-d9c3-4fc9-9f31-00b85e5f13d3",
+      "full_name": "Jordan Hamilton",
+      "first_name": "Jordan",
+      "last_name": "Hamilton",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "0",
+      "transfers": [
+        {
+          "id": "fe07f8a4-7cc8-489c-a93f-a8caaa04ab3f",
+          "notes": "Utah claims Hamilton off waivers from Toronto.",
+          "desc": "Waiver Claim",
+          "effective_date": "2014-10-27",
+          "last_modified": "2014-10-27T21:24:14+00:00",
+          "from_team": {
+            "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Raptors",
+            "market": "Toronto"
+          },
+          "to_team": {
+            "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Jazz",
+            "market": "Utah"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b6cdfbf4-fd3f-46f3-b889-732b3bae1da8",
+      "full_name": "Jose Barea",
+      "first_name": "Jose",
+      "last_name": "Barea",
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "11",
+      "transfers": [
+        {
+          "id": "586de16a-4ec7-4ff6-b4bf-eb5a9c6abce3",
+          "notes": "Minnesota waives Barea.",
+          "desc": "Waived",
+          "effective_date": "2014-10-27",
+          "last_modified": "2014-10-27T19:59:06+00:00",
+          "from_team": {
+            "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Timberwolves",
+            "market": "Minnesota"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bb4593a2-6662-49dd-843a-fa775ef86c42",
+      "full_name": "Jeff Adrien",
+      "first_name": "Jeff",
+      "last_name": "Adrien",
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "4",
+      "transfers": [
+        {
+          "id": "d1263f21-018d-4fe4-8505-acb6aa004039",
+          "notes": "Houston waives Adrien.",
+          "desc": "Waived",
+          "effective_date": "2014-10-27",
+          "last_modified": "2014-10-27T15:47:03+00:00",
+          "from_team": {
+            "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Rockets",
+            "market": "Houston"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f0ba938e-d631-48d3-9618-e0090a68a02d",
+      "full_name": "Quincy Miller",
+      "first_name": "Quincy",
+      "last_name": "Miller",
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "30",
+      "transfers": [
+        {
+          "id": "e5dbc2f3-d520-42dc-912c-e22bd7edea8e",
+          "notes": "Denver waives Miller.",
+          "desc": "Waived",
+          "effective_date": "2014-10-27",
+          "last_modified": "2014-10-27T22:39:55+00:00",
+          "from_team": {
+            "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+            "name": "Nuggets",
+            "market": "Denver"
+          }
+        }
+      ]
+    }
+  ]
+}
