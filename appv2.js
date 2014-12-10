@@ -211,9 +211,84 @@ async.waterfall([
 
         },
 
-        function fillTables(callback){
+        function fillTableTeam(callback){
             async.parallel([
 
+                    function fillTableCoaches(callback){
+
+                        var entries = [];
+                        var clevelandID = 'Cleveland Cavaliers';
+
+                        fastCsv.fromPath( extractedPath + "/coaches-cleveland.csv", {headers: ["name","Div","Conf"]})
+                            .on("data", function(data){
+                                if(data.Coach == 'Coach') return; // header
+                                data.Experience = moment().diff(moment([data.From]), 'years');
+                                entries.push(data);
+                            })
+                            .on("end", function(){
+                                console.log("All coaches loaded from csv");
+                                console.log("Coaches are inserting...");
+
+                                // Add table coach
+                                async.eachSeries( entries, function( entry, callback){
+
+                                    connection.query(
+                                        "INSERT INTO `bi-m2`.`coatch` (`id`, `full_name`, `position`, `experience` ) " +
+                                        "VALUES ("+mysql.escape(entry.Coach)+", "+mysql.escape(entry.Coach)+", '"+null+"', '"+null+"')", function(err, rows) {
+                                            return callback(err);
+                                        });
+
+                                }, function(err){
+                                    if(!err) console.log('Table coache filled');
+
+                                    // Add table team_coach
+                                    async.eachSeries( entries, function( entry, callback){
+
+                                        connection.query(
+                                            "INSERT INTO `bi-m2`.`team_coatch` (`coatch_id`, `team_id`, `start_date`, `end_date`, `season` ) " +
+                                            "VALUES ("+mysql.escape(entry.Coach)+", "+mysql.escape(clevelandID)+", '"+moment( new Date(entry.From)).format('YYYY-MM-DD')+"', '"+moment( new Date(entry.To)).format('YYYY-MM-DD')+"', '"+null+"')", function(err, rows) {
+                                                return callback(err);
+                                            });
+
+                                    }, function(err){
+                                        if(!err) console.log('Table team_coach filled');
+
+                                        // Add table team_coach
+
+                                        return callback(err);
+                                    });
+
+                                });
+                            });
+                    },
+
+                    function fillTableTeam(callback){
+
+                        var entries = [];
+
+                        fastCsv.fromPath( extractedPath + "/teams.csv", {headers: ["name","Div","Conf"]})
+                            .on("data", function(data){
+                                if(data.name == 'name') return; // header
+                                entries.push(data);
+                            })
+                            .on("end", function(){
+                                console.log("All teams loaded from csv");
+                                console.log("Teams are inserting...");
+                                async.eachSeries( entries, function( entry, callback){
+
+                                    connection.query(
+                                            "INSERT INTO `bi-m2`.`team` (`id`, `conference`, `division`, `name`) " +
+                                            "VALUES ("+mysql.escape(entry.name)+", "+mysql.escape(entry.Conf)+", "+mysql.escape(entry.Div)+", "+mysql.escape(entry.name)+")",
+                                        function(err, rows) {
+                                            return callback(err);
+                                        });
+
+                                }, function(err){
+                                    if(!err) console.log('Table team filled');
+                                    return callback(err);
+                                });
+                            });
+                    },
 
                     function fillTablePlayer(callback){
 
