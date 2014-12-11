@@ -9,7 +9,7 @@ var moment = require('moment');
 var connection = mysql.createConnection({
     host     : 'localhost',
     user     : 'root',
-    password : 'root',
+    password : '',
     database : 'mysql',
     multipleStatement: true
 });
@@ -213,7 +213,7 @@ async.waterfall([
 
         function fillTableTeam(callback){
             async.parallel([
-
+/*
                     function fillTableCoaches(callback){
 
                         var entries = [];
@@ -261,7 +261,7 @@ async.waterfall([
                                 });
                             });
                     },
-
+*/
                     function fillTableTeam(callback){
 
                         var entries = [];
