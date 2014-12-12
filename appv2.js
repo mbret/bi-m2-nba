@@ -9,7 +9,7 @@ var moment = require('moment');
 var connection = mysql.createConnection({
     host     : 'localhost',
     user     : 'root',
-    password : '',
+    password : 'root',
     database : 'mysql',
     multipleStatement: true
 });
@@ -305,17 +305,17 @@ async.waterfall([
                                 console.log("Players inserting...");
                                 async.eachSeries( players, function( player, callback){
 
+									// @todo attendre csv de joris pour trouver la position dans la team
                                     connection.query(
-                                            "INSERT INTO `bi-m2`.`player` (`id`, `name`, `birthdate`, `height`, `weight`, `position`, `primary_position`, `status`, `experience` ) " +
+                                            "INSERT INTO `bi-m2`.`player` (`id`, `name`, `birthdate`, `height`, `weight`, `position`, `primary_position`, `experience` ) " +
                                             "VALUES (" +
                                             " "+mysql.escape(player.Player)+"," +
                                             " "+mysql.escape(player.Player)+"," +
                                             " '"+ moment( new Date(player.Birth)).format('YYYY-MM-DD')+"'," +
                                             " '"+player.Ht+"', " +
                                             " '"+player.Wt+"'," +
-                                            " '"+player.Pos+"'," +
-                                            " '"+player.Pos+"', " +
                                             " ''," +
+                                            " '"+player.Pos+"', " +
                                             " '"+ player.Experience +"'" +
                                             ");",
                                         function(err, rows) {
@@ -344,6 +344,9 @@ async.waterfall([
                                 async.eachSeries( gameStats, function( stat, callback){
 
 //                                    console.log(stat);
+									// @todo enlever turnover_ratio
+									// @todo threeperc -> pourcentage pas bon
+									// @todo rebounds = somme des deux
                                     connection.query(
                                             "INSERT INTO `bi-m2`.`game_stat` (`turnovers`, `team_id`, `game_id`, `assists`, `assists_turnover_ratio`, `three_points_made`, `two_points_made`, `rebounds`, `offensive_rebounds`, `defensive_rebounds`, `paint_pts`, `steals`, `blocks` ) " +
                                             "VALUES ('"+stat.turno+"', '"+stat.nameteam+"', '"+stat.gameid+"', '"+stat.assists+"', "+0+", '"+stat.threeperc+"', '"+stat.twoperc+"', '"+""+"', '"+stat.orebounds+"', '"+stat.drebounds+"', '"+stat.points+"', '"+stat.steals+"', '"+stat.blocks+"')",
@@ -375,6 +378,11 @@ async.waterfall([
                             console.log("Player statistics inserting...");
                             async.eachSeries( entries, function( entry, callback){
 
+								// @todo enlever turnover_ratio
+								// @todo threeperc -> pourcentage pas bon
+								// @todo ajouter turnover
+								// @todo rebounds = somme des deux
+								// @todo free_throws_made pareil mettre nombre au lieu de pourcentage
                                 connection.query(
                                         "INSERT INTO `bi-m2`.`game_player_stat` (`player_id`, `game_id`, `assists`, `assists_turnover_ratio`, `three_points_made`, `two_points_made`, `rebounds`, `offensive_rebounds`, `defensive_rebounds`, `steals`, `blocks`, field_goals_made, free_throws_made, minutes, points, tech_fouls ) " +
                                         "VALUES ("+mysql.escape(entry.nom)+", '"+entry.idGame+"', '"+entry.assists+"', '', '"+entry.threeperc+"', '"+entry.twoperc+"', '', '"+entry.orebounds+"', '"+entry.drebounds+"', '"+entry.steals+"', '"+entry.blocks+"', '', '"+entry.ftPerc+"', '"+entry.minutes+"', '"+entry.points+"', '')",
@@ -415,6 +423,7 @@ async.waterfall([
                                         console.log("Games inserting...");
                                         async.eachSeries( entries, function( entry, callback){
 
+											// @todo duration est dans gamestat
                                             connection.query(
                                                     "INSERT INTO `bi-m2`.`game` (`id`, `team_home_id`, `team_away_id`, `away_points`, `home_points`, `duration`, `date`, `affluence` ) "+
                                                     "VALUES ('"+entry.id+"', "+mysql.escape(entry.hometeam)+", "+mysql.escape(entry.awayTeam)+", '"+entry.awayscore+"', '"+entry.homescore+"', '', '"+moment( new Date(entry.date)).format('YYYY-MM-DD')+"', '"+getAffluenceByGameID(affluences, entry.id)+"')",
