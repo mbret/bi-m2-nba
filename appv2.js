@@ -114,7 +114,7 @@ async.waterfall([
                   "`points` double NOT NULL,"+
                   "`rebounds` double NOT NULL,"+
                   "`steals` double NOT NULL,"+
-                  "`tech_fouls` double NOT NULL,"+
+                  "`tech_fouls` double DEFAULT NULL,"+
                   "`player_id` varchar(200) DEFAULT NULL,"+
                   "`game_id` varchar(200) DEFAULT NULL,"+
                     "PRIMARY KEY (`id`),"+
@@ -157,9 +157,9 @@ async.waterfall([
                   "`birthdate` date NOT NULL,"+
                   "`height` varchar(200) NOT NULL,"+
                     "`weight` int(11) NOT NULL,"+
-                  "`position` varchar(200) NOT NULL,"+
+                  "`position` varchar(200) DEFAULT NULL,"+
                   "`primary_position` varchar(200) NOT NULL,"+
-                    "`status` varchar(200) NOT NULL,"+
+                    "`status` varchar(200) DEFAULT NULL,"+
                   "`experience` varchar(200) NOT NULL,"+
                     "KEY `id` (`id`)"+
                 ") ENGINE=InnoDB DEFAULT CHARSET=latin1;");
@@ -175,7 +175,6 @@ async.waterfall([
                   "`id` double NOT NULL AUTO_INCREMENT,"+
                   "`coatch_id` varchar(200) NOT NULL,"+
                   "`team_id` varchar(200) NOT NULL,"+
-                  "`season` int(11) NOT NULL,"+
                   "`start_date` date NOT NULL,"+
                   "`end_date` date NOT NULL,"+
                     "PRIMARY KEY (`id`)"+
@@ -248,6 +247,8 @@ async.waterfall([
                                     if(data.name == 'name') return; // header
                                     data.experience = moment( moment([data.datefin]) ).diff(moment([data.datedeb]), 'years');
                                     data.team = teamName;
+                                    data.datedeb = moment( new Date(data.datedeb)).format('YYYY-MM-DD');
+                                    data.datefin = moment( new Date(data.datefin)).format('YYYY-MM-DD');
                                     entries.push(data);
                                 })
                                 .on("end", function(){
@@ -429,12 +430,12 @@ async.waterfall([
                                         if(!err) console.log('Table coaches filled');
 
                                          // Add table team_coach
-                                         async.eachSeries( entries, function( entry, callback){
+                                         async.eachSeries( files.coaches, function( entry, callback){
 
                                              // @todo season ?
                                              connection.query(
                                                 "INSERT INTO `bi-m2`.`team_coatch` (`coatch_id`, `team_id`, `start_date`, `end_date`) " +
-                                                "VALUES ("+mysql.escape(entry.name)+", "+mysql.escape(entry.team)+", '"+moment( new Date(entry.datedeb)).format('YYYY-MM-DD')+"', '"+moment( new Date(entry.datefin)).format('YYYY-MM-DD')+"')", function(err, rows) {
+                                                "VALUES ("+mysql.escape(entry.name)+", "+mysql.escape(entry.team)+", '"+entry.datedeb+"', '"+entry.datefin+"')", function(err, rows) {
                                                 return callback(err);
                                              });
 
@@ -473,14 +474,13 @@ async.waterfall([
 
                                     // @todo attendre csv de joris pour trouver la position dans la team
                                     connection.query(
-                                        "INSERT INTO `bi-m2`.`player` (`id`, `name`, `birthdate`, `height`, `weight`, `position`, `primary_position`, `experience` ) " +
+                                        "INSERT INTO `bi-m2`.`player` (`id`, `name`, `birthdate`, `height`, `weight`, `primary_position`, `experience` ) " +
                                         "VALUES (" +
                                         " "+mysql.escape(player.Player)+"," +
                                         " "+mysql.escape(player.Player)+"," +
                                         " '"+ moment( new Date(player.Birth)).format('YYYY-MM-DD')+"'," +
                                         " '"+player.Ht+"', " +
                                         " '"+player.Wt+"'," +
-                                        " ''," +
                                         " '"+player.Pos+"', " +
                                         " '"+ player.Experience +"'" +
                                         ");",
@@ -518,10 +518,9 @@ async.waterfall([
                                 console.log("Player statistics inserting...");
                                 async.eachSeries( files.playersStats, function( entry, callback){
 
-                                    // @todo free_throws_made pareil mettre nombre au lieu de pourcentage
                                     connection.query(
-                                        "INSERT INTO `bi-m2`.`game_player_stat` (`player_id`, `game_id`, `assists`, `turnovers`, `three_points_made`, `two_points_made`, `rebounds`, `offensive_rebounds`, `defensive_rebounds`, `steals`, `blocks`, free_throws_made, minutes, points, tech_fouls ) " +
-                                        "VALUES ("+mysql.escape(entry.nom)+", '"+entry.idGame+"', '"+entry.assists+"', '"+entry.turno+"', '"+entry.threeperc+"', '"+entry.twoperc+"', '"+entry.rebounds+"', '"+entry.orebounds+"', '"+entry.drebounds+"', '"+entry.steals+"', '"+entry.blocks+"', '"+entry.ftPerc+"', '"+entry.minutes+"', '"+entry.points+"', '')",
+                                        "INSERT INTO `bi-m2`.`game_player_stat` (`player_id`, `game_id`, `assists`, `turnovers`, `three_points_made`, `two_points_made`, `rebounds`, `offensive_rebounds`, `defensive_rebounds`, `steals`, `blocks`, free_throws_made, minutes, points ) " +
+                                        "VALUES ("+mysql.escape(entry.nom)+", '"+entry.idGame+"', '"+entry.assists+"', '"+entry.turno+"', '"+entry.threeperc+"', '"+entry.twoperc+"', '"+entry.rebounds+"', '"+entry.orebounds+"', '"+entry.drebounds+"', '"+entry.steals+"', '"+entry.blocks+"', '"+entry.ftPerc+"', '"+entry.minutes+"', '"+entry.points+"')",
                                         function(err, rows) {
                                             return callback(err, true);
                                         }
