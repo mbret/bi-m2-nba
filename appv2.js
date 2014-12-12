@@ -13,12 +13,13 @@ var connection = mysql.createConnection({
     database : 'mysql',
     multipleStatement: true
 });
+var teamName = 'Cleveland Cavaliers';
 
 /**
  * Here is the 'who has the biggest' board.
  * Feel free to add your own score :)
  *
- * Maxime: 147913ms (2,47mn)
+ * Maxime: 144507ms
  *
  */
 
@@ -31,6 +32,16 @@ function getAffluenceByGameID( affluences, gameID ){
 //        console.log(gameID, affluence);
         if( affluence.idGame === gameID){
             return parseInt(affluence.affluence);
+        }
+    }
+    return null;
+}
+
+function getGameStatByGameID( gamesStats, gameID ){
+    for( var i = 0; i < gamesStats.length ; i++){
+        var gameStat = gamesStats[i];
+        if( gameStat.gameid === gameID){
+            return gameStat;
         }
     }
     return null;
@@ -71,7 +82,7 @@ async.waterfall([
             queries.push("CREATE TABLE IF NOT EXISTS `coatch` ("+
                           "`id` varchar(200) NOT NULL,"+
                           "`full_name` varchar(200) NOT NULL,"+
-                          "`position` varchar(200) NOT NULL,"+
+                          "`position` varchar(200) DEFAULT NULL,"+
                           "`experience` varchar(200) NOT NULL"+
                           "          ) ENGINE=InnoDB DEFAULT CHARSET=latin1;");
             queries.push("CREATE TABLE IF NOT EXISTS `game` ("+
@@ -89,14 +100,15 @@ async.waterfall([
                         ") ENGINE=InnoDB DEFAULT CHARSET=latin1;");
             queries.push("CREATE TABLE IF NOT EXISTS `game_player_stat` ("+
                   "`id` int(11) NOT NULL AUTO_INCREMENT,"+
-                  "`three_points_made` int(11) NOT NULL,"+
-                  "`two_points_made` int(11) NOT NULL,"+
+                  "`three_points_made` double NOT NULL,"+
+                  "`two_points_made` double NOT NULL,"+
+                    "`turnovers` double DEFAULT NULL,"+
                   "`assists` int(11) NOT NULL,"+
-                  "`assists_turnover_ratio` int(11) NOT NULL,"+
+                  "`assists_turnover_ratio` int(11) DEFAULT NULL,"+
                   "`blocks` int(11) NOT NULL,"+
                   "`defensive_rebounds` double NOT NULL,"+
                   "`offensive_rebounds` double NOT NULL,"+
-                  "`field_goals_made` double NOT NULL,"+
+                  "`field_goals_made` double DEFAULT NULL,"+
                   "`free_throws_made` double NOT NULL,"+
                   "`minutes` double NOT NULL,"+
                   "`points` double NOT NULL,"+
@@ -132,11 +144,12 @@ async.waterfall([
                 "KEY `game_id` (`game_id`)"+
                 ") ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=211 ;");
             queries.push("CREATE TABLE IF NOT EXISTS `injury` ("+
-                  "`id` varchar(200) NOT NULL,"+
+                  "`id` INT NOT NULL AUTO_INCREMENT,"+
                   "`start_date` varchar(200) NOT NULL,"+
                   "`update_date` varchar(200) NOT NULL,"+
                   "`player_id` varchar(200) NOT NULL,"+
-                  "`status` varchar(200) NOT NULL"+
+                  "`status` varchar(200) DEFAULT NULL,"+
+                    "PRIMARY KEY (`id`)"+
                     ") ENGINE=InnoDB DEFAULT CHARSET=latin1;");
             queries.push("CREATE TABLE IF NOT EXISTS `player` ("+
                   "`id` varchar(200) NOT NULL,"+
@@ -171,7 +184,7 @@ async.waterfall([
                   "`id` double NOT NULL AUTO_INCREMENT,"+
                   "`date_start` date NOT NULL,"+
                   "`date_end` date NOT NULL,"+
-                  "`season` int(11) NOT NULL,"+
+                  "`season` int(11) DEFAULT NULL,"+
                   "`player_id` varchar(200) DEFAULT NULL,"+
                   "`team_id` varchar(200) DEFAULT NULL,"+
                     "PRIMARY KEY (`id`),"+
@@ -205,80 +218,241 @@ async.waterfall([
                     for(var i = 0 ; i < tables.length ; i++){
                         console.log('Table ' + tables[i] +' created');
                     }
-                    return callback();
+                    return callback(err);
                 }
             );
 
         },
 
-        function fillTableTeam(callback){
-            async.parallel([
+        function loadAndInsert(callback){
 
-                    function fillTableCoaches(callback){
+            async.waterfall([
 
-                        var entries = [];
-                        var clevelandID = 'Cleveland Cavaliers';
+                /**
+                 * Load all csv
+                 * @param callback
+                 */
+                function(callback){
 
-                        fastCsv.fromPath( extractedPath + "/coaches-cleveland.csv", {headers: ["name","Div","Conf"]})
-                            .on("data", function(data){
-                                if(data.Coach == 'Coach') return; // header
-                                data.Experience = moment().diff(moment([data.From]), 'years');
-                                entries.push(data);
-                            })
-                            .on("end", function(){
-                                console.log("All coaches loaded from csv");
-                                console.log("Coaches are inserting...");
+                    async.parallel([
 
-                                // Add table coach
-                                async.eachSeries( entries, function( entry, callback){
+                        function loadCoaches(callback){
 
-                                    connection.query(
-                                        "INSERT INTO `bi-m2`.`coatch` (`id`, `full_name`, `position`, `experience` ) " +
-                                        "VALUES ("+mysql.escape(entry.Coach)+", "+mysql.escape(entry.Coach)+", '"+null+"', '"+null+"')", function(err, rows) {
-                                            return callback(err);
-                                        });
+                            var entries = [];
+                            fastCsv.fromPath( extractedPath + "/coaches-cleveland.csv", {headers: ["name","datedeb","datefin"]})
+                                .on("data", function(data){
+                                    if(data.name == 'name') return; // header
+                                    data.experience = moment( moment([data.datefin]) ).diff(moment([data.datedeb]), 'years');
+                                    entries.push(data);
+                                })
+                                .on("end", function(){
+                                    console.log("All coaches loaded from csv");
+                                    return callback(null, entries);
+                                });
+                        },
 
-                                }, function(err){
-                                    if(!err) console.log('Table coache filled');
+                        function loadTeam(callback){
 
-                                    // Add table team_coach
-                                    async.eachSeries( entries, function( entry, callback){
+                            var entries = [];
 
+                            fastCsv.fromPath( extractedPath + "/teams.csv", {headers: ["name","Div","Conf"]})
+                                .on("data", function(data){
+                                    if(data.name == 'name') return; // header
+                                    entries.push(data);
+                                })
+                                .on("end", function(){
+                                    console.log("All teams loaded from csv");
+                                    return callback(null, entries);
+                                });
+                        },
+
+                        function loadPlayer(callback){
+
+                            var entries = [];
+
+                            fastCsv.fromPath( extractedPath + "/players.csv", {headers: ["Player","From","To","Pos","Ht","Wt","Birth","Date","College"]})
+                                .on("data", function(data){
+                                    if(data.Player == 'Player') return; // header
+                                    data.Experience = moment().diff(moment([data.From]), 'years');
+                                    entries.push(data);
+                                })
+                                .on("end", function(){
+                                    console.log("All players loaded from csv");
+                                    return callback(null, entries);
+                                });
+                        },
+
+                        function loadGameStat(callback){
+
+                            var entries = [];
+                            fastCsv.fromPath( extractedPath + "/gamestatsproper.csv", {headers: ["twoperc","threeperc","assists","turno","blocks","orebounds","drebounds","ftPerc","points","steals","minutes","nameteam","gameid"]})
+                                .on("data", function(data){
+                                    if(data.twoperc == 'twoperc') return; // header
+                                    data.rebounds = parseInt(data.orebounds) + parseInt(data.drebounds);
+                                    entries.push(data);
+                                })
+                                .on("end", function(){
+                                    console.log("All game statistics loaded from csv");
+                                    return callback(null, entries);
+                                });
+
+                        },
+
+                        function loadPlayerStats(callback){
+
+                            var entries = [];
+                            fastCsv.fromPath( extractedPath + "/playerstats.csv", {headers: ["idGame","assists","blocks","drebounds","threeperc","twoperc","ftPerc","minutes","orebounds","nom","points","steals","turno"]})
+                                .on("data", function(data){
+                                    if(data.idGame == 'idGame') return; // header
+                                    data.rebounds = parseInt(data.orebounds) + parseInt(data.drebounds);
+                                    entries.push(data);
+                                })
+                                .on("end", function(){
+                                    console.log("All player statistics loaded from csv");
+                                    return callback(null, entries);
+                                });
+                        },
+
+                        function loadGame(callback){
+
+                            // Load games
+                            var entries = [];
+                            fastCsv.fromPath( extractedPath + "/games.csv", {headers: ["id","date","hometeam","homescore","awayTeam","awayscore"]})
+                                .on("data", function(data){
+                                    if(data.id == 'id') return; // header
+                                    entries.push(data);
+                                })
+                                .on("end", function(){
+                                    console.log("All games loaded from csv");
+                                    return callback(null, entries);
+                                });
+                        },
+
+                        function loadAffluencce(callback){
+                            var entries = [];
+                            fastCsv.fromPath( extractedPath + "/affluence.csv", {headers: ["idGame","affluence"]})
+                                .on("data", function(data){
+                                    if(data.idGame == 'idGame') return; // header
+                                    entries.push(data);
+                                })
+                                .on("end", function(){
+                                    console.log("All affluences loaded from csv");
+                                    return callback(null, entries);
+                                });
+                        },
+
+                        /**
+                         * @todo attention on part du principe qu'il n'ya que les joueurs de cleveland
+                         * @param callback
+                         */
+                        function loadTeamsPlayers(callback){
+                            var entries = [];
+                            fastCsv.fromPath( extractedPath + "/player_teams.csv", {headers: ["Player","from","to","team"]})
+                                .on("data", function(data){
+                                    if(data.Player == 'Player') return; // header
+                                    data.team = teamName;
+                                    entries.push(data);
+                                })
+                                .on("end", function(){
+                                    console.log("All player team loaded from csv");
+                                    return callback(null, entries);
+                                });
+                        },
+
+                        /**
+                         * @todo attention on part du principe qu'il n'ya que les joueurs de cleveland
+                         * @param callback
+                         */
+                        function loadInjuries(callback){
+                            var entries = [];
+                            fastCsv.fromPath( extractedPath + "/injuries.csv", {headers: ["player","from","to"]})
+                                .on("data", function(data){
+                                    if(data.player == 'player') return; // header
+                                    data.team = teamName;
+                                    entries.push(data);
+                                })
+                                .on("end", function(){
+                                    console.log("All player team loaded from csv");
+                                    return callback(null, entries);
+                                });
+                        }
+                    ],
+                    function(err, results){
+                        // results are in the same order than function are written
+                        // coaches, teams, players, gamesStats, playersStats, games
+                        var files = {
+                            coaches: results[0],
+                            teams: results[1],
+                            players: results[2],
+                            gamesStats: results[3],
+                            playersStats: results[4],
+                            games: results[5],
+                            affluences : results[6],
+                            playersTeams: results[7],
+                            injuries: results[8]
+                        };
+                        return callback(err, files);
+                    });
+
+                },
+
+                /**
+                 * Insert all data
+                 * @param files (all csv files)
+                 * @param callback
+                 */
+                function(files, callback){
+                    async.parallel([
+
+                            function fillTableCoaches(callback){
+
+                                var clevelandID = 'Cleveland Cavaliers';
+
+                                    console.log("Coaches are inserting...");
+
+                                    // Add table coach
+                                    async.eachSeries( files.coaches, function( entry, callback){
+
+                                        // @todo mettre position
                                         connection.query(
-                                            "INSERT INTO `bi-m2`.`team_coatch` (`coatch_id`, `team_id`, `start_date`, `end_date`, `season` ) " +
-                                            "VALUES ("+mysql.escape(entry.Coach)+", "+mysql.escape(clevelandID)+", '"+moment( new Date(entry.From)).format('YYYY-MM-DD')+"', '"+moment( new Date(entry.To)).format('YYYY-MM-DD')+"', '"+null+"')", function(err, rows) {
+                                            "INSERT INTO `bi-m2`.`coatch` (`id`, `full_name`, `experience` ) " +
+                                            "VALUES ("+mysql.escape(entry.name)+", "+mysql.escape(entry.name)+", '"+entry.experience+"')", function(err, rows) {
                                                 return callback(err);
                                             });
 
                                     }, function(err){
-                                        if(!err) console.log('Table team_coach filled');
+                                        if(!err) console.log('Table coache filled');
 
-                                        // Add table team_coach
+                                        /*
+                                         // Add table team_coach
+                                         async.eachSeries( entries, function( entry, callback){
 
-                                        return callback(err);
+                                         connection.query(
+                                         "INSERT INTO `bi-m2`.`team_coatch` (`coatch_id`, `team_id`, `start_date`, `end_date`, `season` ) " +
+                                         "VALUES ("+mysql.escape(entry.Coach)+", "+mysql.escape(clevelandID)+", '"+moment( new Date(entry.From)).format('YYYY-MM-DD')+"', '"+moment( new Date(entry.To)).format('YYYY-MM-DD')+"', '"+null+"')", function(err, rows) {
+                                         return callback(err);
+                                         });
+
+                                         }, function(err){
+                                         if(!err) console.log('Table team_coach filled');
+
+                                         // Add table team_coach
+
+                                         return callback(err);
+                                         });
+                                         */
+                                        return callback();
                                     });
+                            },
 
-                                });
-                            });
-                    },
+                            function fillTableTeam(callback){
 
-                    function fillTableTeam(callback){
-
-                        var entries = [];
-
-                        fastCsv.fromPath( extractedPath + "/teams.csv", {headers: ["name","Div","Conf"]})
-                            .on("data", function(data){
-                                if(data.name == 'name') return; // header
-                                entries.push(data);
-                            })
-                            .on("end", function(){
-                                console.log("All teams loaded from csv");
                                 console.log("Teams are inserting...");
-                                async.eachSeries( entries, function( entry, callback){
+                                async.eachSeries( files.teams, function( entry, callback){
 
                                     connection.query(
-                                            "INSERT INTO `bi-m2`.`team` (`id`, `conference`, `division`, `name`) " +
-                                            "VALUES ("+mysql.escape(entry.name)+", "+mysql.escape(entry.Conf)+", "+mysql.escape(entry.Div)+", "+mysql.escape(entry.name)+")",
+                                        "INSERT INTO `bi-m2`.`team` (`id`, `conference`, `division`, `name`) " +
+                                        "VALUES ("+mysql.escape(entry.name)+", "+mysql.escape(entry.Conf)+", "+mysql.escape(entry.Div)+", "+mysql.escape(entry.name)+")",
                                         function(err, rows) {
                                             return callback(err);
                                         });
@@ -287,66 +461,44 @@ async.waterfall([
                                     if(!err) console.log('Table team filled');
                                     return callback(err);
                                 });
-                            });
-                    },
+                            },
 
-                    function fillTablePlayer(callback){
+                            function fillTablePlayer(callback){
 
-                        var players = [];
-
-                        fastCsv.fromPath( extractedPath + "/players.csv", {headers: ["Player","From","To","Pos","Ht","Wt","Birth","Date","College"]})
-                            .on("data", function(data){
-                                if(data.Player == 'Player') return; // header
-                                data.Experience = moment().diff(moment([data.From]), 'years');
-                                players.push(data);
-                            })
-                            .on("end", function(){
-                                console.log("All players loaded from csv");
                                 console.log("Players inserting...");
-                                async.eachSeries( players, function( player, callback){
+                                async.eachSeries( files.players, function( player, callback){
 
+                                    // @todo attendre csv de joris pour trouver la position dans la team
                                     connection.query(
-                                            "INSERT INTO `bi-m2`.`player` (`id`, `name`, `birthdate`, `height`, `weight`, `position`, `primary_position`, `status`, `experience` ) " +
-                                            "VALUES (" +
-                                            " "+mysql.escape(player.Player)+"," +
-                                            " "+mysql.escape(player.Player)+"," +
-                                            " '"+ moment( new Date(player.Birth)).format('YYYY-MM-DD')+"'," +
-                                            " '"+player.Ht+"', " +
-                                            " '"+player.Wt+"'," +
-                                            " '"+player.Pos+"'," +
-                                            " '"+player.Pos+"', " +
-                                            " ''," +
-                                            " '"+ player.Experience +"'" +
-                                            ");",
+                                        "INSERT INTO `bi-m2`.`player` (`id`, `name`, `birthdate`, `height`, `weight`, `position`, `primary_position`, `experience` ) " +
+                                        "VALUES (" +
+                                        " "+mysql.escape(player.Player)+"," +
+                                        " "+mysql.escape(player.Player)+"," +
+                                        " '"+ moment( new Date(player.Birth)).format('YYYY-MM-DD')+"'," +
+                                        " '"+player.Ht+"', " +
+                                        " '"+player.Wt+"'," +
+                                        " ''," +
+                                        " '"+player.Pos+"', " +
+                                        " '"+ player.Experience +"'" +
+                                        ");",
                                         function(err, rows) {
-                                            return callback(err, players);
+                                            return callback(err);
                                         });
 
                                 }, function(err){
                                     if(!err) console.log('Table player filled');
                                     return callback(err);
                                 });
-                            });
-                    },
+                            },
 
-                    function fillTableGameStat(callback){
+                            function fillTableGameStat(callback){
 
-                        var gameStats = [];
-
-                        fastCsv.fromPath( extractedPath + "/gamestatsproper.csv", {headers: ["twoperc","threeperc","assists","turno","blocks","orebounds","drebounds","ftPerc","points","steals","minutes","nameteam","gameid"]})
-                            .on("data", function(data){
-                                if(data.twoperc == 'twoperc') return; // header
-                                gameStats.push(data);
-                            })
-                            .on("end", function(){
-                                console.log("All game statistics loaded from csv");
                                 console.log("Game statistics inserting...");
-                                async.eachSeries( gameStats, function( stat, callback){
+                                async.eachSeries( files.gamesStats, function( stat, callback){
 
-//                                    console.log(stat);
                                     connection.query(
-                                            "INSERT INTO `bi-m2`.`game_stat` (`turnovers`, `team_id`, `game_id`, `assists`, `assists_turnover_ratio`, `three_points_made`, `two_points_made`, `rebounds`, `offensive_rebounds`, `defensive_rebounds`, `paint_pts`, `steals`, `blocks` ) " +
-                                            "VALUES ('"+stat.turno+"', '"+stat.nameteam+"', '"+stat.gameid+"', '"+stat.assists+"', "+0+", '"+stat.threeperc+"', '"+stat.twoperc+"', '"+""+"', '"+stat.orebounds+"', '"+stat.drebounds+"', '"+stat.points+"', '"+stat.steals+"', '"+stat.blocks+"')",
+                                        "INSERT INTO `bi-m2`.`game_stat` (`turnovers`, `team_id`, `game_id`, `assists`, `three_points_made`, `two_points_made`, `rebounds`, `offensive_rebounds`, `defensive_rebounds`, `paint_pts`, `steals`, `blocks` ) " +
+                                        "VALUES ('"+stat.turno+"', '"+stat.nameteam+"', '"+stat.gameid+"', '"+stat.assists+"', '"+stat.threeperc+"', '"+stat.twoperc+"', '"+ stat.rebounds +"', '"+stat.orebounds+"', '"+stat.drebounds+"', '"+stat.points+"', '"+stat.steals+"', '"+stat.blocks+"')",
                                         function(err, rows) {
                                             return callback(err, true);
                                         }
@@ -356,94 +508,112 @@ async.waterfall([
                                     if(!err) console.log('Table game statistic filled');
                                     return callback(err);
                                 });
-                            });
+                            },
 
+                            function fillTablePlayerStats(callback){
 
+                                console.log("Player statistics inserting...");
+                                async.eachSeries( files.playersStats, function( entry, callback){
 
-                    },
+                                    // @todo free_throws_made pareil mettre nombre au lieu de pourcentage
+                                    connection.query(
+                                        "INSERT INTO `bi-m2`.`game_player_stat` (`player_id`, `game_id`, `assists`, `turnovers`, `three_points_made`, `two_points_made`, `rebounds`, `offensive_rebounds`, `defensive_rebounds`, `steals`, `blocks`, free_throws_made, minutes, points, tech_fouls ) " +
+                                        "VALUES ("+mysql.escape(entry.nom)+", '"+entry.idGame+"', '"+entry.assists+"', '"+entry.turno+"', '"+entry.threeperc+"', '"+entry.twoperc+"', '"+entry.rebounds+"', '"+entry.orebounds+"', '"+entry.drebounds+"', '"+entry.steals+"', '"+entry.blocks+"', '"+entry.ftPerc+"', '"+entry.minutes+"', '"+entry.points+"', '')",
+                                        function(err, rows) {
+                                            return callback(err, true);
+                                        }
+                                    );
 
-                    function fillTablePlayerStats(callback){
+                                }, function(err){
+                                    if(!err) console.log('Table player game statistic filled');
+                                    return callback(err);
+                                });
+                            },
 
-                        var entries = [];
-                        fastCsv.fromPath( extractedPath + "/playerstats.csv", {headers: ["idGame","assists","blocks","drebounds","threeperc","twoperc","ftPerc","minutes","orebounds","nom","points","steals","turno"]})
-                        .on("data", function(data){
-                            if(data.idGame == 'idGame') return; // header
-                                entries.push(data);
-                        })
-                        .on("end", function(){
-                            console.log("All player statistics loaded from csv");
-                            console.log("Player statistics inserting...");
-                            async.eachSeries( entries, function( entry, callback){
+                            function fillTableGame(callback){
 
-                                connection.query(
-                                        "INSERT INTO `bi-m2`.`game_player_stat` (`player_id`, `game_id`, `assists`, `assists_turnover_ratio`, `three_points_made`, `two_points_made`, `rebounds`, `offensive_rebounds`, `defensive_rebounds`, `steals`, `blocks`, field_goals_made, free_throws_made, minutes, points, tech_fouls ) " +
-                                        "VALUES ("+mysql.escape(entry.nom)+", '"+entry.idGame+"', '"+entry.assists+"', '', '"+entry.threeperc+"', '"+entry.twoperc+"', '', '"+entry.orebounds+"', '"+entry.drebounds+"', '"+entry.steals+"', '"+entry.blocks+"', '', '"+entry.ftPerc+"', '"+entry.minutes+"', '"+entry.points+"', '')",
-                                    function(err, rows) {
-                                        return callback(err, true);
-                                    }
-                                );
+                                console.log("Games inserting...");
+                                async.eachSeries( files.games, function( entry, callback){
 
-                            }, function(err){
-                                if(!err) console.log('Table player game statistic filled');
-                                return callback(err);
-                            });
-                        });
-                    },
+                                    entry.duration = (getGameStatByGameID(files.gamesStats, entry.id)).minutes;
+                                    connection.query(
+                                        "INSERT INTO `bi-m2`.`game` (`id`, `team_home_id`, `team_away_id`, `away_points`, `home_points`, `duration`, `date`, `affluence` ) "+
+                                        "VALUES ('"+entry.id+"', "+mysql.escape(entry.hometeam)+", "+mysql.escape(entry.awayTeam)+", '"+entry.awayscore+"', '"+entry.homescore+"', '"+entry.duration+"', '"+moment( new Date(entry.date)).format('YYYY-MM-DD')+"', '"+getAffluenceByGameID(files.affluences, entry.id)+"')",
+                                        function(err, rows) {
+                                            return callback(err, true);
+                                        }
+                                    );
 
-                    function fillTableGame(callback){
+                                }, function(err){
+                                    if(!err) console.log('Table game filled');
+                                    return callback(err);
+                                });
+                            },
 
-                        // Load games
-                        var entries = [];
-                        fastCsv.fromPath( extractedPath + "/games.csv", {headers: ["id","date","hometeam","homescore","awayTeam","awayscore"]})
-                            .on("data", function(data){
-                                if(data.id == 'id') return; // header
-                                entries.push(data);
-                            })
-                            .on("end", function(){
-                                console.log("All games loaded from csv");
+                            function fillTableTeamsPlayers(callback){
 
-                                // Load affluence
-                                var affluences = [];
-                                fastCsv.fromPath( extractedPath + "/affluence.csv", {headers: ["idGame","affluence"]})
-                                    .on("data", function(data){
-                                        if(data.idGame == 'idGame') return; // header
-                                        affluences.push(data);
-                                    })
-                                    .on("end", function(){
+                                console.log("Team teams players inserting...");
 
+                                async.eachSeries( files.playersTeams, function( entry, callback){
 
-                                        console.log("Games inserting...");
-                                        async.eachSeries( entries, function( entry, callback){
-
-                                            connection.query(
-                                                    "INSERT INTO `bi-m2`.`game` (`id`, `team_home_id`, `team_away_id`, `away_points`, `home_points`, `duration`, `date`, `affluence` ) "+
-                                                    "VALUES ('"+entry.id+"', "+mysql.escape(entry.hometeam)+", "+mysql.escape(entry.awayTeam)+", '"+entry.awayscore+"', '"+entry.homescore+"', '', '"+moment( new Date(entry.date)).format('YYYY-MM-DD')+"', '"+getAffluenceByGameID(affluences, entry.id)+"')",
-                                                function(err, rows) {
-                                                    return callback(err, true);
-                                                }
-                                            );
-
-                                        }, function(err){
-                                            if(!err) console.log('Table game filled');
+                                    // @todo season
+                                    connection.query(
+                                        "INSERT INTO `bi-m2`.`team_player` (`date_start`, `date_end`, `season`, `player_id`, `team_id`) " +
+                                        "VALUES ('"+entry.from+"', '"+entry.to+"', '"+null+"', '"+entry.Player+"', '"+entry.team+"')",
+                                        function(err, rows) {
                                             return callback(err);
                                         });
-                                    });
-                            });
-                    }
 
+                                }, function(err){
+                                    if(!err) console.log('Table teams players filled');
+                                    return callback(err);
+                                });
 
-                ],
-                function(err){
-                    return callback(err);
-                });
+                            },
+
+                            function fillTableInjuries(callback){
+
+                                console.log("Team injuries inserting...");
+
+                                async.eachSeries( files.injuries, function( entry, callback){
+
+                                    // @todo status missing
+                                    connection.query(
+                                        "INSERT INTO `bi-m2`.`injury` (`start_date`, `update_date`, `player_id`) " +
+                                        "VALUES ('"+entry.from+"', '"+entry.to+"', "+mysql.escape(entry.player)+")",
+                                        function(err, rows) {
+                                            return callback(err);
+                                        }
+                                    );
+
+                                }, function(err){
+                                    if(!err) console.log('Table injuries filled');
+                                    return callback(err);
+                                });
+
+                            }
+
+                        ],
+                        function(err){
+                            return callback(err);
+                        });
+                },
+
+            ], function (err, result) {
+                return callback(err);
+            });
         },
-
 
     ],
     function(err, results) {
         console.timeEnd('[Information] Script executed in');
         if(err){
-            console.error('Error in main program: ' + err.stack);
+            if(err.code === 'ECONNREFUSED'){
+                console.error('Error in main program: Please verify that mysql is running');
+            }
+            else{
+                console.error('Error in main program: ' + err.stack);
+            }
         }
         // results is now equal to: {one: 1, two: 2}
 

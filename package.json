@@ -3,9 +3,6 @@
   "version": "0.0.0",
   "description": "",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://gitlab.unreachable.me/miage/m2-bi-scrapper.git"
@@ -18,6 +15,7 @@
     "lodash": "^2.4.1",
     "moment": "^2.8.4",
     "mysql": "^2.5.3",
-    "request": "^2.48.0"
+    "request": "^2.48.0",
+    "fast-csv": "^0.5.4"
   }
 }
