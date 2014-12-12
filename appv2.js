@@ -607,7 +607,7 @@ async.waterfall([
         },
 
     ],
-    function(err, results) {
+function(err, results) {
         console.timeEnd('[Information] Script executed in');
         if(err){
             if(err.code === 'ECONNREFUSED'){
