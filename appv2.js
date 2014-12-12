@@ -236,6 +236,10 @@ async.waterfall([
 
                     async.parallel([
 
+                        /**
+                         * @todo attention on part du principe qu'il n'ya que les coaches de cleveland
+                         * @param callback
+                         */
                         function loadCoaches(callback){
 
                             var entries = [];
@@ -243,6 +247,7 @@ async.waterfall([
                                 .on("data", function(data){
                                     if(data.name == 'name') return; // header
                                     data.experience = moment( moment([data.datefin]) ).diff(moment([data.datedeb]), 'years');
+                                    data.team = teamName;
                                     entries.push(data);
                                 })
                                 .on("end", function(){
@@ -421,17 +426,17 @@ async.waterfall([
                                             });
 
                                     }, function(err){
-                                        if(!err) console.log('Table coache filled');
+                                        if(!err) console.log('Table coaches filled');
 
-                                        /*
                                          // Add table team_coach
                                          async.eachSeries( entries, function( entry, callback){
 
-                                         connection.query(
-                                         "INSERT INTO `bi-m2`.`team_coatch` (`coatch_id`, `team_id`, `start_date`, `end_date`, `season` ) " +
-                                         "VALUES ("+mysql.escape(entry.Coach)+", "+mysql.escape(clevelandID)+", '"+moment( new Date(entry.From)).format('YYYY-MM-DD')+"', '"+moment( new Date(entry.To)).format('YYYY-MM-DD')+"', '"+null+"')", function(err, rows) {
-                                         return callback(err);
-                                         });
+                                             // @todo season ?
+                                             connection.query(
+                                                "INSERT INTO `bi-m2`.`team_coatch` (`coatch_id`, `team_id`, `start_date`, `end_date`) " +
+                                                "VALUES ("+mysql.escape(entry.name)+", "+mysql.escape(entry.team)+", '"+moment( new Date(entry.datedeb)).format('YYYY-MM-DD')+"', '"+moment( new Date(entry.datefin)).format('YYYY-MM-DD')+"')", function(err, rows) {
+                                                return callback(err);
+                                             });
 
                                          }, function(err){
                                          if(!err) console.log('Table team_coach filled');
@@ -440,8 +445,6 @@ async.waterfall([
 
                                          return callback(err);
                                          });
-                                         */
-                                        return callback();
                                     });
                             },
 
